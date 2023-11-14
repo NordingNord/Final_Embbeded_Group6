@@ -1,0 +1,26 @@
+<VitisHLS:BurstInfo>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_axi_sdata.h:303:21" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by getelementptr" ID="bb15.store.4" VarName="tmp.i"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_axi_sdata.h:303:21" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by getelementptr" ID="bb12.store.14" VarName="tmp.i19"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="Image_Test.cpp:43:7" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by getelementptr" ID="bb1.load.9" VarName="ref.tmp"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="CouldNotAnalyzeBoundsPatternMissed" src_info="Image_Test.cpp:41:19" msg_id="214-252" msg_severity="INFO" msg_body="Cannot analyze the loop bounds of 'VITIS_LOOP_41_1'" resolution="214-252"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="CouldNotAnalyzeBoundsPatternMissed" src_info="" msg_id="214-252" msg_severity="INFO" msg_body="Cannot analyze the loop bounds of 'anonymous'" resolution="214-252"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="CouldNotAnalyzeBoundsPatternMissed" src_info="" msg_id="214-252" msg_severity="INFO" msg_body="Cannot analyze the loop bounds of 'anonymous'" resolution="214-252"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="CouldNotAnalyzeBoundsPatternMissed" src_info="" msg_id="214-252" msg_severity="INFO" msg_body="Cannot analyze the loop bounds of 'anonymous'" resolution="214-252"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="CouldNotAnalyzeBoundsPatternMissed" src_info="" msg_id="214-252" msg_severity="INFO" msg_body="Cannot analyze the loop bounds of 'anonymous'" resolution="214-252"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="CouldNotAnalyzeBoundsPatternMissed" src_info="" msg_id="214-252" msg_severity="INFO" msg_body="Cannot analyze the loop bounds of 'anonymous'" resolution="214-252"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="CouldNotAnalyzeBoundsPatternMissed" src_info="" msg_id="214-252" msg_severity="INFO" msg_body="Cannot analyze the loop bounds of 'anonymous'" resolution="214-252"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="CouldNotAnalyzeBoundsPatternMissed" src_info="" msg_id="214-252" msg_severity="INFO" msg_body="Cannot analyze the loop bounds of 'anonymous'" resolution="214-252"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="CouldNotAnalyzeBoundsPatternMissed" src_info="" msg_id="214-252" msg_severity="INFO" msg_body="Cannot analyze the loop bounds of 'anonymous'" resolution="214-252"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="CouldNotAnalyzeBoundsPatternMissed" src_info="" msg_id="214-252" msg_severity="INFO" msg_body="Cannot analyze the loop bounds of 'anonymous'" resolution="214-252"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="CouldNotAnalyzeBoundsPatternMissed" src_info="" msg_id="214-252" msg_severity="INFO" msg_body="Cannot analyze the loop bounds of 'anonymous'" resolution="214-252"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="CouldNotAnalyzeBoundsPatternMissed" src_info="" msg_id="214-252" msg_severity="INFO" msg_body="Cannot analyze the loop bounds of 'anonymous'" resolution="214-252"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="CouldNotAnalyzeBoundsPatternMissed" src_info="" msg_id="214-252" msg_severity="INFO" msg_body="Cannot analyze the loop bounds of 'anonymous'" resolution="214-252"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="CouldNotAnalyzeBoundsPatternMissed" src_info="" msg_id="214-252" msg_severity="INFO" msg_body="Cannot analyze the loop bounds of 'anonymous'" resolution="214-252"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="CouldNotAnalyzeBoundsPatternMissed" src_info="" msg_id="214-252" msg_severity="INFO" msg_body="Cannot analyze the loop bounds of 'anonymous'" resolution="214-252"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="CouldNotAnalyzeBoundsPatternMissed" src_info="" msg_id="214-252" msg_severity="INFO" msg_body="Cannot analyze the loop bounds of 'anonymous'" resolution="214-252"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="CouldNotAnalyzeBoundsPatternMissed" src_info="" msg_id="214-252" msg_severity="INFO" msg_body="Cannot analyze the loop bounds of 'anonymous'" resolution="214-252"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="CouldNotAnalyzeBoundsPatternMissed" src_info="" msg_id="214-252" msg_severity="INFO" msg_body="Cannot analyze the loop bounds of 'anonymous'" resolution="214-252"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="CouldNotAnalyzeBoundsPatternMissed" src_info="" msg_id="214-252" msg_severity="INFO" msg_body="Cannot analyze the loop bounds of 'anonymous'" resolution="214-252"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="CouldNotAnalyzeBoundsPatternMissed" src_info="" msg_id="214-252" msg_severity="INFO" msg_body="Cannot analyze the loop bounds of 'anonymous'" resolution="214-252"/>
+</VitisHLS:BurstInfo>
+

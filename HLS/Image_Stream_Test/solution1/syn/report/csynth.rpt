@@ -1,0 +1,25 @@
+
+
+================================================================
+== Synthesis Summary Report of 'Invert'
+================================================================
++ General Information: 
+    * Date:           Sun Nov  5 13:33:53 2023
+    * Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)
+    * Project:        Image_Stream_Test
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: zynquplus
+    * Target device:  xczu3eg-sbva484-1-e
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +--------------------+------+-------+---------+--------+----------+---------+------+----------+------+----------+-----------+-------------+-----+
+    |       Modules      | Issue|       | Latency | Latency| Iteration|         | Trip |          |      |          |           |             |     |
+    |       & Loops      | Type | Slack | (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined| BRAM |    DSP   |     FF    |     LUT     | URAM|
+    +--------------------+------+-------+---------+--------+----------+---------+------+----------+------+----------+-----------+-------------+-----+
+    |+ Invert            |     -|  -0.20|        -|       -|         -|        -|     -|        no|     -|  84 (23%)|  6489 (4%)|  10962 (15%)|    -|
+    | o VITIS_LOOP_41_1  |     -|  -7.30|        -|       -|        29|        1|     -|       yes|     -|         -|          -|            -|    -|
+    +--------------------+------+-------+---------+--------+----------+---------+------+----------+------+----------+-----------+-------------+-----+
+
