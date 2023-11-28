@@ -28,44 +28,69 @@ def main():
 
 	## Load MNIST dataset
 	print("Loading dataset")
-	#load_start = time.time()
-	train_images = []
-	train_labels = []
-	test_images = []
-	test_labels = []
+	load_start = time.time()
+	train_read_folder = dataset_dir + '/MNIST_JPG_training/'
+	test_read_folder = dataset_dir + '/MNIST_JPG_testing/'
+	num_train_files = sum([len(files) for r, d, files in os.walk(train_read_folder)])
+	num_test_files = sum([len(files) for r, d, files in os.walk(test_read_folder)])
 
-	dims = (100,100) # dimensions of images to train/test with
+	dims = (300,300) # dimensions of images to train/test with
+	train_images = np.zeros((num_train_files, dims[0], dims[1]), dtype=np.float32)
+	train_labels = np.zeros(num_train_files, dtype=np.uint8)
+	test_images = np.zeros((num_test_files, dims[0], dims[1]), dtype=np.float32)
+	test_labels = np.zeros(num_test_files, dtype=np.uint8)
 
 	for j in range(2): # train and test	
+		index = 0
 		for i in range(10): # 0 to 9
 			if j == 0:
-				read_folder = dataset_dir + '/MNIST_JPG_training/' + str(i) + '/'
+				read_folder = train_read_folder + str(i) + '/'
+				print("Trainining data for", i)
 			if j == 1:
-				read_folder = dataset_dir + '/MNIST_JPG_testing/' + str(i) + '/'
+				read_folder = test_read_folder + str(i) + '/'
+				print("Testing data for", i)
 			for filename in os.listdir(read_folder):
 				img = cv2.imread(os.path.join(read_folder,filename),0) # read img as grayscale
 				img = cv2.resize(img, dims, interpolation = cv2.INTER_AREA)	# resize img to fit dims
+				# print(len(img.flatten()))
 				if img is not None:
+					# img_arr = np.asarray(img.flatten() / 255).astype('float32').flatten()
+					# print("index:", index, "img.flatten():", img.flatten(), "len(img.flatten())", len(img.flatten()))
 					if j == 0:
-						train_images.append(img / 255) # normalize pixel vals to be between 0 - 1
-						train_labels.append(i)
+						train_images[index] = img / 255
+						train_labels[index] = i
 					if j == 1:
-						test_images.append(img / 255)
-						test_labels.append(i)
-	input("after load")
+						test_images[index] = img / 255
+						test_labels[index] = i
+					index += 1
+					# print("len(train_images)", len(train_images), "len(train_labels)", len(train_labels))
+	load_end = time.time()
+	print("Load took: ", round(load_end - load_start), "s")
+		
 	## Convert to numpy arrays, flatten images - change dimensions from Nx10x10 to Nx100
-	train_images = np.asarray(train_images).astype('float32')
-	test_images = np.asarray(test_images).astype('float32')
-	train_labels = np.asarray(train_labels).astype('uint8')
-	test_labels = np.asarray(test_labels).astype('uint8')
-	input("after np convert")
+	print("Preparing data")
+	prepare_data_start = time.time()
+	# train_images = np.asarray(train_images).astype('float32')
+	# train_labels = np.asarray(train_labels).astype('uint8')
+	# test_images = np.asarray(test_images).astype('float32')
+	# test_labels = np.asarray(test_labels).astype('uint8')
+	print("Size of arrays:")
+	print("train_images: ", train_images.shape)
+	print("train_labels: ", train_labels.shape)
+	print("test_images: ", test_images.shape)
+	print("test_labels: ", test_labels.shape)
+
 	## Shuffle dataset
 	train_images, train_labels = shuffle(train_images, train_labels)
 	test_images, test_labels = shuffle(test_images, test_labels)
 
-	#print("Load time: ", round(time.time() - load_start), "s")
+	prepare_data_end = time.time()
+	print("Preparing data took: ", round(prepare_data_end - prepare_data_start), "s")
+
 
 	## Define network structure
+	print("Defining neural network")
+	define_network_start = time.time()
 	model = Sequential([
 		Flatten(input_shape=dims),		# reshape 10x10 to 100, layer 0
 		Dense(32, activation='relu', use_bias=False),	# dense layer 1
@@ -76,12 +101,18 @@ def main():
 	model.compile(optimizer='adam',
 				  loss='sparse_categorical_crossentropy',
 				  metrics=['accuracy'])
-
+	
+	define_network_end = time.time()
+	print("Defining neural network took: ", round(define_network_end - define_network_start), "s")
 
 	## Train network  
+	print("Training neural network")
+	train_start = time.time()
 	model.fit(train_images, train_labels, epochs=50, batch_size=2000, validation_split = 0.1)
 
 	model.summary()
+	train_end = time.time()
+	print("Training neural network took: ", round(train_end - train_start), "s")
 
 	start_t = time.time()
 	results = model.evaluate(test_images, test_labels, verbose=0)
@@ -180,7 +211,7 @@ def main():
 		print("failure")
 
 	print("Finished")
-	keras.utils.plot_model(model, "my_first_model.png", show_shapes=True, show_dtype=True, show_layer_activations=True)
+	# keras.utils.plot_model(model, "my_first_model.png", show_shapes=True, show_dtype=True, show_layer_activations=True)
 
 	## Retrieve network weights after training. Skip layer 0 (input layer)
 	weight_start = time.time()
@@ -206,8 +237,13 @@ def main():
 	#print(network_weights)
 	layer_1_W = network_weights[0].numpy()
 	#print(layer_1_W)
-	print("Weight time: ", round(time.time() - weight_start), "s")
+	weight_end = time.time()
 	print("Total time: ", round(time.time() - open_time), "s")
+	print("Load took: ", round(load_end - load_start), "s")
+	print("Preparing data took: ", round(prepare_data_end - prepare_data_start), "s")
+	print("Defining neural network took: ", round(define_network_end - define_network_start), "s")
+	print("Training neural network took: ", round(train_end - train_start), "s")
+	print("Exporting weights took: ", round(weight_end - weight_start), "s")
 	
 	
 	

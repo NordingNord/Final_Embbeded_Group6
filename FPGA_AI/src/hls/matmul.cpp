@@ -112,7 +112,7 @@ void hw_act_layer3(ap_fixed<32,24> input[1][n_layer3], ap_fixed<32,24> &pred){
 			max_idx = (ap_fixed<32,24>)i;
 			max_val = input[0][i];
 		}
-		printf("%d",input[0][i]);
+		//printf("%d",input[0][i]);
 	}
 	pred = max_idx;
 	return;
