@@ -34,10 +34,10 @@ def main():
 	num_train_files = sum([len(files) for r, d, files in os.walk(train_read_folder)])
 	num_test_files = sum([len(files) for r, d, files in os.walk(test_read_folder)])
 
-	dims = (300,300) # dimensions of images to train/test with
-	train_images = np.zeros((num_train_files, dims[0], dims[1]), dtype=np.float32)
+	dims = (100,100) # dimensions of images to train/test with
+	train_images = np.zeros((num_train_files, dims[1], dims[0]), dtype=np.float32)
 	train_labels = np.zeros(num_train_files, dtype=np.uint8)
-	test_images = np.zeros((num_test_files, dims[0], dims[1]), dtype=np.float32)
+	test_images = np.zeros((num_test_files, dims[1], dims[0]), dtype=np.float32)
 	test_labels = np.zeros(num_test_files, dtype=np.uint8)
 
 	for j in range(2): # train and test	
@@ -92,7 +92,7 @@ def main():
 	print("Defining neural network")
 	define_network_start = time.time()
 	model = Sequential([
-		Flatten(input_shape=dims),		# reshape 10x10 to 100, layer 0
+		Flatten(input_shape=(dims[1],dims[0])),		# reshape 10x10 to 100, layer 0
 		Dense(32, activation='relu', use_bias=False),	# dense layer 1
 		Dense(16, activation='relu', use_bias=False),	# dense layer 2
 		Dense(10, activation='softmax', use_bias=False),	# dense layer 3
@@ -108,7 +108,7 @@ def main():
 	## Train network  
 	print("Training neural network")
 	train_start = time.time()
-	model.fit(train_images, train_labels, epochs=50, batch_size=2000, validation_split = 0.1)
+	model.fit(train_images, train_labels, epochs=1, batch_size=2000, validation_split = 0.1)
 
 	model.summary()
 	train_end = time.time()
@@ -126,32 +126,31 @@ def main():
 	#print(model.layers[2].weights[0].numpy().shape)
 	#print(model.layers[3].weights[0].numpy().shape)
 	
-	img_filename = "img_pixel_vals" + str(test_labels[0]) + ".txt" 
+	img_filename = "img_pixel_vals.hpp" 
 	open(img_filename, 'w').close() # clear file
+
+	images_to_export = 1
 	file = open(img_filename,"a") 
-	file.write('{')
+	# file.write('#include "matmul.hpp"\n\n')
+	# imgStr = "int num_images = " + str(images_to_export) + "; \n\n"
+	# file.write(imgStr)
+	imgStr = "float img_pixels[" + str(len(model.layers[1].weights[0].numpy())) + "] = {"
+	file.write(imgStr)
 	for i in range(dims[1]):
 		for j in range(dims[0]):
 			file.write(str(test_images[0][i][j]))
-			if j != dims[1]-1:
+			if j != dims[0]-1:
 				file.write(', ')
-		if i != dims[0]-1:
-			file.write(', \n')
-	file.write('}')
-	file.close()
-	
-	img_filename = "img_pixel_vals" + str(test_labels[1]) + ".txt" 
-	open(img_filename, 'w').close() # clear file
-	file = open(img_filename,"a") 
-	file.write('{')
-	for i in range(dims[1]):
-		for j in range(dims[0]):
-			file.write(str(test_images[1][i][j]))
-			if j != dims[1]-1:
-				file.write(', ')
-		if i != dims[0]-1:
-			file.write(', \n')
-	file.write('}')
+		if i != dims[1]-1:
+			file.write(', ')
+	file.write('}; \n\n')
+	file.write("int img_characters[" + str(images_to_export) + "] = {")
+	for i in range(images_to_export):
+		imgStr = str(test_labels[i])
+		file.write(imgStr)
+		if i != images_to_export-1:
+			file.write(', ')
+	file.write("};")
 	file.close()
 
 
@@ -213,12 +212,34 @@ def main():
 	print("Finished")
 	# keras.utils.plot_model(model, "my_first_model.png", show_shapes=True, show_dtype=True, show_layer_activations=True)
 
-	## Retrieve network weights after training. Skip layer 0 (input layer)
-	weight_start = time.time()
+	## Define network information
+	info_start = time.time()
+	weight_filename = "layer_info.hpp" 
+	open(weight_filename, 'w').close() # clear file
+	file = open(weight_filename,"a") 
+
+	## Define layers sizes
+	for w in range(len(model.layers)):
+		##define n_inputs 300*300
+		##define n_layer1 32
+		##define n_layer2 16
+		##define n_layer3 10
+		if w == 0:
+			varName = "#define n_inputs " + str(len(model.layers[1].weights[0].numpy()))
+			print("layer: ", w, " size: ", len(model.layers[1].weights[0].numpy()))
+		else:
+			varName = "#define n_layer" + str(w) + " " + str(len(model.layers[w].weights[0].numpy()[0]))
+			print("layer: ", w, " size: ", str(len(model.layers[w].weights[0].numpy()[0])))
+		file.write(varName)
+		file.write('\n\n')
+
+	## Define network weights after training. Skip layer 0 (input layer)
 	for w in range(1, len(model.layers)):
-		weight_filename = "layer_" + str(w) + "_weights.txt" 
-		open(weight_filename, 'w').close() # clear file
-		file = open(weight_filename,"a") 
+		if w == 1:
+			varName = "#define layer1 const ap_fixed<32,24> layer1_weights[n_inputs][n_layer1]"
+		else:
+			varName = "#define layer" + str(w) + " const ap_fixed<32,24> layer" + str(w) + "_weights[n_layer" + str(w-1) + "][n_layer" + str(w) + "]"
+		file.write(varName + " = ")
 		file.write('{')
 		weights = model.layers[w].weights[0].numpy()
 		for i in range(weights.shape[0]):
@@ -229,21 +250,19 @@ def main():
 					file.write(', ')
 			file.write('}')
 			if i != weights.shape[0]-1:
-				file.write(', \n')
-		file.write('}')
-		file.close()
+				file.write(', ')
+		file.write('};\n\n')
+	
+	file.close()
 
-	network_weights = model.layers[1].weights
-	#print(network_weights)
-	layer_1_W = network_weights[0].numpy()
-	#print(layer_1_W)
-	weight_end = time.time()
+
+	info_end = time.time()
 	print("Total time: ", round(time.time() - open_time), "s")
 	print("Load took: ", round(load_end - load_start), "s")
 	print("Preparing data took: ", round(prepare_data_end - prepare_data_start), "s")
 	print("Defining neural network took: ", round(define_network_end - define_network_start), "s")
 	print("Training neural network took: ", round(train_end - train_start), "s")
-	print("Exporting weights took: ", round(weight_end - weight_start), "s")
+	print("Exporting info took: ", round(info_end - info_start), "s")
 	
 	
 	
