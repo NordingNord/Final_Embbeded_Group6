@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.csv": "cpp",
+        "xstring": "cpp"
+    }
+}

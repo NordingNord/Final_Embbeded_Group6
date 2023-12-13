@@ -1,0 +1,1 @@
+int img_characters[1] = {1};

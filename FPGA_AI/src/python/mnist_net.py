@@ -126,24 +126,22 @@ def main():
 	#print(model.layers[2].weights[0].numpy().shape)
 	#print(model.layers[3].weights[0].numpy().shape)
 	
-	img_filename = "img_pixel_vals.hpp" 
-	open(img_filename, 'w').close() # clear file
-
+	## Export test images
 	images_to_export = 1
+	# Pixel values in csv file
+	img_filename = "src\hls\img_pixel_vals.csv" 
+	open(img_filename, 'w').close() # clear file
 	file = open(img_filename,"a") 
-	# file.write('#include "matmul.hpp"\n\n')
-	# imgStr = "int num_images = " + str(images_to_export) + "; \n\n"
-	# file.write(imgStr)
-	imgStr = "float img_pixels[" + str(len(model.layers[1].weights[0].numpy())) + "] = {"
-	file.write(imgStr)
+	imgStr = ""
 	for i in range(dims[1]):
 		for j in range(dims[0]):
 			file.write(str(test_images[0][i][j]))
-			if j != dims[0]-1:
-				file.write(', ')
-		if i != dims[1]-1:
-			file.write(', ')
-	file.write('}; \n\n')
+			file.write('\n')
+	file.close()
+	# Correct inference in h file
+	img_filename = "src\hls\img_identities.h" 
+	open(img_filename, 'w').close() # clear file
+	file = open(img_filename,"a") 
 	file.write("int img_characters[" + str(images_to_export) + "] = {")
 	for i in range(images_to_export):
 		imgStr = str(test_labels[i])
@@ -214,7 +212,7 @@ def main():
 
 	## Define network information
 	info_start = time.time()
-	weight_filename = "layer_info.hpp" 
+	weight_filename = "src\hls\layer_info.hpp" 
 	open(weight_filename, 'w').close() # clear file
 	file = open(weight_filename,"a") 
 
