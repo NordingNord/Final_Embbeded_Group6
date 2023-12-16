@@ -18,12 +18,29 @@ def main(args=None):
                 
 
     # create reader instance and open for reading
-    rosbagpath = input("Write path to rosbag:")
+    rosbagpath = input("Write path to rosbag(s):")
+    single = None
+    while(single != "s" and single != "m"):
+        single = input("Is this a single rosbag or multiple rosbags? (s/m)")
+        if single == "s":
+            part_here = input("Where should the bag name be shortened? (press enter to ignore)")
+            extract_images(rosbagpath, part_here)
+        elif single =="m":
+            part_here = input("Where should the bag names be shortened? (press enter to ignore)")
+            for subdir, dirs, files in os.walk(rosbagpath):
+                for index, dir in enumerate(dirs):
+                    single_bag_path = os.path.join(subdir, dir)
+                    print(index + 1, "/", len(dirs), dir)
+                    extract_images(single_bag_path, part_here)
+        else:
+            print("Wrong input try again!")
     # rosbagpath = "/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/getimages/images/cross"
-    with AnyReader([Path(rosbagpath)]) as reader:
+    print("Done!")
+
+def extract_images(path_to_rosbag, partor = ""):
+    with AnyReader([Path(path_to_rosbag)]) as reader:
 
         connections = [x for x in reader.connections if x.topic == '/image_raw']
-        print(connections)
         for connection, timestamp, rawdata in reader.messages(connections=connections):
             msg = reader.deserialize(rawdata, connection.msgtype)
             timestamp_dt = datetime.fromtimestamp(msg.header.stamp.sec + msg.header.stamp.nanosec * 1e-9)
@@ -37,11 +54,12 @@ def main(args=None):
             rgb_image_name = str(numeric_timestamp)[:20] + '.png'
             image = Image.fromarray(color_image_data)
             image_path = 'imgs/'
-            bag_image_path = image_path + os.path.basename(os.path.normpath(rosbagpath)) + "/"
+            if partor == "":
+                bag_image_path = image_path + os.path.basename(os.path.normpath(path_to_rosbag)) + "/"
+            else:   
+                bag_image_path = image_path + os.path.basename(os.path.normpath(path_to_rosbag)).partition(partor)[0] + "/"
             if not os.path.isdir(image_path):
                 os.mkdir(image_path)
             if not os.path.isdir(bag_image_path):
                 os.mkdir(bag_image_path)
             image.save(bag_image_path + rgb_image_name)
-
-    print("Done!")
