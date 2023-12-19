@@ -56,6 +56,29 @@ int main()
         }
     }
 
+	
+
+	printf("Expected result:\n");
+	int expectedResult[3][2][3] = {81389,-608676,87474,102052,106131,102336,
+									36,299,34,60,273,129,
+									261,320,108,297,306,165};
+	bool same = true;
+	for (int i = 0; i < 3; i++)
+	{
+		printf("{");
+		for (int ii = 0; ii < 2; ii++)
+		{
+			printf("	{");
+			for (int iii = 0; iii < 3; iii++)
+			{
+				printf("%d, ", expectedResult[i][ii][iii]);
+			}
+			printf("	}\n");
+		}
+		printf("}\n");
+	}
+	
+	printf("Computed result:\n");
 	for (int i = 0; i < kernel_dims[0]; i++)
 	{
 		printf("{");
@@ -64,14 +87,18 @@ int main()
 			printf("	{");
 			for (int iii = 0; iii < result_cols; iii++)
 			{
-				printf("%d, ", result[i][ii][iii]);
+				if (expectedResult[i][ii][iii] != result[i][ii][iii])
+				{
+					printf("%d (wrong),", result[i][ii][iii]);
+				}
+				else {
+					printf("%d, ", result[i][ii][iii]);
+				}
 			}
 			printf("	}\n");
 		}
 		printf("}\n");
 	}
-	
-	
 
     // // Works for even kernel size
     // for (int i = (int)(kernel_dims[0]/2); i < a_dims[0] - kernel_dims[0]%2; i++)
