@@ -50,9 +50,15 @@ def extract_images(path_to_rosbag, partor = ""):
             
             w, h = msg.width, msg.height
         
+            # print("encoding", msg.encoding)
             color_image_data = np.reshape(msg.data, (h, w, 3)) # for rgb image
+            gray_image_data = np.mean(color_image_data, axis=2)
+            gray_image_data = np.reshape(gray_image_data, (h, w)) # for rgb image
+            # print("len:", len(gray_image_data[0]), "data:", gray_image_data[0])
             rgb_image_name = str(numeric_timestamp)[:20] + '.png'
-            image = Image.fromarray(color_image_data)
+            image = Image.fromarray(gray_image_data)
+            image = image.convert("L")
+            image = image.crop((w/2-30,h/2-30,w/2+30,h/2+30))
             image_path = 'imgs/'
             if partor == "":
                 bag_image_path = image_path + os.path.basename(os.path.normpath(path_to_rosbag)) + "/"
