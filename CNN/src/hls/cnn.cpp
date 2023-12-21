@@ -4,7 +4,6 @@
 #include "testImage.hpp"
 
 enum DEBUG {NONE, LIGHT, ALL};
-enum PADDING {VALID, SAME};
 
 void set3DFloatArray(const int array_dims[3], float* array, float value)
 {
@@ -43,9 +42,11 @@ void rescale(const int input_dims[3], int* input, float* output)
     }    
 }
 
+/*
+*   This assumes kernel is 3x3, stride is (1,1), and padding is valid
+*/
 void conv2d(const int input_dims[3], float* input, 
             const int weight_dims[4], const float* weights,
-            const int strides[2], const PADDING padding,
             const int bias_dims[1], const float* bias,
             const int output_dims[3], float* output,
             const DEBUG debug)
@@ -140,47 +141,50 @@ void conv2d(const int input_dims[3], float* input,
             }
         }
         printf("}\n");
-        
-        // Strides
-        printf("strides (2):\n{%d, %d}\n", strides[0], strides[1]);
-
-        // Padding
-        printf("Padding: %s\n", padding == PADDING::SAME ? "Same" : "Valid");
     }
     
     // Convolution
-    // Get space in input to be convoluted
-    int row_start = 0;
-    int col_start = 0;
-    int row_end = input_dims[0];
-    int col_end = input_dims[1];
-    if (padding == PADDING::VALID)
-    {
-        row_start = weight_dims[0]/2;
-        col_start = weight_dims[1]/2;
-        row_end = input_dims[0] - weight_dims[0]/2 - (weight_dims[0]%2 == 0 ? 1 : 0);
-        col_end = input_dims[1] - weight_dims[1]/2 + (weight_dims[1]%2 == 0 ? 1 : 0);
-    }
-
     int expected_turns = output_dims[0]*output_dims[1]*output_dims[2]*weight_dims[0]*weight_dims[1]*weight_dims[2];
     int turns = 0;
     int rows = 0;
     int cols = 0;
+    int kernel_nums = 0;
 
     // Input rows
-    for (int i = row_start; i < row_end; i += strides[0])
+    for (int i = 1; i < input_dims[0] - 1; i++)
     {
         rows++;
         cols = 0;
-        // printf("######### Runs outer ###########\n");
         // Input columns
-        for (int ii = col_start; ii < col_end; ii += strides[1])
+        for (int ii = 1; ii < input_dims[1] - 1; ii++)
         {
             cols++;
-            
-            output[(i-row_start)*output_dims[1]*output_dims[2] + (ii-col_start)*output_dims[2]] = 1;
+            kernel_nums = 0;
+            // Kernel number
+            for (int iii = 0; iii < weight_dims[3]; iii++)
+            {
+                kernel_nums++;
+                // Input and kernel channels
+                for (int iv = 0; iv < input_dims[2]; iv++)
+                {
+                    // Kernel rows
+                    for (int v = -1; v < 2; v++)
+                    {
+                        // Kernel cols
+                        for (int vi = -1; vi < 2; vi++)
+                        {
+                            turns++;
+                            // printf("input[%d][%d][%d], output[%d][%d][%d]\n", i+v, ii+vi, iv, i-1, ii-1, iii);
+                            output[(i - 1)*output_dims[1]*output_dims[2] + (ii - 1)*output_dims[2] + iii] += 
+                                input[(i + v)*input_dims[1]*input_dims[2] + (ii + vi)*input_dims[2] + iv] *
+                                weights[(v + 1)*weight_dims[1]*weight_dims[2]*weight_dims[3] + (vi + 1)*weight_dims[2]*weight_dims[3] + iv*weight_dims[3] + iii];
+                        }
+                        
+                    }
+                }
+                output[(i - 1)*output_dims[1]*output_dims[2] + (ii - 1)*output_dims[2] + iii] += bias[iii];
+            }
         }
-        
     }
     
     // Output
@@ -227,11 +231,19 @@ void conv2d(const int input_dims[3], float* input,
         printf("given input dimension (%d, %d, %d)\n", input_dims[0], input_dims[1], input_dims[2]);
         printf("weights (%d,%d,%d,%d)\n", weight_dims[0], weight_dims[1], weight_dims[2], weight_dims[3]);
         printf("biases (%d):\n", bias_dims[0]);
-        printf("strides (2):\n{%d, %d}\n", strides[0], strides[1]);
-        printf("Padding: %s\n", padding == PADDING::SAME ? "Same" : "Valid");
+        printf("{");
+        for (int i = 0; i < bias_dims[0]; i++)
+        {
+            printf("%f", bias[i]);
+            if (i < bias_dims[0]-1)
+            {
+                printf(", ");
+            }
+        }
+        printf("}\n");
         printf("given output dimension (%d, %d, %d)\n", output_dims[0], output_dims[1], output_dims[2]);
-        printf("result output dimension (%d, %d, %d)\n", rows, cols, 1);
-        printf("calculations (result, expected given output): (%d, %d) --%s\n", turns, expected_turns, turns == expected_turns ? "Correct" : "Wrong");
+        printf("result output dimension (%d, %d, %d)\n", rows, cols, kernel_nums);
+        printf("calculations (result, expected given output): (%d, %d) --%s\n\n", turns, expected_turns, turns == expected_turns ? "Correct" : "Wrong");
     }
 }
 
@@ -254,36 +266,33 @@ int main()
     float test_kernel[test_kernel_dims[0]*test_kernel_dims[1]*test_kernel_dims[2]*test_kernel_dims[3]] = {0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0};
 
     constexpr int test_kernel_bias_dims[1] = {test_kernel_dims[3]};
-    float test_kernel_bias[test_kernel_bias_dims[0]] = {0, 0};
-    constexpr int test_kernel_strides[2] = {2, 1};
+    float test_kernel_bias[test_kernel_bias_dims[0]] = {10, 0.5};
 
 
-    constexpr int output_dims[3] = {1,3,2};
+    constexpr int output_dims[3] = {2,3,2};
     float output[output_dims[0]*output_dims[1]*output_dims[2]];
     set3DFloatArray(output_dims, output, 0);
     
     conv2d(test_input_dims, test_input, 
             test_kernel_dims, test_kernel, 
-            test_kernel_strides, PADDING::VALID,
             test_kernel_bias_dims, test_kernel_bias, 
             output_dims, output,
             DEBUG::ALL);
     
-    // // Test using image
-    // float image_input[model_input_dims[0]*model_input_dims[1]*model_input_dims[2]];
+    // Test using image
+    float image_input[model_input_dims[0]*model_input_dims[1]*model_input_dims[2]];
 
-    // rescale(model_input_dims, square, image_input);
+    rescale(model_input_dims, square, image_input);
 
-    // float conv2d_output[conv2d_output_dims[0]*conv2d_output_dims[1]*conv2d_output_dims[2]];
+    float conv2d_output[conv2d_output_dims[0]*conv2d_output_dims[1]*conv2d_output_dims[2]];
 
-    // set3DFloatArray(conv2d_output_dims, conv2d_output, 0);
+    set3DFloatArray(conv2d_output_dims, conv2d_output, 0);
 
-    // conv2d(model_input_dims, image_input, 
-    //         conv2d_weights_dims, conv2d_weights, 
-    //         conv2d_strides, (PADDING)conv2d_padding,
-    //         conv2d_bias_dims, conv2d_bias, 
-    //         conv2d_output_dims, conv2d_output,
-    //         DEBUG::LIGHT);
+    conv2d(model_input_dims, image_input, 
+            conv2d_weights_dims, conv2d_weights, 
+            conv2d_bias_dims, conv2d_bias, 
+            conv2d_output_dims, conv2d_output,
+            DEBUG::LIGHT);
 
 
 
