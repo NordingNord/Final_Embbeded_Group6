@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="cnn.cpp" path="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/cnn.cpp"/>
+    <originFiles name="layerInfo.hpp" path="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/layerInfo.hpp"/>
+    <originFiles name="testImage.hpp" path="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/testImage.hpp"/>
+  </source>
+  <testbench>
+    <originFiles name="cnn_tb.cpp" path="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/cnn_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

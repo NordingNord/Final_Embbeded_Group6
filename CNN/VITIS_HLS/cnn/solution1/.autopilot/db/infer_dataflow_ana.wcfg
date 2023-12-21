@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="infer.wdb" id="1">
+         <top_modules>
+            <top_module name="apa_infer_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0ns"></ZoomStartTime>
+      <ZoomEndTime time="2000ns"></ZoomEndTime>
+      <Cursor1Time time="0ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="84"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject type="group" fp_name="HLS Process Summary Group">
+      <obj_property name="label">HLS Process Summary</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="group" fp_name="/apatb_infer_top/AESL_inst_infer//AESL_inst_infer_activity">
+         <obj_property name="label">AESL_inst_infer_activity</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="UseFullPath">true</obj_property>
+         <obj_property name="ElementShortName">AESL_inst_infer_activity</obj_property>
+         <obj_property name="ObjectShortName">AESL_inst_infer_activity</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+         <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">turquoise</obj_property>
+         <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+         <obj_property name="Render_Data">/apatb_infer_top/AESL_inst_infer//AESL_inst_infer_activity.dataflowTxWaveData.Cycles</obj_property>
+         <obj_property name="Value_Data">/apatb_infer_top/AESL_inst_infer//AESL_inst_infer_activity.dataflowTxWaveData.OutStanding</obj_property>
+         <obj_property name="Detail_Data">/apatb_infer_top/AESL_inst_infer//AESL_inst_infer_activity.dataflowTxTooltipData</obj_property>
+         <wvobject type="group" fp_name="/apatb_infer_top/AESL_inst_infer/grp_dense_relu_fu_670/grp_dense_relu_fu_670_activity">
+            <obj_property name="label">grp_dense_relu_fu_670_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_dense_relu_fu_670_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_dense_relu_fu_670_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_infer_top/AESL_inst_infer/grp_dense_relu_fu_670/grp_dense_relu_fu_670_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_infer_top/AESL_inst_infer/grp_dense_relu_fu_670/grp_dense_relu_fu_670_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_infer_top/AESL_inst_infer/grp_dense_relu_fu_670/grp_dense_relu_fu_670_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_infer_top/AESL_inst_infer/grp_conv2d_2_fu_685/grp_conv2d_2_fu_685_activity">
+            <obj_property name="label">grp_conv2d_2_fu_685_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_conv2d_2_fu_685_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_conv2d_2_fu_685_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_infer_top/AESL_inst_infer/grp_conv2d_2_fu_685/grp_conv2d_2_fu_685_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_infer_top/AESL_inst_infer/grp_conv2d_2_fu_685/grp_conv2d_2_fu_685_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_infer_top/AESL_inst_infer/grp_conv2d_2_fu_685/grp_conv2d_2_fu_685_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_infer_top/AESL_inst_infer/grp_conv2d_1_fu_695/grp_conv2d_1_fu_695_activity">
+            <obj_property name="label">grp_conv2d_1_fu_695_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_conv2d_1_fu_695_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_conv2d_1_fu_695_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_infer_top/AESL_inst_infer/grp_conv2d_1_fu_695/grp_conv2d_1_fu_695_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_infer_top/AESL_inst_infer/grp_conv2d_1_fu_695/grp_conv2d_1_fu_695_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_infer_top/AESL_inst_infer/grp_conv2d_1_fu_695/grp_conv2d_1_fu_695_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_infer_top/AESL_inst_infer/grp_conv2d_fu_705/grp_conv2d_fu_705_activity">
+            <obj_property name="label">grp_conv2d_fu_705_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_conv2d_fu_705_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_conv2d_fu_705_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_infer_top/AESL_inst_infer/grp_conv2d_fu_705/grp_conv2d_fu_705_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_infer_top/AESL_inst_infer/grp_conv2d_fu_705/grp_conv2d_fu_705_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_infer_top/AESL_inst_infer/grp_conv2d_fu_705/grp_conv2d_fu_705_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_2_fu_715/grp_max_pooling2d_2_fu_715_activity">
+            <obj_property name="label">grp_max_pooling2d_2_fu_715_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_max_pooling2d_2_fu_715_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_max_pooling2d_2_fu_715_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_2_fu_715/grp_max_pooling2d_2_fu_715_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_2_fu_715/grp_max_pooling2d_2_fu_715_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_2_fu_715/grp_max_pooling2d_2_fu_715_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_1_fu_721/grp_max_pooling2d_1_fu_721_activity">
+            <obj_property name="label">grp_max_pooling2d_1_fu_721_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_max_pooling2d_1_fu_721_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_max_pooling2d_1_fu_721_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_1_fu_721/grp_max_pooling2d_1_fu_721_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_1_fu_721/grp_max_pooling2d_1_fu_721_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_1_fu_721/grp_max_pooling2d_1_fu_721_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_fu_727/grp_max_pooling2d_fu_727_activity">
+            <obj_property name="label">grp_max_pooling2d_fu_727_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_max_pooling2d_fu_727_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_max_pooling2d_fu_727_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_fu_727/grp_max_pooling2d_fu_727_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_fu_727/grp_max_pooling2d_fu_727_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_fu_727/grp_max_pooling2d_fu_727_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_5_fu_733/grp_set3DFloatArray_5_fu_733_activity">
+            <obj_property name="label">grp_set3DFloatArray_5_fu_733_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_set3DFloatArray_5_fu_733_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_set3DFloatArray_5_fu_733_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_5_fu_733/grp_set3DFloatArray_5_fu_733_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_5_fu_733/grp_set3DFloatArray_5_fu_733_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_5_fu_733/grp_set3DFloatArray_5_fu_733_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_3_fu_738/grp_set3DFloatArray_3_fu_738_activity">
+            <obj_property name="label">grp_set3DFloatArray_3_fu_738_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_set3DFloatArray_3_fu_738_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_set3DFloatArray_3_fu_738_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_3_fu_738/grp_set3DFloatArray_3_fu_738_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_3_fu_738/grp_set3DFloatArray_3_fu_738_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_3_fu_738/grp_set3DFloatArray_3_fu_738_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_4_fu_743/grp_set3DFloatArray_4_fu_743_activity">
+            <obj_property name="label">grp_set3DFloatArray_4_fu_743_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_set3DFloatArray_4_fu_743_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_set3DFloatArray_4_fu_743_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_4_fu_743/grp_set3DFloatArray_4_fu_743_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_4_fu_743/grp_set3DFloatArray_4_fu_743_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_4_fu_743/grp_set3DFloatArray_4_fu_743_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_2_fu_748/grp_set3DFloatArray_2_fu_748_activity">
+            <obj_property name="label">grp_set3DFloatArray_2_fu_748_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_set3DFloatArray_2_fu_748_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_set3DFloatArray_2_fu_748_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_2_fu_748/grp_set3DFloatArray_2_fu_748_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_2_fu_748/grp_set3DFloatArray_2_fu_748_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_2_fu_748/grp_set3DFloatArray_2_fu_748_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_1_fu_753/grp_set3DFloatArray_1_fu_753_activity">
+            <obj_property name="label">grp_set3DFloatArray_1_fu_753_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_set3DFloatArray_1_fu_753_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_set3DFloatArray_1_fu_753_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_1_fu_753/grp_set3DFloatArray_1_fu_753_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_1_fu_753/grp_set3DFloatArray_1_fu_753_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_1_fu_753/grp_set3DFloatArray_1_fu_753_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_fu_758/grp_set3DFloatArray_fu_758_activity">
+            <obj_property name="label">grp_set3DFloatArray_fu_758_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_set3DFloatArray_fu_758_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_set3DFloatArray_fu_758_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_fu_758/grp_set3DFloatArray_fu_758_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_fu_758/grp_set3DFloatArray_fu_758_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_fu_758/grp_set3DFloatArray_fu_758_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="protoinst" fp_name="/apatb_infer_top/AESL_inst_infer//AESL_inst_infer_activity">
+      <obj_property name="ElementShortName">AESL_inst_infer_activity</obj_property>
+      <obj_property name="ObjectShortName">AESL_inst_infer_activity</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="AESL_inst_infer_group">
+      <obj_property name="label">AESL_inst_infer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="protoinst" fp_name="/apatb_infer_top/AESL_inst_infer/grp_dense_relu_fu_670/grp_dense_relu_fu_670_activity">
+         <obj_property name="ElementShortName">grp_dense_relu_fu_670_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_dense_relu_fu_670_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_infer_top/AESL_inst_infer/grp_conv2d_2_fu_685/grp_conv2d_2_fu_685_activity">
+         <obj_property name="ElementShortName">grp_conv2d_2_fu_685_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_conv2d_2_fu_685_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_infer_top/AESL_inst_infer/grp_conv2d_1_fu_695/grp_conv2d_1_fu_695_activity">
+         <obj_property name="ElementShortName">grp_conv2d_1_fu_695_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_conv2d_1_fu_695_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_infer_top/AESL_inst_infer/grp_conv2d_fu_705/grp_conv2d_fu_705_activity">
+         <obj_property name="ElementShortName">grp_conv2d_fu_705_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_conv2d_fu_705_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_2_fu_715/grp_max_pooling2d_2_fu_715_activity">
+         <obj_property name="ElementShortName">grp_max_pooling2d_2_fu_715_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_max_pooling2d_2_fu_715_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_1_fu_721/grp_max_pooling2d_1_fu_721_activity">
+         <obj_property name="ElementShortName">grp_max_pooling2d_1_fu_721_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_max_pooling2d_1_fu_721_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_fu_727/grp_max_pooling2d_fu_727_activity">
+         <obj_property name="ElementShortName">grp_max_pooling2d_fu_727_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_max_pooling2d_fu_727_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_5_fu_733/grp_set3DFloatArray_5_fu_733_activity">
+         <obj_property name="ElementShortName">grp_set3DFloatArray_5_fu_733_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_set3DFloatArray_5_fu_733_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_3_fu_738/grp_set3DFloatArray_3_fu_738_activity">
+         <obj_property name="ElementShortName">grp_set3DFloatArray_3_fu_738_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_set3DFloatArray_3_fu_738_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_4_fu_743/grp_set3DFloatArray_4_fu_743_activity">
+         <obj_property name="ElementShortName">grp_set3DFloatArray_4_fu_743_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_set3DFloatArray_4_fu_743_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_2_fu_748/grp_set3DFloatArray_2_fu_748_activity">
+         <obj_property name="ElementShortName">grp_set3DFloatArray_2_fu_748_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_set3DFloatArray_2_fu_748_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_1_fu_753/grp_set3DFloatArray_1_fu_753_activity">
+         <obj_property name="ElementShortName">grp_set3DFloatArray_1_fu_753_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_set3DFloatArray_1_fu_753_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_fu_758/grp_set3DFloatArray_fu_758_activity">
+         <obj_property name="ElementShortName">grp_set3DFloatArray_fu_758_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_set3DFloatArray_fu_758_activity</obj_property>
+      </wvobject>
+      <wvobject type="group" fp_name="AESL_inst_infer_Handshake_group">
+         <obj_property name="label">Block-level handshake</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/ap_start">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/ap_ready">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/ap_done">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_dense_relu_fu_670_group">
+         <obj_property name="label">grp_dense_relu_fu_670</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_dense_relu_fu_670_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_dense_relu_fu_670/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_dense_relu_fu_670/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_dense_relu_fu_670/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_conv2d_2_fu_685_group">
+         <obj_property name="label">grp_conv2d_2_fu_685</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_conv2d_2_fu_685_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_conv2d_2_fu_685/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_conv2d_2_fu_685/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_conv2d_2_fu_685/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_conv2d_1_fu_695_group">
+         <obj_property name="label">grp_conv2d_1_fu_695</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_conv2d_1_fu_695_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_conv2d_1_fu_695/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_conv2d_1_fu_695/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_conv2d_1_fu_695/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_conv2d_fu_705_group">
+         <obj_property name="label">grp_conv2d_fu_705</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_conv2d_fu_705_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_conv2d_fu_705/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_conv2d_fu_705/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_conv2d_fu_705/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_max_pooling2d_2_fu_715_group">
+         <obj_property name="label">grp_max_pooling2d_2_fu_715</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_max_pooling2d_2_fu_715_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_2_fu_715/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_2_fu_715/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_2_fu_715/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_max_pooling2d_1_fu_721_group">
+         <obj_property name="label">grp_max_pooling2d_1_fu_721</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_max_pooling2d_1_fu_721_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_1_fu_721/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_1_fu_721/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_1_fu_721/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_max_pooling2d_fu_727_group">
+         <obj_property name="label">grp_max_pooling2d_fu_727</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_max_pooling2d_fu_727_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_fu_727/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_fu_727/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_fu_727/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_set3DFloatArray_5_fu_733_group">
+         <obj_property name="label">grp_set3DFloatArray_5_fu_733</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_set3DFloatArray_5_fu_733_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_5_fu_733/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_5_fu_733/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_5_fu_733/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_set3DFloatArray_3_fu_738_group">
+         <obj_property name="label">grp_set3DFloatArray_3_fu_738</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_set3DFloatArray_3_fu_738_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_3_fu_738/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_3_fu_738/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_3_fu_738/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_set3DFloatArray_4_fu_743_group">
+         <obj_property name="label">grp_set3DFloatArray_4_fu_743</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_set3DFloatArray_4_fu_743_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_4_fu_743/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_4_fu_743/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_4_fu_743/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_set3DFloatArray_2_fu_748_group">
+         <obj_property name="label">grp_set3DFloatArray_2_fu_748</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_set3DFloatArray_2_fu_748_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_2_fu_748/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_2_fu_748/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_2_fu_748/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_set3DFloatArray_1_fu_753_group">
+         <obj_property name="label">grp_set3DFloatArray_1_fu_753</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_set3DFloatArray_1_fu_753_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_1_fu_753/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_1_fu_753/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_1_fu_753/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_set3DFloatArray_fu_758_group">
+         <obj_property name="label">grp_set3DFloatArray_fu_758</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_set3DFloatArray_fu_758_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_fu_758/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_fu_758/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_set3DFloatArray_fu_758/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>
