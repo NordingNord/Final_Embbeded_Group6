@@ -97,7 +97,7 @@ void conv2d(const int input_dims[3], float* input,
                 printf("        {");
                 for (int ii = 0; ii < weight_dims[1]; ii++)
                 {
-                    printf("{");
+                    // printf("{");
                     for (int iii = 0; iii < weight_dims[2]; iii++)
                     {
                         printf("%f", weights[i*weight_dims[1]*weight_dims[2]*weight_dims[3] + ii*weight_dims[2]*weight_dims[3] + iii*weight_dims[3] + iv]);
@@ -140,91 +140,47 @@ void conv2d(const int input_dims[3], float* input,
             }
         }
         printf("}\n");
+        
+        // Strides
+        printf("strides (2):\n{%d, %d}\n", strides[0], strides[1]);
+
+        // Padding
+        printf("Padding: %s\n", padding == PADDING::SAME ? "Same" : "Valid");
     }
     
     // Convolution
-    const int row_margin = (int)(weight_dims[0]/2);
-    const int row_rest = weight_dims[0] > 1 ? weight_dims[0]%2 : 0;
-	const int col_margin = (int)(weight_dims[1]/2);
-    const int col_rest = weight_dims[1] > 1 ? weight_dims[1]%2 : 0;
-	
-    const int channel_margin = (int)(weight_dims[2]/2);
-    const int channel_rest = weight_dims[2] > 1 ? weight_dims[2]%2 : 0;
-    
-    
-    const int expected_turns = output_dims[0]*output_dims[1]*output_dims[2]*weight_dims[0]*weight_dims[1]*weight_dims[2];
+    // Get space in input to be convoluted
+    int row_start = 0;
+    int col_start = 0;
+    int row_end = input_dims[0];
+    int col_end = input_dims[1];
+    if (padding == PADDING::VALID)
+    {
+        row_start = weight_dims[0]/2;
+        col_start = weight_dims[1]/2;
+        row_end = input_dims[0] - weight_dims[0]/2 - (weight_dims[0]%2 == 0 ? 1 : 0);
+        col_end = input_dims[1] - weight_dims[1]/2 + (weight_dims[1]%2 == 0 ? 1 : 0);
+    }
+
+    int expected_turns = output_dims[0]*output_dims[1]*output_dims[2]*weight_dims[0]*weight_dims[1]*weight_dims[2];
     int turns = 0;
     int rows = 0;
     int cols = 0;
+
     // Input rows
-    for (int i = row_margin; i < input_dims[0] - row_rest; i++)
+    for (int i = row_start; i < row_end; i += strides[0])
     {
         rows++;
         cols = 0;
+        // printf("######### Runs outer ###########\n");
         // Input columns
-        for (int ii = col_margin; ii < input_dims[1] - col_rest; ii++)
+        for (int ii = col_start; ii < col_end; ii += strides[1])
         {
             cols++;
-            // printf("%i, %i, %i\n", channel_margin, weight_dims[2], channel_rest);
-            // Input channel
-            for (int iii = channel_margin; iii < input_dims[2] - channel_rest; iii++)
-            {
-                // printf("Runs\n");
-                // Kernel number
-                for (int iv = 0; iv < weight_dims[3]; iv++)
-                {
-                    // Kernel row
-                    for (int v = -row_margin; v < row_margin + row_rest; v++)
-                    {
-                        // Kernel column
-                        for (int vi = -col_margin; vi < col_margin + col_rest; vi++)
-                        {
-                            turns++;
-                            // Kernel channel
-                            printf("Rins");
-                            for (int vii = -channel_margin; vii < channel_margin + channel_rest; vii++)
-                            {
-
-                                // if (turns > 10)
-                                // {
-                                //     printf("output[%d][%d][%d] = ", i-row_margin, ii-col_margin, iv);
-                                //     printf("input[%d][%d][%d] * ", i+v, ii+vi, iii);
-                                //     printf("kernel[%d][%d][0][%d]", v + row_margin, vi + col_margin, iv);
-                                //     printf(" = %f\n", input[(i+v)*input_dims[1]*input_dims[2] + (ii+vi)*input_dims[2]]);
-                                // }
-                            }
-
-                            // Set output value
-                            // Use pointers to make code more readable
-                            // Get input value
-                            float* input_val = &input[
-                                (i+v)*input_dims[1]*input_dims[2] + 
-                                (ii+vi)*input_dims[2]];
-
-                            // Get kernel value
-                            const float* kernel_val = &weights[
-                                (v+row_margin)*weight_dims[1]*weight_dims[2]*weight_dims[3] + 
-                                (vi+col_margin)*weight_dims[2]*weight_dims[3] + 
-                                iv];
-
-                            // Get output value
-                            float* output_val = &output[
-                                (i-row_margin)*output_dims[1]*output_dims[2] + 
-                                (ii-col_margin)*output_dims[2] + 
-                                iv];
-
-                            // Set output value
-                            *output_val += (*input_val) * (*kernel_val);
-                        }
-                    }
-                    // Add bias to output
-                    output[(i-row_margin)*output_dims[1]*output_dims[2] + 
-                        (ii-col_margin)*output_dims[2] + 
-                        iv] 
-                        += bias[iv];
-                }
-            }
+            
+            output[(i-row_start)*output_dims[1]*output_dims[2] + (ii-col_start)*output_dims[2]] = 1;
         }
+        
     }
     
     // Output
@@ -269,9 +225,13 @@ void conv2d(const int input_dims[3], float* input,
     {
         // Results
         printf("given input dimension (%d, %d, %d)\n", input_dims[0], input_dims[1], input_dims[2]);
+        printf("weights (%d,%d,%d,%d)\n", weight_dims[0], weight_dims[1], weight_dims[2], weight_dims[3]);
+        printf("biases (%d):\n", bias_dims[0]);
+        printf("strides (2):\n{%d, %d}\n", strides[0], strides[1]);
+        printf("Padding: %s\n", padding == PADDING::SAME ? "Same" : "Valid");
         printf("given output dimension (%d, %d, %d)\n", output_dims[0], output_dims[1], output_dims[2]);
+        printf("result output dimension (%d, %d, %d)\n", rows, cols, 1);
         printf("calculations (result, expected given output): (%d, %d) --%s\n", turns, expected_turns, turns == expected_turns ? "Correct" : "Wrong");
-        printf("result output dimensions (rows,cols,features)=length: (%d, %d, %d)=%d --%s\n\n", rows, cols, turns/rows/cols/weight_dims[0]/weight_dims[1], turns/weight_dims[0]/weight_dims[1], turns/weight_dims[0]/weight_dims[1] == output_dims[0]*output_dims[1]*output_dims[2] ? "Correct" : "Wrong");
     }
 }
 
@@ -291,16 +251,14 @@ int main()
                                                                     6,3,2,2,0,};
 
     constexpr int test_kernel_dims[4] = {3,3,1,2};
-    float test_kernel[test_kernel_dims[0]*test_kernel_dims[1]*test_kernel_dims[2]*test_kernel_dims[3]] = {0,1,   1,0,   0,0,
-                            0,1,    1,0,   0,0,
-                            0,1,    1,0,   0,0};
+    float test_kernel[test_kernel_dims[0]*test_kernel_dims[1]*test_kernel_dims[2]*test_kernel_dims[3]] = {0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0};
 
     constexpr int test_kernel_bias_dims[1] = {test_kernel_dims[3]};
-    float test_kernel_bias[test_kernel_bias_dims[0]] = {2, 10};
-    constexpr int test_kernel_strides[2] = {1,1};
+    float test_kernel_bias[test_kernel_bias_dims[0]] = {0, 0};
+    constexpr int test_kernel_strides[2] = {2, 1};
 
 
-    constexpr int output_dims[3] = {2,3,2};
+    constexpr int output_dims[3] = {1,3,2};
     float output[output_dims[0]*output_dims[1]*output_dims[2]];
     set3DFloatArray(output_dims, output, 0);
     
