@@ -21,11 +21,23 @@ int main()
 
     float results[layer_12_output_dims[0]];
 
+    bool same = true;
     for (int i = 0; i < layer_12_output_dims[0]; i++)
 	{
 		result_output >> results[i];
 		printf("%f\n", results[i]);
+		if ((int)(simple_prediction[i]*10000) != (int)(results[i]*10000))
+		{
+			same = false;
+		}
 	}
+   if (same)
+	   printf("Correct!\n");
+   else
+   {
+	   printf("Wrong, check layers are written correctly\n");
+	   return 1;
+   }
 
 
     return 0;

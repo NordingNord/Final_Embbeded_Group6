@@ -1,11 +1,11 @@
 # 1 "../src/hls/cnn.cpp"
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
-# 375 "<built-in>" 3
+# 395 "<built-in>" 3
 # 1 "<command line>" 1
 # 1 "<built-in>" 2
-# 1 "/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/etc/autopilot_ssdm_op.h" 1
-# 158 "/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/etc/autopilot_ssdm_op.h"
+# 1 "C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\\etc/autopilot_ssdm_op.h" 1
+# 158 "C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\\etc/autopilot_ssdm_op.h"
 extern "C" {
 
 
@@ -151,12 +151,12 @@ extern "C" {
 }
 # 2 "<built-in>" 2
 # 1 "../src/hls/cnn.cpp" 2
-# 1 "/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/hls_stream.h" 1
-# 61 "/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/hls_stream.h"
-# 1 "/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/hls_stream_39.h" 1
-# 67 "/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/hls_stream_39.h"
-# 1 "/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/etc/autopilot_enum.h" 1
-# 59 "/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/etc/autopilot_enum.h"
+# 1 "C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\\hls_stream.h" 1
+# 61 "C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\\hls_stream.h"
+# 1 "C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/hls_stream_39.h" 1
+# 67 "C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/hls_stream_39.h"
+# 1 "C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/etc/autopilot_enum.h" 1
+# 59 "C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/etc/autopilot_enum.h"
 enum SsdmDataTypes {
     _ssdm_sc_int = 0,
     _ssdm_c_int = _ssdm_sc_int,
@@ -229,14 +229,14 @@ enum SsdmRegionTypes {
     _ssdm_region_pipeline,
     _ssdm_region_parallel,
 };
-# 68 "/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/hls_stream_39.h" 2
+# 68 "C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/hls_stream_39.h" 2
 
 
 
 
 
 namespace hls {
-# 95 "/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/hls_stream_39.h"
+# 95 "C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/hls_stream_39.h"
 template<typename __STREAM_T__, int DEPTH=0>
 class stream;
 
@@ -347,7 +347,7 @@ class stream : public stream<__STREAM_T__, 0> {
     }
 };
 }
-# 62 "/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/hls_stream.h" 2
+# 62 "C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\\hls_stream.h" 2
 # 2 "../src/hls/cnn.cpp" 2
 # 1 "../src/hls/layerInfo.hpp" 1
 constexpr int model_input_dims[3] = {24,24,1};
@@ -24268,8 +24268,9 @@ __attribute__((sdx_kernel("infer", 0))) void infer(hls::stream<int> &infer_input
 
 
     float image_input[model_input_dims[0]*model_input_dims[1]*model_input_dims[2]];
- int single_pixel = 0;
-    VITIS_LOOP_197_1: for (int i = 0; i < model_input_dims[0]*model_input_dims[1]*model_input_dims[2]; i++)
+
+    int single_pixel = 0;
+    VITIS_LOOP_198_1: for (int i = 0; i < model_input_dims[0]*model_input_dims[1]*model_input_dims[2]; i++)
     {
      infer_input >> single_pixel;
      image_input[i] = (float)single_pixel;
@@ -24280,9 +24281,11 @@ __attribute__((sdx_kernel("infer", 0))) void infer(hls::stream<int> &infer_input
     rescale(model_input_dims, image_input);
 
 
-    float layer_2_output[layer_2_output_dims[0]*layer_2_output_dims[1]*layer_2_output_dims[2]];
 
-    set3DFloatArray(layer_2_output_dims, layer_2_output, 0);
+    float layer_2_output[layer_2_output_dims[0]*layer_2_output_dims[1]*layer_2_output_dims[2]];
+#pragma HLS array_partition variable=layer_2_output block factor=10
+
+ set3DFloatArray(layer_2_output_dims, layer_2_output, 0);
 
     conv2d(model_input_dims, image_input,
             layer_2_weights_dims, layer_2_weights,
@@ -24292,7 +24295,9 @@ __attribute__((sdx_kernel("infer", 0))) void infer(hls::stream<int> &infer_input
 
 
     float layer_3_output[layer_3_output_dims[0]*layer_3_output_dims[1]*layer_3_output_dims[2]];
-    set3DFloatArray(layer_3_output_dims, layer_3_output, 0);
+#pragma HLS array_partition variable=layer_3_output block factor=2
+
+ set3DFloatArray(layer_3_output_dims, layer_3_output, 0);
 
     max_pooling2d(layer_2_output_dims, layer_2_output, layer_3_strides,
                 layer_3_output_dims, layer_3_output);
@@ -24300,81 +24305,19 @@ __attribute__((sdx_kernel("infer", 0))) void infer(hls::stream<int> &infer_input
 
 
     float layer_4_output[layer_4_output_dims[0]*layer_4_output_dims[1]*layer_4_output_dims[2]];
+#pragma HLS array_partition variable=layer_4_output block factor=2
 
-    set3DFloatArray(layer_4_output_dims, layer_4_output, 0);
+ set3DFloatArray(layer_4_output_dims, layer_4_output, 0);
 
     conv2d(layer_3_output_dims, layer_3_output,
             layer_4_weights_dims, layer_4_weights,
             layer_4_bias,
             layer_4_output_dims, layer_4_output);
-
-
-    float layer_5_output[layer_5_output_dims[0]*layer_5_output_dims[1]*layer_5_output_dims[2]];
-    set3DFloatArray(layer_5_output_dims, layer_5_output, 0);
-
-    max_pooling2d(layer_4_output_dims, layer_4_output, layer_5_strides,
-                layer_5_output_dims, layer_5_output);
-
-
-    float layer_6_output[layer_6_output_dims[0]*layer_6_output_dims[1]*layer_6_output_dims[2]];
-
-    set3DFloatArray(layer_6_output_dims, layer_6_output, 0);
-
-    conv2d(layer_5_output_dims, layer_5_output,
-            layer_6_weights_dims, layer_6_weights,
-            layer_6_bias,
-            layer_6_output_dims, layer_6_output);
-
-
-    float layer_7_output[layer_7_output_dims[0]*layer_7_output_dims[1]*layer_7_output_dims[2]];
-    set3DFloatArray(layer_7_output_dims, layer_7_output, 0);
-
-    max_pooling2d(layer_6_output_dims, layer_6_output, layer_7_strides,
-                layer_7_output_dims, layer_7_output);
-
-
-
-
-
-
-    float layer_9_output[layer_9_output_dims[0]];
-#pragma HLS array_partition variable=layer_9_output type=complete dim=1
- set1DFloatArray(layer_9_output_dims, layer_9_output, 0);
-    dense_relu(layer_7_output,
-            layer_9_weights_dims, layer_9_weights,
-            layer_9_bias,
-            layer_9_output);
-
-
-    float layer_10_output[layer_10_output_dims[0]];
-#pragma HLS array_partition variable=layer_10_output type=complete dim=1
- set1DFloatArray(layer_10_output_dims, layer_10_output, 0);
-    dense_relu(layer_9_output,
-            layer_10_weights_dims, layer_10_weights,
-            layer_10_bias,
-            layer_10_output);
-
-
-
-    float layer_11_output[layer_11_output_dims[0]];
-#pragma HLS array_partition variable=layer_11_output type=complete dim=1
- set1DFloatArray(layer_11_output_dims, layer_11_output, 0);
-    dense_relu(layer_10_output,
-            layer_11_weights_dims, layer_11_weights,
-            layer_11_bias,
-            layer_11_output);
-
-
+# 298 "../src/hls/cnn.cpp"
     float layer_12_output[layer_12_output_dims[0]];
-#pragma HLS array_partition variable=layer_12_output type=complete dim=1
- set1DFloatArray(layer_12_output_dims, layer_12_output, 0);
-    dense(layer_11_output,
-            layer_12_weights_dims, layer_12_weights,
-            layer_12_bias,
-            layer_12_output);
-
-
-    VITIS_LOOP_302_2: for (int i = 0; i < layer_12_output_dims[0]; i++)
+    set1DFloatArray(layer_12_output_dims, layer_12_output, 0);
+# 308 "../src/hls/cnn.cpp"
+    VITIS_LOOP_308_2: for (int i = 0; i < layer_12_output_dims[0]; i++)
     {
      infer_output << layer_12_output[i];
     }

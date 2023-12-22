@@ -1,4 +1,4 @@
-<project xmlns="com.autoesl.autopilot.project" top="infer" name="cnn">
+<project xmlns="com.autoesl.autopilot.project" name="cnn" top="infer">
     <includePaths/>
     <libraryPaths/>
     <Simulation>

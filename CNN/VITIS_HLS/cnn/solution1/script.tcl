@@ -8,11 +8,11 @@ set_top infer
 add_files ../src/hls/cnn.cpp
 add_files ../src/hls/layerInfo.hpp
 add_files ../src/hls/testImage.hpp
-add_files -tb ../src/hls/cnn_tb.cpp
+add_files -tb ../src/hls/cnn_tb.cpp -cflags "-Wno-unknown-pragmas" -csimflags "-Wno-unknown-pragmas"
 open_solution "solution1" -flow_target vivado
 set_part {xczu3eg-sbva484-1-e}
 create_clock -period 10 -name default
-#source "./cnn/solution1/directives.tcl"
+source "./cnn/solution1/directives.tcl"
 csim_design
 csynth_design
 cosim_design

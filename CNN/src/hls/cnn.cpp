@@ -193,7 +193,8 @@ void infer(hls::stream<int> &infer_input, hls::stream<float> &infer_output)
     // Test using image
     // Get image
     float image_input[model_input_dims[0]*model_input_dims[1]*model_input_dims[2]];
-	int single_pixel = 0;
+
+    int single_pixel = 0;
     for (int i = 0; i < model_input_dims[0]*model_input_dims[1]*model_input_dims[2]; i++)
     {
     	infer_input >> single_pixel;
@@ -204,8 +205,10 @@ void infer(hls::stream<int> &infer_input, hls::stream<float> &infer_output)
     // Layer 1 rescaling
     rescale(model_input_dims, image_input);
 
+
     // Layer 2 convolution
     float layer_2_output[layer_2_output_dims[0]*layer_2_output_dims[1]*layer_2_output_dims[2]];
+#pragma HLS array_partition variable=layer_2_output block factor=10
 
     set3DFloatArray(layer_2_output_dims, layer_2_output, 0);
 
@@ -217,14 +220,17 @@ void infer(hls::stream<int> &infer_input, hls::stream<float> &infer_output)
 
     // Layer 3 max pooling
     float layer_3_output[layer_3_output_dims[0]*layer_3_output_dims[1]*layer_3_output_dims[2]];
+#pragma HLS array_partition variable=layer_3_output block factor=2
+
     set3DFloatArray(layer_3_output_dims, layer_3_output, 0);
 
     max_pooling2d(layer_2_output_dims, layer_2_output, layer_3_strides, 
                 layer_3_output_dims, layer_3_output);
 
-    
+
     // Layer 4 convolution
     float layer_4_output[layer_4_output_dims[0]*layer_4_output_dims[1]*layer_4_output_dims[2]];
+#pragma HLS array_partition variable=layer_4_output block factor=2
 
     set3DFloatArray(layer_4_output_dims, layer_4_output, 0);
 
@@ -233,6 +239,7 @@ void infer(hls::stream<int> &infer_input, hls::stream<float> &infer_output)
             layer_4_bias,
             layer_4_output_dims, layer_4_output);
 
+    /*
     // Layer 5 max pooling
     float layer_5_output[layer_5_output_dims[0]*layer_5_output_dims[1]*layer_5_output_dims[2]];
     set3DFloatArray(layer_5_output_dims, layer_5_output, 0);
@@ -263,7 +270,6 @@ void infer(hls::stream<int> &infer_input, hls::stream<float> &infer_output)
 
     // Layer 9 dense
     float layer_9_output[layer_9_output_dims[0]];
-#pragma HLS array_partition variable=layer_9_output type=complete dim=1
     set1DFloatArray(layer_9_output_dims, layer_9_output, 0);
     dense_relu(layer_7_output,
             layer_9_weights_dims, layer_9_weights,
@@ -272,7 +278,6 @@ void infer(hls::stream<int> &infer_input, hls::stream<float> &infer_output)
 
     // Layer 10 dense
     float layer_10_output[layer_10_output_dims[0]];
-#pragma HLS array_partition variable=layer_10_output type=complete dim=1
     set1DFloatArray(layer_10_output_dims, layer_10_output, 0);
     dense_relu(layer_9_output,
             layer_10_weights_dims, layer_10_weights,
@@ -282,21 +287,22 @@ void infer(hls::stream<int> &infer_input, hls::stream<float> &infer_output)
 
     // Layer 11 dense
     float layer_11_output[layer_11_output_dims[0]];
-#pragma HLS array_partition variable=layer_11_output type=complete dim=1
     set1DFloatArray(layer_11_output_dims, layer_11_output, 0);
     dense_relu(layer_10_output,
             layer_11_weights_dims, layer_11_weights,
             layer_11_bias,
             layer_11_output);
 
+	*/
     // Layer 12 dense
     float layer_12_output[layer_12_output_dims[0]];
-#pragma HLS array_partition variable=layer_12_output type=complete dim=1
     set1DFloatArray(layer_12_output_dims, layer_12_output, 0);
+    /*
     dense(layer_11_output,
             layer_12_weights_dims, layer_12_weights,
             layer_12_bias,
             layer_12_output);
+    */
     
     //Send result
     for (int i = 0; i < layer_12_output_dims[0]; i++)

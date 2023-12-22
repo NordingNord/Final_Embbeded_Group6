@@ -11,17 +11,36 @@ if {${::AESL::PGuard_autoexp_gen}} {
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
 eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
-    id 54 \
+    id 49 \
     name array_r \
     reset_level 1 \
     sync_rst true \
     dir O \
     corename array_r \
     op interface \
-    ports { array_r_address0 { O 5 vector } array_r_ce0 { O 1 bit } array_r_we0 { O 1 bit } array_r_d0 { O 32 vector } } \
+    ports { array_r_address0 { O 11 vector } array_r_ce0 { O 1 bit } array_r_we0 { O 1 bit } array_r_d0 { O 32 vector } } \
 } "
 } else {
 puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'array_r'"
+}
+}
+
+
+# XIL_BRAM:
+if {${::AESL::PGuard_autoexp_gen}} {
+if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
+eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
+    id 50 \
+    name array1 \
+    reset_level 1 \
+    sync_rst true \
+    dir O \
+    corename array1 \
+    op interface \
+    ports { array1_address0 { O 11 vector } array1_ce0 { O 1 bit } array1_we0 { O 1 bit } array1_d0 { O 32 vector } } \
+} "
+} else {
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'array1'"
 }
 }
 
