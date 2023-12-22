@@ -263,6 +263,7 @@ void infer(hls::stream<int> &infer_input, hls::stream<float> &infer_output)
 
     // Layer 9 dense
     float layer_9_output[layer_9_output_dims[0]];
+#pragma HLS array_partition variable=layer_9_output type=complete dim=1
     set1DFloatArray(layer_9_output_dims, layer_9_output, 0);
     dense_relu(layer_7_output,
             layer_9_weights_dims, layer_9_weights,
@@ -271,6 +272,7 @@ void infer(hls::stream<int> &infer_input, hls::stream<float> &infer_output)
 
     // Layer 10 dense
     float layer_10_output[layer_10_output_dims[0]];
+#pragma HLS array_partition variable=layer_10_output type=complete dim=1
     set1DFloatArray(layer_10_output_dims, layer_10_output, 0);
     dense_relu(layer_9_output,
             layer_10_weights_dims, layer_10_weights,
@@ -280,6 +282,7 @@ void infer(hls::stream<int> &infer_input, hls::stream<float> &infer_output)
 
     // Layer 11 dense
     float layer_11_output[layer_11_output_dims[0]];
+#pragma HLS array_partition variable=layer_11_output type=complete dim=1
     set1DFloatArray(layer_11_output_dims, layer_11_output, 0);
     dense_relu(layer_10_output,
             layer_11_weights_dims, layer_11_weights,
@@ -288,8 +291,9 @@ void infer(hls::stream<int> &infer_input, hls::stream<float> &infer_output)
 
     // Layer 12 dense
     float layer_12_output[layer_12_output_dims[0]];
+#pragma HLS array_partition variable=layer_12_output type=complete dim=1
     set1DFloatArray(layer_12_output_dims, layer_12_output, 0);
-    dense_relu(layer_11_output,
+    dense(layer_11_output,
             layer_12_weights_dims, layer_12_weights,
             layer_12_bias,
             layer_12_output);

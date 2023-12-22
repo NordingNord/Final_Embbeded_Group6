@@ -24338,7 +24338,8 @@ __attribute__((sdx_kernel("infer", 0))) void infer(hls::stream<int> &infer_input
 
 
     float layer_9_output[layer_9_output_dims[0]];
-    set1DFloatArray(layer_9_output_dims, layer_9_output, 0);
+#pragma HLS array_partition variable=layer_9_output type=complete dim=1
+ set1DFloatArray(layer_9_output_dims, layer_9_output, 0);
     dense_relu(layer_7_output,
             layer_9_weights_dims, layer_9_weights,
             layer_9_bias,
@@ -24346,7 +24347,8 @@ __attribute__((sdx_kernel("infer", 0))) void infer(hls::stream<int> &infer_input
 
 
     float layer_10_output[layer_10_output_dims[0]];
-    set1DFloatArray(layer_10_output_dims, layer_10_output, 0);
+#pragma HLS array_partition variable=layer_10_output type=complete dim=1
+ set1DFloatArray(layer_10_output_dims, layer_10_output, 0);
     dense_relu(layer_9_output,
             layer_10_weights_dims, layer_10_weights,
             layer_10_bias,
@@ -24355,7 +24357,8 @@ __attribute__((sdx_kernel("infer", 0))) void infer(hls::stream<int> &infer_input
 
 
     float layer_11_output[layer_11_output_dims[0]];
-    set1DFloatArray(layer_11_output_dims, layer_11_output, 0);
+#pragma HLS array_partition variable=layer_11_output type=complete dim=1
+ set1DFloatArray(layer_11_output_dims, layer_11_output, 0);
     dense_relu(layer_10_output,
             layer_11_weights_dims, layer_11_weights,
             layer_11_bias,
@@ -24363,14 +24366,15 @@ __attribute__((sdx_kernel("infer", 0))) void infer(hls::stream<int> &infer_input
 
 
     float layer_12_output[layer_12_output_dims[0]];
-    set1DFloatArray(layer_12_output_dims, layer_12_output, 0);
-    dense_relu(layer_11_output,
+#pragma HLS array_partition variable=layer_12_output type=complete dim=1
+ set1DFloatArray(layer_12_output_dims, layer_12_output, 0);
+    dense(layer_11_output,
             layer_12_weights_dims, layer_12_weights,
             layer_12_bias,
             layer_12_output);
 
 
-    VITIS_LOOP_298_2: for (int i = 0; i < layer_12_output_dims[0]; i++)
+    VITIS_LOOP_302_2: for (int i = 0; i < layer_12_output_dims[0]; i++)
     {
      infer_output << layer_12_output[i];
     }

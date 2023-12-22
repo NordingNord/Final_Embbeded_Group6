@@ -239,10 +239,10 @@
 
 <Node id="17" bw="32" op_0_bw="32" op_1_bw="64" op_2_bw="64" op_3_bw="64">
 <![CDATA[
-._crit_edge7.loopexit:1 %empty_30 = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 128, i64 128, i64 128
+._crit_edge7.loopexit:1 %empty_31 = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 128, i64 128, i64 128
 
 ]]></Node>
-<StgValue><ssdm name="empty_30"/></StgValue>
+<StgValue><ssdm name="empty_31"/></StgValue>
 </operation>
 
 <operation id="18" st_id="2" stage="1" lat="1">
@@ -463,10 +463,10 @@
 
 <Node id="31" bw="1" op_0_bw="2">
 <![CDATA[
-._crit_edge7.loopexit:15 %empty_31 = trunc i2 %add_ln10
+._crit_edge7.loopexit:15 %empty_32 = trunc i2 %add_ln10
 
 ]]></Node>
-<StgValue><ssdm name="empty_31"/></StgValue>
+<StgValue><ssdm name="empty_32"/></StgValue>
 </operation>
 
 <operation id="32" st_id="2" stage="1" lat="1">
@@ -479,7 +479,7 @@
 
 <Node id="32" bw="6" op_0_bw="6" op_1_bw="1" op_2_bw="5">
 <![CDATA[
-._crit_edge7.loopexit:16 %p_mid1 = bitconcatenate i6 @_ssdm_op_BitConcatenate.i6.i1.i5, i1 %empty_31, i5 0
+._crit_edge7.loopexit:16 %p_mid1 = bitconcatenate i6 @_ssdm_op_BitConcatenate.i6.i1.i5, i1 %empty_32, i5 0
 
 ]]></Node>
 <StgValue><ssdm name="p_mid1"/></StgValue>
@@ -559,7 +559,7 @@
 
 <Node id="37" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-._crit_edge7.loopexit:21 %specloopname_ln12 = specloopname void @_ssdm_op_SpecLoopName, void @empty
+._crit_edge7.loopexit:21 %specloopname_ln12 = specloopname void @_ssdm_op_SpecLoopName, void @empty_8
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln12"/></StgValue>

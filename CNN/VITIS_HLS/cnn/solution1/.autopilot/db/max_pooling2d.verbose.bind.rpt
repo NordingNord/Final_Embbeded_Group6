@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'max_pooling2d'
 ================================================================
-* Date:           Fri Dec 22 00:43:54 2023
+* Date:           Fri Dec 22 01:03:20 2023
 
 * Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)
 * Project:        cnn
@@ -221,7 +221,7 @@ ST_10 : Operation 117 [1/1] (0.00ns)   --->   "%empty = speclooptripcount i32 @_
 ST_10 : Operation 118 [1/1] (0.00ns)   --->   "%specpipeline_ln0 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 1, i32 0, void @p_str"   --->   Operation 118 'specpipeline' 'specpipeline_ln0' <Predicate = (!icmp_ln121)> <Delay = 0.00>
 ST_10 : Operation 119 [1/1] (0.00ns)   --->   "%specloopname_ln0 = specloopname void @_ssdm_op_SpecLoopName, void @VITIS_LOOP_124_2_VITIS_LOOP_127_3_str"   --->   Operation 119 'specloopname' 'specloopname_ln0' <Predicate = (!icmp_ln121)> <Delay = 0.00>
 ST_10 : Operation 120 [1/1] (0.00ns)   --->   "%specpipeline_ln0 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 1, i32 0, void @p_str"   --->   Operation 120 'specpipeline' 'specpipeline_ln0' <Predicate = (!icmp_ln121)> <Delay = 0.00>
-ST_10 : Operation 121 [1/1] (0.00ns)   --->   "%specloopname_ln127 = specloopname void @_ssdm_op_SpecLoopName, void @empty_9" [../src/hls/cnn.cpp:127]   --->   Operation 121 'specloopname' 'specloopname_ln127' <Predicate = (!icmp_ln121)> <Delay = 0.00>
+ST_10 : Operation 121 [1/1] (0.00ns)   --->   "%specloopname_ln127 = specloopname void @_ssdm_op_SpecLoopName, void @empty_11" [../src/hls/cnn.cpp:127]   --->   Operation 121 'specloopname' 'specloopname_ln127' <Predicate = (!icmp_ln121)> <Delay = 0.00>
 ST_10 : Operation 122 [1/1] (0.00ns)   --->   "%bitcast_ln136_17 = bitcast i32 %input_load_9" [../src/hls/cnn.cpp:136]   --->   Operation 122 'bitcast' 'bitcast_ln136_17' <Predicate = (!icmp_ln121)> <Delay = 0.00>
 ST_10 : Operation 123 [1/1] (0.00ns)   --->   "%tmp_35 = partselect i8 @_ssdm_op_PartSelect.i8.i32.i32.i32, i32 %bitcast_ln136_17, i32 23, i32 30" [../src/hls/cnn.cpp:136]   --->   Operation 123 'partselect' 'tmp_35' <Predicate = (!icmp_ln121)> <Delay = 0.00>
 ST_10 : Operation 124 [1/1] (0.00ns)   --->   "%trunc_ln136_19 = trunc i32 %bitcast_ln136_17" [../src/hls/cnn.cpp:136]   --->   Operation 124 'trunc' 'trunc_ln136_19' <Predicate = (!icmp_ln121)> <Delay = 0.00>
@@ -714,7 +714,7 @@ ret_ln146          (ret              ) [ 000000000000]
 <pin id="71" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_9"/></StgValue>
+<StgValue><ssdm name="empty_11"/></StgValue>
 </bind>
 </comp>
 

@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'set3DFloatArray_4'
 ================================================================
-* Date:           Fri Dec 22 00:44:05 2023
+* Date:           Fri Dec 22 01:03:30 2023
 
 * Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)
 * Project:        cnn
@@ -270,7 +270,7 @@ ST_5 : Operation 43 [1/1] (0.00ns) (grouped into LUT with out node add_ln14)   -
 ST_5 : Operation 44 [1/1] (0.00ns) (grouped into LUT with out node add_ln14)   --->   "%select_ln10_10 = select i1 %and_ln10, i9 %p_mid1, i9 %select_ln10_8" [../src/hls/cnn.cpp:10]   --->   Operation 44 'select' 'select_ln10_10' <Predicate = (!icmp_ln8)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.45> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_5 : Operation 45 [1/1] (0.00ns) (grouped into LUT with out node add_ln14)   --->   "%select_ln10_10_cast = zext i9 %select_ln10_10" [../src/hls/cnn.cpp:10]   --->   Operation 45 'zext' 'select_ln10_10_cast' <Predicate = (!icmp_ln8)> <Delay = 0.00>
 ST_5 : Operation 46 [1/1] (0.00ns)   --->   "%specpipeline_ln0 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 1, i32 0, void @p_str"   --->   Operation 46 'specpipeline' 'specpipeline_ln0' <Predicate = (!icmp_ln8)> <Delay = 0.00>
-ST_5 : Operation 47 [1/1] (0.00ns)   --->   "%specloopname_ln12 = specloopname void @_ssdm_op_SpecLoopName, void @empty" [../src/hls/cnn.cpp:12]   --->   Operation 47 'specloopname' 'specloopname_ln12' <Predicate = (!icmp_ln8)> <Delay = 0.00>
+ST_5 : Operation 47 [1/1] (0.00ns)   --->   "%specloopname_ln12 = specloopname void @_ssdm_op_SpecLoopName, void @empty_8" [../src/hls/cnn.cpp:12]   --->   Operation 47 'specloopname' 'specloopname_ln12' <Predicate = (!icmp_ln8)> <Delay = 0.00>
 ST_5 : Operation 48 [1/2] (0.83ns) (root node of the DSP)   --->   "%add_ln14_1 = add i12 %iii_cast, i12 %mul_ln10" [../src/hls/cnn.cpp:14]   --->   Operation 48 'add' 'add_ln14_1' <Predicate = (!icmp_ln8)> <Delay = 0.83> <CoreInst = "DSP48">   --->   Core 127 'DSP48' <Latency = 3> <II = 1> <Delay = 0.69> <IPBlock> <Opcode : 'mul' 'add' 'sub' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
 ST_5 : Operation 49 [1/1] (0.96ns) (out node of the LUT)   --->   "%add_ln14 = add i12 %add_ln14_1, i12 %select_ln10_10_cast" [../src/hls/cnn.cpp:14]   --->   Operation 49 'add' 'add_ln14' <Predicate = (!icmp_ln8)> <Delay = 0.96> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.96> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_5 : Operation 50 [1/1] (0.00ns)   --->   "%zext_ln14 = zext i12 %add_ln14" [../src/hls/cnn.cpp:14]   --->   Operation 50 'zext' 'zext_ln14' <Predicate = (!icmp_ln8)> <Delay = 0.00>
@@ -599,7 +599,7 @@ ret_ln18            (ret              ) [ 0000000]
 <pin id="55" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty"/></StgValue>
+<StgValue><ssdm name="empty_8"/></StgValue>
 </bind>
 </comp>
 

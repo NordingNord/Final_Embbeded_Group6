@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'max_pooling2d_1'" level="0">
-<item name = "Date">Fri Dec 22 00:44:08 2023
+<item name = "Date">Fri Dec 22 01:03:34 2023
 </item>
 <item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)</item>
 <item name = "Project">cnn</item>
@@ -119,7 +119,7 @@
 <column name="icmp_ln136_25_fu_1085_p2">icmp, 0, 0, 11, 8, 2</column>
 <column name="icmp_ln136_26_fu_1091_p2">icmp, 0, 0, 16, 23, 1</column>
 <column name="icmp_ln136_fu_783_p2">icmp, 0, 0, 11, 8, 2</column>
-<column name="empty_35_fu_270_p2">or, 0, 0, 3, 3, 1</column>
+<column name="empty_36_fu_270_p2">or, 0, 0, 3, 3, 1</column>
 <column name="or_ln124_3_fu_608_p2">or, 0, 0, 6, 6, 1</column>
 <column name="or_ln124_fu_516_p2">or, 0, 0, 2, 1, 1</column>
 <column name="or_ln136_10_fu_986_p2">or, 0, 0, 2, 1, 1</column>
@@ -232,16 +232,16 @@
 <column name="ap_done">out, 1, ap_ctrl_hs, max_pooling2d.1, return value</column>
 <column name="ap_idle">out, 1, ap_ctrl_hs, max_pooling2d.1, return value</column>
 <column name="ap_ready">out, 1, ap_ctrl_hs, max_pooling2d.1, return value</column>
-<column name="grp_fu_788_p_din0">out, 32, ap_ctrl_hs, max_pooling2d.1, return value</column>
-<column name="grp_fu_788_p_din1">out, 32, ap_ctrl_hs, max_pooling2d.1, return value</column>
-<column name="grp_fu_788_p_opcode">out, 5, ap_ctrl_hs, max_pooling2d.1, return value</column>
-<column name="grp_fu_788_p_dout0">in, 1, ap_ctrl_hs, max_pooling2d.1, return value</column>
-<column name="grp_fu_788_p_ce">out, 1, ap_ctrl_hs, max_pooling2d.1, return value</column>
-<column name="grp_fu_1839_p_din0">out, 32, ap_ctrl_hs, max_pooling2d.1, return value</column>
-<column name="grp_fu_1839_p_din1">out, 32, ap_ctrl_hs, max_pooling2d.1, return value</column>
-<column name="grp_fu_1839_p_opcode">out, 5, ap_ctrl_hs, max_pooling2d.1, return value</column>
-<column name="grp_fu_1839_p_dout0">in, 1, ap_ctrl_hs, max_pooling2d.1, return value</column>
-<column name="grp_fu_1839_p_ce">out, 1, ap_ctrl_hs, max_pooling2d.1, return value</column>
+<column name="grp_fu_1083_p_din0">out, 32, ap_ctrl_hs, max_pooling2d.1, return value</column>
+<column name="grp_fu_1083_p_din1">out, 32, ap_ctrl_hs, max_pooling2d.1, return value</column>
+<column name="grp_fu_1083_p_opcode">out, 5, ap_ctrl_hs, max_pooling2d.1, return value</column>
+<column name="grp_fu_1083_p_dout0">in, 1, ap_ctrl_hs, max_pooling2d.1, return value</column>
+<column name="grp_fu_1083_p_ce">out, 1, ap_ctrl_hs, max_pooling2d.1, return value</column>
+<column name="grp_fu_2720_p_din0">out, 32, ap_ctrl_hs, max_pooling2d.1, return value</column>
+<column name="grp_fu_2720_p_din1">out, 32, ap_ctrl_hs, max_pooling2d.1, return value</column>
+<column name="grp_fu_2720_p_opcode">out, 5, ap_ctrl_hs, max_pooling2d.1, return value</column>
+<column name="grp_fu_2720_p_dout0">in, 1, ap_ctrl_hs, max_pooling2d.1, return value</column>
+<column name="grp_fu_2720_p_ce">out, 1, ap_ctrl_hs, max_pooling2d.1, return value</column>
 <column name="input_r_address0">out, 12, ap_memory, input_r, array</column>
 <column name="input_r_ce0">out, 1, ap_memory, input_r, array</column>
 <column name="input_r_q0">in, 32, ap_memory, input_r, array</column>

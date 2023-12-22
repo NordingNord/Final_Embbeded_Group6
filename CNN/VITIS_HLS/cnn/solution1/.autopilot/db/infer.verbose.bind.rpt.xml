@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'infer'" level="0">
-<item name = "Date">Fri Dec 22 00:44:01 2023
+<item name = "Date">Fri Dec 22 01:03:26 2023
 </item>
 <item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)</item>
 <item name = "Project">cnn</item>
@@ -24,26 +24,25 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">4054532, 4054532, 48.800 ms, 48.800 ms, 4054533, 4054533, none</column>
+<column name="">4054570, 4054570, 48.801 ms, 48.801 ms, 4054571, 4054571, none</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_dense_relu_fu_670">dense_relu, 317, 317, 3.815 us, 3.815 us, 317, 317, none</column>
-<column name="grp_conv2d_2_fu_685">conv2d_2, 820865, 820865, 9.880 ms, 9.880 ms, 820865, 820865, none</column>
-<column name="grp_conv2d_1_fu_695">conv2d_1, 3037825, 3037825, 36.563 ms, 36.563 ms, 3037825, 3037825, none</column>
-<column name="grp_conv2d_fu_705">conv2d, 149633, 149633, 1.801 ms, 1.801 ms, 149633, 149633, none</column>
-<column name="grp_max_pooling2d_2_fu_715">max_pooling2d_2, 7753, 7753, 93.315 us, 93.315 us, 7753, 7753, none</column>
-<column name="grp_max_pooling2d_1_fu_721">max_pooling2d_1, 1032, 1032, 12.421 us, 12.421 us, 1032, 1032, none</column>
-<column name="grp_max_pooling2d_fu_727">max_pooling2d, 72, 72, 0.867 us, 0.867 us, 72, 72, none</column>
-<column name="grp_set3DFloatArray_5_fu_733">set3DFloatArray_5, 15492, 15492, 0.186 ms, 0.186 ms, 15492, 15492, none</column>
-<column name="grp_set3DFloatArray_3_fu_738">set3DFloatArray_3, 2594, 2594, 31.221 us, 31.221 us, 2594, 2594, none</column>
-<column name="grp_set3DFloatArray_4_fu_743">set3DFloatArray_4, 3876, 3876, 46.652 us, 46.652 us, 3876, 3876, none</column>
-<column name="grp_set3DFloatArray_2_fu_748">set3DFloatArray_2, 514, 514, 6.187 us, 6.187 us, 514, 514, none</column>
-<column name="grp_set3DFloatArray_1_fu_753">set3DFloatArray_1, 130, 130, 1.565 us, 1.565 us, 130, 130, none</column>
-<column name="grp_set3DFloatArray_fu_758">set3DFloatArray, 34, 34, 0.409 us, 0.409 us, 34, 34, none</column>
+<column name="grp_conv2d_2_fu_979">conv2d_2, 820865, 820865, 9.880 ms, 9.880 ms, 820865, 820865, none</column>
+<column name="grp_conv2d_1_fu_989">conv2d_1, 3037825, 3037825, 36.563 ms, 36.563 ms, 3037825, 3037825, none</column>
+<column name="grp_conv2d_fu_999">conv2d, 149633, 149633, 1.801 ms, 1.801 ms, 149633, 149633, none</column>
+<column name="grp_max_pooling2d_2_fu_1009">max_pooling2d_2, 7753, 7753, 93.315 us, 93.315 us, 7753, 7753, none</column>
+<column name="grp_max_pooling2d_1_fu_1015">max_pooling2d_1, 1032, 1032, 12.421 us, 12.421 us, 1032, 1032, none</column>
+<column name="grp_max_pooling2d_fu_1021">max_pooling2d, 72, 72, 0.867 us, 0.867 us, 72, 72, none</column>
+<column name="grp_set3DFloatArray_5_fu_1027">set3DFloatArray_5, 15492, 15492, 0.186 ms, 0.186 ms, 15492, 15492, none</column>
+<column name="grp_set3DFloatArray_3_fu_1032">set3DFloatArray_3, 2594, 2594, 31.221 us, 31.221 us, 2594, 2594, none</column>
+<column name="grp_set3DFloatArray_4_fu_1037">set3DFloatArray_4, 3876, 3876, 46.652 us, 46.652 us, 3876, 3876, none</column>
+<column name="grp_set3DFloatArray_2_fu_1042">set3DFloatArray_2, 514, 514, 6.187 us, 6.187 us, 514, 514, none</column>
+<column name="grp_set3DFloatArray_1_fu_1047">set3DFloatArray_1, 130, 130, 1.565 us, 1.565 us, 130, 130, none</column>
+<column name="grp_set3DFloatArray_fu_1052">set3DFloatArray, 34, 34, 0.409 us, 0.409 us, 34, 34, none</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
@@ -60,7 +59,8 @@
 <column name="- VITIS_LOOP_157_1">2304, 2304, 144, -, -, 16, no</column>
 <column name=" + VITIS_LOOP_159_2">140, 140, 17, 4, 1, 32, yes</column>
 <column name="- VITIS_LOOP_22_1">4, 4, 1, 1, 1, 4, yes</column>
-<column name="- VITIS_LOOP_298_2">4, 4, 2, 1, 1, 4, yes</column>
+<column name="- VITIS_LOOP_178_1">346, 346, 90, 84, 1, 4, yes</column>
+<column name="- VITIS_LOOP_302_2">4, 4, 2, 1, 1, 4, yes</column>
 </table>
 </item>
 </section>

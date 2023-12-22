@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'infer'" level="0">
-<item name = "Date">Fri Dec 22 00:43:56 2023
+<item name = "Date">Fri Dec 22 01:03:22 2023
 </item>
 <item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)</item>
 <item name = "Project">cnn</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">4054532, 4054532, 48.800 ms, 48.800 ms, 4054533, 4054533, none</column>
+<column name="">4054570, 4054570, 48.801 ms, 48.801 ms, 4054571, 4054571, none</column>
 </table>
 </item>
 <item name = "Detail">
@@ -47,7 +47,8 @@
 <column name="- VITIS_LOOP_157_1">2304, 2304, 144, -, -, 16, no</column>
 <column name=" + VITIS_LOOP_159_2">140, 140, 17, 4, 1, 32, yes</column>
 <column name="- VITIS_LOOP_22_1">4, 4, 1, 1, 1, 4, yes</column>
-<column name="- VITIS_LOOP_298_2">4, 4, 2, 1, 1, 4, yes</column>
+<column name="- VITIS_LOOP_178_1">346, 346, 90, 84, 1, 4, yes</column>
+<column name="- VITIS_LOOP_302_2">4, 4, 2, 1, 1, 4, yes</column>
 </table>
 </item>
 </section>

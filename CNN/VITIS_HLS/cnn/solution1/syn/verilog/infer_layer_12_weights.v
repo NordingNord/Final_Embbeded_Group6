@@ -3,7 +3,7 @@
 // Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // ==============================================================
 `timescale 1 ns / 1 ps
-module infer_dense_relu_layer_12_weights_rom (
+module infer_layer_12_weights_rom (
 addr0, ce0, q0, clk);
 
 parameter DWIDTH = 32;
@@ -18,7 +18,7 @@ input clk;
 reg [DWIDTH-1:0] ram[0:MEM_SIZE-1];
 
 initial begin
-    $readmemh("./infer_dense_relu_layer_12_weights_rom.dat", ram);
+    $readmemh("./infer_layer_12_weights_rom.dat", ram);
 end
 
 
@@ -36,7 +36,7 @@ end
 endmodule
 
 `timescale 1 ns / 1 ps
-module infer_dense_relu_layer_12_weights(
+module infer_layer_12_weights(
     reset,
     clk,
     address0,
@@ -54,7 +54,7 @@ output[DataWidth - 1:0] q0;
 
 
 
-infer_dense_relu_layer_12_weights_rom infer_dense_relu_layer_12_weights_rom_U(
+infer_layer_12_weights_rom infer_layer_12_weights_rom_U(
     .clk( clk ),
     .addr0( address0 ),
     .ce0( ce0 ),

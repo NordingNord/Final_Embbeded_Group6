@@ -58,7 +58,7 @@ wire   [0:0] xor_ln8_fu_107_p2;
 wire   [0:0] and_ln8_fu_119_p2;
 wire   [0:0] or_ln10_fu_125_p2;
 wire   [5:0] select_ln10_fu_131_p3;
-wire   [4:0] empty_32_fu_139_p1;
+wire   [4:0] empty_33_fu_139_p1;
 wire   [6:0] add_ln10_fu_154_p2;
 wire    ap_CS_fsm_state3;
 reg   [2:0] ap_NS_fsm;
@@ -184,7 +184,7 @@ assign array_r_address0 = zext_ln14_fu_143_p1;
 
 assign array_r_d0 = 32'd0;
 
-assign empty_32_fu_139_p1 = select_ln10_fu_131_p3[4:0];
+assign empty_33_fu_139_p1 = select_ln10_fu_131_p3[4:0];
 
 assign icmp_ln10_fu_101_p2 = ((indvar_flatten_reg_67 == 7'd32) ? 1'b1 : 1'b0);
 
@@ -200,6 +200,6 @@ assign select_ln10_fu_131_p3 = ((or_ln10_fu_125_p2[0:0] == 1'b1) ? 6'd0 : iii_re
 
 assign xor_ln8_fu_107_p2 = (icmp_ln10_fu_101_p2 ^ 1'd1);
 
-assign zext_ln14_fu_143_p1 = empty_32_fu_139_p1;
+assign zext_ln14_fu_143_p1 = empty_33_fu_139_p1;
 
 endmodule //infer_set3DFloatArray

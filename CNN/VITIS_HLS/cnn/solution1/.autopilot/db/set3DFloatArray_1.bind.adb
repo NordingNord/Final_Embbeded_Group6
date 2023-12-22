@@ -135,7 +135,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1</coreId>
+						<coreId>113</coreId>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
@@ -247,7 +247,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>113</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
@@ -303,7 +303,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>113</coreId>
+						<coreId>93311392</coreId>
 					</Obj>
 					<bitwidth>2</bitwidth>
 				</Value>
@@ -359,7 +359,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1119607272</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -469,7 +469,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>132</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -522,7 +522,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>46</coreId>
+						<coreId>4294901822</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -577,7 +577,7 @@
 						<opType>icmp</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>84</coreId>
+						<coreId>1521</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -631,7 +631,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>49</coreId>
+						<coreId>1</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -686,7 +686,7 @@
 						<opType>icmp</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>14</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -850,7 +850,7 @@
 						<opType>xor</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4228300630</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -904,7 +904,7 @@
 						<opType>icmp</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1489</coreId>
+						<coreId>93390592</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -958,7 +958,7 @@
 						<opType>and</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -1254,7 +1254,7 @@
 					<Obj>
 						<type>0</type>
 						<id>31</id>
-						<name>empty_31</name>
+						<name>empty_32</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
 						<lineNumber>10</lineNumber>
@@ -1284,7 +1284,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1120184792</coreId>
+						<coreId>1601</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -1337,7 +1337,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>132</coreId>
+						<coreId>92688121</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -1447,7 +1447,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1601</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>7</bitwidth>
 				</Value>
@@ -1555,7 +1555,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>49</coreId>
+						<coreId>92591545</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -1608,7 +1608,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>152</coreId>
 					</Obj>
 					<bitwidth>7</bitwidth>
 				</Value>
@@ -1717,7 +1717,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1120315152</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -1770,7 +1770,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>7</bitwidth>
 				</Value>
@@ -2028,7 +2028,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>49</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -2081,7 +2081,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>738197632</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -2123,7 +2123,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2712613</coreId>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
@@ -2151,7 +2151,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>273</coreId>
 					</Obj>
 					<bitwidth>2</bitwidth>
 				</Value>
@@ -2179,7 +2179,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>217</coreId>
+						<coreId>273</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -2207,7 +2207,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>132</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
@@ -2235,7 +2235,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2001</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>5</bitwidth>
 				</Value>
@@ -2263,7 +2263,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>93821552</coreId>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
@@ -2291,7 +2291,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1120473584</coreId>
+						<coreId>738197632</coreId>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
@@ -2319,7 +2319,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2001</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -2347,7 +2347,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1120466160</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -2375,7 +2375,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1120447728</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>2</bitwidth>
 				</Value>
@@ -2403,7 +2403,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2001</coreId>
+						<coreId>1969</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -2431,7 +2431,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1120411840</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2459,7 +2459,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>132</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -2518,7 +2518,7 @@
 					<opType></opType>
 					<implIndex></implIndex>
 					<coreName></coreName>
-					<coreId>1121253696</coreId>
+					<coreId>738197632</coreId>
 				</Obj>
 				<node_objs>
 					<count>10</count>
@@ -2555,7 +2555,7 @@
 					<opType></opType>
 					<implIndex></implIndex>
 					<coreName></coreName>
-					<coreId>1811939456</coreId>
+					<coreId>49</coreId>
 				</Obj>
 				<node_objs>
 					<count>26</count>
@@ -2608,7 +2608,7 @@
 					<opType></opType>
 					<implIndex></implIndex>
 					<coreName></coreName>
-					<coreId>0</coreId>
+					<coreId>94518104</coreId>
 				</Obj>
 				<node_objs>
 					<count>1</count>
@@ -4334,7 +4334,7 @@
 			</second>
 		</item>
 		<item>
-			<first>empty_31_fu_221</first>
+			<first>empty_32_fu_221</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>

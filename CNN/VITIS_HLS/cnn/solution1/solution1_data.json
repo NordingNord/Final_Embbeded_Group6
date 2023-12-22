@@ -55,7 +55,7 @@
     "Uncertainty": "2.7",
     "IsCombinational": "0",
     "II": "x",
-    "Latency": "4054532"
+    "Latency": "4054570"
   },
   "Xdc": {"OocClocks": ["create_clock -name ap_clk -period 10.000 [get_ports ap_clk]"]},
   "Ipx": {
@@ -82,8 +82,6 @@
       "impl\/vhdl\/infer_conv2d_2_layer_2_weights.vhd",
       "impl\/vhdl\/infer_conv2d_layer_6_bias.vhd",
       "impl\/vhdl\/infer_conv2d_layer_6_weights.vhd",
-      "impl\/vhdl\/infer_dense_relu.vhd",
-      "impl\/vhdl\/infer_dense_relu_layer_12_weights.vhd",
       "impl\/vhdl\/infer_fadd_32ns_32ns_32_5_full_dsp_1.vhd",
       "impl\/vhdl\/infer_fcmp_32ns_32ns_1_2_no_dsp_1.vhd",
       "impl\/vhdl\/infer_fdiv_32ns_32ns_32_10_no_dsp_1.vhd",
@@ -103,6 +101,7 @@
       "impl\/vhdl\/infer_layer_11_bias.vhd",
       "impl\/vhdl\/infer_layer_11_output.vhd",
       "impl\/vhdl\/infer_layer_11_weights.vhd",
+      "impl\/vhdl\/infer_layer_12_weights.vhd",
       "impl\/vhdl\/infer_mac_muladd_4ns_5ns_4ns_7_4_1.vhd",
       "impl\/vhdl\/infer_mac_muladd_4ns_10ns_6ns_12_4_1.vhd",
       "impl\/vhdl\/infer_max_pooling2d.vhd",
@@ -137,9 +136,6 @@
       "impl\/verilog\/infer_conv2d_layer_6_bias_rom.dat",
       "impl\/verilog\/infer_conv2d_layer_6_weights.v",
       "impl\/verilog\/infer_conv2d_layer_6_weights_rom.dat",
-      "impl\/verilog\/infer_dense_relu.v",
-      "impl\/verilog\/infer_dense_relu_layer_12_weights.v",
-      "impl\/verilog\/infer_dense_relu_layer_12_weights_rom.dat",
       "impl\/verilog\/infer_fadd_32ns_32ns_32_5_full_dsp_1.v",
       "impl\/verilog\/infer_fcmp_32ns_32ns_1_2_no_dsp_1.v",
       "impl\/verilog\/infer_fdiv_32ns_32ns_32_10_no_dsp_1.v",
@@ -165,6 +161,8 @@
       "impl\/verilog\/infer_layer_11_output.v",
       "impl\/verilog\/infer_layer_11_weights.v",
       "impl\/verilog\/infer_layer_11_weights_rom.dat",
+      "impl\/verilog\/infer_layer_12_weights.v",
+      "impl\/verilog\/infer_layer_12_weights_rom.dat",
       "impl\/verilog\/infer_mac_muladd_4ns_5ns_4ns_7_4_1.v",
       "impl\/verilog\/infer_mac_muladd_4ns_10ns_6ns_12_4_1.v",
       "impl\/verilog\/infer_max_pooling2d.v",
@@ -362,56 +360,52 @@
       "ModuleName": "infer",
       "Instances": [
         {
-          "ModuleName": "dense_relu",
-          "InstanceName": "grp_dense_relu_fu_670"
-        },
-        {
           "ModuleName": "conv2d_2",
-          "InstanceName": "grp_conv2d_2_fu_685"
+          "InstanceName": "grp_conv2d_2_fu_979"
         },
         {
           "ModuleName": "conv2d_1",
-          "InstanceName": "grp_conv2d_1_fu_695"
+          "InstanceName": "grp_conv2d_1_fu_989"
         },
         {
           "ModuleName": "conv2d",
-          "InstanceName": "grp_conv2d_fu_705"
+          "InstanceName": "grp_conv2d_fu_999"
         },
         {
           "ModuleName": "max_pooling2d_2",
-          "InstanceName": "grp_max_pooling2d_2_fu_715"
+          "InstanceName": "grp_max_pooling2d_2_fu_1009"
         },
         {
           "ModuleName": "max_pooling2d_1",
-          "InstanceName": "grp_max_pooling2d_1_fu_721"
+          "InstanceName": "grp_max_pooling2d_1_fu_1015"
         },
         {
           "ModuleName": "max_pooling2d",
-          "InstanceName": "grp_max_pooling2d_fu_727"
+          "InstanceName": "grp_max_pooling2d_fu_1021"
         },
         {
           "ModuleName": "set3DFloatArray_5",
-          "InstanceName": "grp_set3DFloatArray_5_fu_733"
+          "InstanceName": "grp_set3DFloatArray_5_fu_1027"
         },
         {
           "ModuleName": "set3DFloatArray_3",
-          "InstanceName": "grp_set3DFloatArray_3_fu_738"
+          "InstanceName": "grp_set3DFloatArray_3_fu_1032"
         },
         {
           "ModuleName": "set3DFloatArray_4",
-          "InstanceName": "grp_set3DFloatArray_4_fu_743"
+          "InstanceName": "grp_set3DFloatArray_4_fu_1037"
         },
         {
           "ModuleName": "set3DFloatArray_2",
-          "InstanceName": "grp_set3DFloatArray_2_fu_748"
+          "InstanceName": "grp_set3DFloatArray_2_fu_1042"
         },
         {
           "ModuleName": "set3DFloatArray_1",
-          "InstanceName": "grp_set3DFloatArray_1_fu_753"
+          "InstanceName": "grp_set3DFloatArray_1_fu_1047"
         },
         {
           "ModuleName": "set3DFloatArray",
-          "InstanceName": "grp_set3DFloatArray_fu_758"
+          "InstanceName": "grp_set3DFloatArray_fu_1052"
         }
       ]
     },
@@ -494,13 +488,6 @@
         "isOneStateSeq": "0"
       },
       "max_pooling2d": {
-        "FunctionProtocol": "ap_ctrl_hs",
-        "isTaskLevelControl": "0",
-        "isPipelined": "0",
-        "isCombinational": "0",
-        "isOneStateSeq": "0"
-      },
-      "dense_relu": {
         "FunctionProtocol": "ap_ctrl_hs",
         "isTaskLevelControl": "0",
         "isPipelined": "0",
@@ -1005,58 +992,12 @@
           "UTIL_URAM": "0"
         }
       },
-      "dense_relu": {
-        "Latency": {
-          "LatencyBest": "317",
-          "LatencyAvg": "317",
-          "LatencyWorst": "317",
-          "PipelineII": "317",
-          "PipelineDepth": "",
-          "PipelineType": "none"
-        },
-        "Timing": {
-          "Target": "10.00",
-          "Uncertainty": "2.70",
-          "Estimate": "12.036"
-        },
-        "Loops": [{
-            "Name": "VITIS_LOOP_157_1",
-            "TripCount": "4",
-            "Latency": "316",
-            "PipelineII": "",
-            "PipelineDepth": "79",
-            "Loops": [{
-                "Name": "VITIS_LOOP_159_2",
-                "TripCount": "16",
-                "Latency": "69",
-                "PipelineII": "4",
-                "PipelineDepth": "10"
-              }]
-          }],
-        "Area": {
-          "BRAM_18K": "1",
-          "AVAIL_BRAM": "432",
-          "UTIL_BRAM": "~0",
-          "FF": "586",
-          "AVAIL_FF": "141120",
-          "UTIL_FF": "~0",
-          "LUT": "1030",
-          "AVAIL_LUT": "70560",
-          "UTIL_LUT": "1",
-          "DSP": "0",
-          "AVAIL_DSP": "360",
-          "UTIL_DSP": "0",
-          "URAM": "0",
-          "AVAIL_URAM": "0",
-          "UTIL_URAM": "0"
-        }
-      },
       "infer": {
         "Latency": {
-          "LatencyBest": "4054532",
-          "LatencyAvg": "4054532",
-          "LatencyWorst": "4054532",
-          "PipelineII": "4054533",
+          "LatencyBest": "4054570",
+          "LatencyAvg": "4054570",
+          "LatencyWorst": "4054570",
+          "PipelineII": "4054571",
           "PipelineDepth": "",
           "PipelineType": "none"
         },
@@ -1151,7 +1092,14 @@
             "PipelineDepth": "1"
           },
           {
-            "Name": "VITIS_LOOP_298_2",
+            "Name": "VITIS_LOOP_178_1",
+            "TripCount": "4",
+            "Latency": "346",
+            "PipelineII": "84",
+            "PipelineDepth": "90"
+          },
+          {
+            "Name": "VITIS_LOOP_302_2",
             "TripCount": "4",
             "Latency": "4",
             "PipelineII": "1",
@@ -1165,10 +1113,10 @@
           "DSP": "8",
           "AVAIL_DSP": "360",
           "UTIL_DSP": "2",
-          "FF": "6155",
+          "FF": "6456",
           "AVAIL_FF": "141120",
           "UTIL_FF": "4",
-          "LUT": "11790",
+          "LUT": "11488",
           "AVAIL_LUT": "70560",
           "UTIL_LUT": "16",
           "URAM": "0",
@@ -1181,7 +1129,7 @@
   "GenerateBdFiles": "0",
   "GenData": {
     "DataVersion": "0.2",
-    "Time": "2023-12-22 00:44:25 CET",
+    "Time": "2023-12-22 01:03:50 CET",
     "ToolName": "vivado_hls",
     "ToolVersion": "2020.2"
   }

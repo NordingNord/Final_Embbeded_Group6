@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'conv2d'
 ================================================================
-* Date:           Fri Dec 22 00:44:09 2023
+* Date:           Fri Dec 22 01:03:35 2023
 
 * Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)
 * Project:        cnn
@@ -109,7 +109,7 @@
     |add_ln95_fu_747_p2                |         +|   0|  0|  10|           3|           1|
     |add_ln98_3_fu_731_p2              |         +|   0|  0|  21|          14|          14|
     |add_ln98_fu_720_p2                |         +|   0|  0|  16|           9|           9|
-    |empty_74_fu_311_p2                |         +|   0|  0|   2|           2|           2|
+    |empty_71_fu_311_p2                |         +|   0|  0|   2|           2|           2|
     |indvars_iv_next34_dup_fu_594_p2   |         +|   0|  0|  10|           3|           1|
     |indvars_iv_next34_fu_484_p2       |         +|   0|  0|  10|           3|           1|
     |indvars_iv_next34_mid1_fu_631_p2  |         +|   0|  0|  10|           3|           2|
@@ -121,7 +121,7 @@
     |and_ln49_fu_811_p2                |       and|   0|  0|   2|           1|           1|
     |and_ln71_fu_375_p2                |       and|   0|  0|   2|           1|           1|
     |and_ln83_fu_588_p2                |       and|   0|  0|   2|           1|           1|
-    |icmp_ln49_9_fu_799_p2             |      icmp|   0|  0|  16|          23|           1|
+    |icmp_ln49_8_fu_799_p2             |      icmp|   0|  0|  16|          23|           1|
     |icmp_ln49_fu_793_p2               |      icmp|   0|  0|  11|           8|           2|
     |icmp_ln71_fu_317_p2               |      icmp|   0|  0|  11|           8|           9|
     |icmp_ln74_fu_323_p2               |      icmp|   0|  0|  11|           8|           7|
@@ -241,36 +241,36 @@
 == Interface
 ================================================================
 * Summary: 
-+---------------------+-----+-----+------------+--------------+--------------+
-|      RTL Ports      | Dir | Bits|  Protocol  | Source Object|    C Type    |
-+---------------------+-----+-----+------------+--------------+--------------+
-|ap_clk               |   in|    1|  ap_ctrl_hs|        conv2d|  return value|
-|ap_rst               |   in|    1|  ap_ctrl_hs|        conv2d|  return value|
-|ap_start             |   in|    1|  ap_ctrl_hs|        conv2d|  return value|
-|ap_done              |  out|    1|  ap_ctrl_hs|        conv2d|  return value|
-|ap_idle              |  out|    1|  ap_ctrl_hs|        conv2d|  return value|
-|ap_ready             |  out|    1|  ap_ctrl_hs|        conv2d|  return value|
-|grp_fu_763_p_din0    |  out|   32|  ap_ctrl_hs|        conv2d|  return value|
-|grp_fu_763_p_din1    |  out|   32|  ap_ctrl_hs|        conv2d|  return value|
-|grp_fu_763_p_opcode  |  out|    2|  ap_ctrl_hs|        conv2d|  return value|
-|grp_fu_763_p_dout0   |   in|   32|  ap_ctrl_hs|        conv2d|  return value|
-|grp_fu_763_p_ce      |  out|    1|  ap_ctrl_hs|        conv2d|  return value|
-|grp_fu_770_p_din0    |  out|   32|  ap_ctrl_hs|        conv2d|  return value|
-|grp_fu_770_p_din1    |  out|   32|  ap_ctrl_hs|        conv2d|  return value|
-|grp_fu_770_p_dout0   |   in|   32|  ap_ctrl_hs|        conv2d|  return value|
-|grp_fu_770_p_ce      |  out|    1|  ap_ctrl_hs|        conv2d|  return value|
-|grp_fu_788_p_din0    |  out|   32|  ap_ctrl_hs|        conv2d|  return value|
-|grp_fu_788_p_din1    |  out|   32|  ap_ctrl_hs|        conv2d|  return value|
-|grp_fu_788_p_opcode  |  out|    5|  ap_ctrl_hs|        conv2d|  return value|
-|grp_fu_788_p_dout0   |   in|    1|  ap_ctrl_hs|        conv2d|  return value|
-|grp_fu_788_p_ce      |  out|    1|  ap_ctrl_hs|        conv2d|  return value|
-|input_r_address0     |  out|    9|   ap_memory|       input_r|         array|
-|input_r_ce0          |  out|    1|   ap_memory|       input_r|         array|
-|input_r_q0           |   in|   32|   ap_memory|       input_r|         array|
-|output_r_address0    |  out|    7|   ap_memory|      output_r|         array|
-|output_r_ce0         |  out|    1|   ap_memory|      output_r|         array|
-|output_r_we0         |  out|    1|   ap_memory|      output_r|         array|
-|output_r_d0          |  out|   32|   ap_memory|      output_r|         array|
-|output_r_q0          |   in|   32|   ap_memory|      output_r|         array|
-+---------------------+-----+-----+------------+--------------+--------------+
++----------------------+-----+-----+------------+--------------+--------------+
+|       RTL Ports      | Dir | Bits|  Protocol  | Source Object|    C Type    |
++----------------------+-----+-----+------------+--------------+--------------+
+|ap_clk                |   in|    1|  ap_ctrl_hs|        conv2d|  return value|
+|ap_rst                |   in|    1|  ap_ctrl_hs|        conv2d|  return value|
+|ap_start              |   in|    1|  ap_ctrl_hs|        conv2d|  return value|
+|ap_done               |  out|    1|  ap_ctrl_hs|        conv2d|  return value|
+|ap_idle               |  out|    1|  ap_ctrl_hs|        conv2d|  return value|
+|ap_ready              |  out|    1|  ap_ctrl_hs|        conv2d|  return value|
+|grp_fu_1057_p_din0    |  out|   32|  ap_ctrl_hs|        conv2d|  return value|
+|grp_fu_1057_p_din1    |  out|   32|  ap_ctrl_hs|        conv2d|  return value|
+|grp_fu_1057_p_opcode  |  out|    2|  ap_ctrl_hs|        conv2d|  return value|
+|grp_fu_1057_p_dout0   |   in|   32|  ap_ctrl_hs|        conv2d|  return value|
+|grp_fu_1057_p_ce      |  out|    1|  ap_ctrl_hs|        conv2d|  return value|
+|grp_fu_1064_p_din0    |  out|   32|  ap_ctrl_hs|        conv2d|  return value|
+|grp_fu_1064_p_din1    |  out|   32|  ap_ctrl_hs|        conv2d|  return value|
+|grp_fu_1064_p_dout0   |   in|   32|  ap_ctrl_hs|        conv2d|  return value|
+|grp_fu_1064_p_ce      |  out|    1|  ap_ctrl_hs|        conv2d|  return value|
+|grp_fu_1083_p_din0    |  out|   32|  ap_ctrl_hs|        conv2d|  return value|
+|grp_fu_1083_p_din1    |  out|   32|  ap_ctrl_hs|        conv2d|  return value|
+|grp_fu_1083_p_opcode  |  out|    5|  ap_ctrl_hs|        conv2d|  return value|
+|grp_fu_1083_p_dout0   |   in|    1|  ap_ctrl_hs|        conv2d|  return value|
+|grp_fu_1083_p_ce      |  out|    1|  ap_ctrl_hs|        conv2d|  return value|
+|input_r_address0      |  out|    9|   ap_memory|       input_r|         array|
+|input_r_ce0           |  out|    1|   ap_memory|       input_r|         array|
+|input_r_q0            |   in|   32|   ap_memory|       input_r|         array|
+|output_r_address0     |  out|    7|   ap_memory|      output_r|         array|
+|output_r_ce0          |  out|    1|   ap_memory|      output_r|         array|
+|output_r_we0          |  out|    1|   ap_memory|      output_r|         array|
+|output_r_d0           |  out|   32|   ap_memory|      output_r|         array|
+|output_r_q0           |   in|   32|   ap_memory|      output_r|         array|
++----------------------+-----+-----+------------+--------------+--------------+
 

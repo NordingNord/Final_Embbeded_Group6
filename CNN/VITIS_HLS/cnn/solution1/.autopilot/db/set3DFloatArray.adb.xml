@@ -339,10 +339,10 @@
 
 <Node id="23" bw="5" op_0_bw="6">
 <![CDATA[
-._crit_edge7.loopexit:11 %empty_32 = trunc i6 %select_ln10
+._crit_edge7.loopexit:11 %empty_33 = trunc i6 %select_ln10
 
 ]]></Node>
-<StgValue><ssdm name="empty_32"/></StgValue>
+<StgValue><ssdm name="empty_33"/></StgValue>
 </operation>
 
 <operation id="24" st_id="2" stage="1" lat="1">
@@ -355,7 +355,7 @@
 
 <Node id="24" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-._crit_edge7.loopexit:12 %specloopname_ln12 = specloopname void @_ssdm_op_SpecLoopName, void @empty
+._crit_edge7.loopexit:12 %specloopname_ln12 = specloopname void @_ssdm_op_SpecLoopName, void @empty_8
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln12"/></StgValue>
@@ -371,7 +371,7 @@
 
 <Node id="25" bw="64" op_0_bw="5">
 <![CDATA[
-._crit_edge7.loopexit:13 %zext_ln14 = zext i5 %empty_32
+._crit_edge7.loopexit:13 %zext_ln14 = zext i5 %empty_33
 
 ]]></Node>
 <StgValue><ssdm name="zext_ln14"/></StgValue>
@@ -642,13 +642,13 @@
 </dataflow>
 <dataflow id="111" from="p_str" to="specpipeline_ln0" fromId="66" toId="22">
 </dataflow>
-<dataflow id="112" from="select_ln10" to="empty_32" fromId="21" toId="23">
+<dataflow id="112" from="select_ln10" to="empty_33" fromId="21" toId="23">
 </dataflow>
 <dataflow id="113" from="_ssdm_op_SpecLoopName" to="specloopname_ln12" fromId="72" toId="24">
 </dataflow>
-<dataflow id="115" from="empty" to="specloopname_ln12" fromId="114" toId="24">
+<dataflow id="115" from="empty_8" to="specloopname_ln12" fromId="114" toId="24">
 </dataflow>
-<dataflow id="116" from="empty_32" to="zext_ln14" fromId="23" toId="25">
+<dataflow id="116" from="empty_33" to="zext_ln14" fromId="23" toId="25">
 </dataflow>
 <dataflow id="117" from="array_r" to="array_addr" fromId="39" toId="26">
 </dataflow>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1703202251364">
-  <ports id="1" name="input_r" type="PortType" originalName="input" coreName="RAM" coreId="0" bitwidth="32" iftype="IfTypeRegister" arraysize="128">
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1703203417453">
+  <ports id="1" name="input_r" type="PortType" originalName="input" coreName="RAM" coreId="738197632" bitwidth="32" iftype="IfTypeRegister" arraysize="128">
     <dataOutputObjs>getelementptr</dataOutputObjs>
     <dataOutputObjs>getelementptr</dataOutputObjs>
     <dataOutputObjs>getelementptr</dataOutputObjs>
     <dataOutputObjs>getelementptr</dataOutputObjs>
   </ports>
-  <ports id="2" name="output_r" type="PortType" originalName="output" coreName="RAM" coreId="129" bitwidth="32" direction="DirOut" iftype="IfTypeRegister" arraysize="32">
+  <ports id="2" name="output_r" type="PortType" originalName="output" coreName="RAM" coreId="1747936114" bitwidth="32" direction="DirOut" iftype="IfTypeRegister" arraysize="32">
     <dataInputObjs>getelementptr</dataInputObjs>
   </ports>
   <edges id="129" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@blocks.0/@node_objs.0"/>
@@ -203,7 +203,7 @@
   <blocks id="128" name="block_128" type="BlockType">
     <controlInputObjs>block_18</controlInputObjs>
     <controlOutputObjs>br</controlOutputObjs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="127" name="_ln146" lineNumber="146" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="10" contextFuncName="max_pooling2d" opcode="ret" nodeLabel="10.0" m_display="0" m_topoIndex="115" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="127" name="_ln146" lineNumber="146" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="0" contextFuncName="max_pooling2d" opcode="ret" nodeLabel="10.0" m_display="0" m_topoIndex="115" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="146" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
     </node_objs>
     <fileValidLineNumbers fileName="../src/hls/cnn.cpp">
@@ -268,36 +268,36 @@
         <dataOutputObjs>bitselect</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="11" name="trunc_ln136" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="trunc_ln136_fu_328_p1" coreId="1123831872" contextFuncName="max_pooling2d" bitwidth="1" opcode="trunc" nodeLabel="4.0" m_display="0" m_topoIndex="36" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="11" name="trunc_ln136" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="trunc_ln136_fu_328_p1" coreId="62" contextFuncName="max_pooling2d" bitwidth="1" opcode="trunc" nodeLabel="4.0" m_display="0" m_topoIndex="36" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>xor</dataInputObjs>
         <dataOutputObjs>bitconcatenate</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="12" name="shl_ln" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="shl_ln_fu_332_p3" coreId="209" contextFuncName="max_pooling2d" bitwidth="6" opcode="bitconcatenate" nodeLabel="4.0" m_display="0" m_topoIndex="37" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="12" name="shl_ln" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="shl_ln_fu_332_p3" coreId="132" contextFuncName="max_pooling2d" bitwidth="6" opcode="bitconcatenate" nodeLabel="4.0" m_display="0" m_topoIndex="37" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>trunc</dataInputObjs>
         <dataOutputObjs>select</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="13" name="or_ln136_3" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln136_3_fu_340_p2" coreId="225" contextFuncName="max_pooling2d" bitwidth="2" opcode="or" nodeLabel="4.0" m_display="0" m_topoIndex="38" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="13" name="or_ln136_3" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln136_3_fu_340_p2" coreId="1684955424" contextFuncName="max_pooling2d" bitwidth="2" opcode="or" nodeLabel="4.0" m_display="0" m_topoIndex="38" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>xor</dataInputObjs>
         <dataOutputObjs>bitconcatenate</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="14" name="shl_ln136_5" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="shl_ln136_5_fu_346_p3" coreId="1122813264" contextFuncName="max_pooling2d" bitwidth="7" opcode="bitconcatenate" nodeLabel="4.0" m_display="0" m_topoIndex="39" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="14" name="shl_ln136_5" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="shl_ln136_5_fu_346_p3" coreId="273" contextFuncName="max_pooling2d" bitwidth="7" opcode="bitconcatenate" nodeLabel="4.0" m_display="0" m_topoIndex="39" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>or</dataInputObjs>
         <dataOutputObjs>select</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="16" name="icmp_ln121" lineNumber="121" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln121_fu_188_p2" opType="icmp" coreId="1684955424" contextFuncName="max_pooling2d" bitwidth="1" opcode="icmp" nodeLabel="1.0" m_display="0" m_delay="0.87" m_topoIndex="5" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="16" name="icmp_ln121" lineNumber="121" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln121_fu_188_p2" opType="icmp" coreId="65" contextFuncName="max_pooling2d" bitwidth="1" opcode="icmp" nodeLabel="1.0" m_display="0" m_delay="0.87" m_topoIndex="5" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="121" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>phi</dataInputObjs>
         <dataOutputObjs>br</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="17" name="br_ln121" lineNumber="121" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="132" contextFuncName="max_pooling2d" opcode="br" nodeLabel="1.0" m_display="0" m_topoIndex="6" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="17" name="br_ln121" lineNumber="121" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="657" contextFuncName="max_pooling2d" opcode="br" nodeLabel="1.0" m_display="0" m_topoIndex="6" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="121" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>icmp</dataInputObjs>
         <controlInputObjs>.reset6</controlInputObjs>
@@ -318,7 +318,7 @@
       <controlOutputObjs>phi</controlOutputObjs>
       <controlOutputObjs>br</controlOutputObjs>
       <controlOutputObjs>block_18</controlOutputObjs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="21" name="icmp_ln124" lineNumber="124" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln124_fu_194_p2" opType="icmp" coreId="1121772720" contextFuncName="max_pooling2d" bitwidth="1" opcode="icmp" nodeLabel="1.0" m_display="0" m_delay="0.86" m_topoIndex="7" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="21" name="icmp_ln124" lineNumber="124" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln124_fu_194_p2" opType="icmp" coreId="68" contextFuncName="max_pooling2d" bitwidth="1" opcode="icmp" nodeLabel="1.0" m_display="0" m_delay="0.86" m_topoIndex="7" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="124" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>phi</dataInputObjs>
         <dataOutputObjs>select</dataOutputObjs>
@@ -355,13 +355,13 @@
         <dataOutputObjs>select</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="26" name="xor_ln121" lineNumber="121" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="xor_ln121_fu_200_p2" opType="xor" coreId="49" contextFuncName="max_pooling2d" bitwidth="1" opcode="xor" nodeLabel="1.0" m_display="0" m_topoIndex="8" m_clusterGroupNumber="3">
+      <node_objs xsi:type="cdfg:CdfgNode" id="26" name="xor_ln121" lineNumber="121" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="xor_ln121_fu_200_p2" opType="xor" coreId="0" contextFuncName="max_pooling2d" bitwidth="1" opcode="xor" nodeLabel="1.0" m_display="0" m_topoIndex="8" m_clusterGroupNumber="3">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="121" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>icmp</dataInputObjs>
         <dataOutputObjs>and</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="27" name="icmp_ln127" lineNumber="127" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln127_fu_206_p2" opType="icmp" coreId="0" contextFuncName="max_pooling2d" bitwidth="1" opcode="icmp" nodeLabel="1.0" m_display="0" m_delay="0.87" m_topoIndex="9" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="27" name="icmp_ln127" lineNumber="127" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln127_fu_206_p2" opType="icmp" coreId="49" contextFuncName="max_pooling2d" bitwidth="1" opcode="icmp" nodeLabel="1.0" m_display="0" m_delay="0.87" m_topoIndex="9" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="127" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>phi</dataInputObjs>
         <dataOutputObjs>and</dataOutputObjs>
@@ -377,13 +377,13 @@
         <dataOutputObjs>select</dataOutputObjs>
         <dataOutputObjs>select</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="29" name="ii_5" lineNumber="124" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="ii_5_fu_375_p2" opType="xor" coreId="49" contextFuncName="max_pooling2d" bitwidth="2" opcode="xor" nodeLabel="4.0" m_display="0" m_topoIndex="43" m_clusterGroupNumber="4">
+      <node_objs xsi:type="cdfg:CdfgNode" id="29" name="ii_5" lineNumber="124" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="ii_5_fu_375_p2" opType="xor" coreId="0" contextFuncName="max_pooling2d" bitwidth="2" opcode="xor" nodeLabel="4.0" m_display="0" m_topoIndex="43" m_clusterGroupNumber="4">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="124" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>select</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="31" name="or_ln124" lineNumber="124" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln124_fu_218_p2" opType="or" coreId="0" contextFuncName="max_pooling2d" bitwidth="1" opcode="or" nodeLabel="1.0" m_display="0" m_topoIndex="11" m_clusterGroupNumber="5">
+      <node_objs xsi:type="cdfg:CdfgNode" id="31" name="or_ln124" lineNumber="124" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln124_fu_218_p2" opType="or" coreId="49" contextFuncName="max_pooling2d" bitwidth="1" opcode="or" nodeLabel="1.0" m_display="0" m_topoIndex="11" m_clusterGroupNumber="5">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="124" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>and</dataInputObjs>
         <dataInputObjs>icmp</dataInputObjs>
@@ -400,7 +400,7 @@
         <dataOutputObjs>add</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="33" name="trunc_ln136_13" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="trunc_ln136_13_fu_381_p1" coreId="2609" contextFuncName="max_pooling2d" bitwidth="1" opcode="trunc" nodeLabel="4.0" m_display="0" m_topoIndex="44" m_clusterGroupNumber="1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="33" name="trunc_ln136_13" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="trunc_ln136_13_fu_381_p1" coreId="97523632" contextFuncName="max_pooling2d" bitwidth="1" opcode="trunc" nodeLabel="4.0" m_display="0" m_topoIndex="44" m_clusterGroupNumber="1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>bitconcatenate</dataOutputObjs>
@@ -418,13 +418,13 @@
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>or</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="36" name="or_ln136_14" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln136_14_fu_400_p2" coreId="49" contextFuncName="max_pooling2d" bitwidth="2" opcode="or" nodeLabel="4.0" m_display="0" m_topoIndex="47" m_clusterGroupNumber="2">
+      <node_objs xsi:type="cdfg:CdfgNode" id="36" name="or_ln136_14" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln136_14_fu_400_p2" coreId="0" contextFuncName="max_pooling2d" bitwidth="2" opcode="or" nodeLabel="4.0" m_display="0" m_topoIndex="47" m_clusterGroupNumber="2">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>bitconcatenate</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="37" name="shl_ln136_5_mid1" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="shl_ln136_5_mid1_fu_406_p3" coreId="1122478016" contextFuncName="max_pooling2d" bitwidth="7" opcode="bitconcatenate" nodeLabel="4.0" m_display="0" m_topoIndex="48" m_clusterGroupNumber="2">
+      <node_objs xsi:type="cdfg:CdfgNode" id="37" name="shl_ln136_5_mid1" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="shl_ln136_5_mid1_fu_406_p3" coreId="96533560" contextFuncName="max_pooling2d" bitwidth="7" opcode="bitconcatenate" nodeLabel="4.0" m_display="0" m_topoIndex="48" m_clusterGroupNumber="2">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>or</dataInputObjs>
         <dataOutputObjs>select</dataOutputObjs>
@@ -444,18 +444,18 @@
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>phi</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="41" name="iii_cast3" lineNumber="124" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="iii_cast3_fu_232_p1" coreId="49" contextFuncName="max_pooling2d" bitwidth="64" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="13" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="41" name="iii_cast3" lineNumber="124" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="iii_cast3_fu_232_p1" coreId="0" contextFuncName="max_pooling2d" bitwidth="64" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="13" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="124" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>getelementptr</dataOutputObjs>
         <dataOutputObjs>getelementptr</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="42" name="iii_cast" lineNumber="124" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="iii_cast_fu_428_p1" coreId="1811939456" contextFuncName="max_pooling2d" bitwidth="7" opcode="zext" nodeLabel="4.0" m_display="0" m_topoIndex="51" m_clusterGroupNumber="2">
+      <node_objs xsi:type="cdfg:CdfgNode" id="42" name="iii_cast" lineNumber="124" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="iii_cast_fu_428_p1" coreId="95977680" contextFuncName="max_pooling2d" bitwidth="7" opcode="zext" nodeLabel="4.0" m_display="0" m_topoIndex="51" m_clusterGroupNumber="2">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="124" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>add</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="44" name="input_addr" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="1122305016" contextFuncName="max_pooling2d" bitwidth="7" opcode="getelementptr" nodeLabel="1.0" m_display="0" m_topoIndex="14" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="44" name="input_addr" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="3681" contextFuncName="max_pooling2d" bitwidth="7" opcode="getelementptr" nodeLabel="1.0" m_display="0" m_topoIndex="14" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>input_r</dataInputObjs>
         <dataInputObjs>zext</dataInputObjs>
@@ -469,24 +469,24 @@
         <dataOutputObjs>fcmp</dataOutputObjs>
         <dataOutputObjs>select</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="46" name="bitcast_ln136" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="bitcast_ln136_fu_271_p1" coreId="132" contextFuncName="max_pooling2d" bitwidth="32" opcode="bitcast" nodeLabel="3.0" m_display="0" m_topoIndex="25" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="46" name="bitcast_ln136" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="bitcast_ln136_fu_271_p1" coreId="1681" contextFuncName="max_pooling2d" bitwidth="32" opcode="bitcast" nodeLabel="3.0" m_display="0" m_topoIndex="25" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>load</dataInputObjs>
         <dataOutputObjs>partselect</dataOutputObjs>
         <dataOutputObjs>trunc</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="47" name="tmp" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_fu_275_p4" coreId="1811939456" contextFuncName="max_pooling2d" bitwidth="8" opcode="partselect" nodeLabel="3.0" m_display="0" m_topoIndex="26" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="47" name="tmp" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_fu_275_p4" coreId="738197632" contextFuncName="max_pooling2d" bitwidth="8" opcode="partselect" nodeLabel="3.0" m_display="0" m_topoIndex="26" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>bitcast</dataInputObjs>
         <dataOutputObjs>icmp</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="48" name="trunc_ln136_14" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="trunc_ln136_14_fu_285_p1" coreId="1747936114" contextFuncName="max_pooling2d" bitwidth="23" opcode="trunc" nodeLabel="3.0" m_display="0" m_topoIndex="27" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="48" name="trunc_ln136_14" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="trunc_ln136_14_fu_285_p1" coreId="0" contextFuncName="max_pooling2d" bitwidth="23" opcode="trunc" nodeLabel="3.0" m_display="0" m_topoIndex="27" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>bitcast</dataInputObjs>
         <dataOutputObjs>icmp</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="49" name="icmp_ln136" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln136_fu_289_p2" opType="icmp" coreId="1122303368" contextFuncName="max_pooling2d" bitwidth="1" opcode="icmp" nodeLabel="3.0" m_display="0" m_delay="0.85" m_topoIndex="28" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="49" name="icmp_ln136" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln136_fu_289_p2" opType="icmp" coreId="2721" contextFuncName="max_pooling2d" bitwidth="1" opcode="icmp" nodeLabel="3.0" m_display="0" m_delay="0.85" m_topoIndex="28" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>partselect</dataInputObjs>
         <dataOutputObjs>or</dataOutputObjs>
@@ -498,19 +498,19 @@
         <dataOutputObjs>or</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="51" name="or_ln136" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln136_fu_301_p2" opType="or" coreId="2147483649" contextFuncName="max_pooling2d" bitwidth="1" opcode="or" nodeLabel="3.0" m_display="0" m_topoIndex="30" m_clusterGroupNumber="6">
+      <node_objs xsi:type="cdfg:CdfgNode" id="51" name="or_ln136" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln136_fu_301_p2" opType="or" coreId="95598560" contextFuncName="max_pooling2d" bitwidth="1" opcode="or" nodeLabel="3.0" m_display="0" m_topoIndex="30" m_clusterGroupNumber="6">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>icmp</dataInputObjs>
         <dataInputObjs>icmp</dataInputObjs>
         <dataOutputObjs>and</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="52" name="tmp_s" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." opType="fcmp" coreId="1122748376" contextFuncName="max_pooling2d" bitwidth="1" opcode="fcmp" nodeLabel="2.0" nodeLatency="1" m_display="0" m_delay="3.34" m_topoIndex="22" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="52" name="tmp_s" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." opType="fcmp" coreId="49" contextFuncName="max_pooling2d" bitwidth="1" opcode="fcmp" nodeLabel="2.0" nodeLatency="1" m_display="0" m_delay="3.34" m_topoIndex="22" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>load</dataInputObjs>
         <dataOutputObjs>and</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="53" name="and_ln136" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="and_ln136_fu_307_p2" opType="and" coreId="132" contextFuncName="max_pooling2d" bitwidth="1" opcode="and" nodeLabel="3.0" m_display="0" m_topoIndex="31" m_clusterGroupNumber="6">
+      <node_objs xsi:type="cdfg:CdfgNode" id="53" name="and_ln136" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="and_ln136_fu_307_p2" opType="and" coreId="95738064" contextFuncName="max_pooling2d" bitwidth="1" opcode="and" nodeLabel="3.0" m_display="0" m_topoIndex="31" m_clusterGroupNumber="6">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>or</dataInputObjs>
         <dataInputObjs>fcmp</dataInputObjs>
@@ -531,12 +531,12 @@
         <dataOutputObjs>zext</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="56" name="zext_ln136" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="zext_ln136_fu_243_p1" coreId="1123808592" contextFuncName="max_pooling2d" bitwidth="64" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="17" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="56" name="zext_ln136" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="zext_ln136_fu_243_p1" coreId="49" contextFuncName="max_pooling2d" bitwidth="64" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="17" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>xor</dataInputObjs>
         <dataOutputObjs>getelementptr</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="57" name="input_addr_7" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="2147483649" contextFuncName="max_pooling2d" bitwidth="7" opcode="getelementptr" nodeLabel="1.0" m_display="0" m_topoIndex="18" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="57" name="input_addr_7" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="132" contextFuncName="max_pooling2d" bitwidth="7" opcode="getelementptr" nodeLabel="1.0" m_display="0" m_topoIndex="18" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>input_r</dataInputObjs>
         <dataInputObjs>zext</dataInputObjs>
@@ -550,36 +550,36 @@
         <dataOutputObjs>fcmp</dataOutputObjs>
         <dataOutputObjs>select</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="59" name="bitcast_ln136_13" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="bitcast_ln136_13_fu_431_p1" coreId="1811939456" contextFuncName="max_pooling2d" bitwidth="32" opcode="bitcast" nodeLabel="4.0" m_display="0" m_topoIndex="52" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="59" name="bitcast_ln136_13" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="bitcast_ln136_13_fu_431_p1" coreId="0" contextFuncName="max_pooling2d" bitwidth="32" opcode="bitcast" nodeLabel="4.0" m_display="0" m_topoIndex="52" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>load</dataInputObjs>
         <dataOutputObjs>partselect</dataOutputObjs>
         <dataOutputObjs>trunc</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="60" name="tmp_29" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_29_fu_434_p4" coreId="0" contextFuncName="max_pooling2d" bitwidth="8" opcode="partselect" nodeLabel="4.0" m_display="0" m_topoIndex="53" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="60" name="tmp_29" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_29_fu_434_p4" coreId="3681" contextFuncName="max_pooling2d" bitwidth="8" opcode="partselect" nodeLabel="4.0" m_display="0" m_topoIndex="53" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>bitcast</dataInputObjs>
         <dataOutputObjs>icmp</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="61" name="trunc_ln136_15" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="trunc_ln136_15_fu_444_p1" coreId="0" contextFuncName="max_pooling2d" bitwidth="23" opcode="trunc" nodeLabel="4.0" m_display="0" m_topoIndex="54" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="61" name="trunc_ln136_15" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="trunc_ln136_15_fu_444_p1" coreId="132" contextFuncName="max_pooling2d" bitwidth="23" opcode="trunc" nodeLabel="4.0" m_display="0" m_topoIndex="54" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>bitcast</dataInputObjs>
         <dataOutputObjs>icmp</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="62" name="bitcast_ln136_14" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="bitcast_ln136_14_fu_448_p1" coreId="49" contextFuncName="max_pooling2d" bitwidth="32" opcode="bitcast" nodeLabel="4.0" m_display="0" m_topoIndex="55" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="62" name="bitcast_ln136_14" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="bitcast_ln136_14_fu_448_p1" coreId="95497128" contextFuncName="max_pooling2d" bitwidth="32" opcode="bitcast" nodeLabel="4.0" m_display="0" m_topoIndex="55" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>partselect</dataOutputObjs>
         <dataOutputObjs>trunc</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="63" name="tmp_30" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_30_fu_451_p4" coreId="1123861120" contextFuncName="max_pooling2d" bitwidth="8" opcode="partselect" nodeLabel="4.0" m_display="0" m_topoIndex="56" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="63" name="tmp_30" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_30_fu_451_p4" coreId="738197632" contextFuncName="max_pooling2d" bitwidth="8" opcode="partselect" nodeLabel="4.0" m_display="0" m_topoIndex="56" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>bitcast</dataInputObjs>
         <dataOutputObjs>icmp</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="64" name="trunc_ln136_16" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="trunc_ln136_16_fu_461_p1" coreId="1811939456" contextFuncName="max_pooling2d" bitwidth="23" opcode="trunc" nodeLabel="4.0" m_display="0" m_topoIndex="57" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="64" name="trunc_ln136_16" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="trunc_ln136_16_fu_461_p1" coreId="49" contextFuncName="max_pooling2d" bitwidth="23" opcode="trunc" nodeLabel="4.0" m_display="0" m_topoIndex="57" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>bitcast</dataInputObjs>
         <dataOutputObjs>icmp</dataOutputObjs>
@@ -590,49 +590,49 @@
         <dataOutputObjs>or</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="66" name="icmp_ln136_29" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln136_29_fu_471_p2" opType="icmp" coreId="132" contextFuncName="max_pooling2d" bitwidth="1" opcode="icmp" nodeLabel="4.0" m_display="0" m_delay="0.97" m_topoIndex="59" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="66" name="icmp_ln136_29" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln136_29_fu_471_p2" opType="icmp" coreId="95496256" contextFuncName="max_pooling2d" bitwidth="1" opcode="icmp" nodeLabel="4.0" m_display="0" m_delay="0.97" m_topoIndex="59" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>trunc</dataInputObjs>
         <dataOutputObjs>or</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="67" name="or_ln136_15" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln136_15_fu_477_p2" opType="or" coreId="49" contextFuncName="max_pooling2d" bitwidth="1" opcode="or" nodeLabel="4.0" m_display="0" m_topoIndex="60" m_clusterGroupNumber="7">
+      <node_objs xsi:type="cdfg:CdfgNode" id="67" name="or_ln136_15" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln136_15_fu_477_p2" opType="or" coreId="0" contextFuncName="max_pooling2d" bitwidth="1" opcode="or" nodeLabel="4.0" m_display="0" m_topoIndex="60" m_clusterGroupNumber="7">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>icmp</dataInputObjs>
         <dataInputObjs>icmp</dataInputObjs>
         <dataOutputObjs>and</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="68" name="icmp_ln136_30" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln136_30_fu_483_p2" opType="icmp" coreId="0" contextFuncName="max_pooling2d" bitwidth="1" opcode="icmp" nodeLabel="4.0" m_display="0" m_delay="0.85" m_topoIndex="61" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="68" name="icmp_ln136_30" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln136_30_fu_483_p2" opType="icmp" coreId="3681" contextFuncName="max_pooling2d" bitwidth="1" opcode="icmp" nodeLabel="4.0" m_display="0" m_delay="0.85" m_topoIndex="61" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>partselect</dataInputObjs>
         <dataOutputObjs>or</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="69" name="icmp_ln136_31" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln136_31_fu_489_p2" opType="icmp" coreId="2147483649" contextFuncName="max_pooling2d" bitwidth="1" opcode="icmp" nodeLabel="4.0" m_display="0" m_delay="0.97" m_topoIndex="62" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="69" name="icmp_ln136_31" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln136_31_fu_489_p2" opType="icmp" coreId="132" contextFuncName="max_pooling2d" bitwidth="1" opcode="icmp" nodeLabel="4.0" m_display="0" m_delay="0.97" m_topoIndex="62" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>trunc</dataInputObjs>
         <dataOutputObjs>or</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="70" name="or_ln136_16" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln136_16_fu_495_p2" opType="or" coreId="49" contextFuncName="max_pooling2d" bitwidth="1" opcode="or" nodeLabel="4.0" m_display="0" m_topoIndex="63" m_clusterGroupNumber="7">
+      <node_objs xsi:type="cdfg:CdfgNode" id="70" name="or_ln136_16" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln136_16_fu_495_p2" opType="or" coreId="96227145" contextFuncName="max_pooling2d" bitwidth="1" opcode="or" nodeLabel="4.0" m_display="0" m_topoIndex="63" m_clusterGroupNumber="7">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>icmp</dataInputObjs>
         <dataInputObjs>icmp</dataInputObjs>
         <dataOutputObjs>and</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="71" name="and_ln136_13" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="and_ln136_13_fu_501_p2" opType="and" coreId="2593" contextFuncName="max_pooling2d" bitwidth="1" opcode="and" nodeLabel="4.0" m_display="0" m_topoIndex="64" m_clusterGroupNumber="7">
+      <node_objs xsi:type="cdfg:CdfgNode" id="71" name="and_ln136_13" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="and_ln136_13_fu_501_p2" opType="and" coreId="96228560" contextFuncName="max_pooling2d" bitwidth="1" opcode="and" nodeLabel="4.0" m_display="0" m_topoIndex="64" m_clusterGroupNumber="7">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>or</dataInputObjs>
         <dataInputObjs>or</dataInputObjs>
         <dataOutputObjs>and</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="72" name="tmp_31" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." opType="fcmp" coreId="0" contextFuncName="max_pooling2d" bitwidth="1" opcode="fcmp" nodeLabel="3.0" nodeLatency="1" m_display="0" m_delay="3.34" m_topoIndex="33" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="72" name="tmp_31" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." opType="fcmp" coreId="49" contextFuncName="max_pooling2d" bitwidth="1" opcode="fcmp" nodeLabel="3.0" nodeLatency="1" m_display="0" m_delay="3.34" m_topoIndex="33" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>load</dataInputObjs>
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>and</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="73" name="and_ln136_14" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="and_ln136_14_fu_507_p2" opType="and" coreId="1123898640" contextFuncName="max_pooling2d" bitwidth="1" opcode="and" nodeLabel="4.0" m_display="0" m_delay="0.33" m_topoIndex="65" m_clusterGroupNumber="7">
+      <node_objs xsi:type="cdfg:CdfgNode" id="73" name="and_ln136_14" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="and_ln136_14_fu_507_p2" opType="and" coreId="2593" contextFuncName="max_pooling2d" bitwidth="1" opcode="and" nodeLabel="4.0" m_display="0" m_delay="0.33" m_topoIndex="65" m_clusterGroupNumber="7">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>and</dataInputObjs>
         <dataInputObjs>fcmp</dataInputObjs>
@@ -647,25 +647,25 @@
         <dataOutputObjs>fcmp</dataOutputObjs>
         <dataOutputObjs>select</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="75" name="or_ln136_17" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln136_17_fu_519_p2" opType="or" coreId="8" contextFuncName="max_pooling2d" bitwidth="6" opcode="or" nodeLabel="4.0" m_display="0" m_delay="0.44" m_topoIndex="67" m_clusterGroupNumber="1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="75" name="or_ln136_17" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln136_17_fu_519_p2" opType="or" coreId="95392496" contextFuncName="max_pooling2d" bitwidth="6" opcode="or" nodeLabel="4.0" m_display="0" m_delay="0.44" m_topoIndex="67" m_clusterGroupNumber="1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>select</dataInputObjs>
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>bitconcatenate</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="76" name="tmp_1" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_1_fu_524_p3" coreId="1123002792" contextFuncName="max_pooling2d" bitwidth="1" opcode="bitselect" nodeLabel="4.0" m_display="0" m_topoIndex="68" m_clusterGroupNumber="9">
+      <node_objs xsi:type="cdfg:CdfgNode" id="76" name="tmp_1" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_1_fu_524_p3" coreId="132" contextFuncName="max_pooling2d" bitwidth="1" opcode="bitselect" nodeLabel="4.0" m_display="0" m_topoIndex="68" m_clusterGroupNumber="9">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>select</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="77" name="tmp_2" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_2_fu_532_p3" coreId="49" contextFuncName="max_pooling2d" bitwidth="1" opcode="bitselect" nodeLabel="4.0" m_display="0" m_topoIndex="69" m_clusterGroupNumber="9">
+      <node_objs xsi:type="cdfg:CdfgNode" id="77" name="tmp_2" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_2_fu_532_p3" coreId="96254952" contextFuncName="max_pooling2d" bitwidth="1" opcode="bitselect" nodeLabel="4.0" m_display="0" m_topoIndex="69" m_clusterGroupNumber="9">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>xor</dataInputObjs>
         <dataOutputObjs>or</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="78" name="or_ln121" lineNumber="121" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln121_fu_540_p2" opType="or" coreId="49" contextFuncName="max_pooling2d" bitwidth="1" opcode="or" nodeLabel="4.0" m_display="0" m_topoIndex="70" m_clusterGroupNumber="9">
+      <node_objs xsi:type="cdfg:CdfgNode" id="78" name="or_ln121" lineNumber="121" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln121_fu_540_p2" opType="or" coreId="96255600" contextFuncName="max_pooling2d" bitwidth="1" opcode="or" nodeLabel="4.0" m_display="0" m_topoIndex="70" m_clusterGroupNumber="9">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="121" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>icmp</dataInputObjs>
         <dataInputObjs>bitselect</dataInputObjs>
@@ -678,18 +678,18 @@
         <dataInputObjs>or</dataInputObjs>
         <dataOutputObjs>bitconcatenate</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="80" name="add_ln136_s" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="add_ln136_s_fu_552_p3" coreId="1122788616" contextFuncName="max_pooling2d" bitwidth="7" opcode="bitconcatenate" nodeLabel="4.0" m_display="0" m_topoIndex="72" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="80" name="add_ln136_s" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="add_ln136_s_fu_552_p3" coreId="0" contextFuncName="max_pooling2d" bitwidth="7" opcode="bitconcatenate" nodeLabel="4.0" m_display="0" m_topoIndex="72" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>select</dataInputObjs>
         <dataInputObjs>or</dataInputObjs>
         <dataOutputObjs>zext</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="81" name="zext_ln136_10" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="zext_ln136_10_fu_560_p1" coreId="49" contextFuncName="max_pooling2d" bitwidth="64" opcode="zext" nodeLabel="4.0" m_display="0" m_topoIndex="73" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="81" name="zext_ln136_10" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="zext_ln136_10_fu_560_p1" coreId="96250144" contextFuncName="max_pooling2d" bitwidth="64" opcode="zext" nodeLabel="4.0" m_display="0" m_topoIndex="73" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>bitconcatenate</dataInputObjs>
         <dataOutputObjs>getelementptr</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="82" name="input_addr_8" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="49" contextFuncName="max_pooling2d" bitwidth="7" opcode="getelementptr" nodeLabel="4.0" m_display="0" m_topoIndex="74" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="82" name="input_addr_8" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="96250928" contextFuncName="max_pooling2d" bitwidth="7" opcode="getelementptr" nodeLabel="4.0" m_display="0" m_topoIndex="74" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>input_r</dataInputObjs>
         <dataInputObjs>zext</dataInputObjs>
@@ -703,89 +703,89 @@
         <dataOutputObjs>fcmp</dataOutputObjs>
         <dataOutputObjs>select</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="84" name="bitcast_ln136_15" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="bitcast_ln136_15_fu_571_p1" coreId="1811939456" contextFuncName="max_pooling2d" bitwidth="32" opcode="bitcast" nodeLabel="6.0" m_display="0" m_topoIndex="78" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="84" name="bitcast_ln136_15" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="bitcast_ln136_15_fu_571_p1" coreId="132" contextFuncName="max_pooling2d" bitwidth="32" opcode="bitcast" nodeLabel="6.0" m_display="0" m_topoIndex="78" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>load</dataInputObjs>
         <dataOutputObjs>partselect</dataOutputObjs>
         <dataOutputObjs>trunc</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="85" name="tmp_32" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_32_fu_575_p4" coreId="1122479992" contextFuncName="max_pooling2d" bitwidth="8" opcode="partselect" nodeLabel="6.0" m_display="0" m_topoIndex="79" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="85" name="tmp_32" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_32_fu_575_p4" coreId="96567344" contextFuncName="max_pooling2d" bitwidth="8" opcode="partselect" nodeLabel="6.0" m_display="0" m_topoIndex="79" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>bitcast</dataInputObjs>
         <dataOutputObjs>icmp</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="86" name="trunc_ln136_17" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="trunc_ln136_17_fu_585_p1" coreId="1122717296" contextFuncName="max_pooling2d" bitwidth="23" opcode="trunc" nodeLabel="6.0" m_display="0" m_topoIndex="80" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="86" name="trunc_ln136_17" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="trunc_ln136_17_fu_585_p1" coreId="8" contextFuncName="max_pooling2d" bitwidth="23" opcode="trunc" nodeLabel="6.0" m_display="0" m_topoIndex="80" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>bitcast</dataInputObjs>
         <dataOutputObjs>icmp</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="87" name="bitcast_ln136_16" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="bitcast_ln136_16_fu_589_p1" coreId="1811939456" contextFuncName="max_pooling2d" bitwidth="32" opcode="bitcast" nodeLabel="6.0" m_display="0" m_topoIndex="81" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="87" name="bitcast_ln136_16" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="bitcast_ln136_16_fu_589_p1" coreId="49" contextFuncName="max_pooling2d" bitwidth="32" opcode="bitcast" nodeLabel="6.0" m_display="0" m_topoIndex="81" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>partselect</dataOutputObjs>
         <dataOutputObjs>trunc</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="88" name="tmp_33" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_33_fu_592_p4" coreId="1122716969" contextFuncName="max_pooling2d" bitwidth="8" opcode="partselect" nodeLabel="6.0" m_display="0" m_topoIndex="82" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="88" name="tmp_33" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_33_fu_592_p4" coreId="738197632" contextFuncName="max_pooling2d" bitwidth="8" opcode="partselect" nodeLabel="6.0" m_display="0" m_topoIndex="82" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>bitcast</dataInputObjs>
         <dataOutputObjs>icmp</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="89" name="trunc_ln136_18" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="trunc_ln136_18_fu_602_p1" coreId="132" contextFuncName="max_pooling2d" bitwidth="23" opcode="trunc" nodeLabel="6.0" m_display="0" m_topoIndex="83" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="89" name="trunc_ln136_18" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="trunc_ln136_18_fu_602_p1" coreId="96241920" contextFuncName="max_pooling2d" bitwidth="23" opcode="trunc" nodeLabel="6.0" m_display="0" m_topoIndex="83" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>bitcast</dataInputObjs>
         <dataOutputObjs>icmp</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="90" name="icmp_ln136_32" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln136_32_fu_606_p2" opType="icmp" coreId="2465" contextFuncName="max_pooling2d" bitwidth="1" opcode="icmp" nodeLabel="6.0" m_display="0" m_delay="0.85" m_topoIndex="84" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="90" name="icmp_ln136_32" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln136_32_fu_606_p2" opType="icmp" coreId="738197632" contextFuncName="max_pooling2d" bitwidth="1" opcode="icmp" nodeLabel="6.0" m_display="0" m_delay="0.85" m_topoIndex="84" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>partselect</dataInputObjs>
         <dataOutputObjs>or</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="91" name="icmp_ln136_33" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln136_33_fu_612_p2" opType="icmp" coreId="1811939456" contextFuncName="max_pooling2d" bitwidth="1" opcode="icmp" nodeLabel="6.0" m_display="0" m_delay="0.97" m_topoIndex="85" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="91" name="icmp_ln136_33" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln136_33_fu_612_p2" opType="icmp" coreId="132" contextFuncName="max_pooling2d" bitwidth="1" opcode="icmp" nodeLabel="6.0" m_display="0" m_delay="0.97" m_topoIndex="85" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>trunc</dataInputObjs>
         <dataOutputObjs>or</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="92" name="or_ln136_18" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln136_18_fu_618_p2" opType="or" coreId="1123217672" contextFuncName="max_pooling2d" bitwidth="1" opcode="or" nodeLabel="6.0" m_display="0" m_topoIndex="86" m_clusterGroupNumber="10">
+      <node_objs xsi:type="cdfg:CdfgNode" id="92" name="or_ln136_18" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln136_18_fu_618_p2" opType="or" coreId="0" contextFuncName="max_pooling2d" bitwidth="1" opcode="or" nodeLabel="6.0" m_display="0" m_topoIndex="86" m_clusterGroupNumber="10">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>icmp</dataInputObjs>
         <dataInputObjs>icmp</dataInputObjs>
         <dataOutputObjs>and</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="93" name="icmp_ln136_34" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln136_34_fu_624_p2" opType="icmp" coreId="4081" contextFuncName="max_pooling2d" bitwidth="1" opcode="icmp" nodeLabel="6.0" m_display="0" m_delay="0.85" m_topoIndex="87" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="93" name="icmp_ln136_34" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln136_34_fu_624_p2" opType="icmp" coreId="840979276" contextFuncName="max_pooling2d" bitwidth="1" opcode="icmp" nodeLabel="6.0" m_display="0" m_delay="0.85" m_topoIndex="87" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>partselect</dataInputObjs>
         <dataOutputObjs>or</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="94" name="icmp_ln136_35" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln136_35_fu_630_p2" opType="icmp" coreId="0" contextFuncName="max_pooling2d" bitwidth="1" opcode="icmp" nodeLabel="6.0" m_display="0" m_delay="0.97" m_topoIndex="88" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="94" name="icmp_ln136_35" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln136_35_fu_630_p2" opType="icmp" coreId="96148328" contextFuncName="max_pooling2d" bitwidth="1" opcode="icmp" nodeLabel="6.0" m_display="0" m_delay="0.97" m_topoIndex="88" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>trunc</dataInputObjs>
         <dataOutputObjs>or</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="95" name="or_ln136_19" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln136_19_fu_636_p2" opType="or" coreId="0" contextFuncName="max_pooling2d" bitwidth="1" opcode="or" nodeLabel="6.0" m_display="0" m_topoIndex="89" m_clusterGroupNumber="10">
+      <node_objs xsi:type="cdfg:CdfgNode" id="95" name="or_ln136_19" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln136_19_fu_636_p2" opType="or" coreId="3377" contextFuncName="max_pooling2d" bitwidth="1" opcode="or" nodeLabel="6.0" m_display="0" m_topoIndex="89" m_clusterGroupNumber="10">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>icmp</dataInputObjs>
         <dataInputObjs>icmp</dataInputObjs>
         <dataOutputObjs>and</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="96" name="and_ln136_15" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="and_ln136_15_fu_642_p2" opType="and" coreId="1123219088" contextFuncName="max_pooling2d" bitwidth="1" opcode="and" nodeLabel="6.0" m_display="0" m_topoIndex="90" m_clusterGroupNumber="10">
+      <node_objs xsi:type="cdfg:CdfgNode" id="96" name="and_ln136_15" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="and_ln136_15_fu_642_p2" opType="and" coreId="49" contextFuncName="max_pooling2d" bitwidth="1" opcode="and" nodeLabel="6.0" m_display="0" m_topoIndex="90" m_clusterGroupNumber="10">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>or</dataInputObjs>
         <dataInputObjs>or</dataInputObjs>
         <dataOutputObjs>and</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="97" name="tmp_34" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." opType="fcmp" coreId="132" contextFuncName="max_pooling2d" bitwidth="1" opcode="fcmp" nodeLabel="5.0" nodeLatency="1" m_display="0" m_delay="3.34" m_topoIndex="77" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="97" name="tmp_34" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." opType="fcmp" coreId="95458992" contextFuncName="max_pooling2d" bitwidth="1" opcode="fcmp" nodeLabel="5.0" nodeLatency="1" m_display="0" m_delay="3.34" m_topoIndex="77" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>load</dataInputObjs>
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>and</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="98" name="and_ln136_16" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="and_ln136_16_fu_648_p2" opType="and" coreId="1121678912" contextFuncName="max_pooling2d" bitwidth="1" opcode="and" nodeLabel="6.0" m_display="0" m_delay="0.33" m_topoIndex="91" m_clusterGroupNumber="10">
+      <node_objs xsi:type="cdfg:CdfgNode" id="98" name="and_ln136_16" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="and_ln136_16_fu_648_p2" opType="and" coreId="4145" contextFuncName="max_pooling2d" bitwidth="1" opcode="and" nodeLabel="6.0" m_display="0" m_delay="0.33" m_topoIndex="91" m_clusterGroupNumber="10">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>and</dataInputObjs>
         <dataInputObjs>fcmp</dataInputObjs>
@@ -806,12 +806,12 @@
         <dataInputObjs>zext</dataInputObjs>
         <dataOutputObjs>zext</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="101" name="zext_ln136_11" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="zext_ln136_11_fu_661_p1" coreId="1122435913" contextFuncName="max_pooling2d" bitwidth="64" opcode="zext" nodeLabel="6.0" m_display="0" m_topoIndex="93" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="101" name="zext_ln136_11" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="zext_ln136_11_fu_661_p1" coreId="4294967295" contextFuncName="max_pooling2d" bitwidth="64" opcode="zext" nodeLabel="6.0" m_display="0" m_topoIndex="93" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>add</dataInputObjs>
         <dataOutputObjs>getelementptr</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="102" name="input_addr_9" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="1122432192" contextFuncName="max_pooling2d" bitwidth="7" opcode="getelementptr" nodeLabel="6.0" m_display="0" m_topoIndex="94" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="102" name="input_addr_9" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="132" contextFuncName="max_pooling2d" bitwidth="7" opcode="getelementptr" nodeLabel="6.0" m_display="0" m_topoIndex="94" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>input_r</dataInputObjs>
         <dataInputObjs>zext</dataInputObjs>
@@ -825,36 +825,36 @@
         <dataOutputObjs>fcmp</dataOutputObjs>
         <dataOutputObjs>select</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="104" name="bitcast_ln136_17" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="bitcast_ln136_17_fu_665_p1" coreId="49" contextFuncName="max_pooling2d" bitwidth="32" opcode="bitcast" nodeLabel="9.0" m_display="0" m_topoIndex="97" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="104" name="bitcast_ln136_17" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="bitcast_ln136_17_fu_665_p1" coreId="97222408" contextFuncName="max_pooling2d" bitwidth="32" opcode="bitcast" nodeLabel="9.0" m_display="0" m_topoIndex="97" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>load</dataInputObjs>
         <dataOutputObjs>partselect</dataOutputObjs>
         <dataOutputObjs>trunc</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="105" name="tmp_35" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_35_fu_668_p4" coreId="0" contextFuncName="max_pooling2d" bitwidth="8" opcode="partselect" nodeLabel="9.0" m_display="0" m_topoIndex="98" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="105" name="tmp_35" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_35_fu_668_p4" coreId="49" contextFuncName="max_pooling2d" bitwidth="8" opcode="partselect" nodeLabel="9.0" m_display="0" m_topoIndex="98" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>bitcast</dataInputObjs>
         <dataOutputObjs>icmp</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="106" name="trunc_ln136_19" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="trunc_ln136_19_fu_678_p1" coreId="1124091096" contextFuncName="max_pooling2d" bitwidth="23" opcode="trunc" nodeLabel="9.0" m_display="0" m_topoIndex="99" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="106" name="trunc_ln136_19" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="trunc_ln136_19_fu_678_p1" coreId="738197632" contextFuncName="max_pooling2d" bitwidth="23" opcode="trunc" nodeLabel="9.0" m_display="0" m_topoIndex="99" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>bitcast</dataInputObjs>
         <dataOutputObjs>icmp</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="107" name="bitcast_ln136_18" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="bitcast_ln136_18_fu_682_p1" coreId="1409" contextFuncName="max_pooling2d" bitwidth="32" opcode="bitcast" nodeLabel="9.0" m_display="0" m_topoIndex="100" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="107" name="bitcast_ln136_18" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="bitcast_ln136_18_fu_682_p1" coreId="0" contextFuncName="max_pooling2d" bitwidth="32" opcode="bitcast" nodeLabel="9.0" m_display="0" m_topoIndex="100" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>partselect</dataOutputObjs>
         <dataOutputObjs>trunc</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="108" name="tmp_36" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_36_fu_685_p4" coreId="78" contextFuncName="max_pooling2d" bitwidth="8" opcode="partselect" nodeLabel="9.0" m_display="0" m_topoIndex="101" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="108" name="tmp_36" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_36_fu_685_p4" coreId="95745504" contextFuncName="max_pooling2d" bitwidth="8" opcode="partselect" nodeLabel="9.0" m_display="0" m_topoIndex="101" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>bitcast</dataInputObjs>
         <dataOutputObjs>icmp</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="109" name="trunc_ln136_20" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="trunc_ln136_20_fu_695_p1" coreId="1122050632" contextFuncName="max_pooling2d" bitwidth="23" opcode="trunc" nodeLabel="9.0" m_display="0" m_topoIndex="102" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="109" name="trunc_ln136_20" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="trunc_ln136_20_fu_695_p1" coreId="95746304" contextFuncName="max_pooling2d" bitwidth="23" opcode="trunc" nodeLabel="9.0" m_display="0" m_topoIndex="102" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>bitcast</dataInputObjs>
         <dataOutputObjs>icmp</dataOutputObjs>
@@ -871,31 +871,31 @@
         <dataOutputObjs>or</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="112" name="or_ln136_20" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln136_20_fu_711_p2" opType="or" coreId="1811939456" contextFuncName="max_pooling2d" bitwidth="1" opcode="or" nodeLabel="9.0" m_display="0" m_topoIndex="105" m_clusterGroupNumber="12">
+      <node_objs xsi:type="cdfg:CdfgNode" id="112" name="or_ln136_20" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln136_20_fu_711_p2" opType="or" coreId="96496448" contextFuncName="max_pooling2d" bitwidth="1" opcode="or" nodeLabel="9.0" m_display="0" m_topoIndex="105" m_clusterGroupNumber="12">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>icmp</dataInputObjs>
         <dataInputObjs>icmp</dataInputObjs>
         <dataOutputObjs>and</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="113" name="icmp_ln136_38" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln136_38_fu_717_p2" opType="icmp" coreId="0" contextFuncName="max_pooling2d" bitwidth="1" opcode="icmp" nodeLabel="9.0" m_display="0" m_delay="0.85" m_topoIndex="106" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="113" name="icmp_ln136_38" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln136_38_fu_717_p2" opType="icmp" coreId="96497256" contextFuncName="max_pooling2d" bitwidth="1" opcode="icmp" nodeLabel="9.0" m_display="0" m_delay="0.85" m_topoIndex="106" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>partselect</dataInputObjs>
         <dataOutputObjs>or</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="114" name="icmp_ln136_39" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln136_39_fu_723_p2" opType="icmp" coreId="4865" contextFuncName="max_pooling2d" bitwidth="1" opcode="icmp" nodeLabel="9.0" m_display="0" m_delay="0.97" m_topoIndex="107" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="114" name="icmp_ln136_39" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln136_39_fu_723_p2" opType="icmp" coreId="49" contextFuncName="max_pooling2d" bitwidth="1" opcode="icmp" nodeLabel="9.0" m_display="0" m_delay="0.97" m_topoIndex="107" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>trunc</dataInputObjs>
         <dataOutputObjs>or</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="115" name="or_ln136_21" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln136_21_fu_729_p2" opType="or" coreId="1" contextFuncName="max_pooling2d" bitwidth="1" opcode="or" nodeLabel="9.0" m_display="0" m_topoIndex="108" m_clusterGroupNumber="12">
+      <node_objs xsi:type="cdfg:CdfgNode" id="115" name="or_ln136_21" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln136_21_fu_729_p2" opType="or" coreId="0" contextFuncName="max_pooling2d" bitwidth="1" opcode="or" nodeLabel="9.0" m_display="0" m_topoIndex="108" m_clusterGroupNumber="12">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>icmp</dataInputObjs>
         <dataInputObjs>icmp</dataInputObjs>
         <dataOutputObjs>and</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="116" name="and_ln136_17" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="and_ln136_17_fu_735_p2" opType="and" coreId="0" contextFuncName="max_pooling2d" bitwidth="1" opcode="and" nodeLabel="9.0" m_display="0" m_topoIndex="109" m_clusterGroupNumber="12">
+      <node_objs xsi:type="cdfg:CdfgNode" id="116" name="and_ln136_17" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="and_ln136_17_fu_735_p2" opType="and" coreId="738197632" contextFuncName="max_pooling2d" bitwidth="1" opcode="and" nodeLabel="9.0" m_display="0" m_topoIndex="109" m_clusterGroupNumber="12">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>or</dataInputObjs>
         <dataInputObjs>or</dataInputObjs>
@@ -907,7 +907,7 @@
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>and</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="118" name="and_ln136_18" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="and_ln136_18_fu_741_p2" opType="and" coreId="49" contextFuncName="max_pooling2d" bitwidth="1" opcode="and" nodeLabel="9.0" m_display="0" m_delay="0.33" m_topoIndex="110" m_clusterGroupNumber="12">
+      <node_objs xsi:type="cdfg:CdfgNode" id="118" name="and_ln136_18" lineNumber="136" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="and_ln136_18_fu_741_p2" opType="and" coreId="0" contextFuncName="max_pooling2d" bitwidth="1" opcode="and" nodeLabel="9.0" m_display="0" m_delay="0.33" m_topoIndex="110" m_clusterGroupNumber="12">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="136" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="max_pooling2d"/>
         <dataInputObjs>and</dataInputObjs>
         <dataInputObjs>fcmp</dataInputObjs>
@@ -951,7 +951,7 @@
         <dataOutputObjs>phi</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="125" name="br_ln0" coreId="1123058912" opcode="br" nodeLabel="9.0" m_display="0" m_topoIndex="114" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="125" name="br_ln0" coreId="0" opcode="br" nodeLabel="9.0" m_display="0" m_topoIndex="114" m_clusterGroupNumber="-1">
         <controlInputObjs>block_18</controlInputObjs>
       </node_objs>
       <fileValidLineNumbers fileName="../src/hls/cnn.cpp">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1703202243731">
-  <ports id="1" name="array_r" type="PortType" coreName="RAM" coreId="0" bitwidth="32" direction="DirOut" iftype="IfTypeRegister" arraysize="15488">
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1703203409437">
+  <ports id="1" name="array_r" type="PortType" coreName="RAM" coreId="87640528" bitwidth="32" direction="DirOut" iftype="IfTypeRegister" arraysize="15488">
     <dataInputObjs>getelementptr</dataInputObjs>
   </ports>
   <edges id="51" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@blocks.0/@node_objs.0"/>
@@ -78,7 +78,7 @@
     <controlOutputObjs>phi</controlOutputObjs>
     <controlOutputObjs>phi</controlOutputObjs>
     <controlOutputObjs>block_14</controlOutputObjs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="2" name="br_ln8" lineNumber="8" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="49" contextFuncName="set3DFloatArray" opcode="br" m_display="0" m_delay="0.48" m_topoIndex="1" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="2" name="br_ln8" lineNumber="8" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="4080980976" contextFuncName="set3DFloatArray" opcode="br" m_display="0" m_delay="0.48" m_topoIndex="1" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="8" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="set3DFloatArray"/>
       <controlInputObjs>block_14</controlInputObjs>
     </node_objs>
@@ -89,7 +89,7 @@
   <blocks id="50" name="._crit_edge12.loopexit" type="BlockType">
     <controlInputObjs>block_14</controlInputObjs>
     <controlOutputObjs>br</controlOutputObjs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="49" name="_ln18" lineNumber="18" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="1114098376" contextFuncName="set3DFloatArray" opcode="ret" nodeLabel="5.0" m_display="0" m_topoIndex="38" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="49" name="_ln18" lineNumber="18" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="49" contextFuncName="set3DFloatArray" opcode="ret" nodeLabel="5.0" m_display="0" m_topoIndex="38" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="18" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="set3DFloatArray"/>
     </node_objs>
     <fileValidLineNumbers fileName="../src/hls/cnn.cpp">
@@ -104,7 +104,7 @@
       <controlOutputObjs>br</controlOutputObjs>
       <controlOutputObjs>._crit_edge12.loopexit</controlOutputObjs>
       <controlOutputObjs>._crit_edge7.loopexit</controlOutputObjs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="4" name="indvar_flatten17" lineNumber="8" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="1" contextFuncName="set3DFloatArray" bitwidth="14" opcode="phi" nodeLabel="1.0" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="4" name="indvar_flatten17" lineNumber="8" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="737" contextFuncName="set3DFloatArray" bitwidth="14" opcode="phi" nodeLabel="1.0" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="8" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="set3DFloatArray"/>
         <dataInputObjs>add</dataInputObjs>
         <dataOutputObjs>add</dataOutputObjs>
@@ -113,7 +113,7 @@
         <controlInputObjs>._crit_edge7.loopexit</controlInputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="5" name="i" lineNumber="10" originalName="i" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="13" contextFuncName="set3DFloatArray" bitwidth="5" opcode="phi" nodeLabel="1.0" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="5" name="i" lineNumber="10" originalName="i" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="49" contextFuncName="set3DFloatArray" bitwidth="5" opcode="phi" nodeLabel="1.0" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="10" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="set3DFloatArray"/>
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>add</dataOutputObjs>
@@ -122,7 +122,7 @@
         <controlInputObjs>._crit_edge7.loopexit</controlInputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="6" name="indvar_flatten" lineNumber="10" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="1150780648" contextFuncName="set3DFloatArray" bitwidth="11" opcode="phi" nodeLabel="1.0" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="6" name="indvar_flatten" lineNumber="10" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="49" contextFuncName="set3DFloatArray" bitwidth="11" opcode="phi" nodeLabel="1.0" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="10" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="set3DFloatArray"/>
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>icmp</dataOutputObjs>
@@ -131,7 +131,7 @@
         <controlInputObjs>._crit_edge7.loopexit</controlInputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="7" name="ii" lineNumber="10" originalName="ii" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="1146098800" contextFuncName="set3DFloatArray" bitwidth="5" opcode="phi" nodeLabel="3.0" m_display="0" m_topoIndex="15" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="7" name="ii" lineNumber="10" originalName="ii" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="49" contextFuncName="set3DFloatArray" bitwidth="5" opcode="phi" nodeLabel="3.0" m_display="0" m_topoIndex="15" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="10" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="set3DFloatArray"/>
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>bitconcatenate</dataOutputObjs>
@@ -140,7 +140,7 @@
         <controlInputObjs>._crit_edge7.loopexit</controlInputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="8" name="iii" lineNumber="12" originalName="iii" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="171" contextFuncName="set3DFloatArray" bitwidth="6" opcode="phi" nodeLabel="3.0" m_display="0" m_topoIndex="16" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="8" name="iii" lineNumber="12" originalName="iii" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="6" contextFuncName="set3DFloatArray" bitwidth="6" opcode="phi" nodeLabel="3.0" m_display="0" m_topoIndex="16" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="12" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="set3DFloatArray"/>
         <dataInputObjs>add</dataInputObjs>
         <dataOutputObjs>icmp</dataOutputObjs>
@@ -155,7 +155,7 @@
         <dataOutputObjs>phi</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="10" name="tmp_2" lineNumber="10" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_2_fu_185_p3" coreId="0" contextFuncName="set3DFloatArray" bitwidth="10" opcode="bitconcatenate" nodeLabel="3.0" m_display="0" m_topoIndex="17" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="10" name="tmp_2" lineNumber="10" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_2_fu_185_p3" coreId="87166840" contextFuncName="set3DFloatArray" bitwidth="10" opcode="bitconcatenate" nodeLabel="3.0" m_display="0" m_topoIndex="17" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="10" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="set3DFloatArray"/>
         <dataInputObjs>phi</dataInputObjs>
         <dataOutputObjs>select</dataOutputObjs>
@@ -221,7 +221,7 @@
         <dataOutputObjs>phi</dataOutputObjs>
         <dataOutputObjs>zext</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="21" name="zext_ln10" lineNumber="10" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="grp_fu_301_p00" coreId="0" contextFuncName="set3DFloatArray" bitwidth="14" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="11" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="21" name="zext_ln10" lineNumber="10" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="grp_fu_301_p00" coreId="132" contextFuncName="set3DFloatArray" bitwidth="14" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="11" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="10" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="set3DFloatArray"/>
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>mul</dataOutputObjs>
@@ -239,19 +239,19 @@
         <dataOutputObjs>select</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="25" name="xor_ln10" lineNumber="10" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="xor_ln10_fu_200_p2" opType="xor" coreId="0" contextFuncName="set3DFloatArray" bitwidth="1" opcode="xor" nodeLabel="3.0" m_display="0" m_topoIndex="19" m_clusterGroupNumber="2">
+      <node_objs xsi:type="cdfg:CdfgNode" id="25" name="xor_ln10" lineNumber="10" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="xor_ln10_fu_200_p2" opType="xor" coreId="49" contextFuncName="set3DFloatArray" bitwidth="1" opcode="xor" nodeLabel="3.0" m_display="0" m_topoIndex="19" m_clusterGroupNumber="2">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="10" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="set3DFloatArray"/>
         <dataInputObjs>icmp</dataInputObjs>
         <dataOutputObjs>and</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="26" name="icmp_ln12" lineNumber="12" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln12_fu_205_p2" opType="icmp" coreId="1114503120" contextFuncName="set3DFloatArray" bitwidth="1" opcode="icmp" nodeLabel="3.0" m_display="0" m_delay="0.87" m_topoIndex="20" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="26" name="icmp_ln12" lineNumber="12" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln12_fu_205_p2" opType="icmp" coreId="842478637" contextFuncName="set3DFloatArray" bitwidth="1" opcode="icmp" nodeLabel="3.0" m_display="0" m_delay="0.87" m_topoIndex="20" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="12" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="set3DFloatArray"/>
         <dataInputObjs>phi</dataInputObjs>
         <dataOutputObjs>and</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="27" name="and_ln10" lineNumber="10" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="and_ln10_fu_211_p2" opType="and" coreId="0" contextFuncName="set3DFloatArray" bitwidth="1" opcode="and" nodeLabel="3.0" m_display="0" m_delay="0.33" m_topoIndex="21" m_clusterGroupNumber="2">
+      <node_objs xsi:type="cdfg:CdfgNode" id="27" name="and_ln10" lineNumber="10" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="and_ln10_fu_211_p2" opType="and" coreId="87938752" contextFuncName="set3DFloatArray" bitwidth="1" opcode="and" nodeLabel="3.0" m_display="0" m_delay="0.33" m_topoIndex="21" m_clusterGroupNumber="2">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="10" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="set3DFloatArray"/>
         <dataInputObjs>icmp</dataInputObjs>
         <dataInputObjs>xor</dataInputObjs>
@@ -266,7 +266,7 @@
         <dataOutputObjs>select</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="30" name="or_ln10" lineNumber="10" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln10_fu_223_p2" opType="or" coreId="49" contextFuncName="set3DFloatArray" bitwidth="1" opcode="or" nodeLabel="3.0" m_display="0" m_topoIndex="23" m_clusterGroupNumber="3">
+      <node_objs xsi:type="cdfg:CdfgNode" id="30" name="or_ln10" lineNumber="10" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln10_fu_223_p2" opType="or" coreId="87852297" contextFuncName="set3DFloatArray" bitwidth="1" opcode="or" nodeLabel="3.0" m_display="0" m_topoIndex="23" m_clusterGroupNumber="3">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="10" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="set3DFloatArray"/>
         <dataInputObjs>and</dataInputObjs>
         <dataInputObjs>icmp</dataInputObjs>
@@ -280,7 +280,7 @@
         <dataOutputObjs>add</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="32" name="p_mid1" lineNumber="10" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="p_mid1_fu_256_p3" coreId="132" contextFuncName="set3DFloatArray" bitwidth="10" opcode="bitconcatenate" nodeLabel="4.0" m_display="0" m_topoIndex="28" m_clusterGroupNumber="1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="32" name="p_mid1" lineNumber="10" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="p_mid1_fu_256_p3" coreId="2305" contextFuncName="set3DFloatArray" bitwidth="10" opcode="bitconcatenate" nodeLabel="4.0" m_display="0" m_topoIndex="28" m_clusterGroupNumber="1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="10" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="set3DFloatArray"/>
         <dataInputObjs>add</dataInputObjs>
         <dataOutputObjs>select</dataOutputObjs>
@@ -305,13 +305,13 @@
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>phi</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="38" name="tmp_1" lineNumber="14" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_1_fu_274_p4" coreId="1114104928" contextFuncName="set3DFloatArray" bitwidth="8" opcode="partselect" nodeLabel="4.0" m_display="0" m_topoIndex="31" m_clusterGroupNumber="1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="38" name="tmp_1" lineNumber="14" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_1_fu_274_p4" coreId="0" contextFuncName="set3DFloatArray" bitwidth="8" opcode="partselect" nodeLabel="4.0" m_display="0" m_topoIndex="31" m_clusterGroupNumber="1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="14" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="set3DFloatArray"/>
         <dataInputObjs>mul</dataInputObjs>
         <dataOutputObjs>bitconcatenate</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="39" name="tmp" lineNumber="14" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_fu_283_p3" coreId="0" contextFuncName="set3DFloatArray" bitwidth="14" opcode="bitconcatenate" nodeLabel="4.0" m_display="0" m_topoIndex="32" m_clusterGroupNumber="1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="39" name="tmp" lineNumber="14" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_fu_283_p3" coreId="49" contextFuncName="set3DFloatArray" bitwidth="14" opcode="bitconcatenate" nodeLabel="4.0" m_display="0" m_topoIndex="32" m_clusterGroupNumber="1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="14" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="set3DFloatArray"/>
         <dataInputObjs>partselect</dataInputObjs>
         <dataInputObjs>select</dataInputObjs>
@@ -328,7 +328,7 @@
         <dataInputObjs>add</dataInputObjs>
         <dataOutputObjs>getelementptr</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="42" name="array_addr" lineNumber="14" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="0" contextFuncName="set3DFloatArray" bitwidth="14" opcode="getelementptr" nodeLabel="4.0" m_display="0" m_topoIndex="35" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="42" name="array_addr" lineNumber="14" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="87644200" contextFuncName="set3DFloatArray" bitwidth="14" opcode="getelementptr" nodeLabel="4.0" m_display="0" m_topoIndex="35" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="14" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="set3DFloatArray"/>
         <dataInputObjs>zext</dataInputObjs>
         <dataOutputObjs>array_r</dataOutputObjs>
@@ -359,7 +359,7 @@
         <dataOutputObjs>phi</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="47" name="br_ln0" coreId="1114095640" opcode="br" nodeLabel="4.0" m_display="0" m_topoIndex="37" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="47" name="br_ln0" coreId="209" opcode="br" nodeLabel="4.0" m_display="0" m_topoIndex="37" m_clusterGroupNumber="-1">
         <controlInputObjs>block_14</controlInputObjs>
       </node_objs>
       <fileValidLineNumbers fileName="../src/hls/cnn.cpp">

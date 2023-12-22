@@ -27,16 +27,16 @@ port (
     output_r_ce0 : OUT STD_LOGIC;
     output_r_we0 : OUT STD_LOGIC;
     output_r_d0 : OUT STD_LOGIC_VECTOR (31 downto 0);
-    grp_fu_788_p_din0 : OUT STD_LOGIC_VECTOR (31 downto 0);
-    grp_fu_788_p_din1 : OUT STD_LOGIC_VECTOR (31 downto 0);
-    grp_fu_788_p_opcode : OUT STD_LOGIC_VECTOR (4 downto 0);
-    grp_fu_788_p_dout0 : IN STD_LOGIC_VECTOR (0 downto 0);
-    grp_fu_788_p_ce : OUT STD_LOGIC;
-    grp_fu_1839_p_din0 : OUT STD_LOGIC_VECTOR (31 downto 0);
-    grp_fu_1839_p_din1 : OUT STD_LOGIC_VECTOR (31 downto 0);
-    grp_fu_1839_p_opcode : OUT STD_LOGIC_VECTOR (4 downto 0);
-    grp_fu_1839_p_dout0 : IN STD_LOGIC_VECTOR (0 downto 0);
-    grp_fu_1839_p_ce : OUT STD_LOGIC );
+    grp_fu_1083_p_din0 : OUT STD_LOGIC_VECTOR (31 downto 0);
+    grp_fu_1083_p_din1 : OUT STD_LOGIC_VECTOR (31 downto 0);
+    grp_fu_1083_p_opcode : OUT STD_LOGIC_VECTOR (4 downto 0);
+    grp_fu_1083_p_dout0 : IN STD_LOGIC_VECTOR (0 downto 0);
+    grp_fu_1083_p_ce : OUT STD_LOGIC;
+    grp_fu_2720_p_din0 : OUT STD_LOGIC_VECTOR (31 downto 0);
+    grp_fu_2720_p_din1 : OUT STD_LOGIC_VECTOR (31 downto 0);
+    grp_fu_2720_p_opcode : OUT STD_LOGIC_VECTOR (4 downto 0);
+    grp_fu_2720_p_dout0 : IN STD_LOGIC_VECTOR (0 downto 0);
+    grp_fu_2720_p_ce : OUT STD_LOGIC );
 end;
 
 
@@ -554,12 +554,12 @@ begin
     add_ln136_s_fu_552_p3 <= (select_ln124_16_fu_545_p3 & or_ln136_17_fu_519_p2);
     and_ln121_fu_212_p2 <= (xor_ln121_fu_200_p2 and icmp_ln127_fu_206_p2);
     and_ln136_13_fu_501_p2 <= (or_ln136_16_fu_495_p2 and or_ln136_15_fu_477_p2);
-    and_ln136_14_fu_507_p2 <= (grp_fu_788_p_dout0 and and_ln136_13_fu_501_p2);
+    and_ln136_14_fu_507_p2 <= (grp_fu_1083_p_dout0 and and_ln136_13_fu_501_p2);
     and_ln136_15_fu_642_p2 <= (or_ln136_19_fu_636_p2 and or_ln136_18_fu_618_p2);
-    and_ln136_16_fu_648_p2 <= (grp_fu_1839_p_dout0 and and_ln136_15_fu_642_p2);
+    and_ln136_16_fu_648_p2 <= (grp_fu_2720_p_dout0 and and_ln136_15_fu_642_p2);
     and_ln136_17_fu_735_p2 <= (or_ln136_21_fu_729_p2 and or_ln136_20_fu_711_p2);
-    and_ln136_18_fu_741_p2 <= (grp_fu_1839_p_dout0 and and_ln136_17_fu_735_p2);
-    and_ln136_fu_307_p2 <= (or_ln136_fu_301_p2 and grp_fu_788_p_dout0);
+    and_ln136_18_fu_741_p2 <= (grp_fu_2720_p_dout0 and and_ln136_17_fu_735_p2);
+    and_ln136_fu_307_p2 <= (or_ln136_fu_301_p2 and grp_fu_1083_p_dout0);
     ap_CS_fsm_pp0_stage0 <= ap_CS_fsm(1);
     ap_CS_fsm_pp0_stage1 <= ap_CS_fsm(2);
     ap_CS_fsm_state1 <= ap_CS_fsm(0);
@@ -689,6 +689,10 @@ begin
     bitcast_ln136_17_fu_665_p1 <= input_load_9_reg_865;
     bitcast_ln136_18_fu_682_p1 <= select_ln136_8_reg_853_pp0_iter3_reg;
     bitcast_ln136_fu_271_p1 <= reg_182;
+    grp_fu_1083_p_ce <= ap_const_logic_1;
+    grp_fu_1083_p_din0 <= grp_fu_171_p0;
+    grp_fu_1083_p_din1 <= grp_fu_171_p1;
+    grp_fu_1083_p_opcode <= ap_const_lv5_2;
     grp_fu_171_ce <= ap_const_logic_1;
     grp_fu_171_opcode <= ap_const_lv5_2;
 
@@ -715,7 +719,7 @@ begin
         end if; 
     end process;
 
-    grp_fu_171_p2 <= grp_fu_788_p_dout0;
+    grp_fu_171_p2 <= grp_fu_1083_p_dout0;
     grp_fu_177_ce <= ap_const_logic_1;
     grp_fu_177_opcode <= ap_const_lv5_2;
 
@@ -742,15 +746,11 @@ begin
         end if; 
     end process;
 
-    grp_fu_177_p2 <= grp_fu_1839_p_dout0;
-    grp_fu_1839_p_ce <= ap_const_logic_1;
-    grp_fu_1839_p_din0 <= grp_fu_177_p0;
-    grp_fu_1839_p_din1 <= grp_fu_177_p1;
-    grp_fu_1839_p_opcode <= ap_const_lv5_2;
-    grp_fu_788_p_ce <= ap_const_logic_1;
-    grp_fu_788_p_din0 <= grp_fu_171_p0;
-    grp_fu_788_p_din1 <= grp_fu_171_p1;
-    grp_fu_788_p_opcode <= ap_const_lv5_2;
+    grp_fu_177_p2 <= grp_fu_2720_p_dout0;
+    grp_fu_2720_p_ce <= ap_const_logic_1;
+    grp_fu_2720_p_din0 <= grp_fu_177_p0;
+    grp_fu_2720_p_din1 <= grp_fu_177_p1;
+    grp_fu_2720_p_opcode <= ap_const_lv5_2;
     icmp_ln121_fu_188_p2 <= "1" when (ap_phi_mux_indvar_flatten23_phi_fu_130_p4 = ap_const_lv6_20) else "0";
     icmp_ln124_fu_194_p2 <= "1" when (ap_phi_mux_indvar_flatten_phi_fu_142_p4 = ap_const_lv7_20) else "0";
     icmp_ln127_fu_206_p2 <= "1" when (ap_phi_mux_iii_phi_fu_153_p4 = ap_const_lv6_20) else "0";

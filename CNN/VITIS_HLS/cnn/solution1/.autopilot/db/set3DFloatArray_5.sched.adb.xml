@@ -686,7 +686,7 @@
 
 <Node id="37" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-._crit_edge7.loopexit:22 %specloopname_ln12 = specloopname void @_ssdm_op_SpecLoopName, void @empty
+._crit_edge7.loopexit:22 %specloopname_ln12 = specloopname void @_ssdm_op_SpecLoopName, void @empty_8
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln12"/></StgValue>

@@ -24,16 +24,16 @@ module infer_max_pooling2d_2 (
         output_r_ce0,
         output_r_we0,
         output_r_d0,
-        grp_fu_788_p_din0,
-        grp_fu_788_p_din1,
-        grp_fu_788_p_opcode,
-        grp_fu_788_p_dout0,
-        grp_fu_788_p_ce,
-        grp_fu_1839_p_din0,
-        grp_fu_1839_p_din1,
-        grp_fu_1839_p_opcode,
-        grp_fu_1839_p_dout0,
-        grp_fu_1839_p_ce
+        grp_fu_1083_p_din0,
+        grp_fu_1083_p_din1,
+        grp_fu_1083_p_opcode,
+        grp_fu_1083_p_dout0,
+        grp_fu_1083_p_ce,
+        grp_fu_2720_p_din0,
+        grp_fu_2720_p_din1,
+        grp_fu_2720_p_opcode,
+        grp_fu_2720_p_dout0,
+        grp_fu_2720_p_ce
 );
 
 parameter    ap_ST_fsm_state1 = 4'd1;
@@ -57,16 +57,16 @@ output  [11:0] output_r_address0;
 output   output_r_ce0;
 output   output_r_we0;
 output  [31:0] output_r_d0;
-output  [31:0] grp_fu_788_p_din0;
-output  [31:0] grp_fu_788_p_din1;
-output  [4:0] grp_fu_788_p_opcode;
-input  [0:0] grp_fu_788_p_dout0;
-output   grp_fu_788_p_ce;
-output  [31:0] grp_fu_1839_p_din0;
-output  [31:0] grp_fu_1839_p_din1;
-output  [4:0] grp_fu_1839_p_opcode;
-input  [0:0] grp_fu_1839_p_dout0;
-output   grp_fu_1839_p_ce;
+output  [31:0] grp_fu_1083_p_din0;
+output  [31:0] grp_fu_1083_p_din1;
+output  [4:0] grp_fu_1083_p_opcode;
+input  [0:0] grp_fu_1083_p_dout0;
+output   grp_fu_1083_p_ce;
+output  [31:0] grp_fu_2720_p_din0;
+output  [31:0] grp_fu_2720_p_din1;
+output  [4:0] grp_fu_2720_p_opcode;
+input  [0:0] grp_fu_2720_p_dout0;
+output   grp_fu_2720_p_ce;
 
 reg ap_done;
 reg ap_idle;
@@ -107,8 +107,8 @@ reg   [3:0] p_lshr_f9_cast_reg_968;
 reg   [3:0] p_lshr_f9_cast_reg_968_pp0_iter1_reg;
 reg   [3:0] p_lshr_f9_cast_reg_968_pp0_iter2_reg;
 reg   [3:0] p_lshr_f9_cast_reg_968_pp0_iter3_reg;
-wire   [4:0] empty_33_fu_234_p2;
-reg   [4:0] empty_33_reg_973;
+wire   [4:0] empty_34_fu_234_p2;
+reg   [4:0] empty_34_reg_973;
 reg   [3:0] p_lshr_f_cast_reg_978;
 reg   [3:0] p_lshr_f_cast_reg_978_pp0_iter1_reg;
 reg   [3:0] p_lshr_f_cast_reg_978_pp0_iter2_reg;
@@ -532,7 +532,7 @@ always @ (posedge ap_clk) begin
         and_ln121_reg_1018_pp0_iter1_reg <= and_ln121_reg_1018;
         and_ln121_reg_1018_pp0_iter2_reg <= and_ln121_reg_1018_pp0_iter1_reg;
         and_ln121_reg_1018_pp0_iter3_reg <= and_ln121_reg_1018_pp0_iter2_reg;
-        empty_33_reg_973[4 : 1] <= empty_33_fu_234_p2[4 : 1];
+        empty_34_reg_973[4 : 1] <= empty_34_fu_234_p2[4 : 1];
         icmp_ln121_reg_988 <= icmp_ln121_fu_260_p2;
         icmp_ln121_reg_988_pp0_iter1_reg <= icmp_ln121_reg_988;
         icmp_ln121_reg_988_pp0_iter2_reg <= icmp_ln121_reg_988_pp0_iter1_reg;
@@ -870,17 +870,17 @@ assign and_ln121_fu_334_p2 = (xor_ln121_fu_322_p2 & icmp_ln127_fu_328_p2);
 
 assign and_ln136_1_fu_652_p2 = (or_ln136_2_fu_646_p2 & or_ln136_1_fu_628_p2);
 
-assign and_ln136_2_fu_658_p2 = (grp_fu_788_p_dout0 & and_ln136_1_fu_652_p2);
+assign and_ln136_2_fu_658_p2 = (grp_fu_1083_p_dout0 & and_ln136_1_fu_652_p2);
 
 assign and_ln136_3_fu_768_p2 = (or_ln136_4_fu_762_p2 & or_ln136_3_fu_744_p2);
 
-assign and_ln136_4_fu_774_p2 = (grp_fu_1839_p_dout0 & and_ln136_3_fu_768_p2);
+assign and_ln136_4_fu_774_p2 = (grp_fu_2720_p_dout0 & and_ln136_3_fu_768_p2);
 
 assign and_ln136_5_fu_945_p2 = (or_ln136_6_fu_939_p2 & or_ln136_5_fu_921_p2);
 
-assign and_ln136_6_fu_951_p2 = (grp_fu_1839_p_dout0 & and_ln136_5_fu_945_p2);
+assign and_ln136_6_fu_951_p2 = (grp_fu_2720_p_dout0 & and_ln136_5_fu_945_p2);
 
-assign and_ln136_fu_509_p2 = (or_ln136_fu_503_p2 & grp_fu_788_p_dout0);
+assign and_ln136_fu_509_p2 = (or_ln136_fu_503_p2 & grp_fu_1083_p_dout0);
 
 assign ap_CS_fsm_pp0_stage0 = ap_CS_fsm[32'd1];
 
@@ -940,7 +940,7 @@ assign bitcast_ln136_6_fu_892_p1 = select_ln136_2_reg_1125_pp0_iter3_reg;
 
 assign bitcast_ln136_fu_473_p1 = reg_208;
 
-assign empty_33_fu_234_p2 = (ap_phi_mux_i_phi_fu_156_p4 | 5'd1);
+assign empty_34_fu_234_p2 = (ap_phi_mux_i_phi_fu_156_p4 | 5'd1);
 
 assign empty_fu_228_p0 = empty_fu_228_p00;
 
@@ -948,33 +948,33 @@ assign empty_fu_228_p00 = ap_phi_mux_i_phi_fu_156_p4;
 
 assign empty_fu_228_p1 = 9'd22;
 
-assign grp_fu_1839_p_ce = 1'b1;
+assign grp_fu_1083_p_ce = 1'b1;
 
-assign grp_fu_1839_p_din0 = grp_fu_203_p0;
+assign grp_fu_1083_p_din0 = grp_fu_197_p0;
 
-assign grp_fu_1839_p_din1 = grp_fu_203_p1;
+assign grp_fu_1083_p_din1 = grp_fu_197_p1;
 
-assign grp_fu_1839_p_opcode = 5'd2;
+assign grp_fu_1083_p_opcode = 5'd2;
 
 assign grp_fu_197_ce = 1'b1;
 
 assign grp_fu_197_opcode = 5'd2;
 
-assign grp_fu_197_p2 = grp_fu_788_p_dout0;
+assign grp_fu_197_p2 = grp_fu_1083_p_dout0;
 
 assign grp_fu_203_ce = 1'b1;
 
 assign grp_fu_203_opcode = 5'd2;
 
-assign grp_fu_203_p2 = grp_fu_1839_p_dout0;
+assign grp_fu_203_p2 = grp_fu_2720_p_dout0;
 
-assign grp_fu_788_p_ce = 1'b1;
+assign grp_fu_2720_p_ce = 1'b1;
 
-assign grp_fu_788_p_din0 = grp_fu_197_p0;
+assign grp_fu_2720_p_din0 = grp_fu_203_p0;
 
-assign grp_fu_788_p_din1 = grp_fu_197_p1;
+assign grp_fu_2720_p_din1 = grp_fu_203_p1;
 
-assign grp_fu_788_p_opcode = 5'd2;
+assign grp_fu_2720_p_opcode = 5'd2;
 
 assign icmp_ln121_fu_260_p2 = ((ap_phi_mux_indvar_flatten44_phi_fu_144_p4 == 12'd3872) ? 1'b1 : 1'b0);
 
@@ -1040,7 +1040,7 @@ assign mul_ln124_1_fu_537_p1 = 9'd22;
 
 assign mul_ln124_fu_467_p0 = mul_ln124_fu_467_p00;
 
-assign mul_ln124_fu_467_p00 = empty_33_reg_973;
+assign mul_ln124_fu_467_p00 = empty_34_reg_973;
 
 assign mul_ln124_fu_467_p1 = 9'd22;
 
@@ -1169,7 +1169,7 @@ assign zext_ln136_fu_414_p1 = add_ln136_1_fu_406_p3;
 assign zext_ln142_fu_964_p1 = add_ln142_reg_1144;
 
 always @ (posedge ap_clk) begin
-    empty_33_reg_973[0] <= 1'b1;
+    empty_34_reg_973[0] <= 1'b1;
     zext_ln127_reg_983[8:5] <= 4'b0000;
     zext_ln127_reg_983_pp0_iter1_reg[8:5] <= 4'b0000;
     zext_ln127_1_reg_1038[8:5] <= 4'b0000;

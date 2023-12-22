@@ -6,7 +6,7 @@ library ieee;
 use ieee.std_logic_1164.all; 
 use ieee.std_logic_unsigned.all;
 
-entity infer_dense_relu_layer_12_weights_rom is 
+entity infer_layer_12_weights_rom is 
     generic(
              DWIDTH     : integer := 32; 
              AWIDTH     : integer := 6; 
@@ -21,7 +21,7 @@ entity infer_dense_relu_layer_12_weights_rom is
 end entity; 
 
 
-architecture rtl of infer_dense_relu_layer_12_weights_rom is 
+architecture rtl of infer_layer_12_weights_rom is 
 
 signal addr0_tmp : std_logic_vector(AWIDTH-1 downto 0); 
 type mem_array is array (0 to MEM_SIZE-1) of std_logic_vector (DWIDTH-1 downto 0); 
@@ -121,7 +121,7 @@ end rtl;
 Library IEEE;
 use IEEE.std_logic_1164.all;
 
-entity infer_dense_relu_layer_12_weights is
+entity infer_layer_12_weights is
     generic (
         DataWidth : INTEGER := 32;
         AddressRange : INTEGER := 64;
@@ -134,8 +134,8 @@ entity infer_dense_relu_layer_12_weights is
         q0 : OUT STD_LOGIC_VECTOR(DataWidth - 1 DOWNTO 0));
 end entity;
 
-architecture arch of infer_dense_relu_layer_12_weights is
-    component infer_dense_relu_layer_12_weights_rom is
+architecture arch of infer_layer_12_weights is
+    component infer_layer_12_weights_rom is
         port (
             clk : IN STD_LOGIC;
             addr0 : IN STD_LOGIC_VECTOR;
@@ -146,7 +146,7 @@ architecture arch of infer_dense_relu_layer_12_weights is
 
 
 begin
-    infer_dense_relu_layer_12_weights_rom_U :  component infer_dense_relu_layer_12_weights_rom
+    infer_layer_12_weights_rom_U :  component infer_layer_12_weights_rom
     port map (
         clk => clk,
         addr0 => address0,

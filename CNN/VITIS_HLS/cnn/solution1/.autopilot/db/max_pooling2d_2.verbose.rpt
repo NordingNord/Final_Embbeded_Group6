@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'max_pooling2d_2'
 ================================================================
-* Date:           Fri Dec 22 00:44:05 2023
+* Date:           Fri Dec 22 01:03:31 2023
 
 * Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)
 * Project:        cnn
@@ -135,7 +135,7 @@
     |icmp_ln136_8_fu_750_p2    |      icmp|   0|  0|  11|           8|           2|
     |icmp_ln136_9_fu_756_p2    |      icmp|   0|  0|  16|          23|           1|
     |icmp_ln136_fu_491_p2      |      icmp|   0|  0|  11|           8|           2|
-    |empty_33_fu_234_p2        |        or|   0|  0|   5|           5|           1|
+    |empty_34_fu_234_p2        |        or|   0|  0|   5|           5|           1|
     |or_ln124_1_fu_378_p2      |        or|   0|  0|   9|           9|           1|
     |or_ln124_2_fu_568_p2      |        or|   0|  0|   9|           9|           1|
     |or_ln124_fu_346_p2        |        or|   0|  0|   2|           1|           1|
@@ -216,7 +216,7 @@
     |ap_enable_reg_pp0_iter2                |   1|   0|    1|          0|
     |ap_enable_reg_pp0_iter3                |   1|   0|    1|          0|
     |ap_enable_reg_pp0_iter4                |   1|   0|    1|          0|
-    |empty_33_reg_973                       |   4|   0|    5|          1|
+    |empty_34_reg_973                       |   4|   0|    5|          1|
     |i_reg_152                              |   5|   0|    5|          0|
     |icmp_ln121_reg_988                     |   1|   0|    1|          0|
     |icmp_ln124_reg_992                     |   1|   0|    1|          0|
@@ -274,16 +274,16 @@
 |ap_done               |  out|    1|  ap_ctrl_hs|  max_pooling2d.2|  return value|
 |ap_idle               |  out|    1|  ap_ctrl_hs|  max_pooling2d.2|  return value|
 |ap_ready              |  out|    1|  ap_ctrl_hs|  max_pooling2d.2|  return value|
-|grp_fu_788_p_din0     |  out|   32|  ap_ctrl_hs|  max_pooling2d.2|  return value|
-|grp_fu_788_p_din1     |  out|   32|  ap_ctrl_hs|  max_pooling2d.2|  return value|
-|grp_fu_788_p_opcode   |  out|    5|  ap_ctrl_hs|  max_pooling2d.2|  return value|
-|grp_fu_788_p_dout0    |   in|    1|  ap_ctrl_hs|  max_pooling2d.2|  return value|
-|grp_fu_788_p_ce       |  out|    1|  ap_ctrl_hs|  max_pooling2d.2|  return value|
-|grp_fu_1839_p_din0    |  out|   32|  ap_ctrl_hs|  max_pooling2d.2|  return value|
-|grp_fu_1839_p_din1    |  out|   32|  ap_ctrl_hs|  max_pooling2d.2|  return value|
-|grp_fu_1839_p_opcode  |  out|    5|  ap_ctrl_hs|  max_pooling2d.2|  return value|
-|grp_fu_1839_p_dout0   |   in|    1|  ap_ctrl_hs|  max_pooling2d.2|  return value|
-|grp_fu_1839_p_ce      |  out|    1|  ap_ctrl_hs|  max_pooling2d.2|  return value|
+|grp_fu_1083_p_din0    |  out|   32|  ap_ctrl_hs|  max_pooling2d.2|  return value|
+|grp_fu_1083_p_din1    |  out|   32|  ap_ctrl_hs|  max_pooling2d.2|  return value|
+|grp_fu_1083_p_opcode  |  out|    5|  ap_ctrl_hs|  max_pooling2d.2|  return value|
+|grp_fu_1083_p_dout0   |   in|    1|  ap_ctrl_hs|  max_pooling2d.2|  return value|
+|grp_fu_1083_p_ce      |  out|    1|  ap_ctrl_hs|  max_pooling2d.2|  return value|
+|grp_fu_2720_p_din0    |  out|   32|  ap_ctrl_hs|  max_pooling2d.2|  return value|
+|grp_fu_2720_p_din1    |  out|   32|  ap_ctrl_hs|  max_pooling2d.2|  return value|
+|grp_fu_2720_p_opcode  |  out|    5|  ap_ctrl_hs|  max_pooling2d.2|  return value|
+|grp_fu_2720_p_dout0   |   in|    1|  ap_ctrl_hs|  max_pooling2d.2|  return value|
+|grp_fu_2720_p_ce      |  out|    1|  ap_ctrl_hs|  max_pooling2d.2|  return value|
 |input_r_address0      |  out|   14|   ap_memory|          input_r|         array|
 |input_r_ce0           |  out|    1|   ap_memory|          input_r|         array|
 |input_r_q0            |   in|   32|   ap_memory|          input_r|         array|
@@ -357,7 +357,7 @@ ST_2 : Operation 17 [1/1] (0.00ns)   --->   "%iii = phi i6 0, void, i6 %add_ln12
 ST_2 : Operation 18 [1/1] (0.00ns)   --->   "%i_tr_cast = zext i5 %i" [../src/hls/cnn.cpp:121]   --->   Operation 18 'zext' 'i_tr_cast' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 19 [1/1] (0.00ns)   --->   "%p_lshr_f9_cast = partselect i4 @_ssdm_op_PartSelect.i4.i5.i32.i32, i5 %i, i32 1, i32 4" [../src/hls/cnn.cpp:121]   --->   Operation 19 'partselect' 'p_lshr_f9_cast' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 20 [1/1] (1.42ns)   --->   "%empty = mul i9 %i_tr_cast, i9 22" [../src/hls/cnn.cpp:121]   --->   Operation 20 'mul' 'empty' <Predicate = true> <Delay = 1.42> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.36> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
-ST_2 : Operation 21 [1/1] (0.00ns)   --->   "%empty_33 = or i5 %i, i5 1" [../src/hls/cnn.cpp:121]   --->   Operation 21 'or' 'empty_33' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 21 [1/1] (0.00ns)   --->   "%empty_34 = or i5 %i, i5 1" [../src/hls/cnn.cpp:121]   --->   Operation 21 'or' 'empty_34' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 22 [1/1] (0.00ns)   --->   "%p_lshr_f_cast = partselect i4 @_ssdm_op_PartSelect.i4.i5.i32.i32, i5 %ii, i32 1, i32 4" [../src/hls/cnn.cpp:124]   --->   Operation 22 'partselect' 'p_lshr_f_cast' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 23 [1/1] (0.00ns)   --->   "%zext_ln127 = zext i5 %ii" [../src/hls/cnn.cpp:127]   --->   Operation 23 'zext' 'zext_ln127' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 24 [1/1] (0.92ns)   --->   "%add_ln136 = add i9 %empty, i9 %zext_ln127" [../src/hls/cnn.cpp:136]   --->   Operation 24 'add' 'add_ln136' <Predicate = true> <Delay = 0.92> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.89> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
@@ -405,7 +405,7 @@ ST_3 : Operation 63 [1/1] (0.88ns)   --->   "%add_ln127 = add i6 %select_ln124, 
 ST_3 : Operation 64 [1/1] (0.47ns)   --->   "%select_ln124_5 = select i1 %icmp_ln124, i10 1, i10 %add_ln124_1" [../src/hls/cnn.cpp:124]   --->   Operation 64 'select' 'select_ln124_5' <Predicate = (!icmp_ln121)> <Delay = 0.47> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.52> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 
 State 4 <SV = 3> <Delay = 7.22>
-ST_4 : Operation 65 [1/1] (0.00ns)   --->   "%zext_ln124 = zext i5 %empty_33" [../src/hls/cnn.cpp:124]   --->   Operation 65 'zext' 'zext_ln124' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 65 [1/1] (0.00ns)   --->   "%zext_ln124 = zext i5 %empty_34" [../src/hls/cnn.cpp:124]   --->   Operation 65 'zext' 'zext_ln124' <Predicate = true> <Delay = 0.00>
 ST_4 : Operation 66 [1/1] (1.42ns)   --->   "%mul_ln124 = mul i9 %zext_ln124, i9 22" [../src/hls/cnn.cpp:124]   --->   Operation 66 'mul' 'mul_ln124' <Predicate = true> <Delay = 1.42> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.36> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_4 : Operation 67 [1/1] (0.00ns)   --->   "%bitcast_ln136 = bitcast i32 %input_load" [../src/hls/cnn.cpp:136]   --->   Operation 67 'bitcast' 'bitcast_ln136' <Predicate = (!icmp_ln121)> <Delay = 0.00>
 ST_4 : Operation 68 [1/1] (0.00ns)   --->   "%tmp_4 = partselect i8 @_ssdm_op_PartSelect.i8.i32.i32.i32, i32 %bitcast_ln136, i32 23, i32 30" [../src/hls/cnn.cpp:136]   --->   Operation 68 'partselect' 'tmp_4' <Predicate = (!icmp_ln121)> <Delay = 0.00>
@@ -501,11 +501,11 @@ ST_9 : Operation 147 [1/1] (0.96ns) (out node of the LUT)   --->   "%add_ln142 =
 
 State 10 <SV = 9> <Delay = 5.55>
 ST_10 : Operation 148 [1/1] (0.00ns)   --->   "%specloopname_ln0 = specloopname void @_ssdm_op_SpecLoopName, void @VITIS_LOOP_121_1_VITIS_LOOP_124_2_VITIS_LOOP_127_3_str"   --->   Operation 148 'specloopname' 'specloopname_ln0' <Predicate = (!icmp_ln121)> <Delay = 0.00>
-ST_10 : Operation 149 [1/1] (0.00ns)   --->   "%empty_34 = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 3872, i64 3872, i64 3872"   --->   Operation 149 'speclooptripcount' 'empty_34' <Predicate = (!icmp_ln121)> <Delay = 0.00>
+ST_10 : Operation 149 [1/1] (0.00ns)   --->   "%empty_35 = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 3872, i64 3872, i64 3872"   --->   Operation 149 'speclooptripcount' 'empty_35' <Predicate = (!icmp_ln121)> <Delay = 0.00>
 ST_10 : Operation 150 [1/1] (0.00ns)   --->   "%specpipeline_ln0 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 1, i32 0, void @p_str"   --->   Operation 150 'specpipeline' 'specpipeline_ln0' <Predicate = (!icmp_ln121)> <Delay = 0.00>
 ST_10 : Operation 151 [1/1] (0.00ns)   --->   "%specloopname_ln0 = specloopname void @_ssdm_op_SpecLoopName, void @VITIS_LOOP_124_2_VITIS_LOOP_127_3_str"   --->   Operation 151 'specloopname' 'specloopname_ln0' <Predicate = (!icmp_ln121)> <Delay = 0.00>
 ST_10 : Operation 152 [1/1] (0.00ns)   --->   "%specpipeline_ln0 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 1, i32 0, void @p_str"   --->   Operation 152 'specpipeline' 'specpipeline_ln0' <Predicate = (!icmp_ln121)> <Delay = 0.00>
-ST_10 : Operation 153 [1/1] (0.00ns)   --->   "%specloopname_ln127 = specloopname void @_ssdm_op_SpecLoopName, void @empty_9" [../src/hls/cnn.cpp:127]   --->   Operation 153 'specloopname' 'specloopname_ln127' <Predicate = (!icmp_ln121)> <Delay = 0.00>
+ST_10 : Operation 153 [1/1] (0.00ns)   --->   "%specloopname_ln127 = specloopname void @_ssdm_op_SpecLoopName, void @empty_11" [../src/hls/cnn.cpp:127]   --->   Operation 153 'specloopname' 'specloopname_ln127' <Predicate = (!icmp_ln121)> <Delay = 0.00>
 ST_10 : Operation 154 [1/1] (0.00ns)   --->   "%bitcast_ln136_5 = bitcast i32 %input_load_3" [../src/hls/cnn.cpp:136]   --->   Operation 154 'bitcast' 'bitcast_ln136_5' <Predicate = (!icmp_ln121)> <Delay = 0.00>
 ST_10 : Operation 155 [1/1] (0.00ns)   --->   "%tmp_3 = partselect i8 @_ssdm_op_PartSelect.i8.i32.i32.i32, i32 %bitcast_ln136_5, i32 23, i32 30" [../src/hls/cnn.cpp:136]   --->   Operation 155 'partselect' 'tmp_3' <Predicate = (!icmp_ln121)> <Delay = 0.00>
 ST_10 : Operation 156 [1/1] (0.00ns)   --->   "%trunc_ln136_5 = trunc i32 %bitcast_ln136_5" [../src/hls/cnn.cpp:136]   --->   Operation 156 'trunc' 'trunc_ln136_5' <Predicate = (!icmp_ln121)> <Delay = 0.00>
@@ -559,7 +559,7 @@ iii                 (phi              ) [ 001000000000]
 i_tr_cast           (zext             ) [ 000000000000]
 p_lshr_f9_cast      (partselect       ) [ 001111111100]
 empty               (mul              ) [ 000000000000]
-empty_33            (or               ) [ 001110000000]
+empty_34            (or               ) [ 001110000000]
 p_lshr_f_cast       (partselect       ) [ 001111111100]
 zext_ln127          (zext             ) [ 001111000000]
 add_ln136           (add              ) [ 000000000000]
@@ -679,7 +679,7 @@ add40_mid2          (bitconcatenate   ) [ 000000000000]
 iii_cast5           (zext             ) [ 000000000000]
 add_ln142           (add              ) [ 001000000010]
 specloopname_ln0    (specloopname     ) [ 000000000000]
-empty_34            (speclooptripcount) [ 000000000000]
+empty_35            (speclooptripcount) [ 000000000000]
 specpipeline_ln0    (specpipeline     ) [ 000000000000]
 specloopname_ln0    (specloopname     ) [ 000000000000]
 specpipeline_ln0    (specpipeline     ) [ 000000000000]
@@ -1095,7 +1095,7 @@ ret_ln146           (ret              ) [ 000000000000]
 <pin id="85" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_9"/></StgValue>
+<StgValue><ssdm name="empty_11"/></StgValue>
 </bind>
 </comp>
 
@@ -1385,7 +1385,7 @@ ret_ln146           (ret              ) [ 000000000000]
 </bind>
 </comp>
 
-<comp id="234" class="1004" name="empty_33_fu_234">
+<comp id="234" class="1004" name="empty_34_fu_234">
 <pin_list>
 <pin id="235" dir="0" index="0" bw="5" slack="0"/>
 <pin id="236" dir="0" index="1" bw="5" slack="0"/>
@@ -1393,7 +1393,7 @@ ret_ln146           (ret              ) [ 000000000000]
 </pin_list>
 <bind>
 <opcode="or(24) " fcode="or"/>
-<opset="empty_33/2 "/>
+<opset="empty_34/2 "/>
 </bind>
 </comp>
 
@@ -2876,13 +2876,13 @@ ret_ln146           (ret              ) [ 000000000000]
 </bind>
 </comp>
 
-<comp id="973" class="1005" name="empty_33_reg_973">
+<comp id="973" class="1005" name="empty_34_reg_973">
 <pin_list>
 <pin id="974" dir="0" index="0" bw="5" slack="2"/>
 <pin id="975" dir="1" index="1" bw="5" slack="2"/>
 </pin_list>
 <bind>
-<opset="empty_33 "/>
+<opset="empty_34 "/>
 </bind>
 </comp>
 
@@ -3913,7 +3913,7 @@ ret_ln146           (ret              ) [ 000000000000]
 		i_tr_cast : 1
 		p_lshr_f9_cast : 1
 		empty : 2
-		empty_33 : 1
+		empty_34 : 1
 		p_lshr_f_cast : 1
 		zext_ln127 : 1
 		add_ln136 : 3
@@ -4104,7 +4104,7 @@ ret_ln146           (ret              ) [ 000000000000]
 |          |        mul33_fu_794        |    0    |    0    |    17   |
 |          |      mul33_mid1_fu_812     |    0    |    0    |    17   |
 |----------|----------------------------|---------|---------|---------|
-|          |       empty_33_fu_234      |    0    |    0    |    0    |
+|          |       empty_34_fu_234      |    0    |    0    |    0    |
 |          |       or_ln124_fu_346      |    0    |    0    |    2    |
 |          |      or_ln124_1_fu_378     |    0    |    0    |    0    |
 |          |       or_ln136_fu_503      |    0    |    0    |    2    |
@@ -4194,7 +4194,7 @@ N/A
 |    add_ln136_5_reg_1120    |   14   |
 |     add_ln142_reg_1144     |   12   |
 |     and_ln121_reg_1018     |    1   |
-|      empty_33_reg_973      |    5   |
+|      empty_34_reg_973      |    5   |
 |          i_reg_152         |    5   |
 |     icmp_ln121_reg_988     |    1   |
 |     icmp_ln124_reg_992     |    1   |

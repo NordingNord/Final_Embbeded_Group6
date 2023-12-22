@@ -12,16 +12,16 @@ infer_conv2d_1_layer_4_weights
 infer_conv2d_1_layer_4_bias
 infer_conv2d_layer_6_weights
 infer_conv2d_layer_6_bias
-infer_mux_42_32_1_1
-infer_dense_relu_layer_12_weights
 infer_fdiv_32ns_32ns_32_10_no_dsp_1
 infer_sitofp_32ns_32_4_no_dsp_1
+infer_mux_42_32_1_1
 infer_layer_9_bias
 infer_layer_9_weights
 infer_layer_10_bias
 infer_layer_10_weights
 infer_layer_11_bias
 infer_layer_11_weights
+infer_layer_12_weights
 infer_image_input
 infer_layer_2_output
 infer_layer_3_output
@@ -43,5 +43,4 @@ set3DFloatArray_1
 conv2d
 set3DFloatArray
 max_pooling2d
-dense_relu
 infer

@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'set3DFloatArray_3'
 ================================================================
-* Date:           Fri Dec 22 00:43:50 2023
+* Date:           Fri Dec 22 01:03:16 2023
 
 * Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)
 * Project:        cnn
@@ -129,7 +129,7 @@ ST_2 : Operation 41 [1/1] (0.00ns)   --->   "%select_ln10_13_cast = zext i9 %sel
 ST_2 : Operation 42 [1/1] (0.00ns)   --->   "%specpipeline_ln0 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 1, i32 0, void @p_str"   --->   Operation 42 'specpipeline' 'specpipeline_ln0' <Predicate = (!icmp_ln8)> <Delay = 0.00>
 ST_2 : Operation 43 [1/1] (0.45ns)   --->   "%select_ln10_14 = select i1 %icmp_ln12_mid216, i4 %add_ln10, i4 %ii_mid27" [../src/hls/cnn.cpp:10]   --->   Operation 43 'select' 'select_ln10_14' <Predicate = (!icmp_ln8)> <Delay = 0.45> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.47> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_2 : Operation 44 [1/1] (0.00ns)   --->   "%iii_cast = zext i6 %select_ln10" [../src/hls/cnn.cpp:10]   --->   Operation 44 'zext' 'iii_cast' <Predicate = (!icmp_ln8)> <Delay = 0.00>
-ST_2 : Operation 45 [1/1] (0.00ns)   --->   "%specloopname_ln12 = specloopname void @_ssdm_op_SpecLoopName, void @empty" [../src/hls/cnn.cpp:12]   --->   Operation 45 'specloopname' 'specloopname_ln12' <Predicate = (!icmp_ln8)> <Delay = 0.00>
+ST_2 : Operation 45 [1/1] (0.00ns)   --->   "%specloopname_ln12 = specloopname void @_ssdm_op_SpecLoopName, void @empty_8" [../src/hls/cnn.cpp:12]   --->   Operation 45 'specloopname' 'specloopname_ln12' <Predicate = (!icmp_ln8)> <Delay = 0.00>
 ST_2 : Operation 46 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln14_2 = add i12 %iii_cast, i12 %mul7_mid2" [../src/hls/cnn.cpp:14]   --->   Operation 46 'add' 'add_ln14_2' <Predicate = (!icmp_ln8)> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.51> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync>
 ST_2 : Operation 47 [1/1] (1.02ns) (root node of TernaryAdder)   --->   "%add_ln14 = add i12 %add_ln14_2, i12 %select_ln10_13_cast" [../src/hls/cnn.cpp:14]   --->   Operation 47 'add' 'add_ln14' <Predicate = (!icmp_ln8)> <Delay = 1.02> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.51> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync>
 ST_2 : Operation 48 [1/1] (0.00ns)   --->   "%zext_ln14 = zext i12 %add_ln14" [../src/hls/cnn.cpp:14]   --->   Operation 48 'zext' 'zext_ln14' <Predicate = (!icmp_ln8)> <Delay = 0.00>

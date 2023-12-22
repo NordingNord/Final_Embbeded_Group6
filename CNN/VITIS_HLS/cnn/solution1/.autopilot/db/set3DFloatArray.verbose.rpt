@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'set3DFloatArray'
 ================================================================
-* Date:           Fri Dec 22 00:44:10 2023
+* Date:           Fri Dec 22 01:03:36 2023
 
 * Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)
 * Project:        cnn
@@ -208,9 +208,9 @@ ST_2 : Operation 19 [1/1] (0.00ns)   --->   "%specloopname_ln0 = specloopname vo
 ST_2 : Operation 20 [1/1] (0.00ns) (grouped into LUT with out node select_ln10)   --->   "%or_ln10 = or i1 %and_ln8, i1 %icmp_ln10" [../src/hls/cnn.cpp:10]   --->   Operation 20 'or' 'or_ln10' <Predicate = (!icmp_ln8)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.33> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
 ST_2 : Operation 21 [1/1] (0.44ns) (out node of the LUT)   --->   "%select_ln10 = select i1 %or_ln10, i6 0, i6 %iii" [../src/hls/cnn.cpp:10]   --->   Operation 21 'select' 'select_ln10' <Predicate = (!icmp_ln8)> <Delay = 0.44> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.44> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_2 : Operation 22 [1/1] (0.00ns)   --->   "%specpipeline_ln0 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 1, i32 0, void @p_str"   --->   Operation 22 'specpipeline' 'specpipeline_ln0' <Predicate = (!icmp_ln8)> <Delay = 0.00>
-ST_2 : Operation 23 [1/1] (0.00ns)   --->   "%empty_32 = trunc i6 %select_ln10" [../src/hls/cnn.cpp:10]   --->   Operation 23 'trunc' 'empty_32' <Predicate = (!icmp_ln8)> <Delay = 0.00>
-ST_2 : Operation 24 [1/1] (0.00ns)   --->   "%specloopname_ln12 = specloopname void @_ssdm_op_SpecLoopName, void @empty" [../src/hls/cnn.cpp:12]   --->   Operation 24 'specloopname' 'specloopname_ln12' <Predicate = (!icmp_ln8)> <Delay = 0.00>
-ST_2 : Operation 25 [1/1] (0.00ns)   --->   "%zext_ln14 = zext i5 %empty_32" [../src/hls/cnn.cpp:14]   --->   Operation 25 'zext' 'zext_ln14' <Predicate = (!icmp_ln8)> <Delay = 0.00>
+ST_2 : Operation 23 [1/1] (0.00ns)   --->   "%empty_33 = trunc i6 %select_ln10" [../src/hls/cnn.cpp:10]   --->   Operation 23 'trunc' 'empty_33' <Predicate = (!icmp_ln8)> <Delay = 0.00>
+ST_2 : Operation 24 [1/1] (0.00ns)   --->   "%specloopname_ln12 = specloopname void @_ssdm_op_SpecLoopName, void @empty_8" [../src/hls/cnn.cpp:12]   --->   Operation 24 'specloopname' 'specloopname_ln12' <Predicate = (!icmp_ln8)> <Delay = 0.00>
+ST_2 : Operation 25 [1/1] (0.00ns)   --->   "%zext_ln14 = zext i5 %empty_33" [../src/hls/cnn.cpp:14]   --->   Operation 25 'zext' 'zext_ln14' <Predicate = (!icmp_ln8)> <Delay = 0.00>
 ST_2 : Operation 26 [1/1] (0.00ns)   --->   "%array_addr = getelementptr i32 %array_r, i64 0, i64 %zext_ln14" [../src/hls/cnn.cpp:14]   --->   Operation 26 'getelementptr' 'array_addr' <Predicate = (!icmp_ln8)> <Delay = 0.00>
 ST_2 : Operation 27 [1/1] (1.35ns)   --->   "%store_ln14 = store i32 0, i5 %array_addr" [../src/hls/cnn.cpp:14]   --->   Operation 27 'store' 'store_ln14' <Predicate = (!icmp_ln8)> <Delay = 1.35> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 32> <RAM>
 ST_2 : Operation 28 [1/1] (0.88ns)   --->   "%add_ln12 = add i6 %select_ln10, i6 1" [../src/hls/cnn.cpp:12]   --->   Operation 28 'add' 'add_ln12' <Predicate = (!icmp_ln8)> <Delay = 0.88> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.88> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
@@ -259,7 +259,7 @@ specloopname_ln0  (specloopname     ) [ 0000]
 or_ln10           (or               ) [ 0000]
 select_ln10       (select           ) [ 0000]
 specpipeline_ln0  (specpipeline     ) [ 0000]
-empty_32          (trunc            ) [ 0000]
+empty_33          (trunc            ) [ 0000]
 specloopname_ln12 (specloopname     ) [ 0000]
 zext_ln14         (zext             ) [ 0000]
 array_addr        (getelementptr    ) [ 0000]
@@ -433,7 +433,7 @@ ret_ln18          (ret              ) [ 0000]
 <pin id="35" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty"/></StgValue>
+<StgValue><ssdm name="empty_8"/></StgValue>
 </bind>
 </comp>
 
@@ -659,14 +659,14 @@ ret_ln18          (ret              ) [ 0000]
 </bind>
 </comp>
 
-<comp id="139" class="1004" name="empty_32_fu_139">
+<comp id="139" class="1004" name="empty_33_fu_139">
 <pin_list>
 <pin id="140" dir="0" index="0" bw="6" slack="0"/>
 <pin id="141" dir="1" index="1" bw="5" slack="0"/>
 </pin_list>
 <bind>
 <opcode="trunc(33) " fcode="trunc"/>
-<opset="empty_32/2 "/>
+<opset="empty_33/2 "/>
 </bind>
 </comp>
 
@@ -858,7 +858,7 @@ ret_ln18          (ret              ) [ 0000]
 		and_ln8 : 2
 		or_ln10 : 2
 		select_ln10 : 2
-		empty_32 : 3
+		empty_33 : 3
 		zext_ln14 : 4
 		array_addr : 5
 		store_ln14 : 6
@@ -893,7 +893,7 @@ ret_ln18          (ret              ) [ 0000]
 |----------|-----------------------|---------|---------|
 |    or    |     or_ln10_fu_125    |    0    |    2    |
 |----------|-----------------------|---------|---------|
-|   trunc  |    empty_32_fu_139    |    0    |    0    |
+|   trunc  |    empty_33_fu_139    |    0    |    0    |
 |----------|-----------------------|---------|---------|
 |   zext   |    zext_ln14_fu_143   |    0    |    0    |
 |----------|-----------------------|---------|---------|

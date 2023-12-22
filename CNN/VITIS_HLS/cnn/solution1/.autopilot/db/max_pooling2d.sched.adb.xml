@@ -1863,7 +1863,7 @@
 
 <Node id="43" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-.reset6:24 %specloopname_ln127 = specloopname void @_ssdm_op_SpecLoopName, void @empty_9
+.reset6:24 %specloopname_ln127 = specloopname void @_ssdm_op_SpecLoopName, void @empty_11
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln127"/></StgValue>

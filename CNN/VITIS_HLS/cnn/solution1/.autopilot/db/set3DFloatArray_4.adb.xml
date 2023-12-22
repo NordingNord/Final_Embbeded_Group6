@@ -702,7 +702,7 @@
 
 <Node id="38" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-._crit_edge7.loopexit:23 %specloopname_ln12 = specloopname void @_ssdm_op_SpecLoopName, void @empty
+._crit_edge7.loopexit:23 %specloopname_ln12 = specloopname void @_ssdm_op_SpecLoopName, void @empty_8
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln12"/></StgValue>
@@ -1095,7 +1095,7 @@
 </dataflow>
 <dataflow id="204" from="_ssdm_op_SpecLoopName" to="specloopname_ln12" fromId="168" toId="47">
 </dataflow>
-<dataflow id="206" from="empty" to="specloopname_ln12" fromId="205" toId="47">
+<dataflow id="206" from="empty_8" to="specloopname_ln12" fromId="205" toId="47">
 </dataflow>
 <dataflow id="207" from="iii_cast" to="add_ln14_1" fromId="35" toId="48">
 </dataflow>

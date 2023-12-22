@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'conv2d_1'
 ================================================================
-* Date:           Fri Dec 22 00:44:06 2023
+* Date:           Fri Dec 22 01:03:32 2023
 
 * Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)
 * Project:        cnn
@@ -113,7 +113,7 @@
     |add_ln95_fu_752_p2                |         +|   0|  0|  10|           3|           1|
     |add_ln98_2_fu_717_p2              |         +|   0|  0|  21|          14|          14|
     |add_ln98_fu_757_p2                |         +|   0|  0|  19|          12|          12|
-    |empty_67_fu_336_p2                |         +|   0|  0|  14|           7|           7|
+    |empty_64_fu_336_p2                |         +|   0|  0|  14|           7|           7|
     |empty_fu_302_p2                   |         +|   0|  0|  12|           4|           2|
     |indvars_iv_next34_dup_fu_610_p2   |         +|   0|  0|  10|           3|           1|
     |indvars_iv_next34_fu_512_p2       |         +|   0|  0|  10|           3|           1|
@@ -128,7 +128,7 @@
     |and_ln49_fu_827_p2                |       and|   0|  0|   2|           1|           1|
     |and_ln71_fu_406_p2                |       and|   0|  0|   2|           1|           1|
     |and_ln83_fu_604_p2                |       and|   0|  0|   2|           1|           1|
-    |icmp_ln49_8_fu_815_p2             |      icmp|   0|  0|  16|          23|           1|
+    |icmp_ln49_7_fu_815_p2             |      icmp|   0|  0|  16|          23|           1|
     |icmp_ln49_fu_809_p2               |      icmp|   0|  0|  11|           8|           2|
     |icmp_ln71_fu_348_p2               |      icmp|   0|  0|  12|          12|          12|
     |icmp_ln74_fu_354_p2               |      icmp|   0|  0|  11|          10|           9|
@@ -136,10 +136,10 @@
     |icmp_ln83_fu_546_p2               |      icmp|   0|  0|  11|           9|           9|
     |icmp_ln86_fu_552_p2               |      icmp|   0|  0|   9|           4|           4|
     |icmp_ln89_fu_598_p2               |      icmp|   0|  0|   8|           3|           2|
-    |empty_72_fu_430_p2                |        or|   0|  0|   2|           1|           1|
+    |empty_69_fu_430_p2                |        or|   0|  0|   2|           1|           1|
     |or_ln49_fu_821_p2                 |        or|   0|  0|   2|           1|           1|
     |or_ln86_fu_616_p2                 |        or|   0|  0|   2|           1|           1|
-    |empty_73_fu_466_p3                |    select|   0|  0|   7|           1|           7|
+    |empty_70_fu_466_p3                |    select|   0|  0|   7|           1|           7|
     |ii_cast_mid2_fu_444_p3            |    select|   0|  0|   4|           1|           4|
     |iii_mid2_fu_436_p3                |    select|   0|  0|   6|           1|           1|
     |output_r_d0                       |    select|   0|  0|  32|           1|          32|
@@ -250,36 +250,36 @@
 == Interface
 ================================================================
 * Summary: 
-+---------------------+-----+-----+------------+--------------+--------------+
-|      RTL Ports      | Dir | Bits|  Protocol  | Source Object|    C Type    |
-+---------------------+-----+-----+------------+--------------+--------------+
-|ap_clk               |   in|    1|  ap_ctrl_hs|      conv2d.1|  return value|
-|ap_rst               |   in|    1|  ap_ctrl_hs|      conv2d.1|  return value|
-|ap_start             |   in|    1|  ap_ctrl_hs|      conv2d.1|  return value|
-|ap_done              |  out|    1|  ap_ctrl_hs|      conv2d.1|  return value|
-|ap_idle              |  out|    1|  ap_ctrl_hs|      conv2d.1|  return value|
-|ap_ready             |  out|    1|  ap_ctrl_hs|      conv2d.1|  return value|
-|grp_fu_763_p_din0    |  out|   32|  ap_ctrl_hs|      conv2d.1|  return value|
-|grp_fu_763_p_din1    |  out|   32|  ap_ctrl_hs|      conv2d.1|  return value|
-|grp_fu_763_p_opcode  |  out|    2|  ap_ctrl_hs|      conv2d.1|  return value|
-|grp_fu_763_p_dout0   |   in|   32|  ap_ctrl_hs|      conv2d.1|  return value|
-|grp_fu_763_p_ce      |  out|    1|  ap_ctrl_hs|      conv2d.1|  return value|
-|grp_fu_770_p_din0    |  out|   32|  ap_ctrl_hs|      conv2d.1|  return value|
-|grp_fu_770_p_din1    |  out|   32|  ap_ctrl_hs|      conv2d.1|  return value|
-|grp_fu_770_p_dout0   |   in|   32|  ap_ctrl_hs|      conv2d.1|  return value|
-|grp_fu_770_p_ce      |  out|    1|  ap_ctrl_hs|      conv2d.1|  return value|
-|grp_fu_788_p_din0    |  out|   32|  ap_ctrl_hs|      conv2d.1|  return value|
-|grp_fu_788_p_din1    |  out|   32|  ap_ctrl_hs|      conv2d.1|  return value|
-|grp_fu_788_p_opcode  |  out|    5|  ap_ctrl_hs|      conv2d.1|  return value|
-|grp_fu_788_p_dout0   |   in|    1|  ap_ctrl_hs|      conv2d.1|  return value|
-|grp_fu_788_p_ce      |  out|    1|  ap_ctrl_hs|      conv2d.1|  return value|
-|input_r_address0     |  out|   12|   ap_memory|       input_r|         array|
-|input_r_ce0          |  out|    1|   ap_memory|       input_r|         array|
-|input_r_q0           |   in|   32|   ap_memory|       input_r|         array|
-|output_r_address0    |  out|   12|   ap_memory|      output_r|         array|
-|output_r_ce0         |  out|    1|   ap_memory|      output_r|         array|
-|output_r_we0         |  out|    1|   ap_memory|      output_r|         array|
-|output_r_d0          |  out|   32|   ap_memory|      output_r|         array|
-|output_r_q0          |   in|   32|   ap_memory|      output_r|         array|
-+---------------------+-----+-----+------------+--------------+--------------+
++----------------------+-----+-----+------------+--------------+--------------+
+|       RTL Ports      | Dir | Bits|  Protocol  | Source Object|    C Type    |
++----------------------+-----+-----+------------+--------------+--------------+
+|ap_clk                |   in|    1|  ap_ctrl_hs|      conv2d.1|  return value|
+|ap_rst                |   in|    1|  ap_ctrl_hs|      conv2d.1|  return value|
+|ap_start              |   in|    1|  ap_ctrl_hs|      conv2d.1|  return value|
+|ap_done               |  out|    1|  ap_ctrl_hs|      conv2d.1|  return value|
+|ap_idle               |  out|    1|  ap_ctrl_hs|      conv2d.1|  return value|
+|ap_ready              |  out|    1|  ap_ctrl_hs|      conv2d.1|  return value|
+|grp_fu_1057_p_din0    |  out|   32|  ap_ctrl_hs|      conv2d.1|  return value|
+|grp_fu_1057_p_din1    |  out|   32|  ap_ctrl_hs|      conv2d.1|  return value|
+|grp_fu_1057_p_opcode  |  out|    2|  ap_ctrl_hs|      conv2d.1|  return value|
+|grp_fu_1057_p_dout0   |   in|   32|  ap_ctrl_hs|      conv2d.1|  return value|
+|grp_fu_1057_p_ce      |  out|    1|  ap_ctrl_hs|      conv2d.1|  return value|
+|grp_fu_1064_p_din0    |  out|   32|  ap_ctrl_hs|      conv2d.1|  return value|
+|grp_fu_1064_p_din1    |  out|   32|  ap_ctrl_hs|      conv2d.1|  return value|
+|grp_fu_1064_p_dout0   |   in|   32|  ap_ctrl_hs|      conv2d.1|  return value|
+|grp_fu_1064_p_ce      |  out|    1|  ap_ctrl_hs|      conv2d.1|  return value|
+|grp_fu_1083_p_din0    |  out|   32|  ap_ctrl_hs|      conv2d.1|  return value|
+|grp_fu_1083_p_din1    |  out|   32|  ap_ctrl_hs|      conv2d.1|  return value|
+|grp_fu_1083_p_opcode  |  out|    5|  ap_ctrl_hs|      conv2d.1|  return value|
+|grp_fu_1083_p_dout0   |   in|    1|  ap_ctrl_hs|      conv2d.1|  return value|
+|grp_fu_1083_p_ce      |  out|    1|  ap_ctrl_hs|      conv2d.1|  return value|
+|input_r_address0      |  out|   12|   ap_memory|       input_r|         array|
+|input_r_ce0           |  out|    1|   ap_memory|       input_r|         array|
+|input_r_q0            |   in|   32|   ap_memory|       input_r|         array|
+|output_r_address0     |  out|   12|   ap_memory|      output_r|         array|
+|output_r_ce0          |  out|    1|   ap_memory|      output_r|         array|
+|output_r_we0          |  out|    1|   ap_memory|      output_r|         array|
+|output_r_d0           |  out|   32|   ap_memory|      output_r|         array|
+|output_r_q0           |   in|   32|   ap_memory|      output_r|         array|
++----------------------+-----+-----+------------+--------------+--------------+
 
