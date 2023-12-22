@@ -14,7 +14,7 @@ set NbRWValue 0
 set intNbAccess 0
 set NewDSPMapping 1
 set HasDSPModule 1
-set ResetLevelFlag 1
+set ResetLevelFlag 0
 set ResetStyle control
 set ResetSyncFlag 1
 set ResetRegisterFlag 0
@@ -44,7 +44,7 @@ set SCTraceOption all
 set TargetInfo xczu3eg:-sbva484:-1-e
 set SourceFiles {sc {} c ../../../src/hls/cnn.cpp}
 set SourceFlags {sc {} c {{}}}
-set DirectiveFile C:/Users/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS/cnn/solution1/solution1.directive
+set DirectiveFile /home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS/cnn/solution1/solution1.directive
 set TBFiles {verilog ../../../src/hls/cnn_tb.cpp bc ../../../src/hls/cnn_tb.cpp vhdl ../../../src/hls/cnn_tb.cpp sc ../../../src/hls/cnn_tb.cpp cas ../../../src/hls/cnn_tb.cpp c {}}
 set SpecLanguage C
 set TVInFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}

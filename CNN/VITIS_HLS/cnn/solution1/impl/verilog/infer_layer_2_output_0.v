@@ -7,7 +7,7 @@ module infer_layer_2_output_0_ram (addr0, ce0, d0, we0, q0, addr1, ce1, q1,  clk
 
 parameter DWIDTH = 32;
 parameter AWIDTH = 11;
-parameter MEM_SIZE = 1549;
+parameter MEM_SIZE = 1682;
 
 input[AWIDTH-1:0] addr0;
 input ce0;
@@ -58,7 +58,7 @@ module infer_layer_2_output_0(
     q1);
 
 parameter DataWidth = 32'd32;
-parameter AddressRange = 32'd1549;
+parameter AddressRange = 32'd1682;
 parameter AddressWidth = 32'd11;
 input reset;
 input clk;

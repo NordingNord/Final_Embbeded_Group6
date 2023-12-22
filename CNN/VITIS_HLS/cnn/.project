@@ -29,52 +29,57 @@
 		<link>
 			<name>source</name>
 			<type>2</type>
-			<location>C:/Users/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS/cnn/.apc/.src</location>
+			<location>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS/cnn/.apc/.src</location>
 		</link>
 		<link>
 			<name>testbench</name>
 			<type>2</type>
-			<location>C:/Users/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS/cnn/.apc/.tb</location>
+			<location>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS/cnn/.apc/.tb</location>
+		</link>
+		<link>
+			<name>.reference/hls_stream_thread_unsafe.h</name>
+			<type>1</type>
+			<location>/tools/Xilinx/Vitis_HLS/2020.2/include/hls_stream_thread_unsafe.h</location>
 		</link>
 		<link>
 			<name>solution1/constraints</name>
 			<type>2</type>
-			<location>C:/Users/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS/cnn/solution1/.tcls</location>
+			<location>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS/cnn/solution1/.tcls</location>
 		</link>
 		<link>
 			<name>source/cnn.cpp</name>
 			<type>1</type>
-			<location>C:/Users/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/cnn.cpp</location>
+			<location>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/cnn.cpp</location>
 		</link>
 		<link>
 			<name>source/layerInfo.hpp</name>
 			<type>1</type>
-			<location>C:/Users/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/layerInfo.hpp</location>
+			<location>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/layerInfo.hpp</location>
 		</link>
 		<link>
 			<name>source/testImage.hpp</name>
 			<type>1</type>
-			<location>C:/Users/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/testImage.hpp</location>
+			<location>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/testImage.hpp</location>
 		</link>
 		<link>
 			<name>testbench/cnn_tb.cpp</name>
 			<type>1</type>
-			<location>C:/Users/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/cnn_tb.cpp</location>
+			<location>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/cnn_tb.cpp</location>
 		</link>
 		<link>
 			<name>solution1/constraints/.xml.directive</name>
 			<type>1</type>
-			<location>C:/Users/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS/cnn/solution1/solution1.directive</location>
+			<location>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS/cnn/solution1/solution1.directive</location>
 		</link>
 		<link>
 			<name>solution1/constraints/directives.tcl</name>
 			<type>1</type>
-			<location>C:/Users/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS/cnn/solution1/directives.tcl</location>
+			<location>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS/cnn/solution1/directives.tcl</location>
 		</link>
 		<link>
 			<name>solution1/constraints/script.tcl</name>
 			<type>1</type>
-			<location>C:/Users/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS/cnn/solution1/script.tcl</location>
+			<location>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS/cnn/solution1/script.tcl</location>
 		</link>
 	</linkedResources>
 </projectDescription>

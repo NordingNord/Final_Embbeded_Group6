@@ -11,7 +11,7 @@ entity infer_layer_2_output_0_ram is
     generic(
             DWIDTH     : integer := 32; 
             AWIDTH     : integer := 11; 
-            MEM_SIZE    : integer := 1549
+            MEM_SIZE    : integer := 1682
     ); 
     port (
           addr0     : in std_logic_vector(AWIDTH-1 downto 0); 
@@ -92,7 +92,7 @@ use IEEE.std_logic_1164.all;
 entity infer_layer_2_output_0 is
     generic (
         DataWidth : INTEGER := 32;
-        AddressRange : INTEGER := 1549;
+        AddressRange : INTEGER := 1682;
         AddressWidth : INTEGER := 11);
     port (
         reset : IN STD_LOGIC;

@@ -1,9 +1,9 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'conv2d_1'" level="0">
-<item name = "Date">Fri Dec 22 04:15:24 2023
+<item name = "Date">Fri Dec 22 18:03:08 2023
 </item>
-<item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:45 MST 2020)</item>
+<item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)</item>
 <item name = "Project">cnn</item>
 <item name = "Solution">solution1 (Vivado IP Flow Target)</item>
 <item name = "Product family">zynquplus</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00 ns, 12.036 ns, 2.70 ns</column>
+<column name="ap_clk">10.00 ns, 8.449 ns, 2.70 ns</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">1099649, 1099649, 13.235 ms, 13.235 ms, 1099649, 1099649, none</column>
+<column name="">39957220, 39957220, 0.400 sec, 0.400 sec, 39957220, 39957220, none</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,8 +35,11 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- VITIS_LOOP_71_1_VITIS_LOOP_74_2_VITIS_LOOP_77_3">1099648, 1099648, 71, -, -, 15488, no</column>
-<column name=" + VITIS_LOOP_83_4_VITIS_LOOP_86_5_VITIS_LOOP_89_6">41, 41, 10, 4, 1, 9, yes</column>
+<column name="- VITIS_LOOP_77_1_VITIS_LOOP_80_2">39957219, 39957219, 54811, -, -, 729, no</column>
+<column name=" + VITIS_LOOP_87_3">33, 33, 2, 1, 1, 32, yes</column>
+<column name=" + VITIS_LOOP_92_4_VITIS_LOOP_95_5_VITIS_LOOP_98_6">54720, 54720, 190, -, -, 288, no</column>
+<column name="  ++ VITIS_LOOP_107_7">165, 165, 10, 5, 1, 32, yes</column>
+<column name=" + VITIS_LOOP_115_8">49, 49, 19, 1, 1, 32, yes</column>
 </table>
 </item>
 </section>

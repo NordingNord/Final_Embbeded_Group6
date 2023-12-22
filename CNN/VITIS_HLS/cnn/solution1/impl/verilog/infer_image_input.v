@@ -6,8 +6,8 @@
 module infer_image_input_ram (addr0, ce0, d0, we0, q0, addr1, ce1, q1,  clk);
 
 parameter DWIDTH = 32;
-parameter AWIDTH = 10;
-parameter MEM_SIZE = 576;
+parameter AWIDTH = 12;
+parameter MEM_SIZE = 3600;
 
 input[AWIDTH-1:0] addr0;
 input ce0;
@@ -58,8 +58,8 @@ module infer_image_input(
     q1);
 
 parameter DataWidth = 32'd32;
-parameter AddressRange = 32'd576;
-parameter AddressWidth = 32'd10;
+parameter AddressRange = 32'd3600;
+parameter AddressWidth = 32'd12;
 input reset;
 input clk;
 input[AddressWidth - 1:0] address0;

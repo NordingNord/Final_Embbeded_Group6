@@ -6,8 +6,8 @@
 module infer_layer_3_output_0_ram (addr0, ce0, d0, we0, q0,  clk);
 
 parameter DWIDTH = 32;
-parameter AWIDTH = 11;
-parameter MEM_SIZE = 1936;
+parameter AWIDTH = 9;
+parameter MEM_SIZE = 421;
 
 input[AWIDTH-1:0] addr0;
 input ce0;
@@ -44,8 +44,8 @@ module infer_layer_3_output_0(
     q0);
 
 parameter DataWidth = 32'd32;
-parameter AddressRange = 32'd1936;
-parameter AddressWidth = 32'd11;
+parameter AddressRange = 32'd421;
+parameter AddressWidth = 32'd9;
 input reset;
 input clk;
 input[AddressWidth - 1:0] address0;

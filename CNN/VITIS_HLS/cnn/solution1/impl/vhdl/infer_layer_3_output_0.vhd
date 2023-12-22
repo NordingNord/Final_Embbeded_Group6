@@ -10,8 +10,8 @@ use ieee.std_logic_unsigned.all;
 entity infer_layer_3_output_0_ram is 
     generic(
             DWIDTH     : integer := 32; 
-            AWIDTH     : integer := 11; 
-            MEM_SIZE    : integer := 1936
+            AWIDTH     : integer := 9; 
+            MEM_SIZE    : integer := 421
     ); 
     port (
           addr0     : in std_logic_vector(AWIDTH-1 downto 0); 
@@ -67,8 +67,8 @@ use IEEE.std_logic_1164.all;
 entity infer_layer_3_output_0 is
     generic (
         DataWidth : INTEGER := 32;
-        AddressRange : INTEGER := 1936;
-        AddressWidth : INTEGER := 11);
+        AddressRange : INTEGER := 421;
+        AddressWidth : INTEGER := 9);
     port (
         reset : IN STD_LOGIC;
         clk : IN STD_LOGIC;

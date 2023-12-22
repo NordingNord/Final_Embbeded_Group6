@@ -10,8 +10,8 @@ use ieee.std_logic_unsigned.all;
 entity infer_image_input_ram is 
     generic(
             DWIDTH     : integer := 32; 
-            AWIDTH     : integer := 10; 
-            MEM_SIZE    : integer := 576
+            AWIDTH     : integer := 12; 
+            MEM_SIZE    : integer := 3600
     ); 
     port (
           addr0     : in std_logic_vector(AWIDTH-1 downto 0); 
@@ -92,8 +92,8 @@ use IEEE.std_logic_1164.all;
 entity infer_image_input is
     generic (
         DataWidth : INTEGER := 32;
-        AddressRange : INTEGER := 576;
-        AddressWidth : INTEGER := 10);
+        AddressRange : INTEGER := 3600;
+        AddressWidth : INTEGER := 12);
     port (
         reset : IN STD_LOGIC;
         clk : IN STD_LOGIC;
