@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'max_pooling2d_2'" level="0">
-<item name = "Date">Sat Dec 23 21:52:06 2023
+<item name = "Date">Sun Dec 24 00:39:57 2023
 </item>
 <item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)</item>
 <item name = "Project">cnn</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">53852, 53852, 0.539 ms, 0.539 ms, 53852, 53852, none</column>
+<column name="">53833, 53833, 0.538 ms, 0.538 ms, 53833, 53833, none</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,7 +35,7 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- VITIS_LOOP_141_1_VITIS_LOOP_144_2_VITIS_LOOP_147_3">53850, 53850, 29, 2, 1, 26912, yes</column>
+<column name="- max_pooling2d1_max_pooling2d1_2_max_pooling2d1_3">53831, 53831, 9, 2, 1, 26912, yes</column>
 </table>
 </item>
 </section>

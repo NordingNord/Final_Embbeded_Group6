@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'conv2d_2'" level="0">
-<item name = "Date">Sat Dec 23 21:52:01 2023
+<item name = "Date">Sun Dec 24 00:39:56 2023
 </item>
 <item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)</item>
 <item name = "Project">cnn</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">29064983, 29064983, 0.350 sec, 0.350 sec, 29064983, 29064983, none</column>
+<column name="">4951809, 4951809, 59.600 ms, 59.600 ms, 4951809, 4951809, none</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,9 +35,8 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- VITIS_LOOP_76_1_VITIS_LOOP_82_3_VITIS_LOOP_85_4_VITIS_LOOP_88_5">28096128, 28096128, 29, -, -, 968832, no</column>
-<column name=" + VITIS_LOOP_91_6">4, 4, 5, 4, 1, 1, yes</column>
-<column name="- VITIS_LOOP_113_7_VITIS_LOOP_116_8_VITIS_LOOP_119_9">968852, 968852, 30, 9, 1, 107648, yes</column>
+<column name="- conv2d1_conv2d1_2_conv2d1_3">4951808, 4951808, 46, -, -, 107648, no</column>
+<column name=" + conv2d1_4_conv2d1_5_conv2d1_6">41, 41, 10, 4, 1, 9, yes</column>
 </table>
 </item>
 </section>
