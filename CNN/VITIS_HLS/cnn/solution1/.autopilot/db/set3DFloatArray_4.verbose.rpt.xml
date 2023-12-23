@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'set3DFloatArray_4'" level="0">
-<item name = "Date">Sat Dec 23 21:26:47 2023
+<item name = "Date">Sat Dec 23 21:52:52 2023
 </item>
 <item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)</item>
 <item name = "Project">cnn</item>
@@ -62,13 +62,13 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
-<column name="urem_15ns_10ns_15_19_1_U158">urem_15ns_10ns_15_19_1, 0, 0, 576, 413, 0</column>
+<column name="urem_15ns_10ns_15_19_1_U157">urem_15ns_10ns_15_19_1, 0, 0, 576, 413, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">
 <keys size="3">Instance, Module, Expression</keys>
-<column name="mac_muladd_5ns_11ns_6ns_15_4_1_U159">mac_muladd_5ns_11ns_6ns_15_4_1, i0 + i1 * i2</column>
-<column name="mul_mul_15ns_17ns_31_4_1_U160">mul_mul_15ns_17ns_31_4_1, i0 * i1</column>
+<column name="mac_muladd_5ns_11ns_6ns_15_4_1_U158">mac_muladd_5ns_11ns_6ns_15_4_1, i0 + i1 * i2</column>
+<column name="mul_mul_15ns_17ns_31_4_1_U159">mul_mul_15ns_17ns_31_4_1, i0 * i1</column>
 </table>
 </item>
 <item name = "Memory"><table name="" hasTotal="1">

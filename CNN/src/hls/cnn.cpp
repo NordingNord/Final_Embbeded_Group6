@@ -62,12 +62,21 @@ void conv2d(const int input_dims[3], float* input,
 			const float* bias,
             const int output_dims[3], float* output)
 {
+    const int input_dims_0 = input_dims[0];
+    const int input_dims_1 = input_dims[1];
+    const int input_dims_2 = input_dims[2];
+    const int input_dims_3 = input_dims[3];
+    const int output_dims_1 = output_dims[1];
+    const int output_dims_2 = output_dims[2];
+    const int weight_dims_1 = weight_dims[1];
+    const int weight_dims_2 = weight_dims[2];
+    const int weight_dims_3 = weight_dims[3];
     // Convolution
     // Input rows
-    for (int i = 1; i < input_dims[0] - 1; i++)
+    for (int i = 1; i < input_dims_0 - 1; i++)
     {
         // Input columns
-        for (int ii = 1; ii < input_dims[1] - 1; ii++)
+        for (int ii = 1; ii < input_dims_1 - 1; ii++)
         {
             // Kernel rows
             for (int v = -1; v < 2; v++)
@@ -76,22 +85,22 @@ void conv2d(const int input_dims[3], float* input,
                 for (int vi = -1; vi < 2; vi++)
                 {
                     // Kernel number
-                    for (int iii = 0; iii < weight_dims[3]; iii++)
+                    for (int iii = 0; iii < weight_dims_3; iii++)
                     {
                         // Input and kernel channels
-                        for (int iv = 0; iv < input_dims[2]; iv++)
+                        for (int iv = 0; iv < input_dims_2; iv++)
                         {
-                        	output[(i - 1)*output_dims[1]*output_dims[2] +
-                                (ii - 1)*output_dims[2] +
+                        	output[(i - 1)*output_dims_1*output_dims_2 +
+                                (ii - 1)*output_dims_2 +
                                 iii]
                                 +=
-                                input[(i + v)*input_dims[1]*input_dims[2] + 
-                                (ii + vi)*input_dims[2] + 
+                                input[(i + v)*input_dims_1*input_dims_2 + 
+                                (ii + vi)*input_dims_2 + 
                                 iv] 
                                 *
-                                weights[(v + 1)*weight_dims[1]*weight_dims[2]*weight_dims[3] + 
-                                (vi + 1)*weight_dims[2]*weight_dims[3] + 
-                                iv*weight_dims[3] + 
+                                weights[(v + 1)*weight_dims_1*weight_dims_2*weight_dims_3 + 
+                                (vi + 1)*weight_dims_2*weight_dims_3 + 
+                                iv*weight_dims_3 + 
                                 iii];
                         }
                     }
@@ -101,21 +110,21 @@ void conv2d(const int input_dims[3], float* input,
     }
 
     // Input rows
-    for (int i = 1; i < input_dims[0] - 1; i++)
+    for (int i = 1; i < input_dims_0 - 1; i++)
     {
         // Input columns
-        for (int ii = 1; ii < input_dims[1] - 1; ii++)
+        for (int ii = 1; ii < input_dims_1 - 1; ii++)
         {
             // Kernel number
-            for (int iii = 0; iii < weight_dims[3]; iii++)
+            for (int iii = 0; iii < weight_dims_3; iii++)
             {
                 // Add bias
-                output[(i - 1)*output_dims[1]*output_dims[2] +
-                    (ii - 1)*output_dims[2] +
+                output[(i - 1)*output_dims_1*output_dims_2 +
+                    (ii - 1)*output_dims_2 +
                     iii] += bias[iii];
                 // Apply relu activiation function
-                relu(output[(i - 1)*output_dims[1]*output_dims[2] +
-                    (ii - 1)*output_dims[2] +
+                relu(output[(i - 1)*output_dims_1*output_dims_2 +
+                    (ii - 1)*output_dims_2 +
                     iii]);
             }
         }

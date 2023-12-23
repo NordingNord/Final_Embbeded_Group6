@@ -73279,36 +73279,45 @@ void conv2d(const int input_dims[3], float* input,
    const float* bias,
             const int output_dims[3], float* output)
 {
+    const int input_dims_0 = input_dims[0];
+    const int input_dims_1 = input_dims[1];
+    const int input_dims_2 = input_dims[2];
+    const int input_dims_3 = input_dims[3];
+    const int output_dims_1 = output_dims[1];
+    const int output_dims_2 = output_dims[2];
+    const int weight_dims_1 = weight_dims[1];
+    const int weight_dims_2 = weight_dims[2];
+    const int weight_dims_3 = weight_dims[3];
 
 
-    VITIS_LOOP_67_1: for (int i = 1; i < input_dims[0] - 1; i++)
+    VITIS_LOOP_76_1: for (int i = 1; i < input_dims_0 - 1; i++)
     {
 
-        VITIS_LOOP_70_2: for (int ii = 1; ii < input_dims[1] - 1; ii++)
+        VITIS_LOOP_79_2: for (int ii = 1; ii < input_dims_1 - 1; ii++)
         {
 
-            VITIS_LOOP_73_3: for (int v = -1; v < 2; v++)
+            VITIS_LOOP_82_3: for (int v = -1; v < 2; v++)
             {
 
-                VITIS_LOOP_76_4: for (int vi = -1; vi < 2; vi++)
+                VITIS_LOOP_85_4: for (int vi = -1; vi < 2; vi++)
                 {
 
-                    VITIS_LOOP_79_5: for (int iii = 0; iii < weight_dims[3]; iii++)
+                    VITIS_LOOP_88_5: for (int iii = 0; iii < weight_dims_3; iii++)
                     {
 
-                        VITIS_LOOP_82_6: for (int iv = 0; iv < input_dims[2]; iv++)
+                        VITIS_LOOP_91_6: for (int iv = 0; iv < input_dims_2; iv++)
                         {
-                         output[(i - 1)*output_dims[1]*output_dims[2] +
-                                (ii - 1)*output_dims[2] +
+                         output[(i - 1)*output_dims_1*output_dims_2 +
+                                (ii - 1)*output_dims_2 +
                                 iii]
                                 +=
-                                input[(i + v)*input_dims[1]*input_dims[2] +
-                                (ii + vi)*input_dims[2] +
+                                input[(i + v)*input_dims_1*input_dims_2 +
+                                (ii + vi)*input_dims_2 +
                                 iv]
                                 *
-                                weights[(v + 1)*weight_dims[1]*weight_dims[2]*weight_dims[3] +
-                                (vi + 1)*weight_dims[2]*weight_dims[3] +
-                                iv*weight_dims[3] +
+                                weights[(v + 1)*weight_dims_1*weight_dims_2*weight_dims_3 +
+                                (vi + 1)*weight_dims_2*weight_dims_3 +
+                                iv*weight_dims_3 +
                                 iii];
                         }
                     }
@@ -73318,21 +73327,21 @@ void conv2d(const int input_dims[3], float* input,
     }
 
 
-    VITIS_LOOP_104_7: for (int i = 1; i < input_dims[0] - 1; i++)
+    VITIS_LOOP_113_7: for (int i = 1; i < input_dims_0 - 1; i++)
     {
 
-        VITIS_LOOP_107_8: for (int ii = 1; ii < input_dims[1] - 1; ii++)
+        VITIS_LOOP_116_8: for (int ii = 1; ii < input_dims_1 - 1; ii++)
         {
 
-            VITIS_LOOP_110_9: for (int iii = 0; iii < weight_dims[3]; iii++)
+            VITIS_LOOP_119_9: for (int iii = 0; iii < weight_dims_3; iii++)
             {
 
-                output[(i - 1)*output_dims[1]*output_dims[2] +
-                    (ii - 1)*output_dims[2] +
+                output[(i - 1)*output_dims_1*output_dims_2 +
+                    (ii - 1)*output_dims_2 +
                     iii] += bias[iii];
 
-                relu(output[(i - 1)*output_dims[1]*output_dims[2] +
-                    (ii - 1)*output_dims[2] +
+                relu(output[(i - 1)*output_dims_1*output_dims_2 +
+                    (ii - 1)*output_dims_2 +
                     iii]);
             }
         }
@@ -73346,20 +73355,20 @@ void max_pooling2d(const int input_dims[3], float* input,
                 const int output_dims[3], float* output)
 {
 
-    VITIS_LOOP_132_1: for (int i = 0; i < input_dims[0] - 1; i += 2)
+    VITIS_LOOP_141_1: for (int i = 0; i < input_dims[0] - 1; i += 2)
     {
 
-        VITIS_LOOP_135_2: for (int ii = 0; ii < input_dims[1] - 1; ii += 2)
+        VITIS_LOOP_144_2: for (int ii = 0; ii < input_dims[1] - 1; ii += 2)
         {
 
-            VITIS_LOOP_138_3: for (int iii = 0; iii < input_dims[2]; iii++)
+            VITIS_LOOP_147_3: for (int iii = 0; iii < input_dims[2]; iii++)
             {
                 float maxVal = 0;
 
-                VITIS_LOOP_142_4: for (int iv = 0; iv < 2; iv++)
+                VITIS_LOOP_151_4: for (int iv = 0; iv < 2; iv++)
                 {
 
-                    VITIS_LOOP_145_5: for (int v = 0; v < 2; v++)
+                    VITIS_LOOP_154_5: for (int v = 0; v < 2; v++)
                     {
                      float input_val = input[(i + iv)*input_dims[1]*input_dims[2] + (ii + v)*input_dims[2] + iii];
                         if (input_val > maxVal)
@@ -73383,9 +73392,9 @@ void dense_relu(float* input,
             const float* bias,
             float* output)
 {
-    VITIS_LOOP_169_1: for (int i = 0; i < weight_dims[1]; i++)
+    VITIS_LOOP_178_1: for (int i = 0; i < weight_dims[1]; i++)
     {
-        VITIS_LOOP_171_2: for (int ii = 0; ii < weight_dims[0]; ii++)
+        VITIS_LOOP_180_2: for (int ii = 0; ii < weight_dims[0]; ii++)
         {
             output[i] += input[ii] * weights[ii*weight_dims[1] + i];
         }
@@ -73404,9 +73413,9 @@ void dense(float* input,
             const float* bias,
             float* output)
 {
-    VITIS_LOOP_190_1: for (int i = 0; i < weight_dims[1]; i++)
+    VITIS_LOOP_199_1: for (int i = 0; i < weight_dims[1]; i++)
     {
-        VITIS_LOOP_192_2: for (int ii = 0; ii < weight_dims[0]; ii++)
+        VITIS_LOOP_201_2: for (int ii = 0; ii < weight_dims[0]; ii++)
         {
             output[i] += input[ii] * weights[ii*weight_dims[1] + i];
         }
@@ -73418,7 +73427,7 @@ void dense(float* input,
 __attribute__((sdx_kernel("infer", 0))) void infer(hls::stream<int> &infer_input, hls::stream<float> &infer_output)
 {
 #pragma HLS TOP name=infer
-# 202 "../src/hls/cnn.cpp"
+# 211 "../src/hls/cnn.cpp"
 
 
 #pragma HLS INTERFACE axis port=infer_input
@@ -73431,7 +73440,7 @@ __attribute__((sdx_kernel("infer", 0))) void infer(hls::stream<int> &infer_input
  float image_input[model_input_dims[0]*model_input_dims[1]*model_input_dims[2]];
 
     int single_pixel = 0;
-    VITIS_LOOP_214_1: for (int i = 0; i < model_input_dims[0]*model_input_dims[1]*model_input_dims[2]; i++)
+    VITIS_LOOP_223_1: for (int i = 0; i < model_input_dims[0]*model_input_dims[1]*model_input_dims[2]; i++)
     {
      infer_input >> single_pixel;
      image_input[i] = (float)single_pixel;
@@ -73545,7 +73554,7 @@ __attribute__((sdx_kernel("infer", 0))) void infer(hls::stream<int> &infer_input
 
 
 
-    VITIS_LOOP_328_2: for (int i = 0; i < layer_12_output_dims[0]; i++)
+    VITIS_LOOP_337_2: for (int i = 0; i < layer_12_output_dims[0]; i++)
     {
      infer_output << layer_12_output[i];
     }

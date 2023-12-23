@@ -22,23 +22,23 @@
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>72863731</Best-caseLatency>
-<Average-caseLatency>72863731</Average-caseLatency>
-<Worst-caseLatency>72863731</Worst-caseLatency>
-<Best-caseRealTimeLatency>0.877 sec</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>0.877 sec</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>0.877 sec</Worst-caseRealTimeLatency>
-<Interval-min>72863732</Interval-min>
-<Interval-max>72863732</Interval-max>
+<Best-caseLatency>73108531</Best-caseLatency>
+<Average-caseLatency>73108531</Average-caseLatency>
+<Worst-caseLatency>73108531</Worst-caseLatency>
+<Best-caseRealTimeLatency>0.880 sec</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>0.880 sec</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>0.880 sec</Worst-caseRealTimeLatency>
+<Interval-min>73108532</Interval-min>
+<Interval-max>73108532</Interval-max>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
-<VITIS_LOOP_214_1>
+<VITIS_LOOP_223_1>
 <TripCount>3600</TripCount>
 <Latency>3604</Latency>
 <AbsoluteTimeLatency>43377</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>6</PipelineDepth>
-</VITIS_LOOP_214_1>
+</VITIS_LOOP_223_1>
 <VITIS_LOOP_31_1_VITIS_LOOP_33_2>
 <TripCount>3600</TripCount>
 <Latency>3611</Latency>
@@ -53,19 +53,19 @@
 <PipelineII>1</PipelineII>
 <PipelineDepth>1</PipelineDepth>
 </VITIS_LOOP_22_1>
-<VITIS_LOOP_169_1>
+<VITIS_LOOP_178_1>
 <TripCount>64</TripCount>
 <Latency>205824</Latency>
 <AbsoluteTimeLatency>2477297</AbsoluteTimeLatency>
 <IterationLatency>3216</IterationLatency>
-<VITIS_LOOP_171_2>
+<VITIS_LOOP_180_2>
 <TripCount>800</TripCount>
 <Latency>3212</Latency>
 <AbsoluteTimeLatency>38659</AbsoluteTimeLatency>
 <PipelineII>4</PipelineII>
 <PipelineDepth>17</PipelineDepth>
-</VITIS_LOOP_171_2>
-</VITIS_LOOP_169_1>
+</VITIS_LOOP_180_2>
+</VITIS_LOOP_178_1>
 <VITIS_LOOP_22_1>
 <TripCount>32</TripCount>
 <Latency>32</Latency>
@@ -73,19 +73,19 @@
 <PipelineII>1</PipelineII>
 <PipelineDepth>1</PipelineDepth>
 </VITIS_LOOP_22_1>
-<VITIS_LOOP_169_1>
+<VITIS_LOOP_178_1>
 <TripCount>32</TripCount>
 <Latency>8704</Latency>
 <AbsoluteTimeLatency>104761</AbsoluteTimeLatency>
 <IterationLatency>272</IterationLatency>
-<VITIS_LOOP_171_2>
+<VITIS_LOOP_180_2>
 <TripCount>64</TripCount>
 <Latency>268</Latency>
 <AbsoluteTimeLatency>3225</AbsoluteTimeLatency>
 <PipelineII>4</PipelineII>
 <PipelineDepth>17</PipelineDepth>
-</VITIS_LOOP_171_2>
-</VITIS_LOOP_169_1>
+</VITIS_LOOP_180_2>
+</VITIS_LOOP_178_1>
 <VITIS_LOOP_22_1>
 <TripCount>16</TripCount>
 <Latency>16</Latency>
@@ -93,19 +93,19 @@
 <PipelineII>1</PipelineII>
 <PipelineDepth>1</PipelineDepth>
 </VITIS_LOOP_22_1>
-<VITIS_LOOP_169_1>
+<VITIS_LOOP_178_1>
 <TripCount>16</TripCount>
 <Latency>2304</Latency>
 <AbsoluteTimeLatency>27730</AbsoluteTimeLatency>
 <IterationLatency>144</IterationLatency>
-<VITIS_LOOP_171_2>
+<VITIS_LOOP_180_2>
 <TripCount>32</TripCount>
 <Latency>140</Latency>
 <AbsoluteTimeLatency>1685</AbsoluteTimeLatency>
 <PipelineII>4</PipelineII>
 <PipelineDepth>17</PipelineDepth>
-</VITIS_LOOP_171_2>
-</VITIS_LOOP_169_1>
+</VITIS_LOOP_180_2>
+</VITIS_LOOP_178_1>
 <VITIS_LOOP_22_1>
 <TripCount>4</TripCount>
 <Latency>4</Latency>
@@ -113,20 +113,20 @@
 <PipelineII>1</PipelineII>
 <PipelineDepth>1</PipelineDepth>
 </VITIS_LOOP_22_1>
-<VITIS_LOOP_190_1>
+<VITIS_LOOP_199_1>
 <TripCount>4</TripCount>
 <Latency>346</Latency>
 <AbsoluteTimeLatency>4164</AbsoluteTimeLatency>
 <PipelineII>84</PipelineII>
 <PipelineDepth>90</PipelineDepth>
-</VITIS_LOOP_190_1>
-<VITIS_LOOP_328_2>
+</VITIS_LOOP_199_1>
+<VITIS_LOOP_337_2>
 <TripCount>4</TripCount>
 <Latency>5</Latency>
 <AbsoluteTimeLatency>60</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>3</PipelineDepth>
-</VITIS_LOOP_328_2>
+</VITIS_LOOP_337_2>
 </SummaryOfLoopLatency>
 </PerformanceEstimates>
 
@@ -134,8 +134,8 @@
 <Resources>
 <BRAM_18K>788</BRAM_18K>
 <DSP>45</DSP>
-<FF>31398</FF>
-<LUT>71794</LUT>
+<FF>31566</FF>
+<LUT>71924</LUT>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>

@@ -751,9 +751,9 @@ set RtlHierarchyInfo {[
 			{"Name" : "array61", "Type" : "Memory", "Direction" : "O"},
 			{"Name" : "array62", "Type" : "Memory", "Direction" : "O"},
 			{"Name" : "array63", "Type" : "Memory", "Direction" : "O"}]},
-	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.urem_12ns_7ns_12_16_1_U812", "Parent" : "0"},
-	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_4ns_10ns_6ns_12_4_1_U813", "Parent" : "0"},
-	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_mul_12ns_14ns_25_4_1_U814", "Parent" : "0"}]}
+	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.urem_12ns_7ns_12_16_1_U813", "Parent" : "0"},
+	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_4ns_10ns_6ns_12_4_1_U814", "Parent" : "0"},
+	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_mul_12ns_14ns_25_4_1_U815", "Parent" : "0"}]}
 
 
 set ArgLastReadFirstWriteLatency {

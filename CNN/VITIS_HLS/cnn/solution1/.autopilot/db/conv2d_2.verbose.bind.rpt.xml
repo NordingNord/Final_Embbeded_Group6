@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'conv2d_2'" level="0">
-<item name = "Date">Sat Dec 23 21:26:01 2023
+<item name = "Date">Sat Dec 23 21:52:03 2023
 </item>
 <item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)</item>
 <item name = "Project">cnn</item>
@@ -35,9 +35,9 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- VITIS_LOOP_67_1_VITIS_LOOP_73_3_VITIS_LOOP_76_4_VITIS_LOOP_79_5">28096128, 28096128, 29, -, -, 968832, no</column>
-<column name=" + VITIS_LOOP_82_6">4, 4, 5, 4, 1, 1, yes</column>
-<column name="- VITIS_LOOP_104_7_VITIS_LOOP_107_8_VITIS_LOOP_110_9">968852, 968852, 30, 9, 1, 107648, yes</column>
+<column name="- VITIS_LOOP_76_1_VITIS_LOOP_82_3_VITIS_LOOP_85_4_VITIS_LOOP_88_5">28096128, 28096128, 29, -, -, 968832, no</column>
+<column name=" + VITIS_LOOP_91_6">4, 4, 5, 4, 1, 1, yes</column>
+<column name="- VITIS_LOOP_113_7_VITIS_LOOP_116_8_VITIS_LOOP_119_9">968852, 968852, 30, 9, 1, 107648, yes</column>
 </table>
 </item>
 </section>

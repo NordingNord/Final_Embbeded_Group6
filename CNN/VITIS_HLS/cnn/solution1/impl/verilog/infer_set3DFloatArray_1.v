@@ -817,7 +817,7 @@ infer_urem_12ns_7ns_12_16_1 #(
     .din0_WIDTH( 12 ),
     .din1_WIDTH( 7 ),
     .dout_WIDTH( 12 ))
-urem_12ns_7ns_12_16_1_U812(
+urem_12ns_7ns_12_16_1_U813(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(add_ln14_fu_1411_p2),
@@ -833,7 +833,7 @@ infer_mac_muladd_4ns_10ns_6ns_12_4_1 #(
     .din1_WIDTH( 10 ),
     .din2_WIDTH( 6 ),
     .dout_WIDTH( 12 ))
-mac_muladd_4ns_10ns_6ns_12_4_1_U813(
+mac_muladd_4ns_10ns_6ns_12_4_1_U814(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(grp_fu_1503_p0),
@@ -849,7 +849,7 @@ infer_mul_mul_12ns_14ns_25_4_1 #(
     .din0_WIDTH( 12 ),
     .din1_WIDTH( 14 ),
     .dout_WIDTH( 25 ))
-mul_mul_12ns_14ns_25_4_1_U814(
+mul_mul_12ns_14ns_25_4_1_U815(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(grp_fu_1512_p0),

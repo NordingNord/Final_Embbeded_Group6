@@ -1347,7 +1347,7 @@ set RtlHierarchyInfo {[
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
 		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "6028725", "EstimateLatencyMax" : "6028725",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "6063573", "EstimateLatencyMax" : "6063573",
 		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
@@ -1487,88 +1487,88 @@ set RtlHierarchyInfo {[
 			{"Name" : "layer_6_bias", "Type" : "Memory", "Direction" : "I"}]},
 	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.layer_6_weights_U", "Parent" : "0"},
 	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.layer_6_bias_U", "Parent" : "0"},
-	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_4ns_5ns_7_1_1_U885", "Parent" : "0"},
-	{"ID" : "4", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_4ns_5ns_7_1_1_U886", "Parent" : "0"},
-	{"ID" : "5", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.urem_12ns_7ns_12_16_seq_1_U887", "Parent" : "0"},
-	{"ID" : "6", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_4ns_5ns_8_1_1_U888", "Parent" : "0"},
-	{"ID" : "7", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.urem_13ns_8ns_13_17_1_U889", "Parent" : "0"},
-	{"ID" : "8", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_4ns_5ns_7_1_1_U890", "Parent" : "0"},
-	{"ID" : "9", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_4ns_5ns_7_1_1_U891", "Parent" : "0"},
-	{"ID" : "10", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.urem_12ns_7ns_12_16_1_U892", "Parent" : "0"},
-	{"ID" : "11", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_4ns_5ns_4ns_8_4_1_U893", "Parent" : "0"},
-	{"ID" : "12", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_4ns_5ns_4ns_8_4_1_U894", "Parent" : "0"},
-	{"ID" : "13", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_4ns_5ns_4ns_8_4_1_U895", "Parent" : "0"},
-	{"ID" : "14", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_mul_12ns_14ns_25_4_1_U896", "Parent" : "0"},
-	{"ID" : "15", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_mul_13ns_15ns_27_4_1_U897", "Parent" : "0"},
-	{"ID" : "16", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_mul_12ns_14ns_25_4_1_U898", "Parent" : "0"}]}
+	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_4ns_5ns_7_1_1_U886", "Parent" : "0"},
+	{"ID" : "4", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_4ns_5ns_7_1_1_U887", "Parent" : "0"},
+	{"ID" : "5", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.urem_12ns_7ns_12_16_seq_1_U888", "Parent" : "0"},
+	{"ID" : "6", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_4ns_5ns_8_1_1_U889", "Parent" : "0"},
+	{"ID" : "7", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.urem_14ns_8ns_14_18_1_U890", "Parent" : "0"},
+	{"ID" : "8", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_4ns_5ns_7_1_1_U891", "Parent" : "0"},
+	{"ID" : "9", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_4ns_5ns_7_1_1_U892", "Parent" : "0"},
+	{"ID" : "10", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.urem_12ns_7ns_12_16_1_U893", "Parent" : "0"},
+	{"ID" : "11", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_4ns_5ns_4ns_8_4_1_U894", "Parent" : "0"},
+	{"ID" : "12", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_4ns_5ns_4ns_8_4_1_U895", "Parent" : "0"},
+	{"ID" : "13", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_4ns_5ns_4ns_8_4_1_U896", "Parent" : "0"},
+	{"ID" : "14", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_mul_12ns_14ns_25_4_1_U897", "Parent" : "0"},
+	{"ID" : "15", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_mul_14ns_16ns_29_4_1_U898", "Parent" : "0"},
+	{"ID" : "16", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_mul_12ns_14ns_25_4_1_U899", "Parent" : "0"}]}
 
 
 set ArgLastReadFirstWriteLatency {
 	conv2d {
-		input_0 {Type I LastRead 37 FirstWrite -1}
-		input_1 {Type I LastRead 37 FirstWrite -1}
-		input_2 {Type I LastRead 37 FirstWrite -1}
-		input_3 {Type I LastRead 37 FirstWrite -1}
-		input_4 {Type I LastRead 37 FirstWrite -1}
-		input_5 {Type I LastRead 37 FirstWrite -1}
-		input_6 {Type I LastRead 37 FirstWrite -1}
-		input_7 {Type I LastRead 37 FirstWrite -1}
-		input_8 {Type I LastRead 37 FirstWrite -1}
-		input_9 {Type I LastRead 37 FirstWrite -1}
-		input_10 {Type I LastRead 37 FirstWrite -1}
-		input_11 {Type I LastRead 37 FirstWrite -1}
-		input_12 {Type I LastRead 37 FirstWrite -1}
-		input_13 {Type I LastRead 37 FirstWrite -1}
-		input_14 {Type I LastRead 37 FirstWrite -1}
-		input_15 {Type I LastRead 37 FirstWrite -1}
-		input_16 {Type I LastRead 37 FirstWrite -1}
-		input_17 {Type I LastRead 37 FirstWrite -1}
-		input_18 {Type I LastRead 37 FirstWrite -1}
-		input_19 {Type I LastRead 37 FirstWrite -1}
-		input_20 {Type I LastRead 37 FirstWrite -1}
-		input_21 {Type I LastRead 37 FirstWrite -1}
-		input_22 {Type I LastRead 37 FirstWrite -1}
-		input_23 {Type I LastRead 37 FirstWrite -1}
-		input_24 {Type I LastRead 37 FirstWrite -1}
-		input_25 {Type I LastRead 37 FirstWrite -1}
-		input_26 {Type I LastRead 37 FirstWrite -1}
-		input_27 {Type I LastRead 37 FirstWrite -1}
-		input_28 {Type I LastRead 37 FirstWrite -1}
-		input_29 {Type I LastRead 37 FirstWrite -1}
-		input_30 {Type I LastRead 37 FirstWrite -1}
-		input_31 {Type I LastRead 37 FirstWrite -1}
-		input_32 {Type I LastRead 37 FirstWrite -1}
-		input_33 {Type I LastRead 37 FirstWrite -1}
-		input_34 {Type I LastRead 37 FirstWrite -1}
-		input_35 {Type I LastRead 37 FirstWrite -1}
-		input_36 {Type I LastRead 37 FirstWrite -1}
-		input_37 {Type I LastRead 37 FirstWrite -1}
-		input_38 {Type I LastRead 37 FirstWrite -1}
-		input_39 {Type I LastRead 37 FirstWrite -1}
-		input_40 {Type I LastRead 37 FirstWrite -1}
-		input_41 {Type I LastRead 37 FirstWrite -1}
-		input_42 {Type I LastRead 37 FirstWrite -1}
-		input_43 {Type I LastRead 37 FirstWrite -1}
-		input_44 {Type I LastRead 37 FirstWrite -1}
-		input_45 {Type I LastRead 37 FirstWrite -1}
-		input_46 {Type I LastRead 37 FirstWrite -1}
-		input_47 {Type I LastRead 37 FirstWrite -1}
-		input_48 {Type I LastRead 37 FirstWrite -1}
-		input_49 {Type I LastRead 37 FirstWrite -1}
-		input_50 {Type I LastRead 37 FirstWrite -1}
-		input_51 {Type I LastRead 37 FirstWrite -1}
-		input_52 {Type I LastRead 37 FirstWrite -1}
-		input_53 {Type I LastRead 37 FirstWrite -1}
-		input_54 {Type I LastRead 37 FirstWrite -1}
-		input_55 {Type I LastRead 37 FirstWrite -1}
-		input_56 {Type I LastRead 37 FirstWrite -1}
-		input_57 {Type I LastRead 37 FirstWrite -1}
-		input_58 {Type I LastRead 37 FirstWrite -1}
-		input_59 {Type I LastRead 37 FirstWrite -1}
-		input_60 {Type I LastRead 37 FirstWrite -1}
-		input_61 {Type I LastRead 37 FirstWrite -1}
-		input_62 {Type I LastRead 37 FirstWrite -1}
-		input_63 {Type I LastRead 37 FirstWrite -1}
+		input_0 {Type I LastRead 38 FirstWrite -1}
+		input_1 {Type I LastRead 38 FirstWrite -1}
+		input_2 {Type I LastRead 38 FirstWrite -1}
+		input_3 {Type I LastRead 38 FirstWrite -1}
+		input_4 {Type I LastRead 38 FirstWrite -1}
+		input_5 {Type I LastRead 38 FirstWrite -1}
+		input_6 {Type I LastRead 38 FirstWrite -1}
+		input_7 {Type I LastRead 38 FirstWrite -1}
+		input_8 {Type I LastRead 38 FirstWrite -1}
+		input_9 {Type I LastRead 38 FirstWrite -1}
+		input_10 {Type I LastRead 38 FirstWrite -1}
+		input_11 {Type I LastRead 38 FirstWrite -1}
+		input_12 {Type I LastRead 38 FirstWrite -1}
+		input_13 {Type I LastRead 38 FirstWrite -1}
+		input_14 {Type I LastRead 38 FirstWrite -1}
+		input_15 {Type I LastRead 38 FirstWrite -1}
+		input_16 {Type I LastRead 38 FirstWrite -1}
+		input_17 {Type I LastRead 38 FirstWrite -1}
+		input_18 {Type I LastRead 38 FirstWrite -1}
+		input_19 {Type I LastRead 38 FirstWrite -1}
+		input_20 {Type I LastRead 38 FirstWrite -1}
+		input_21 {Type I LastRead 38 FirstWrite -1}
+		input_22 {Type I LastRead 38 FirstWrite -1}
+		input_23 {Type I LastRead 38 FirstWrite -1}
+		input_24 {Type I LastRead 38 FirstWrite -1}
+		input_25 {Type I LastRead 38 FirstWrite -1}
+		input_26 {Type I LastRead 38 FirstWrite -1}
+		input_27 {Type I LastRead 38 FirstWrite -1}
+		input_28 {Type I LastRead 38 FirstWrite -1}
+		input_29 {Type I LastRead 38 FirstWrite -1}
+		input_30 {Type I LastRead 38 FirstWrite -1}
+		input_31 {Type I LastRead 38 FirstWrite -1}
+		input_32 {Type I LastRead 38 FirstWrite -1}
+		input_33 {Type I LastRead 38 FirstWrite -1}
+		input_34 {Type I LastRead 38 FirstWrite -1}
+		input_35 {Type I LastRead 38 FirstWrite -1}
+		input_36 {Type I LastRead 38 FirstWrite -1}
+		input_37 {Type I LastRead 38 FirstWrite -1}
+		input_38 {Type I LastRead 38 FirstWrite -1}
+		input_39 {Type I LastRead 38 FirstWrite -1}
+		input_40 {Type I LastRead 38 FirstWrite -1}
+		input_41 {Type I LastRead 38 FirstWrite -1}
+		input_42 {Type I LastRead 38 FirstWrite -1}
+		input_43 {Type I LastRead 38 FirstWrite -1}
+		input_44 {Type I LastRead 38 FirstWrite -1}
+		input_45 {Type I LastRead 38 FirstWrite -1}
+		input_46 {Type I LastRead 38 FirstWrite -1}
+		input_47 {Type I LastRead 38 FirstWrite -1}
+		input_48 {Type I LastRead 38 FirstWrite -1}
+		input_49 {Type I LastRead 38 FirstWrite -1}
+		input_50 {Type I LastRead 38 FirstWrite -1}
+		input_51 {Type I LastRead 38 FirstWrite -1}
+		input_52 {Type I LastRead 38 FirstWrite -1}
+		input_53 {Type I LastRead 38 FirstWrite -1}
+		input_54 {Type I LastRead 38 FirstWrite -1}
+		input_55 {Type I LastRead 38 FirstWrite -1}
+		input_56 {Type I LastRead 38 FirstWrite -1}
+		input_57 {Type I LastRead 38 FirstWrite -1}
+		input_58 {Type I LastRead 38 FirstWrite -1}
+		input_59 {Type I LastRead 38 FirstWrite -1}
+		input_60 {Type I LastRead 38 FirstWrite -1}
+		input_61 {Type I LastRead 38 FirstWrite -1}
+		input_62 {Type I LastRead 38 FirstWrite -1}
+		input_63 {Type I LastRead 38 FirstWrite -1}
 		output_0 {Type IO LastRead 21 FirstWrite 22}
 		output_1 {Type IO LastRead 21 FirstWrite 22}
 		output_2 {Type IO LastRead 21 FirstWrite 22}
@@ -1639,8 +1639,8 @@ set ArgLastReadFirstWriteLatency {
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "6028725", "Max" : "6028725"}
-	, {"Name" : "Interval", "Min" : "6028725", "Max" : "6028725"}
+	{"Name" : "Latency", "Min" : "6063573", "Max" : "6063573"}
+	, {"Name" : "Interval", "Min" : "6063573", "Max" : "6063573"}
 ]}
 
 set PipelineEnableSignalInfo {[

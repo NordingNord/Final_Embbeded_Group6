@@ -1,7 +1,7 @@
 
 `timescale 1 ns / 1 ps
 
-  module infer_mul_mul_12ns_14ns_25_4_1_DSP48_8(clk, rst, ce, a, b, p);
+  module infer_mul_mul_12ns_14ns_25_4_1_DSP48_9(clk, rst, ce, a, b, p);
 input clk;
 input rst;
 input ce;
@@ -51,7 +51,7 @@ output[dout_WIDTH - 1:0] dout;
 
 
 
-infer_mul_mul_12ns_14ns_25_4_1_DSP48_8 infer_mul_mul_12ns_14ns_25_4_1_DSP48_8_U(
+infer_mul_mul_12ns_14ns_25_4_1_DSP48_9 infer_mul_mul_12ns_14ns_25_4_1_DSP48_9_U(
     .clk( clk ),
     .rst( reset ),
     .ce( ce ),

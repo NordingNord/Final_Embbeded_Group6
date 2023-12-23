@@ -551,7 +551,7 @@ attribute shreg_extract : string;
 
 
 begin
-    urem_13ns_8ns_13_17_1_U595 : component infer_urem_13ns_8ns_13_17_1
+    urem_13ns_8ns_13_17_1_U596 : component infer_urem_13ns_8ns_13_17_1
     generic map (
         ID => 1,
         NUM_STAGE => 17,
@@ -566,7 +566,7 @@ begin
         ce => ap_const_logic_1,
         dout => grp_fu_1420_p2);
 
-    mac_muladd_4ns_10ns_6ns_13_4_1_U596 : component infer_mac_muladd_4ns_10ns_6ns_13_4_1
+    mac_muladd_4ns_10ns_6ns_13_4_1_U597 : component infer_mac_muladd_4ns_10ns_6ns_13_4_1
     generic map (
         ID => 1,
         NUM_STAGE => 4,
@@ -583,7 +583,7 @@ begin
         ce => ap_const_logic_1,
         dout => grp_fu_1503_p3);
 
-    mul_mul_13ns_15ns_27_4_1_U597 : component infer_mul_mul_13ns_15ns_27_4_1
+    mul_mul_13ns_15ns_27_4_1_U598 : component infer_mul_mul_13ns_15ns_27_4_1
     generic map (
         ID => 1,
         NUM_STAGE => 4,

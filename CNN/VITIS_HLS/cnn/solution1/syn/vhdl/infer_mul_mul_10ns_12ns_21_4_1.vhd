@@ -3,7 +3,7 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
-entity infer_mul_mul_10ns_12ns_21_4_1_DSP48_10 is
+entity infer_mul_mul_10ns_12ns_21_4_1_DSP48_12 is
 port (
     clk: in std_logic;
     rst: in std_logic;
@@ -14,7 +14,7 @@ port (
 
 end entity;
 
-architecture behav of infer_mul_mul_10ns_12ns_21_4_1_DSP48_10 is
+architecture behav of infer_mul_mul_10ns_12ns_21_4_1_DSP48_12 is
     signal a_cvt: unsigned(10 - 1 downto 0);
     signal b_cvt: unsigned(12 - 1 downto 0);
     signal p_cvt: unsigned(21 - 1 downto 0);
@@ -65,7 +65,7 @@ entity infer_mul_mul_10ns_12ns_21_4_1 is
 end entity;
 
 architecture arch of infer_mul_mul_10ns_12ns_21_4_1 is
-    component infer_mul_mul_10ns_12ns_21_4_1_DSP48_10 is
+    component infer_mul_mul_10ns_12ns_21_4_1_DSP48_12 is
         port (
             clk : IN STD_LOGIC;
             rst : IN STD_LOGIC;
@@ -78,7 +78,7 @@ architecture arch of infer_mul_mul_10ns_12ns_21_4_1 is
 
 
 begin
-    infer_mul_mul_10ns_12ns_21_4_1_DSP48_10_U :  component infer_mul_mul_10ns_12ns_21_4_1_DSP48_10
+    infer_mul_mul_10ns_12ns_21_4_1_DSP48_12_U :  component infer_mul_mul_10ns_12ns_21_4_1_DSP48_12
     port map (
         clk => clk,
         rst => reset,

@@ -475,7 +475,7 @@ infer_urem_10ns_6ns_10_14_1 #(
     .din0_WIDTH( 10 ),
     .din1_WIDTH( 6 ),
     .dout_WIDTH( 10 ))
-urem_10ns_6ns_10_14_1_U1032(
+urem_10ns_6ns_10_14_1_U1035(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(add_ln14_fu_889_p2),
@@ -490,7 +490,7 @@ infer_mul_mul_10ns_12ns_21_4_1 #(
     .din0_WIDTH( 10 ),
     .din1_WIDTH( 12 ),
     .dout_WIDTH( 21 ))
-mul_mul_10ns_12ns_21_4_1_U1033(
+mul_mul_10ns_12ns_21_4_1_U1036(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(grp_fu_970_p0),

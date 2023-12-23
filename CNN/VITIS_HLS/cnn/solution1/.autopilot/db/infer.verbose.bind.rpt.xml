@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'infer'" level="0">
-<item name = "Date">Sat Dec 23 21:26:41 2023
+<item name = "Date">Sat Dec 23 21:52:46 2023
 </item>
 <item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)</item>
 <item name = "Project">cnn</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">72863731, 72863731, 0.877 sec, 0.877 sec, 72863732, 72863732, none</column>
+<column name="">73108531, 73108531, 0.880 sec, 0.880 sec, 73108532, 73108532, none</column>
 </table>
 </item>
 <item name = "Detail">
@@ -34,8 +34,8 @@
 <column name="grp_max_pooling2d_1_fu_2785">max_pooling2d_1, 10842, 10842, 0.130 ms, 0.130 ms, 10842, 10842, none</column>
 <column name="grp_max_pooling2d_2_fu_2917">max_pooling2d_2, 53852, 53852, 0.648 ms, 0.648 ms, 53852, 53852, none</column>
 <column name="grp_max_pooling2d_fu_3049">max_pooling2d, 1623, 1623, 19.534 us, 19.534 us, 1623, 1623, none</column>
-<column name="grp_conv2d_1_fu_3149">conv2d_1, 37371480, 37371480, 0.450 sec, 0.450 sec, 37371480, 37371480, none</column>
-<column name="grp_conv2d_fu_3285">conv2d, 6028725, 6028725, 72.562 ms, 72.562 ms, 6028725, 6028725, none</column>
+<column name="grp_conv2d_1_fu_3149">conv2d_1, 37581432, 37581432, 0.452 sec, 0.452 sec, 37581432, 37581432, none</column>
+<column name="grp_conv2d_fu_3285">conv2d, 6063573, 6063573, 72.981 ms, 72.981 ms, 6063573, 6063573, none</column>
 <column name="grp_conv2d_2_fu_3421">conv2d_2, 29064983, 29064983, 0.350 sec, 0.350 sec, 29064983, 29064983, none</column>
 <column name="grp_set3DFloatArray_5_fu_3494">set3DFloatArray_5, 107672, 107672, 1.296 ms, 1.296 ms, 107672, 107672, none</column>
 <column name="grp_set3DFloatArray_4_fu_3562">set3DFloatArray_4, 26934, 26934, 0.324 ms, 0.324 ms, 26934, 26934, none</column>
@@ -47,20 +47,20 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- VITIS_LOOP_214_1">3604, 3604, 6, 1, 1, 3600, yes</column>
+<column name="- VITIS_LOOP_223_1">3604, 3604, 6, 1, 1, 3600, yes</column>
 <column name="- VITIS_LOOP_31_1_VITIS_LOOP_33_2">3611, 3611, 13, 1, 1, 3600, yes</column>
 <column name="- VITIS_LOOP_22_1">64, 64, 1, 1, 1, 64, yes</column>
-<column name="- VITIS_LOOP_169_1">205824, 205824, 3216, -, -, 64, no</column>
-<column name=" + VITIS_LOOP_171_2">3212, 3212, 17, 4, 1, 800, yes</column>
+<column name="- VITIS_LOOP_178_1">205824, 205824, 3216, -, -, 64, no</column>
+<column name=" + VITIS_LOOP_180_2">3212, 3212, 17, 4, 1, 800, yes</column>
 <column name="- VITIS_LOOP_22_1">32, 32, 1, 1, 1, 32, yes</column>
-<column name="- VITIS_LOOP_169_1">8704, 8704, 272, -, -, 32, no</column>
-<column name=" + VITIS_LOOP_171_2">268, 268, 17, 4, 1, 64, yes</column>
+<column name="- VITIS_LOOP_178_1">8704, 8704, 272, -, -, 32, no</column>
+<column name=" + VITIS_LOOP_180_2">268, 268, 17, 4, 1, 64, yes</column>
 <column name="- VITIS_LOOP_22_1">16, 16, 1, 1, 1, 16, yes</column>
-<column name="- VITIS_LOOP_169_1">2304, 2304, 144, -, -, 16, no</column>
-<column name=" + VITIS_LOOP_171_2">140, 140, 17, 4, 1, 32, yes</column>
+<column name="- VITIS_LOOP_178_1">2304, 2304, 144, -, -, 16, no</column>
+<column name=" + VITIS_LOOP_180_2">140, 140, 17, 4, 1, 32, yes</column>
 <column name="- VITIS_LOOP_22_1">4, 4, 1, 1, 1, 4, yes</column>
-<column name="- VITIS_LOOP_190_1">346, 346, 90, 84, 1, 4, yes</column>
-<column name="- VITIS_LOOP_328_2">5, 5, 3, 1, 1, 4, yes</column>
+<column name="- VITIS_LOOP_199_1">346, 346, 90, 84, 1, 4, yes</column>
+<column name="- VITIS_LOOP_337_2">5, 5, 3, 1, 1, 4, yes</column>
 </table>
 </item>
 </section>

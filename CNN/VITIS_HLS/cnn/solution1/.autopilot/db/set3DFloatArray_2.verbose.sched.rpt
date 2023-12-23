@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'set3DFloatArray_2'
 ================================================================
-* Date:           Sat Dec 23 21:26:11 2023
+* Date:           Sat Dec 23 21:52:14 2023
 
 * Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)
 * Project:        cnn
@@ -512,8 +512,8 @@ The critical path consists of the following:
  <State 21>: 2.9ns
 The critical path consists of the following:
 	'urem' operation ('urem_ln14', ../src/hls/cnn.cpp:14) [107]  (1.55 ns)
-	'getelementptr' operation ('array63_addr', ../src/hls/cnn.cpp:14) [172]  (0 ns)
-	'store' operation ('store_ln14', ../src/hls/cnn.cpp:14) of constant 0 on array 'array63' [364]  (1.35 ns)
+	'getelementptr' operation ('array58_addr', ../src/hls/cnn.cpp:14) [167]  (0 ns)
+	'store' operation ('store_ln14', ../src/hls/cnn.cpp:14) of constant 0 on array 'array58' [187]  (1.35 ns)
 
  <State 22>: 0ns
 The critical path consists of the following:
