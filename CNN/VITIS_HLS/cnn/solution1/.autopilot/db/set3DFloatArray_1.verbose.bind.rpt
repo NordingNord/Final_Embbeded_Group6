@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'set3DFloatArray_1'
 ================================================================
-* Date:           Sat Dec 23 20:35:18 2023
+* Date:           Sat Dec 23 21:26:20 2023
 
 * Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)
 * Project:        cnn
@@ -207,7 +207,7 @@ ST_20 : Operation 83 [1/1] (0.00ns)   --->   "%empty = speclooptripcount i32 @_s
 ST_20 : Operation 84 [1/1] (0.00ns)   --->   "%specpipeline_ln0 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 1, i32 0, void @p_str"   --->   Operation 84 'specpipeline' 'specpipeline_ln0' <Predicate = (!icmp_ln8)> <Delay = 0.00>
 ST_20 : Operation 85 [1/1] (0.00ns)   --->   "%specloopname_ln0 = specloopname void @_ssdm_op_SpecLoopName, void @VITIS_LOOP_10_2_VITIS_LOOP_12_3_str"   --->   Operation 85 'specloopname' 'specloopname_ln0' <Predicate = (!icmp_ln8)> <Delay = 0.00>
 ST_20 : Operation 86 [1/1] (0.00ns)   --->   "%specpipeline_ln0 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 1, i32 0, void @p_str"   --->   Operation 86 'specpipeline' 'specpipeline_ln0' <Predicate = (!icmp_ln8)> <Delay = 0.00>
-ST_20 : Operation 87 [1/1] (0.00ns)   --->   "%specloopname_ln12 = specloopname void @_ssdm_op_SpecLoopName, void @empty_2" [../src/hls/cnn.cpp:12]   --->   Operation 87 'specloopname' 'specloopname_ln12' <Predicate = (!icmp_ln8)> <Delay = 0.00>
+ST_20 : Operation 87 [1/1] (0.00ns)   --->   "%specloopname_ln12 = specloopname void @_ssdm_op_SpecLoopName, void @empty_16" [../src/hls/cnn.cpp:12]   --->   Operation 87 'specloopname' 'specloopname_ln12' <Predicate = (!icmp_ln8)> <Delay = 0.00>
 ST_20 : Operation 88 [1/16] (1.48ns)   --->   "%urem_ln14 = urem i12 %add_ln14, i12 61" [../src/hls/cnn.cpp:14]   --->   Operation 88 'urem' 'urem_ln14' <Predicate = (!icmp_ln8)> <Delay = 1.48> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 15> <II = 1> <Delay = 1.48> <FuncUnit> <Opcode : 'sdiv' 'srem' 'udiv' 'urem'> <InPorts = 2> <OutPorts = 1>
 ST_20 : Operation 89 [1/1] (0.00ns)   --->   "%zext_ln14 = zext i12 %urem_ln14" [../src/hls/cnn.cpp:14]   --->   Operation 89 'zext' 'zext_ln14' <Predicate = (!icmp_ln8)> <Delay = 0.00>
 ST_20 : Operation 90 [1/1] (0.00ns)   --->   "%array_addr = getelementptr i32 %array_r, i64 0, i64 %zext_ln14" [../src/hls/cnn.cpp:14]   --->   Operation 90 'getelementptr' 'array_addr' <Predicate = (!icmp_ln8)> <Delay = 0.00>
@@ -2197,7 +2197,7 @@ ret_ln18            (ret              ) [ 0000000000000000000000]
 <pin id="311" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_2"/></StgValue>
+<StgValue><ssdm name="empty_16"/></StgValue>
 </bind>
 </comp>
 

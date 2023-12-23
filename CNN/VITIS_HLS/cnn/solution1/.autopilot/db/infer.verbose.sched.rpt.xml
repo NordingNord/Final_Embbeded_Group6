@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'infer'" level="0">
-<item name = "Date">Sat Dec 23 20:35:30 2023
+<item name = "Date">Sat Dec 23 21:26:34 2023
 </item>
 <item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)</item>
 <item name = "Project">cnn</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">40043605, 40043605, 0.482 sec, 0.482 sec, 40043606, 40043606, none</column>
+<column name="">72863731, 72863731, 0.877 sec, 0.877 sec, 72863732, 72863732, none</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,14 +35,20 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- VITIS_LOOP_201_1">3604, 3604, 6, 1, 1, 3600, yes</column>
+<column name="- VITIS_LOOP_214_1">3604, 3604, 6, 1, 1, 3600, yes</column>
 <column name="- VITIS_LOOP_31_1_VITIS_LOOP_33_2">3611, 3611, 13, 1, 1, 3600, yes</column>
 <column name="- VITIS_LOOP_22_1">64, 64, 1, 1, 1, 64, yes</column>
+<column name="- VITIS_LOOP_169_1">205824, 205824, 3216, -, -, 64, no</column>
+<column name=" + VITIS_LOOP_171_2">3212, 3212, 17, 4, 1, 800, yes</column>
 <column name="- VITIS_LOOP_22_1">32, 32, 1, 1, 1, 32, yes</column>
+<column name="- VITIS_LOOP_169_1">8704, 8704, 272, -, -, 32, no</column>
+<column name=" + VITIS_LOOP_171_2">268, 268, 17, 4, 1, 64, yes</column>
 <column name="- VITIS_LOOP_22_1">16, 16, 1, 1, 1, 16, yes</column>
+<column name="- VITIS_LOOP_169_1">2304, 2304, 144, -, -, 16, no</column>
+<column name=" + VITIS_LOOP_171_2">140, 140, 17, 4, 1, 32, yes</column>
 <column name="- VITIS_LOOP_22_1">4, 4, 1, 1, 1, 4, yes</column>
-<column name="- VITIS_LOOP_177_1">346, 346, 90, 84, 1, 4, yes</column>
-<column name="- VITIS_LOOP_315_2">5, 5, 3, 1, 1, 4, yes</column>
+<column name="- VITIS_LOOP_190_1">346, 346, 90, 84, 1, 4, yes</column>
+<column name="- VITIS_LOOP_328_2">5, 5, 3, 1, 1, 4, yes</column>
 </table>
 </item>
 </section>

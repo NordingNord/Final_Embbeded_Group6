@@ -32,13 +32,13 @@
 <Interval-max>1623</Interval-max>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
-<VITIS_LOOP_119_1_VITIS_LOOP_122_2_VITIS_LOOP_125_3>
+<VITIS_LOOP_132_1_VITIS_LOOP_135_2_VITIS_LOOP_138_3>
 <TripCount>800</TripCount>
 <Latency>1621</Latency>
 <AbsoluteTimeLatency>16210</AbsoluteTimeLatency>
 <PipelineII>2</PipelineII>
 <PipelineDepth>24</PipelineDepth>
-</VITIS_LOOP_119_1_VITIS_LOOP_122_2_VITIS_LOOP_125_3>
+</VITIS_LOOP_132_1_VITIS_LOOP_135_2_VITIS_LOOP_138_3>
 </SummaryOfLoopLatency>
 </PerformanceEstimates>
 
@@ -127,7 +127,7 @@
 <Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_4439_p_din0</name>
+<name>grp_fu_3895_p_din0</name>
 <Object>max_pooling2d</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -138,7 +138,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_4439_p_din1</name>
+<name>grp_fu_3895_p_din1</name>
 <Object>max_pooling2d</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -149,7 +149,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_4439_p_opcode</name>
+<name>grp_fu_3895_p_opcode</name>
 <Object>max_pooling2d</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -160,7 +160,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_4439_p_dout0</name>
+<name>grp_fu_3895_p_dout0</name>
 <Object>max_pooling2d</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -171,7 +171,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_4439_p_ce</name>
+<name>grp_fu_3895_p_ce</name>
 <Object>max_pooling2d</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -182,7 +182,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_4443_p_din0</name>
+<name>grp_fu_5840_p_din0</name>
 <Object>max_pooling2d</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -193,7 +193,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_4443_p_din1</name>
+<name>grp_fu_5840_p_din1</name>
 <Object>max_pooling2d</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -204,7 +204,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_4443_p_opcode</name>
+<name>grp_fu_5840_p_opcode</name>
 <Object>max_pooling2d</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -215,7 +215,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_4443_p_dout0</name>
+<name>grp_fu_5840_p_dout0</name>
 <Object>max_pooling2d</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -226,7 +226,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_4443_p_ce</name>
+<name>grp_fu_5840_p_ce</name>
 <Object>max_pooling2d</Object>
 <Type>return value</Type>
 <Scope></Scope>

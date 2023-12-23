@@ -69,41 +69,54 @@ void conv2d(const int input_dims[3], float* input,
         // Input columns
         for (int ii = 1; ii < input_dims[1] - 1; ii++)
         {
+            // Kernel rows
+            for (int v = -1; v < 2; v++)
+            {
+                // Kernel cols
+                for (int vi = -1; vi < 2; vi++)
+                {
+                    // Kernel number
+                    for (int iii = 0; iii < weight_dims[3]; iii++)
+                    {
+                        // Input and kernel channels
+                        for (int iv = 0; iv < input_dims[2]; iv++)
+                        {
+                        	output[(i - 1)*output_dims[1]*output_dims[2] +
+                                (ii - 1)*output_dims[2] +
+                                iii]
+                                +=
+                                input[(i + v)*input_dims[1]*input_dims[2] + 
+                                (ii + vi)*input_dims[2] + 
+                                iv] 
+                                *
+                                weights[(v + 1)*weight_dims[1]*weight_dims[2]*weight_dims[3] + 
+                                (vi + 1)*weight_dims[2]*weight_dims[3] + 
+                                iv*weight_dims[3] + 
+                                iii];
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // Input rows
+    for (int i = 1; i < input_dims[0] - 1; i++)
+    {
+        // Input columns
+        for (int ii = 1; ii < input_dims[1] - 1; ii++)
+        {
             // Kernel number
             for (int iii = 0; iii < weight_dims[3]; iii++)
             {
-            	// Add bias
-            	float output_sum = bias[iii];
-                // Input and kernel channels
-                for (int iv = 0; iv < input_dims[2]; iv++)
-                {
-                    // Kernel rows
-                    for (int v = -1; v < 2; v++)
-                    {
-                        // Kernel cols
-                        for (int vi = -1; vi < 2; vi++)
-                        {
-                        	output_sum +=
-                                    
-                                    input[(i + v)*input_dims[1]*input_dims[2] + 
-                                    (ii + vi)*input_dims[2] + 
-                                    iv] *
-                                    
-                                    weights[(v + 1)*weight_dims[1]*weight_dims[2]*weight_dims[3] + 
-                                    (vi + 1)*weight_dims[2]*weight_dims[3] + 
-                                    iv*weight_dims[3] + 
-                                    iii];
-                            
-                        }
-                        
-                    }
-                }
-                // Apply relu activiation function
-                relu(output_sum);
+                // Add bias
                 output[(i - 1)*output_dims[1]*output_dims[2] +
-					(ii - 1)*output_dims[2] +
-					iii]
-                    = output_sum;
+                    (ii - 1)*output_dims[2] +
+                    iii] += bias[iii];
+                // Apply relu activiation function
+                relu(output[(i - 1)*output_dims[1]*output_dims[2] +
+                    (ii - 1)*output_dims[2] +
+                    iii]);
             }
         }
     }

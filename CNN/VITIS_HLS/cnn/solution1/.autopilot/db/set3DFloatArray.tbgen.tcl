@@ -399,8 +399,8 @@ set RtlHierarchyInfo {[
 			{"Name" : "array29", "Type" : "Memory", "Direction" : "O"},
 			{"Name" : "array30", "Type" : "Memory", "Direction" : "O"},
 			{"Name" : "array31", "Type" : "Memory", "Direction" : "O"}]},
-	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.urem_10ns_6ns_10_14_1_U1011", "Parent" : "0"},
-	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_mul_10ns_12ns_21_4_1_U1012", "Parent" : "0"}]}
+	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.urem_10ns_6ns_10_14_1_U1032", "Parent" : "0"},
+	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_mul_10ns_12ns_21_4_1_U1033", "Parent" : "0"}]}
 
 
 set ArgLastReadFirstWriteLatency {

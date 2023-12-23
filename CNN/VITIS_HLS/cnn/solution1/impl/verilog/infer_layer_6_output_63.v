@@ -21,9 +21,6 @@ input clk;
 
 reg [DWIDTH-1:0] ram[0:MEM_SIZE-1];
 
-initial begin
-    $readmemh("./infer_layer_6_output_63_ram.dat", ram);
-end
 
 
 

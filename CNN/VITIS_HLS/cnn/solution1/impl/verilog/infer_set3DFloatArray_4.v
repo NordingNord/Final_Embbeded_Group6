@@ -829,7 +829,7 @@ infer_urem_15ns_10ns_15_19_1 #(
     .din0_WIDTH( 15 ),
     .din1_WIDTH( 10 ),
     .dout_WIDTH( 15 ))
-urem_15ns_10ns_15_19_1_U150(
+urem_15ns_10ns_15_19_1_U158(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(add_ln14_fu_1409_p2),
@@ -845,7 +845,7 @@ infer_mac_muladd_5ns_11ns_6ns_15_4_1 #(
     .din1_WIDTH( 11 ),
     .din2_WIDTH( 6 ),
     .dout_WIDTH( 15 ))
-mac_muladd_5ns_11ns_6ns_15_4_1_U151(
+mac_muladd_5ns_11ns_6ns_15_4_1_U159(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(grp_fu_1501_p0),
@@ -861,7 +861,7 @@ infer_mul_mul_15ns_17ns_31_4_1 #(
     .din0_WIDTH( 15 ),
     .din1_WIDTH( 17 ),
     .dout_WIDTH( 31 ))
-mul_mul_15ns_17ns_31_4_1_U152(
+mul_mul_15ns_17ns_31_4_1_U160(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(grp_fu_1510_p0),

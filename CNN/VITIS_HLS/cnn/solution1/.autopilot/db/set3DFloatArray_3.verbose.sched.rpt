@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'set3DFloatArray_3'
 ================================================================
-* Date:           Sat Dec 23 20:35:06 2023
+* Date:           Sat Dec 23 21:26:06 2023
 
 * Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)
 * Project:        cnn
@@ -219,7 +219,7 @@ ST_23 : Operation 89 [1/1] (0.00ns)   --->   "%empty = speclooptripcount i32 @_s
 ST_23 : Operation 90 [1/1] (0.00ns)   --->   "%specpipeline_ln0 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 1, i32 0, void @p_str"   --->   Operation 90 'specpipeline' 'specpipeline_ln0' <Predicate = (!icmp_ln8)> <Delay = 0.00>
 ST_23 : Operation 91 [1/1] (0.00ns)   --->   "%specloopname_ln0 = specloopname void @_ssdm_op_SpecLoopName, void @VITIS_LOOP_10_2_VITIS_LOOP_12_3_str"   --->   Operation 91 'specloopname' 'specloopname_ln0' <Predicate = (!icmp_ln8)> <Delay = 0.00>
 ST_23 : Operation 92 [1/1] (0.00ns)   --->   "%specpipeline_ln0 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 1, i32 0, void @p_str"   --->   Operation 92 'specpipeline' 'specpipeline_ln0' <Predicate = (!icmp_ln8)> <Delay = 0.00>
-ST_23 : Operation 93 [1/1] (0.00ns)   --->   "%specloopname_ln12 = specloopname void @_ssdm_op_SpecLoopName, void @empty_2" [../src/hls/cnn.cpp:12]   --->   Operation 93 'specloopname' 'specloopname_ln12' <Predicate = (!icmp_ln8)> <Delay = 0.00>
+ST_23 : Operation 93 [1/1] (0.00ns)   --->   "%specloopname_ln12 = specloopname void @_ssdm_op_SpecLoopName, void @empty_16" [../src/hls/cnn.cpp:12]   --->   Operation 93 'specloopname' 'specloopname_ln12' <Predicate = (!icmp_ln8)> <Delay = 0.00>
 ST_23 : Operation 94 [1/19] (1.68ns)   --->   "%urem_ln14 = urem i15 %add_ln14, i15 365" [../src/hls/cnn.cpp:14]   --->   Operation 94 'urem' 'urem_ln14' <Predicate = (!icmp_ln8)> <Delay = 1.68> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 18> <II = 1> <Delay = 1.68> <FuncUnit> <Opcode : 'sdiv' 'srem' 'udiv' 'urem'> <InPorts = 2> <OutPorts = 1>
 ST_23 : Operation 95 [1/1] (0.00ns)   --->   "%zext_ln14 = zext i15 %urem_ln14" [../src/hls/cnn.cpp:14]   --->   Operation 95 'zext' 'zext_ln14' <Predicate = (!icmp_ln8)> <Delay = 0.00>
 ST_23 : Operation 96 [1/1] (0.00ns)   --->   "%array_addr = getelementptr i32 %array_r, i64 0, i64 %zext_ln14" [../src/hls/cnn.cpp:14]   --->   Operation 96 'getelementptr' 'array_addr' <Predicate = (!icmp_ln8)> <Delay = 0.00>
@@ -528,8 +528,8 @@ The critical path consists of the following:
  <State 23>: 3.04ns
 The critical path consists of the following:
 	'urem' operation ('urem_ln14', ../src/hls/cnn.cpp:14) [107]  (1.69 ns)
-	'getelementptr' operation ('array5_addr', ../src/hls/cnn.cpp:14) [114]  (0 ns)
-	'store' operation ('store_ln14', ../src/hls/cnn.cpp:14) of constant 0 on array 'array5' [346]  (1.35 ns)
+	'getelementptr' operation ('array62_addr', ../src/hls/cnn.cpp:14) [171]  (0 ns)
+	'store' operation ('store_ln14', ../src/hls/cnn.cpp:14) of constant 0 on array 'array62' [175]  (1.35 ns)
 
  <State 24>: 0ns
 The critical path consists of the following:

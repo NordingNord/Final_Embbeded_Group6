@@ -1263,7 +1263,7 @@
 
 <Node id="101" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-._crit_edge7.loopexit:23 %specloopname_ln12 = specloopname void @_ssdm_op_SpecLoopName, void @empty_2
+._crit_edge7.loopexit:23 %specloopname_ln12 = specloopname void @_ssdm_op_SpecLoopName, void @empty_16
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln12"/></StgValue>
@@ -5142,7 +5142,7 @@ branch63:1 %br_ln14 = br void %.split127
 </dataflow>
 <dataflow id="710" from="_ssdm_op_SpecLoopName" to="specloopname_ln12" fromId="685" toId="89">
 </dataflow>
-<dataflow id="712" from="empty_2" to="specloopname_ln12" fromId="711" toId="89">
+<dataflow id="712" from="empty_16" to="specloopname_ln12" fromId="711" toId="89">
 </dataflow>
 <dataflow id="713" from="add_ln14" to="urem_ln14" fromId="60" toId="90">
 </dataflow>

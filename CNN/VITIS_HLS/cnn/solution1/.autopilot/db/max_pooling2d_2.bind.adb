@@ -31,7 +31,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>1031369833</coreId>
+						<coreId>3556769920</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -64,7 +64,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>0</coreId>
+						<coreId>2607540352</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -97,7 +97,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>68</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -163,7 +163,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>0</coreId>
+						<coreId>68</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -196,7 +196,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>2288451646</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -229,7 +229,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -262,7 +262,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>49</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -295,7 +295,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>305</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -328,7 +328,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>337</coreId>
+						<coreId>433</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -361,7 +361,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>49</coreId>
+						<coreId>433</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -394,7 +394,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>49</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -427,7 +427,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>11</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -460,7 +460,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>481</coreId>
+						<coreId>6</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -493,7 +493,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>2607589808</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -526,7 +526,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>13</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -559,7 +559,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>417</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -592,7 +592,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -658,7 +658,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>103079215</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -691,7 +691,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>49</coreId>
+						<coreId>2609874304</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -724,7 +724,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>465</coreId>
+						<coreId>997420912</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -790,7 +790,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>481</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -856,7 +856,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>1169</coreId>
+						<coreId>1393</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -889,7 +889,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>0</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -922,7 +922,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>2289814344</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -955,7 +955,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>1169</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -1021,7 +1021,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>145</coreId>
+						<coreId>7</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -1054,7 +1054,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>129</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -1087,7 +1087,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>1569</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -1120,7 +1120,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>7</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -1153,7 +1153,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>1441</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -1219,7 +1219,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>12</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -1252,7 +1252,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>29</coreId>
+						<coreId>4</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -1285,7 +1285,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>3556769920</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -1351,7 +1351,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>3422552192</coreId>
+						<coreId>209</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -1384,7 +1384,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>209</coreId>
+						<coreId>349</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -1417,7 +1417,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>349</coreId>
+						<coreId>233</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -1450,7 +1450,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>233</coreId>
+						<coreId>2147483647</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -1483,7 +1483,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>2147483647</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -1516,7 +1516,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>49</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -1549,7 +1549,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>1089</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -1582,7 +1582,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>22</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -1615,7 +1615,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>0</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -1648,7 +1648,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>49</coreId>
+						<coreId>1393</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -1681,7 +1681,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>1265</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -1714,7 +1714,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>49</coreId>
+						<coreId>4</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -1747,7 +1747,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -1780,7 +1780,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>49</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -1846,7 +1846,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>12</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -1879,7 +1879,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>0</coreId>
+						<coreId>1160194703</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -1912,7 +1912,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>0</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2011,7 +2011,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2044,7 +2044,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2077,7 +2077,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>33</coreId>
+						<coreId>2049</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2110,7 +2110,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>49</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2143,7 +2143,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>1089</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2209,7 +2209,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>0</coreId>
+						<coreId>13</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2242,7 +2242,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>0</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2275,7 +2275,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>49</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2341,7 +2341,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>7</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2374,7 +2374,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2407,7 +2407,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2440,7 +2440,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>49</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2506,7 +2506,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>7</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2539,7 +2539,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>2318673427</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2572,7 +2572,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2605,7 +2605,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>49</coreId>
+						<coreId>1745</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2671,7 +2671,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>4</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2704,7 +2704,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>3556769920</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2737,7 +2737,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>26912</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2770,7 +2770,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>49</coreId>
+						<coreId>758132786</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2803,7 +2803,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>2609872800</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2836,7 +2836,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>3556769920</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2869,7 +2869,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>53852</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2902,7 +2902,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>2305</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2935,7 +2935,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>49</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2968,7 +2968,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3001,7 +3001,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>2608279944</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3034,7 +3034,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>2608279464</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3067,7 +3067,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3100,7 +3100,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>49</coreId>
+						<coreId>2609</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3133,7 +3133,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3166,7 +3166,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3199,7 +3199,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>2607285304</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3232,7 +3232,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>2607286088</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3265,7 +3265,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3298,7 +3298,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>2785</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3331,7 +3331,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>30</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3364,7 +3364,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>15</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3397,7 +3397,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>1747936114</coreId>
+						<coreId>3556769920</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3430,7 +3430,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>104</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3463,7 +3463,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3496,7 +3496,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>30</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3529,7 +3529,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3562,7 +3562,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>1281315657</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3595,7 +3595,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>0</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3628,7 +3628,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>2289816304</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3661,7 +3661,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>0</coreId>
+						<coreId>30</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3694,7 +3694,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>2290529952</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3727,7 +3727,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>0</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3760,7 +3760,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>53852</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3793,7 +3793,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>2289408496</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3826,7 +3826,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>53852</coreId>
+						<coreId>30</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3859,7 +3859,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>2288205296</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3892,7 +3892,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>53852</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3925,7 +3925,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>2288202000</coreId>
+						<coreId>3556769920</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3958,7 +3958,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -3991,7 +3991,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>2657</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -4024,7 +4024,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -4057,7 +4057,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>132</coreId>
+						<coreId>1697</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -4090,7 +4090,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>0</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -4123,7 +4123,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>3422552192</coreId>
+						<coreId>4</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -4156,7 +4156,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>2785</coreId>
+						<coreId>3556769920</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -4189,7 +4189,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>49</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -4222,7 +4222,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName>RAM</coreName>
-						<coreId>1825</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -4243,10 +4243,10 @@
 					<Obj>
 						<type>0</type>
 						<id>129</id>
-						<name>br_ln119</name>
+						<name>br_ln132</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -4262,7 +4262,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -4299,7 +4299,7 @@
 						<name>indvar_flatten51</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -4315,7 +4315,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -4355,7 +4355,7 @@
 						<name>i</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -4371,7 +4371,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -4411,7 +4411,7 @@
 						<name>indvar_flatten</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>122</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -4427,7 +4427,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>122</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -4438,7 +4438,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>113</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -4467,7 +4467,7 @@
 						<name>ii</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>122</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -4483,7 +4483,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>122</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -4494,7 +4494,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>113</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -4523,7 +4523,7 @@
 						<name>iii</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>125</lineNumber>
+						<lineNumber>138</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -4539,7 +4539,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>125</second>
+										<second>138</second>
 									</item>
 								</second>
 							</item>
@@ -4576,10 +4576,10 @@
 					<Obj>
 						<type>0</type>
 						<id>136</id>
-						<name>add_ln119</name>
+						<name>add_ln132</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -4595,7 +4595,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -4630,10 +4630,10 @@
 					<Obj>
 						<type>0</type>
 						<id>137</id>
-						<name>zext_ln119</name>
+						<name>zext_ln132</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -4649,7 +4649,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -4660,7 +4660,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3422552192</coreId>
+						<coreId>2607600576</coreId>
 					</Obj>
 					<bitwidth>12</bitwidth>
 				</Value>
@@ -4686,7 +4686,7 @@
 						<name>tmp_16</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -4702,7 +4702,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -4713,7 +4713,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>132</coreId>
+						<coreId>2606748272</coreId>
 					</Obj>
 					<bitwidth>5</bitwidth>
 				</Value>
@@ -4742,7 +4742,7 @@
 						<name>p_cast_cast</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -4758,7 +4758,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -4769,7 +4769,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2286920832</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>10</bitwidth>
 				</Value>
@@ -4795,7 +4795,7 @@
 						<name>mul20</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -4811,7 +4811,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -4822,7 +4822,7 @@
 						<opType>mul</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>10</bitwidth>
 				</Value>
@@ -4849,7 +4849,7 @@
 						<name>empty</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -4865,7 +4865,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -4876,7 +4876,7 @@
 						<opType>mul</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>28271</coreId>
+						<coreId>1873</coreId>
 					</Obj>
 					<bitwidth>12</bitwidth>
 				</Value>
@@ -4900,10 +4900,10 @@
 					<Obj>
 						<type>0</type>
 						<id>142</id>
-						<name>empty_45</name>
+						<name>empty_46</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -4919,7 +4919,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -4930,7 +4930,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2287967000</coreId>
+						<coreId>2607138784</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -4957,7 +4957,7 @@
 						<name>p_cast2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -4973,7 +4973,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -4984,7 +4984,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>9</coreId>
+						<coreId>129</coreId>
 					</Obj>
 					<bitwidth>12</bitwidth>
 				</Value>
@@ -5007,10 +5007,10 @@
 					<Obj>
 						<type>0</type>
 						<id>144</id>
-						<name>empty_46</name>
+						<name>empty_47</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -5026,7 +5026,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -5037,7 +5037,7 @@
 						<opType>mul</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3422552192</coreId>
+						<coreId>2606954648</coreId>
 					</Obj>
 					<bitwidth>12</bitwidth>
 				</Value>
@@ -5061,10 +5061,10 @@
 					<Obj>
 						<type>0</type>
 						<id>145</id>
-						<name>zext_ln122</name>
+						<name>zext_ln135</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>122</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -5080,7 +5080,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>122</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -5091,7 +5091,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2288780176</coreId>
+						<coreId>18</coreId>
 					</Obj>
 					<bitwidth>12</bitwidth>
 				</Value>
@@ -5117,7 +5117,7 @@
 						<name>tmp_17</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>122</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -5133,7 +5133,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>122</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -5144,7 +5144,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2993</coreId>
+						<coreId>3556769920</coreId>
 					</Obj>
 					<bitwidth>5</bitwidth>
 				</Value>
@@ -5173,7 +5173,7 @@
 						<name>p_cast3_cast</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>122</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -5189,7 +5189,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>122</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -5200,7 +5200,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3422552192</coreId>
+						<coreId>1</coreId>
 					</Obj>
 					<bitwidth>10</bitwidth>
 				</Value>
@@ -5226,7 +5226,7 @@
 						<name>mul221</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>122</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -5242,7 +5242,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>122</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -5277,10 +5277,10 @@
 					<Obj>
 						<type>0</type>
 						<id>149</id>
-						<name>add_ln134</name>
+						<name>add_ln147</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -5296,7 +5296,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -5331,10 +5331,10 @@
 					<Obj>
 						<type>0</type>
 						<id>150</id>
-						<name>add_ln134_3</name>
+						<name>add_ln147_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -5350,7 +5350,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -5385,10 +5385,10 @@
 					<Obj>
 						<type>0</type>
 						<id>152</id>
-						<name>icmp_ln119</name>
+						<name>icmp_ln132</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -5404,7 +5404,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -5415,7 +5415,7 @@
 						<opType>icmp</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2288595024</coreId>
+						<coreId>2607035296</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -5439,10 +5439,10 @@
 					<Obj>
 						<type>0</type>
 						<id>153</id>
-						<name>br_ln119</name>
+						<name>br_ln132</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -5458,7 +5458,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -5469,7 +5469,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2288595344</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -5494,10 +5494,10 @@
 					<Obj>
 						<type>0</type>
 						<id>157</id>
-						<name>icmp_ln122</name>
+						<name>icmp_ln135</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>122</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -5513,7 +5513,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>122</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -5524,7 +5524,7 @@
 						<opType>icmp</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2289061456</coreId>
+						<coreId>2</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -5548,10 +5548,10 @@
 					<Obj>
 						<type>0</type>
 						<id>158</id>
-						<name>select_ln119</name>
+						<name>select_ln132</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -5567,7 +5567,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -5603,10 +5603,10 @@
 					<Obj>
 						<type>0</type>
 						<id>159</id>
-						<name>add_ln119_1</name>
+						<name>add_ln132_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -5622,7 +5622,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -5657,10 +5657,10 @@
 					<Obj>
 						<type>0</type>
 						<id>160</id>
-						<name>zext_ln119_1</name>
+						<name>zext_ln132_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -5676,7 +5676,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -5687,7 +5687,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>209</coreId>
+						<coreId>2607035704</coreId>
 					</Obj>
 					<bitwidth>12</bitwidth>
 				</Value>
@@ -5713,7 +5713,7 @@
 						<name>p_mid</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -5729,7 +5729,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -5740,7 +5740,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>489</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>5</bitwidth>
 				</Value>
@@ -5769,7 +5769,7 @@
 						<name>p_cast_cast_mid1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -5785,7 +5785,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -5796,7 +5796,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>257</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>10</bitwidth>
 				</Value>
@@ -5822,7 +5822,7 @@
 						<name>mul20_mid1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -5838,7 +5838,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -5849,7 +5849,7 @@
 						<opType>mul</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>385</coreId>
+						<coreId>2607597384</coreId>
 					</Obj>
 					<bitwidth>10</bitwidth>
 				</Value>
@@ -5873,10 +5873,10 @@
 					<Obj>
 						<type>0</type>
 						<id>164</id>
-						<name>select_ln119_1</name>
+						<name>select_ln132_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -5892,7 +5892,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -5931,7 +5931,7 @@
 						<name>p_mid115</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -5947,7 +5947,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -5958,7 +5958,7 @@
 						<opType>mul</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>157</coreId>
 					</Obj>
 					<bitwidth>12</bitwidth>
 				</Value>
@@ -5982,10 +5982,10 @@
 					<Obj>
 						<type>0</type>
 						<id>166</id>
-						<name>select_ln119_2</name>
+						<name>select_ln132_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -6001,7 +6001,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -6040,7 +6040,7 @@
 						<name>p_mid117</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -6056,7 +6056,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -6067,7 +6067,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2147483647</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -6094,7 +6094,7 @@
 						<name>p_cast2_mid1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -6110,7 +6110,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -6121,7 +6121,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290805552</coreId>
+						<coreId>3556769920</coreId>
 					</Obj>
 					<bitwidth>12</bitwidth>
 				</Value>
@@ -6147,7 +6147,7 @@
 						<name>p_mid119</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -6163,7 +6163,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -6198,10 +6198,10 @@
 					<Obj>
 						<type>0</type>
 						<id>170</id>
-						<name>select_ln119_3</name>
+						<name>select_ln132_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -6217,7 +6217,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -6253,10 +6253,10 @@
 					<Obj>
 						<type>0</type>
 						<id>171</id>
-						<name>select_ln119_4</name>
+						<name>select_ln132_4</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -6272,7 +6272,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -6308,10 +6308,10 @@
 					<Obj>
 						<type>0</type>
 						<id>172</id>
-						<name>select_ln119_5</name>
+						<name>select_ln132_5</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -6327,7 +6327,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -6363,10 +6363,10 @@
 					<Obj>
 						<type>0</type>
 						<id>174</id>
-						<name>xor_ln119</name>
+						<name>xor_ln132</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -6382,7 +6382,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -6393,7 +6393,7 @@
 						<opType>xor</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -6417,10 +6417,10 @@
 					<Obj>
 						<type>0</type>
 						<id>175</id>
-						<name>icmp_ln125</name>
+						<name>icmp_ln138</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>125</lineNumber>
+						<lineNumber>138</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -6436,7 +6436,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>125</second>
+										<second>138</second>
 									</item>
 								</second>
 							</item>
@@ -6447,7 +6447,7 @@
 						<opType>icmp</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>49</coreId>
+						<coreId>2607451920</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -6471,10 +6471,10 @@
 					<Obj>
 						<type>0</type>
 						<id>176</id>
-						<name>and_ln119</name>
+						<name>and_ln132</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -6490,7 +6490,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -6501,7 +6501,7 @@
 						<opType>and</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290892800</coreId>
+						<coreId>2607597120</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -6525,10 +6525,10 @@
 					<Obj>
 						<type>0</type>
 						<id>177</id>
-						<name>select_ln119_6</name>
+						<name>select_ln132_6</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -6544,7 +6544,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -6580,10 +6580,10 @@
 					<Obj>
 						<type>0</type>
 						<id>178</id>
-						<name>add_ln122</name>
+						<name>add_ln135</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>122</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -6599,7 +6599,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>122</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -6634,10 +6634,10 @@
 					<Obj>
 						<type>0</type>
 						<id>180</id>
-						<name>or_ln122</name>
+						<name>or_ln135</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>122</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -6653,7 +6653,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>122</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -6664,7 +6664,7 @@
 						<opType>or</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>49</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -6688,10 +6688,10 @@
 					<Obj>
 						<type>0</type>
 						<id>181</id>
-						<name>select_ln122</name>
+						<name>select_ln135</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>122</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -6707,7 +6707,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>122</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -6743,10 +6743,10 @@
 					<Obj>
 						<type>0</type>
 						<id>182</id>
-						<name>zext_ln122_1</name>
+						<name>zext_ln135_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>122</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -6762,7 +6762,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>122</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -6773,7 +6773,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1073770095</coreId>
+						<coreId>2607539664</coreId>
 					</Obj>
 					<bitwidth>12</bitwidth>
 				</Value>
@@ -6799,7 +6799,7 @@
 						<name>p_mid1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>122</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -6815,7 +6815,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>122</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -6826,7 +6826,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>9</coreId>
 					</Obj>
 					<bitwidth>5</bitwidth>
 				</Value>
@@ -6855,7 +6855,7 @@
 						<name>p_cast3_cast_mid1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>122</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -6871,7 +6871,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>122</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -6882,7 +6882,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290845344</coreId>
+						<coreId>2610327840</coreId>
 					</Obj>
 					<bitwidth>10</bitwidth>
 				</Value>
@@ -6908,7 +6908,7 @@
 						<name>mul221_mid1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>122</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -6924,7 +6924,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>122</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -6959,10 +6959,10 @@
 					<Obj>
 						<type>0</type>
 						<id>186</id>
-						<name>select_ln119_7</name>
+						<name>select_ln132_7</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>119</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -6978,7 +6978,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>119</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -7014,10 +7014,10 @@
 					<Obj>
 						<type>0</type>
 						<id>187</id>
-						<name>select_ln122_1</name>
+						<name>select_ln135_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>122</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -7033,7 +7033,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>122</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -7072,7 +7072,7 @@
 						<name>add26_mid2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>122</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -7088,7 +7088,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>122</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -7099,7 +7099,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290776736</coreId>
+						<coreId>3684148</coreId>
 					</Obj>
 					<bitwidth>15</bitwidth>
 				</Value>
@@ -7124,10 +7124,10 @@
 					<Obj>
 						<type>0</type>
 						<id>189</id>
-						<name>add_ln134_6</name>
+						<name>add_ln147_6</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -7143,7 +7143,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -7178,10 +7178,10 @@
 					<Obj>
 						<type>0</type>
 						<id>190</id>
-						<name>select_ln122_2</name>
+						<name>select_ln135_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>122</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -7197,7 +7197,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>122</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -7233,10 +7233,10 @@
 					<Obj>
 						<type>0</type>
 						<id>191</id>
-						<name>or_ln122_1</name>
+						<name>or_ln135_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>122</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -7252,7 +7252,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>122</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -7263,7 +7263,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290785200</coreId>
+						<coreId>721</coreId>
 					</Obj>
 					<bitwidth>12</bitwidth>
 				</Value>
@@ -7287,10 +7287,10 @@
 					<Obj>
 						<type>0</type>
 						<id>192</id>
-						<name>shl_ln134_mid2</name>
+						<name>shl_ln147_mid2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>122</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -7306,7 +7306,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>122</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -7317,7 +7317,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>365</coreId>
 					</Obj>
 					<bitwidth>17</bitwidth>
 				</Value>
@@ -7342,10 +7342,10 @@
 					<Obj>
 						<type>0</type>
 						<id>193</id>
-						<name>add_ln134_7</name>
+						<name>add_ln147_7</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -7361,7 +7361,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -7396,10 +7396,10 @@
 					<Obj>
 						<type>0</type>
 						<id>194</id>
-						<name>select_ln122_3</name>
+						<name>select_ln135_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>122</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -7415,7 +7415,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>122</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -7451,10 +7451,10 @@
 					<Obj>
 						<type>0</type>
 						<id>195</id>
-						<name>or_ln122_2</name>
+						<name>or_ln135_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>122</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -7470,7 +7470,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>122</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -7481,7 +7481,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1</coreId>
+						<coreId>791</coreId>
 					</Obj>
 					<bitwidth>12</bitwidth>
 				</Value>
@@ -7505,10 +7505,10 @@
 					<Obj>
 						<type>0</type>
 						<id>196</id>
-						<name>shl_ln134_1_mid2</name>
+						<name>shl_ln147_1_mid2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>122</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -7524,7 +7524,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>122</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -7535,7 +7535,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2147483647</coreId>
 					</Obj>
 					<bitwidth>17</bitwidth>
 				</Value>
@@ -7560,10 +7560,10 @@
 					<Obj>
 						<type>0</type>
 						<id>198</id>
-						<name>select_ln122_4</name>
+						<name>select_ln135_4</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>122</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -7579,7 +7579,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>122</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -7618,7 +7618,7 @@
 						<name>iii_cast5</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>122</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -7634,7 +7634,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>122</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -7645,7 +7645,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2288289032</coreId>
+						<coreId>415</coreId>
 					</Obj>
 					<bitwidth>15</bitwidth>
 				</Value>
@@ -7671,7 +7671,7 @@
 						<name>iii_cast</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>122</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -7687,7 +7687,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>122</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -7698,7 +7698,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>132</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>17</bitwidth>
 				</Value>
@@ -7724,7 +7724,7 @@
 						<name>tmp</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -7740,7 +7740,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -7751,7 +7751,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>691616313</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -7777,10 +7777,10 @@
 					<Obj>
 						<type>0</type>
 						<id>203</id>
-						<name>add_ln134_1</name>
+						<name>add_ln147_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -7796,7 +7796,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -7807,7 +7807,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290508392</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>17</bitwidth>
 				</Value>
@@ -7832,10 +7832,10 @@
 					<Obj>
 						<type>0</type>
 						<id>204</id>
-						<name>zext_ln134</name>
+						<name>zext_ln147</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -7851,7 +7851,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -7862,7 +7862,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1553</coreId>
+						<coreId>26912</coreId>
 					</Obj>
 					<bitwidth>35</bitwidth>
 				</Value>
@@ -7885,10 +7885,10 @@
 					<Obj>
 						<type>0</type>
 						<id>205</id>
-						<name>mul_ln134</name>
+						<name>mul_ln147</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -7904,7 +7904,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -7942,7 +7942,7 @@
 						<name>tmp_18</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -7958,7 +7958,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -7969,7 +7969,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>49</coreId>
+						<coreId>2607544640</coreId>
 					</Obj>
 					<bitwidth>7</bitwidth>
 				</Value>
@@ -7995,10 +7995,10 @@
 					<Obj>
 						<type>0</type>
 						<id>207</id>
-						<name>zext_ln134_1</name>
+						<name>zext_ln147_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -8014,7 +8014,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -8025,7 +8025,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>25969</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -8048,10 +8048,10 @@
 					<Obj>
 						<type>0</type>
 						<id>208</id>
-						<name>urem_ln134</name>
+						<name>urem_ln147</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -8067,7 +8067,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -8078,7 +8078,7 @@
 						<opType>urem</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>17</bitwidth>
 				</Value>
@@ -8102,10 +8102,10 @@
 					<Obj>
 						<type>0</type>
 						<id>209</id>
-						<name>zext_ln134_2</name>
+						<name>zext_ln147_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -8121,7 +8121,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -8132,7 +8132,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1265</coreId>
+						<coreId>1629893471</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -8158,7 +8158,7 @@
 						<name>input_0_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -8174,7 +8174,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -8185,7 +8185,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>49</coreId>
+						<coreId>1295780106</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -8213,7 +8213,7 @@
 						<name>input_0_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -8229,7 +8229,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -8266,7 +8266,7 @@
 						<name>input_1_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -8282,7 +8282,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -8293,7 +8293,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>795046515</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -8321,7 +8321,7 @@
 						<name>input_1_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -8337,7 +8337,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -8374,7 +8374,7 @@
 						<name>input_2_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -8390,7 +8390,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -8401,7 +8401,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>49</coreId>
+						<coreId>2607555288</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -8429,7 +8429,7 @@
 						<name>input_2_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -8445,7 +8445,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -8482,7 +8482,7 @@
 						<name>input_3_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -8498,7 +8498,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -8509,7 +8509,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290832544</coreId>
+						<coreId>1380927064</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -8537,7 +8537,7 @@
 						<name>input_3_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -8553,7 +8553,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -8590,7 +8590,7 @@
 						<name>input_4_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -8606,7 +8606,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -8617,7 +8617,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>11</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -8645,7 +8645,7 @@
 						<name>input_4_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -8661,7 +8661,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -8698,7 +8698,7 @@
 						<name>input_5_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -8714,7 +8714,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -8725,7 +8725,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290837288</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -8753,7 +8753,7 @@
 						<name>input_5_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -8769,7 +8769,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -8806,7 +8806,7 @@
 						<name>input_6_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -8822,7 +8822,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -8833,7 +8833,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290839113</coreId>
+						<coreId>8</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -8861,7 +8861,7 @@
 						<name>input_6_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -8877,7 +8877,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -8914,7 +8914,7 @@
 						<name>input_7_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -8930,7 +8930,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -8941,7 +8941,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>697</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -8969,7 +8969,7 @@
 						<name>input_7_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -8985,7 +8985,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -9022,7 +9022,7 @@
 						<name>input_8_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -9038,7 +9038,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -9049,7 +9049,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2147483647</coreId>
+						<coreId>513</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -9077,7 +9077,7 @@
 						<name>input_8_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -9093,7 +9093,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -9130,7 +9130,7 @@
 						<name>input_9_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -9146,7 +9146,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -9157,7 +9157,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>297</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -9185,7 +9185,7 @@
 						<name>input_9_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -9201,7 +9201,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -9238,7 +9238,7 @@
 						<name>input_10_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -9254,7 +9254,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -9265,7 +9265,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290814160</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -9293,7 +9293,7 @@
 						<name>input_10_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -9309,7 +9309,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -9346,7 +9346,7 @@
 						<name>input_11_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -9362,7 +9362,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -9373,7 +9373,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>49</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -9401,7 +9401,7 @@
 						<name>input_11_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -9417,7 +9417,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -9454,7 +9454,7 @@
 						<name>input_12_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -9470,7 +9470,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -9481,7 +9481,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>49</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -9509,7 +9509,7 @@
 						<name>input_12_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -9525,7 +9525,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -9562,7 +9562,7 @@
 						<name>input_13_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -9578,7 +9578,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -9617,7 +9617,7 @@
 						<name>input_13_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -9633,7 +9633,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -9670,7 +9670,7 @@
 						<name>input_14_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -9686,7 +9686,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -9697,7 +9697,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2610276000</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -9725,7 +9725,7 @@
 						<name>input_14_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -9741,7 +9741,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -9778,7 +9778,7 @@
 						<name>input_15_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -9794,7 +9794,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -9805,7 +9805,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -9833,7 +9833,7 @@
 						<name>input_15_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -9849,7 +9849,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -9886,7 +9886,7 @@
 						<name>input_16_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -9902,7 +9902,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -9913,7 +9913,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>49</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -9941,7 +9941,7 @@
 						<name>input_16_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -9957,7 +9957,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -9994,7 +9994,7 @@
 						<name>input_17_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -10010,7 +10010,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -10021,7 +10021,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>20497</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -10049,7 +10049,7 @@
 						<name>input_17_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -10065,7 +10065,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -10102,7 +10102,7 @@
 						<name>input_18_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -10118,7 +10118,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -10157,7 +10157,7 @@
 						<name>input_18_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -10173,7 +10173,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -10210,7 +10210,7 @@
 						<name>input_19_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -10226,7 +10226,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -10237,7 +10237,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>132</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -10265,7 +10265,7 @@
 						<name>input_19_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -10281,7 +10281,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -10318,7 +10318,7 @@
 						<name>input_20_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -10334,7 +10334,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -10345,7 +10345,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>26912</coreId>
+						<coreId>3556769920</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -10373,7 +10373,7 @@
 						<name>input_20_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -10389,7 +10389,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -10426,7 +10426,7 @@
 						<name>input_21_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -10442,7 +10442,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -10453,7 +10453,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2288196928</coreId>
+						<coreId>2610289464</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -10481,7 +10481,7 @@
 						<name>input_21_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -10497,7 +10497,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -10534,7 +10534,7 @@
 						<name>input_22_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -10550,7 +10550,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -10561,7 +10561,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>49</coreId>
+						<coreId>9</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -10589,7 +10589,7 @@
 						<name>input_22_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -10605,7 +10605,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -10642,7 +10642,7 @@
 						<name>input_23_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -10658,7 +10658,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -10669,7 +10669,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3422552192</coreId>
+						<coreId>2610253528</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -10697,7 +10697,7 @@
 						<name>input_23_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -10713,7 +10713,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -10750,7 +10750,7 @@
 						<name>input_24_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -10766,7 +10766,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -10777,7 +10777,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2610295424</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -10805,7 +10805,7 @@
 						<name>input_24_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -10821,7 +10821,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -10858,7 +10858,7 @@
 						<name>input_25_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -10874,7 +10874,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -10913,7 +10913,7 @@
 						<name>input_25_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -10929,7 +10929,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -10966,7 +10966,7 @@
 						<name>input_26_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -10982,7 +10982,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -10993,7 +10993,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>49</coreId>
+						<coreId>3556769920</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -11021,7 +11021,7 @@
 						<name>input_26_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -11037,7 +11037,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -11074,7 +11074,7 @@
 						<name>input_27_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -11090,7 +11090,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -11101,7 +11101,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>330305300</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -11129,7 +11129,7 @@
 						<name>input_27_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -11145,7 +11145,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -11182,7 +11182,7 @@
 						<name>input_28_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -11198,7 +11198,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -11209,7 +11209,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>6</coreId>
+						<coreId>1330596959</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -11237,7 +11237,7 @@
 						<name>input_28_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -11253,7 +11253,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -11290,7 +11290,7 @@
 						<name>input_29_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -11306,7 +11306,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -11317,7 +11317,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>79</coreId>
+						<coreId>1953852527</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -11345,7 +11345,7 @@
 						<name>input_29_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -11361,7 +11361,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -11398,7 +11398,7 @@
 						<name>input_30_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -11414,7 +11414,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -11425,7 +11425,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3651288878</coreId>
+						<coreId>657809273</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -11453,7 +11453,7 @@
 						<name>input_30_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -11469,7 +11469,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -11506,7 +11506,7 @@
 						<name>input_31_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -11522,7 +11522,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -11533,7 +11533,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>433</coreId>
+						<coreId>1769239137</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -11561,7 +11561,7 @@
 						<name>input_31_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -11577,7 +11577,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -11614,7 +11614,7 @@
 						<name>input_32_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -11630,7 +11630,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -11641,7 +11641,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>49</coreId>
+						<coreId>2228327</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -11669,7 +11669,7 @@
 						<name>input_32_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -11685,7 +11685,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -11722,7 +11722,7 @@
 						<name>input_33_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -11738,7 +11738,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -11749,7 +11749,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1663989870</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -11777,7 +11777,7 @@
 						<name>input_33_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -11793,7 +11793,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -11830,7 +11830,7 @@
 						<name>input_34_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -11846,7 +11846,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -11857,7 +11857,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>8609</coreId>
+						<coreId>1852795252</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -11885,7 +11885,7 @@
 						<name>input_34_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -11901,7 +11901,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -11938,7 +11938,7 @@
 						<name>input_35_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -11954,7 +11954,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -11965,7 +11965,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1932471854</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -11993,7 +11993,7 @@
 						<name>input_35_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -12009,7 +12009,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -12046,7 +12046,7 @@
 						<name>input_36_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -12062,7 +12062,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -12073,7 +12073,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>132</coreId>
+						<coreId>1919252069</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -12101,7 +12101,7 @@
 						<name>input_36_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -12117,7 +12117,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -12154,7 +12154,7 @@
 						<name>input_37_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -12170,7 +12170,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -12181,7 +12181,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1563504945</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -12209,7 +12209,7 @@
 						<name>input_37_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -12225,7 +12225,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -12262,7 +12262,7 @@
 						<name>input_38_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -12278,7 +12278,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -12289,7 +12289,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1970093428</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -12317,7 +12317,7 @@
 						<name>input_38_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -12333,7 +12333,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -12370,7 +12370,7 @@
 						<name>input_39_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -12386,7 +12386,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -12397,7 +12397,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>32353</coreId>
+						<coreId>2609927224</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -12425,7 +12425,7 @@
 						<name>input_39_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -12441,7 +12441,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -12478,7 +12478,7 @@
 						<name>input_40_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -12494,7 +12494,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -12505,7 +12505,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2288166800</coreId>
+						<coreId>2609893840</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -12533,7 +12533,7 @@
 						<name>input_40_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -12549,7 +12549,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -12586,7 +12586,7 @@
 						<name>input_41_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -12602,7 +12602,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -12613,7 +12613,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2288170072</coreId>
+						<coreId>2609165776</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -12641,7 +12641,7 @@
 						<name>input_41_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -12657,7 +12657,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -12694,7 +12694,7 @@
 						<name>input_42_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -12710,7 +12710,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -12721,7 +12721,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2288171416</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -12749,7 +12749,7 @@
 						<name>input_42_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -12765,7 +12765,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -12802,7 +12802,7 @@
 						<name>input_43_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -12818,7 +12818,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -12829,7 +12829,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2288171024</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -12857,7 +12857,7 @@
 						<name>input_43_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -12873,7 +12873,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -12910,7 +12910,7 @@
 						<name>input_44_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -12926,7 +12926,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -12937,7 +12937,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2288174200</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -12965,7 +12965,7 @@
 						<name>input_44_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -12981,7 +12981,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -13018,7 +13018,7 @@
 						<name>input_45_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -13034,7 +13034,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -13045,7 +13045,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2288177680</coreId>
+						<coreId>16</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -13073,7 +13073,7 @@
 						<name>input_45_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -13089,7 +13089,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -13126,7 +13126,7 @@
 						<name>input_46_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -13142,7 +13142,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -13153,7 +13153,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -13181,7 +13181,7 @@
 						<name>input_46_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -13197,7 +13197,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -13234,7 +13234,7 @@
 						<name>input_47_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -13250,7 +13250,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -13261,7 +13261,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3422552192</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -13289,7 +13289,7 @@
 						<name>input_47_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -13305,7 +13305,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -13342,7 +13342,7 @@
 						<name>input_48_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -13358,7 +13358,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -13369,7 +13369,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2288184425</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -13397,7 +13397,7 @@
 						<name>input_48_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -13413,7 +13413,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -13450,7 +13450,7 @@
 						<name>input_49_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -13466,7 +13466,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -13477,7 +13477,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2288186640</coreId>
+						<coreId>2609949897</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -13505,7 +13505,7 @@
 						<name>input_49_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -13521,7 +13521,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -13558,7 +13558,7 @@
 						<name>input_50_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -13574,7 +13574,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -13613,7 +13613,7 @@
 						<name>input_50_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -13629,7 +13629,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -13666,7 +13666,7 @@
 						<name>input_51_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -13682,7 +13682,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -13693,7 +13693,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>49</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -13721,7 +13721,7 @@
 						<name>input_51_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -13737,7 +13737,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -13774,7 +13774,7 @@
 						<name>input_52_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -13790,7 +13790,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -13801,7 +13801,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3422552192</coreId>
+						<coreId>2607472344</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -13829,7 +13829,7 @@
 						<name>input_52_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -13845,7 +13845,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -13882,7 +13882,7 @@
 						<name>input_53_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -13898,7 +13898,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -13909,7 +13909,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4033</coreId>
+						<coreId>2607474712</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -13937,7 +13937,7 @@
 						<name>input_53_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -13953,7 +13953,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -13990,7 +13990,7 @@
 						<name>input_54_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -14006,7 +14006,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -14017,7 +14017,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2288199584</coreId>
+						<coreId>2607476928</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -14045,7 +14045,7 @@
 						<name>input_54_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -14061,7 +14061,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -14098,7 +14098,7 @@
 						<name>input_55_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -14114,7 +14114,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -14125,7 +14125,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>45841</coreId>
+						<coreId>3</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -14153,7 +14153,7 @@
 						<name>input_55_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -14169,7 +14169,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -14206,7 +14206,7 @@
 						<name>input_56_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -14222,7 +14222,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -14233,7 +14233,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1279810338</coreId>
+						<coreId>2607481304</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -14261,7 +14261,7 @@
 						<name>input_56_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -14277,7 +14277,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -14314,7 +14314,7 @@
 						<name>input_57_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -14330,7 +14330,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -14341,7 +14341,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290531648</coreId>
+						<coreId>2609914871</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -14369,7 +14369,7 @@
 						<name>input_57_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -14385,7 +14385,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -14422,7 +14422,7 @@
 						<name>input_58_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -14438,7 +14438,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -14449,7 +14449,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4</coreId>
+						<coreId>3690870904</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -14477,7 +14477,7 @@
 						<name>input_58_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -14493,7 +14493,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -14530,7 +14530,7 @@
 						<name>input_59_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -14546,7 +14546,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -14557,7 +14557,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290536000</coreId>
+						<coreId>8</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -14585,7 +14585,7 @@
 						<name>input_59_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -14601,7 +14601,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -14638,7 +14638,7 @@
 						<name>input_60_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -14654,7 +14654,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -14665,7 +14665,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2607490264</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -14693,7 +14693,7 @@
 						<name>input_60_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -14709,7 +14709,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -14746,7 +14746,7 @@
 						<name>input_61_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -14762,7 +14762,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -14773,7 +14773,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>132</coreId>
+						<coreId>2609921785</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -14801,7 +14801,7 @@
 						<name>input_61_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -14817,7 +14817,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -14854,7 +14854,7 @@
 						<name>input_62_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -14870,7 +14870,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -14881,7 +14881,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1297239878</coreId>
+						<coreId>2607494488</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -14909,7 +14909,7 @@
 						<name>input_62_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -14925,7 +14925,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -14962,7 +14962,7 @@
 						<name>input_63_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -14978,7 +14978,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -14989,7 +14989,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3</coreId>
+						<coreId>2609923597</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -15017,7 +15017,7 @@
 						<name>input_63_load</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -15033,7 +15033,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -15070,7 +15070,7 @@
 						<name>tmp_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -15086,7 +15086,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -15097,7 +15097,7 @@
 						<opType>mux</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>26</coreId>
+						<coreId>8</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -15185,10 +15185,10 @@
 					<Obj>
 						<type>0</type>
 						<id>339</id>
-						<name>bitcast_ln135</name>
+						<name>bitcast_ln148</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -15204,7 +15204,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -15215,7 +15215,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2607500480</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -15241,7 +15241,7 @@
 						<name>tmp_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -15257,7 +15257,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -15268,7 +15268,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290549560</coreId>
+						<coreId>2609925450</coreId>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
@@ -15294,10 +15294,10 @@
 					<Obj>
 						<type>0</type>
 						<id>341</id>
-						<name>trunc_ln135</name>
+						<name>trunc_ln148</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -15313,7 +15313,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -15324,7 +15324,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>49</coreId>
+						<coreId>2607502584</coreId>
 					</Obj>
 					<bitwidth>23</bitwidth>
 				</Value>
@@ -15347,10 +15347,10 @@
 					<Obj>
 						<type>0</type>
 						<id>342</id>
-						<name>icmp_ln135</name>
+						<name>icmp_ln148</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -15366,7 +15366,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -15377,7 +15377,7 @@
 						<opType>icmp</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3422552192</coreId>
+						<coreId>2607503800</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -15401,10 +15401,10 @@
 					<Obj>
 						<type>0</type>
 						<id>343</id>
-						<name>icmp_ln135_1</name>
+						<name>icmp_ln148_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -15420,7 +15420,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -15431,7 +15431,7 @@
 						<opType>icmp</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290551976</coreId>
+						<coreId>2607576944</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -15455,10 +15455,10 @@
 					<Obj>
 						<type>0</type>
 						<id>344</id>
-						<name>or_ln135</name>
+						<name>or_ln148</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -15474,7 +15474,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -15485,7 +15485,7 @@
 						<opType>or</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>132</coreId>
+						<coreId>2607506072</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -15512,7 +15512,7 @@
 						<name>tmp_4</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -15528,7 +15528,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -15539,7 +15539,7 @@
 						<opType>fcmp</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290554873</coreId>
+						<coreId>2609728736</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -15563,10 +15563,10 @@
 					<Obj>
 						<type>0</type>
 						<id>346</id>
-						<name>and_ln135</name>
+						<name>and_ln148</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -15582,7 +15582,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -15593,7 +15593,7 @@
 						<opType>and</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>241</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -15617,10 +15617,10 @@
 					<Obj>
 						<type>0</type>
 						<id>347</id>
-						<name>select_ln135</name>
+						<name>select_ln148</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -15636,7 +15636,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -15672,10 +15672,10 @@
 					<Obj>
 						<type>0</type>
 						<id>348</id>
-						<name>add_ln134_2</name>
+						<name>add_ln147_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -15691,7 +15691,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -15726,10 +15726,10 @@
 					<Obj>
 						<type>0</type>
 						<id>349</id>
-						<name>zext_ln134_3</name>
+						<name>zext_ln147_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -15745,7 +15745,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -15756,7 +15756,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290560600</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>35</bitwidth>
 				</Value>
@@ -15779,10 +15779,10 @@
 					<Obj>
 						<type>0</type>
 						<id>350</id>
-						<name>mul_ln134_1</name>
+						<name>mul_ln147_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -15798,7 +15798,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -15836,7 +15836,7 @@
 						<name>tmp_19</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -15852,7 +15852,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -15863,7 +15863,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>513</coreId>
 					</Obj>
 					<bitwidth>7</bitwidth>
 				</Value>
@@ -15889,10 +15889,10 @@
 					<Obj>
 						<type>0</type>
 						<id>352</id>
-						<name>zext_ln134_4</name>
+						<name>zext_ln147_4</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -15908,7 +15908,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -15942,10 +15942,10 @@
 					<Obj>
 						<type>0</type>
 						<id>353</id>
-						<name>urem_ln134_1</name>
+						<name>urem_ln147_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -15961,7 +15961,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -15972,7 +15972,7 @@
 						<opType>urem</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290564088</coreId>
+						<coreId>2609920176</coreId>
 					</Obj>
 					<bitwidth>17</bitwidth>
 				</Value>
@@ -15996,10 +15996,10 @@
 					<Obj>
 						<type>0</type>
 						<id>354</id>
-						<name>zext_ln134_5</name>
+						<name>zext_ln147_5</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -16015,7 +16015,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -16026,7 +16026,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -16052,7 +16052,7 @@
 						<name>input_0_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -16068,7 +16068,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -16079,7 +16079,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -16107,7 +16107,7 @@
 						<name>input_0_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -16123,7 +16123,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -16160,7 +16160,7 @@
 						<name>input_1_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -16176,7 +16176,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -16187,7 +16187,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290568576</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -16215,7 +16215,7 @@
 						<name>input_1_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -16231,7 +16231,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -16268,7 +16268,7 @@
 						<name>input_2_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -16284,7 +16284,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -16295,7 +16295,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290570816</coreId>
+						<coreId>2607522840</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -16323,7 +16323,7 @@
 						<name>input_2_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -16339,7 +16339,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -16376,7 +16376,7 @@
 						<name>input_3_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -16392,7 +16392,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -16403,7 +16403,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>859060792</coreId>
+						<coreId>2607430304</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -16431,7 +16431,7 @@
 						<name>input_3_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -16447,7 +16447,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -16484,7 +16484,7 @@
 						<name>input_4_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -16500,7 +16500,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -16511,7 +16511,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1043267618</coreId>
+						<coreId>2606932736</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -16539,7 +16539,7 @@
 						<name>input_4_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -16555,7 +16555,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -16592,7 +16592,7 @@
 						<name>input_5_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -16608,7 +16608,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -16619,7 +16619,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>788537856</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -16647,7 +16647,7 @@
 						<name>input_5_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -16663,7 +16663,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -16700,7 +16700,7 @@
 						<name>input_6_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -16716,7 +16716,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -16727,7 +16727,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>878662476</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -16755,7 +16755,7 @@
 						<name>input_6_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -16771,7 +16771,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -16808,7 +16808,7 @@
 						<name>input_7_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -16824,7 +16824,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -16835,7 +16835,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1953065059</coreId>
+						<coreId>2607581376</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -16863,7 +16863,7 @@
 						<name>input_7_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -16879,7 +16879,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -16916,7 +16916,7 @@
 						<name>input_8_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -16932,7 +16932,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -16943,7 +16943,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1936617315</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -16971,7 +16971,7 @@
 						<name>input_8_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -16987,7 +16987,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -17024,7 +17024,7 @@
 						<name>input_9_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -17040,7 +17040,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -17051,7 +17051,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1953391988</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -17079,7 +17079,7 @@
 						<name>input_9_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -17095,7 +17095,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -17132,7 +17132,7 @@
 						<name>input_10_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -17148,7 +17148,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -17159,7 +17159,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1431323424</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -17187,7 +17187,7 @@
 						<name>input_10_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -17203,7 +17203,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -17240,7 +17240,7 @@
 						<name>input_11_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -17256,7 +17256,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -17267,7 +17267,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1769239916</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -17295,7 +17295,7 @@
 						<name>input_11_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -17311,7 +17311,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -17348,7 +17348,7 @@
 						<name>input_12_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -17364,7 +17364,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -17403,7 +17403,7 @@
 						<name>input_12_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -17419,7 +17419,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -17456,7 +17456,7 @@
 						<name>input_13_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -17472,7 +17472,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -17483,7 +17483,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>16908804</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -17511,7 +17511,7 @@
 						<name>input_13_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -17527,7 +17527,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -17564,7 +17564,7 @@
 						<name>input_14_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -17580,7 +17580,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -17619,7 +17619,7 @@
 						<name>input_14_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -17635,7 +17635,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -17672,7 +17672,7 @@
 						<name>input_15_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -17688,7 +17688,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -17727,7 +17727,7 @@
 						<name>input_15_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -17743,7 +17743,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -17780,7 +17780,7 @@
 						<name>input_16_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -17796,7 +17796,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -17807,7 +17807,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3422552192</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -17835,7 +17835,7 @@
 						<name>input_16_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -17851,7 +17851,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -17888,7 +17888,7 @@
 						<name>input_17_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -17904,7 +17904,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -17915,7 +17915,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2288255592</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -17943,7 +17943,7 @@
 						<name>input_17_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -17959,7 +17959,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -17996,7 +17996,7 @@
 						<name>input_18_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -18012,7 +18012,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -18023,7 +18023,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -18051,7 +18051,7 @@
 						<name>input_18_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -18067,7 +18067,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -18104,7 +18104,7 @@
 						<name>input_19_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -18120,7 +18120,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -18131,7 +18131,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>94</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -18159,7 +18159,7 @@
 						<name>input_19_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -18175,7 +18175,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -18212,7 +18212,7 @@
 						<name>input_20_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -18228,7 +18228,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -18239,7 +18239,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290777440</coreId>
+						<coreId>2610332752</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -18267,7 +18267,7 @@
 						<name>input_20_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -18283,7 +18283,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -18320,7 +18320,7 @@
 						<name>input_21_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -18336,7 +18336,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -18347,7 +18347,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2288267464</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -18375,7 +18375,7 @@
 						<name>input_21_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -18391,7 +18391,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -18428,7 +18428,7 @@
 						<name>input_22_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -18444,7 +18444,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -18455,7 +18455,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3422552192</coreId>
+						<coreId>17432833</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -18483,7 +18483,7 @@
 						<name>input_22_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -18499,7 +18499,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -18536,7 +18536,7 @@
 						<name>input_23_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -18552,7 +18552,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -18563,7 +18563,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>3556769920</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -18591,7 +18591,7 @@
 						<name>input_23_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -18607,7 +18607,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -18644,7 +18644,7 @@
 						<name>input_24_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -18660,7 +18660,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -18671,7 +18671,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3422552192</coreId>
+						<coreId>2946448480</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -18699,7 +18699,7 @@
 						<name>input_24_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -18715,7 +18715,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -18752,7 +18752,7 @@
 						<name>input_25_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -18768,7 +18768,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -18779,7 +18779,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>49</coreId>
+						<coreId>2945577360</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -18807,7 +18807,7 @@
 						<name>input_25_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -18823,7 +18823,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -18860,7 +18860,7 @@
 						<name>input_26_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -18876,7 +18876,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -18887,7 +18887,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2288277744</coreId>
+						<coreId>2606138464</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -18915,7 +18915,7 @@
 						<name>input_26_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -18931,7 +18931,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -18968,7 +18968,7 @@
 						<name>input_27_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -18984,7 +18984,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -18995,7 +18995,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2945393600</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -19023,7 +19023,7 @@
 						<name>input_27_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -19039,7 +19039,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -19076,7 +19076,7 @@
 						<name>input_28_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -19092,7 +19092,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -19103,7 +19103,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2288281497</coreId>
+						<coreId>2946312688</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -19131,7 +19131,7 @@
 						<name>input_28_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -19147,7 +19147,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -19184,7 +19184,7 @@
 						<name>input_29_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -19200,7 +19200,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -19211,7 +19211,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>2946717536</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -19239,7 +19239,7 @@
 						<name>input_29_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -19255,7 +19255,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -19292,7 +19292,7 @@
 						<name>input_30_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -19308,7 +19308,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -19319,7 +19319,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3647727736</coreId>
+						<coreId>2607070640</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -19347,7 +19347,7 @@
 						<name>input_30_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -19363,7 +19363,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -19400,7 +19400,7 @@
 						<name>input_31_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -19416,7 +19416,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -19427,7 +19427,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>8</coreId>
+						<coreId>2946136336</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -19455,7 +19455,7 @@
 						<name>input_31_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -19471,7 +19471,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -19508,7 +19508,7 @@
 						<name>input_32_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -19524,7 +19524,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -19535,7 +19535,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3647727736</coreId>
+						<coreId>2608664240</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -19563,7 +19563,7 @@
 						<name>input_32_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -19579,7 +19579,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -19616,7 +19616,7 @@
 						<name>input_33_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -19632,7 +19632,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -19643,7 +19643,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>8</coreId>
+						<coreId>2608215424</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -19671,7 +19671,7 @@
 						<name>input_33_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -19687,7 +19687,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -19724,7 +19724,7 @@
 						<name>input_34_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -19740,7 +19740,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -19751,7 +19751,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290594568</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -19779,7 +19779,7 @@
 						<name>input_34_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -19795,7 +19795,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -19832,7 +19832,7 @@
 						<name>input_35_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -19848,7 +19848,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -19859,7 +19859,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2288239281</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -19887,7 +19887,7 @@
 						<name>input_35_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -19903,7 +19903,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -19940,7 +19940,7 @@
 						<name>input_36_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -19956,7 +19956,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -19967,7 +19967,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290598792</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -19995,7 +19995,7 @@
 						<name>input_36_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -20011,7 +20011,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -20048,7 +20048,7 @@
 						<name>input_37_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -20064,7 +20064,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -20075,7 +20075,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2288241110</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -20103,7 +20103,7 @@
 						<name>input_37_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -20119,7 +20119,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -20156,7 +20156,7 @@
 						<name>input_38_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -20172,7 +20172,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -20183,7 +20183,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290603112</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -20211,7 +20211,7 @@
 						<name>input_38_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -20227,7 +20227,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -20264,7 +20264,7 @@
 						<name>input_39_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -20280,7 +20280,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -20291,7 +20291,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2288243202</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -20319,7 +20319,7 @@
 						<name>input_39_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -20335,7 +20335,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -20372,7 +20372,7 @@
 						<name>input_40_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -20388,7 +20388,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -20399,7 +20399,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2296604913</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -20427,7 +20427,7 @@
 						<name>input_40_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -20443,7 +20443,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -20480,7 +20480,7 @@
 						<name>input_41_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -20496,7 +20496,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -20507,7 +20507,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>3556769920</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -20535,7 +20535,7 @@
 						<name>input_41_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -20551,7 +20551,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -20588,7 +20588,7 @@
 						<name>input_42_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -20604,7 +20604,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -20643,7 +20643,7 @@
 						<name>input_42_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -20659,7 +20659,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -20696,7 +20696,7 @@
 						<name>input_43_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -20712,7 +20712,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -20751,7 +20751,7 @@
 						<name>input_43_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -20767,7 +20767,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -20804,7 +20804,7 @@
 						<name>input_44_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -20820,7 +20820,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -20859,7 +20859,7 @@
 						<name>input_44_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -20875,7 +20875,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -20912,7 +20912,7 @@
 						<name>input_45_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -20928,7 +20928,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -20967,7 +20967,7 @@
 						<name>input_45_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -20983,7 +20983,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -21020,7 +21020,7 @@
 						<name>input_46_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -21036,7 +21036,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -21075,7 +21075,7 @@
 						<name>input_46_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -21091,7 +21091,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -21128,7 +21128,7 @@
 						<name>input_47_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -21144,7 +21144,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -21155,7 +21155,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2609971056</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -21183,7 +21183,7 @@
 						<name>input_47_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -21199,7 +21199,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -21236,7 +21236,7 @@
 						<name>input_48_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -21252,7 +21252,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -21291,7 +21291,7 @@
 						<name>input_48_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -21307,7 +21307,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -21344,7 +21344,7 @@
 						<name>input_49_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -21360,7 +21360,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -21371,7 +21371,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2609977888</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -21399,7 +21399,7 @@
 						<name>input_49_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -21415,7 +21415,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -21452,7 +21452,7 @@
 						<name>input_50_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -21468,7 +21468,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -21479,7 +21479,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -21507,7 +21507,7 @@
 						<name>input_50_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -21523,7 +21523,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -21560,7 +21560,7 @@
 						<name>input_51_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -21576,7 +21576,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -21615,7 +21615,7 @@
 						<name>input_51_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -21631,7 +21631,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -21668,7 +21668,7 @@
 						<name>input_52_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -21684,7 +21684,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -21695,7 +21695,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>118225</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -21723,7 +21723,7 @@
 						<name>input_52_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -21739,7 +21739,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -21776,7 +21776,7 @@
 						<name>input_53_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -21792,7 +21792,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -21831,7 +21831,7 @@
 						<name>input_53_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -21847,7 +21847,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -21884,7 +21884,7 @@
 						<name>input_54_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -21900,7 +21900,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -21911,7 +21911,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -21939,7 +21939,7 @@
 						<name>input_54_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -21955,7 +21955,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -21992,7 +21992,7 @@
 						<name>input_55_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -22008,7 +22008,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -22047,7 +22047,7 @@
 						<name>input_55_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -22063,7 +22063,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -22100,7 +22100,7 @@
 						<name>input_56_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -22116,7 +22116,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -22127,7 +22127,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -22155,7 +22155,7 @@
 						<name>input_56_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -22171,7 +22171,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -22208,7 +22208,7 @@
 						<name>input_57_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -22224,7 +22224,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -22235,7 +22235,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -22263,7 +22263,7 @@
 						<name>input_57_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -22279,7 +22279,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -22316,7 +22316,7 @@
 						<name>input_58_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -22332,7 +22332,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -22343,7 +22343,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2610000761</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -22371,7 +22371,7 @@
 						<name>input_58_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -22387,7 +22387,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -22424,7 +22424,7 @@
 						<name>input_59_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -22440,7 +22440,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -22451,7 +22451,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>28271</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -22479,7 +22479,7 @@
 						<name>input_59_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -22495,7 +22495,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -22532,7 +22532,7 @@
 						<name>input_60_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -22548,7 +22548,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -22559,7 +22559,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290651488</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -22587,7 +22587,7 @@
 						<name>input_60_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -22603,7 +22603,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -22640,7 +22640,7 @@
 						<name>input_61_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -22656,7 +22656,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -22695,7 +22695,7 @@
 						<name>input_61_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -22711,7 +22711,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -22748,7 +22748,7 @@
 						<name>input_62_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -22764,7 +22764,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -22775,7 +22775,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290655200</coreId>
+						<coreId>26</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -22803,7 +22803,7 @@
 						<name>input_62_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -22819,7 +22819,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -22856,7 +22856,7 @@
 						<name>input_63_addr_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -22872,7 +22872,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -22883,7 +22883,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290668248</coreId>
+						<coreId>93585</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -22911,7 +22911,7 @@
 						<name>input_63_load_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -22927,7 +22927,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -22964,7 +22964,7 @@
 						<name>tmp_5</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -22980,7 +22980,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -22991,7 +22991,7 @@
 						<opType>mux</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2610009992</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -23079,10 +23079,10 @@
 					<Obj>
 						<type>0</type>
 						<id>484</id>
-						<name>bitcast_ln135_1</name>
+						<name>bitcast_ln148_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -23098,7 +23098,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -23135,7 +23135,7 @@
 						<name>tmp_6</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -23151,7 +23151,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -23162,7 +23162,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>9</coreId>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
@@ -23188,10 +23188,10 @@
 					<Obj>
 						<type>0</type>
 						<id>486</id>
-						<name>trunc_ln135_1</name>
+						<name>trunc_ln148_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -23207,7 +23207,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -23241,10 +23241,10 @@
 					<Obj>
 						<type>0</type>
 						<id>487</id>
-						<name>bitcast_ln135_2</name>
+						<name>bitcast_ln148_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -23260,7 +23260,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -23297,7 +23297,7 @@
 						<name>tmp_7</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -23313,7 +23313,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -23324,7 +23324,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2610014608</coreId>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
@@ -23350,10 +23350,10 @@
 					<Obj>
 						<type>0</type>
 						<id>489</id>
-						<name>trunc_ln135_2</name>
+						<name>trunc_ln148_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -23369,7 +23369,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -23380,7 +23380,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2610015408</coreId>
 					</Obj>
 					<bitwidth>23</bitwidth>
 				</Value>
@@ -23403,10 +23403,10 @@
 					<Obj>
 						<type>0</type>
 						<id>490</id>
-						<name>icmp_ln135_2</name>
+						<name>icmp_ln148_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -23422,7 +23422,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -23433,7 +23433,7 @@
 						<opType>icmp</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290669656</coreId>
+						<coreId>3556769920</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -23457,10 +23457,10 @@
 					<Obj>
 						<type>0</type>
 						<id>491</id>
-						<name>icmp_ln135_3</name>
+						<name>icmp_ln148_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -23476,7 +23476,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -23487,7 +23487,7 @@
 						<opType>icmp</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290670944</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -23511,10 +23511,10 @@
 					<Obj>
 						<type>0</type>
 						<id>492</id>
-						<name>or_ln135_1</name>
+						<name>or_ln148_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -23530,7 +23530,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -23541,7 +23541,7 @@
 						<opType>or</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290671432</coreId>
+						<coreId>2610019392</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -23565,10 +23565,10 @@
 					<Obj>
 						<type>0</type>
 						<id>493</id>
-						<name>icmp_ln135_4</name>
+						<name>icmp_ln148_4</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -23584,7 +23584,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -23595,7 +23595,7 @@
 						<opType>icmp</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2610020200</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -23619,10 +23619,10 @@
 					<Obj>
 						<type>0</type>
 						<id>494</id>
-						<name>icmp_ln135_5</name>
+						<name>icmp_ln148_5</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -23638,7 +23638,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -23673,10 +23673,10 @@
 					<Obj>
 						<type>0</type>
 						<id>495</id>
-						<name>or_ln135_2</name>
+						<name>or_ln148_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -23692,7 +23692,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -23703,7 +23703,7 @@
 						<opType>or</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2610022440</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -23727,10 +23727,10 @@
 					<Obj>
 						<type>0</type>
 						<id>496</id>
-						<name>and_ln135_1</name>
+						<name>and_ln148_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -23746,7 +23746,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -23757,7 +23757,7 @@
 						<opType>and</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290676416</coreId>
+						<coreId>2610020960</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -23784,7 +23784,7 @@
 						<name>tmp_8</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -23800,7 +23800,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -23811,7 +23811,7 @@
 						<opType>fcmp</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>132</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -23835,10 +23835,10 @@
 					<Obj>
 						<type>0</type>
 						<id>498</id>
-						<name>and_ln135_2</name>
+						<name>and_ln148_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -23854,7 +23854,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -23865,7 +23865,7 @@
 						<opType>and</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1952673397</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -23889,10 +23889,10 @@
 					<Obj>
 						<type>0</type>
 						<id>499</id>
-						<name>select_ln135_1</name>
+						<name>select_ln148_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -23908,7 +23908,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -23947,7 +23947,7 @@
 						<name>tmp_9</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -23963,7 +23963,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -24000,10 +24000,10 @@
 					<Obj>
 						<type>0</type>
 						<id>501</id>
-						<name>add_ln134_4</name>
+						<name>add_ln147_4</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -24019,7 +24019,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -24030,7 +24030,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290687209</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>17</bitwidth>
 				</Value>
@@ -24055,10 +24055,10 @@
 					<Obj>
 						<type>0</type>
 						<id>502</id>
-						<name>zext_ln134_10</name>
+						<name>zext_ln147_10</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -24074,7 +24074,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -24085,7 +24085,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290683136</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>35</bitwidth>
 				</Value>
@@ -24108,10 +24108,10 @@
 					<Obj>
 						<type>0</type>
 						<id>503</id>
-						<name>mul_ln134_2</name>
+						<name>mul_ln147_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -24127,7 +24127,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -24165,7 +24165,7 @@
 						<name>tmp_20</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -24181,7 +24181,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -24218,10 +24218,10 @@
 					<Obj>
 						<type>0</type>
 						<id>505</id>
-						<name>zext_ln134_6</name>
+						<name>zext_ln147_6</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -24237,7 +24237,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -24271,10 +24271,10 @@
 					<Obj>
 						<type>0</type>
 						<id>506</id>
-						<name>urem_ln134_2</name>
+						<name>urem_ln147_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -24290,7 +24290,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -24301,7 +24301,7 @@
 						<opType>urem</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>6</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>17</bitwidth>
 				</Value>
@@ -24325,10 +24325,10 @@
 					<Obj>
 						<type>0</type>
 						<id>507</id>
-						<name>zext_ln134_7</name>
+						<name>zext_ln147_7</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -24344,7 +24344,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -24355,7 +24355,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>3556769920</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -24381,7 +24381,7 @@
 						<name>input_0_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -24397,7 +24397,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -24408,7 +24408,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290692416</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -24436,7 +24436,7 @@
 						<name>input_0_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -24452,7 +24452,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -24489,7 +24489,7 @@
 						<name>input_1_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -24505,7 +24505,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -24544,7 +24544,7 @@
 						<name>input_1_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -24560,7 +24560,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -24597,7 +24597,7 @@
 						<name>input_2_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -24613,7 +24613,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -24652,7 +24652,7 @@
 						<name>input_2_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -24668,7 +24668,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -24705,7 +24705,7 @@
 						<name>input_3_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -24721,7 +24721,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -24732,7 +24732,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2610047416</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -24760,7 +24760,7 @@
 						<name>input_3_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -24776,7 +24776,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -24813,7 +24813,7 @@
 						<name>input_4_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -24829,7 +24829,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -24840,7 +24840,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290704896</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -24868,7 +24868,7 @@
 						<name>input_4_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -24884,7 +24884,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -24921,7 +24921,7 @@
 						<name>input_5_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -24937,7 +24937,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -24948,7 +24948,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2610051984</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -24976,7 +24976,7 @@
 						<name>input_5_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -24992,7 +24992,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -25029,7 +25029,7 @@
 						<name>input_6_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -25045,7 +25045,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -25056,7 +25056,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290706944</coreId>
+						<coreId>517</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -25084,7 +25084,7 @@
 						<name>input_6_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -25100,7 +25100,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -25137,7 +25137,7 @@
 						<name>input_7_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -25153,7 +25153,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -25164,7 +25164,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>44017</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -25192,7 +25192,7 @@
 						<name>input_7_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -25208,7 +25208,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -25245,7 +25245,7 @@
 						<name>input_8_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -25261,7 +25261,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -25300,7 +25300,7 @@
 						<name>input_8_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -25316,7 +25316,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -25353,7 +25353,7 @@
 						<name>input_9_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -25369,7 +25369,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -25380,7 +25380,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>25</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -25408,7 +25408,7 @@
 						<name>input_9_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -25424,7 +25424,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -25461,7 +25461,7 @@
 						<name>input_10_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -25477,7 +25477,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -25488,7 +25488,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>29409</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -25516,7 +25516,7 @@
 						<name>input_10_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -25532,7 +25532,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -25569,7 +25569,7 @@
 						<name>input_11_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -25585,7 +25585,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -25596,7 +25596,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290718584</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -25624,7 +25624,7 @@
 						<name>input_11_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -25640,7 +25640,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -25677,7 +25677,7 @@
 						<name>input_12_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -25693,7 +25693,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -25704,7 +25704,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2610067408</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -25732,7 +25732,7 @@
 						<name>input_12_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -25748,7 +25748,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -25785,7 +25785,7 @@
 						<name>input_13_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -25801,7 +25801,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -25812,7 +25812,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -25840,7 +25840,7 @@
 						<name>input_13_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -25856,7 +25856,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -25893,7 +25893,7 @@
 						<name>input_14_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -25909,7 +25909,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -25920,7 +25920,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290724856</coreId>
+						<coreId>10</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -25948,7 +25948,7 @@
 						<name>input_14_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -25964,7 +25964,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -26001,7 +26001,7 @@
 						<name>input_15_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -26017,7 +26017,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -26028,7 +26028,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2610073608</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -26056,7 +26056,7 @@
 						<name>input_15_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -26072,7 +26072,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -26109,7 +26109,7 @@
 						<name>input_16_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -26125,7 +26125,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -26164,7 +26164,7 @@
 						<name>input_16_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -26180,7 +26180,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -26217,7 +26217,7 @@
 						<name>input_17_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -26233,7 +26233,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -26244,7 +26244,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290731584</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -26272,7 +26272,7 @@
 						<name>input_17_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -26288,7 +26288,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -26325,7 +26325,7 @@
 						<name>input_18_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -26341,7 +26341,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -26352,7 +26352,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2610080976</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -26380,7 +26380,7 @@
 						<name>input_18_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -26396,7 +26396,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -26433,7 +26433,7 @@
 						<name>input_19_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -26449,7 +26449,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -26460,7 +26460,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>61</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -26488,7 +26488,7 @@
 						<name>input_19_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -26504,7 +26504,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -26541,7 +26541,7 @@
 						<name>input_20_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -26557,7 +26557,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -26568,7 +26568,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>132</coreId>
+						<coreId>3556769920</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -26596,7 +26596,7 @@
 						<name>input_20_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -26612,7 +26612,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -26649,7 +26649,7 @@
 						<name>input_21_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -26665,7 +26665,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -26676,7 +26676,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2610087264</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -26704,7 +26704,7 @@
 						<name>input_21_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -26720,7 +26720,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -26757,7 +26757,7 @@
 						<name>input_22_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -26773,7 +26773,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -26784,7 +26784,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3422552192</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -26812,7 +26812,7 @@
 						<name>input_22_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -26828,7 +26828,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -26865,7 +26865,7 @@
 						<name>input_23_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -26881,7 +26881,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -26892,7 +26892,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3422552192</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -26920,7 +26920,7 @@
 						<name>input_23_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -26936,7 +26936,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -26973,7 +26973,7 @@
 						<name>input_24_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -26989,7 +26989,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -27028,7 +27028,7 @@
 						<name>input_24_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -27044,7 +27044,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -27081,7 +27081,7 @@
 						<name>input_25_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -27097,7 +27097,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -27108,7 +27108,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>11</coreId>
+						<coreId>2610096960</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -27136,7 +27136,7 @@
 						<name>input_25_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -27152,7 +27152,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -27189,7 +27189,7 @@
 						<name>input_26_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -27205,7 +27205,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -27216,7 +27216,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>842478637</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -27244,7 +27244,7 @@
 						<name>input_26_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -27260,7 +27260,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -27297,7 +27297,7 @@
 						<name>input_27_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -27313,7 +27313,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -27324,7 +27324,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290754297</coreId>
+						<coreId>62</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -27352,7 +27352,7 @@
 						<name>input_27_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -27368,7 +27368,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -27405,7 +27405,7 @@
 						<name>input_28_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -27421,7 +27421,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -27432,7 +27432,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2129</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -27460,7 +27460,7 @@
 						<name>input_28_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -27476,7 +27476,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -27513,7 +27513,7 @@
 						<name>input_29_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -27529,7 +27529,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -27540,7 +27540,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290760992</coreId>
+						<coreId>26912</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -27568,7 +27568,7 @@
 						<name>input_29_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -27584,7 +27584,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -27621,7 +27621,7 @@
 						<name>input_30_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -27637,7 +27637,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -27648,7 +27648,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>49</coreId>
+						<coreId>2610107256</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -27676,7 +27676,7 @@
 						<name>input_30_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -27692,7 +27692,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -27729,7 +27729,7 @@
 						<name>input_31_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -27745,7 +27745,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -27756,7 +27756,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2610091968</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -27784,7 +27784,7 @@
 						<name>input_31_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -27800,7 +27800,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -27837,7 +27837,7 @@
 						<name>input_32_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -27853,7 +27853,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -27864,7 +27864,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2610112016</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -27892,7 +27892,7 @@
 						<name>input_32_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -27908,7 +27908,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -27945,7 +27945,7 @@
 						<name>input_33_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -27961,7 +27961,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -27972,7 +27972,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2610114264</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -28000,7 +28000,7 @@
 						<name>input_33_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -28016,7 +28016,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -28053,7 +28053,7 @@
 						<name>input_34_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -28069,7 +28069,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -28080,7 +28080,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>49</coreId>
+						<coreId>4</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -28108,7 +28108,7 @@
 						<name>input_34_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -28124,7 +28124,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -28161,7 +28161,7 @@
 						<name>input_35_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -28177,7 +28177,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -28188,7 +28188,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -28216,7 +28216,7 @@
 						<name>input_35_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -28232,7 +28232,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -28269,7 +28269,7 @@
 						<name>input_36_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -28285,7 +28285,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -28324,7 +28324,7 @@
 						<name>input_36_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -28340,7 +28340,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -28377,7 +28377,7 @@
 						<name>input_37_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -28393,7 +28393,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -28404,7 +28404,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>3556769920</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -28432,7 +28432,7 @@
 						<name>input_37_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -28448,7 +28448,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -28485,7 +28485,7 @@
 						<name>input_38_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -28501,7 +28501,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -28512,7 +28512,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>3556769920</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -28540,7 +28540,7 @@
 						<name>input_38_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -28556,7 +28556,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -28593,7 +28593,7 @@
 						<name>input_39_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -28609,7 +28609,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -28620,7 +28620,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>285</coreId>
+						<coreId>2610127064</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -28648,7 +28648,7 @@
 						<name>input_39_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -28664,7 +28664,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -28701,7 +28701,7 @@
 						<name>input_40_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -28717,7 +28717,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -28728,7 +28728,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>839</coreId>
+						<coreId>2610129961</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -28756,7 +28756,7 @@
 						<name>input_40_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -28772,7 +28772,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -28809,7 +28809,7 @@
 						<name>input_41_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -28825,7 +28825,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -28836,7 +28836,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1385</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -28864,7 +28864,7 @@
 						<name>input_41_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -28880,7 +28880,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -28917,7 +28917,7 @@
 						<name>input_42_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -28933,7 +28933,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -28944,7 +28944,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1929</coreId>
+						<coreId>2610134864</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -28972,7 +28972,7 @@
 						<name>input_42_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -28988,7 +28988,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -29025,7 +29025,7 @@
 						<name>input_43_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -29041,7 +29041,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -29052,7 +29052,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2075</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -29080,7 +29080,7 @@
 						<name>input_43_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -29096,7 +29096,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -29133,7 +29133,7 @@
 						<name>input_44_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -29149,7 +29149,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -29160,7 +29160,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4221783802</coreId>
+						<coreId>3556769920</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -29188,7 +29188,7 @@
 						<name>input_44_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -29204,7 +29204,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -29241,7 +29241,7 @@
 						<name>input_45_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -29257,7 +29257,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -29268,7 +29268,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3422552192</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -29296,7 +29296,7 @@
 						<name>input_45_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -29312,7 +29312,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -29349,7 +29349,7 @@
 						<name>input_46_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -29365,7 +29365,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -29376,7 +29376,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2288721680</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -29404,7 +29404,7 @@
 						<name>input_46_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -29420,7 +29420,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -29457,7 +29457,7 @@
 						<name>input_47_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -29473,7 +29473,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -29484,7 +29484,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1950</coreId>
+						<coreId>3</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -29512,7 +29512,7 @@
 						<name>input_47_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -29528,7 +29528,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -29565,7 +29565,7 @@
 						<name>input_48_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -29581,7 +29581,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -29592,7 +29592,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>3556769920</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -29620,7 +29620,7 @@
 						<name>input_48_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -29636,7 +29636,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -29673,7 +29673,7 @@
 						<name>input_49_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -29689,7 +29689,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -29700,7 +29700,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2610150408</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -29728,7 +29728,7 @@
 						<name>input_49_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -29744,7 +29744,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -29781,7 +29781,7 @@
 						<name>input_50_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -29797,7 +29797,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -29808,7 +29808,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2284626160</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -29836,7 +29836,7 @@
 						<name>input_50_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -29852,7 +29852,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -29889,7 +29889,7 @@
 						<name>input_51_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -29905,7 +29905,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -29916,7 +29916,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2282956256</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -29944,7 +29944,7 @@
 						<name>input_51_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -29960,7 +29960,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -29997,7 +29997,7 @@
 						<name>input_52_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -30013,7 +30013,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -30024,7 +30024,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>255</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -30052,7 +30052,7 @@
 						<name>input_52_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -30068,7 +30068,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -30105,7 +30105,7 @@
 						<name>input_53_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -30121,7 +30121,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -30132,7 +30132,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>3556769920</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -30160,7 +30160,7 @@
 						<name>input_53_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -30176,7 +30176,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -30213,7 +30213,7 @@
 						<name>input_54_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -30229,7 +30229,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -30240,7 +30240,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>3556769920</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -30268,7 +30268,7 @@
 						<name>input_54_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -30284,7 +30284,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -30321,7 +30321,7 @@
 						<name>input_55_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -30337,7 +30337,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -30348,7 +30348,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2283608688</coreId>
+						<coreId>99057</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -30376,7 +30376,7 @@
 						<name>input_55_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -30392,7 +30392,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -30429,7 +30429,7 @@
 						<name>input_56_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -30445,7 +30445,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -30456,7 +30456,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2283013792</coreId>
+						<coreId>2610166400</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -30484,7 +30484,7 @@
 						<name>input_56_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -30500,7 +30500,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -30537,7 +30537,7 @@
 						<name>input_57_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -30553,7 +30553,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -30564,7 +30564,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3781</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -30592,7 +30592,7 @@
 						<name>input_57_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -30608,7 +30608,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -30645,7 +30645,7 @@
 						<name>input_58_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -30661,7 +30661,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -30672,7 +30672,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -30700,7 +30700,7 @@
 						<name>input_58_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -30716,7 +30716,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -30753,7 +30753,7 @@
 						<name>input_59_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -30769,7 +30769,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -30780,7 +30780,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2283995200</coreId>
+						<coreId>2610169760</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -30808,7 +30808,7 @@
 						<name>input_59_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -30824,7 +30824,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -30861,7 +30861,7 @@
 						<name>input_60_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -30877,7 +30877,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -30888,7 +30888,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>205</coreId>
+						<coreId>2610175496</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -30916,7 +30916,7 @@
 						<name>input_60_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -30932,7 +30932,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -30969,7 +30969,7 @@
 						<name>input_61_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -30985,7 +30985,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -31024,7 +31024,7 @@
 						<name>input_61_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -31040,7 +31040,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -31077,7 +31077,7 @@
 						<name>input_62_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -31093,7 +31093,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -31104,7 +31104,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>405</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -31132,7 +31132,7 @@
 						<name>input_62_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -31148,7 +31148,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -31185,7 +31185,7 @@
 						<name>input_63_addr_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -31201,7 +31201,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -31212,7 +31212,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1335</coreId>
+						<coreId>2610181776</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -31240,7 +31240,7 @@
 						<name>input_63_load_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -31256,7 +31256,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -31293,7 +31293,7 @@
 						<name>tmp_s</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -31309,7 +31309,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -31320,7 +31320,7 @@
 						<opType>mux</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -31408,10 +31408,10 @@
 					<Obj>
 						<type>0</type>
 						<id>637</id>
-						<name>bitcast_ln135_3</name>
+						<name>bitcast_ln148_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -31427,7 +31427,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -31438,7 +31438,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -31464,7 +31464,7 @@
 						<name>tmp_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -31480,7 +31480,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -31491,7 +31491,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
@@ -31517,10 +31517,10 @@
 					<Obj>
 						<type>0</type>
 						<id>639</id>
-						<name>trunc_ln135_3</name>
+						<name>trunc_ln148_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -31536,7 +31536,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -31547,7 +31547,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>2610187680</coreId>
 					</Obj>
 					<bitwidth>23</bitwidth>
 				</Value>
@@ -31570,10 +31570,10 @@
 					<Obj>
 						<type>0</type>
 						<id>640</id>
-						<name>bitcast_ln135_4</name>
+						<name>bitcast_ln148_4</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -31589,7 +31589,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -31600,7 +31600,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>2610188464</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -31626,7 +31626,7 @@
 						<name>tmp_10</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -31642,7 +31642,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -31653,7 +31653,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
@@ -31679,10 +31679,10 @@
 					<Obj>
 						<type>0</type>
 						<id>642</id>
-						<name>trunc_ln135_4</name>
+						<name>trunc_ln148_4</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -31698,7 +31698,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -31709,7 +31709,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>2610189832</coreId>
 					</Obj>
 					<bitwidth>23</bitwidth>
 				</Value>
@@ -31732,10 +31732,10 @@
 					<Obj>
 						<type>0</type>
 						<id>643</id>
-						<name>icmp_ln135_6</name>
+						<name>icmp_ln148_6</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -31751,7 +31751,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -31762,7 +31762,7 @@
 						<opType>icmp</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -31786,10 +31786,10 @@
 					<Obj>
 						<type>0</type>
 						<id>644</id>
-						<name>icmp_ln135_7</name>
+						<name>icmp_ln148_7</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -31805,7 +31805,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -31816,7 +31816,7 @@
 						<opType>icmp</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>2610192656</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -31840,10 +31840,10 @@
 					<Obj>
 						<type>0</type>
 						<id>645</id>
-						<name>or_ln135_3</name>
+						<name>or_ln148_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -31859,7 +31859,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -31870,7 +31870,7 @@
 						<opType>or</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>68817</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -31894,10 +31894,10 @@
 					<Obj>
 						<type>0</type>
 						<id>646</id>
-						<name>icmp_ln135_8</name>
+						<name>icmp_ln148_8</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -31913,7 +31913,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -31924,7 +31924,7 @@
 						<opType>icmp</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2602313128</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -31948,10 +31948,10 @@
 					<Obj>
 						<type>0</type>
 						<id>647</id>
-						<name>icmp_ln135_9</name>
+						<name>icmp_ln148_9</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -31967,7 +31967,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -31978,7 +31978,7 @@
 						<opType>icmp</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -32002,10 +32002,10 @@
 					<Obj>
 						<type>0</type>
 						<id>648</id>
-						<name>or_ln135_4</name>
+						<name>or_ln148_4</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -32021,7 +32021,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -32032,7 +32032,7 @@
 						<opType>or</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2593868876</coreId>
+						<coreId>2610197448</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -32056,10 +32056,10 @@
 					<Obj>
 						<type>0</type>
 						<id>649</id>
-						<name>and_ln135_3</name>
+						<name>and_ln148_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -32075,7 +32075,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -32086,7 +32086,7 @@
 						<opType>and</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -32113,7 +32113,7 @@
 						<name>tmp_11</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -32129,7 +32129,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -32140,7 +32140,7 @@
 						<opType>fcmp</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -32164,10 +32164,10 @@
 					<Obj>
 						<type>0</type>
 						<id>651</id>
-						<name>and_ln135_4</name>
+						<name>and_ln148_4</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -32183,7 +32183,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -32194,7 +32194,7 @@
 						<opType>and</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290777440</coreId>
+						<coreId>2610332752</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -32218,10 +32218,10 @@
 					<Obj>
 						<type>0</type>
 						<id>652</id>
-						<name>select_ln135_2</name>
+						<name>select_ln148_2</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -32237,7 +32237,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -32273,10 +32273,10 @@
 					<Obj>
 						<type>0</type>
 						<id>653</id>
-						<name>add_ln134_5</name>
+						<name>add_ln147_5</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -32292,7 +32292,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -32327,10 +32327,10 @@
 					<Obj>
 						<type>0</type>
 						<id>654</id>
-						<name>zext_ln134_11</name>
+						<name>zext_ln147_11</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -32346,7 +32346,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -32357,7 +32357,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2290974736</coreId>
+						<coreId>2610151152</coreId>
 					</Obj>
 					<bitwidth>35</bitwidth>
 				</Value>
@@ -32380,10 +32380,10 @@
 					<Obj>
 						<type>0</type>
 						<id>655</id>
-						<name>mul_ln134_3</name>
+						<name>mul_ln147_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -32399,7 +32399,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -32437,7 +32437,7 @@
 						<name>tmp_21</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -32453,7 +32453,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -32464,7 +32464,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>423</coreId>
+						<coreId>2610209712</coreId>
 					</Obj>
 					<bitwidth>7</bitwidth>
 				</Value>
@@ -32490,10 +32490,10 @@
 					<Obj>
 						<type>0</type>
 						<id>657</id>
-						<name>zext_ln134_8</name>
+						<name>zext_ln147_8</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -32509,7 +32509,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -32520,7 +32520,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>51761</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -32543,10 +32543,10 @@
 					<Obj>
 						<type>0</type>
 						<id>658</id>
-						<name>urem_ln134_3</name>
+						<name>urem_ln147_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -32562,7 +32562,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -32573,7 +32573,7 @@
 						<opType>urem</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>17</bitwidth>
 				</Value>
@@ -32597,10 +32597,10 @@
 					<Obj>
 						<type>0</type>
 						<id>659</id>
-						<name>zext_ln134_9</name>
+						<name>zext_ln147_9</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -32616,7 +32616,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -32627,7 +32627,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2288959744</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -32653,7 +32653,7 @@
 						<name>input_0_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -32669,7 +32669,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -32680,7 +32680,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2288961248</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -32708,7 +32708,7 @@
 						<name>input_0_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -32724,7 +32724,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -32761,7 +32761,7 @@
 						<name>input_1_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -32777,7 +32777,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -32788,7 +32788,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -32816,7 +32816,7 @@
 						<name>input_1_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -32832,7 +32832,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -32869,7 +32869,7 @@
 						<name>input_2_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -32885,7 +32885,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -32896,7 +32896,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2288808688</coreId>
+						<coreId>1</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -32924,7 +32924,7 @@
 						<name>input_2_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -32940,7 +32940,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -32977,7 +32977,7 @@
 						<name>input_3_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -32993,7 +32993,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -33004,7 +33004,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2397</coreId>
+						<coreId>2610221192</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -33032,7 +33032,7 @@
 						<name>input_3_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -33048,7 +33048,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -33085,7 +33085,7 @@
 						<name>input_4_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -33101,7 +33101,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -33112,7 +33112,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2610221928</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -33140,7 +33140,7 @@
 						<name>input_4_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -33156,7 +33156,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -33193,7 +33193,7 @@
 						<name>input_5_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -33209,7 +33209,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -33220,7 +33220,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2287305904</coreId>
+						<coreId>3556769920</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -33248,7 +33248,7 @@
 						<name>input_5_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -33264,7 +33264,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -33301,7 +33301,7 @@
 						<name>input_6_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -33317,7 +33317,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -33328,7 +33328,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>3556769920</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -33356,7 +33356,7 @@
 						<name>input_6_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -33372,7 +33372,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -33409,7 +33409,7 @@
 						<name>input_7_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -33425,7 +33425,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -33464,7 +33464,7 @@
 						<name>input_7_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -33480,7 +33480,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -33517,7 +33517,7 @@
 						<name>input_8_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -33533,7 +33533,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -33544,7 +33544,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -33572,7 +33572,7 @@
 						<name>input_8_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -33588,7 +33588,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -33625,7 +33625,7 @@
 						<name>input_9_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -33641,7 +33641,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -33652,7 +33652,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2289110576</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -33680,7 +33680,7 @@
 						<name>input_9_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -33696,7 +33696,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -33733,7 +33733,7 @@
 						<name>input_10_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -33749,7 +33749,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -33760,7 +33760,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -33788,7 +33788,7 @@
 						<name>input_10_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -33804,7 +33804,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -33841,7 +33841,7 @@
 						<name>input_11_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -33857,7 +33857,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -33868,7 +33868,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>3556769920</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -33896,7 +33896,7 @@
 						<name>input_11_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -33912,7 +33912,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -33949,7 +33949,7 @@
 						<name>input_12_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -33965,7 +33965,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -33976,7 +33976,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -34004,7 +34004,7 @@
 						<name>input_12_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -34020,7 +34020,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -34057,7 +34057,7 @@
 						<name>input_13_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -34073,7 +34073,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -34084,7 +34084,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>218</coreId>
+						<coreId>3556769920</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -34112,7 +34112,7 @@
 						<name>input_13_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -34128,7 +34128,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -34165,7 +34165,7 @@
 						<name>input_14_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -34181,7 +34181,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -34220,7 +34220,7 @@
 						<name>input_14_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -34236,7 +34236,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -34273,7 +34273,7 @@
 						<name>input_15_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -34289,7 +34289,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -34300,7 +34300,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>892483935</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -34328,7 +34328,7 @@
 						<name>input_15_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -34344,7 +34344,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -34381,7 +34381,7 @@
 						<name>input_16_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -34397,7 +34397,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -34408,7 +34408,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -34436,7 +34436,7 @@
 						<name>input_16_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -34452,7 +34452,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -34489,7 +34489,7 @@
 						<name>input_17_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -34505,7 +34505,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -34544,7 +34544,7 @@
 						<name>input_17_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -34560,7 +34560,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -34597,7 +34597,7 @@
 						<name>input_18_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -34613,7 +34613,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -34624,7 +34624,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -34652,7 +34652,7 @@
 						<name>input_18_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -34668,7 +34668,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -34705,7 +34705,7 @@
 						<name>input_19_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -34721,7 +34721,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -34732,7 +34732,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2610258640</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -34760,7 +34760,7 @@
 						<name>input_19_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -34776,7 +34776,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -34813,7 +34813,7 @@
 						<name>input_20_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -34829,7 +34829,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -34868,7 +34868,7 @@
 						<name>input_20_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -34884,7 +34884,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -34921,7 +34921,7 @@
 						<name>input_21_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -34937,7 +34937,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -34948,7 +34948,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -34976,7 +34976,7 @@
 						<name>input_21_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -34992,7 +34992,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -35029,7 +35029,7 @@
 						<name>input_22_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -35045,7 +35045,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -35084,7 +35084,7 @@
 						<name>input_22_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -35100,7 +35100,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -35137,7 +35137,7 @@
 						<name>input_23_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -35153,7 +35153,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -35164,7 +35164,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2608846672</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -35192,7 +35192,7 @@
 						<name>input_23_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -35208,7 +35208,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -35245,7 +35245,7 @@
 						<name>input_24_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -35261,7 +35261,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -35272,7 +35272,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2607283568</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -35300,7 +35300,7 @@
 						<name>input_24_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -35316,7 +35316,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -35353,7 +35353,7 @@
 						<name>input_25_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -35369,7 +35369,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -35380,7 +35380,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1837</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -35408,7 +35408,7 @@
 						<name>input_25_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -35424,7 +35424,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -35461,7 +35461,7 @@
 						<name>input_26_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -35477,7 +35477,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -35488,7 +35488,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -35516,7 +35516,7 @@
 						<name>input_26_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -35532,7 +35532,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -35569,7 +35569,7 @@
 						<name>input_27_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -35585,7 +35585,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -35624,7 +35624,7 @@
 						<name>input_27_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -35640,7 +35640,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -35677,7 +35677,7 @@
 						<name>input_28_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -35693,7 +35693,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -35704,7 +35704,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2606954800</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -35732,7 +35732,7 @@
 						<name>input_28_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -35748,7 +35748,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -35785,7 +35785,7 @@
 						<name>input_29_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -35801,7 +35801,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -35812,7 +35812,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2608804976</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -35840,7 +35840,7 @@
 						<name>input_29_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -35856,7 +35856,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -35893,7 +35893,7 @@
 						<name>input_30_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -35909,7 +35909,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -35920,7 +35920,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>248</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -35948,7 +35948,7 @@
 						<name>input_30_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -35964,7 +35964,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -36001,7 +36001,7 @@
 						<name>input_31_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -36017,7 +36017,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -36028,7 +36028,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -36056,7 +36056,7 @@
 						<name>input_31_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -36072,7 +36072,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -36109,7 +36109,7 @@
 						<name>input_32_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -36125,7 +36125,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -36164,7 +36164,7 @@
 						<name>input_32_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -36180,7 +36180,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -36217,7 +36217,7 @@
 						<name>input_33_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -36233,7 +36233,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -36244,7 +36244,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2607033104</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -36272,7 +36272,7 @@
 						<name>input_33_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -36288,7 +36288,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -36325,7 +36325,7 @@
 						<name>input_34_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -36341,7 +36341,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -36352,7 +36352,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2607034864</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -36380,7 +36380,7 @@
 						<name>input_34_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -36396,7 +36396,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -36433,7 +36433,7 @@
 						<name>input_35_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -36449,7 +36449,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -36460,7 +36460,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1277</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -36488,7 +36488,7 @@
 						<name>input_35_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -36504,7 +36504,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -36541,7 +36541,7 @@
 						<name>input_36_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -36557,7 +36557,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -36568,7 +36568,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -36596,7 +36596,7 @@
 						<name>input_36_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -36612,7 +36612,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -36649,7 +36649,7 @@
 						<name>input_37_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -36665,7 +36665,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -36676,7 +36676,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>18</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -36704,7 +36704,7 @@
 						<name>input_37_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -36720,7 +36720,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -36757,7 +36757,7 @@
 						<name>input_38_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -36773,7 +36773,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -36784,7 +36784,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>2608112704</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -36812,7 +36812,7 @@
 						<name>input_38_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -36828,7 +36828,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -36865,7 +36865,7 @@
 						<name>input_39_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -36881,7 +36881,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -36892,7 +36892,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2608114464</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -36920,7 +36920,7 @@
 						<name>input_39_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -36936,7 +36936,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -36973,7 +36973,7 @@
 						<name>input_40_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -36989,7 +36989,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -37000,7 +37000,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>417</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -37028,7 +37028,7 @@
 						<name>input_40_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -37044,7 +37044,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -37081,7 +37081,7 @@
 						<name>input_41_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -37097,7 +37097,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -37108,7 +37108,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2608128032</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -37136,7 +37136,7 @@
 						<name>input_41_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -37152,7 +37152,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -37189,7 +37189,7 @@
 						<name>input_42_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -37205,7 +37205,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -37216,7 +37216,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1778</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -37244,7 +37244,7 @@
 						<name>input_42_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -37260,7 +37260,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -37297,7 +37297,7 @@
 						<name>input_43_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -37313,7 +37313,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -37324,7 +37324,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>781</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -37352,7 +37352,7 @@
 						<name>input_43_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -37368,7 +37368,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -37405,7 +37405,7 @@
 						<name>input_44_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -37421,7 +37421,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -37432,7 +37432,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2607731184</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -37460,7 +37460,7 @@
 						<name>input_44_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -37476,7 +37476,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -37513,7 +37513,7 @@
 						<name>input_45_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -37529,7 +37529,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -37540,7 +37540,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2606321792</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -37568,7 +37568,7 @@
 						<name>input_45_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -37584,7 +37584,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -37621,7 +37621,7 @@
 						<name>input_46_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -37637,7 +37637,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -37648,7 +37648,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1113</coreId>
+						<coreId>2607689616</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -37676,7 +37676,7 @@
 						<name>input_46_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -37692,7 +37692,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -37729,7 +37729,7 @@
 						<name>input_47_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -37745,7 +37745,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -37756,7 +37756,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -37784,7 +37784,7 @@
 						<name>input_47_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -37800,7 +37800,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -37837,7 +37837,7 @@
 						<name>input_48_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -37853,7 +37853,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -37864,7 +37864,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -37892,7 +37892,7 @@
 						<name>input_48_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -37908,7 +37908,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -37945,7 +37945,7 @@
 						<name>input_49_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -37961,7 +37961,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -37972,7 +37972,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1448</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -38000,7 +38000,7 @@
 						<name>input_49_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -38016,7 +38016,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -38053,7 +38053,7 @@
 						<name>input_50_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -38069,7 +38069,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -38080,7 +38080,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -38108,7 +38108,7 @@
 						<name>input_50_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -38124,7 +38124,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -38161,7 +38161,7 @@
 						<name>input_51_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -38177,7 +38177,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -38188,7 +38188,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -38216,7 +38216,7 @@
 						<name>input_51_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -38232,7 +38232,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -38269,7 +38269,7 @@
 						<name>input_52_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -38285,7 +38285,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -38296,7 +38296,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1828</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -38324,7 +38324,7 @@
 						<name>input_52_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -38340,7 +38340,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -38377,7 +38377,7 @@
 						<name>input_53_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -38393,7 +38393,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -38404,7 +38404,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -38432,7 +38432,7 @@
 						<name>input_53_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -38448,7 +38448,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -38485,7 +38485,7 @@
 						<name>input_54_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -38501,7 +38501,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -38512,7 +38512,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -38540,7 +38540,7 @@
 						<name>input_54_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -38556,7 +38556,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -38593,7 +38593,7 @@
 						<name>input_55_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -38609,7 +38609,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -38620,7 +38620,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2175</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -38648,7 +38648,7 @@
 						<name>input_55_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -38664,7 +38664,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -38701,7 +38701,7 @@
 						<name>input_56_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -38717,7 +38717,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -38728,7 +38728,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -38756,7 +38756,7 @@
 						<name>input_56_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -38772,7 +38772,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -38809,7 +38809,7 @@
 						<name>input_57_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -38825,7 +38825,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -38836,7 +38836,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -38864,7 +38864,7 @@
 						<name>input_57_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -38880,7 +38880,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -38917,7 +38917,7 @@
 						<name>input_58_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -38933,7 +38933,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -38944,7 +38944,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2976</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -38972,7 +38972,7 @@
 						<name>input_58_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -38988,7 +38988,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -39025,7 +39025,7 @@
 						<name>input_59_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -39041,7 +39041,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -39052,7 +39052,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -39080,7 +39080,7 @@
 						<name>input_59_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -39096,7 +39096,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -39133,7 +39133,7 @@
 						<name>input_60_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -39149,7 +39149,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -39160,7 +39160,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -39188,7 +39188,7 @@
 						<name>input_60_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -39204,7 +39204,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -39241,7 +39241,7 @@
 						<name>input_61_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -39257,7 +39257,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -39268,7 +39268,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3451</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -39296,7 +39296,7 @@
 						<name>input_61_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -39312,7 +39312,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -39349,7 +39349,7 @@
 						<name>input_62_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -39365,7 +39365,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -39376,7 +39376,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -39404,7 +39404,7 @@
 						<name>input_62_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -39420,7 +39420,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -39457,7 +39457,7 @@
 						<name>input_63_addr_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -39473,7 +39473,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -39484,7 +39484,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -39512,7 +39512,7 @@
 						<name>input_63_load_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -39528,7 +39528,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -39565,7 +39565,7 @@
 						<name>tmp_12</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>147</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -39581,7 +39581,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>134</second>
+										<second>147</second>
 									</item>
 								</second>
 							</item>
@@ -39680,10 +39680,10 @@
 					<Obj>
 						<type>0</type>
 						<id>789</id>
-						<name>bitcast_ln135_5</name>
+						<name>bitcast_ln148_5</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -39699,7 +39699,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -39710,7 +39710,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3781</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -39736,7 +39736,7 @@
 						<name>tmp_13</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -39752,7 +39752,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -39763,7 +39763,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
@@ -39789,10 +39789,10 @@
 					<Obj>
 						<type>0</type>
 						<id>791</id>
-						<name>trunc_ln135_5</name>
+						<name>trunc_ln148_5</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -39808,7 +39808,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -39819,7 +39819,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3941</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>23</bitwidth>
 				</Value>
@@ -39842,10 +39842,10 @@
 					<Obj>
 						<type>0</type>
 						<id>792</id>
-						<name>bitcast_ln135_6</name>
+						<name>bitcast_ln148_6</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -39861,7 +39861,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -39898,7 +39898,7 @@
 						<name>tmp_14</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -39914,7 +39914,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -39925,7 +39925,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
@@ -39951,10 +39951,10 @@
 					<Obj>
 						<type>0</type>
 						<id>794</id>
-						<name>trunc_ln135_6</name>
+						<name>trunc_ln148_6</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -39970,7 +39970,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -39981,7 +39981,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4081</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>23</bitwidth>
 				</Value>
@@ -40004,10 +40004,10 @@
 					<Obj>
 						<type>0</type>
 						<id>795</id>
-						<name>icmp_ln135_10</name>
+						<name>icmp_ln148_10</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -40023,7 +40023,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -40058,10 +40058,10 @@
 					<Obj>
 						<type>0</type>
 						<id>796</id>
-						<name>icmp_ln135_11</name>
+						<name>icmp_ln148_11</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -40077,7 +40077,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -40088,7 +40088,7 @@
 						<opType>icmp</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -40112,10 +40112,10 @@
 					<Obj>
 						<type>0</type>
 						<id>797</id>
-						<name>or_ln135_5</name>
+						<name>or_ln148_5</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -40131,7 +40131,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -40142,7 +40142,7 @@
 						<opType>or</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4221</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -40166,10 +40166,10 @@
 					<Obj>
 						<type>0</type>
 						<id>798</id>
-						<name>icmp_ln135_12</name>
+						<name>icmp_ln148_12</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -40185,7 +40185,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -40196,7 +40196,7 @@
 						<opType>icmp</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -40220,10 +40220,10 @@
 					<Obj>
 						<type>0</type>
 						<id>799</id>
-						<name>icmp_ln135_13</name>
+						<name>icmp_ln148_13</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -40239,7 +40239,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -40250,7 +40250,7 @@
 						<opType>icmp</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -40274,10 +40274,10 @@
 					<Obj>
 						<type>0</type>
 						<id>800</id>
-						<name>or_ln135_6</name>
+						<name>or_ln148_6</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -40293,7 +40293,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -40304,7 +40304,7 @@
 						<opType>or</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4393</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -40328,10 +40328,10 @@
 					<Obj>
 						<type>0</type>
 						<id>801</id>
-						<name>and_ln135_5</name>
+						<name>and_ln148_5</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -40347,7 +40347,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -40358,7 +40358,7 @@
 						<opType>and</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -40385,7 +40385,7 @@
 						<name>tmp_15</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -40401,7 +40401,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -40412,7 +40412,7 @@
 						<opType>fcmp</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -40436,10 +40436,10 @@
 					<Obj>
 						<type>0</type>
 						<id>803</id>
-						<name>and_ln135_6</name>
+						<name>and_ln148_6</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -40455,7 +40455,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -40466,7 +40466,7 @@
 						<opType>and</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4541</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -40490,10 +40490,10 @@
 					<Obj>
 						<type>0</type>
 						<id>804</id>
-						<name>select_ln135_3</name>
+						<name>select_ln148_3</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>135</lineNumber>
+						<lineNumber>148</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -40509,7 +40509,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>135</second>
+										<second>148</second>
 									</item>
 								</second>
 							</item>
@@ -40545,10 +40545,10 @@
 					<Obj>
 						<type>0</type>
 						<id>805</id>
-						<name>add_ln141</name>
+						<name>add_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -40564,7 +40564,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -40599,10 +40599,10 @@
 					<Obj>
 						<type>0</type>
 						<id>806</id>
-						<name>zext_ln141_1</name>
+						<name>zext_ln154_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -40618,7 +40618,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -40629,7 +40629,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4681</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>31</bitwidth>
 				</Value>
@@ -40652,10 +40652,10 @@
 					<Obj>
 						<type>0</type>
 						<id>807</id>
-						<name>mul_ln141</name>
+						<name>mul_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -40671,7 +40671,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -40709,7 +40709,7 @@
 						<name>trunc_ln1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -40725,7 +40725,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -40762,10 +40762,10 @@
 					<Obj>
 						<type>0</type>
 						<id>809</id>
-						<name>urem_ln141</name>
+						<name>urem_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -40781,7 +40781,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -40792,7 +40792,7 @@
 						<opType>urem</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>257</coreId>
 					</Obj>
 					<bitwidth>15</bitwidth>
 				</Value>
@@ -40816,10 +40816,10 @@
 					<Obj>
 						<type>0</type>
 						<id>810</id>
-						<name>zext_ln141</name>
+						<name>zext_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -40835,7 +40835,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -40872,7 +40872,7 @@
 						<name>output_0_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -40888,7 +40888,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -40899,7 +40899,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>350</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -40927,7 +40927,7 @@
 						<name>output_1_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -40943,7 +40943,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -40954,7 +40954,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>399</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -40982,7 +40982,7 @@
 						<name>output_2_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -40998,7 +40998,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -41037,7 +41037,7 @@
 						<name>output_3_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -41053,7 +41053,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -41092,7 +41092,7 @@
 						<name>output_4_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -41108,7 +41108,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -41119,7 +41119,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>558</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -41147,7 +41147,7 @@
 						<name>output_5_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -41163,7 +41163,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -41202,7 +41202,7 @@
 						<name>output_6_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -41218,7 +41218,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -41229,7 +41229,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -41257,7 +41257,7 @@
 						<name>output_7_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -41273,7 +41273,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -41284,7 +41284,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>763</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -41312,7 +41312,7 @@
 						<name>output_8_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -41328,7 +41328,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -41367,7 +41367,7 @@
 						<name>output_9_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -41383,7 +41383,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -41394,7 +41394,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -41422,7 +41422,7 @@
 						<name>output_10_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -41438,7 +41438,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -41449,7 +41449,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>904</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -41477,7 +41477,7 @@
 						<name>output_11_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -41493,7 +41493,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -41532,7 +41532,7 @@
 						<name>output_12_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -41548,7 +41548,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -41587,7 +41587,7 @@
 						<name>output_13_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -41603,7 +41603,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -41614,7 +41614,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1077</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -41642,7 +41642,7 @@
 						<name>output_14_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -41658,7 +41658,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -41697,7 +41697,7 @@
 						<name>output_15_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -41713,7 +41713,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -41752,7 +41752,7 @@
 						<name>output_16_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -41768,7 +41768,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -41779,7 +41779,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1288</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -41807,7 +41807,7 @@
 						<name>output_17_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -41823,7 +41823,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -41862,7 +41862,7 @@
 						<name>output_18_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -41878,7 +41878,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -41917,7 +41917,7 @@
 						<name>output_19_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -41933,7 +41933,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -41944,7 +41944,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1430</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -41972,7 +41972,7 @@
 						<name>output_20_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -41988,7 +41988,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -42027,7 +42027,7 @@
 						<name>output_21_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -42043,7 +42043,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -42054,7 +42054,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -42082,7 +42082,7 @@
 						<name>output_22_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -42098,7 +42098,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -42109,7 +42109,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1608</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -42137,7 +42137,7 @@
 						<name>output_23_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -42153,7 +42153,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -42192,7 +42192,7 @@
 						<name>output_24_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -42208,7 +42208,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -42219,7 +42219,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -42247,7 +42247,7 @@
 						<name>output_25_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -42263,7 +42263,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -42274,7 +42274,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1810</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -42302,7 +42302,7 @@
 						<name>output_26_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -42318,7 +42318,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -42357,7 +42357,7 @@
 						<name>output_27_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -42373,7 +42373,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -42412,7 +42412,7 @@
 						<name>output_28_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -42428,7 +42428,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -42439,7 +42439,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1952</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -42467,7 +42467,7 @@
 						<name>output_29_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -42483,7 +42483,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -42522,7 +42522,7 @@
 						<name>output_30_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -42538,7 +42538,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -42577,7 +42577,7 @@
 						<name>output_31_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -42593,7 +42593,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -42604,7 +42604,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2139</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -42632,7 +42632,7 @@
 						<name>output_32_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -42648,7 +42648,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -42687,7 +42687,7 @@
 						<name>output_33_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -42703,7 +42703,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -42742,7 +42742,7 @@
 						<name>output_34_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -42758,7 +42758,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -42769,7 +42769,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2557</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -42797,7 +42797,7 @@
 						<name>output_35_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -42813,7 +42813,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -42852,7 +42852,7 @@
 						<name>output_36_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -42868,7 +42868,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -42907,7 +42907,7 @@
 						<name>output_37_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -42923,7 +42923,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -42934,7 +42934,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2922</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -42962,7 +42962,7 @@
 						<name>output_38_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -42978,7 +42978,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -43017,7 +43017,7 @@
 						<name>output_39_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -43033,7 +43033,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -43072,7 +43072,7 @@
 						<name>output_40_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -43088,7 +43088,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -43099,7 +43099,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>3293</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -43127,7 +43127,7 @@
 						<name>output_41_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -43143,7 +43143,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -43182,7 +43182,7 @@
 						<name>output_42_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -43198,7 +43198,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -43237,7 +43237,7 @@
 						<name>output_43_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -43253,7 +43253,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -43264,7 +43264,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>3433</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -43292,7 +43292,7 @@
 						<name>output_44_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -43308,7 +43308,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -43347,7 +43347,7 @@
 						<name>output_45_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -43363,7 +43363,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -43402,7 +43402,7 @@
 						<name>output_46_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -43418,7 +43418,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -43429,7 +43429,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>3573</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -43457,7 +43457,7 @@
 						<name>output_47_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -43473,7 +43473,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -43512,7 +43512,7 @@
 						<name>output_48_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -43528,7 +43528,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -43567,7 +43567,7 @@
 						<name>output_49_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -43583,7 +43583,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -43594,7 +43594,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>3713</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -43622,7 +43622,7 @@
 						<name>output_50_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -43638,7 +43638,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -43677,7 +43677,7 @@
 						<name>output_51_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -43693,7 +43693,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -43732,7 +43732,7 @@
 						<name>output_52_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -43748,7 +43748,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -43759,7 +43759,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>3904</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -43787,7 +43787,7 @@
 						<name>output_53_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -43803,7 +43803,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -43842,7 +43842,7 @@
 						<name>output_54_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -43858,7 +43858,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -43897,7 +43897,7 @@
 						<name>output_55_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -43913,7 +43913,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -43924,7 +43924,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4063</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -43952,7 +43952,7 @@
 						<name>output_56_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -43968,7 +43968,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -44007,7 +44007,7 @@
 						<name>output_57_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -44023,7 +44023,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -44062,7 +44062,7 @@
 						<name>output_58_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -44078,7 +44078,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -44089,7 +44089,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4203</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -44117,7 +44117,7 @@
 						<name>output_59_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -44133,7 +44133,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -44172,7 +44172,7 @@
 						<name>output_60_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -44188,7 +44188,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -44227,7 +44227,7 @@
 						<name>output_61_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -44243,7 +44243,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -44254,7 +44254,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4370</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -44282,7 +44282,7 @@
 						<name>output_62_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -44298,7 +44298,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -44337,7 +44337,7 @@
 						<name>output_63_addr</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -44353,7 +44353,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -44389,10 +44389,10 @@
 					<Obj>
 						<type>0</type>
 						<id>875</id>
-						<name>_ln141</name>
+						<name>_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -44408,7 +44408,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -44419,7 +44419,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4523</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -44569,10 +44569,10 @@
 					<Obj>
 						<type>0</type>
 						<id>877</id>
-						<name>output_62_addr_write_ln141</name>
+						<name>output_62_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -44588,7 +44588,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -44623,10 +44623,10 @@
 					<Obj>
 						<type>0</type>
 						<id>878</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -44642,7 +44642,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -44676,10 +44676,10 @@
 					<Obj>
 						<type>0</type>
 						<id>880</id>
-						<name>output_61_addr_write_ln141</name>
+						<name>output_61_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -44695,7 +44695,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -44730,10 +44730,10 @@
 					<Obj>
 						<type>0</type>
 						<id>881</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -44749,7 +44749,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -44783,10 +44783,10 @@
 					<Obj>
 						<type>0</type>
 						<id>883</id>
-						<name>output_60_addr_write_ln141</name>
+						<name>output_60_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -44802,7 +44802,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -44837,10 +44837,10 @@
 					<Obj>
 						<type>0</type>
 						<id>884</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -44856,7 +44856,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -44890,10 +44890,10 @@
 					<Obj>
 						<type>0</type>
 						<id>886</id>
-						<name>output_59_addr_write_ln141</name>
+						<name>output_59_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -44909,7 +44909,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -44944,10 +44944,10 @@
 					<Obj>
 						<type>0</type>
 						<id>887</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -44963,7 +44963,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -44997,10 +44997,10 @@
 					<Obj>
 						<type>0</type>
 						<id>889</id>
-						<name>output_58_addr_write_ln141</name>
+						<name>output_58_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -45016,7 +45016,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -45051,10 +45051,10 @@
 					<Obj>
 						<type>0</type>
 						<id>890</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -45070,7 +45070,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -45104,10 +45104,10 @@
 					<Obj>
 						<type>0</type>
 						<id>892</id>
-						<name>output_57_addr_write_ln141</name>
+						<name>output_57_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -45123,7 +45123,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -45158,10 +45158,10 @@
 					<Obj>
 						<type>0</type>
 						<id>893</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -45177,7 +45177,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -45211,10 +45211,10 @@
 					<Obj>
 						<type>0</type>
 						<id>895</id>
-						<name>output_56_addr_write_ln141</name>
+						<name>output_56_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -45230,7 +45230,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -45265,10 +45265,10 @@
 					<Obj>
 						<type>0</type>
 						<id>896</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -45284,7 +45284,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -45318,10 +45318,10 @@
 					<Obj>
 						<type>0</type>
 						<id>898</id>
-						<name>output_55_addr_write_ln141</name>
+						<name>output_55_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -45337,7 +45337,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -45372,10 +45372,10 @@
 					<Obj>
 						<type>0</type>
 						<id>899</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -45391,7 +45391,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -45425,10 +45425,10 @@
 					<Obj>
 						<type>0</type>
 						<id>901</id>
-						<name>output_54_addr_write_ln141</name>
+						<name>output_54_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -45444,7 +45444,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -45479,10 +45479,10 @@
 					<Obj>
 						<type>0</type>
 						<id>902</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -45498,7 +45498,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -45532,10 +45532,10 @@
 					<Obj>
 						<type>0</type>
 						<id>904</id>
-						<name>output_53_addr_write_ln141</name>
+						<name>output_53_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -45551,7 +45551,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -45586,10 +45586,10 @@
 					<Obj>
 						<type>0</type>
 						<id>905</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -45605,7 +45605,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -45639,10 +45639,10 @@
 					<Obj>
 						<type>0</type>
 						<id>907</id>
-						<name>output_52_addr_write_ln141</name>
+						<name>output_52_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -45658,7 +45658,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -45693,10 +45693,10 @@
 					<Obj>
 						<type>0</type>
 						<id>908</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -45712,7 +45712,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -45746,10 +45746,10 @@
 					<Obj>
 						<type>0</type>
 						<id>910</id>
-						<name>output_51_addr_write_ln141</name>
+						<name>output_51_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -45765,7 +45765,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -45800,10 +45800,10 @@
 					<Obj>
 						<type>0</type>
 						<id>911</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -45819,7 +45819,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -45853,10 +45853,10 @@
 					<Obj>
 						<type>0</type>
 						<id>913</id>
-						<name>output_50_addr_write_ln141</name>
+						<name>output_50_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -45872,7 +45872,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -45907,10 +45907,10 @@
 					<Obj>
 						<type>0</type>
 						<id>914</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -45926,7 +45926,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -45960,10 +45960,10 @@
 					<Obj>
 						<type>0</type>
 						<id>916</id>
-						<name>output_49_addr_write_ln141</name>
+						<name>output_49_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -45979,7 +45979,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -46014,10 +46014,10 @@
 					<Obj>
 						<type>0</type>
 						<id>917</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -46033,7 +46033,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -46067,10 +46067,10 @@
 					<Obj>
 						<type>0</type>
 						<id>919</id>
-						<name>output_48_addr_write_ln141</name>
+						<name>output_48_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -46086,7 +46086,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -46121,10 +46121,10 @@
 					<Obj>
 						<type>0</type>
 						<id>920</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -46140,7 +46140,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -46174,10 +46174,10 @@
 					<Obj>
 						<type>0</type>
 						<id>922</id>
-						<name>output_47_addr_write_ln141</name>
+						<name>output_47_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -46193,7 +46193,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -46228,10 +46228,10 @@
 					<Obj>
 						<type>0</type>
 						<id>923</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -46247,7 +46247,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -46281,10 +46281,10 @@
 					<Obj>
 						<type>0</type>
 						<id>925</id>
-						<name>output_46_addr_write_ln141</name>
+						<name>output_46_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -46300,7 +46300,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -46335,10 +46335,10 @@
 					<Obj>
 						<type>0</type>
 						<id>926</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -46354,7 +46354,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -46388,10 +46388,10 @@
 					<Obj>
 						<type>0</type>
 						<id>928</id>
-						<name>output_45_addr_write_ln141</name>
+						<name>output_45_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -46407,7 +46407,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -46442,10 +46442,10 @@
 					<Obj>
 						<type>0</type>
 						<id>929</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -46461,7 +46461,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -46495,10 +46495,10 @@
 					<Obj>
 						<type>0</type>
 						<id>931</id>
-						<name>output_44_addr_write_ln141</name>
+						<name>output_44_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -46514,7 +46514,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -46549,10 +46549,10 @@
 					<Obj>
 						<type>0</type>
 						<id>932</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -46568,7 +46568,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -46602,10 +46602,10 @@
 					<Obj>
 						<type>0</type>
 						<id>934</id>
-						<name>output_43_addr_write_ln141</name>
+						<name>output_43_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -46621,7 +46621,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -46656,10 +46656,10 @@
 					<Obj>
 						<type>0</type>
 						<id>935</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -46675,7 +46675,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -46709,10 +46709,10 @@
 					<Obj>
 						<type>0</type>
 						<id>937</id>
-						<name>output_42_addr_write_ln141</name>
+						<name>output_42_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -46728,7 +46728,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -46763,10 +46763,10 @@
 					<Obj>
 						<type>0</type>
 						<id>938</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -46782,7 +46782,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -46816,10 +46816,10 @@
 					<Obj>
 						<type>0</type>
 						<id>940</id>
-						<name>output_41_addr_write_ln141</name>
+						<name>output_41_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -46835,7 +46835,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -46870,10 +46870,10 @@
 					<Obj>
 						<type>0</type>
 						<id>941</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -46889,7 +46889,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -46923,10 +46923,10 @@
 					<Obj>
 						<type>0</type>
 						<id>943</id>
-						<name>output_40_addr_write_ln141</name>
+						<name>output_40_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -46942,7 +46942,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -46977,10 +46977,10 @@
 					<Obj>
 						<type>0</type>
 						<id>944</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -46996,7 +46996,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -47030,10 +47030,10 @@
 					<Obj>
 						<type>0</type>
 						<id>946</id>
-						<name>output_39_addr_write_ln141</name>
+						<name>output_39_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -47049,7 +47049,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -47084,10 +47084,10 @@
 					<Obj>
 						<type>0</type>
 						<id>947</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -47103,7 +47103,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -47137,10 +47137,10 @@
 					<Obj>
 						<type>0</type>
 						<id>949</id>
-						<name>output_38_addr_write_ln141</name>
+						<name>output_38_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -47156,7 +47156,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -47191,10 +47191,10 @@
 					<Obj>
 						<type>0</type>
 						<id>950</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -47210,7 +47210,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -47244,10 +47244,10 @@
 					<Obj>
 						<type>0</type>
 						<id>952</id>
-						<name>output_37_addr_write_ln141</name>
+						<name>output_37_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -47263,7 +47263,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -47298,10 +47298,10 @@
 					<Obj>
 						<type>0</type>
 						<id>953</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -47317,7 +47317,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -47351,10 +47351,10 @@
 					<Obj>
 						<type>0</type>
 						<id>955</id>
-						<name>output_36_addr_write_ln141</name>
+						<name>output_36_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -47370,7 +47370,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -47405,10 +47405,10 @@
 					<Obj>
 						<type>0</type>
 						<id>956</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -47424,7 +47424,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -47458,10 +47458,10 @@
 					<Obj>
 						<type>0</type>
 						<id>958</id>
-						<name>output_35_addr_write_ln141</name>
+						<name>output_35_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -47477,7 +47477,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -47512,10 +47512,10 @@
 					<Obj>
 						<type>0</type>
 						<id>959</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -47531,7 +47531,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -47565,10 +47565,10 @@
 					<Obj>
 						<type>0</type>
 						<id>961</id>
-						<name>output_34_addr_write_ln141</name>
+						<name>output_34_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -47584,7 +47584,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -47619,10 +47619,10 @@
 					<Obj>
 						<type>0</type>
 						<id>962</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -47638,7 +47638,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -47672,10 +47672,10 @@
 					<Obj>
 						<type>0</type>
 						<id>964</id>
-						<name>output_33_addr_write_ln141</name>
+						<name>output_33_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -47691,7 +47691,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -47726,10 +47726,10 @@
 					<Obj>
 						<type>0</type>
 						<id>965</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -47745,7 +47745,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -47779,10 +47779,10 @@
 					<Obj>
 						<type>0</type>
 						<id>967</id>
-						<name>output_32_addr_write_ln141</name>
+						<name>output_32_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -47798,7 +47798,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -47833,10 +47833,10 @@
 					<Obj>
 						<type>0</type>
 						<id>968</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -47852,7 +47852,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -47886,10 +47886,10 @@
 					<Obj>
 						<type>0</type>
 						<id>970</id>
-						<name>output_31_addr_write_ln141</name>
+						<name>output_31_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -47905,7 +47905,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -47940,10 +47940,10 @@
 					<Obj>
 						<type>0</type>
 						<id>971</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -47959,7 +47959,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -47993,10 +47993,10 @@
 					<Obj>
 						<type>0</type>
 						<id>973</id>
-						<name>output_30_addr_write_ln141</name>
+						<name>output_30_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -48012,7 +48012,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -48047,10 +48047,10 @@
 					<Obj>
 						<type>0</type>
 						<id>974</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -48066,7 +48066,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -48100,10 +48100,10 @@
 					<Obj>
 						<type>0</type>
 						<id>976</id>
-						<name>output_29_addr_write_ln141</name>
+						<name>output_29_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -48119,7 +48119,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -48154,10 +48154,10 @@
 					<Obj>
 						<type>0</type>
 						<id>977</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -48173,7 +48173,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -48207,10 +48207,10 @@
 					<Obj>
 						<type>0</type>
 						<id>979</id>
-						<name>output_28_addr_write_ln141</name>
+						<name>output_28_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -48226,7 +48226,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -48261,10 +48261,10 @@
 					<Obj>
 						<type>0</type>
 						<id>980</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -48280,7 +48280,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -48314,10 +48314,10 @@
 					<Obj>
 						<type>0</type>
 						<id>982</id>
-						<name>output_27_addr_write_ln141</name>
+						<name>output_27_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -48333,7 +48333,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -48368,10 +48368,10 @@
 					<Obj>
 						<type>0</type>
 						<id>983</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -48387,7 +48387,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -48421,10 +48421,10 @@
 					<Obj>
 						<type>0</type>
 						<id>985</id>
-						<name>output_26_addr_write_ln141</name>
+						<name>output_26_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -48440,7 +48440,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -48475,10 +48475,10 @@
 					<Obj>
 						<type>0</type>
 						<id>986</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -48494,7 +48494,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -48528,10 +48528,10 @@
 					<Obj>
 						<type>0</type>
 						<id>988</id>
-						<name>output_25_addr_write_ln141</name>
+						<name>output_25_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -48547,7 +48547,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -48582,10 +48582,10 @@
 					<Obj>
 						<type>0</type>
 						<id>989</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -48601,7 +48601,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -48635,10 +48635,10 @@
 					<Obj>
 						<type>0</type>
 						<id>991</id>
-						<name>output_24_addr_write_ln141</name>
+						<name>output_24_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -48654,7 +48654,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -48689,10 +48689,10 @@
 					<Obj>
 						<type>0</type>
 						<id>992</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -48708,7 +48708,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -48742,10 +48742,10 @@
 					<Obj>
 						<type>0</type>
 						<id>994</id>
-						<name>output_23_addr_write_ln141</name>
+						<name>output_23_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -48761,7 +48761,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -48796,10 +48796,10 @@
 					<Obj>
 						<type>0</type>
 						<id>995</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -48815,7 +48815,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -48826,7 +48826,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>109121</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -48849,10 +48849,10 @@
 					<Obj>
 						<type>0</type>
 						<id>997</id>
-						<name>output_22_addr_write_ln141</name>
+						<name>output_22_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -48868,7 +48868,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -48903,10 +48903,10 @@
 					<Obj>
 						<type>0</type>
 						<id>998</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -48922,7 +48922,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -48956,10 +48956,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1000</id>
-						<name>output_21_addr_write_ln141</name>
+						<name>output_21_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -48975,7 +48975,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -49010,10 +49010,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1001</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -49029,7 +49029,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -49063,10 +49063,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1003</id>
-						<name>output_20_addr_write_ln141</name>
+						<name>output_20_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -49082,7 +49082,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -49117,10 +49117,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1004</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -49136,7 +49136,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -49170,10 +49170,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1006</id>
-						<name>output_19_addr_write_ln141</name>
+						<name>output_19_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -49189,7 +49189,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -49224,10 +49224,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1007</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -49243,7 +49243,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -49277,10 +49277,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1009</id>
-						<name>output_18_addr_write_ln141</name>
+						<name>output_18_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -49296,7 +49296,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -49331,10 +49331,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1010</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -49350,7 +49350,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -49384,10 +49384,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1012</id>
-						<name>output_17_addr_write_ln141</name>
+						<name>output_17_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -49403,7 +49403,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -49438,10 +49438,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1013</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -49457,7 +49457,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -49491,10 +49491,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1015</id>
-						<name>output_16_addr_write_ln141</name>
+						<name>output_16_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -49510,7 +49510,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -49545,10 +49545,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1016</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -49564,7 +49564,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -49598,10 +49598,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1018</id>
-						<name>output_15_addr_write_ln141</name>
+						<name>output_15_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -49617,7 +49617,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -49652,10 +49652,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1019</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -49671,7 +49671,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -49705,10 +49705,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1021</id>
-						<name>output_14_addr_write_ln141</name>
+						<name>output_14_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -49724,7 +49724,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -49759,10 +49759,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1022</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -49778,7 +49778,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -49812,10 +49812,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1024</id>
-						<name>output_13_addr_write_ln141</name>
+						<name>output_13_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -49831,7 +49831,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -49866,10 +49866,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1025</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -49885,7 +49885,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -49896,7 +49896,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -49919,10 +49919,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1027</id>
-						<name>output_12_addr_write_ln141</name>
+						<name>output_12_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -49938,7 +49938,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -49973,10 +49973,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1028</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -49992,7 +49992,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -50026,10 +50026,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1030</id>
-						<name>output_11_addr_write_ln141</name>
+						<name>output_11_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -50045,7 +50045,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -50080,10 +50080,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1031</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -50099,7 +50099,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -50133,10 +50133,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1033</id>
-						<name>output_10_addr_write_ln141</name>
+						<name>output_10_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -50152,7 +50152,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -50187,10 +50187,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1034</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -50206,7 +50206,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -50217,7 +50217,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3354</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -50240,10 +50240,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1036</id>
-						<name>output_9_addr_write_ln141</name>
+						<name>output_9_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -50259,7 +50259,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -50294,10 +50294,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1037</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -50313,7 +50313,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -50347,10 +50347,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1039</id>
-						<name>output_8_addr_write_ln141</name>
+						<name>output_8_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -50366,7 +50366,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -50401,10 +50401,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1040</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -50420,7 +50420,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -50431,7 +50431,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -50454,10 +50454,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1042</id>
-						<name>output_7_addr_write_ln141</name>
+						<name>output_7_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -50473,7 +50473,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -50508,10 +50508,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1043</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -50527,7 +50527,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -50538,7 +50538,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>786</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -50561,10 +50561,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1045</id>
-						<name>output_6_addr_write_ln141</name>
+						<name>output_6_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -50580,7 +50580,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -50615,10 +50615,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1046</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -50634,7 +50634,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -50668,10 +50668,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1048</id>
-						<name>output_5_addr_write_ln141</name>
+						<name>output_5_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -50687,7 +50687,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -50722,10 +50722,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1049</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -50741,7 +50741,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -50775,10 +50775,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1051</id>
-						<name>output_4_addr_write_ln141</name>
+						<name>output_4_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -50794,7 +50794,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -50829,10 +50829,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1052</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -50848,7 +50848,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -50859,7 +50859,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2286837728</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -50882,10 +50882,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1054</id>
-						<name>output_3_addr_write_ln141</name>
+						<name>output_3_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -50901,7 +50901,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -50936,10 +50936,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1055</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -50955,7 +50955,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -50989,10 +50989,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1057</id>
-						<name>output_2_addr_write_ln141</name>
+						<name>output_2_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -51008,7 +51008,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -51043,10 +51043,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1058</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -51062,7 +51062,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -51073,7 +51073,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>7</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -51096,10 +51096,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1060</id>
-						<name>output_1_addr_write_ln141</name>
+						<name>output_1_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -51115,7 +51115,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -51150,10 +51150,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1061</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -51169,7 +51169,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -51203,10 +51203,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1063</id>
-						<name>output_0_addr_write_ln141</name>
+						<name>output_0_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -51222,7 +51222,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -51257,10 +51257,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1064</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -51276,7 +51276,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -51310,10 +51310,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1066</id>
-						<name>output_63_addr_write_ln141</name>
+						<name>output_63_addr_write_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -51329,7 +51329,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -51364,10 +51364,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1067</id>
-						<name>br_ln141</name>
+						<name>br_ln154</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>141</lineNumber>
+						<lineNumber>154</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -51383,7 +51383,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>141</second>
+										<second>154</second>
 									</item>
 								</second>
 							</item>
@@ -51394,7 +51394,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1235</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -51417,10 +51417,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1069</id>
-						<name>add_ln125</name>
+						<name>add_ln138</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>125</lineNumber>
+						<lineNumber>138</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -51436,7 +51436,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>125</second>
+										<second>138</second>
 									</item>
 								</second>
 							</item>
@@ -51471,10 +51471,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1070</id>
-						<name>add_ln122_1</name>
+						<name>add_ln135_1</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>122</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -51490,7 +51490,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>122</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -51525,10 +51525,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1071</id>
-						<name>select_ln122_5</name>
+						<name>select_ln135_5</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>122</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -51544,7 +51544,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>122</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -51596,7 +51596,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>5</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -51619,10 +51619,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1074</id>
-						<name>_ln145</name>
+						<name>_ln158</name>
 						<fileName>../src/hls/cnn.cpp</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
-						<lineNumber>145</lineNumber>
+						<lineNumber>158</lineNumber>
 						<contextFuncName>max_pooling2d</contextFuncName>
 						<contextNormFuncName>max_pooling2d</contextNormFuncName>
 						<inlineStackInfo>
@@ -51638,7 +51638,7 @@
 											<first>../src/hls/cnn.cpp</first>
 											<second>max_pooling2d</second>
 										</first>
-										<second>145</second>
+										<second>158</second>
 									</item>
 								</second>
 							</item>
@@ -51649,7 +51649,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2296604913</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -51747,7 +51747,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>5</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -51775,7 +51775,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4049</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>15</bitwidth>
 				</Value>
@@ -51803,7 +51803,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>5</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -51831,7 +51831,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>5</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -51859,7 +51859,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4069</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>10</bitwidth>
 				</Value>
@@ -51943,7 +51943,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>15</bitwidth>
 				</Value>
@@ -51971,7 +51971,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2288439104</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -51999,7 +51999,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4111</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>11</bitwidth>
 				</Value>
@@ -52027,7 +52027,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2288440128</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -52055,7 +52055,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>5</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -52083,7 +52083,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2287684576</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -52139,7 +52139,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>5</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>12</bitwidth>
 				</Value>
@@ -52167,7 +52167,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2296604913</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -52195,7 +52195,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2287571120</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>35</bitwidth>
 				</Value>
@@ -52223,7 +52223,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -52335,7 +52335,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2296604913</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -52363,7 +52363,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2289383936</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -52391,7 +52391,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>947</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
@@ -52475,7 +52475,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4727</coreId>
 					</Obj>
 					<bitwidth>31</bitwidth>
 				</Value>
@@ -52531,7 +52531,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>3947</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -52615,7 +52615,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>5</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -52671,7 +52671,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2296604913</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -52699,7 +52699,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>5</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -52727,7 +52727,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2606204704</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -52783,7 +52783,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -52811,7 +52811,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4087</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -52923,7 +52923,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>5</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -52979,7 +52979,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2296604913</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -53007,7 +53007,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>5</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -53035,7 +53035,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2608820464</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -53091,7 +53091,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -53119,7 +53119,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4161</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -53231,7 +53231,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>5</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -53287,7 +53287,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2296604913</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -53315,7 +53315,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>5</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -53343,7 +53343,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2991134112</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -53399,7 +53399,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2608164608</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -53455,7 +53455,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -53483,7 +53483,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4468</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -53539,7 +53539,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2296604913</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -53595,7 +53595,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>397</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -53707,7 +53707,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2609205584</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -53763,7 +53763,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -53791,7 +53791,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4546</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -53847,7 +53847,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2296604913</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -53903,7 +53903,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>799</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -54015,7 +54015,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2606112512</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -54071,7 +54071,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -54099,7 +54099,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>4627</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -54155,7 +54155,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2296604913</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -54211,7 +54211,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1254</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -54270,7 +54270,7 @@
 					<opType></opType>
 					<implIndex></implIndex>
 					<coreName></coreName>
-					<coreId>3422552064</coreId>
+					<coreId>0</coreId>
 				</Obj>
 				<node_objs>
 					<count>22</count>
@@ -54319,7 +54319,7 @@
 					<opType></opType>
 					<implIndex></implIndex>
 					<coreName></coreName>
-					<coreId>49</coreId>
+					<coreId>2607578681</coreId>
 				</Obj>
 				<node_objs>
 					<count>715</count>
@@ -55090,7 +55090,7 @@
 					<opType></opType>
 					<implIndex></implIndex>
 					<coreName></coreName>
-					<coreId>0</coreId>
+					<coreId>4683</coreId>
 				</Obj>
 				<node_objs>
 					<count>2</count>
@@ -56482,7 +56482,7 @@
 					<opType></opType>
 					<implIndex></implIndex>
 					<coreName></coreName>
-					<coreId>4294967295</coreId>
+					<coreId>0</coreId>
 				</Obj>
 				<node_objs>
 					<count>2</count>
@@ -56511,7 +56511,7 @@
 					<opType></opType>
 					<implIndex></implIndex>
 					<coreName></coreName>
-					<coreId>1906</coreId>
+					<coreId>0</coreId>
 				</Obj>
 				<node_objs>
 					<count>2</count>
@@ -56598,7 +56598,7 @@
 					<opType></opType>
 					<implIndex></implIndex>
 					<coreName></coreName>
-					<coreId>2289803504</coreId>
+					<coreId>0</coreId>
 				</Obj>
 				<node_objs>
 					<count>2</count>
@@ -56656,7 +56656,7 @@
 					<opType></opType>
 					<implIndex></implIndex>
 					<coreName></coreName>
-					<coreId>4</coreId>
+					<coreId>0</coreId>
 				</Obj>
 				<node_objs>
 					<count>2</count>
@@ -56743,7 +56743,7 @@
 					<opType></opType>
 					<implIndex></implIndex>
 					<coreName></coreName>
-					<coreId>3524</coreId>
+					<coreId>0</coreId>
 				</Obj>
 				<node_objs>
 					<count>2</count>
@@ -56801,7 +56801,7 @@
 					<opType></opType>
 					<implIndex></implIndex>
 					<coreName></coreName>
-					<coreId>4294967295</coreId>
+					<coreId>0</coreId>
 				</Obj>
 				<node_objs>
 					<count>2</count>
@@ -56830,7 +56830,7 @@
 					<opType></opType>
 					<implIndex></implIndex>
 					<coreName></coreName>
-					<coreId>5</coreId>
+					<coreId>0</coreId>
 				</Obj>
 				<node_objs>
 					<count>2</count>
@@ -56948,7 +56948,7 @@
 					<opType></opType>
 					<implIndex></implIndex>
 					<coreName></coreName>
-					<coreId>5</coreId>
+					<coreId>0</coreId>
 				</Obj>
 				<node_objs>
 					<count>1</count>
@@ -72800,8 +72800,8 @@
 		</item>
 		<item class_id_reference="22" object_id="_3417">
 			<mId>3</mId>
-			<mTag>VITIS_LOOP_119_1_VITIS_LOOP_122_2_VITIS_LOOP_125_3</mTag>
-			<mNormTag>VITIS_LOOP_119_1_VITIS_LOOP_122_2_VITIS_LOOP_125_3</mNormTag>
+			<mTag>VITIS_LOOP_132_1_VITIS_LOOP_135_2_VITIS_LOOP_138_3</mTag>
+			<mNormTag>VITIS_LOOP_132_1_VITIS_LOOP_135_2_VITIS_LOOP_138_3</mNormTag>
 			<mType>1</mType>
 			<sub_regions>
 				<count>0</count>
@@ -86465,7 +86465,7 @@
 		<count>1</count>
 		<item_version>0</item_version>
 		<item class_id="44" tracking_level="1" version="0" object_id="_4733">
-			<region_name>VITIS_LOOP_119_1_VITIS_LOOP_122_2_VITIS_LOOP_125_3</region_name>
+			<region_name>VITIS_LOOP_132_1_VITIS_LOOP_135_2_VITIS_LOOP_138_3</region_name>
 			<basic_blocks>
 				<count>67</count>
 				<item_version>0</item_version>
@@ -91994,7 +91994,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln119_1_fu_4073</first>
+			<first>add_ln132_1_fu_4073</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92002,7 +92002,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln119_fu_4247</first>
+			<first>add_ln132_fu_4247</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92010,7 +92010,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln122_1_fu_4241</first>
+			<first>add_ln135_1_fu_4241</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92018,7 +92018,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln122_fu_4141</first>
+			<first>add_ln135_fu_4141</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92026,7 +92026,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln125_fu_4435</first>
+			<first>add_ln138_fu_4435</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92034,7 +92034,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln134_1_fu_4215</first>
+			<first>add_ln147_1_fu_4215</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92042,7 +92042,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln134_2_fu_4229</first>
+			<first>add_ln147_2_fu_4229</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92050,7 +92050,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln134_3_fu_4271</first>
+			<first>add_ln147_3_fu_4271</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92058,7 +92058,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln134_4_fu_4399</first>
+			<first>add_ln147_4_fu_4399</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92066,7 +92066,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln134_5_fu_4412</first>
+			<first>add_ln147_5_fu_4412</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92074,7 +92074,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln134_6_fu_4165</first>
+			<first>add_ln147_6_fu_4165</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92082,7 +92082,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln134_7_fu_4360</first>
+			<first>add_ln147_7_fu_4360</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92090,7 +92090,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln134_fu_4047</first>
+			<first>add_ln147_fu_4047</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92098,7 +92098,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln141_fu_4423</first>
+			<first>add_ln154_fu_4423</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92106,7 +92106,7 @@
 			</second>
 		</item>
 		<item>
-			<first>and_ln119_fu_4127</first>
+			<first>and_ln132_fu_4127</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92114,7 +92114,7 @@
 			</second>
 		</item>
 		<item>
-			<first>and_ln135_1_fu_5005</first>
+			<first>and_ln148_1_fu_5005</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92122,7 +92122,7 @@
 			</second>
 		</item>
 		<item>
-			<first>and_ln135_2_fu_5011</first>
+			<first>and_ln148_2_fu_5011</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92130,7 +92130,7 @@
 			</second>
 		</item>
 		<item>
-			<first>and_ln135_3_fu_5311</first>
+			<first>and_ln148_3_fu_5311</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92138,7 +92138,7 @@
 			</second>
 		</item>
 		<item>
-			<first>and_ln135_4_fu_5317</first>
+			<first>and_ln148_4_fu_5317</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92146,7 +92146,7 @@
 			</second>
 		</item>
 		<item>
-			<first>and_ln135_5_fu_5616</first>
+			<first>and_ln148_5_fu_5616</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92154,7 +92154,7 @@
 			</second>
 		</item>
 		<item>
-			<first>and_ln135_6_fu_5622</first>
+			<first>and_ln148_6_fu_5622</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92162,7 +92162,7 @@
 			</second>
 		</item>
 		<item>
-			<first>and_ln135_fu_4921</first>
+			<first>and_ln148_fu_4921</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92170,7 +92170,7 @@
 			</second>
 		</item>
 		<item>
-			<first>bitcast_ln135_1_fu_4935</first>
+			<first>bitcast_ln148_1_fu_4935</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92178,7 +92178,7 @@
 			</second>
 		</item>
 		<item>
-			<first>bitcast_ln135_2_fu_4952</first>
+			<first>bitcast_ln148_2_fu_4952</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92186,7 +92186,7 @@
 			</second>
 		</item>
 		<item>
-			<first>bitcast_ln135_3_fu_5241</first>
+			<first>bitcast_ln148_3_fu_5241</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92194,7 +92194,7 @@
 			</second>
 		</item>
 		<item>
-			<first>bitcast_ln135_4_fu_5258</first>
+			<first>bitcast_ln148_4_fu_5258</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92202,7 +92202,7 @@
 			</second>
 		</item>
 		<item>
-			<first>bitcast_ln135_5_fu_5546</first>
+			<first>bitcast_ln148_5_fu_5546</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92210,7 +92210,7 @@
 			</second>
 		</item>
 		<item>
-			<first>bitcast_ln135_6_fu_5563</first>
+			<first>bitcast_ln148_6_fu_5563</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92218,7 +92218,7 @@
 			</second>
 		</item>
 		<item>
-			<first>bitcast_ln135_fu_4886</first>
+			<first>bitcast_ln148_fu_4886</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92226,7 +92226,7 @@
 			</second>
 		</item>
 		<item>
-			<first>empty_45_fu_4017</first>
+			<first>empty_46_fu_4017</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92234,7 +92234,7 @@
 			</second>
 		</item>
 		<item>
-			<first>empty_46_fu_4027</first>
+			<first>empty_47_fu_4027</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92258,7 +92258,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln119_fu_4053</first>
+			<first>icmp_ln132_fu_4053</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92266,7 +92266,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln122_fu_4059</first>
+			<first>icmp_ln135_fu_4059</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92274,7 +92274,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln125_fu_4121</first>
+			<first>icmp_ln138_fu_4121</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92282,7 +92282,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln135_10_fu_5580</first>
+			<first>icmp_ln148_10_fu_5580</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92290,7 +92290,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln135_11_fu_5586</first>
+			<first>icmp_ln148_11_fu_5586</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92298,7 +92298,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln135_12_fu_5598</first>
+			<first>icmp_ln148_12_fu_5598</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92306,7 +92306,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln135_13_fu_5604</first>
+			<first>icmp_ln148_13_fu_5604</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92314,7 +92314,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln135_1_fu_4909</first>
+			<first>icmp_ln148_1_fu_4909</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92322,7 +92322,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln135_2_fu_4969</first>
+			<first>icmp_ln148_2_fu_4969</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92330,7 +92330,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln135_3_fu_4975</first>
+			<first>icmp_ln148_3_fu_4975</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92338,7 +92338,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln135_4_fu_4987</first>
+			<first>icmp_ln148_4_fu_4987</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92346,7 +92346,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln135_5_fu_4993</first>
+			<first>icmp_ln148_5_fu_4993</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92354,7 +92354,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln135_6_fu_5275</first>
+			<first>icmp_ln148_6_fu_5275</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92362,7 +92362,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln135_7_fu_5281</first>
+			<first>icmp_ln148_7_fu_5281</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92370,7 +92370,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln135_8_fu_5293</first>
+			<first>icmp_ln148_8_fu_5293</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92378,7 +92378,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln135_9_fu_5299</first>
+			<first>icmp_ln148_9_fu_5299</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -92386,7 +92386,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln135_fu_4903</first>
+			<first>icmp_ln148_fu_4903</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -94522,7 +94522,7 @@
 			</second>
 		</item>
 		<item>
-			<first>or_ln122_1_fu_4179</first>
+			<first>or_ln135_1_fu_4179</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -94530,7 +94530,7 @@
 			</second>
 		</item>
 		<item>
-			<first>or_ln122_2_fu_4372</first>
+			<first>or_ln135_2_fu_4372</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -94538,7 +94538,7 @@
 			</second>
 		</item>
 		<item>
-			<first>or_ln122_fu_4147</first>
+			<first>or_ln135_fu_4147</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -94546,7 +94546,7 @@
 			</second>
 		</item>
 		<item>
-			<first>or_ln135_1_fu_4981</first>
+			<first>or_ln148_1_fu_4981</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -94554,7 +94554,7 @@
 			</second>
 		</item>
 		<item>
-			<first>or_ln135_2_fu_4999</first>
+			<first>or_ln148_2_fu_4999</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -94562,7 +94562,7 @@
 			</second>
 		</item>
 		<item>
-			<first>or_ln135_3_fu_5287</first>
+			<first>or_ln148_3_fu_5287</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -94570,7 +94570,7 @@
 			</second>
 		</item>
 		<item>
-			<first>or_ln135_4_fu_5305</first>
+			<first>or_ln148_4_fu_5305</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -94578,7 +94578,7 @@
 			</second>
 		</item>
 		<item>
-			<first>or_ln135_5_fu_5592</first>
+			<first>or_ln148_5_fu_5592</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -94586,7 +94586,7 @@
 			</second>
 		</item>
 		<item>
-			<first>or_ln135_6_fu_5610</first>
+			<first>or_ln148_6_fu_5610</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -94594,7 +94594,7 @@
 			</second>
 		</item>
 		<item>
-			<first>or_ln135_fu_4915</first>
+			<first>or_ln148_fu_4915</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95202,7 +95202,7 @@
 			</second>
 		</item>
 		<item>
-			<first>select_ln119_1_fu_4284</first>
+			<first>select_ln132_1_fu_4284</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95210,7 +95210,7 @@
 			</second>
 		</item>
 		<item>
-			<first>select_ln119_2_fu_4099</first>
+			<first>select_ln132_2_fu_4099</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95218,7 +95218,7 @@
 			</second>
 		</item>
 		<item>
-			<first>select_ln119_3_fu_4306</first>
+			<first>select_ln132_3_fu_4306</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95226,7 +95226,7 @@
 			</second>
 		</item>
 		<item>
-			<first>select_ln119_4_fu_4107</first>
+			<first>select_ln132_4_fu_4107</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95234,7 +95234,7 @@
 			</second>
 		</item>
 		<item>
-			<first>select_ln119_5_fu_4312</first>
+			<first>select_ln132_5_fu_4312</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95242,7 +95242,7 @@
 			</second>
 		</item>
 		<item>
-			<first>select_ln119_6_fu_4133</first>
+			<first>select_ln132_6_fu_4133</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95250,7 +95250,7 @@
 			</second>
 		</item>
 		<item>
-			<first>select_ln119_7_fu_4338</first>
+			<first>select_ln132_7_fu_4338</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95258,7 +95258,7 @@
 			</second>
 		</item>
 		<item>
-			<first>select_ln119_fu_4065</first>
+			<first>select_ln132_fu_4065</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95266,7 +95266,7 @@
 			</second>
 		</item>
 		<item>
-			<first>select_ln122_1_fu_4345</first>
+			<first>select_ln135_1_fu_4345</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95274,7 +95274,7 @@
 			</second>
 		</item>
 		<item>
-			<first>select_ln122_2_fu_4171</first>
+			<first>select_ln135_2_fu_4171</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95282,7 +95282,7 @@
 			</second>
 		</item>
 		<item>
-			<first>select_ln122_3_fu_4365</first>
+			<first>select_ln135_3_fu_4365</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95290,7 +95290,7 @@
 			</second>
 		</item>
 		<item>
-			<first>select_ln122_4_fu_4193</first>
+			<first>select_ln135_4_fu_4193</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95298,7 +95298,7 @@
 			</second>
 		</item>
 		<item>
-			<first>select_ln122_5_fu_4440</first>
+			<first>select_ln135_5_fu_4440</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95306,7 +95306,7 @@
 			</second>
 		</item>
 		<item>
-			<first>select_ln122_fu_4153</first>
+			<first>select_ln135_fu_4153</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95314,7 +95314,7 @@
 			</second>
 		</item>
 		<item>
-			<first>select_ln135_1_fu_5017</first>
+			<first>select_ln148_1_fu_5017</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95322,7 +95322,7 @@
 			</second>
 		</item>
 		<item>
-			<first>select_ln135_2_fu_5323</first>
+			<first>select_ln148_2_fu_5323</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95330,7 +95330,7 @@
 			</second>
 		</item>
 		<item>
-			<first>select_ln135_3_fu_5628</first>
+			<first>select_ln148_3_fu_5628</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95338,7 +95338,7 @@
 			</second>
 		</item>
 		<item>
-			<first>select_ln135_fu_4927</first>
+			<first>select_ln148_fu_4927</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95346,7 +95346,7 @@
 			</second>
 		</item>
 		<item>
-			<first>shl_ln134_1_mid2_fu_4378</first>
+			<first>shl_ln147_1_mid2_fu_4378</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95354,7 +95354,7 @@
 			</second>
 		</item>
 		<item>
-			<first>shl_ln134_mid2_fu_4185</first>
+			<first>shl_ln147_mid2_fu_4185</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95514,7 +95514,7 @@
 			</second>
 		</item>
 		<item>
-			<first>trunc_ln135_1_fu_4948</first>
+			<first>trunc_ln148_1_fu_4948</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95522,7 +95522,7 @@
 			</second>
 		</item>
 		<item>
-			<first>trunc_ln135_2_fu_4965</first>
+			<first>trunc_ln148_2_fu_4965</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95530,7 +95530,7 @@
 			</second>
 		</item>
 		<item>
-			<first>trunc_ln135_3_fu_5254</first>
+			<first>trunc_ln148_3_fu_5254</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95538,7 +95538,7 @@
 			</second>
 		</item>
 		<item>
-			<first>trunc_ln135_4_fu_5271</first>
+			<first>trunc_ln148_4_fu_5271</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95546,7 +95546,7 @@
 			</second>
 		</item>
 		<item>
-			<first>trunc_ln135_5_fu_5559</first>
+			<first>trunc_ln148_5_fu_5559</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95554,7 +95554,7 @@
 			</second>
 		</item>
 		<item>
-			<first>trunc_ln135_6_fu_5576</first>
+			<first>trunc_ln148_6_fu_5576</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95562,7 +95562,7 @@
 			</second>
 		</item>
 		<item>
-			<first>trunc_ln135_fu_4899</first>
+			<first>trunc_ln148_fu_4899</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95578,7 +95578,7 @@
 			</second>
 		</item>
 		<item>
-			<first>xor_ln119_fu_4115</first>
+			<first>xor_ln132_fu_4115</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95586,7 +95586,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln119_1_fu_4079</first>
+			<first>zext_ln132_1_fu_4079</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95594,7 +95594,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln119_fu_3997</first>
+			<first>zext_ln132_fu_3997</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95602,7 +95602,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln122_1_fu_4161</first>
+			<first>zext_ln135_1_fu_4161</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95610,7 +95610,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln122_fu_4033</first>
+			<first>zext_ln135_fu_4033</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95618,7 +95618,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln134_10_fu_4883</first>
+			<first>zext_ln147_10_fu_4883</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95626,7 +95626,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln134_11_fu_5090</first>
+			<first>zext_ln147_11_fu_5090</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95634,7 +95634,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln134_1_fu_4597</first>
+			<first>zext_ln147_1_fu_4597</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95642,7 +95642,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln134_2_fu_4452</first>
+			<first>zext_ln147_2_fu_4452</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95650,7 +95650,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln134_3_fu_4449</first>
+			<first>zext_ln147_3_fu_4449</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95658,7 +95658,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln134_4_fu_4745</first>
+			<first>zext_ln147_4_fu_4745</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95666,7 +95666,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln134_5_fu_4520</first>
+			<first>zext_ln147_5_fu_4520</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95674,7 +95674,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln134_6_fu_5102</first>
+			<first>zext_ln147_6_fu_5102</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95682,7 +95682,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln134_7_fu_5023</first>
+			<first>zext_ln147_7_fu_5023</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95690,7 +95690,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln134_8_fu_5408</first>
+			<first>zext_ln147_8_fu_5408</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95698,7 +95698,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln134_9_fu_5329</first>
+			<first>zext_ln147_9_fu_5329</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95706,7 +95706,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln134_fu_4446</first>
+			<first>zext_ln147_fu_4446</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95714,7 +95714,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln141_1_fu_5396</first>
+			<first>zext_ln154_1_fu_5396</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -95722,7 +95722,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln141_fu_5707</first>
+			<first>zext_ln154_fu_5707</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -100865,7 +100865,7 @@
 		<count>300</count>
 		<item_version>0</item_version>
 		<item>
-			<first>add_ln119_1_reg_5843</first>
+			<first>add_ln132_1_reg_5843</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -100873,7 +100873,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln119_reg_5908</first>
+			<first>add_ln132_reg_5908</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -100881,7 +100881,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln122_1_reg_5903</first>
+			<first>add_ln135_1_reg_5903</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -100889,7 +100889,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln122_reg_5864</first>
+			<first>add_ln135_reg_5864</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -100897,7 +100897,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln125_reg_5931</first>
+			<first>add_ln138_reg_5931</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -100905,7 +100905,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln134_1_reg_5891</first>
+			<first>add_ln147_1_reg_5891</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -100913,7 +100913,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln134_2_reg_5897</first>
+			<first>add_ln147_2_reg_5897</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -100921,7 +100921,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln134_4_reg_5913</first>
+			<first>add_ln147_4_reg_5913</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -100929,7 +100929,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln134_5_reg_5919</first>
+			<first>add_ln147_5_reg_5919</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -100937,7 +100937,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln141_reg_5925</first>
+			<first>add_ln154_reg_5925</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -100945,7 +100945,7 @@
 			</second>
 		</item>
 		<item>
-			<first>and_ln119_reg_5853</first>
+			<first>and_ln132_reg_5853</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -100953,7 +100953,7 @@
 			</second>
 		</item>
 		<item>
-			<first>empty_46_reg_5814</first>
+			<first>empty_47_reg_5814</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -100969,7 +100969,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln119_reg_5830</first>
+			<first>icmp_ln132_reg_5830</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -100977,7 +100977,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln122_reg_5834</first>
+			<first>icmp_ln135_reg_5834</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -103081,7 +103081,7 @@
 			</second>
 		</item>
 		<item>
-			<first>select_ln119_6_reg_5859</first>
+			<first>select_ln132_6_reg_5859</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -103089,7 +103089,7 @@
 			</second>
 		</item>
 		<item>
-			<first>select_ln122_4_reg_5881</first>
+			<first>select_ln135_4_reg_5881</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -103097,7 +103097,7 @@
 			</second>
 		</item>
 		<item>
-			<first>select_ln122_5_reg_5936</first>
+			<first>select_ln135_5_reg_5936</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -103105,7 +103105,7 @@
 			</second>
 		</item>
 		<item>
-			<first>select_ln122_reg_5869</first>
+			<first>select_ln135_reg_5869</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -103113,7 +103113,7 @@
 			</second>
 		</item>
 		<item>
-			<first>select_ln135_1_reg_6632</first>
+			<first>select_ln148_1_reg_6632</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -103121,7 +103121,7 @@
 			</second>
 		</item>
 		<item>
-			<first>select_ln135_2_reg_6971</first>
+			<first>select_ln148_2_reg_6971</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -103129,7 +103129,7 @@
 			</second>
 		</item>
 		<item>
-			<first>select_ln135_reg_6625</first>
+			<first>select_ln148_reg_6625</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -103185,7 +103185,7 @@
 			</second>
 		</item>
 		<item>
-			<first>urem_ln134_2_reg_6615</first>
+			<first>urem_ln147_2_reg_6615</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -103193,7 +103193,7 @@
 			</second>
 		</item>
 		<item>
-			<first>urem_ln134_3_reg_6620</first>
+			<first>urem_ln147_3_reg_6620</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -103201,7 +103201,7 @@
 			</second>
 		</item>
 		<item>
-			<first>urem_ln141_reg_5951</first>
+			<first>urem_ln154_reg_5951</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -103209,7 +103209,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln122_1_reg_5876</first>
+			<first>zext_ln135_1_reg_5876</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -103217,7 +103217,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln122_reg_5820</first>
+			<first>zext_ln135_reg_5820</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -103225,7 +103225,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln134_10_reg_6610</first>
+			<first>zext_ln147_10_reg_6610</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -103233,7 +103233,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln134_11_reg_6959</first>
+			<first>zext_ln147_11_reg_6959</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -103241,7 +103241,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln134_3_reg_5946</first>
+			<first>zext_ln147_3_reg_5946</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -103249,7 +103249,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln134_reg_5941</first>
+			<first>zext_ln147_reg_5941</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -103257,7 +103257,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln141_1_reg_7298</first>
+			<first>zext_ln154_1_reg_7298</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
