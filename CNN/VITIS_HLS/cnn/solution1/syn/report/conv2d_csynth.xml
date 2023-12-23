@@ -18,62 +18,42 @@
 <PipelineType>none</PipelineType>
 <SummaryOfTimingAnalysis>
 <unit>ns</unit>
-<EstimatedClockPeriod>8.449</EstimatedClockPeriod>
+<EstimatedClockPeriod>12.036</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>6562073</Best-caseLatency>
-<Average-caseLatency>6562073</Average-caseLatency>
-<Worst-caseLatency>6562073</Worst-caseLatency>
-<Best-caseRealTimeLatency>65.621 ms</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>65.621 ms</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>65.621 ms</Worst-caseRealTimeLatency>
-<Interval-min>6562073</Interval-min>
-<Interval-max>6562073</Interval-max>
+<Best-caseLatency>4630913</Best-caseLatency>
+<Average-caseLatency>4630913</Average-caseLatency>
+<Worst-caseLatency>4630913</Worst-caseLatency>
+<Best-caseRealTimeLatency>55.738 ms</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>55.738 ms</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>55.738 ms</Worst-caseRealTimeLatency>
+<Interval-min>4630913</Interval-min>
+<Interval-max>4630913</Interval-max>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
-<VITIS_LOOP_77_1_VITIS_LOOP_80_2>
-<TripCount>121</TripCount>
-<Latency>6562072</Latency>
-<AbsoluteTimeLatency>65620720</AbsoluteTimeLatency>
-<IterationLatency>54232</IterationLatency>
-<VITIS_LOOP_87_3>
-<TripCount>32</TripCount>
-<Latency>33</Latency>
-<AbsoluteTimeLatency>330</AbsoluteTimeLatency>
-<PipelineII>1</PipelineII>
-<PipelineDepth>2</PipelineDepth>
-</VITIS_LOOP_87_3>
-<VITIS_LOOP_92_4_VITIS_LOOP_95_5_VITIS_LOOP_98_6>
+<VITIS_LOOP_67_1_VITIS_LOOP_70_2_VITIS_LOOP_73_3>
+<TripCount>3872</TripCount>
+<Latency>4630912</Latency>
+<AbsoluteTimeLatency>55737656</AbsoluteTimeLatency>
+<IterationLatency>1196</IterationLatency>
+<VITIS_LOOP_78_4_VITIS_LOOP_81_5_VITIS_LOOP_84_6>
 <TripCount>288</TripCount>
-<Latency>54144</Latency>
-<AbsoluteTimeLatency>541440</AbsoluteTimeLatency>
-<IterationLatency>188</IterationLatency>
-<VITIS_LOOP_107_7>
-<TripCount>32</TripCount>
-<Latency>165</Latency>
-<AbsoluteTimeLatency>1650</AbsoluteTimeLatency>
-<PipelineII>5</PipelineII>
-<PipelineDepth>10</PipelineDepth>
-</VITIS_LOOP_107_7>
-</VITIS_LOOP_92_4_VITIS_LOOP_95_5_VITIS_LOOP_98_6>
-<VITIS_LOOP_115_8>
-<TripCount>32</TripCount>
-<Latency>46</Latency>
-<AbsoluteTimeLatency>460</AbsoluteTimeLatency>
-<PipelineII>1</PipelineII>
-<PipelineDepth>16</PipelineDepth>
-</VITIS_LOOP_115_8>
-</VITIS_LOOP_77_1_VITIS_LOOP_80_2>
+<Latency>1176</Latency>
+<AbsoluteTimeLatency>14154</AbsoluteTimeLatency>
+<PipelineII>4</PipelineII>
+<PipelineDepth>29</PipelineDepth>
+</VITIS_LOOP_78_4_VITIS_LOOP_81_5_VITIS_LOOP_84_6>
+</VITIS_LOOP_67_1_VITIS_LOOP_70_2_VITIS_LOOP_73_3>
 </SummaryOfLoopLatency>
 </PerformanceEstimates>
 
 <AreaEstimates>
 <Resources>
 <BRAM_18K>19</BRAM_18K>
-<DSP>4</DSP>
-<FF>6676</FF>
-<LUT>4581</LUT>
+<DSP>3</DSP>
+<FF>1216</FF>
+<LUT>1694</LUT>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>
@@ -153,7 +133,7 @@
 <Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_3263_p_din0</name>
+<name>grp_fu_3337_p_din0</name>
 <Object>conv2d</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -164,7 +144,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_3263_p_din1</name>
+<name>grp_fu_3337_p_din1</name>
 <Object>conv2d</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -175,7 +155,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_3263_p_opcode</name>
+<name>grp_fu_3337_p_opcode</name>
 <Object>conv2d</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -186,7 +166,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_3263_p_dout0</name>
+<name>grp_fu_3337_p_dout0</name>
 <Object>conv2d</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -197,7 +177,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_3263_p_ce</name>
+<name>grp_fu_3337_p_ce</name>
 <Object>conv2d</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -208,7 +188,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_3268_p_din0</name>
+<name>grp_fu_3341_p_din0</name>
 <Object>conv2d</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -219,7 +199,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_3268_p_din1</name>
+<name>grp_fu_3341_p_din1</name>
 <Object>conv2d</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -230,7 +210,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_3268_p_dout0</name>
+<name>grp_fu_3341_p_dout0</name>
 <Object>conv2d</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -241,7 +221,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_3268_p_ce</name>
+<name>grp_fu_3341_p_ce</name>
 <Object>conv2d</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -252,7 +232,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_3281_p_din0</name>
+<name>grp_fu_4439_p_din0</name>
 <Object>conv2d</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -263,7 +243,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_3281_p_din1</name>
+<name>grp_fu_4439_p_din1</name>
 <Object>conv2d</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -274,7 +254,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_3281_p_opcode</name>
+<name>grp_fu_4439_p_opcode</name>
 <Object>conv2d</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -285,7 +265,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_3281_p_dout0</name>
+<name>grp_fu_4439_p_dout0</name>
 <Object>conv2d</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -296,7 +276,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_3281_p_ce</name>
+<name>grp_fu_4439_p_ce</name>
 <Object>conv2d</Object>
 <Type>return value</Type>
 <Scope></Scope>

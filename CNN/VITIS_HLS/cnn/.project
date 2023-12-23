@@ -37,11 +37,6 @@
 			<location>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS/cnn/.apc/.tb</location>
 		</link>
 		<link>
-			<name>.reference/hls_stream_thread_unsafe.h</name>
-			<type>1</type>
-			<location>/tools/Xilinx/Vitis_HLS/2020.2/include/hls_stream_thread_unsafe.h</location>
-		</link>
-		<link>
 			<name>solution1/constraints</name>
 			<type>2</type>
 			<location>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS/cnn/solution1/.tcls</location>
@@ -57,14 +52,14 @@
 			<location>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/layerInfo.hpp</location>
 		</link>
 		<link>
-			<name>source/testImage.hpp</name>
-			<type>1</type>
-			<location>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/testImage.hpp</location>
-		</link>
-		<link>
 			<name>testbench/cnn_tb.cpp</name>
 			<type>1</type>
 			<location>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/cnn_tb.cpp</location>
+		</link>
+		<link>
+			<name>testbench/testImage.hpp</name>
+			<type>1</type>
+			<location>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/testImage.hpp</location>
 		</link>
 		<link>
 			<name>solution1/constraints/.xml.directive</name>

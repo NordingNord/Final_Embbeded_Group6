@@ -7,7 +7,7 @@
 
 module infer_fdiv_32ns_32ns_32_10_no_dsp_1
 #(parameter
-    ID         = 1168,
+    ID         = 1216,
     NUM_STAGE  = 10,
     din0_WIDTH = 32,
     din1_WIDTH = 32,

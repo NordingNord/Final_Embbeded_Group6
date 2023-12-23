@@ -45,12 +45,12 @@ set TargetInfo xczu3eg:-sbva484:-1-e
 set SourceFiles {sc {} c ../../../src/hls/cnn.cpp}
 set SourceFlags {sc {} c {{}}}
 set DirectiveFile /home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS/cnn/solution1/solution1.directive
-set TBFiles {verilog ../../../src/hls/cnn_tb.cpp bc ../../../src/hls/cnn_tb.cpp vhdl ../../../src/hls/cnn_tb.cpp sc ../../../src/hls/cnn_tb.cpp cas ../../../src/hls/cnn_tb.cpp c {}}
+set TBFiles {verilog {../../../src/hls/cnn_tb.cpp ../../../src/hls/testImage.hpp} bc {../../../src/hls/cnn_tb.cpp ../../../src/hls/testImage.hpp} sc {../../../src/hls/cnn_tb.cpp ../../../src/hls/testImage.hpp} vhdl {../../../src/hls/cnn_tb.cpp ../../../src/hls/testImage.hpp} c {} cas {../../../src/hls/cnn_tb.cpp ../../../src/hls/testImage.hpp}}
 set SpecLanguage C
 set TVInFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
 set TVOutFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
-set TBTops {verilog {} bc {} vhdl {} sc {} cas {} c {}}
-set TBInstNames {verilog {} bc {} vhdl {} sc {} cas {} c {}}
+set TBTops {verilog {} bc {} sc {} vhdl {} c {} cas {}}
+set TBInstNames {verilog {} bc {} sc {} vhdl {} c {} cas {}}
 set XDCFiles {}
 set ExtraGlobalOptions {"area_timing" 1 "clock_gate" 1 "impl_flow" map "power_gate" 0}
 set TBTVFileNotFound {}

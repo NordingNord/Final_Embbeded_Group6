@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'set3DFloatArray_1'
 ================================================================
-* Date:           Fri Dec 22 18:04:04 2023
+* Date:           Sat Dec 23 20:35:52 2023
 
 * Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)
 * Project:        cnn
@@ -73,7 +73,7 @@
     +----------------------------+-----------------------+---------+----+-----+-----+-----+
     |          Instance          |         Module        | BRAM_18K| DSP|  FF | LUT | URAM|
     +----------------------------+-----------------------+---------+----+-----+-----+-----+
-    |urem_12ns_7ns_12_16_1_U802  |urem_12ns_7ns_12_16_1  |        0|   0|  399|  281|    0|
+    |urem_12ns_7ns_12_16_1_U798  |urem_12ns_7ns_12_16_1  |        0|   0|  399|  281|    0|
     +----------------------------+-----------------------+---------+----+-----+-----+-----+
     |Total                       |                       |        0|   0|  399|  281|    0|
     +----------------------------+-----------------------+---------+----+-----+-----+-----+
@@ -82,8 +82,8 @@
     +-------------------------------------+--------------------------------+--------------+
     |               Instance              |             Module             |  Expression  |
     +-------------------------------------+--------------------------------+--------------+
-    |mac_muladd_4ns_10ns_6ns_12_4_1_U803  |mac_muladd_4ns_10ns_6ns_12_4_1  |  i0 + i1 * i2|
-    |mul_mul_12ns_14ns_25_4_1_U804        |mul_mul_12ns_14ns_25_4_1        |       i0 * i1|
+    |mac_muladd_4ns_10ns_6ns_12_4_1_U799  |mac_muladd_4ns_10ns_6ns_12_4_1  |  i0 + i1 * i2|
+    |mul_mul_12ns_14ns_25_4_1_U800        |mul_mul_12ns_14ns_25_4_1        |       i0 * i1|
     +-------------------------------------+--------------------------------+--------------+
 
     * Memory: 
@@ -614,7 +614,7 @@ ST_20 : Operation 83 [1/1] (0.00ns)   --->   "%empty = speclooptripcount i32 @_s
 ST_20 : Operation 84 [1/1] (0.00ns)   --->   "%specpipeline_ln0 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 1, i32 0, void @p_str"   --->   Operation 84 'specpipeline' 'specpipeline_ln0' <Predicate = (!icmp_ln8)> <Delay = 0.00>
 ST_20 : Operation 85 [1/1] (0.00ns)   --->   "%specloopname_ln0 = specloopname void @_ssdm_op_SpecLoopName, void @VITIS_LOOP_10_2_VITIS_LOOP_12_3_str"   --->   Operation 85 'specloopname' 'specloopname_ln0' <Predicate = (!icmp_ln8)> <Delay = 0.00>
 ST_20 : Operation 86 [1/1] (0.00ns)   --->   "%specpipeline_ln0 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 1, i32 0, void @p_str"   --->   Operation 86 'specpipeline' 'specpipeline_ln0' <Predicate = (!icmp_ln8)> <Delay = 0.00>
-ST_20 : Operation 87 [1/1] (0.00ns)   --->   "%specloopname_ln12 = specloopname void @_ssdm_op_SpecLoopName, void @empty_1" [../src/hls/cnn.cpp:12]   --->   Operation 87 'specloopname' 'specloopname_ln12' <Predicate = (!icmp_ln8)> <Delay = 0.00>
+ST_20 : Operation 87 [1/1] (0.00ns)   --->   "%specloopname_ln12 = specloopname void @_ssdm_op_SpecLoopName, void @empty_2" [../src/hls/cnn.cpp:12]   --->   Operation 87 'specloopname' 'specloopname_ln12' <Predicate = (!icmp_ln8)> <Delay = 0.00>
 ST_20 : Operation 88 [1/16] (1.48ns)   --->   "%urem_ln14 = urem i12 %add_ln14, i12 61" [../src/hls/cnn.cpp:14]   --->   Operation 88 'urem' 'urem_ln14' <Predicate = (!icmp_ln8)> <Delay = 1.48> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 15> <II = 1> <Delay = 1.48> <FuncUnit> <Opcode : 'sdiv' 'srem' 'udiv' 'urem'> <InPorts = 2> <OutPorts = 1>
 ST_20 : Operation 89 [1/1] (0.00ns)   --->   "%zext_ln14 = zext i12 %urem_ln14" [../src/hls/cnn.cpp:14]   --->   Operation 89 'zext' 'zext_ln14' <Predicate = (!icmp_ln8)> <Delay = 0.00>
 ST_20 : Operation 90 [1/1] (0.00ns)   --->   "%array_addr = getelementptr i32 %array_r, i64 0, i64 %zext_ln14" [../src/hls/cnn.cpp:14]   --->   Operation 90 'getelementptr' 'array_addr' <Predicate = (!icmp_ln8)> <Delay = 0.00>
@@ -2604,7 +2604,7 @@ ret_ln18            (ret              ) [ 0000000000000000000000]
 <pin id="311" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_1"/></StgValue>
+<StgValue><ssdm name="empty_2"/></StgValue>
 </bind>
 </comp>
 
@@ -5820,6 +5820,69 @@ ret_ln18            (ret              ) [ 0000000000000000000000]
 	Port: array62 | {20 }
 	Port: array63 | {20 }
  - Input state : 
+	Port: set3DFloatArray.1 : array1 | {}
+	Port: set3DFloatArray.1 : array2 | {}
+	Port: set3DFloatArray.1 : array3 | {}
+	Port: set3DFloatArray.1 : array4 | {}
+	Port: set3DFloatArray.1 : array5 | {}
+	Port: set3DFloatArray.1 : array6 | {}
+	Port: set3DFloatArray.1 : array7 | {}
+	Port: set3DFloatArray.1 : array8 | {}
+	Port: set3DFloatArray.1 : array9 | {}
+	Port: set3DFloatArray.1 : array10 | {}
+	Port: set3DFloatArray.1 : array11 | {}
+	Port: set3DFloatArray.1 : array12 | {}
+	Port: set3DFloatArray.1 : array13 | {}
+	Port: set3DFloatArray.1 : array14 | {}
+	Port: set3DFloatArray.1 : array15 | {}
+	Port: set3DFloatArray.1 : array16 | {}
+	Port: set3DFloatArray.1 : array17 | {}
+	Port: set3DFloatArray.1 : array18 | {}
+	Port: set3DFloatArray.1 : array19 | {}
+	Port: set3DFloatArray.1 : array20 | {}
+	Port: set3DFloatArray.1 : array21 | {}
+	Port: set3DFloatArray.1 : array22 | {}
+	Port: set3DFloatArray.1 : array23 | {}
+	Port: set3DFloatArray.1 : array24 | {}
+	Port: set3DFloatArray.1 : array25 | {}
+	Port: set3DFloatArray.1 : array26 | {}
+	Port: set3DFloatArray.1 : array27 | {}
+	Port: set3DFloatArray.1 : array28 | {}
+	Port: set3DFloatArray.1 : array29 | {}
+	Port: set3DFloatArray.1 : array30 | {}
+	Port: set3DFloatArray.1 : array31 | {}
+	Port: set3DFloatArray.1 : array32 | {}
+	Port: set3DFloatArray.1 : array33 | {}
+	Port: set3DFloatArray.1 : array34 | {}
+	Port: set3DFloatArray.1 : array35 | {}
+	Port: set3DFloatArray.1 : array36 | {}
+	Port: set3DFloatArray.1 : array37 | {}
+	Port: set3DFloatArray.1 : array38 | {}
+	Port: set3DFloatArray.1 : array39 | {}
+	Port: set3DFloatArray.1 : array40 | {}
+	Port: set3DFloatArray.1 : array41 | {}
+	Port: set3DFloatArray.1 : array42 | {}
+	Port: set3DFloatArray.1 : array43 | {}
+	Port: set3DFloatArray.1 : array44 | {}
+	Port: set3DFloatArray.1 : array45 | {}
+	Port: set3DFloatArray.1 : array46 | {}
+	Port: set3DFloatArray.1 : array47 | {}
+	Port: set3DFloatArray.1 : array48 | {}
+	Port: set3DFloatArray.1 : array49 | {}
+	Port: set3DFloatArray.1 : array50 | {}
+	Port: set3DFloatArray.1 : array51 | {}
+	Port: set3DFloatArray.1 : array52 | {}
+	Port: set3DFloatArray.1 : array53 | {}
+	Port: set3DFloatArray.1 : array54 | {}
+	Port: set3DFloatArray.1 : array55 | {}
+	Port: set3DFloatArray.1 : array56 | {}
+	Port: set3DFloatArray.1 : array57 | {}
+	Port: set3DFloatArray.1 : array58 | {}
+	Port: set3DFloatArray.1 : array59 | {}
+	Port: set3DFloatArray.1 : array60 | {}
+	Port: set3DFloatArray.1 : array61 | {}
+	Port: set3DFloatArray.1 : array62 | {}
+	Port: set3DFloatArray.1 : array63 | {}
   - Chain level:
 	State 1
 	State 2

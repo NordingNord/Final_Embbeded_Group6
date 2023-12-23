@@ -62,61 +62,49 @@ void conv2d(const int input_dims[3], float* input,
 			const float* bias,
             const int output_dims[3], float* output)
 {
-	const int input_dim_0 = input_dims[0];
-	const int input_dim_1 = input_dims[1];
-	const int input_dim_2 = input_dims[2];
-	const int output_dim_1 = output_dims[1];
-	const int output_dim_2 = output_dims[2];
-    const int weight_dim_1 = weight_dims[1];
-    const int weight_dim_2 = weight_dims[2];
-    const int weight_dim_3 = weight_dims[3];
-    float output_sum[MAX_CONV2D_KERNELS];
-#pragma HLS array_partition variable=output_sum block factor=32
     // Convolution
     // Input rows
-    for (int i = 1; i < input_dim_0 - 1; i++)
+    for (int i = 1; i < input_dims[0] - 1; i++)
     {
         // Input columns
-        for (int ii = 1; ii < input_dim_1 - 1; ii++)
+        for (int ii = 1; ii < input_dims[1] - 1; ii++)
         {
-
-			int output_index = (i - 1)*output_dim_1*output_dim_2 +
-				(ii - 1)*output_dim_2;
-
-			// Add bias
-			for (uint iii = 0; iii < weight_dim_3; iii++)
-			{
-				output_sum[iii] = bias[iii];
-			}
-			// Input and kernel channels
-			for (int iv = 0; iv < input_dim_2; iv++)
-			{
-				// Kernel rows
-				for (int v = -1; v < 2; v++)
-				{
-					// Kernel cols
-					for (int vi = -1; vi < 2; vi++)
-					{
-						float input_val = input[(i + v)*input_dim_1*input_dim_2 +
-							(ii + vi)*input_dim_2 +
-							iv];
-						int weight_index = (v + 1)*weight_dim_1*weight_dim_2*weight_dim_3 +
-							(vi + 1)*weight_dim_2*weight_dim_3 +
-							iv*weight_dim_3;
-						// Kernel number
-						for (uint iii = 0; iii < weight_dim_3; iii++)
-						{
-							output_sum[iii] += input_val * weights[weight_index + iii];
-						}
-					}
-				}
-			}
-			// Apply relu activiation function and assing output
-			for (uint iii = 0; iii < weight_dim_3; iii++)
-			{
-				relu(output_sum[iii])
-				output[output_index + iii] = output_sum[iii];
-			}
+            // Kernel number
+            for (int iii = 0; iii < weight_dims[3]; iii++)
+            {
+            	// Add bias
+            	float output_sum = bias[iii];
+                // Input and kernel channels
+                for (int iv = 0; iv < input_dims[2]; iv++)
+                {
+                    // Kernel rows
+                    for (int v = -1; v < 2; v++)
+                    {
+                        // Kernel cols
+                        for (int vi = -1; vi < 2; vi++)
+                        {
+                        	output_sum +=
+                                    
+                                    input[(i + v)*input_dims[1]*input_dims[2] + 
+                                    (ii + vi)*input_dims[2] + 
+                                    iv] *
+                                    
+                                    weights[(v + 1)*weight_dims[1]*weight_dims[2]*weight_dims[3] + 
+                                    (vi + 1)*weight_dims[2]*weight_dims[3] + 
+                                    iv*weight_dims[3] + 
+                                    iii];
+                            
+                        }
+                        
+                    }
+                }
+                // Apply relu activiation function
+                relu(output_sum);
+                output[(i - 1)*output_dims[1]*output_dims[2] +
+					(ii - 1)*output_dims[2] +
+					iii]
+                    = output_sum;
+            }
         }
     }
 }
@@ -294,7 +282,7 @@ void infer(hls::stream<int> &infer_input, hls::stream<float> &infer_output)
             layer_9_weights_dims, layer_9_weights,
             layer_9_bias,
             layer_9_output);
-/*
+
     // Layer 10 dense
     float layer_10_output[layer_10_output_dims[0]];
     set1DFloatArray(layer_10_output_dims, layer_10_output, 0);
@@ -312,16 +300,16 @@ void infer(hls::stream<int> &infer_input, hls::stream<float> &infer_output)
             layer_11_bias,
             layer_11_output);
 
-	*/
+	
     // Layer 12 dense
     float layer_12_output[layer_12_output_dims[0]];
     set1DFloatArray(layer_12_output_dims, layer_12_output, 0);
-    /*
+    
     dense(layer_11_output,
             layer_12_weights_dims, layer_12_weights,
             layer_12_bias,
             layer_12_output);
-	*/
+	
 
     //Send result
     for (int i = 0; i < layer_12_output_dims[0]; i++)

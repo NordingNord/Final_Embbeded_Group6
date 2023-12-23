@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'set3DFloatArray'" level="0">
-<item name = "Date">Fri Dec 22 18:04:08 2023
+<item name = "Date">Sat Dec 23 20:35:54 2023
 </item>
 <item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)</item>
 <item name = "Project">cnn</item>
@@ -62,12 +62,12 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
-<column name="urem_10ns_6ns_10_14_1_U1016">urem_10ns_6ns_10_14_1, 0, 0, 282, 194, 0</column>
+<column name="urem_10ns_6ns_10_14_1_U1011">urem_10ns_6ns_10_14_1, 0, 0, 282, 194, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">
 <keys size="3">Instance, Module, Expression</keys>
-<column name="mul_mul_10ns_12ns_21_4_1_U1017">mul_mul_10ns_12ns_21_4_1, i0 * i1</column>
+<column name="mul_mul_10ns_12ns_21_4_1_U1012">mul_mul_10ns_12ns_21_4_1, i0 * i1</column>
 </table>
 </item>
 <item name = "Memory"><table name="" hasTotal="1">

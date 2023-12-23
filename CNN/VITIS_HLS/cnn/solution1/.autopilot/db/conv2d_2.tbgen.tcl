@@ -412,20 +412,20 @@ set portList {
 	{ output_63_ce0 sc_out sc_logic 1 signal 64 } 
 	{ output_63_we0 sc_out sc_logic 1 signal 64 } 
 	{ output_63_d0 sc_out sc_lv 32 signal 64 } 
-	{ grp_fu_3263_p_din0 sc_out sc_lv 32 signal -1 } 
-	{ grp_fu_3263_p_din1 sc_out sc_lv 32 signal -1 } 
-	{ grp_fu_3263_p_opcode sc_out sc_lv 2 signal -1 } 
-	{ grp_fu_3263_p_dout0 sc_in sc_lv 32 signal -1 } 
-	{ grp_fu_3263_p_ce sc_out sc_logic 1 signal -1 } 
-	{ grp_fu_3268_p_din0 sc_out sc_lv 32 signal -1 } 
-	{ grp_fu_3268_p_din1 sc_out sc_lv 32 signal -1 } 
-	{ grp_fu_3268_p_dout0 sc_in sc_lv 32 signal -1 } 
-	{ grp_fu_3268_p_ce sc_out sc_logic 1 signal -1 } 
-	{ grp_fu_3281_p_din0 sc_out sc_lv 32 signal -1 } 
-	{ grp_fu_3281_p_din1 sc_out sc_lv 32 signal -1 } 
-	{ grp_fu_3281_p_opcode sc_out sc_lv 5 signal -1 } 
-	{ grp_fu_3281_p_dout0 sc_in sc_lv 1 signal -1 } 
-	{ grp_fu_3281_p_ce sc_out sc_logic 1 signal -1 } 
+	{ grp_fu_3337_p_din0 sc_out sc_lv 32 signal -1 } 
+	{ grp_fu_3337_p_din1 sc_out sc_lv 32 signal -1 } 
+	{ grp_fu_3337_p_opcode sc_out sc_lv 2 signal -1 } 
+	{ grp_fu_3337_p_dout0 sc_in sc_lv 32 signal -1 } 
+	{ grp_fu_3337_p_ce sc_out sc_logic 1 signal -1 } 
+	{ grp_fu_3341_p_din0 sc_out sc_lv 32 signal -1 } 
+	{ grp_fu_3341_p_din1 sc_out sc_lv 32 signal -1 } 
+	{ grp_fu_3341_p_dout0 sc_in sc_lv 32 signal -1 } 
+	{ grp_fu_3341_p_ce sc_out sc_logic 1 signal -1 } 
+	{ grp_fu_4439_p_din0 sc_out sc_lv 32 signal -1 } 
+	{ grp_fu_4439_p_din1 sc_out sc_lv 32 signal -1 } 
+	{ grp_fu_4439_p_opcode sc_out sc_lv 5 signal -1 } 
+	{ grp_fu_4439_p_dout0 sc_in sc_lv 1 signal -1 } 
+	{ grp_fu_4439_p_ce sc_out sc_logic 1 signal -1 } 
 }
 set NewPortList {[ 
 	{ "name": "ap_clk", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "clock", "bundle":{"name": "ap_clk", "role": "default" }} , 
@@ -693,29 +693,29 @@ set NewPortList {[
  	{ "name": "output_63_ce0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "output_63", "role": "ce0" }} , 
  	{ "name": "output_63_we0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "output_63", "role": "we0" }} , 
  	{ "name": "output_63_d0", "direction": "out", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "output_63", "role": "d0" }} , 
- 	{ "name": "grp_fu_3263_p_din0", "direction": "out", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "grp_fu_3263_p_din0", "role": "default" }} , 
- 	{ "name": "grp_fu_3263_p_din1", "direction": "out", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "grp_fu_3263_p_din1", "role": "default" }} , 
- 	{ "name": "grp_fu_3263_p_opcode", "direction": "out", "datatype": "sc_lv", "bitwidth":2, "type": "signal", "bundle":{"name": "grp_fu_3263_p_opcode", "role": "default" }} , 
- 	{ "name": "grp_fu_3263_p_dout0", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "grp_fu_3263_p_dout0", "role": "default" }} , 
- 	{ "name": "grp_fu_3263_p_ce", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "grp_fu_3263_p_ce", "role": "default" }} , 
- 	{ "name": "grp_fu_3268_p_din0", "direction": "out", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "grp_fu_3268_p_din0", "role": "default" }} , 
- 	{ "name": "grp_fu_3268_p_din1", "direction": "out", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "grp_fu_3268_p_din1", "role": "default" }} , 
- 	{ "name": "grp_fu_3268_p_dout0", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "grp_fu_3268_p_dout0", "role": "default" }} , 
- 	{ "name": "grp_fu_3268_p_ce", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "grp_fu_3268_p_ce", "role": "default" }} , 
- 	{ "name": "grp_fu_3281_p_din0", "direction": "out", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "grp_fu_3281_p_din0", "role": "default" }} , 
- 	{ "name": "grp_fu_3281_p_din1", "direction": "out", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "grp_fu_3281_p_din1", "role": "default" }} , 
- 	{ "name": "grp_fu_3281_p_opcode", "direction": "out", "datatype": "sc_lv", "bitwidth":5, "type": "signal", "bundle":{"name": "grp_fu_3281_p_opcode", "role": "default" }} , 
- 	{ "name": "grp_fu_3281_p_dout0", "direction": "in", "datatype": "sc_lv", "bitwidth":1, "type": "signal", "bundle":{"name": "grp_fu_3281_p_dout0", "role": "default" }} , 
- 	{ "name": "grp_fu_3281_p_ce", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "grp_fu_3281_p_ce", "role": "default" }}  ]}
+ 	{ "name": "grp_fu_3337_p_din0", "direction": "out", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "grp_fu_3337_p_din0", "role": "default" }} , 
+ 	{ "name": "grp_fu_3337_p_din1", "direction": "out", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "grp_fu_3337_p_din1", "role": "default" }} , 
+ 	{ "name": "grp_fu_3337_p_opcode", "direction": "out", "datatype": "sc_lv", "bitwidth":2, "type": "signal", "bundle":{"name": "grp_fu_3337_p_opcode", "role": "default" }} , 
+ 	{ "name": "grp_fu_3337_p_dout0", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "grp_fu_3337_p_dout0", "role": "default" }} , 
+ 	{ "name": "grp_fu_3337_p_ce", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "grp_fu_3337_p_ce", "role": "default" }} , 
+ 	{ "name": "grp_fu_3341_p_din0", "direction": "out", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "grp_fu_3341_p_din0", "role": "default" }} , 
+ 	{ "name": "grp_fu_3341_p_din1", "direction": "out", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "grp_fu_3341_p_din1", "role": "default" }} , 
+ 	{ "name": "grp_fu_3341_p_dout0", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "grp_fu_3341_p_dout0", "role": "default" }} , 
+ 	{ "name": "grp_fu_3341_p_ce", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "grp_fu_3341_p_ce", "role": "default" }} , 
+ 	{ "name": "grp_fu_4439_p_din0", "direction": "out", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "grp_fu_4439_p_din0", "role": "default" }} , 
+ 	{ "name": "grp_fu_4439_p_din1", "direction": "out", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "grp_fu_4439_p_din1", "role": "default" }} , 
+ 	{ "name": "grp_fu_4439_p_opcode", "direction": "out", "datatype": "sc_lv", "bitwidth":5, "type": "signal", "bundle":{"name": "grp_fu_4439_p_opcode", "role": "default" }} , 
+ 	{ "name": "grp_fu_4439_p_dout0", "direction": "in", "datatype": "sc_lv", "bitwidth":1, "type": "signal", "bundle":{"name": "grp_fu_4439_p_dout0", "role": "default" }} , 
+ 	{ "name": "grp_fu_4439_p_ce", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "grp_fu_4439_p_ce", "role": "default" }}  ]}
 
 set RtlHierarchyInfo {[
-	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "", "Child" : ["1", "2", "3", "4", "5", "6", "7"],
+	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "", "Child" : ["1", "2", "3", "4", "5", "6"],
 		"CDFG" : "conv2d_2",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
 		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "5177197", "EstimateLatencyMax" : "5177197",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "6997121", "EstimateLatencyMax" : "6997121",
 		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
@@ -788,98 +788,95 @@ set RtlHierarchyInfo {[
 			{"Name" : "output_61", "Type" : "Memory", "Direction" : "O"},
 			{"Name" : "output_62", "Type" : "Memory", "Direction" : "O"},
 			{"Name" : "output_63", "Type" : "Memory", "Direction" : "O"},
-			{"Name" : "layer_2_bias", "Type" : "Memory", "Direction" : "I"},
-			{"Name" : "layer_2_weights", "Type" : "Memory", "Direction" : "I"}]},
-	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.layer_2_bias_U", "Parent" : "0"},
-	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.layer_2_weights_U", "Parent" : "0"},
-	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mux_325_32_1_1_U74", "Parent" : "0"},
-	{"ID" : "4", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.urem_17ns_12ns_17_21_1_U75", "Parent" : "0"},
-	{"ID" : "5", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mux_325_32_1_1_U76", "Parent" : "0"},
-	{"ID" : "6", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_6ns_7ns_7s_12_4_1_U77", "Parent" : "0"},
-	{"ID" : "7", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_mul_17ns_19ns_35_4_1_U78", "Parent" : "0"}]}
+			{"Name" : "layer_2_weights", "Type" : "Memory", "Direction" : "I"},
+			{"Name" : "layer_2_bias", "Type" : "Memory", "Direction" : "I"}]},
+	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.layer_2_weights_U", "Parent" : "0"},
+	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.layer_2_bias_U", "Parent" : "0"},
+	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_6ns_7ns_12_1_1_U74", "Parent" : "0"},
+	{"ID" : "4", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_6ns_7ns_12_1_1_U75", "Parent" : "0"},
+	{"ID" : "5", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.urem_17ns_12ns_17_21_seq_1_U76", "Parent" : "0"},
+	{"ID" : "6", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_mul_17ns_19ns_35_4_1_U77", "Parent" : "0"}]}
 
 
 set ArgLastReadFirstWriteLatency {
 	conv2d_2 {
-		input_r {Type I LastRead 8 FirstWrite -1}
-		output_0 {Type O LastRead -1 FirstWrite 35}
-		output_1 {Type O LastRead -1 FirstWrite 35}
-		output_2 {Type O LastRead -1 FirstWrite 35}
-		output_3 {Type O LastRead -1 FirstWrite 35}
-		output_4 {Type O LastRead -1 FirstWrite 35}
-		output_5 {Type O LastRead -1 FirstWrite 35}
-		output_6 {Type O LastRead -1 FirstWrite 35}
-		output_7 {Type O LastRead -1 FirstWrite 35}
-		output_8 {Type O LastRead -1 FirstWrite 35}
-		output_9 {Type O LastRead -1 FirstWrite 35}
-		output_10 {Type O LastRead -1 FirstWrite 35}
-		output_11 {Type O LastRead -1 FirstWrite 35}
-		output_12 {Type O LastRead -1 FirstWrite 35}
-		output_13 {Type O LastRead -1 FirstWrite 35}
-		output_14 {Type O LastRead -1 FirstWrite 35}
-		output_15 {Type O LastRead -1 FirstWrite 35}
-		output_16 {Type O LastRead -1 FirstWrite 35}
-		output_17 {Type O LastRead -1 FirstWrite 35}
-		output_18 {Type O LastRead -1 FirstWrite 35}
-		output_19 {Type O LastRead -1 FirstWrite 35}
-		output_20 {Type O LastRead -1 FirstWrite 35}
-		output_21 {Type O LastRead -1 FirstWrite 35}
-		output_22 {Type O LastRead -1 FirstWrite 35}
-		output_23 {Type O LastRead -1 FirstWrite 35}
-		output_24 {Type O LastRead -1 FirstWrite 35}
-		output_25 {Type O LastRead -1 FirstWrite 35}
-		output_26 {Type O LastRead -1 FirstWrite 35}
-		output_27 {Type O LastRead -1 FirstWrite 35}
-		output_28 {Type O LastRead -1 FirstWrite 35}
-		output_29 {Type O LastRead -1 FirstWrite 35}
-		output_30 {Type O LastRead -1 FirstWrite 35}
-		output_31 {Type O LastRead -1 FirstWrite 35}
-		output_32 {Type O LastRead -1 FirstWrite 35}
-		output_33 {Type O LastRead -1 FirstWrite 35}
-		output_34 {Type O LastRead -1 FirstWrite 35}
-		output_35 {Type O LastRead -1 FirstWrite 35}
-		output_36 {Type O LastRead -1 FirstWrite 35}
-		output_37 {Type O LastRead -1 FirstWrite 35}
-		output_38 {Type O LastRead -1 FirstWrite 35}
-		output_39 {Type O LastRead -1 FirstWrite 35}
-		output_40 {Type O LastRead -1 FirstWrite 35}
-		output_41 {Type O LastRead -1 FirstWrite 35}
-		output_42 {Type O LastRead -1 FirstWrite 35}
-		output_43 {Type O LastRead -1 FirstWrite 35}
-		output_44 {Type O LastRead -1 FirstWrite 35}
-		output_45 {Type O LastRead -1 FirstWrite 35}
-		output_46 {Type O LastRead -1 FirstWrite 35}
-		output_47 {Type O LastRead -1 FirstWrite 35}
-		output_48 {Type O LastRead -1 FirstWrite 35}
-		output_49 {Type O LastRead -1 FirstWrite 35}
-		output_50 {Type O LastRead -1 FirstWrite 35}
-		output_51 {Type O LastRead -1 FirstWrite 35}
-		output_52 {Type O LastRead -1 FirstWrite 35}
-		output_53 {Type O LastRead -1 FirstWrite 35}
-		output_54 {Type O LastRead -1 FirstWrite 35}
-		output_55 {Type O LastRead -1 FirstWrite 35}
-		output_56 {Type O LastRead -1 FirstWrite 35}
-		output_57 {Type O LastRead -1 FirstWrite 35}
-		output_58 {Type O LastRead -1 FirstWrite 35}
-		output_59 {Type O LastRead -1 FirstWrite 35}
-		output_60 {Type O LastRead -1 FirstWrite 35}
-		output_61 {Type O LastRead -1 FirstWrite 35}
-		output_62 {Type O LastRead -1 FirstWrite 35}
-		output_63 {Type O LastRead -1 FirstWrite 35}
-		layer_2_bias {Type I LastRead -1 FirstWrite -1}
-		layer_2_weights {Type I LastRead -1 FirstWrite -1}}}
+		input_r {Type I LastRead 3 FirstWrite -1}
+		output_0 {Type O LastRead -1 FirstWrite 24}
+		output_1 {Type O LastRead -1 FirstWrite 24}
+		output_2 {Type O LastRead -1 FirstWrite 24}
+		output_3 {Type O LastRead -1 FirstWrite 24}
+		output_4 {Type O LastRead -1 FirstWrite 24}
+		output_5 {Type O LastRead -1 FirstWrite 24}
+		output_6 {Type O LastRead -1 FirstWrite 24}
+		output_7 {Type O LastRead -1 FirstWrite 24}
+		output_8 {Type O LastRead -1 FirstWrite 24}
+		output_9 {Type O LastRead -1 FirstWrite 24}
+		output_10 {Type O LastRead -1 FirstWrite 24}
+		output_11 {Type O LastRead -1 FirstWrite 24}
+		output_12 {Type O LastRead -1 FirstWrite 24}
+		output_13 {Type O LastRead -1 FirstWrite 24}
+		output_14 {Type O LastRead -1 FirstWrite 24}
+		output_15 {Type O LastRead -1 FirstWrite 24}
+		output_16 {Type O LastRead -1 FirstWrite 24}
+		output_17 {Type O LastRead -1 FirstWrite 24}
+		output_18 {Type O LastRead -1 FirstWrite 24}
+		output_19 {Type O LastRead -1 FirstWrite 24}
+		output_20 {Type O LastRead -1 FirstWrite 24}
+		output_21 {Type O LastRead -1 FirstWrite 24}
+		output_22 {Type O LastRead -1 FirstWrite 24}
+		output_23 {Type O LastRead -1 FirstWrite 24}
+		output_24 {Type O LastRead -1 FirstWrite 24}
+		output_25 {Type O LastRead -1 FirstWrite 24}
+		output_26 {Type O LastRead -1 FirstWrite 24}
+		output_27 {Type O LastRead -1 FirstWrite 24}
+		output_28 {Type O LastRead -1 FirstWrite 24}
+		output_29 {Type O LastRead -1 FirstWrite 24}
+		output_30 {Type O LastRead -1 FirstWrite 24}
+		output_31 {Type O LastRead -1 FirstWrite 24}
+		output_32 {Type O LastRead -1 FirstWrite 24}
+		output_33 {Type O LastRead -1 FirstWrite 24}
+		output_34 {Type O LastRead -1 FirstWrite 24}
+		output_35 {Type O LastRead -1 FirstWrite 24}
+		output_36 {Type O LastRead -1 FirstWrite 24}
+		output_37 {Type O LastRead -1 FirstWrite 24}
+		output_38 {Type O LastRead -1 FirstWrite 24}
+		output_39 {Type O LastRead -1 FirstWrite 24}
+		output_40 {Type O LastRead -1 FirstWrite 24}
+		output_41 {Type O LastRead -1 FirstWrite 24}
+		output_42 {Type O LastRead -1 FirstWrite 24}
+		output_43 {Type O LastRead -1 FirstWrite 24}
+		output_44 {Type O LastRead -1 FirstWrite 24}
+		output_45 {Type O LastRead -1 FirstWrite 24}
+		output_46 {Type O LastRead -1 FirstWrite 24}
+		output_47 {Type O LastRead -1 FirstWrite 24}
+		output_48 {Type O LastRead -1 FirstWrite 24}
+		output_49 {Type O LastRead -1 FirstWrite 24}
+		output_50 {Type O LastRead -1 FirstWrite 24}
+		output_51 {Type O LastRead -1 FirstWrite 24}
+		output_52 {Type O LastRead -1 FirstWrite 24}
+		output_53 {Type O LastRead -1 FirstWrite 24}
+		output_54 {Type O LastRead -1 FirstWrite 24}
+		output_55 {Type O LastRead -1 FirstWrite 24}
+		output_56 {Type O LastRead -1 FirstWrite 24}
+		output_57 {Type O LastRead -1 FirstWrite 24}
+		output_58 {Type O LastRead -1 FirstWrite 24}
+		output_59 {Type O LastRead -1 FirstWrite 24}
+		output_60 {Type O LastRead -1 FirstWrite 24}
+		output_61 {Type O LastRead -1 FirstWrite 24}
+		output_62 {Type O LastRead -1 FirstWrite 24}
+		output_63 {Type O LastRead -1 FirstWrite 24}
+		layer_2_weights {Type I LastRead -1 FirstWrite -1}
+		layer_2_bias {Type I LastRead -1 FirstWrite -1}}}
 
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "5177197", "Max" : "5177197"}
-	, {"Name" : "Interval", "Min" : "5177197", "Max" : "5177197"}
+	{"Name" : "Latency", "Min" : "6997121", "Max" : "6997121"}
+	, {"Name" : "Interval", "Min" : "6997121", "Max" : "6997121"}
 ]}
 
 set PipelineEnableSignalInfo {[
 	{"Pipeline" : "0", "EnableSignal" : "ap_enable_pp0"}
-	{"Pipeline" : "1", "EnableSignal" : "ap_enable_pp1"}
-	{"Pipeline" : "2", "EnableSignal" : "ap_enable_pp2"}
 ]}
 
 set Spec2ImplPortList { 
