@@ -73224,32 +73224,7 @@ constexpr float layer_12_bias[4] = {
 };
 constexpr int layer_12_output_dims[1] = {4};
 # 3 "../src/hls/cnn.cpp" 2
-
-
-
-void set3DFloatArray(const int array_dims[3], float* array, float value)
-{
- set3DFloatArray1: for (int i = 0; i < array_dims[0]; i++)
-    {
-  set3DFloatArray1_2: for (int ii = 0; ii < array_dims[1]; ii++)
-        {
-   set3DFloatArray1_3: for (int iii = 0; iii < array_dims[2]; iii++)
-            {
-                array[i*array_dims[1]*array_dims[2] + ii*array_dims[2] + iii] = value;
-            }
-        }
-    }
-}
-
-void set1DFloatArray(const int* array_length, float* array, float value)
-{
- set1DFloatArray1: for (int i = 0; i < array_length[0]; i++)
-    {
-        array[i] = value;
-    }
-
-}
-
+# 29 "../src/hls/cnn.cpp"
 void rescale(const int array_dims[3], float* array)
 {
  rescale1: for (int i = 0; i < array_dims[0]; i++)
@@ -73436,9 +73411,7 @@ __attribute__((sdx_kernel("infer", 0))) void infer(hls::stream<int> &infer_input
 
 
 
-    float layer_2_output[layer_2_output_dims[0]*layer_2_output_dims[1]*layer_2_output_dims[2]];
-
-    layer_2_set3DFloatArray: set3DFloatArray(layer_2_output_dims, layer_2_output, 0);
+    float layer_2_output[layer_2_output_dims[0]*layer_2_output_dims[1]*layer_2_output_dims[2]] = {};
 
     layer_2_conv2d: conv2d(model_input_dims, image_input,
             layer_2_weights_dims, layer_2_weights,
@@ -73447,18 +73420,14 @@ __attribute__((sdx_kernel("infer", 0))) void infer(hls::stream<int> &infer_input
 
 
 
-    float layer_3_output[layer_3_output_dims[0]*layer_3_output_dims[1]*layer_3_output_dims[2]];
-
-    layer_3_set3DFloatArray: set3DFloatArray(layer_3_output_dims, layer_3_output, 0);
+    float layer_3_output[layer_3_output_dims[0]*layer_3_output_dims[1]*layer_3_output_dims[2]] = {};
 
     layer_3_max_pooling2d: max_pooling2d(layer_2_output_dims, layer_2_output,
                 layer_3_output_dims, layer_3_output);
 
 
 
-    float layer_4_output[layer_4_output_dims[0]*layer_4_output_dims[1]*layer_4_output_dims[2]];
-
-    layer_4_set3DFloatArray: set3DFloatArray(layer_4_output_dims, layer_4_output, 0);
+    float layer_4_output[layer_4_output_dims[0]*layer_4_output_dims[1]*layer_4_output_dims[2]] = {};
 
     layer_4_conv2d: conv2d(layer_3_output_dims, layer_3_output,
             layer_4_weights_dims, layer_4_weights,
@@ -73467,18 +73436,14 @@ __attribute__((sdx_kernel("infer", 0))) void infer(hls::stream<int> &infer_input
 
 
 
-    float layer_5_output[layer_5_output_dims[0]*layer_5_output_dims[1]*layer_5_output_dims[2]];
-
-    layer_5_set3DFloatArray: set3DFloatArray(layer_5_output_dims, layer_5_output, 0);
+    float layer_5_output[layer_5_output_dims[0]*layer_5_output_dims[1]*layer_5_output_dims[2]] = {};
 
     layer_5_max_pooling2d: max_pooling2d(layer_4_output_dims, layer_4_output,
                 layer_5_output_dims, layer_5_output);
 
 
 
-    float layer_6_output[layer_6_output_dims[0]*layer_6_output_dims[1]*layer_6_output_dims[2]];
-
-    layer_6_set3DFloatArray: set3DFloatArray(layer_6_output_dims, layer_6_output, 0);
+    float layer_6_output[layer_6_output_dims[0]*layer_6_output_dims[1]*layer_6_output_dims[2]] = {};
 
     layer_6_conv2d: conv2d(layer_5_output_dims, layer_5_output,
             layer_6_weights_dims, layer_6_weights,
@@ -73487,9 +73452,7 @@ __attribute__((sdx_kernel("infer", 0))) void infer(hls::stream<int> &infer_input
 
 
 
-    float layer_7_output[layer_7_output_dims[0]*layer_7_output_dims[1]*layer_7_output_dims[2]];
-
-    layer_7_set3DFloatArray: set3DFloatArray(layer_7_output_dims, layer_7_output, 0);
+    float layer_7_output[layer_7_output_dims[0]*layer_7_output_dims[1]*layer_7_output_dims[2]] = {};
 
     layer_7_max_pooling2d: max_pooling2d(layer_6_output_dims, layer_6_output,
                 layer_7_output_dims, layer_7_output);
@@ -73499,18 +73462,16 @@ __attribute__((sdx_kernel("infer", 0))) void infer(hls::stream<int> &infer_input
 
 
 
-    float layer_9_output[layer_9_output_dims[0]];
+    float layer_9_output[layer_9_output_dims[0]] = {};
 
-    layer_9_set1DFloatArray: set1DFloatArray(layer_9_output_dims, layer_9_output, 0);
     layer_9_dense_relu: dense_relu(layer_7_output,
             layer_9_weights_dims, layer_9_weights,
             layer_9_bias,
             layer_9_output);
 
 
-    float layer_10_output[layer_10_output_dims[0]];
+    float layer_10_output[layer_10_output_dims[0]] = {};
 
-    layer_10_set1DFloatArray: set1DFloatArray(layer_10_output_dims, layer_10_output, 0);
     layer_10_dense_relu: dense_relu(layer_9_output,
             layer_10_weights_dims, layer_10_weights,
             layer_10_bias,
@@ -73518,9 +73479,8 @@ __attribute__((sdx_kernel("infer", 0))) void infer(hls::stream<int> &infer_input
 
 
 
-    float layer_11_output[layer_11_output_dims[0]];
+    float layer_11_output[layer_11_output_dims[0]] = {};
 
-    layer_11_set1DFloatArray: set1DFloatArray(layer_11_output_dims, layer_11_output, 0);
     layer_11_dense_relu: dense_relu(layer_10_output,
             layer_11_weights_dims, layer_11_weights,
             layer_11_bias,
@@ -73528,9 +73488,8 @@ __attribute__((sdx_kernel("infer", 0))) void infer(hls::stream<int> &infer_input
 
 
 
-    float layer_12_output[layer_12_output_dims[0]];
+    float layer_12_output[layer_12_output_dims[0]] = {};
 
-    layer_12_set1DFloatArray: set1DFloatArray(layer_12_output_dims, layer_12_output, 0);
 
     layer_12_dense: dense(layer_11_output,
             layer_12_weights_dims, layer_12_weights,

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1703374818517">
-  <ports id="1" name="input_r" type="PortType" originalName="input" coreName="RAM" coreId="625" bitwidth="32" iftype="IfTypeRegister" arraysize="800">
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1703376925035">
+  <ports id="1" name="input_r" type="PortType" originalName="input" coreName="RAM" coreId="0" bitwidth="32" iftype="IfTypeRegister" arraysize="800">
     <dataOutputObjs>getelementptr</dataOutputObjs>
   </ports>
-  <ports id="2" name="output_r" type="PortType" originalName="output" coreName="RAM" coreId="13" bitwidth="32" direction="DirInOut" iftype="IfTypeRegister" arraysize="64">
+  <ports id="2" name="output_r" type="PortType" originalName="output" coreName="RAM" coreId="177" bitwidth="32" direction="DirInOut" iftype="IfTypeRegister" arraysize="64">
     <dataInputObjs>getelementptr</dataInputObjs>
     <dataOutputObjs>getelementptr</dataOutputObjs>
   </ports>
@@ -104,7 +104,7 @@
     <controlOutputObjs>br</controlOutputObjs>
     <controlOutputObjs>._crit_edge7.loopexit</controlOutputObjs>
     <controlOutputObjs>.split2</controlOutputObjs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="9" name="i" lineNumber="155" originalName="i" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="20088528" contextFuncName="dense_relu" bitwidth="7" opcode="phi" nodeLabel="1.0" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="9" name="i" lineNumber="155" originalName="i" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="113" contextFuncName="dense_relu" bitwidth="7" opcode="phi" nodeLabel="1.0" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="155" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="dense_relu"/>
       <dataInputObjs>add</dataInputObjs>
       <dataOutputObjs>add</dataOutputObjs>
@@ -121,13 +121,13 @@
       <dataOutputObjs>phi</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="11" name="icmp_ln155" lineNumber="155" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln155_fu_168_p2" opType="icmp" coreId="113" contextFuncName="dense_relu" bitwidth="1" opcode="icmp" nodeLabel="1.0" m_display="0" m_delay="0.86" m_topoIndex="4" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="11" name="icmp_ln155" lineNumber="155" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln155_fu_168_p2" opType="icmp" coreId="1869574239" contextFuncName="dense_relu" bitwidth="1" opcode="icmp" nodeLabel="1.0" m_display="0" m_delay="0.86" m_topoIndex="4" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="155" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="dense_relu"/>
       <dataInputObjs>phi</dataInputObjs>
       <dataOutputObjs>br</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="13" name="br_ln155" lineNumber="155" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="544370534" contextFuncName="dense_relu" opcode="br" nodeLabel="1.0" m_display="0" m_topoIndex="5" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="13" name="br_ln155" lineNumber="155" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="401" contextFuncName="dense_relu" opcode="br" nodeLabel="1.0" m_display="0" m_topoIndex="5" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="155" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="dense_relu"/>
       <dataInputObjs>icmp</dataInputObjs>
       <controlInputObjs>.split2</controlInputObjs>
@@ -143,18 +143,18 @@
     <controlOutputObjs>phi</controlOutputObjs>
     <controlOutputObjs>phi</controlOutputObjs>
     <controlOutputObjs>block_29</controlOutputObjs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="15" name="zext_ln155" lineNumber="155" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="zext_ln155_fu_174_p1" coreId="49" contextFuncName="dense_relu" bitwidth="64" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="6" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="15" name="zext_ln155" lineNumber="155" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="zext_ln155_fu_174_p1" coreId="0" contextFuncName="dense_relu" bitwidth="64" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="6" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="155" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="dense_relu"/>
       <dataInputObjs>phi</dataInputObjs>
       <dataOutputObjs>getelementptr</dataOutputObjs>
       <dataOutputObjs>getelementptr</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="16" name="zext_ln155_1" lineNumber="155" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="zext_ln155_1_fu_179_p1" coreId="132" contextFuncName="dense_relu" bitwidth="16" opcode="zext" nodeLabel="2.0" m_display="0" m_topoIndex="10" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="16" name="zext_ln155_1" lineNumber="155" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="zext_ln155_1_fu_179_p1" coreId="2097851456" contextFuncName="dense_relu" bitwidth="16" opcode="zext" nodeLabel="2.0" m_display="0" m_topoIndex="10" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="155" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="dense_relu"/>
       <dataInputObjs>phi</dataInputObjs>
       <dataOutputObjs>add</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="18" name="output_addr" lineNumber="155" originalName="input" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="808598902" contextFuncName="dense_relu" bitwidth="6" opcode="getelementptr" nodeLabel="1.0" m_display="0" m_topoIndex="7" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="18" name="output_addr" lineNumber="155" originalName="input" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="49" contextFuncName="dense_relu" bitwidth="6" opcode="getelementptr" nodeLabel="1.0" m_display="0" m_topoIndex="7" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="155" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="dense_relu"/>
       <dataInputObjs>output_r</dataInputObjs>
       <dataInputObjs>zext</dataInputObjs>
@@ -169,7 +169,7 @@
       <dataInputObjs>getelementptr</dataInputObjs>
       <dataOutputObjs>phi</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="20" name="br_ln157" lineNumber="157" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="1869182049" contextFuncName="dense_relu" opcode="br" nodeLabel="2.0" m_display="0" m_delay="0.48" m_topoIndex="11" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="20" name="br_ln157" lineNumber="157" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="49" contextFuncName="dense_relu" opcode="br" nodeLabel="2.0" m_display="0" m_delay="0.48" m_topoIndex="11" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="157" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="dense_relu"/>
       <controlInputObjs>block_29</controlInputObjs>
     </node_objs>
@@ -184,7 +184,7 @@
     <controlOutputObjs>br</controlOutputObjs>
     <controlOutputObjs>block_59</controlOutputObjs>
     <controlOutputObjs>_Z4reluRf.exit</controlOutputObjs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="43" name="layer_9_bias_addr" lineNumber="162" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="11" contextFuncName="dense_relu" bitwidth="6" opcode="getelementptr" nodeLabel="13.0" m_display="0" m_topoIndex="28" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="43" name="layer_9_bias_addr" lineNumber="162" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="132" contextFuncName="dense_relu" bitwidth="6" opcode="getelementptr" nodeLabel="13.0" m_display="0" m_topoIndex="28" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="162" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="dense_relu"/>
       <dataInputObjs>zext</dataInputObjs>
       <dataOutputObjs>load</dataOutputObjs>
@@ -208,54 +208,54 @@
       <dataInputObjs>fadd</dataInputObjs>
       <dataInputObjs>getelementptr</dataInputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="47" name="bitcast_ln49" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="bitcast_ln49_fu_218_p1" coreId="20991392" contextFuncName="relu" bitwidth="32" opcode="bitcast" nodeLabel="20.0" m_display="0" m_topoIndex="32" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="47" name="bitcast_ln49" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="bitcast_ln49_fu_218_p1" coreId="0" contextFuncName="relu" bitwidth="32" opcode="bitcast" nodeLabel="20.0" m_display="0" m_topoIndex="32" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="49" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="relu"/>
       <dataInputObjs>fadd</dataInputObjs>
       <dataOutputObjs>partselect</dataOutputObjs>
       <dataOutputObjs>trunc</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="48" name="tmp" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_fu_221_p4" coreId="0" contextFuncName="relu" bitwidth="8" opcode="partselect" nodeLabel="20.0" m_display="0" m_topoIndex="33" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="48" name="tmp" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_fu_221_p4" coreId="49" contextFuncName="relu" bitwidth="8" opcode="partselect" nodeLabel="20.0" m_display="0" m_topoIndex="33" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="49" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="relu"/>
       <dataInputObjs>bitcast</dataInputObjs>
       <dataOutputObjs>icmp</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="49" name="trunc_ln49" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="trunc_ln49_fu_231_p1" coreId="0" contextFuncName="relu" bitwidth="23" opcode="trunc" nodeLabel="20.0" m_display="0" m_topoIndex="34" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="49" name="trunc_ln49" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="trunc_ln49_fu_231_p1" coreId="30" contextFuncName="relu" bitwidth="23" opcode="trunc" nodeLabel="20.0" m_display="0" m_topoIndex="34" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="49" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="relu"/>
       <dataInputObjs>bitcast</dataInputObjs>
       <dataOutputObjs>icmp</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="50" name="icmp_ln49" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln49_fu_235_p2" opType="icmp" coreId="0" contextFuncName="relu" bitwidth="1" opcode="icmp" nodeLabel="20.0" m_display="0" m_delay="0.85" m_topoIndex="35" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="50" name="icmp_ln49" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln49_fu_235_p2" opType="icmp" coreId="2273" contextFuncName="relu" bitwidth="1" opcode="icmp" nodeLabel="20.0" m_display="0" m_delay="0.85" m_topoIndex="35" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="49" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="relu"/>
       <dataInputObjs>partselect</dataInputObjs>
       <dataOutputObjs>or</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="51" name="icmp_ln49_1" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln49_1_fu_241_p2" opType="icmp" coreId="0" contextFuncName="relu" bitwidth="1" opcode="icmp" nodeLabel="20.0" m_display="0" m_delay="0.97" m_topoIndex="36" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="51" name="icmp_ln49_1" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln49_1_fu_241_p2" opType="icmp" coreId="2751463552" contextFuncName="relu" bitwidth="1" opcode="icmp" nodeLabel="20.0" m_display="0" m_delay="0.97" m_topoIndex="36" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="49" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="relu"/>
       <dataInputObjs>trunc</dataInputObjs>
       <dataOutputObjs>or</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="52" name="or_ln49" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln49_fu_247_p2" opType="or" coreId="132" contextFuncName="relu" bitwidth="1" opcode="or" nodeLabel="21.0" m_display="0" m_topoIndex="38" m_clusterGroupNumber="1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="52" name="or_ln49" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln49_fu_247_p2" opType="or" coreId="2273" contextFuncName="relu" bitwidth="1" opcode="or" nodeLabel="21.0" m_display="0" m_topoIndex="38" m_clusterGroupNumber="1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="49" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="relu"/>
       <dataInputObjs>icmp</dataInputObjs>
       <dataInputObjs>icmp</dataInputObjs>
       <dataOutputObjs>and</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="53" name="tmp_s" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." opType="fcmp" coreId="19793785" contextFuncName="relu" bitwidth="1" opcode="fcmp" nodeLabel="20.0" nodeLatency="1" m_display="0" m_delay="3.34" m_topoIndex="37" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="53" name="tmp_s" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." opType="fcmp" coreId="2098413512" contextFuncName="relu" bitwidth="1" opcode="fcmp" nodeLabel="20.0" nodeLatency="1" m_display="0" m_delay="3.34" m_topoIndex="37" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="49" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="relu"/>
       <dataInputObjs>fadd</dataInputObjs>
       <dataOutputObjs>and</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="54" name="and_ln49" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="and_ln49_fu_251_p2" opType="and" coreId="132" contextFuncName="relu" bitwidth="1" opcode="and" nodeLabel="21.0" m_display="0" m_delay="0.33" m_topoIndex="39" m_clusterGroupNumber="1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="54" name="and_ln49" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="and_ln49_fu_251_p2" opType="and" coreId="49" contextFuncName="relu" bitwidth="1" opcode="and" nodeLabel="21.0" m_display="0" m_delay="0.33" m_topoIndex="39" m_clusterGroupNumber="1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="49" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="relu"/>
       <dataInputObjs>or</dataInputObjs>
       <dataInputObjs>fcmp</dataInputObjs>
       <dataOutputObjs>br</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="55" name="br_ln49" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="0" contextFuncName="relu" opcode="br" nodeLabel="21.0" m_display="0" m_topoIndex="40" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="55" name="br_ln49" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="2098483040" contextFuncName="relu" opcode="br" nodeLabel="21.0" m_display="0" m_topoIndex="40" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="49" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="relu"/>
       <dataInputObjs>and</dataInputObjs>
       <controlInputObjs>_Z4reluRf.exit</controlInputObjs>
@@ -290,14 +290,14 @@
     <controlOutputObjs>br</controlOutputObjs>
     <controlOutputObjs>br</controlOutputObjs>
     <controlOutputObjs>block_14</controlOutputObjs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="60" name="br_ln0" coreId="21345120" opcode="br" nodeLabel="21.0" m_display="0" m_topoIndex="43" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="60" name="br_ln0" coreId="49" opcode="br" nodeLabel="21.0" m_display="0" m_topoIndex="43" m_clusterGroupNumber="-1">
       <controlInputObjs>block_14</controlInputObjs>
     </node_objs>
   </blocks>
   <blocks id="63" name="._crit_edge7.loopexit" type="BlockType">
     <controlInputObjs>block_14</controlInputObjs>
     <controlOutputObjs>br</controlOutputObjs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="62" name="_ln166" lineNumber="166" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="1681" contextFuncName="dense_relu" opcode="ret" nodeLabel="1.0" m_display="0" m_topoIndex="9" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="62" name="_ln166" lineNumber="166" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="2098175801" contextFuncName="dense_relu" opcode="ret" nodeLabel="1.0" m_display="0" m_topoIndex="9" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="166" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="dense_relu"/>
     </node_objs>
     <fileValidLineNumbers fileName="../src/hls/cnn.cpp">
@@ -312,7 +312,7 @@
       <controlOutputObjs>br</controlOutputObjs>
       <controlOutputObjs>._crit_edge.loopexit</controlOutputObjs>
       <controlOutputObjs>.split</controlOutputObjs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="22" name="ii" lineNumber="157" originalName="ii" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="0" contextFuncName="dense_relu" bitwidth="10" opcode="phi" nodeLabel="3.0" m_display="0" m_topoIndex="12" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="22" name="ii" lineNumber="157" originalName="ii" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="49" contextFuncName="dense_relu" bitwidth="10" opcode="phi" nodeLabel="3.0" m_display="0" m_topoIndex="12" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="157" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="dense_relu"/>
         <dataInputObjs>add</dataInputObjs>
         <dataOutputObjs>add</dataOutputObjs>
@@ -323,7 +323,7 @@
         <controlInputObjs>.split2</controlInputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="23" name="add108" lineNumber="159" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="865" contextFuncName="dense_relu" bitwidth="32" opcode="phi" nodeLabel="8.0" m_display="0" m_isOnCriticalPath="true" m_topoIndex="13" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="23" name="add108" lineNumber="159" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="0" contextFuncName="dense_relu" bitwidth="32" opcode="phi" nodeLabel="8.0" m_display="0" m_isOnCriticalPath="true" m_topoIndex="13" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="159" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="dense_relu"/>
         <dataInputObjs>fadd</dataInputObjs>
         <dataInputObjs>load</dataInputObjs>
@@ -338,13 +338,13 @@
         <dataOutputObjs>phi</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="26" name="icmp_ln157" lineNumber="157" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln157_fu_189_p2" opType="icmp" coreId="132" contextFuncName="dense_relu" bitwidth="1" opcode="icmp" nodeLabel="3.0" m_display="0" m_delay="0.85" m_topoIndex="15" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="26" name="icmp_ln157" lineNumber="157" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln157_fu_189_p2" opType="icmp" coreId="808924209" contextFuncName="dense_relu" bitwidth="1" opcode="icmp" nodeLabel="3.0" m_display="0" m_delay="0.85" m_topoIndex="15" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="157" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="dense_relu"/>
         <dataInputObjs>phi</dataInputObjs>
         <dataOutputObjs>br</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="28" name="br_ln157" lineNumber="157" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="21344920" contextFuncName="dense_relu" opcode="br" nodeLabel="3.0" m_display="0" m_topoIndex="16" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="28" name="br_ln157" lineNumber="157" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="0" contextFuncName="dense_relu" opcode="br" nodeLabel="3.0" m_display="0" m_topoIndex="16" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="157" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="dense_relu"/>
         <dataInputObjs>icmp</dataInputObjs>
         <controlInputObjs>.split</controlInputObjs>
@@ -361,7 +361,7 @@
       <controlOutputObjs>phi</controlOutputObjs>
       <controlOutputObjs>br</controlOutputObjs>
       <controlOutputObjs>block_29</controlOutputObjs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="30" name="ii_cast2" lineNumber="157" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="ii_cast2_fu_195_p1" coreId="21566496" contextFuncName="dense_relu" bitwidth="64" opcode="zext" nodeLabel="3.0" m_display="0" m_topoIndex="17" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="30" name="ii_cast2" lineNumber="157" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="ii_cast2_fu_195_p1" coreId="0" contextFuncName="dense_relu" bitwidth="64" opcode="zext" nodeLabel="3.0" m_display="0" m_topoIndex="17" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="157" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="dense_relu"/>
         <dataInputObjs>phi</dataInputObjs>
         <dataOutputObjs>getelementptr</dataOutputObjs>
@@ -390,12 +390,12 @@
         <dataInputObjs>zext</dataInputObjs>
         <dataOutputObjs>zext</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="36" name="zext_ln159" lineNumber="159" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="zext_ln159_fu_213_p1" coreId="132" contextFuncName="dense_relu" bitwidth="64" opcode="zext" nodeLabel="3.0" m_display="0" m_topoIndex="22" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="36" name="zext_ln159" lineNumber="159" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="zext_ln159_fu_213_p1" coreId="49" contextFuncName="dense_relu" bitwidth="64" opcode="zext" nodeLabel="3.0" m_display="0" m_topoIndex="22" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="159" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="dense_relu"/>
         <dataInputObjs>add</dataInputObjs>
         <dataOutputObjs>getelementptr</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="37" name="layer_9_weights_addr" lineNumber="159" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="20214569" contextFuncName="dense_relu" bitwidth="16" opcode="getelementptr" nodeLabel="3.0" m_display="0" m_topoIndex="23" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="37" name="layer_9_weights_addr" lineNumber="159" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="0" contextFuncName="dense_relu" bitwidth="16" opcode="getelementptr" nodeLabel="3.0" m_display="0" m_topoIndex="23" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="159" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="dense_relu"/>
         <dataInputObjs>zext</dataInputObjs>
         <dataOutputObjs>load</dataOutputObjs>
@@ -418,7 +418,7 @@
         <dataInputObjs>fmul</dataInputObjs>
         <dataOutputObjs>phi</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="41" name="br_ln0" coreId="0" opcode="br" nodeLabel="12.0" m_display="0" m_topoIndex="27" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="41" name="br_ln0" coreId="2097308345" opcode="br" nodeLabel="12.0" m_display="0" m_topoIndex="27" m_clusterGroupNumber="-1">
         <controlInputObjs>block_29</controlInputObjs>
       </node_objs>
       <fileValidLineNumbers fileName="../src/hls/cnn.cpp">

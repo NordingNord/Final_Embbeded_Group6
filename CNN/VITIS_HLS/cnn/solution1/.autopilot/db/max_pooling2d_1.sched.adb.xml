@@ -782,10 +782,10 @@
 
 <Node id="16" bw="5" op_0_bw="5" op_1_bw="5">
 <![CDATA[
-:11 %empty_38 = or i5 %i, i5 1
+:11 %empty_34 = or i5 %i, i5 1
 
 ]]></Node>
-<StgValue><ssdm name="empty_38"/></StgValue>
+<StgValue><ssdm name="empty_34"/></StgValue>
 </operation>
 
 <operation id="57" st_id="3" stage="1" lat="1">
@@ -929,7 +929,7 @@
 
 <Node id="17" bw="10" op_0_bw="5">
 <![CDATA[
-:12 %p_cast2 = zext i5 %empty_38
+:12 %p_cast2 = zext i5 %empty_34
 
 ]]></Node>
 <StgValue><ssdm name="p_cast2"/></StgValue>
@@ -944,10 +944,10 @@
 
 <Node id="18" bw="10" op_0_bw="10" op_1_bw="10">
 <![CDATA[
-:13 %empty_39 = mul i10 %p_cast2, i10 27
+:13 %empty_35 = mul i10 %p_cast2, i10 27
 
 ]]></Node>
-<StgValue><ssdm name="empty_39"/></StgValue>
+<StgValue><ssdm name="empty_35"/></StgValue>
 </operation>
 
 <operation id="67" st_id="4" stage="1" lat="1">
@@ -1124,7 +1124,7 @@
 
 <Node id="24" bw="10" op_0_bw="10" op_1_bw="10">
 <![CDATA[
-:19 %add_ln133_6 = add i10 %empty_39, i10 %zext_ln121
+:19 %add_ln133_6 = add i10 %empty_35, i10 %zext_ln121
 
 ]]></Node>
 <StgValue><ssdm name="add_ln133_6"/></StgValue>
@@ -1189,7 +1189,7 @@
 
 <Node id="44" bw="10" op_0_bw="1" op_1_bw="10" op_2_bw="10">
 <![CDATA[
-._crit_edge11:15 %select_ln118_10 = select i1 %icmp_ln121, i10 %p_mid119, i10 %empty_39
+._crit_edge11:15 %select_ln118_10 = select i1 %icmp_ln121, i10 %p_mid119, i10 %empty_35
 
 ]]></Node>
 <StgValue><ssdm name="select_ln118_10"/></StgValue>
@@ -2298,10 +2298,10 @@
 
 <Node id="30" bw="32" op_0_bw="32" op_1_bw="64" op_2_bw="64" op_3_bw="64">
 <![CDATA[
-._crit_edge11:1 %empty_40 = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 5408, i64 5408, i64 5408
+._crit_edge11:1 %empty_36 = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 5408, i64 5408, i64 5408
 
 ]]></Node>
-<StgValue><ssdm name="empty_40"/></StgValue>
+<StgValue><ssdm name="empty_36"/></StgValue>
 </operation>
 
 <operation id="150" st_id="10" stage="1" lat="1">
@@ -2362,7 +2362,7 @@
 
 <Node id="76" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-._crit_edge11:47 %specloopname_ln124 = specloopname void @_ssdm_op_SpecLoopName, void @empty_8
+._crit_edge11:47 %specloopname_ln124 = specloopname void @_ssdm_op_SpecLoopName, void @empty_1
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln124"/></StgValue>

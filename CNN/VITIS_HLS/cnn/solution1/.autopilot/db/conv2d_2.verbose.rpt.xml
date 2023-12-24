@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'conv2d_2'" level="0">
-<item name = "Date">Sun Dec 24 00:40:11 2023
+<item name = "Date">Sun Dec 24 01:15:19 2023
 </item>
 <item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)</item>
 <item name = "Project">cnn</item>
@@ -63,8 +63,8 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
-<column name="mul_6ns_7ns_12_1_1_U7">mul_6ns_7ns_12_1_1, 0, 0, 0, 30, 0</column>
-<column name="mul_6ns_7ns_12_1_1_U8">mul_6ns_7ns_12_1_1, 0, 0, 0, 30, 0</column>
+<column name="mul_6ns_7ns_12_1_1_U4">mul_6ns_7ns_12_1_1, 0, 0, 0, 30, 0</column>
+<column name="mul_6ns_7ns_12_1_1_U5">mul_6ns_7ns_12_1_1, 0, 0, 0, 30, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">
@@ -98,7 +98,7 @@
 <column name="add_ln92_1_fu_814_p2">+, 0, 0, 7, 4, 4</column>
 <column name="add_ln92_2_fu_820_p2">+, 0, 0, 7, 4, 4</column>
 <column name="add_ln92_fu_856_p2">+, 0, 0, 10, 3, 1</column>
-<column name="empty_57_fu_531_p2">+, 0, 0, 13, 6, 6</column>
+<column name="empty_80_fu_531_p2">+, 0, 0, 13, 6, 6</column>
 <column name="indvars_iv_next37_dup_fu_673_p2">+, 0, 0, 10, 3, 1</column>
 <column name="indvars_iv_next37_fu_536_p2">+, 0, 0, 10, 3, 1</column>
 <column name="indvars_iv_next37_mid1_fu_702_p2">+, 0, 0, 10, 3, 2</column>
@@ -109,7 +109,7 @@
 <column name="p_mid1_fu_697_p2">+, 0, 0, 13, 6, 6</column>
 <column name="tmp_fu_319_p2">+, 0, 0, 14, 7, 7</column>
 <column name="tmp_mid1_fu_443_p2">+, 0, 0, 14, 7, 7</column>
-<column name="empty_58_fu_566_p2">-, 0, 0, 19, 12, 12</column>
+<column name="empty_81_fu_566_p2">-, 0, 0, 19, 12, 12</column>
 <column name="p_mid132_fu_521_p2">-, 0, 0, 19, 12, 12</column>
 <column name="p_mid13_fu_732_p2">-, 0, 0, 19, 12, 12</column>
 <column name="sub_ln91_1_fu_750_p2">-, 0, 0, 12, 4, 4</column>
@@ -125,10 +125,10 @@
 <column name="icmp_ln77_fu_590_p2">icmp, 0, 0, 9, 4, 4</column>
 <column name="icmp_ln80_fu_596_p2">icmp, 0, 0, 9, 4, 4</column>
 <column name="icmp_ln83_fu_661_p2">icmp, 0, 0, 8, 3, 2</column>
-<column name="empty_64_fu_417_p2">or, 0, 0, 2, 1, 1</column>
+<column name="empty_87_fu_417_p2">or, 0, 0, 2, 1, 1</column>
 <column name="or_ln49_fu_919_p2">or, 0, 0, 2, 1, 1</column>
 <column name="or_ln80_fu_679_p2">or, 0, 0, 2, 1, 1</column>
-<column name="empty_65_fu_467_p3">select, 0, 0, 12, 1, 12</column>
+<column name="empty_88_fu_467_p3">select, 0, 0, 12, 1, 12</column>
 <column name="ii_cast6_mid2_fu_431_p3">select, 0, 0, 6, 1, 6</column>
 <column name="iii_mid2_fu_423_p3">select, 0, 0, 6, 1, 1</column>
 <column name="output_r_d0">select, 0, 0, 32, 1, 1</column>
@@ -192,7 +192,7 @@
 <column name="ap_enable_reg_pp0_iter0">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter1">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter2">1, 0, 1, 0</column>
-<column name="empty_65_reg_978">12, 0, 12, 0</column>
+<column name="empty_88_reg_978">12, 0, 12, 0</column>
 <column name="i_reg_171">6, 0, 6, 0</column>
 <column name="icmp_ln69_reg_952">1, 0, 1, 0</column>
 <column name="icmp_ln77_reg_1018">1, 0, 1, 0</column>
@@ -235,20 +235,20 @@
 <column name="ap_done">out, 1, ap_ctrl_hs, conv2d.2, return value</column>
 <column name="ap_idle">out, 1, ap_ctrl_hs, conv2d.2, return value</column>
 <column name="ap_ready">out, 1, ap_ctrl_hs, conv2d.2, return value</column>
-<column name="grp_fu_852_p_din0">out, 32, ap_ctrl_hs, conv2d.2, return value</column>
-<column name="grp_fu_852_p_din1">out, 32, ap_ctrl_hs, conv2d.2, return value</column>
-<column name="grp_fu_852_p_opcode">out, 2, ap_ctrl_hs, conv2d.2, return value</column>
-<column name="grp_fu_852_p_dout0">in, 32, ap_ctrl_hs, conv2d.2, return value</column>
-<column name="grp_fu_852_p_ce">out, 1, ap_ctrl_hs, conv2d.2, return value</column>
-<column name="grp_fu_856_p_din0">out, 32, ap_ctrl_hs, conv2d.2, return value</column>
-<column name="grp_fu_856_p_din1">out, 32, ap_ctrl_hs, conv2d.2, return value</column>
-<column name="grp_fu_856_p_dout0">in, 32, ap_ctrl_hs, conv2d.2, return value</column>
-<column name="grp_fu_856_p_ce">out, 1, ap_ctrl_hs, conv2d.2, return value</column>
-<column name="grp_fu_1954_p_din0">out, 32, ap_ctrl_hs, conv2d.2, return value</column>
-<column name="grp_fu_1954_p_din1">out, 32, ap_ctrl_hs, conv2d.2, return value</column>
-<column name="grp_fu_1954_p_opcode">out, 5, ap_ctrl_hs, conv2d.2, return value</column>
-<column name="grp_fu_1954_p_dout0">in, 1, ap_ctrl_hs, conv2d.2, return value</column>
-<column name="grp_fu_1954_p_ce">out, 1, ap_ctrl_hs, conv2d.2, return value</column>
+<column name="grp_fu_992_p_din0">out, 32, ap_ctrl_hs, conv2d.2, return value</column>
+<column name="grp_fu_992_p_din1">out, 32, ap_ctrl_hs, conv2d.2, return value</column>
+<column name="grp_fu_992_p_opcode">out, 2, ap_ctrl_hs, conv2d.2, return value</column>
+<column name="grp_fu_992_p_dout0">in, 32, ap_ctrl_hs, conv2d.2, return value</column>
+<column name="grp_fu_992_p_ce">out, 1, ap_ctrl_hs, conv2d.2, return value</column>
+<column name="grp_fu_996_p_din0">out, 32, ap_ctrl_hs, conv2d.2, return value</column>
+<column name="grp_fu_996_p_din1">out, 32, ap_ctrl_hs, conv2d.2, return value</column>
+<column name="grp_fu_996_p_dout0">in, 32, ap_ctrl_hs, conv2d.2, return value</column>
+<column name="grp_fu_996_p_ce">out, 1, ap_ctrl_hs, conv2d.2, return value</column>
+<column name="grp_fu_2244_p_din0">out, 32, ap_ctrl_hs, conv2d.2, return value</column>
+<column name="grp_fu_2244_p_din1">out, 32, ap_ctrl_hs, conv2d.2, return value</column>
+<column name="grp_fu_2244_p_opcode">out, 5, ap_ctrl_hs, conv2d.2, return value</column>
+<column name="grp_fu_2244_p_dout0">in, 1, ap_ctrl_hs, conv2d.2, return value</column>
+<column name="grp_fu_2244_p_ce">out, 1, ap_ctrl_hs, conv2d.2, return value</column>
 <column name="input_r_address0">out, 12, ap_memory, input_r, array</column>
 <column name="input_r_ce0">out, 1, ap_memory, input_r, array</column>
 <column name="input_r_q0">in, 32, ap_memory, input_r, array</column>

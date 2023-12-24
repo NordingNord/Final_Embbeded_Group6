@@ -6,7 +6,7 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
-entity infer_mac_muladd_5ns_6ns_5ns_10_4_1_DSP48_2 is
+entity infer_mac_muladd_5ns_6ns_5ns_10_4_1_DSP48_0 is
 port (
     clk: in  std_logic;
     rst: in  std_logic;
@@ -17,11 +17,11 @@ port (
     dout: out std_logic_vector(10 - 1 downto 0));
 
     attribute use_dsp : string;
-    attribute use_dsp of infer_mac_muladd_5ns_6ns_5ns_10_4_1_DSP48_2 : entity is "yes";
+    attribute use_dsp of infer_mac_muladd_5ns_6ns_5ns_10_4_1_DSP48_0 : entity is "yes";
 
 end entity;
 
-architecture behav of infer_mac_muladd_5ns_6ns_5ns_10_4_1_DSP48_2 is
+architecture behav of infer_mac_muladd_5ns_6ns_5ns_10_4_1_DSP48_0 is
     signal a       : signed(27-1 downto 0);
     signal b       : signed(18-1 downto 0);
     signal c       : signed(48-1 downto 0);
@@ -75,7 +75,7 @@ entity infer_mac_muladd_5ns_6ns_5ns_10_4_1 is
 end entity;
 
 architecture arch of infer_mac_muladd_5ns_6ns_5ns_10_4_1 is
-    component infer_mac_muladd_5ns_6ns_5ns_10_4_1_DSP48_2 is
+    component infer_mac_muladd_5ns_6ns_5ns_10_4_1_DSP48_0 is
         port (
             clk : IN STD_LOGIC;
             rst : IN STD_LOGIC;
@@ -89,7 +89,7 @@ architecture arch of infer_mac_muladd_5ns_6ns_5ns_10_4_1 is
 
 
 begin
-    infer_mac_muladd_5ns_6ns_5ns_10_4_1_DSP48_2_U :  component infer_mac_muladd_5ns_6ns_5ns_10_4_1_DSP48_2
+    infer_mac_muladd_5ns_6ns_5ns_10_4_1_DSP48_0_U :  component infer_mac_muladd_5ns_6ns_5ns_10_4_1_DSP48_0
     port map (
         clk => clk,
         rst => reset,

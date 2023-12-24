@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'dense_relu_1'" level="0">
-<item name = "Date">Sun Dec 24 00:40:02 2023
+<item name = "Date">Sun Dec 24 01:15:10 2023
 </item>
 <item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)</item>
 <item name = "Project">cnn</item>

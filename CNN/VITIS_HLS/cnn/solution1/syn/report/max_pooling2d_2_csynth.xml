@@ -127,7 +127,7 @@
 <Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_1954_p_din0</name>
+<name>grp_fu_2244_p_din0</name>
 <Object>max_pooling2d.2</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -138,7 +138,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_1954_p_din1</name>
+<name>grp_fu_2244_p_din1</name>
 <Object>max_pooling2d.2</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -149,7 +149,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_1954_p_opcode</name>
+<name>grp_fu_2244_p_opcode</name>
 <Object>max_pooling2d.2</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -160,7 +160,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_1954_p_dout0</name>
+<name>grp_fu_2244_p_dout0</name>
 <Object>max_pooling2d.2</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -171,7 +171,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_1954_p_ce</name>
+<name>grp_fu_2244_p_ce</name>
 <Object>max_pooling2d.2</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -182,7 +182,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_1958_p_din0</name>
+<name>grp_fu_2248_p_din0</name>
 <Object>max_pooling2d.2</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -193,7 +193,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_1958_p_din1</name>
+<name>grp_fu_2248_p_din1</name>
 <Object>max_pooling2d.2</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -204,7 +204,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_1958_p_opcode</name>
+<name>grp_fu_2248_p_opcode</name>
 <Object>max_pooling2d.2</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -215,7 +215,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_1958_p_dout0</name>
+<name>grp_fu_2248_p_dout0</name>
 <Object>max_pooling2d.2</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -226,7 +226,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_1958_p_ce</name>
+<name>grp_fu_2248_p_ce</name>
 <Object>max_pooling2d.2</Object>
 <Type>return value</Type>
 <Scope></Scope>

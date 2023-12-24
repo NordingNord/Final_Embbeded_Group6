@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'infer'" level="0">
-<item name = "Date">Sun Dec 24 00:40:04 2023
+<item name = "Date">Sun Dec 24 01:15:12 2023
 </item>
 <item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)</item>
 <item name = "Project">cnn</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">37038382, 37038382, 0.446 sec, 0.446 sec, 37038383, 37038383, none</column>
+<column name="">37098703, 37098703, 0.447 sec, 0.447 sec, 37098704, 37098704, none</column>
 </table>
 </item>
 <item name = "Detail">
@@ -37,10 +37,16 @@
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
 <column name="- get_input">3604, 3604, 6, 1, 1, 3600, yes</column>
 <column name="- rescale1_rescale1_2">3611, 3611, 13, 1, 1, 3600, yes</column>
-<column name="- set1DFloatArray1">64, 64, 1, 1, 1, 64, yes</column>
-<column name="- set1DFloatArray1">32, 32, 1, 1, 1, 32, yes</column>
-<column name="- set1DFloatArray1">16, 16, 1, 1, 1, 16, yes</column>
-<column name="- set1DFloatArray1">4, 4, 1, 1, 1, 4, yes</column>
+<column name="- Loop 3">107648, 107648, 1, 1, 1, 107648, yes</column>
+<column name="- Loop 4">26912, 26912, 1, 1, 1, 26912, yes</column>
+<column name="- Loop 5">23328, 23328, 1, 1, 1, 23328, yes</column>
+<column name="- Loop 6">5408, 5408, 1, 1, 1, 5408, yes</column>
+<column name="- Loop 7">3872, 3872, 1, 1, 1, 3872, yes</column>
+<column name="- Loop 8">800, 800, 1, 1, 1, 800, yes</column>
+<column name="- Loop 9">64, 64, 1, 1, 1, 64, yes</column>
+<column name="- Loop 10">32, 32, 1, 1, 1, 32, yes</column>
+<column name="- Loop 11">16, 16, 1, 1, 1, 16, yes</column>
+<column name="- Loop 12">4, 4, 1, 1, 1, 4, yes</column>
 <column name="- dense1">346, 346, 90, 84, 1, 4, yes</column>
 <column name="- send_result">5, 5, 3, 1, 1, 4, yes</column>
 </table>

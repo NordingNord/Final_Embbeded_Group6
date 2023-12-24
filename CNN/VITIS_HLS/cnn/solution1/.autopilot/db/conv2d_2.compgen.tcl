@@ -1,6 +1,6 @@
 # This script segment is generated automatically by AutoPilot
 
-set id 4
+set id 1
 set name infer_fadd_32ns_32ns_32_5_full_dsp_1
 set corename simcore_fadd
 set op fadd
@@ -91,7 +91,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_XILINX_FPV6::fpv6_gen, check your p
 }
 
 
-set id 5
+set id 2
 set name infer_fmul_32ns_32ns_32_4_max_dsp_1
 set corename simcore_fmul
 set op fmul
@@ -182,7 +182,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_XILINX_FPV6::fpv6_gen, check your p
 }
 
 
-set id 6
+set id 3
 set name infer_fcmp_32ns_32ns_1_2_no_dsp_1
 set corename simcore_fcmp
 set op fcmp
@@ -279,7 +279,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_XILINX_FPV6::fpv6_gen, check your p
 }
 
 
-set id 7
+set id 4
 set name infer_mul_6ns_7ns_12_1_1
 set corename simcore_mul
 set op mul
@@ -347,7 +347,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_multicycle_mul, che
 
 
 # Memory (RAM/ROM)  definition:
-set ID 13
+set ID 10
 set hasByteEnable 0
 set MemName infer_conv2d_2_layer_2_weights
 set CoreName ap_simcore_mem
@@ -433,7 +433,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 14
+set ID 11
 set hasByteEnable 0
 set MemName infer_conv2d_2_layer_2_bias
 set CoreName ap_simcore_mem
@@ -529,7 +529,7 @@ if {${::AESL::PGuard_autoexp_gen}} {
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
 eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
-    id 15 \
+    id 12 \
     name input_r \
     reset_level 1 \
     sync_rst true \
@@ -548,7 +548,7 @@ puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored ge
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
 eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
-    id 16 \
+    id 13 \
     name output_r \
     reset_level 1 \
     sync_rst true \

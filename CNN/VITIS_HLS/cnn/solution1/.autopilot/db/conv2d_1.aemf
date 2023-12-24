@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1703374814673">
-  <ports id="1" name="input_r" type="PortType" originalName="input" coreName="RAM" coreId="2439541424" bitwidth="32" iftype="IfTypeRegister" arraysize="26912">
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1703376921811">
+  <ports id="1" name="input_r" type="PortType" originalName="input" coreName="RAM" coreId="2093484256" bitwidth="32" iftype="IfTypeRegister" arraysize="26912">
     <dataOutputObjs>getelementptr</dataOutputObjs>
   </ports>
   <ports id="2" name="output_r" type="PortType" originalName="output" coreName="RAM" coreId="49" bitwidth="32" direction="DirOut" iftype="IfTypeRegister" arraysize="23328">
@@ -235,7 +235,7 @@
     <controlOutputObjs>br</controlOutputObjs>
     <controlOutputObjs>._crit_edge26.loopexit</controlOutputObjs>
     <controlOutputObjs>._crit_edge21.loopexit</controlOutputObjs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="9" name="indvar_flatten73" lineNumber="66" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="129" contextFuncName="conv2d" bitwidth="15" opcode="phi" nodeLabel="1.0" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="9" name="indvar_flatten73" lineNumber="66" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="113" contextFuncName="conv2d" bitwidth="15" opcode="phi" nodeLabel="1.0" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="66" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
       <dataInputObjs>add</dataInputObjs>
       <dataOutputObjs>add</dataOutputObjs>
@@ -244,7 +244,7 @@
       <controlInputObjs>._crit_edge.loopexit</controlInputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="10" name="i" lineNumber="66" originalName="i" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="15138862" contextFuncName="conv2d" bitwidth="5" opcode="phi" nodeLabel="1.0" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="10" name="i" lineNumber="66" originalName="i" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="113" contextFuncName="conv2d" bitwidth="5" opcode="phi" nodeLabel="1.0" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="66" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
       <dataInputObjs>select</dataInputObjs>
       <dataOutputObjs>zext</dataOutputObjs>
@@ -254,7 +254,7 @@
       <controlInputObjs>._crit_edge.loopexit</controlInputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="11" name="indvar_flatten44" lineNumber="69" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="289" contextFuncName="conv2d" bitwidth="11" opcode="phi" nodeLabel="1.0" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="11" name="indvar_flatten44" lineNumber="69" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="49" contextFuncName="conv2d" bitwidth="11" opcode="phi" nodeLabel="1.0" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="69" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
       <dataInputObjs>select</dataInputObjs>
       <dataOutputObjs>add</dataOutputObjs>
@@ -263,7 +263,7 @@
       <controlInputObjs>._crit_edge.loopexit</controlInputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="12" name="ii" lineNumber="66" originalName="ii" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="808598902" contextFuncName="conv2d" bitwidth="5" opcode="phi" nodeLabel="1.0" m_display="0" m_topoIndex="5" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="12" name="ii" lineNumber="66" originalName="ii" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="177" contextFuncName="conv2d" bitwidth="5" opcode="phi" nodeLabel="1.0" m_display="0" m_topoIndex="5" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="66" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
       <dataInputObjs>select</dataInputObjs>
       <dataOutputObjs>zext</dataOutputObjs>
@@ -272,7 +272,7 @@
       <controlInputObjs>._crit_edge.loopexit</controlInputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="13" name="iii" lineNumber="72" originalName="iii" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="49" contextFuncName="conv2d" bitwidth="6" opcode="phi" nodeLabel="1.0" m_display="0" m_topoIndex="6" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="13" name="iii" lineNumber="72" originalName="iii" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="132" contextFuncName="conv2d" bitwidth="6" opcode="phi" nodeLabel="1.0" m_display="0" m_topoIndex="6" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="72" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
       <dataInputObjs>add</dataInputObjs>
       <dataOutputObjs>icmp</dataOutputObjs>
@@ -287,19 +287,19 @@
       <dataOutputObjs>phi</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="15" name="i_cast" lineNumber="66" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="empty_fu_310_p00" coreId="353" contextFuncName="conv2d" bitwidth="10" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="8" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="15" name="i_cast" lineNumber="66" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="empty_fu_310_p00" coreId="49" contextFuncName="conv2d" bitwidth="10" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="8" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="66" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
       <dataInputObjs>phi</dataInputObjs>
       <dataOutputObjs>mul</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="16" name="empty" lineNumber="66" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="mul_5ns_6ns_10_1_1_U36" opType="mul" coreId="0" contextFuncName="conv2d" bitwidth="10" opcode="mul" nodeLabel="1.0" m_display="0" m_delay="1.42" m_topoIndex="9" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="16" name="empty" lineNumber="66" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="mul_5ns_6ns_10_1_1_U28" opType="mul" coreId="0" contextFuncName="conv2d" bitwidth="10" opcode="mul" nodeLabel="1.0" m_display="0" m_delay="1.42" m_topoIndex="9" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="66" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
       <dataInputObjs>zext</dataInputObjs>
       <dataOutputObjs>add</dataOutputObjs>
       <dataOutputObjs>select</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="17" name="ii_cast" lineNumber="66" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="ii_cast_fu_316_p1" coreId="132" contextFuncName="conv2d" bitwidth="6" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="10" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="17" name="ii_cast" lineNumber="66" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="ii_cast_fu_316_p1" coreId="1769218162" contextFuncName="conv2d" bitwidth="6" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="10" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="66" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
       <dataInputObjs>phi</dataInputObjs>
       <dataOutputObjs>add</dataOutputObjs>
@@ -310,7 +310,7 @@
       <dataOutputObjs>sext</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="19" name="tmp_cast" lineNumber="66" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_cast_fu_326_p1" coreId="1169" contextFuncName="conv2d" bitwidth="10" opcode="sext" nodeLabel="1.0" m_display="0" m_topoIndex="12" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="19" name="tmp_cast" lineNumber="66" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_cast_fu_326_p1" coreId="0" contextFuncName="conv2d" bitwidth="10" opcode="sext" nodeLabel="1.0" m_display="0" m_topoIndex="12" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="66" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
       <dataInputObjs>add</dataInputObjs>
       <dataOutputObjs>add</dataOutputObjs>
@@ -327,7 +327,7 @@
       <dataOutputObjs>br</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="22" name="br_ln66" lineNumber="66" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="15160313" contextFuncName="conv2d" opcode="br" nodeLabel="1.0" m_display="0" m_topoIndex="15" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="22" name="br_ln66" lineNumber="66" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="132" contextFuncName="conv2d" opcode="br" nodeLabel="1.0" m_display="0" m_topoIndex="15" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="66" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
       <dataInputObjs>icmp</dataInputObjs>
       <controlInputObjs>._crit_edge21.loopexit</controlInputObjs>
@@ -349,7 +349,7 @@
     <controlOutputObjs>phi</controlOutputObjs>
     <controlOutputObjs>phi</controlOutputObjs>
     <controlOutputObjs>block_74</controlOutputObjs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="26" name="icmp_ln69" lineNumber="69" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln69_fu_342_p2" opType="icmp" coreId="14883072" contextFuncName="conv2d" bitwidth="1" opcode="icmp" nodeLabel="1.0" m_display="0" m_delay="0.85" m_topoIndex="16" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="26" name="icmp_ln69" lineNumber="69" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln69_fu_342_p2" opType="icmp" coreId="132" contextFuncName="conv2d" bitwidth="1" opcode="icmp" nodeLabel="1.0" m_display="0" m_delay="0.85" m_topoIndex="16" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="69" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
       <dataInputObjs>phi</dataInputObjs>
       <dataOutputObjs>select</dataOutputObjs>
@@ -376,12 +376,12 @@
       <dataOutputObjs>select</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="29" name="i_cast_mid1" lineNumber="66" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="p_mid155_fu_366_p00" coreId="22" contextFuncName="conv2d" bitwidth="10" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="19" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="29" name="i_cast_mid1" lineNumber="66" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="p_mid155_fu_366_p00" coreId="132" contextFuncName="conv2d" bitwidth="10" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="19" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="66" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
       <dataInputObjs>add</dataInputObjs>
       <dataOutputObjs>mul</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="30" name="p_mid155" lineNumber="66" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="mul_5ns_6ns_10_1_1_U37" opType="mul" coreId="14915296" contextFuncName="conv2d" bitwidth="10" opcode="mul" nodeLabel="1.0" m_display="0" m_delay="1.42" m_topoIndex="20" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="30" name="p_mid155" lineNumber="66" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="mul_5ns_6ns_10_1_1_U29" opType="mul" coreId="1852795252" contextFuncName="conv2d" bitwidth="10" opcode="mul" nodeLabel="1.0" m_display="0" m_delay="1.42" m_topoIndex="20" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="66" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
       <dataInputObjs>zext</dataInputObjs>
       <dataOutputObjs>select</dataOutputObjs>
@@ -401,19 +401,19 @@
       <dataOutputObjs>select</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="33" name="xor_ln66" lineNumber="66" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="xor_ln66_fu_386_p2" opType="xor" coreId="1852795252" contextFuncName="conv2d" bitwidth="1" opcode="xor" nodeLabel="1.0" m_display="0" m_topoIndex="23" m_clusterGroupNumber="2">
+    <node_objs xsi:type="cdfg:CdfgNode" id="33" name="xor_ln66" lineNumber="66" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="xor_ln66_fu_386_p2" opType="xor" coreId="0" contextFuncName="conv2d" bitwidth="1" opcode="xor" nodeLabel="1.0" m_display="0" m_topoIndex="23" m_clusterGroupNumber="2">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="66" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
       <dataInputObjs>icmp</dataInputObjs>
       <dataOutputObjs>and</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="34" name="icmp_ln72" lineNumber="72" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln72_fu_392_p2" opType="icmp" coreId="8" contextFuncName="conv2d" bitwidth="1" opcode="icmp" nodeLabel="1.0" m_display="0" m_delay="0.87" m_topoIndex="24" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="34" name="icmp_ln72" lineNumber="72" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln72_fu_392_p2" opType="icmp" coreId="132" contextFuncName="conv2d" bitwidth="1" opcode="icmp" nodeLabel="1.0" m_display="0" m_delay="0.87" m_topoIndex="24" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="72" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
       <dataInputObjs>phi</dataInputObjs>
       <dataOutputObjs>and</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="35" name="and_ln66" lineNumber="66" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="and_ln66_fu_398_p2" opType="and" coreId="132" contextFuncName="conv2d" bitwidth="1" opcode="and" nodeLabel="1.0" m_display="0" m_delay="0.33" m_topoIndex="25" m_clusterGroupNumber="2">
+    <node_objs xsi:type="cdfg:CdfgNode" id="35" name="and_ln66" lineNumber="66" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="and_ln66_fu_398_p2" opType="and" coreId="0" contextFuncName="conv2d" bitwidth="1" opcode="and" nodeLabel="1.0" m_display="0" m_delay="0.33" m_topoIndex="25" m_clusterGroupNumber="2">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="66" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
       <dataInputObjs>icmp</dataInputObjs>
       <dataInputObjs>xor</dataInputObjs>
@@ -436,7 +436,7 @@
       <dataOutputObjs>zext</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="39" name="empty_70" lineNumber="66" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="empty_70_fu_418_p2" opType="or" coreId="2561" contextFuncName="conv2d" bitwidth="1" opcode="or" nodeLabel="1.0" m_display="0" m_topoIndex="28" m_clusterGroupNumber="3">
+    <node_objs xsi:type="cdfg:CdfgNode" id="39" name="empty_93" lineNumber="66" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="empty_93_fu_418_p2" opType="or" coreId="0" contextFuncName="conv2d" bitwidth="1" opcode="or" nodeLabel="1.0" m_display="0" m_topoIndex="28" m_clusterGroupNumber="3">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="66" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
       <dataInputObjs>and</dataInputObjs>
       <dataInputObjs>icmp</dataInputObjs>
@@ -460,12 +460,12 @@
       <dataOutputObjs>phi</dataOutputObjs>
       <dataOutputObjs>zext</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="42" name="ii_cast4_mid2_cast" lineNumber="66" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="ii_cast4_mid2_cast_fu_481_p1" coreId="132" contextFuncName="conv2d" bitwidth="10" opcode="zext" nodeLabel="2.0" m_display="0" m_topoIndex="41" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="42" name="ii_cast4_mid2_cast" lineNumber="66" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="ii_cast4_mid2_cast_fu_481_p1" coreId="2093359216" contextFuncName="conv2d" bitwidth="10" opcode="zext" nodeLabel="2.0" m_display="0" m_topoIndex="41" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="66" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
       <dataInputObjs>select</dataInputObjs>
       <dataOutputObjs>add</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="43" name="ii_cast_mid1" lineNumber="69" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="ii_cast_mid1_fu_440_p1" coreId="939524224" contextFuncName="conv2d" bitwidth="6" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="31" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="43" name="ii_cast_mid1" lineNumber="69" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="ii_cast_mid1_fu_440_p1" coreId="2093361400" contextFuncName="conv2d" bitwidth="6" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="31" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="69" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
       <dataInputObjs>add</dataInputObjs>
       <dataOutputObjs>add</dataOutputObjs>
@@ -476,7 +476,7 @@
       <dataOutputObjs>sext</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="45" name="tmp_cast_mid1" lineNumber="69" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_cast_mid1_fu_450_p1" coreId="132" contextFuncName="conv2d" bitwidth="10" opcode="sext" nodeLabel="1.0" m_display="0" m_topoIndex="33" m_clusterGroupNumber="1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="45" name="tmp_cast_mid1" lineNumber="69" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_cast_mid1_fu_450_p1" coreId="2093362664" contextFuncName="conv2d" bitwidth="10" opcode="sext" nodeLabel="1.0" m_display="0" m_topoIndex="33" m_clusterGroupNumber="1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="69" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
       <dataInputObjs>add</dataInputObjs>
       <dataOutputObjs>add</dataOutputObjs>
@@ -494,35 +494,35 @@
       <dataInputObjs>add</dataInputObjs>
       <dataOutputObjs>select</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="48" name="empty_71" lineNumber="66" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="empty_71_fu_468_p3" coreName="Sel" implIndex="auto_sel" control="auto" opType="select" coreId="73" contextFuncName="conv2d" bitwidth="10" opcode="select" nodeLabel="1.0" m_display="0" m_delay="0.47" m_topoIndex="36" m_clusterGroupNumber="4">
+    <node_objs xsi:type="cdfg:CdfgNode" id="48" name="empty_94" lineNumber="66" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="empty_94_fu_468_p3" coreName="Sel" implIndex="auto_sel" control="auto" opType="select" coreId="73" contextFuncName="conv2d" bitwidth="10" opcode="select" nodeLabel="1.0" m_display="0" m_delay="0.47" m_topoIndex="36" m_clusterGroupNumber="4">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="66" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
       <dataInputObjs>and</dataInputObjs>
       <dataInputObjs>add</dataInputObjs>
       <dataInputObjs>select</dataInputObjs>
       <dataOutputObjs>bitconcatenate</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="49" name="add52_mid2" lineNumber="66" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="add52_mid2_fu_484_p3" coreId="2689" contextFuncName="conv2d" bitwidth="15" opcode="bitconcatenate" nodeLabel="2.0" m_display="0" m_topoIndex="42" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="49" name="add52_mid2" lineNumber="66" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="add52_mid2_fu_484_p3" coreId="2093991881" contextFuncName="conv2d" bitwidth="15" opcode="bitconcatenate" nodeLabel="2.0" m_display="0" m_topoIndex="42" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="66" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
       <dataInputObjs>select</dataInputObjs>
       <dataOutputObjs>add</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="50" name="zext_ln72" lineNumber="72" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="zext_ln72_fu_476_p1" coreId="0" contextFuncName="conv2d" bitwidth="64" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="37" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="50" name="zext_ln72" lineNumber="72" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="zext_ln72_fu_476_p1" coreId="2093270304" contextFuncName="conv2d" bitwidth="64" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="37" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="72" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
       <dataInputObjs>select</dataInputObjs>
       <dataOutputObjs>getelementptr</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="51" name="zext_ln72_3" lineNumber="72" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="zext_ln72_3_fu_491_p1" coreId="28271" contextFuncName="conv2d" bitwidth="14" opcode="zext" nodeLabel="2.0" m_display="0" m_topoIndex="43" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="51" name="zext_ln72_3" lineNumber="72" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="zext_ln72_3_fu_491_p1" coreId="49" contextFuncName="conv2d" bitwidth="14" opcode="zext" nodeLabel="2.0" m_display="0" m_topoIndex="43" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="72" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
       <dataInputObjs>select</dataInputObjs>
       <dataOutputObjs>add</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="52" name="zext_ln72_4" lineNumber="72" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="zext_ln72_4_fu_494_p1" coreId="539122992" contextFuncName="conv2d" bitwidth="15" opcode="zext" nodeLabel="2.0" m_display="0" m_topoIndex="44" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="52" name="zext_ln72_4" lineNumber="72" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="zext_ln72_4_fu_494_p1" coreId="0" contextFuncName="conv2d" bitwidth="15" opcode="zext" nodeLabel="2.0" m_display="0" m_topoIndex="44" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="72" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
       <dataInputObjs>select</dataInputObjs>
       <dataOutputObjs>add</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="54" name="layer_4_bias_addr" lineNumber="75" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="1936942413" contextFuncName="conv2d" bitwidth="5" opcode="getelementptr" nodeLabel="1.0" m_display="0" m_topoIndex="38" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="54" name="layer_4_bias_addr" lineNumber="75" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="2093258992" contextFuncName="conv2d" bitwidth="5" opcode="getelementptr" nodeLabel="1.0" m_display="0" m_topoIndex="38" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="75" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
       <dataInputObjs>zext</dataInputObjs>
       <dataOutputObjs>load</dataOutputObjs>
@@ -533,7 +533,7 @@
       <dataInputObjs>getelementptr</dataInputObjs>
       <dataOutputObjs>phi</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="56" name="br_ln77" lineNumber="77" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="0" contextFuncName="conv2d" opcode="br" nodeLabel="2.0" m_display="0" m_delay="0.48" m_topoIndex="45" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="56" name="br_ln77" lineNumber="77" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="2093261552" contextFuncName="conv2d" opcode="br" nodeLabel="2.0" m_display="0" m_delay="0.48" m_topoIndex="45" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="77" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
       <controlInputObjs>block_74</controlInputObjs>
     </node_objs>
@@ -554,48 +554,48 @@
     <controlOutputObjs>phi</controlOutputObjs>
     <controlOutputObjs>br</controlOutputObjs>
     <controlOutputObjs>block_23</controlOutputObjs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="129" name="bitcast_ln49" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="bitcast_ln49_fu_787_p1" coreId="132" contextFuncName="relu" bitwidth="32" opcode="bitcast" nodeLabel="17.0" m_display="0" m_topoIndex="113" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="129" name="bitcast_ln49" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="bitcast_ln49_fu_787_p1" coreId="0" contextFuncName="relu" bitwidth="32" opcode="bitcast" nodeLabel="17.0" m_display="0" m_topoIndex="113" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="49" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="relu"/>
       <dataInputObjs>phi</dataInputObjs>
       <dataOutputObjs>partselect</dataOutputObjs>
       <dataOutputObjs>trunc</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="130" name="tmp_s" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_s_fu_791_p4" coreId="15223496" contextFuncName="relu" bitwidth="8" opcode="partselect" nodeLabel="17.0" m_display="0" m_topoIndex="114" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="130" name="tmp_s" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="tmp_s_fu_791_p4" coreId="840977746" contextFuncName="relu" bitwidth="8" opcode="partselect" nodeLabel="17.0" m_display="0" m_topoIndex="114" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="49" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="relu"/>
       <dataInputObjs>bitcast</dataInputObjs>
       <dataOutputObjs>icmp</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="131" name="trunc_ln49" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="trunc_ln49_fu_801_p1" coreId="132" contextFuncName="relu" bitwidth="23" opcode="trunc" nodeLabel="17.0" m_display="0" m_topoIndex="115" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="131" name="trunc_ln49" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="trunc_ln49_fu_801_p1" coreId="2093877192" contextFuncName="relu" bitwidth="23" opcode="trunc" nodeLabel="17.0" m_display="0" m_topoIndex="115" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="49" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="relu"/>
       <dataInputObjs>bitcast</dataInputObjs>
       <dataOutputObjs>icmp</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="132" name="icmp_ln49" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln49_fu_805_p2" opType="icmp" coreId="132" contextFuncName="relu" bitwidth="1" opcode="icmp" nodeLabel="17.0" m_display="0" m_delay="0.85" m_topoIndex="116" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="132" name="icmp_ln49" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln49_fu_805_p2" opType="icmp" coreId="0" contextFuncName="relu" bitwidth="1" opcode="icmp" nodeLabel="17.0" m_display="0" m_delay="0.85" m_topoIndex="116" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="49" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="relu"/>
       <dataInputObjs>partselect</dataInputObjs>
       <dataOutputObjs>or</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="133" name="icmp_ln49_5" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln49_5_fu_811_p2" opType="icmp" coreId="44785" contextFuncName="relu" bitwidth="1" opcode="icmp" nodeLabel="17.0" m_display="0" m_delay="0.97" m_topoIndex="117" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="133" name="icmp_ln49_5" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln49_5_fu_811_p2" opType="icmp" coreId="0" contextFuncName="relu" bitwidth="1" opcode="icmp" nodeLabel="17.0" m_display="0" m_delay="0.97" m_topoIndex="117" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="49" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="relu"/>
       <dataInputObjs>trunc</dataInputObjs>
       <dataOutputObjs>or</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="134" name="or_ln49" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln49_fu_817_p2" opType="or" coreId="15228256" contextFuncName="relu" bitwidth="1" opcode="or" nodeLabel="17.0" m_display="0" m_topoIndex="118" m_clusterGroupNumber="8">
+    <node_objs xsi:type="cdfg:CdfgNode" id="134" name="or_ln49" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln49_fu_817_p2" opType="or" coreId="0" contextFuncName="relu" bitwidth="1" opcode="or" nodeLabel="17.0" m_display="0" m_topoIndex="118" m_clusterGroupNumber="8">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="49" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="relu"/>
       <dataInputObjs>icmp</dataInputObjs>
       <dataInputObjs>icmp</dataInputObjs>
       <dataOutputObjs>and</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="135" name="tmp_35" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." opType="fcmp" coreId="0" contextFuncName="relu" bitwidth="1" opcode="fcmp" nodeLabel="16.0" nodeLatency="1" m_display="0" m_delay="3.34" m_topoIndex="108" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="135" name="tmp_35" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." opType="fcmp" coreId="2093881568" contextFuncName="relu" bitwidth="1" opcode="fcmp" nodeLabel="16.0" nodeLatency="1" m_display="0" m_delay="3.34" m_topoIndex="108" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="49" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="relu"/>
       <dataInputObjs>phi</dataInputObjs>
       <dataOutputObjs>and</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="136" name="and_ln49" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="and_ln49_fu_823_p2" opType="and" coreId="15230232" contextFuncName="relu" bitwidth="1" opcode="and" nodeLabel="17.0" m_display="0" m_topoIndex="119" m_clusterGroupNumber="8">
+    <node_objs xsi:type="cdfg:CdfgNode" id="136" name="and_ln49" lineNumber="49" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="and_ln49_fu_823_p2" opType="and" coreId="2751463552" contextFuncName="relu" bitwidth="1" opcode="and" nodeLabel="17.0" m_display="0" m_topoIndex="119" m_clusterGroupNumber="8">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="49" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="relu"/>
       <dataInputObjs>or</dataInputObjs>
       <dataInputObjs>fcmp</dataInputObjs>
@@ -614,12 +614,12 @@
       <dataInputObjs>bitconcatenate</dataInputObjs>
       <dataOutputObjs>zext</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="139" name="zext_ln102" lineNumber="102" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="zext_ln102_fu_838_p1" coreId="14534392" contextFuncName="conv2d" bitwidth="64" opcode="zext" nodeLabel="17.0" m_display="0" m_topoIndex="121" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="139" name="zext_ln102" lineNumber="102" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="zext_ln102_fu_838_p1" coreId="2093886200" contextFuncName="conv2d" bitwidth="64" opcode="zext" nodeLabel="17.0" m_display="0" m_topoIndex="121" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="102" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
       <dataInputObjs>add</dataInputObjs>
       <dataOutputObjs>getelementptr</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="140" name="output_addr" lineNumber="102" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="0" contextFuncName="conv2d" bitwidth="15" opcode="getelementptr" nodeLabel="17.0" m_display="0" m_topoIndex="122" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="140" name="output_addr" lineNumber="102" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="2093886976" contextFuncName="conv2d" bitwidth="15" opcode="getelementptr" nodeLabel="17.0" m_display="0" m_topoIndex="122" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="102" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
       <dataInputObjs>zext</dataInputObjs>
       <dataOutputObjs>output_r</dataOutputObjs>
@@ -650,7 +650,7 @@
       <dataOutputObjs>phi</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="145" name="br_ln0" coreId="14537696" opcode="br" nodeLabel="17.0" m_display="0" m_topoIndex="124" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="145" name="br_ln0" coreId="2751463552" opcode="br" nodeLabel="17.0" m_display="0" m_topoIndex="124" m_clusterGroupNumber="-1">
       <controlInputObjs>block_23</controlInputObjs>
     </node_objs>
     <fileValidLineNumbers fileName="../src/hls/cnn.cpp">
@@ -664,7 +664,7 @@
   <blocks id="148" name="._crit_edge26.loopexit" type="BlockType">
     <controlInputObjs>block_23</controlInputObjs>
     <controlOutputObjs>br</controlOutputObjs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="147" name="_ln109" lineNumber="109" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="0" contextFuncName="conv2d" opcode="ret" nodeLabel="1.0" m_display="0" m_topoIndex="40" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="147" name="_ln109" lineNumber="109" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="2093894200" contextFuncName="conv2d" opcode="ret" nodeLabel="1.0" m_display="0" m_topoIndex="40" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="109" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
     </node_objs>
     <fileValidLineNumbers fileName="../src/hls/cnn.cpp">
@@ -679,7 +679,7 @@
       <controlOutputObjs>br</controlOutputObjs>
       <controlOutputObjs>._crit_edge.loopexit</controlOutputObjs>
       <controlOutputObjs>.split4</controlOutputObjs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="58" name="indvar_flatten36" lineNumber="77" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="0" contextFuncName="conv2d" bitwidth="9" opcode="phi" nodeLabel="3.0" m_display="0" m_topoIndex="46" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="58" name="indvar_flatten36" lineNumber="77" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="2093990840" contextFuncName="conv2d" bitwidth="9" opcode="phi" nodeLabel="3.0" m_display="0" m_topoIndex="46" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="77" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>add</dataInputObjs>
         <dataOutputObjs>add</dataOutputObjs>
@@ -688,7 +688,7 @@
         <controlInputObjs>.split4</controlInputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="59" name="iv" lineNumber="77" originalName="iv" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="1043276322" contextFuncName="conv2d" bitwidth="6" opcode="phi" nodeLabel="3.0" m_display="0" m_topoIndex="47" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="59" name="iv" lineNumber="77" originalName="iv" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="1346914133" contextFuncName="conv2d" bitwidth="6" opcode="phi" nodeLabel="3.0" m_display="0" m_topoIndex="47" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="77" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>add</dataOutputObjs>
@@ -697,7 +697,7 @@
         <controlInputObjs>.split4</controlInputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="60" name="indvar_flatten" lineNumber="80" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="49" contextFuncName="conv2d" bitwidth="4" opcode="phi" nodeLabel="3.0" m_display="0" m_topoIndex="48" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="60" name="indvar_flatten" lineNumber="80" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="540160046" contextFuncName="conv2d" bitwidth="4" opcode="phi" nodeLabel="3.0" m_display="0" m_topoIndex="48" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="80" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>icmp</dataOutputObjs>
@@ -706,7 +706,7 @@
         <controlInputObjs>.split4</controlInputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="61" name="v" lineNumber="80" originalName="v" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="14926656" contextFuncName="conv2d" bitwidth="3" opcode="phi" nodeLabel="3.0" m_display="0" m_topoIndex="49" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="61" name="v" lineNumber="80" originalName="v" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="892477498" contextFuncName="conv2d" bitwidth="3" opcode="phi" nodeLabel="3.0" m_display="0" m_topoIndex="49" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="80" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>add</dataOutputObjs>
@@ -715,7 +715,7 @@
         <controlInputObjs>.split4</controlInputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="62" name="vi" lineNumber="92" originalName="vi" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="14928064" contextFuncName="conv2d" bitwidth="3" opcode="phi" nodeLabel="3.0" m_display="0" m_topoIndex="50" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="62" name="vi" lineNumber="92" originalName="vi" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="2093263520" contextFuncName="conv2d" bitwidth="3" opcode="phi" nodeLabel="3.0" m_display="0" m_topoIndex="50" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="92" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>add</dataInputObjs>
         <dataOutputObjs>icmp</dataOutputObjs>
@@ -724,7 +724,7 @@
         <controlInputObjs>.split4</controlInputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="63" name="add4115" originalName="output_sum" coreId="939524224" bitwidth="32" opcode="phi" nodeLabel="11.0" m_display="0" m_isOnCriticalPath="true" m_topoIndex="105" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="63" name="add4115" originalName="output_sum" coreId="9" bitwidth="32" opcode="phi" nodeLabel="11.0" m_display="0" m_isOnCriticalPath="true" m_topoIndex="105" m_clusterGroupNumber="-1">
         <dataInputObjs>load</dataInputObjs>
         <dataInputObjs>fadd</dataInputObjs>
         <dataOutputObjs>fadd</dataOutputObjs>
@@ -747,17 +747,17 @@
         <dataOutputObjs>trunc</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="66" name="indvars_iv_next37_cast" lineNumber="80" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="indvars_iv_next37_cast_fu_503_p1" coreId="132" contextFuncName="conv2d" bitwidth="4" opcode="zext" nodeLabel="3.0" m_display="0" m_topoIndex="52" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="66" name="indvars_iv_next37_cast" lineNumber="80" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="indvars_iv_next37_cast_fu_503_p1" coreId="49" contextFuncName="conv2d" bitwidth="4" opcode="zext" nodeLabel="3.0" m_display="0" m_topoIndex="52" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="80" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>add</dataInputObjs>
         <dataOutputObjs>sub</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="67" name="empty_66" lineNumber="80" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="empty_66_fu_507_p1" coreId="6" contextFuncName="conv2d" bitwidth="2" opcode="trunc" nodeLabel="3.0" m_display="0" m_topoIndex="53" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="67" name="empty_89" lineNumber="80" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="empty_89_fu_507_p1" coreId="2751463552" contextFuncName="conv2d" bitwidth="2" opcode="trunc" nodeLabel="3.0" m_display="0" m_topoIndex="53" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="80" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>add</dataInputObjs>
         <dataOutputObjs>bitconcatenate</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="68" name="p_shl" lineNumber="80" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="p_shl_fu_511_p3" coreId="0" contextFuncName="conv2d" bitwidth="4" opcode="bitconcatenate" nodeLabel="3.0" m_display="0" m_topoIndex="54" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="68" name="p_shl" lineNumber="80" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="p_shl_fu_511_p3" coreId="2093386936" contextFuncName="conv2d" bitwidth="4" opcode="bitconcatenate" nodeLabel="3.0" m_display="0" m_topoIndex="54" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="80" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>trunc</dataInputObjs>
         <dataOutputObjs>sub</dataOutputObjs>
@@ -775,13 +775,13 @@
         <dataOutputObjs>select</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="72" name="icmp_ln77" lineNumber="77" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln77_fu_531_p2" opType="icmp" coreId="1970040691" contextFuncName="conv2d" bitwidth="1" opcode="icmp" nodeLabel="3.0" m_display="0" m_delay="0.85" m_topoIndex="57" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="72" name="icmp_ln77" lineNumber="77" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln77_fu_531_p2" opType="icmp" coreId="2093856768" contextFuncName="conv2d" bitwidth="1" opcode="icmp" nodeLabel="3.0" m_display="0" m_delay="0.85" m_topoIndex="57" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="77" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>phi</dataInputObjs>
         <dataOutputObjs>br</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="73" name="br_ln77" lineNumber="77" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="2036689696" contextFuncName="conv2d" opcode="br" nodeLabel="3.0" m_display="0" m_topoIndex="58" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="73" name="br_ln77" lineNumber="77" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="6" contextFuncName="conv2d" opcode="br" nodeLabel="3.0" m_display="0" m_topoIndex="58" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="77" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>icmp</dataInputObjs>
         <controlInputObjs>.split4</controlInputObjs>
@@ -804,7 +804,7 @@
       <controlOutputObjs>phi</controlOutputObjs>
       <controlOutputObjs>br</controlOutputObjs>
       <controlOutputObjs>block_74</controlOutputObjs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="77" name="icmp_ln80" lineNumber="80" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln80_fu_537_p2" opType="icmp" coreId="1970040691" contextFuncName="conv2d" bitwidth="1" opcode="icmp" nodeLabel="3.0" m_display="0" m_delay="0.88" m_topoIndex="59" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="77" name="icmp_ln80" lineNumber="80" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="icmp_ln80_fu_537_p2" opType="icmp" coreId="8785" contextFuncName="conv2d" bitwidth="1" opcode="icmp" nodeLabel="3.0" m_display="0" m_delay="0.88" m_topoIndex="59" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="80" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>phi</dataInputObjs>
         <dataOutputObjs>select</dataOutputObjs>
@@ -839,12 +839,12 @@
         <dataOutputObjs>zext</dataOutputObjs>
         <dataOutputObjs>trunc</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="81" name="zext_ln77" lineNumber="77" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="zext_ln77_fu_724_p1" coreId="62" contextFuncName="conv2d" bitwidth="15" opcode="zext" nodeLabel="6.0" m_display="0" m_topoIndex="94" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="81" name="zext_ln77" lineNumber="77" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="zext_ln77_fu_724_p1" coreId="1599293780" contextFuncName="conv2d" bitwidth="15" opcode="zext" nodeLabel="6.0" m_display="0" m_topoIndex="94" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="77" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>add</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="82" name="trunc_ln77" lineNumber="77" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="trunc_ln77_fu_565_p1" coreId="0" contextFuncName="conv2d" bitwidth="5" opcode="trunc" nodeLabel="3.0" m_display="0" m_topoIndex="63" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="82" name="trunc_ln77" lineNumber="77" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="trunc_ln77_fu_565_p1" coreId="1983865711" contextFuncName="conv2d" bitwidth="5" opcode="trunc" nodeLabel="3.0" m_display="0" m_topoIndex="63" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="77" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>bitconcatenate</dataOutputObjs>
@@ -856,7 +856,7 @@
         <dataOutputObjs>select</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="85" name="xor_ln77" lineNumber="77" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="xor_ln77_fu_577_p2" opType="xor" coreId="939524224" contextFuncName="conv2d" bitwidth="1" opcode="xor" nodeLabel="3.0" m_display="0" m_topoIndex="65" m_clusterGroupNumber="6">
+      <node_objs xsi:type="cdfg:CdfgNode" id="85" name="xor_ln77" lineNumber="77" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="xor_ln77_fu_577_p2" opType="xor" coreId="981037679" contextFuncName="conv2d" bitwidth="1" opcode="xor" nodeLabel="3.0" m_display="0" m_topoIndex="65" m_clusterGroupNumber="6">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="77" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>icmp</dataInputObjs>
         <dataOutputObjs>and</dataOutputObjs>
@@ -868,7 +868,7 @@
         <dataOutputObjs>and</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="87" name="and_ln77" lineNumber="77" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="and_ln77_fu_589_p2" opType="and" coreId="15177992" contextFuncName="conv2d" bitwidth="1" opcode="and" nodeLabel="3.0" m_display="0" m_delay="0.33" m_topoIndex="67" m_clusterGroupNumber="6">
+      <node_objs xsi:type="cdfg:CdfgNode" id="87" name="and_ln77" lineNumber="77" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="and_ln77_fu_589_p2" opType="and" coreId="18081" contextFuncName="conv2d" bitwidth="1" opcode="and" nodeLabel="3.0" m_display="0" m_delay="0.33" m_topoIndex="67" m_clusterGroupNumber="6">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="77" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>icmp</dataInputObjs>
         <dataInputObjs>xor</dataInputObjs>
@@ -882,7 +882,7 @@
         <dataOutputObjs>select</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="90" name="or_ln80" lineNumber="80" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln80_fu_601_p2" opType="or" coreId="15177248" contextFuncName="conv2d" bitwidth="1" opcode="or" nodeLabel="3.0" m_display="0" m_topoIndex="69" m_clusterGroupNumber="7">
+      <node_objs xsi:type="cdfg:CdfgNode" id="90" name="or_ln80" lineNumber="80" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="or_ln80_fu_601_p2" opType="or" coreId="132" contextFuncName="conv2d" bitwidth="1" opcode="or" nodeLabel="3.0" m_display="0" m_topoIndex="69" m_clusterGroupNumber="7">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="80" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>and</dataInputObjs>
         <dataInputObjs>icmp</dataInputObjs>
@@ -903,17 +903,17 @@
         <dataOutputObjs>trunc</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="93" name="indvars_iv_next37_cast_mid1" lineNumber="77" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="indvars_iv_next37_cast_mid1_fu_621_p1" coreId="939524224" contextFuncName="conv2d" bitwidth="4" opcode="zext" nodeLabel="3.0" m_display="0" m_topoIndex="72" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="93" name="indvars_iv_next37_cast_mid1" lineNumber="77" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="indvars_iv_next37_cast_mid1_fu_621_p1" coreId="2093816152" contextFuncName="conv2d" bitwidth="4" opcode="zext" nodeLabel="3.0" m_display="0" m_topoIndex="72" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="77" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>add</dataInputObjs>
         <dataOutputObjs>sub</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="94" name="empty_68" lineNumber="77" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="empty_68_fu_625_p1" coreId="6" contextFuncName="conv2d" bitwidth="2" opcode="trunc" nodeLabel="3.0" m_display="0" m_topoIndex="73" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="94" name="empty_91" lineNumber="77" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="empty_91_fu_625_p1" coreId="2751463552" contextFuncName="conv2d" bitwidth="2" opcode="trunc" nodeLabel="3.0" m_display="0" m_topoIndex="73" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="77" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>add</dataInputObjs>
         <dataOutputObjs>bitconcatenate</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="95" name="p_shl_mid1" lineNumber="77" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="p_shl_mid1_fu_629_p3" coreId="0" contextFuncName="conv2d" bitwidth="4" opcode="bitconcatenate" nodeLabel="3.0" m_display="0" m_topoIndex="74" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="95" name="p_shl_mid1" lineNumber="77" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="p_shl_mid1_fu_629_p3" coreId="2093817848" contextFuncName="conv2d" bitwidth="4" opcode="bitconcatenate" nodeLabel="3.0" m_display="0" m_topoIndex="74" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="77" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>trunc</dataInputObjs>
         <dataOutputObjs>sub</dataOutputObjs>
@@ -933,7 +933,7 @@
         <dataOutputObjs>phi</dataOutputObjs>
         <dataOutputObjs>sext</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="98" name="sext_ln80" lineNumber="80" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="sext_ln80_fu_651_p1" coreId="15186848" contextFuncName="conv2d" bitwidth="5" opcode="sext" nodeLabel="3.0" m_display="0" m_topoIndex="77" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="98" name="sext_ln80" lineNumber="80" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="sext_ln80_fu_651_p1" coreId="2093821552" contextFuncName="conv2d" bitwidth="5" opcode="sext" nodeLabel="3.0" m_display="0" m_topoIndex="77" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="80" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>add</dataOutputObjs>
@@ -944,18 +944,18 @@
         <dataInputObjs>sext</dataInputObjs>
         <dataOutputObjs>zext</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="100" name="zext_ln80" lineNumber="80" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="grp_fu_842_p00" coreId="15190088" contextFuncName="conv2d" bitwidth="10" opcode="zext" nodeLabel="3.0" m_display="0" m_topoIndex="79" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="100" name="zext_ln80" lineNumber="80" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="grp_fu_842_p00" coreId="132" contextFuncName="conv2d" bitwidth="10" opcode="zext" nodeLabel="3.0" m_display="0" m_topoIndex="79" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="80" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>add</dataInputObjs>
         <dataOutputObjs>mul</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="101" name="mul_ln80" lineNumber="80" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="mac_muladd_5ns_6ns_5ns_10_4_1_U38" coreName="DSP48" implIndex="dsp" control="auto" opType="add" coreId="127" contextFuncName="conv2d" bitwidth="10" opcode="mul" nodeLabel="3.0" nodeLatency="2" m_display="0" m_delay="1.08" m_topoIndex="80" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="101" name="mul_ln80" lineNumber="80" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="mac_muladd_5ns_6ns_5ns_10_4_1_U30" coreName="DSP48" implIndex="dsp" control="auto" opType="add" coreId="127" contextFuncName="conv2d" bitwidth="10" opcode="mul" nodeLabel="3.0" nodeLatency="2" m_display="0" m_delay="1.08" m_topoIndex="80" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="80" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>zext</dataInputObjs>
         <dataOutputObjs>add</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="102" name="add_ln80_2" lineNumber="80" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="mac_muladd_5ns_6ns_5ns_10_4_1_U38" coreName="DSP48" implIndex="dsp" control="auto" opType="add" coreId="127" contextFuncName="conv2d" bitwidth="10" opcode="add" nodeLabel="5.0" nodeLatency="1" m_display="0" m_delay="0.83" m_topoIndex="92" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="102" name="add_ln80_2" lineNumber="80" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="mac_muladd_5ns_6ns_5ns_10_4_1_U30" coreName="DSP48" implIndex="dsp" control="auto" opType="add" coreId="127" contextFuncName="conv2d" bitwidth="10" opcode="add" nodeLabel="5.0" nodeLatency="1" m_display="0" m_delay="0.83" m_topoIndex="92" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="80" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>mul</dataInputObjs>
         <dataInputObjs>zext</dataInputObjs>
@@ -974,13 +974,13 @@
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>add</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="107" name="trunc_ln87" lineNumber="87" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="trunc_ln87_fu_678_p1" coreId="15196888" contextFuncName="conv2d" bitwidth="2" opcode="trunc" nodeLabel="3.0" m_display="0" m_topoIndex="83" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="107" name="trunc_ln87" lineNumber="87" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="trunc_ln87_fu_678_p1" coreId="2093830616" contextFuncName="conv2d" bitwidth="2" opcode="trunc" nodeLabel="3.0" m_display="0" m_topoIndex="83" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="87" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>sext</dataOutputObjs>
         <dataOutputObjs>sext</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="108" name="sext_ln87" lineNumber="87" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="sext_ln87_fu_727_p1" coreId="15197664" contextFuncName="conv2d" bitwidth="10" opcode="sext" nodeLabel="6.0" m_display="0" m_topoIndex="95" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="108" name="sext_ln87" lineNumber="87" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="sext_ln87_fu_727_p1" coreId="2093830792" contextFuncName="conv2d" bitwidth="10" opcode="sext" nodeLabel="6.0" m_display="0" m_topoIndex="95" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="87" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>trunc</dataInputObjs>
         <dataOutputObjs>add</dataOutputObjs>
@@ -991,7 +991,7 @@
         <dataInputObjs>sext</dataInputObjs>
         <dataOutputObjs>bitconcatenate</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="110" name="shl_ln" lineNumber="87" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="shl_ln_fu_735_p3" coreId="49" contextFuncName="conv2d" bitwidth="15" opcode="bitconcatenate" nodeLabel="6.0" m_display="0" m_topoIndex="97" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="110" name="shl_ln" lineNumber="87" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="shl_ln_fu_735_p3" coreId="2093833376" contextFuncName="conv2d" bitwidth="15" opcode="bitconcatenate" nodeLabel="6.0" m_display="0" m_topoIndex="97" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="87" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>add</dataInputObjs>
         <dataOutputObjs>add</dataOutputObjs>
@@ -1003,12 +1003,12 @@
         <dataInputObjs>zext</dataInputObjs>
         <dataOutputObjs>zext</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="112" name="zext_ln87" lineNumber="87" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="zext_ln87_fu_749_p1" coreId="0" contextFuncName="conv2d" bitwidth="64" opcode="zext" nodeLabel="6.0" m_display="0" m_topoIndex="99" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="112" name="zext_ln87" lineNumber="87" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="zext_ln87_fu_749_p1" coreId="132" contextFuncName="conv2d" bitwidth="64" opcode="zext" nodeLabel="6.0" m_display="0" m_topoIndex="99" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="87" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>add</dataInputObjs>
         <dataOutputObjs>getelementptr</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="113" name="input_addr" lineNumber="87" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="25585" contextFuncName="conv2d" bitwidth="15" opcode="getelementptr" nodeLabel="6.0" m_display="0" m_topoIndex="100" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="113" name="input_addr" lineNumber="87" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="2093838464" contextFuncName="conv2d" bitwidth="15" opcode="getelementptr" nodeLabel="6.0" m_display="0" m_topoIndex="100" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="87" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>input_r</dataInputObjs>
         <dataInputObjs>zext</dataInputObjs>
@@ -1026,7 +1026,7 @@
         <dataOutputObjs>phi</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="116" name="sext_ln91" lineNumber="91" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="sext_ln91_fu_682_p1" coreId="0" contextFuncName="conv2d" bitwidth="4" opcode="sext" nodeLabel="3.0" m_display="0" m_topoIndex="84" m_clusterGroupNumber="5">
+      <node_objs xsi:type="cdfg:CdfgNode" id="116" name="sext_ln91" lineNumber="91" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="sext_ln91_fu_682_p1" coreId="2093841593" contextFuncName="conv2d" bitwidth="4" opcode="sext" nodeLabel="3.0" m_display="0" m_topoIndex="84" m_clusterGroupNumber="5">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="91" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>trunc</dataInputObjs>
         <dataOutputObjs>add</dataOutputObjs>
@@ -1037,7 +1037,7 @@
         <dataInputObjs>sext</dataInputObjs>
         <dataOutputObjs>bitconcatenate</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="118" name="shl_ln1" lineNumber="92" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="shl_ln1_fu_692_p4" coreId="15211128" contextFuncName="conv2d" bitwidth="14" opcode="bitconcatenate" nodeLabel="3.0" m_display="0" m_topoIndex="86" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="118" name="shl_ln1" lineNumber="92" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="shl_ln1_fu_692_p4" coreId="2093844240" contextFuncName="conv2d" bitwidth="14" opcode="bitconcatenate" nodeLabel="3.0" m_display="0" m_topoIndex="86" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="92" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>add</dataInputObjs>
         <dataInputObjs>trunc</dataInputObjs>
@@ -1050,12 +1050,12 @@
         <dataInputObjs>zext</dataInputObjs>
         <dataOutputObjs>zext</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="120" name="zext_ln91" lineNumber="91" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="zext_ln91_fu_707_p1" coreId="0" contextFuncName="conv2d" bitwidth="64" opcode="zext" nodeLabel="3.0" m_display="0" m_topoIndex="88" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="120" name="zext_ln91" lineNumber="91" fileName="../src/hls/cnn.cpp" fileDirectory=".." rtlName="zext_ln91_fu_707_p1" coreId="28271" contextFuncName="conv2d" bitwidth="64" opcode="zext" nodeLabel="3.0" m_display="0" m_topoIndex="88" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="91" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>add</dataInputObjs>
         <dataOutputObjs>getelementptr</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="121" name="layer_4_weights_addr" lineNumber="91" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="15211913" contextFuncName="conv2d" bitwidth="14" opcode="getelementptr" nodeLabel="3.0" m_display="0" m_topoIndex="89" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="121" name="layer_4_weights_addr" lineNumber="91" fileName="../src/hls/cnn.cpp" fileDirectory=".." coreId="49" contextFuncName="conv2d" bitwidth="14" opcode="getelementptr" nodeLabel="3.0" m_display="0" m_topoIndex="89" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="../src/hls/cnn.cpp" linenumber="91" fileDirectory="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS" functionName="conv2d"/>
         <dataInputObjs>zext</dataInputObjs>
         <dataOutputObjs>load</dataOutputObjs>
@@ -1091,7 +1091,7 @@
         <dataOutputObjs>phi</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="127" name="br_ln0" coreId="132" opcode="br" nodeLabel="15.0" m_display="0" m_topoIndex="107" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="127" name="br_ln0" coreId="2093871360" opcode="br" nodeLabel="15.0" m_display="0" m_topoIndex="107" m_clusterGroupNumber="-1">
         <controlInputObjs>block_74</controlInputObjs>
       </node_objs>
       <fileValidLineNumbers fileName="../src/hls/cnn.cpp">
@@ -1147,9 +1147,6 @@
   </regnodes>
   <regnodes realName="add52_mid2_reg_897">
     <nodeIds>49</nodeIds>
-  </regnodes>
-  <regnodes realName="empty_71_reg_882">
-    <nodeIds>48</nodeIds>
   </regnodes>
   <regnodes realName="ii_cast4_mid2_cast_reg_892">
     <nodeIds>42</nodeIds>
@@ -1217,6 +1214,9 @@
   <regnodes realName="output_sum_reg_912">
     <nodeIds>55</nodeIds>
   </regnodes>
+  <regnodes realName="empty_94_reg_882">
+    <nodeIds>48</nodeIds>
+  </regnodes>
   <regnodes realName="add_ln102_reg_1002">
     <nodeIds>138</nodeIds>
   </regnodes>
@@ -1264,9 +1264,6 @@
   </expressionNodes>
   <expressionNodes realName="ii_cast4_mid2_fu_432">
     <nodeIds>41</nodeIds>
-  </expressionNodes>
-  <expressionNodes realName="empty_71_fu_468">
-    <nodeIds>48</nodeIds>
   </expressionNodes>
   <expressionNodes realName="select_ln66_4_fu_372">
     <nodeIds>31</nodeIds>
@@ -1361,9 +1358,6 @@
   <expressionNodes realName="add_ln92_5_fu_686">
     <nodeIds>117</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="empty_66_fu_507">
-    <nodeIds>67</nodeIds>
-  </expressionNodes>
   <expressionNodes realName="ii_cast_fu_316">
     <nodeIds>17</nodeIds>
   </expressionNodes>
@@ -1375,6 +1369,9 @@
   </expressionNodes>
   <expressionNodes realName="tmp_cast_fu_326">
     <nodeIds>19</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="empty_93_fu_418">
+    <nodeIds>39</nodeIds>
   </expressionNodes>
   <expressionNodes realName="iv_phi_fu_234">
     <nodeIds>59</nodeIds>
@@ -1427,6 +1424,9 @@
   <expressionNodes realName="empty_fu_310">
     <nodeIds>16</nodeIds>
   </expressionNodes>
+  <expressionNodes realName="empty_89_fu_507">
+    <nodeIds>67</nodeIds>
+  </expressionNodes>
   <expressionNodes realName="sext_ln80_fu_651">
     <nodeIds>98</nodeIds>
   </expressionNodes>
@@ -1445,8 +1445,14 @@
   <expressionNodes realName="trunc_ln77_fu_565">
     <nodeIds>82</nodeIds>
   </expressionNodes>
+  <expressionNodes realName="empty_91_fu_625">
+    <nodeIds>94</nodeIds>
+  </expressionNodes>
   <expressionNodes realName="trunc_ln87_fu_678">
     <nodeIds>107</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="empty_94_fu_468">
+    <nodeIds>48</nodeIds>
   </expressionNodes>
   <expressionNodes realName="add_ln92_4_fu_664">
     <nodeIds>103</nodeIds>
@@ -1499,9 +1505,6 @@
   <expressionNodes realName="i_phi_fu_177">
     <nodeIds>10</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="empty_70_fu_418">
-    <nodeIds>39</nodeIds>
-  </expressionNodes>
   <expressionNodes realName="select_ln80_7_fu_759">
     <nodeIds>126</nodeIds>
   </expressionNodes>
@@ -1519,9 +1522,6 @@
   </expressionNodes>
   <expressionNodes realName="sext_ln91_fu_682">
     <nodeIds>116</nodeIds>
-  </expressionNodes>
-  <expressionNodes realName="empty_68_fu_625">
-    <nodeIds>94</nodeIds>
   </expressionNodes>
   <expressionNodes realName="indvars_iv_next37_dup_fu_595">
     <nodeIds>88</nodeIds>

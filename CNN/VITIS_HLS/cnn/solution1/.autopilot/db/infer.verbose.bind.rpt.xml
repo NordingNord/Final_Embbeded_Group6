@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'infer'" level="0">
-<item name = "Date">Sun Dec 24 00:40:09 2023
+<item name = "Date">Sun Dec 24 01:15:16 2023
 </item>
 <item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)</item>
 <item name = "Project">cnn</item>
@@ -24,38 +24,38 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">37038382, 37038382, 0.446 sec, 0.446 sec, 37038383, 37038383, none</column>
+<column name="">37098703, 37098703, 0.447 sec, 0.447 sec, 37098704, 37098704, none</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_conv2d_2_fu_744">conv2d_2, 4951809, 4951809, 59.600 ms, 59.600 ms, 4951809, 4951809, none</column>
-<column name="grp_conv2d_1_fu_754">conv2d_1, 27177121, 27177121, 0.327 sec, 0.327 sec, 27177121, 27177121, none</column>
-<column name="grp_conv2d_fu_764">conv2d, 4510881, 4510881, 54.293 ms, 54.293 ms, 4510881, 4510881, none</column>
-<column name="grp_max_pooling2d_2_fu_774">max_pooling2d_2, 53833, 53833, 0.648 ms, 0.648 ms, 53833, 53833, none</column>
-<column name="grp_max_pooling2d_1_fu_780">max_pooling2d_1, 10825, 10825, 0.130 ms, 0.130 ms, 10825, 10825, none</column>
-<column name="grp_max_pooling2d_fu_786">max_pooling2d, 1608, 1608, 19.354 us, 19.354 us, 1608, 1608, none</column>
-<column name="grp_dense_relu_2_fu_792">dense_relu_2, 205889, 205889, 2.478 ms, 2.478 ms, 205889, 205889, none</column>
-<column name="grp_dense_relu_1_fu_802">dense_relu_1, 8737, 8737, 0.105 ms, 0.105 ms, 8737, 8737, none</column>
-<column name="grp_dense_relu_fu_812">dense_relu, 2305, 2305, 27.743 us, 27.743 us, 2305, 2305, none</column>
-<column name="grp_set3DFloatArray_5_fu_822">set3DFloatArray_5, 107652, 107652, 1.296 ms, 1.296 ms, 107652, 107652, none</column>
-<column name="grp_set3DFloatArray_4_fu_827">set3DFloatArray_4, 26916, 26916, 0.324 ms, 0.324 ms, 26916, 26916, none</column>
-<column name="grp_set3DFloatArray_3_fu_832">set3DFloatArray_3, 23332, 23332, 0.281 ms, 0.281 ms, 23332, 23332, none</column>
-<column name="grp_set3DFloatArray_2_fu_837">set3DFloatArray_2, 5412, 5412, 65.139 us, 65.139 us, 5412, 5412, none</column>
-<column name="grp_set3DFloatArray_1_fu_842">set3DFloatArray_1, 3876, 3876, 46.652 us, 46.652 us, 3876, 3876, none</column>
-<column name="grp_set3DFloatArray_fu_847">set3DFloatArray, 802, 802, 9.653 us, 9.653 us, 802, 802, none</column>
+<column name="grp_conv2d_2_fu_914">conv2d_2, 4951809, 4951809, 59.600 ms, 59.600 ms, 4951809, 4951809, none</column>
+<column name="grp_conv2d_1_fu_924">conv2d_1, 27177121, 27177121, 0.327 sec, 0.327 sec, 27177121, 27177121, none</column>
+<column name="grp_conv2d_fu_934">conv2d, 4510881, 4510881, 54.293 ms, 54.293 ms, 4510881, 4510881, none</column>
+<column name="grp_max_pooling2d_2_fu_944">max_pooling2d_2, 53833, 53833, 0.648 ms, 0.648 ms, 53833, 53833, none</column>
+<column name="grp_max_pooling2d_1_fu_950">max_pooling2d_1, 10825, 10825, 0.130 ms, 0.130 ms, 10825, 10825, none</column>
+<column name="grp_max_pooling2d_fu_956">max_pooling2d, 1608, 1608, 19.354 us, 19.354 us, 1608, 1608, none</column>
+<column name="grp_dense_relu_2_fu_962">dense_relu_2, 205889, 205889, 2.478 ms, 2.478 ms, 205889, 205889, none</column>
+<column name="grp_dense_relu_1_fu_972">dense_relu_1, 8737, 8737, 0.105 ms, 0.105 ms, 8737, 8737, none</column>
+<column name="grp_dense_relu_fu_982">dense_relu, 2305, 2305, 27.743 us, 27.743 us, 2305, 2305, none</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
 <column name="- get_input">3604, 3604, 6, 1, 1, 3600, yes</column>
 <column name="- rescale1_rescale1_2">3611, 3611, 13, 1, 1, 3600, yes</column>
-<column name="- set1DFloatArray1">64, 64, 1, 1, 1, 64, yes</column>
-<column name="- set1DFloatArray1">32, 32, 1, 1, 1, 32, yes</column>
-<column name="- set1DFloatArray1">16, 16, 1, 1, 1, 16, yes</column>
-<column name="- set1DFloatArray1">4, 4, 1, 1, 1, 4, yes</column>
+<column name="- Loop 3">107648, 107648, 1, 1, 1, 107648, yes</column>
+<column name="- Loop 4">26912, 26912, 1, 1, 1, 26912, yes</column>
+<column name="- Loop 5">23328, 23328, 1, 1, 1, 23328, yes</column>
+<column name="- Loop 6">5408, 5408, 1, 1, 1, 5408, yes</column>
+<column name="- Loop 7">3872, 3872, 1, 1, 1, 3872, yes</column>
+<column name="- Loop 8">800, 800, 1, 1, 1, 800, yes</column>
+<column name="- Loop 9">64, 64, 1, 1, 1, 64, yes</column>
+<column name="- Loop 10">32, 32, 1, 1, 1, 32, yes</column>
+<column name="- Loop 11">16, 16, 1, 1, 1, 16, yes</column>
+<column name="- Loop 12">4, 4, 1, 1, 1, 4, yes</column>
 <column name="- dense1">346, 346, 90, 84, 1, 4, yes</column>
 <column name="- send_result">5, 5, 3, 1, 1, 4, yes</column>
 </table>

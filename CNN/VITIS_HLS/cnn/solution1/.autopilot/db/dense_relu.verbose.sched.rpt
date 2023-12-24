@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'dense_relu'
 ================================================================
-* Date:           Sun Dec 24 00:40:03 2023
+* Date:           Sun Dec 24 01:15:11 2023
 
 * Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)
 * Project:        cnn
@@ -120,7 +120,7 @@ ST_2 : Operation 31 [1/1] (0.00ns)   --->   "%ret_ln166 = ret" [../src/hls/cnn.c
 
 State 3 <SV = 2> <Delay = 0.79>
 ST_3 : Operation 32 [1/1] (0.00ns)   --->   "%zext_ln155_3 = zext i5 %i" [../src/hls/cnn.cpp:155]   --->   Operation 32 'zext' 'zext_ln155_3' <Predicate = true> <Delay = 0.00>
-ST_3 : Operation 33 [1/1] (0.00ns)   --->   "%specloopname_ln155 = specloopname void @_ssdm_op_SpecLoopName, void @empty_10" [../src/hls/cnn.cpp:155]   --->   Operation 33 'specloopname' 'specloopname_ln155' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 33 [1/1] (0.00ns)   --->   "%specloopname_ln155 = specloopname void @_ssdm_op_SpecLoopName, void @empty_3" [../src/hls/cnn.cpp:155]   --->   Operation 33 'specloopname' 'specloopname_ln155' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 34 [1/2] (0.79ns)   --->   "%output_load = load i4 %output_addr" [../src/hls/cnn.cpp:159]   --->   Operation 34 'load' 'output_load' <Predicate = true> <Delay = 0.79> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
 ST_3 : Operation 35 [1/1] (0.48ns)   --->   "%br_ln157 = br void" [../src/hls/cnn.cpp:157]   --->   Operation 35 'br' 'br_ln157' <Predicate = true> <Delay = 0.48>
 
@@ -142,7 +142,7 @@ ST_4 : Operation 48 [2/2] (1.35ns)   --->   "%layer_11_weights_load = load i9 %l
 State 5 <SV = 4> <Delay = 6.02>
 ST_5 : Operation 49 [1/1] (0.00ns)   --->   "%add108 = phi i32 %add, void %.split, i32 %output_load, void %.split2" [../src/hls/cnn.cpp:159]   --->   Operation 49 'phi' 'add108' <Predicate = true> <Delay = 0.00>
 ST_5 : Operation 50 [1/1] (0.00ns)   --->   "%specpipeline_ln0 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 1, i32 0, void @p_str"   --->   Operation 50 'specpipeline' 'specpipeline_ln0' <Predicate = true> <Delay = 0.00>
-ST_5 : Operation 51 [1/1] (0.00ns)   --->   "%empty_56 = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 32, i64 32, i64 32"   --->   Operation 51 'speclooptripcount' 'empty_56' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 51 [1/1] (0.00ns)   --->   "%empty_79 = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 32, i64 32, i64 32"   --->   Operation 51 'speclooptripcount' 'empty_79' <Predicate = true> <Delay = 0.00>
 ST_5 : Operation 52 [1/2] (1.35ns)   --->   "%input_load = load i5 %input_addr" [../src/hls/cnn.cpp:159]   --->   Operation 52 'load' 'input_load' <Predicate = (!icmp_ln157)> <Delay = 1.35> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 32> <RAM>
 ST_5 : Operation 53 [1/2] (1.35ns)   --->   "%layer_11_weights_load = load i9 %layer_11_weights_addr" [../src/hls/cnn.cpp:159]   --->   Operation 53 'load' 'layer_11_weights_load' <Predicate = (!icmp_ln157)> <Delay = 1.35> <CoreInst = "ROM">   --->   Core 101 'ROM' <Latency = 1> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 32> <Depth = 512> <ROM>
 ST_5 : Operation 54 [4/4] (4.67ns)   --->   "%mul7 = fmul i32 %input_load, i32 %layer_11_weights_load" [../src/hls/cnn.cpp:159]   --->   Operation 54 'fmul' 'mul7' <Predicate = (!icmp_ln157)> <Delay = 4.67> <CoreInst = "FMul_maxdsp">   --->   Core 30 'FMul_maxdsp' <Latency = 3> <II = 1> <Delay = 4.67> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
@@ -169,7 +169,7 @@ State 12 <SV = 11> <Delay = 12.0>
 ST_12 : Operation 61 [2/5] (6.01ns)   --->   "%add = fadd i32 %add108, i32 %mul7" [../src/hls/cnn.cpp:159]   --->   Operation 61 'fadd' 'add' <Predicate = (!icmp_ln157)> <Delay = 6.01> <CoreInst = "FAddSub_fulldsp">   --->   Core 18 'FAddSub_fulldsp' <Latency = 4> <II = 1> <Delay = 6.01> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
 
 State 13 <SV = 12> <Delay = 12.0>
-ST_13 : Operation 62 [1/1] (0.00ns)   --->   "%specloopname_ln157 = specloopname void @_ssdm_op_SpecLoopName, void @empty_9" [../src/hls/cnn.cpp:157]   --->   Operation 62 'specloopname' 'specloopname_ln157' <Predicate = (!icmp_ln157)> <Delay = 0.00>
+ST_13 : Operation 62 [1/1] (0.00ns)   --->   "%specloopname_ln157 = specloopname void @_ssdm_op_SpecLoopName, void @empty_7" [../src/hls/cnn.cpp:157]   --->   Operation 62 'specloopname' 'specloopname_ln157' <Predicate = (!icmp_ln157)> <Delay = 0.00>
 ST_13 : Operation 63 [1/5] (6.01ns)   --->   "%add = fadd i32 %add108, i32 %mul7" [../src/hls/cnn.cpp:159]   --->   Operation 63 'fadd' 'add' <Predicate = (!icmp_ln157)> <Delay = 6.01> <CoreInst = "FAddSub_fulldsp">   --->   Core 18 'FAddSub_fulldsp' <Latency = 4> <II = 1> <Delay = 6.01> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
 ST_13 : Operation 64 [1/1] (0.00ns)   --->   "%br_ln0 = br void"   --->   Operation 64 'br' 'br_ln0' <Predicate = (!icmp_ln157)> <Delay = 0.00>
 

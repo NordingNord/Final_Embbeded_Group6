@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'conv2d'
 ================================================================
-* Date:           Sun Dec 24 00:40:16 2023
+* Date:           Sun Dec 24 01:15:22 2023
 
 * Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)
 * Project:        cnn
@@ -74,8 +74,8 @@
     +-----------------------+-------------------+---------+----+---+----+-----+
     |        Instance       |       Module      | BRAM_18K| DSP| FF| LUT| URAM|
     +-----------------------+-------------------+---------+----+---+----+-----+
-    |mul_4ns_5ns_7_1_1_U64  |mul_4ns_5ns_7_1_1  |        0|   0|  0|  17|    0|
-    |mul_4ns_5ns_7_1_1_U65  |mul_4ns_5ns_7_1_1  |        0|   0|  0|  17|    0|
+    |mul_4ns_5ns_7_1_1_U50  |mul_4ns_5ns_7_1_1  |        0|   0|  0|  17|    0|
+    |mul_4ns_5ns_7_1_1_U51  |mul_4ns_5ns_7_1_1  |        0|   0|  0|  17|    0|
     +-----------------------+-------------------+---------+----+---+----+-----+
     |Total                  |                   |        0|   0|  0|  34|    0|
     +-----------------------+-------------------+---------+----+---+----+-----+
@@ -84,7 +84,7 @@
     +----------------------------------+------------------------------+--------------+
     |             Instance             |            Module            |  Expression  |
     +----------------------------------+------------------------------+--------------+
-    |mac_muladd_4ns_5ns_4ns_8_4_1_U66  |mac_muladd_4ns_5ns_4ns_8_4_1  |  i0 * i1 + i2|
+    |mac_muladd_4ns_5ns_4ns_8_4_1_U52  |mac_muladd_4ns_5ns_4ns_8_4_1  |  i0 * i1 + i2|
     +----------------------------------+------------------------------+--------------+
 
     * Memory: 
@@ -142,10 +142,10 @@
     |icmp_ln77_fu_531_p2               |      icmp|   0|  0|  11|           9|           9|
     |icmp_ln80_fu_537_p2               |      icmp|   0|  0|   9|           4|           4|
     |icmp_ln83_fu_583_p2               |      icmp|   0|  0|   8|           3|           2|
-    |empty_75_fu_418_p2                |        or|   0|  0|   2|           1|           1|
+    |empty_98_fu_418_p2                |        or|   0|  0|   2|           1|           1|
     |or_ln49_fu_817_p2                 |        or|   0|  0|   2|           1|           1|
     |or_ln80_fu_601_p2                 |        or|   0|  0|   2|           1|           1|
-    |empty_76_fu_468_p3                |    select|   0|  0|   7|           1|           7|
+    |empty_99_fu_468_p3                |    select|   0|  0|   7|           1|           7|
     |ii_cast5_mid2_fu_432_p3           |    select|   0|  0|   4|           1|           4|
     |iii_mid2_fu_424_p3                |    select|   0|  0|   6|           1|           1|
     |output_r_d0                       |    select|   0|  0|  32|           1|           1|
@@ -213,7 +213,7 @@
     |ap_enable_reg_pp0_iter1       |   1|   0|    1|          0|
     |ap_enable_reg_pp0_iter2       |   1|   0|    1|          0|
     |ap_enable_reg_pp0_iter3       |   1|   0|    1|          0|
-    |empty_76_reg_882              |   7|   0|    7|          0|
+    |empty_99_reg_882              |   7|   0|    7|          0|
     |i_reg_173                     |   4|   0|    4|          0|
     |icmp_ln69_reg_858             |   1|   0|    1|          0|
     |icmp_ln77_reg_917             |   1|   0|    1|          0|
@@ -261,20 +261,20 @@
 |ap_done               |  out|    1|  ap_ctrl_hs|        conv2d|  return value|
 |ap_idle               |  out|    1|  ap_ctrl_hs|        conv2d|  return value|
 |ap_ready              |  out|    1|  ap_ctrl_hs|        conv2d|  return value|
-|grp_fu_852_p_din0     |  out|   32|  ap_ctrl_hs|        conv2d|  return value|
-|grp_fu_852_p_din1     |  out|   32|  ap_ctrl_hs|        conv2d|  return value|
-|grp_fu_852_p_opcode   |  out|    2|  ap_ctrl_hs|        conv2d|  return value|
-|grp_fu_852_p_dout0    |   in|   32|  ap_ctrl_hs|        conv2d|  return value|
-|grp_fu_852_p_ce       |  out|    1|  ap_ctrl_hs|        conv2d|  return value|
-|grp_fu_856_p_din0     |  out|   32|  ap_ctrl_hs|        conv2d|  return value|
-|grp_fu_856_p_din1     |  out|   32|  ap_ctrl_hs|        conv2d|  return value|
-|grp_fu_856_p_dout0    |   in|   32|  ap_ctrl_hs|        conv2d|  return value|
-|grp_fu_856_p_ce       |  out|    1|  ap_ctrl_hs|        conv2d|  return value|
-|grp_fu_1954_p_din0    |  out|   32|  ap_ctrl_hs|        conv2d|  return value|
-|grp_fu_1954_p_din1    |  out|   32|  ap_ctrl_hs|        conv2d|  return value|
-|grp_fu_1954_p_opcode  |  out|    5|  ap_ctrl_hs|        conv2d|  return value|
-|grp_fu_1954_p_dout0   |   in|    1|  ap_ctrl_hs|        conv2d|  return value|
-|grp_fu_1954_p_ce      |  out|    1|  ap_ctrl_hs|        conv2d|  return value|
+|grp_fu_992_p_din0     |  out|   32|  ap_ctrl_hs|        conv2d|  return value|
+|grp_fu_992_p_din1     |  out|   32|  ap_ctrl_hs|        conv2d|  return value|
+|grp_fu_992_p_opcode   |  out|    2|  ap_ctrl_hs|        conv2d|  return value|
+|grp_fu_992_p_dout0    |   in|   32|  ap_ctrl_hs|        conv2d|  return value|
+|grp_fu_992_p_ce       |  out|    1|  ap_ctrl_hs|        conv2d|  return value|
+|grp_fu_996_p_din0     |  out|   32|  ap_ctrl_hs|        conv2d|  return value|
+|grp_fu_996_p_din1     |  out|   32|  ap_ctrl_hs|        conv2d|  return value|
+|grp_fu_996_p_dout0    |   in|   32|  ap_ctrl_hs|        conv2d|  return value|
+|grp_fu_996_p_ce       |  out|    1|  ap_ctrl_hs|        conv2d|  return value|
+|grp_fu_2244_p_din0    |  out|   32|  ap_ctrl_hs|        conv2d|  return value|
+|grp_fu_2244_p_din1    |  out|   32|  ap_ctrl_hs|        conv2d|  return value|
+|grp_fu_2244_p_opcode  |  out|    5|  ap_ctrl_hs|        conv2d|  return value|
+|grp_fu_2244_p_dout0   |   in|    1|  ap_ctrl_hs|        conv2d|  return value|
+|grp_fu_2244_p_ce      |  out|    1|  ap_ctrl_hs|        conv2d|  return value|
 |input_r_address0      |  out|   13|   ap_memory|       input_r|         array|
 |input_r_ce0           |  out|    1|   ap_memory|       input_r|         array|
 |input_r_q0            |   in|   32|   ap_memory|       input_r|         array|

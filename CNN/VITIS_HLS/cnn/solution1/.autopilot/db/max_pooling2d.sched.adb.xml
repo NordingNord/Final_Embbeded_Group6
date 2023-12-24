@@ -210,10 +210,10 @@
 
 <Node id="13" bw="4" op_0_bw="3">
 <![CDATA[
-:8 %tmp_37_cast = zext i3 %tmp_33
+:8 %tmp_36_cast = zext i3 %tmp_33
 
 ]]></Node>
-<StgValue><ssdm name="tmp_37_cast"/></StgValue>
+<StgValue><ssdm name="tmp_36_cast"/></StgValue>
 </operation>
 
 <operation id="21" st_id="2" stage="1" lat="1">
@@ -285,10 +285,10 @@
 
 <Node id="21" bw="4" op_0_bw="3">
 <![CDATA[
-:16 %tmp_38_cast = zext i3 %tmp_34
+:16 %tmp_37_cast = zext i3 %tmp_34
 
 ]]></Node>
-<StgValue><ssdm name="tmp_38_cast"/></StgValue>
+<StgValue><ssdm name="tmp_37_cast"/></StgValue>
 </operation>
 
 <operation id="26" st_id="2" stage="1" lat="1">
@@ -300,7 +300,7 @@
 
 <Node id="22" bw="4" op_0_bw="4" op_1_bw="4">
 <![CDATA[
-:17 %tmp = add i4 %tmp_37_cast, i4 %tmp_38_cast
+:17 %tmp = add i4 %tmp_36_cast, i4 %tmp_37_cast
 
 ]]></Node>
 <StgValue><ssdm name="tmp"/></StgValue>
@@ -807,10 +807,10 @@
 
 <Node id="67" bw="5" op_0_bw="1" op_1_bw="5" op_2_bw="5">
 <![CDATA[
-._crit_edge11:36 %empty_43 = select i1 %icmp_ln121, i5 %mul2212_mid126, i5 %mul2212
+._crit_edge11:36 %empty_39 = select i1 %icmp_ln121, i5 %mul2212_mid126, i5 %mul2212
 
 ]]></Node>
-<StgValue><ssdm name="empty_43"/></StgValue>
+<StgValue><ssdm name="empty_39"/></StgValue>
 </operation>
 
 <operation id="59" st_id="2" stage="1" lat="1">
@@ -823,7 +823,7 @@
 
 <Node id="68" bw="5" op_0_bw="1" op_1_bw="5" op_2_bw="5">
 <![CDATA[
-._crit_edge11:37 %select_ln121_11 = select i1 %icmp_ln124_mid253, i5 %mul2212_mid1, i5 %empty_43
+._crit_edge11:37 %select_ln121_11 = select i1 %icmp_ln124_mid253, i5 %mul2212_mid1, i5 %empty_39
 
 ]]></Node>
 <StgValue><ssdm name="select_ln121_11"/></StgValue>
@@ -1144,10 +1144,10 @@
 
 <Node id="16" bw="4" op_0_bw="4" op_1_bw="4">
 <![CDATA[
-:11 %empty_41 = or i4 %i, i4 1
+:11 %empty_37 = or i4 %i, i4 1
 
 ]]></Node>
-<StgValue><ssdm name="empty_41"/></StgValue>
+<StgValue><ssdm name="empty_37"/></StgValue>
 </operation>
 
 <operation id="80" st_id="3" stage="1" lat="1">
@@ -1438,7 +1438,7 @@
 
 <Node id="17" bw="7" op_0_bw="4">
 <![CDATA[
-:12 %zext_ln121 = zext i4 %empty_41
+:12 %zext_ln121 = zext i4 %empty_37
 
 ]]></Node>
 <StgValue><ssdm name="zext_ln121"/></StgValue>
@@ -2399,10 +2399,10 @@
 
 <Node id="32" bw="32" op_0_bw="32" op_1_bw="64" op_2_bw="64" op_3_bw="64">
 <![CDATA[
-._crit_edge11:1 %empty_42 = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 800, i64 800, i64 800
+._crit_edge11:1 %empty_38 = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 800, i64 800, i64 800
 
 ]]></Node>
-<StgValue><ssdm name="empty_42"/></StgValue>
+<StgValue><ssdm name="empty_38"/></StgValue>
 </operation>
 
 <operation id="157" st_id="10" stage="1" lat="1">
@@ -2463,7 +2463,7 @@
 
 <Node id="83" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-._crit_edge11:52 %specloopname_ln124 = specloopname void @_ssdm_op_SpecLoopName, void @empty_8
+._crit_edge11:52 %specloopname_ln124 = specloopname void @_ssdm_op_SpecLoopName, void @empty_1
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln124"/></StgValue>

@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'dense_relu_1'
 ================================================================
-* Date:           Sun Dec 24 00:40:18 2023
+* Date:           Sun Dec 24 01:15:25 2023
 
 * Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)
 * Project:        cnn
@@ -168,20 +168,20 @@
 |ap_done               |  out|    1|  ap_ctrl_hs|  dense_relu.1|  return value|
 |ap_idle               |  out|    1|  ap_ctrl_hs|  dense_relu.1|  return value|
 |ap_ready              |  out|    1|  ap_ctrl_hs|  dense_relu.1|  return value|
-|grp_fu_852_p_din0     |  out|   32|  ap_ctrl_hs|  dense_relu.1|  return value|
-|grp_fu_852_p_din1     |  out|   32|  ap_ctrl_hs|  dense_relu.1|  return value|
-|grp_fu_852_p_opcode   |  out|    2|  ap_ctrl_hs|  dense_relu.1|  return value|
-|grp_fu_852_p_dout0    |   in|   32|  ap_ctrl_hs|  dense_relu.1|  return value|
-|grp_fu_852_p_ce       |  out|    1|  ap_ctrl_hs|  dense_relu.1|  return value|
-|grp_fu_856_p_din0     |  out|   32|  ap_ctrl_hs|  dense_relu.1|  return value|
-|grp_fu_856_p_din1     |  out|   32|  ap_ctrl_hs|  dense_relu.1|  return value|
-|grp_fu_856_p_dout0    |   in|   32|  ap_ctrl_hs|  dense_relu.1|  return value|
-|grp_fu_856_p_ce       |  out|    1|  ap_ctrl_hs|  dense_relu.1|  return value|
-|grp_fu_1954_p_din0    |  out|   32|  ap_ctrl_hs|  dense_relu.1|  return value|
-|grp_fu_1954_p_din1    |  out|   32|  ap_ctrl_hs|  dense_relu.1|  return value|
-|grp_fu_1954_p_opcode  |  out|    5|  ap_ctrl_hs|  dense_relu.1|  return value|
-|grp_fu_1954_p_dout0   |   in|    1|  ap_ctrl_hs|  dense_relu.1|  return value|
-|grp_fu_1954_p_ce      |  out|    1|  ap_ctrl_hs|  dense_relu.1|  return value|
+|grp_fu_992_p_din0     |  out|   32|  ap_ctrl_hs|  dense_relu.1|  return value|
+|grp_fu_992_p_din1     |  out|   32|  ap_ctrl_hs|  dense_relu.1|  return value|
+|grp_fu_992_p_opcode   |  out|    2|  ap_ctrl_hs|  dense_relu.1|  return value|
+|grp_fu_992_p_dout0    |   in|   32|  ap_ctrl_hs|  dense_relu.1|  return value|
+|grp_fu_992_p_ce       |  out|    1|  ap_ctrl_hs|  dense_relu.1|  return value|
+|grp_fu_996_p_din0     |  out|   32|  ap_ctrl_hs|  dense_relu.1|  return value|
+|grp_fu_996_p_din1     |  out|   32|  ap_ctrl_hs|  dense_relu.1|  return value|
+|grp_fu_996_p_dout0    |   in|   32|  ap_ctrl_hs|  dense_relu.1|  return value|
+|grp_fu_996_p_ce       |  out|    1|  ap_ctrl_hs|  dense_relu.1|  return value|
+|grp_fu_2244_p_din0    |  out|   32|  ap_ctrl_hs|  dense_relu.1|  return value|
+|grp_fu_2244_p_din1    |  out|   32|  ap_ctrl_hs|  dense_relu.1|  return value|
+|grp_fu_2244_p_opcode  |  out|    5|  ap_ctrl_hs|  dense_relu.1|  return value|
+|grp_fu_2244_p_dout0   |   in|    1|  ap_ctrl_hs|  dense_relu.1|  return value|
+|grp_fu_2244_p_ce      |  out|    1|  ap_ctrl_hs|  dense_relu.1|  return value|
 |input_r_address0      |  out|    6|   ap_memory|       input_r|         array|
 |input_r_ce0           |  out|    1|   ap_memory|       input_r|         array|
 |input_r_q0            |   in|   32|   ap_memory|       input_r|         array|

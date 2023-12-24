@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'max_pooling2d_1'
 ================================================================
-* Date:           Sun Dec 24 00:39:59 2023
+* Date:           Sun Dec 24 01:15:07 2023
 
 * Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)
 * Project:        cnn
@@ -142,7 +142,7 @@ ST_2 : Operation 54 [2/2] (1.35ns)   --->   "%input_load_4 = load i15 %input_add
 
 State 3 <SV = 2> <Delay = 4.70>
 ST_3 : Operation 55 [1/1] (0.97ns)   --->   "%add_ln118 = add i13 %indvar_flatten55, i13 1" [../src/hls/cnn.cpp:118]   --->   Operation 55 'add' 'add_ln118' <Predicate = true> <Delay = 0.97> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 56 [1/1] (0.00ns)   --->   "%empty_38 = or i5 %i, i5 1" [../src/hls/cnn.cpp:118]   --->   Operation 56 'or' 'empty_38' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 56 [1/1] (0.00ns)   --->   "%empty_34 = or i5 %i, i5 1" [../src/hls/cnn.cpp:118]   --->   Operation 56 'or' 'empty_34' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 57 [1/1] (0.48ns)   --->   "%select_ln118_13 = select i1 %icmp_ln121, i5 %add_ln11861, i5 %i" [../src/hls/cnn.cpp:118]   --->   Operation 57 'select' 'select_ln118_13' <Predicate = (!icmp_ln118)> <Delay = 0.48> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.52> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_3 : Operation 58 [1/1] (0.48ns)   --->   "%select_ln121_9 = select i1 %and_ln118, i5 %add_ln121, i5 %select_ln118" [../src/hls/cnn.cpp:121]   --->   Operation 58 'select' 'select_ln121_9' <Predicate = (!icmp_ln118)> <Delay = 0.48> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.52> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_3 : Operation 59 [1/2] (1.35ns)   --->   "%input_load = load i15 %input_addr" [../src/hls/cnn.cpp:133]   --->   Operation 59 'load' 'input_load' <Predicate = (!icmp_ln118)> <Delay = 1.35> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 23328> <RAM>
@@ -153,8 +153,8 @@ ST_3 : Operation 63 [1/1] (0.93ns)   --->   "%add_ln121_3 = add i10 %indvar_flat
 ST_3 : Operation 64 [1/1] (0.47ns)   --->   "%select_ln121_10 = select i1 %icmp_ln121, i10 1, i10 %add_ln121_3" [../src/hls/cnn.cpp:121]   --->   Operation 64 'select' 'select_ln121_10' <Predicate = (!icmp_ln118)> <Delay = 0.47> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.52> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 
 State 4 <SV = 3> <Delay = 7.22>
-ST_4 : Operation 65 [1/1] (0.00ns)   --->   "%p_cast2 = zext i5 %empty_38" [../src/hls/cnn.cpp:118]   --->   Operation 65 'zext' 'p_cast2' <Predicate = true> <Delay = 0.00>
-ST_4 : Operation 66 [1/1] (1.42ns)   --->   "%empty_39 = mul i10 %p_cast2, i10 27" [../src/hls/cnn.cpp:118]   --->   Operation 66 'mul' 'empty_39' <Predicate = true> <Delay = 1.42> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.36> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 65 [1/1] (0.00ns)   --->   "%p_cast2 = zext i5 %empty_34" [../src/hls/cnn.cpp:118]   --->   Operation 65 'zext' 'p_cast2' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 66 [1/1] (1.42ns)   --->   "%empty_35 = mul i10 %p_cast2, i10 27" [../src/hls/cnn.cpp:118]   --->   Operation 66 'mul' 'empty_35' <Predicate = true> <Delay = 1.42> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.36> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_4 : Operation 67 [1/1] (0.00ns)   --->   "%bitcast_ln134 = bitcast i32 %input_load" [../src/hls/cnn.cpp:134]   --->   Operation 67 'bitcast' 'bitcast_ln134' <Predicate = (!icmp_ln118)> <Delay = 0.00>
 ST_4 : Operation 68 [1/1] (0.00ns)   --->   "%tmp_s = partselect i8 @_ssdm_op_PartSelect.i8.i32.i32.i32, i32 %bitcast_ln134, i32 23, i32 30" [../src/hls/cnn.cpp:134]   --->   Operation 68 'partselect' 'tmp_s' <Predicate = (!icmp_ln118)> <Delay = 0.00>
 ST_4 : Operation 69 [1/1] (0.00ns)   --->   "%trunc_ln134 = trunc i32 %bitcast_ln134" [../src/hls/cnn.cpp:134]   --->   Operation 69 'trunc' 'trunc_ln134' <Predicate = (!icmp_ln118)> <Delay = 0.00>
@@ -167,11 +167,11 @@ ST_4 : Operation 75 [1/1] (0.52ns) (out node of the LUT)   --->   "%select_ln134
 ST_4 : Operation 76 [2/2] (3.34ns)   --->   "%tmp_15 = fcmp_ogt  i32 %input_load_4, i32 %select_ln134" [../src/hls/cnn.cpp:134]   --->   Operation 76 'fcmp' 'tmp_15' <Predicate = (!icmp_ln118)> <Delay = 3.34> <CoreInst = "FCompare">   --->   Core 19 'FCompare' <Latency = 1> <II = 1> <Delay = 3.34> <FuncUnit> <Opcode : 'fcmp'> <InPorts = 2> <OutPorts = 1>
 
 State 5 <SV = 4> <Delay = 5.17>
-ST_5 : Operation 77 [1/1] (0.93ns)   --->   "%add_ln133_6 = add i10 %empty_39, i10 %zext_ln121" [../src/hls/cnn.cpp:133]   --->   Operation 77 'add' 'add_ln133_6' <Predicate = (!icmp_ln121 & !and_ln118)> <Delay = 0.93> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 77 [1/1] (0.93ns)   --->   "%add_ln133_6 = add i10 %empty_35, i10 %zext_ln121" [../src/hls/cnn.cpp:133]   --->   Operation 77 'add' 'add_ln133_6' <Predicate = (!icmp_ln121 & !and_ln118)> <Delay = 0.93> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_5 : Operation 78 [1/1] (0.00ns)   --->   "%p_mid117 = or i5 %add_ln11861, i5 1" [../src/hls/cnn.cpp:118]   --->   Operation 78 'or' 'p_mid117' <Predicate = (!icmp_ln118)> <Delay = 0.00>
 ST_5 : Operation 79 [1/1] (0.00ns)   --->   "%p_cast2_mid1 = zext i5 %p_mid117" [../src/hls/cnn.cpp:118]   --->   Operation 79 'zext' 'p_cast2_mid1' <Predicate = (!icmp_ln118)> <Delay = 0.00>
 ST_5 : Operation 80 [1/1] (1.42ns)   --->   "%p_mid119 = mul i10 %p_cast2_mid1, i10 27" [../src/hls/cnn.cpp:118]   --->   Operation 80 'mul' 'p_mid119' <Predicate = (!icmp_ln118)> <Delay = 1.42> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.36> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
-ST_5 : Operation 81 [1/1] (0.00ns) (grouped into LUT with out node add_ln133_12)   --->   "%select_ln118_10 = select i1 %icmp_ln121, i10 %p_mid119, i10 %empty_39" [../src/hls/cnn.cpp:118]   --->   Operation 81 'select' 'select_ln118_10' <Predicate = (!icmp_ln118 & and_ln118)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.52> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_5 : Operation 81 [1/1] (0.00ns) (grouped into LUT with out node add_ln133_12)   --->   "%select_ln118_10 = select i1 %icmp_ln121, i10 %p_mid119, i10 %empty_35" [../src/hls/cnn.cpp:118]   --->   Operation 81 'select' 'select_ln118_10' <Predicate = (!icmp_ln118 & and_ln118)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.52> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_5 : Operation 82 [1/1] (0.00ns) (grouped into LUT with out node select_ln121_8)   --->   "%select_ln118_12 = select i1 %icmp_ln121, i10 %p_mid119, i10 %add_ln133_6" [../src/hls/cnn.cpp:118]   --->   Operation 82 'select' 'select_ln118_12' <Predicate = (!icmp_ln118 & !and_ln118)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.52> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_5 : Operation 83 [1/1] (0.93ns) (out node of the LUT)   --->   "%add_ln133_12 = add i10 %select_ln118_10, i10 %zext_ln121_2" [../src/hls/cnn.cpp:133]   --->   Operation 83 'add' 'add_ln133_12' <Predicate = (!icmp_ln118 & and_ln118)> <Delay = 0.93> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_5 : Operation 84 [1/1] (0.47ns) (out node of the LUT)   --->   "%select_ln121_8 = select i1 %and_ln118, i10 %add_ln133_12, i10 %select_ln118_12" [../src/hls/cnn.cpp:121]   --->   Operation 84 'select' 'select_ln121_8' <Predicate = (!icmp_ln118)> <Delay = 0.47> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.52> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
@@ -249,11 +249,11 @@ ST_9 : Operation 147 [1/1] (0.97ns) (out node of the LUT)   --->   "%add_ln140 =
 
 State 10 <SV = 9> <Delay = 5.55>
 ST_10 : Operation 148 [1/1] (0.00ns)   --->   "%specloopname_ln0 = specloopname void @_ssdm_op_SpecLoopName, void @max_pooling2d1_max_pooling2d1_2_max_pooling2d1_3_str"   --->   Operation 148 'specloopname' 'specloopname_ln0' <Predicate = (!icmp_ln118)> <Delay = 0.00>
-ST_10 : Operation 149 [1/1] (0.00ns)   --->   "%empty_40 = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 5408, i64 5408, i64 5408"   --->   Operation 149 'speclooptripcount' 'empty_40' <Predicate = (!icmp_ln118)> <Delay = 0.00>
+ST_10 : Operation 149 [1/1] (0.00ns)   --->   "%empty_36 = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 5408, i64 5408, i64 5408"   --->   Operation 149 'speclooptripcount' 'empty_36' <Predicate = (!icmp_ln118)> <Delay = 0.00>
 ST_10 : Operation 150 [1/1] (0.00ns)   --->   "%specpipeline_ln0 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 1, i32 0, void @p_str"   --->   Operation 150 'specpipeline' 'specpipeline_ln0' <Predicate = (!icmp_ln118)> <Delay = 0.00>
 ST_10 : Operation 151 [1/1] (0.00ns)   --->   "%specloopname_ln0 = specloopname void @_ssdm_op_SpecLoopName, void @max_pooling2d1_2_max_pooling2d1_3_str"   --->   Operation 151 'specloopname' 'specloopname_ln0' <Predicate = (!icmp_ln118)> <Delay = 0.00>
 ST_10 : Operation 152 [1/1] (0.00ns)   --->   "%specpipeline_ln0 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 1, i32 0, void @p_str"   --->   Operation 152 'specpipeline' 'specpipeline_ln0' <Predicate = (!icmp_ln118)> <Delay = 0.00>
-ST_10 : Operation 153 [1/1] (0.00ns)   --->   "%specloopname_ln124 = specloopname void @_ssdm_op_SpecLoopName, void @empty_8" [../src/hls/cnn.cpp:124]   --->   Operation 153 'specloopname' 'specloopname_ln124' <Predicate = (!icmp_ln118)> <Delay = 0.00>
+ST_10 : Operation 153 [1/1] (0.00ns)   --->   "%specloopname_ln124 = specloopname void @_ssdm_op_SpecLoopName, void @empty_1" [../src/hls/cnn.cpp:124]   --->   Operation 153 'specloopname' 'specloopname_ln124' <Predicate = (!icmp_ln118)> <Delay = 0.00>
 ST_10 : Operation 154 [1/1] (0.00ns)   --->   "%bitcast_ln134_11 = bitcast i32 %input_load_6" [../src/hls/cnn.cpp:134]   --->   Operation 154 'bitcast' 'bitcast_ln134_11' <Predicate = (!icmp_ln118)> <Delay = 0.00>
 ST_10 : Operation 155 [1/1] (0.00ns)   --->   "%tmp_19 = partselect i8 @_ssdm_op_PartSelect.i8.i32.i32.i32, i32 %bitcast_ln134_11, i32 23, i32 30" [../src/hls/cnn.cpp:134]   --->   Operation 155 'partselect' 'tmp_19' <Predicate = (!icmp_ln118)> <Delay = 0.00>
 ST_10 : Operation 156 [1/1] (0.00ns)   --->   "%trunc_ln134_11 = trunc i32 %bitcast_ln134_11" [../src/hls/cnn.cpp:134]   --->   Operation 156 'trunc' 'trunc_ln134_11' <Predicate = (!icmp_ln118)> <Delay = 0.00>
@@ -340,7 +340,7 @@ add_ln133_8        (add              ) [ 000000000000]
 zext_ln133_4       (zext             ) [ 000000000000]
 input_addr_4       (getelementptr    ) [ 000100000000]
 add_ln118          (add              ) [ 011111111110]
-empty_38           (or               ) [ 001010000000]
+empty_34           (or               ) [ 001010000000]
 select_ln118_13    (select           ) [ 011111111110]
 select_ln121_9     (select           ) [ 011111111110]
 input_load         (load             ) [ 001010000000]
@@ -349,7 +349,7 @@ add_ln124          (add              ) [ 011111111110]
 add_ln121_3        (add              ) [ 000000000000]
 select_ln121_10    (select           ) [ 011111111110]
 p_cast2            (zext             ) [ 000000000000]
-empty_39           (mul              ) [ 000101000000]
+empty_35           (mul              ) [ 000101000000]
 bitcast_ln134      (bitcast          ) [ 000000000000]
 tmp_s              (partselect       ) [ 000000000000]
 trunc_ln134        (trunc            ) [ 000000000000]
@@ -427,7 +427,7 @@ add26_mid2         (bitconcatenate   ) [ 000000000000]
 iii_cast5          (zext             ) [ 000000000000]
 add_ln140          (add              ) [ 001000000010]
 specloopname_ln0   (specloopname     ) [ 000000000000]
-empty_40           (speclooptripcount) [ 000000000000]
+empty_36           (speclooptripcount) [ 000000000000]
 specpipeline_ln0   (specpipeline     ) [ 000000000000]
 specloopname_ln0   (specloopname     ) [ 000000000000]
 specpipeline_ln0   (specpipeline     ) [ 000000000000]
@@ -834,7 +834,7 @@ ret_ln144          (ret              ) [ 000000000000]
 <pin id="83" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_8"/></StgValue>
+<StgValue><ssdm name="empty_1"/></StgValue>
 </bind>
 </comp>
 
@@ -1491,7 +1491,7 @@ ret_ln144          (ret              ) [ 000000000000]
 </bind>
 </comp>
 
-<comp id="429" class="1004" name="empty_38_fu_429">
+<comp id="429" class="1004" name="empty_34_fu_429">
 <pin_list>
 <pin id="430" dir="0" index="0" bw="5" slack="1"/>
 <pin id="431" dir="0" index="1" bw="1" slack="0"/>
@@ -1499,7 +1499,7 @@ ret_ln144          (ret              ) [ 000000000000]
 </pin_list>
 <bind>
 <opcode="or(24) " fcode="or"/>
-<opset="empty_38/3 "/>
+<opset="empty_34/3 "/>
 </bind>
 </comp>
 
@@ -1577,7 +1577,7 @@ ret_ln144          (ret              ) [ 000000000000]
 </bind>
 </comp>
 
-<comp id="467" class="1004" name="empty_39_fu_467">
+<comp id="467" class="1004" name="empty_35_fu_467">
 <pin_list>
 <pin id="468" dir="0" index="0" bw="5" slack="0"/>
 <pin id="469" dir="0" index="1" bw="6" slack="0"/>
@@ -1585,7 +1585,7 @@ ret_ln144          (ret              ) [ 000000000000]
 </pin_list>
 <bind>
 <opcode="mul(12) " fcode="mul"/>
-<opset="empty_39/4 "/>
+<opset="empty_35/4 "/>
 </bind>
 </comp>
 
@@ -2763,13 +2763,13 @@ ret_ln144          (ret              ) [ 000000000000]
 </bind>
 </comp>
 
-<comp id="1054" class="1005" name="empty_38_reg_1054">
+<comp id="1054" class="1005" name="empty_34_reg_1054">
 <pin_list>
 <pin id="1055" dir="0" index="0" bw="5" slack="1"/>
 <pin id="1056" dir="1" index="1" bw="5" slack="1"/>
 </pin_list>
 <bind>
-<opset="empty_38 "/>
+<opset="empty_34 "/>
 </bind>
 </comp>
 
@@ -2823,13 +2823,13 @@ ret_ln144          (ret              ) [ 000000000000]
 </bind>
 </comp>
 
-<comp id="1086" class="1005" name="empty_39_reg_1086">
+<comp id="1086" class="1005" name="empty_35_reg_1086">
 <pin_list>
 <pin id="1087" dir="0" index="0" bw="10" slack="1"/>
 <pin id="1088" dir="1" index="1" bw="10" slack="1"/>
 </pin_list>
 <bind>
-<opset="empty_39 "/>
+<opset="empty_35 "/>
 </bind>
 </comp>
 
@@ -3674,7 +3674,7 @@ ret_ln144          (ret              ) [ 000000000000]
 		tmp_12 : 1
 		select_ln121_10 : 1
 	State 4
-		empty_39 : 1
+		empty_35 : 1
 		tmp_s : 1
 		trunc_ln134 : 1
 		icmp_ln134 : 2
@@ -3823,7 +3823,7 @@ ret_ln144          (ret              ) [ 000000000000]
 |----------|--------------------------|---------|---------|---------|
 |          |       empty_fu_227       |    0    |    0    |    23   |
 |          |      p_mid115_fu_293     |    0    |    0    |    23   |
-|    mul   |      empty_39_fu_467     |    0    |    0    |    23   |
+|    mul   |      empty_35_fu_467     |    0    |    0    |    23   |
 |          |      p_mid119_fu_537     |    0    |    0    |    23   |
 |          |       mul20_fu_790       |    0    |    0    |    17   |
 |          |     mul20_mid1_fu_808    |    0    |    0    |    17   |
@@ -3839,7 +3839,7 @@ ret_ln144          (ret              ) [ 000000000000]
 |----------|--------------------------|---------|---------|---------|
 |          |      or_ln121_fu_339     |    0    |    0    |    2    |
 |          |     or_ln121_3_fu_371    |    0    |    0    |    0    |
-|          |      empty_38_fu_429     |    0    |    0    |    0    |
+|          |      empty_34_fu_429     |    0    |    0    |    0    |
 |          |      or_ln134_fu_503     |    0    |    0    |    2    |
 |          |      p_mid117_fu_528     |    0    |    0    |    0    |
 |    or    |     or_ln134_7_fu_636    |    0    |    0    |    2    |
@@ -3916,8 +3916,8 @@ N/A
 |  add_ln133_11_reg_1111 |   15   |
 |   add_ln140_reg_1135   |   13   |
 |   and_ln118_reg_1009   |    1   |
-|    empty_38_reg_1054   |    5   |
-|    empty_39_reg_1086   |   10   |
+|    empty_34_reg_1054   |    5   |
+|    empty_35_reg_1086   |   10   |
 |        i_reg_150       |    5   |
 |   icmp_ln118_reg_979   |    1   |
 |   icmp_ln121_reg_983   |    1   |

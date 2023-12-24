@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'max_pooling2d'" level="0">
-<item name = "Date">Sun Dec 24 00:40:17 2023
+<item name = "Date">Sun Dec 24 01:15:24 2023
 </item>
 <item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)</item>
 <item name = "Project">cnn</item>
@@ -62,10 +62,10 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
-<column name="mul_4ns_5ns_7_1_1_U76">mul_4ns_5ns_7_1_1, 0, 0, 0, 17, 0</column>
-<column name="mul_4ns_5ns_7_1_1_U77">mul_4ns_5ns_7_1_1, 0, 0, 0, 17, 0</column>
-<column name="mul_4ns_5ns_7_1_1_U78">mul_4ns_5ns_7_1_1, 0, 0, 0, 17, 0</column>
-<column name="mul_4ns_5ns_7_1_1_U79">mul_4ns_5ns_7_1_1, 0, 0, 0, 17, 0</column>
+<column name="mul_4ns_5ns_7_1_1_U61">mul_4ns_5ns_7_1_1, 0, 0, 0, 17, 0</column>
+<column name="mul_4ns_5ns_7_1_1_U62">mul_4ns_5ns_7_1_1, 0, 0, 0, 17, 0</column>
+<column name="mul_4ns_5ns_7_1_1_U63">mul_4ns_5ns_7_1_1, 0, 0, 0, 17, 0</column>
+<column name="mul_4ns_5ns_7_1_1_U64">mul_4ns_5ns_7_1_1, 0, 0, 0, 17, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">
@@ -126,7 +126,7 @@
 <column name="icmp_ln134_38_fu_984_p2">icmp, 0, 0, 11, 8, 2</column>
 <column name="icmp_ln134_39_fu_990_p2">icmp, 0, 0, 16, 23, 1</column>
 <column name="icmp_ln134_fu_625_p2">icmp, 0, 0, 11, 8, 2</column>
-<column name="empty_41_fu_577_p2">or, 0, 0, 4, 4, 1</column>
+<column name="empty_37_fu_577_p2">or, 0, 0, 4, 4, 1</column>
 <column name="or_ln121_4_fu_501_p2">or, 0, 0, 7, 7, 1</column>
 <column name="or_ln121_fu_415_p2">or, 0, 0, 2, 1, 1</column>
 <column name="or_ln134_13_fu_781_p2">or, 0, 0, 2, 1, 1</column>
@@ -138,7 +138,7 @@
 <column name="or_ln134_fu_637_p2">or, 0, 0, 2, 1, 1</column>
 <column name="p_mid116_fu_672_p2">or, 0, 0, 4, 1, 4</column>
 <column name="add_ln133_mid233_fu_383_p3">select, 0, 0, 7, 1, 7</column>
-<column name="empty_43_fu_463_p3">select, 0, 0, 5, 1, 5</column>
+<column name="empty_39_fu_463_p3">select, 0, 0, 5, 1, 5</column>
 <column name="ii_mid210_fu_303_p3">select, 0, 0, 4, 1, 1</column>
 <column name="mul_ln121_mid2_fu_687_p3">select, 0, 0, 7, 1, 7</column>
 <column name="output_r_d0">select, 0, 0, 32, 1, 32</column>
@@ -197,7 +197,7 @@
 <column name="ap_enable_reg_pp0_iter2">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter3">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter4">1, 0, 1, 0</column>
-<column name="empty_41_reg_1094">3, 0, 4, 1</column>
+<column name="empty_37_reg_1094">3, 0, 4, 1</column>
 <column name="i_reg_156">4, 0, 4, 0</column>
 <column name="icmp_ln118_reg_1030">1, 0, 1, 0</column>
 <column name="icmp_ln121_reg_1034">1, 0, 1, 0</column>
@@ -242,16 +242,16 @@
 <column name="ap_done">out, 1, ap_ctrl_hs, max_pooling2d, return value</column>
 <column name="ap_idle">out, 1, ap_ctrl_hs, max_pooling2d, return value</column>
 <column name="ap_ready">out, 1, ap_ctrl_hs, max_pooling2d, return value</column>
-<column name="grp_fu_1954_p_din0">out, 32, ap_ctrl_hs, max_pooling2d, return value</column>
-<column name="grp_fu_1954_p_din1">out, 32, ap_ctrl_hs, max_pooling2d, return value</column>
-<column name="grp_fu_1954_p_opcode">out, 5, ap_ctrl_hs, max_pooling2d, return value</column>
-<column name="grp_fu_1954_p_dout0">in, 1, ap_ctrl_hs, max_pooling2d, return value</column>
-<column name="grp_fu_1954_p_ce">out, 1, ap_ctrl_hs, max_pooling2d, return value</column>
-<column name="grp_fu_1958_p_din0">out, 32, ap_ctrl_hs, max_pooling2d, return value</column>
-<column name="grp_fu_1958_p_din1">out, 32, ap_ctrl_hs, max_pooling2d, return value</column>
-<column name="grp_fu_1958_p_opcode">out, 5, ap_ctrl_hs, max_pooling2d, return value</column>
-<column name="grp_fu_1958_p_dout0">in, 1, ap_ctrl_hs, max_pooling2d, return value</column>
-<column name="grp_fu_1958_p_ce">out, 1, ap_ctrl_hs, max_pooling2d, return value</column>
+<column name="grp_fu_2244_p_din0">out, 32, ap_ctrl_hs, max_pooling2d, return value</column>
+<column name="grp_fu_2244_p_din1">out, 32, ap_ctrl_hs, max_pooling2d, return value</column>
+<column name="grp_fu_2244_p_opcode">out, 5, ap_ctrl_hs, max_pooling2d, return value</column>
+<column name="grp_fu_2244_p_dout0">in, 1, ap_ctrl_hs, max_pooling2d, return value</column>
+<column name="grp_fu_2244_p_ce">out, 1, ap_ctrl_hs, max_pooling2d, return value</column>
+<column name="grp_fu_2248_p_din0">out, 32, ap_ctrl_hs, max_pooling2d, return value</column>
+<column name="grp_fu_2248_p_din1">out, 32, ap_ctrl_hs, max_pooling2d, return value</column>
+<column name="grp_fu_2248_p_opcode">out, 5, ap_ctrl_hs, max_pooling2d, return value</column>
+<column name="grp_fu_2248_p_dout0">in, 1, ap_ctrl_hs, max_pooling2d, return value</column>
+<column name="grp_fu_2248_p_ce">out, 1, ap_ctrl_hs, max_pooling2d, return value</column>
 <column name="input_r_address0">out, 12, ap_memory, input_r, array</column>
 <column name="input_r_ce0">out, 1, ap_memory, input_r, array</column>
 <column name="input_r_q0">in, 32, ap_memory, input_r, array</column>

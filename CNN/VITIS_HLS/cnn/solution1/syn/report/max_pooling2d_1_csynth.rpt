@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'max_pooling2d_1'
 ================================================================
-* Date:           Sun Dec 24 00:40:15 2023
+* Date:           Sun Dec 24 01:15:21 2023
 
 * Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)
 * Project:        cnn
@@ -73,12 +73,12 @@
     +------------------------+--------------------+---------+----+---+----+-----+
     |        Instance        |       Module       | BRAM_18K| DSP| FF| LUT| URAM|
     +------------------------+--------------------+---------+----+---+----+-----+
-    |mul_4ns_5ns_8_1_1_U53   |mul_4ns_5ns_8_1_1   |        0|   0|  0|  17|    0|
-    |mul_4ns_5ns_8_1_1_U54   |mul_4ns_5ns_8_1_1   |        0|   0|  0|  17|    0|
-    |mul_5ns_6ns_10_1_1_U49  |mul_5ns_6ns_10_1_1  |        0|   0|  0|  23|    0|
-    |mul_5ns_6ns_10_1_1_U50  |mul_5ns_6ns_10_1_1  |        0|   0|  0|  23|    0|
-    |mul_5ns_6ns_10_1_1_U51  |mul_5ns_6ns_10_1_1  |        0|   0|  0|  23|    0|
-    |mul_5ns_6ns_10_1_1_U52  |mul_5ns_6ns_10_1_1  |        0|   0|  0|  23|    0|
+    |mul_4ns_5ns_8_1_1_U42   |mul_4ns_5ns_8_1_1   |        0|   0|  0|  17|    0|
+    |mul_4ns_5ns_8_1_1_U43   |mul_4ns_5ns_8_1_1   |        0|   0|  0|  17|    0|
+    |mul_5ns_6ns_10_1_1_U38  |mul_5ns_6ns_10_1_1  |        0|   0|  0|  23|    0|
+    |mul_5ns_6ns_10_1_1_U39  |mul_5ns_6ns_10_1_1  |        0|   0|  0|  23|    0|
+    |mul_5ns_6ns_10_1_1_U40  |mul_5ns_6ns_10_1_1  |        0|   0|  0|  23|    0|
+    |mul_5ns_6ns_10_1_1_U41  |mul_5ns_6ns_10_1_1  |        0|   0|  0|  23|    0|
     +------------------------+--------------------+---------+----+---+----+-----+
     |Total                   |                    |        0|   0|  0| 126|    0|
     +------------------------+--------------------+---------+----+---+----+-----+
@@ -137,7 +137,7 @@
     |icmp_ln134_25_fu_923_p2    |      icmp|   0|  0|  11|           8|           2|
     |icmp_ln134_26_fu_929_p2    |      icmp|   0|  0|  16|          23|           1|
     |icmp_ln134_fu_491_p2       |      icmp|   0|  0|  11|           8|           2|
-    |empty_38_fu_429_p2         |        or|   0|  0|   5|           5|           1|
+    |empty_34_fu_429_p2         |        or|   0|  0|   5|           5|           1|
     |or_ln121_3_fu_371_p2       |        or|   0|  0|  10|          10|           1|
     |or_ln121_fu_339_p2         |        or|   0|  0|   2|           1|           1|
     |or_ln134_10_fu_758_p2      |        or|   0|  0|   2|           1|           1|
@@ -217,8 +217,8 @@
     |ap_enable_reg_pp0_iter2                |   1|   0|    1|          0|
     |ap_enable_reg_pp0_iter3                |   1|   0|    1|          0|
     |ap_enable_reg_pp0_iter4                |   1|   0|    1|          0|
-    |empty_38_reg_1054                      |   4|   0|    5|          1|
-    |empty_39_reg_1086                      |  10|   0|   10|          0|
+    |empty_34_reg_1054                      |   4|   0|    5|          1|
+    |empty_35_reg_1086                      |  10|   0|   10|          0|
     |i_reg_150                              |   5|   0|    5|          0|
     |icmp_ln118_reg_979                     |   1|   0|    1|          0|
     |icmp_ln121_reg_983                     |   1|   0|    1|          0|
@@ -274,16 +274,16 @@
 |ap_done               |  out|    1|  ap_ctrl_hs|  max_pooling2d.1|  return value|
 |ap_idle               |  out|    1|  ap_ctrl_hs|  max_pooling2d.1|  return value|
 |ap_ready              |  out|    1|  ap_ctrl_hs|  max_pooling2d.1|  return value|
-|grp_fu_1954_p_din0    |  out|   32|  ap_ctrl_hs|  max_pooling2d.1|  return value|
-|grp_fu_1954_p_din1    |  out|   32|  ap_ctrl_hs|  max_pooling2d.1|  return value|
-|grp_fu_1954_p_opcode  |  out|    5|  ap_ctrl_hs|  max_pooling2d.1|  return value|
-|grp_fu_1954_p_dout0   |   in|    1|  ap_ctrl_hs|  max_pooling2d.1|  return value|
-|grp_fu_1954_p_ce      |  out|    1|  ap_ctrl_hs|  max_pooling2d.1|  return value|
-|grp_fu_1958_p_din0    |  out|   32|  ap_ctrl_hs|  max_pooling2d.1|  return value|
-|grp_fu_1958_p_din1    |  out|   32|  ap_ctrl_hs|  max_pooling2d.1|  return value|
-|grp_fu_1958_p_opcode  |  out|    5|  ap_ctrl_hs|  max_pooling2d.1|  return value|
-|grp_fu_1958_p_dout0   |   in|    1|  ap_ctrl_hs|  max_pooling2d.1|  return value|
-|grp_fu_1958_p_ce      |  out|    1|  ap_ctrl_hs|  max_pooling2d.1|  return value|
+|grp_fu_2244_p_din0    |  out|   32|  ap_ctrl_hs|  max_pooling2d.1|  return value|
+|grp_fu_2244_p_din1    |  out|   32|  ap_ctrl_hs|  max_pooling2d.1|  return value|
+|grp_fu_2244_p_opcode  |  out|    5|  ap_ctrl_hs|  max_pooling2d.1|  return value|
+|grp_fu_2244_p_dout0   |   in|    1|  ap_ctrl_hs|  max_pooling2d.1|  return value|
+|grp_fu_2244_p_ce      |  out|    1|  ap_ctrl_hs|  max_pooling2d.1|  return value|
+|grp_fu_2248_p_din0    |  out|   32|  ap_ctrl_hs|  max_pooling2d.1|  return value|
+|grp_fu_2248_p_din1    |  out|   32|  ap_ctrl_hs|  max_pooling2d.1|  return value|
+|grp_fu_2248_p_opcode  |  out|    5|  ap_ctrl_hs|  max_pooling2d.1|  return value|
+|grp_fu_2248_p_dout0   |   in|    1|  ap_ctrl_hs|  max_pooling2d.1|  return value|
+|grp_fu_2248_p_ce      |  out|    1|  ap_ctrl_hs|  max_pooling2d.1|  return value|
 |input_r_address0      |  out|   15|   ap_memory|          input_r|         array|
 |input_r_ce0           |  out|    1|   ap_memory|          input_r|         array|
 |input_r_q0            |   in|   32|   ap_memory|          input_r|         array|

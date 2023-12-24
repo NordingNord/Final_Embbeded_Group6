@@ -329,7 +329,7 @@
 
 <Node id="17" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-.split2:2 %specloopname_ln155 = specloopname void @_ssdm_op_SpecLoopName, void @empty_10
+.split2:2 %specloopname_ln155 = specloopname void @_ssdm_op_SpecLoopName, void @empty_3
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln155"/></StgValue>
@@ -614,10 +614,10 @@
 
 <Node id="27" bw="32" op_0_bw="32" op_1_bw="64" op_2_bw="64" op_3_bw="64">
 <![CDATA[
-:5 %empty_56 = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 32, i64 32, i64 32
+:5 %empty_79 = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 32, i64 32, i64 32
 
 ]]></Node>
-<StgValue><ssdm name="empty_56"/></StgValue>
+<StgValue><ssdm name="empty_79"/></StgValue>
 </operation>
 
 <operation id="52" st_id="5" stage="1" lat="2">
@@ -814,7 +814,7 @@
 
 <Node id="31" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-.split:1 %specloopname_ln157 = specloopname void @_ssdm_op_SpecLoopName, void @empty_9
+.split:1 %specloopname_ln157 = specloopname void @_ssdm_op_SpecLoopName, void @empty_7
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln157"/></StgValue>
