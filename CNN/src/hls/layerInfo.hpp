@@ -1,17 +1,23 @@
-constexpr int model_input_dims[3] = {60,60,1};
-//sequential
-constexpr int layer_0_output_dims[3] = {60,60,1};
+//Input to neural network
+float cnn_input[60][60][1] = { };
+#define input_dim_1 60
+#define input_dim_2 60
+#define input_dim_3 1
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-//rescaling_1
-constexpr int layer_1_output_dims[3] = {60,60,1};
+//Layer 0: sequential
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-//conv2d
-constexpr int layer_2_weights_dims[4] = {3,3,1,32};
-constexpr float layer_2_weights[288] = { 
+//Layer 1: rescaling_1
+//------------------------------------------------------------------
+//------------------------------------------------------------------
+//------------------------------------------------------------------
+//Layer 2: conv2d
+//strides: (1, 1)
+//padding: valid
+const float layer_2_weights[3][3][1][32] = { 
 -0.017345337197184563,
 -0.014120399951934814,
 0.0718405693769455,
@@ -301,8 +307,7 @@ constexpr float layer_2_weights[288] = {
 0.1544724851846695,
 -0.08974932879209518
 };
-constexpr int layer_2_bias_dims[1] = {32};
-constexpr float layer_2_bias[32] = { 
+const float layer_2_bias[32] = { 
 0.044731512665748596,
 -0.0029950153548270464,
 -0.00895274244248867,
@@ -336,22 +341,21 @@ constexpr float layer_2_bias[32] = {
 0.03612485155463219,
 0.01445471029728651
 };
-constexpr int layer_2_output_dims[3] = {58,58,32};
-constexpr int layer_2_strides[2] = {1,1};
-constexpr bool layer_2_padding = 0; //0=valid 1=same
+float layer_2_output[58][58][32] = { }; 
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-//max_pooling2d
-constexpr int layer_3_output_dims[3] = {29,29,32};
-constexpr int layer_3_strides[2] = {2,2};
-constexpr bool layer_3_padding = 0; //0=valid 1=same
+//Layer 3: max_pooling2d
+//strides: (2, 2)
+//padding: valid
+float layer_3_output[29][29][32] = { }; 
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-//conv2d_1
-constexpr int layer_4_weights_dims[4] = {3,3,32,32};
-constexpr float layer_4_weights[9216] = { 
+//Layer 4: conv2d_1
+//strides: (1, 1)
+//padding: valid
+const float layer_4_weights[3][3][32][32] = { 
 -0.18564289808273315,
 -0.03271521255373955,
 -0.03068106435239315,
@@ -9569,8 +9573,7 @@ constexpr float layer_4_weights[9216] = {
 0.08721607178449631,
 0.08810023218393326
 };
-constexpr int layer_4_bias_dims[1] = {32};
-constexpr float layer_4_bias[32] = { 
+const float layer_4_bias[32] = { 
 0.025184301659464836,
 -0.004849686287343502,
 -0.002136602997779846,
@@ -9604,22 +9607,21 @@ constexpr float layer_4_bias[32] = {
 -0.005821819417178631,
 -0.011555581353604794
 };
-constexpr int layer_4_output_dims[3] = {27,27,32};
-constexpr int layer_4_strides[2] = {1,1};
-constexpr bool layer_4_padding = 0; //0=valid 1=same
+float layer_4_output[27][27][32] = { }; 
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-//max_pooling2d_1
-constexpr int layer_5_output_dims[3] = {13,13,32};
-constexpr int layer_5_strides[2] = {2,2};
-constexpr bool layer_5_padding = 0; //0=valid 1=same
+//Layer 5: max_pooling2d_1
+//strides: (2, 2)
+//padding: valid
+float layer_5_output[13][13][32] = { }; 
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-//conv2d_2
-constexpr int layer_6_weights_dims[4] = {3,3,32,32};
-constexpr float layer_6_weights[9216] = { 
+//Layer 6: conv2d_2
+//strides: (1, 1)
+//padding: valid
+const float layer_6_weights[3][3][32][32] = { 
 -0.00475427508354187,
 0.01453832071274519,
 0.018641667440533638,
@@ -18837,8 +18839,7 @@ constexpr float layer_6_weights[9216] = {
 -0.09697028994560242,
 0.06357510387897491
 };
-constexpr int layer_6_bias_dims[1] = {32};
-constexpr float layer_6_bias[32] = { 
+const float layer_6_bias[32] = { 
 0.0,
 -0.025070272386074066,
 -0.020492766052484512,
@@ -18872,27 +18873,23 @@ constexpr float layer_6_bias[32] = {
 -0.020796481519937515,
 -0.016930945217609406
 };
-constexpr int layer_6_output_dims[3] = {11,11,32};
-constexpr int layer_6_strides[2] = {1,1};
-constexpr bool layer_6_padding = 0; //0=valid 1=same
+float layer_6_output[11][11][32] = { }; 
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-//max_pooling2d_2
-constexpr int layer_7_output_dims[3] = {5,5,32};
-constexpr int layer_7_strides[2] = {2,2};
-constexpr bool layer_7_padding = 0; //0=valid 1=same
+//Layer 7: max_pooling2d_2
+//strides: (2, 2)
+//padding: valid
+float layer_7_output[5][5][32] = { }; 
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-//flatten
-constexpr int layer_8_output_dims[1] = {800};
+//Layer 8: flatten
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-//dense
-constexpr int layer_9_weights_dims[2] = {800,64};
-constexpr float layer_9_weights[51200] = { 
+//Layer 9: dense
+const float layer_9_weights[800][64] = { 
 -0.06204277276992798,
 -0.06194552034139633,
 0.003144979476928711,
@@ -70094,8 +70091,7 @@ constexpr float layer_9_weights[51200] = {
 -0.08394252508878708,
 -0.010554495267570019
 };
-constexpr int layer_9_bias_dims[1] = {64};
-constexpr float layer_9_bias[64] = { 
+const float layer_9_bias[64] = { 
 0.0799647718667984,
 -0.00499733304604888,
 -0.038898028433322906,
@@ -70161,13 +70157,12 @@ constexpr float layer_9_bias[64] = {
 -0.015062268823385239,
 -0.025045201182365417
 };
-constexpr int layer_9_output_dims[1] = {64};
+float layer_9_output[64] = { }; 
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-//dense_1
-constexpr int layer_10_weights_dims[2] = {64,32};
-constexpr float layer_10_weights[2048] = { 
+//Layer 10: dense_1
+const float layer_10_weights[64][32] = { 
 0.17748337984085083,
 0.1558728665113449,
 0.11950214207172394,
@@ -72217,8 +72212,7 @@ constexpr float layer_10_weights[2048] = {
 0.2106982320547104,
 -0.14401309192180634
 };
-constexpr int layer_10_bias_dims[1] = {32};
-constexpr float layer_10_bias[32] = { 
+const float layer_10_bias[32] = { 
 -0.012662157416343689,
 0.013125412166118622,
 0.0733175054192543,
@@ -72252,13 +72246,12 @@ constexpr float layer_10_bias[32] = {
 -0.03943163529038429,
 -0.01115172728896141
 };
-constexpr int layer_10_output_dims[1] = {32};
+float layer_10_output[32] = { }; 
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-//dense_2
-constexpr int layer_11_weights_dims[2] = {32,16};
-constexpr float layer_11_weights[512] = { 
+//Layer 11: dense_2
+const float layer_11_weights[32][16] = { 
 -0.201669842004776,
 -0.0950215682387352,
 0.2581928074359894,
@@ -72772,8 +72765,7 @@ constexpr float layer_11_weights[512] = {
 0.2977261245250702,
 -0.05557870864868164
 };
-constexpr int layer_11_bias_dims[1] = {16};
-constexpr float layer_11_bias[16] = { 
+const float layer_11_bias[16] = { 
 -0.0030028570909053087,
 0.03867040202021599,
 -0.010175550356507301,
@@ -72791,13 +72783,12 @@ constexpr float layer_11_bias[16] = {
 0.029514826834201813,
 0.0
 };
-constexpr int layer_11_output_dims[1] = {16};
+float layer_11_output[16] = { }; 
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-//dense_3
-constexpr int layer_12_weights_dims[2] = {16,4};
-constexpr float layer_12_weights[64] = { 
+//Layer 12: dense_3
+const float layer_12_weights[16][4] = { 
 -0.48456528782844543,
 0.0704033300280571,
 0.49468082189559937,
@@ -72863,14 +72854,15 @@ constexpr float layer_12_weights[64] = {
 -0.3882272243499756,
 -0.007480025291442871
 };
-constexpr int layer_12_bias_dims[1] = {4};
-constexpr float layer_12_bias[4] = { 
+const float layer_12_bias[4] = { 
 -0.015192939899861813,
 0.0023432173766195774,
 -0.02158793993294239,
 0.033180445432662964
 };
-constexpr int layer_12_output_dims[1] = {4};
+float layer_12_output[4] = { }; 
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //------------------------------------------------------------------
+//Output dimensions of neural network
+#define output_dim_1 4

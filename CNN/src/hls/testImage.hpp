@@ -1,5 +1,5 @@
 //Shape: (60, 60, 1)
-int test_image[3600] = { 
+int test_image[60][60][1] = { 
 167,
 167,
 165,
