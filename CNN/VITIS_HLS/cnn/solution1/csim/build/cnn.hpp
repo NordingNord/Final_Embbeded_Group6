@@ -40,11 +40,14 @@ template <sizetype input_size_1, sizetype input_size_2, sizetype input_size_3,
 void max_pooling2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
                 fixed (&output)[output_size_1][output_size_2][output_size_3]);
 
+template <const sizetype size_1, const sizetype size_2, const sizetype size_3>
+void array_3d_to_1d(fixed (&array)[size_1][size_2][size_3], fixed (&output)[size_1*size_2*size_3]);
+
 template <sizetype input_size_1, sizetype input_size_2, sizetype input_size_3,
             sizetype weights_size_1, sizetype weights_size_2,
             sizetype bias_size,
             sizetype output_size>
-void dense_relu(fixed (&input)[input_size_1][input_size_2][input_size_3], 
+void dense_relu(fixed (&input)[input_size_1][input_size_2][input_size_3],
             const fixed (&weights)[weights_size_1][weights_size_2],
             const fixed (&bias)[bias_size],
             fixed (&output)[output_size]);
@@ -53,7 +56,7 @@ template <sizetype input_size_1, sizetype input_size_2, sizetype input_size_3,
             sizetype weights_size_1, sizetype weights_size_2,
             sizetype bias_size,
             sizetype output_size>
-void dense(fixed (&input)[input_size_1][input_size_2][input_size_3], 
+void dense(fixed (&input)[input_size_1][input_size_2][input_size_3],
             const fixed (&weights)[weights_size_1][weights_size_2],
             const fixed (&bias)[bias_size],
             fixed (&output)[output_size]);
