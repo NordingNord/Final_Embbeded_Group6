@@ -5,10 +5,10 @@
 <ModuleName>infer</ModuleName>
 <InstancesList>
 <Instance>
-<InstName>grp_exp_40_32_s_fu_3662</InstName>
+<InstName>grp_exp_40_32_s_fu_11091</InstName>
 <ModuleName>exp_40_32_s</ModuleName>
 <IsCompInst>true</IsCompInst>
-<ID>3662</ID>
+<ID>11091</ID>
 </Instance>
 </InstancesList>
 </TopModule>
@@ -155,39 +155,39 @@
 <EstimatedClockPeriod>7.288</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
-<Best-caseLatency>8928959</Best-caseLatency>
-<Average-caseLatency>8928959</Average-caseLatency>
-<Worst-caseLatency>8928959</Worst-caseLatency>
-<Best-caseRealTimeLatency>89.290 ms</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>89.290 ms</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>89.290 ms</Worst-caseRealTimeLatency>
-<PipelineInitiationInterval>8928960</PipelineInitiationInterval>
+<Best-caseLatency>8609628</Best-caseLatency>
+<Average-caseLatency>8609628</Average-caseLatency>
+<Worst-caseLatency>8609628</Worst-caseLatency>
+<Best-caseRealTimeLatency>86.096 ms</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>86.096 ms</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>86.096 ms</Worst-caseRealTimeLatency>
+<PipelineInitiationInterval>8609629</PipelineInitiationInterval>
 <PipelineType>none</PipelineType>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
 <get_input1>
 <Name>get_input1</Name>
 <TripCount>60</TripCount>
-<Latency>111720</Latency>
-<AbsoluteTimeLatency>1.117 ms</AbsoluteTimeLatency>
-<IterationLatency>1862</IterationLatency>
-<PipelineDepth>1862</PipelineDepth>
+<Latency>115320</Latency>
+<AbsoluteTimeLatency>1.153 ms</AbsoluteTimeLatency>
+<IterationLatency>1922</IterationLatency>
+<PipelineDepth>1922</PipelineDepth>
 <get_input1_2>
 <Name>get_input1_2</Name>
 <TripCount>60</TripCount>
-<Latency>1860</Latency>
-<AbsoluteTimeLatency>18.600 us</AbsoluteTimeLatency>
-<IterationLatency>31</IterationLatency>
-<PipelineDepth>31</PipelineDepth>
+<Latency>1920</Latency>
+<AbsoluteTimeLatency>19.200 us</AbsoluteTimeLatency>
+<IterationLatency>32</IterationLatency>
+<PipelineDepth>32</PipelineDepth>
 </get_input1_2>
 </get_input1>
 <conv2d1_conv2d1_2_conv2d1_3>
 <Name>conv2d1_conv2d1_2_conv2d1_3</Name>
 <TripCount>107648</TripCount>
-<Latency>538247</Latency>
-<AbsoluteTimeLatency>5.382 ms</AbsoluteTimeLatency>
-<PipelineII>5</PipelineII>
-<PipelineDepth>13</PipelineDepth>
+<Latency>215316</Latency>
+<AbsoluteTimeLatency>2.153 ms</AbsoluteTimeLatency>
+<PipelineII>2</PipelineII>
+<PipelineDepth>23</PipelineDepth>
 </conv2d1_conv2d1_2_conv2d1_3>
 <max_pooling2d1_max_pooling2d1_2_max_pooling2d1_3>
 <Name>max_pooling2d1_max_pooling2d1_2_max_pooling2d1_3</Name>
@@ -321,18 +321,18 @@
 </PerformanceEstimates>
 <AreaEstimates>
 <Resources>
-<BRAM_18K>278</BRAM_18K>
+<BRAM_18K>272</BRAM_18K>
 <AVAIL_BRAM>432</AVAIL_BRAM>
-<UTIL_BRAM>64</UTIL_BRAM>
+<UTIL_BRAM>62</UTIL_BRAM>
 <DSP>155</DSP>
 <AVAIL_DSP>360</AVAIL_DSP>
 <UTIL_DSP>43</UTIL_DSP>
-<FF>15650</FF>
+<FF>23207</FF>
 <AVAIL_FF>141120</AVAIL_FF>
-<UTIL_FF>11</UTIL_FF>
-<LUT>15359</LUT>
+<UTIL_FF>16</UTIL_FF>
+<LUT>25455</LUT>
 <AVAIL_LUT>70560</AVAIL_LUT>
-<UTIL_LUT>21</UTIL_LUT>
+<UTIL_LUT>36</UTIL_LUT>
 <URAM>0</URAM>
 <AVAIL_URAM>0</AVAIL_URAM>
 <UTIL_URAM>0</UTIL_URAM>

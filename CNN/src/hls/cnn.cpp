@@ -266,6 +266,9 @@ void infer(hls::stream<int> &infer_input, hls::stream<float> &infer_output)
 #pragma HLS INTERFACE axis port=infer_input
 #pragma HLS INTERFACE axis port=infer_output
 #pragma HLS INTERFACE s_axilite port=return
+#pragma HLS array_partition variable=cnn_input complete dim=3
+#pragma HLS array_partition variable=cnn_input complete dim=2
+#pragma HLS array_partition variable=cnn_input block factor=2 dim=1
 
     // Insert image from stream in input array
     int single_pixel = 0;

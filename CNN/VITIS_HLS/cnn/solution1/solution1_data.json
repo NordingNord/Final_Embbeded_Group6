@@ -58,7 +58,7 @@
     "Uncertainty": "2.7",
     "IsCombinational": "0",
     "II": "x",
-    "Latency": "8928959"
+    "Latency": "8609628"
   },
   "Xdc": {"OocClocks": ["create_clock -name ap_clk -period 10.000 [get_ports ap_clk]"]},
   "Ipx": {
@@ -76,7 +76,7 @@
   "Files": {
     "CSource": ["..\/..\/..\/src\/hls\/cnn.cpp"],
     "Vhdl": [
-      "impl\/vhdl\/infer_cnn_input_V_0.vhd",
+      "impl\/vhdl\/infer_cnn_input_V_0_57_0.vhd",
       "impl\/vhdl\/infer_control_s_axi.vhd",
       "impl\/vhdl\/infer_ddiv_64ns_64ns_64_22_no_dsp_1.vhd",
       "impl\/vhdl\/infer_exp_40_32_s.vhd",
@@ -230,11 +230,12 @@
       "impl\/vhdl\/infer_regslice_both.vhd",
       "impl\/vhdl\/infer_sdiv_48ns_40s_13_52_1.vhd",
       "impl\/vhdl\/infer_sitofp_32ns_32_4_no_dsp_1.vhd",
+      "impl\/vhdl\/infer_urem_6ns_6ns_5_10_1.vhd",
       "impl\/vhdl\/infer.vhd"
     ],
     "Verilog": [
-      "impl\/verilog\/infer_cnn_input_V_0.v",
-      "impl\/verilog\/infer_cnn_input_V_0_ram.dat",
+      "impl\/verilog\/infer_cnn_input_V_0_57_0.v",
+      "impl\/verilog\/infer_cnn_input_V_0_57_0_ram.dat",
       "impl\/verilog\/infer_control_s_axi.v",
       "impl\/verilog\/infer_ddiv_64ns_64ns_64_22_no_dsp_1.v",
       "impl\/verilog\/infer_exp_40_32_s.v",
@@ -513,6 +514,7 @@
       "impl\/verilog\/infer_regslice_both.v",
       "impl\/verilog\/infer_sdiv_48ns_40s_13_52_1.v",
       "impl\/verilog\/infer_sitofp_32ns_32_4_no_dsp_1.v",
+      "impl\/verilog\/infer_urem_6ns_6ns_5_10_1.v",
       "impl\/verilog\/infer.v"
     ],
     "SwDriver": [
@@ -925,7 +927,7 @@
       "ModuleName": "infer",
       "Instances": [{
           "ModuleName": "exp_40_32_s",
-          "InstanceName": "grp_exp_40_32_s_fu_3662"
+          "InstanceName": "grp_exp_40_32_s_fu_11091"
         }]
     },
     "Info": {
@@ -979,10 +981,10 @@
       },
       "infer": {
         "Latency": {
-          "LatencyBest": "8928959",
-          "LatencyAvg": "8928959",
-          "LatencyWorst": "8928959",
-          "PipelineII": "8928960",
+          "LatencyBest": "8609628",
+          "LatencyAvg": "8609628",
+          "LatencyWorst": "8609628",
+          "PipelineII": "8609629",
           "PipelineDepth": "",
           "PipelineType": "none"
         },
@@ -995,23 +997,23 @@
           {
             "Name": "get_input1",
             "TripCount": "60",
-            "Latency": "111720",
+            "Latency": "115320",
             "PipelineII": "",
-            "PipelineDepth": "1862",
+            "PipelineDepth": "1922",
             "Loops": [{
                 "Name": "get_input1_2",
                 "TripCount": "60",
-                "Latency": "1860",
+                "Latency": "1920",
                 "PipelineII": "",
-                "PipelineDepth": "31"
+                "PipelineDepth": "32"
               }]
           },
           {
             "Name": "conv2d1_conv2d1_2_conv2d1_3",
             "TripCount": "107648",
-            "Latency": "538247",
-            "PipelineII": "5",
-            "PipelineDepth": "13"
+            "Latency": "215316",
+            "PipelineII": "2",
+            "PipelineDepth": "23"
           },
           {
             "Name": "max_pooling2d1_max_pooling2d1_2_max_pooling2d1_3",
@@ -1127,18 +1129,18 @@
           }
         ],
         "Area": {
-          "BRAM_18K": "278",
+          "BRAM_18K": "272",
           "AVAIL_BRAM": "432",
-          "UTIL_BRAM": "64",
+          "UTIL_BRAM": "62",
           "DSP": "155",
           "AVAIL_DSP": "360",
           "UTIL_DSP": "43",
-          "FF": "15650",
+          "FF": "23207",
           "AVAIL_FF": "141120",
-          "UTIL_FF": "11",
-          "LUT": "15359",
+          "UTIL_FF": "16",
+          "LUT": "25455",
           "AVAIL_LUT": "70560",
-          "UTIL_LUT": "21",
+          "UTIL_LUT": "36",
           "URAM": "0",
           "AVAIL_URAM": "0",
           "UTIL_URAM": "0"
@@ -1149,7 +1151,7 @@
   "GenerateBdFiles": "1",
   "GenData": {
     "DataVersion": "0.2",
-    "Time": "2023-12-26 23:08:19 CET",
+    "Time": "2023-12-26 23:54:47 CET",
     "ToolName": "vivado_hls",
     "ToolVersion": "2020.2"
   }

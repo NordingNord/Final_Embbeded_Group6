@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'infer'" level="0">
-<item name = "Date">Tue Dec 26 23:07:36 2023
+<item name = "Date">Tue Dec 26 23:53:53 2023
 </item>
 <item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)</item>
 <item name = "Project">cnn</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">8928959, 8928959, 89.290 ms, 89.290 ms, 8928960, 8928960, none</column>
+<column name="">8609628, 8609628, 86.096 ms, 86.096 ms, 8609629, 8609629, none</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,9 +35,9 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- get_input1">111720, 111720, 1862, -, -, 60, no</column>
-<column name=" + get_input1_2">1860, 1860, 31, -, -, 60, no</column>
-<column name="- conv2d1_conv2d1_2_conv2d1_3">538247, 538247, 13, 5, 1, 107648, yes</column>
+<column name="- get_input1">115320, 115320, 1922, -, -, 60, no</column>
+<column name=" + get_input1_2">1920, 1920, 32, -, -, 60, no</column>
+<column name="- conv2d1_conv2d1_2_conv2d1_3">215316, 215316, 23, 2, 1, 107648, yes</column>
 <column name="- max_pooling2d1_max_pooling2d1_2_max_pooling2d1_3">53825, 53825, 4, 2, 1, 26912, yes</column>
 <column name="- conv2d1_conv2d1_2_conv2d1_3">6998400, 6998400, 300, -, -, 23328, no</column>
 <column name=" + conv2d1_4_conv2d1_5_conv2d1_6">294, 294, 8, 1, 1, 288, yes</column>

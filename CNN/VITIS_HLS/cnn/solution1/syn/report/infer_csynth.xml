@@ -22,34 +22,34 @@
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>8928959</Best-caseLatency>
-<Average-caseLatency>8928959</Average-caseLatency>
-<Worst-caseLatency>8928959</Worst-caseLatency>
-<Best-caseRealTimeLatency>89.290 ms</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>89.290 ms</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>89.290 ms</Worst-caseRealTimeLatency>
-<Interval-min>8928960</Interval-min>
-<Interval-max>8928960</Interval-max>
+<Best-caseLatency>8609628</Best-caseLatency>
+<Average-caseLatency>8609628</Average-caseLatency>
+<Worst-caseLatency>8609628</Worst-caseLatency>
+<Best-caseRealTimeLatency>86.096 ms</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>86.096 ms</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>86.096 ms</Worst-caseRealTimeLatency>
+<Interval-min>8609629</Interval-min>
+<Interval-max>8609629</Interval-max>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
 <get_input1>
 <TripCount>60</TripCount>
-<Latency>111720</Latency>
-<AbsoluteTimeLatency>1117200</AbsoluteTimeLatency>
-<IterationLatency>1862</IterationLatency>
+<Latency>115320</Latency>
+<AbsoluteTimeLatency>1153200</AbsoluteTimeLatency>
+<IterationLatency>1922</IterationLatency>
 <get_input1_2>
 <TripCount>60</TripCount>
-<Latency>1860</Latency>
-<AbsoluteTimeLatency>18600</AbsoluteTimeLatency>
-<IterationLatency>31</IterationLatency>
+<Latency>1920</Latency>
+<AbsoluteTimeLatency>19200</AbsoluteTimeLatency>
+<IterationLatency>32</IterationLatency>
 </get_input1_2>
 </get_input1>
 <conv2d1_conv2d1_2_conv2d1_3>
 <TripCount>107648</TripCount>
-<Latency>538247</Latency>
-<AbsoluteTimeLatency>5382470</AbsoluteTimeLatency>
-<PipelineII>5</PipelineII>
-<PipelineDepth>13</PipelineDepth>
+<Latency>215316</Latency>
+<AbsoluteTimeLatency>2153160</AbsoluteTimeLatency>
+<PipelineII>2</PipelineII>
+<PipelineDepth>23</PipelineDepth>
 </conv2d1_conv2d1_2_conv2d1_3>
 <max_pooling2d1_max_pooling2d1_2_max_pooling2d1_3>
 <TripCount>26912</TripCount>
@@ -165,10 +165,10 @@
 
 <AreaEstimates>
 <Resources>
-<BRAM_18K>278</BRAM_18K>
+<BRAM_18K>272</BRAM_18K>
 <DSP>155</DSP>
-<FF>15650</FF>
-<LUT>15359</LUT>
+<FF>23207</FF>
+<LUT>25455</LUT>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>

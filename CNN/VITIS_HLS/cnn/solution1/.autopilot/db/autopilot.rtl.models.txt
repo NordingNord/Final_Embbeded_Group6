@@ -4,6 +4,7 @@ infer_exp_40_32_s_exp_x_msb_1_table_V
 infer_sitofp_32ns_32_4_no_dsp_1
 infer_fpext_32ns_64_2_no_dsp_1
 infer_ddiv_64ns_64ns_64_22_no_dsp_1
+infer_urem_6ns_6ns_5_10_1
 infer_mul_6ns_7ns_12_1_1
 infer_mul_5ns_6ns_10_1_1
 infer_mul_4ns_5ns_8_1_1
@@ -33,8 +34,6 @@ infer_mac_muladd_16s_20ns_30s_36_4_1
 infer_mac_muladd_16s_20ns_36s_37_4_1
 infer_mac_muladd_15s_20ns_37ns_37_4_1
 infer_mac_muladd_16s_20ns_29s_36_4_1
-infer_cnn_input_V_0
-infer_layer_2_bias_V
 infer_layer_2_weights_V_0_0_0
 infer_layer_2_weights_V_0_1_0
 infer_layer_2_weights_V_0_2_0
@@ -45,6 +44,8 @@ infer_layer_2_weights_V_2_0_0
 infer_layer_2_weights_V_2_1_0
 infer_layer_2_weights_V_2_2_0
 infer_layer_2_output_V
+infer_cnn_input_V_0_57_0
+infer_layer_2_bias_V
 infer_layer_3_output_V
 infer_layer_4_weights_V
 infer_layer_4_output_V
