@@ -3,47 +3,47 @@ source_filename = "llvm-link"
 target datalayout = "e-m:e-i64:64-i128:128-i256:256-i512:512-i1024:1024-i2048:2048-i4096:4096-n8:16:32:64-S128-v16:16-v24:32-v32:32-v48:64-v96:128-v192:256-v256:256-v512:512-v1024:1024"
 target triple = "fpga64-xilinx-none"
 
-%"class.hls::stream" = type { i32 }
+%struct.ssdm_int.18 = type { i32 }
 %"class.hls::stream.0" = type { float }
 
 ; Function Attrs: noinline
-define void @apatb_infer_ir(%"class.hls::stream"* %infer_input, %"class.hls::stream.0"* %infer_output) local_unnamed_addr #0 {
+define void @apatb_infer_ir(%struct.ssdm_int.18* %infer_input, %"class.hls::stream.0"* %infer_output) local_unnamed_addr #0 {
 entry:
-  %infer_input_copy1 = alloca %"class.hls::stream", align 512
+  %infer_input_copy1 = alloca %struct.ssdm_int.18, align 512
   %infer_output_copy2 = alloca %"class.hls::stream.0", align 512
-  call fastcc void @copy_in(%"class.hls::stream"* %infer_input, %"class.hls::stream"* nonnull align 512 %infer_input_copy1, %"class.hls::stream.0"* %infer_output, %"class.hls::stream.0"* nonnull align 512 %infer_output_copy2)
-  call void @apatb_infer_hw(%"class.hls::stream"* %infer_input_copy1, %"class.hls::stream.0"* %infer_output_copy2)
-  call fastcc void @copy_out(%"class.hls::stream"* %infer_input, %"class.hls::stream"* nonnull align 512 %infer_input_copy1, %"class.hls::stream.0"* %infer_output, %"class.hls::stream.0"* nonnull align 512 %infer_output_copy2)
+  call fastcc void @copy_in(%struct.ssdm_int.18* %infer_input, %struct.ssdm_int.18* nonnull align 512 %infer_input_copy1, %"class.hls::stream.0"* %infer_output, %"class.hls::stream.0"* nonnull align 512 %infer_output_copy2)
+  call void @apatb_infer_hw(%struct.ssdm_int.18* %infer_input_copy1, %"class.hls::stream.0"* %infer_output_copy2)
+  call fastcc void @copy_out(%struct.ssdm_int.18* %infer_input, %struct.ssdm_int.18* nonnull align 512 %infer_input_copy1, %"class.hls::stream.0"* %infer_output, %"class.hls::stream.0"* nonnull align 512 %infer_output_copy2)
   ret void
 }
 
 ; Function Attrs: noinline
-define internal fastcc void @copy_in(%"class.hls::stream"*, %"class.hls::stream"* noalias align 512, %"class.hls::stream.0"*, %"class.hls::stream.0"* noalias align 512) unnamed_addr #1 {
+define internal fastcc void @copy_in(%struct.ssdm_int.18*, %struct.ssdm_int.18* noalias align 512, %"class.hls::stream.0"*, %"class.hls::stream.0"* noalias align 512) unnamed_addr #1 {
 entry:
-  call fastcc void @"onebyonecpy_hls.p0class.hls::stream"(%"class.hls::stream"* align 512 %1, %"class.hls::stream"* %0)
+  call fastcc void @onebyonecpy_hls.p0struct.ssdm_int.18(%struct.ssdm_int.18* align 512 %1, %struct.ssdm_int.18* %0)
   call fastcc void @"onebyonecpy_hls.p0class.hls::stream.0"(%"class.hls::stream.0"* align 512 %3, %"class.hls::stream.0"* %2)
   ret void
 }
 
 ; Function Attrs: noinline
-define internal fastcc void @"onebyonecpy_hls.p0class.hls::stream"(%"class.hls::stream"* noalias align 512, %"class.hls::stream"* noalias) unnamed_addr #2 {
+define internal fastcc void @onebyonecpy_hls.p0struct.ssdm_int.18(%struct.ssdm_int.18* noalias align 512, %struct.ssdm_int.18* noalias) unnamed_addr #2 {
 entry:
-  %2 = icmp eq %"class.hls::stream"* %0, null
-  %3 = icmp eq %"class.hls::stream"* %1, null
+  %2 = icmp eq %struct.ssdm_int.18* %0, null
+  %3 = icmp eq %struct.ssdm_int.18* %1, null
   %4 = or i1 %2, %3
   br i1 %4, label %ret, label %copy
 
 copy:                                             ; preds = %entry
-  %5 = bitcast %"class.hls::stream"* %1 to i8*
+  %5 = bitcast %struct.ssdm_int.18* %1 to i8*
   %6 = call i1 @fpga_fifo_exist_4(i8* %5)
   br i1 %6, label %7, label %8
 
 ; <label>:7:                                      ; preds = %copy
-  call fastcc void @"streamcpy_hls.p0class.hls::stream"(%"class.hls::stream"* nonnull align 512 %0, %"class.hls::stream"* nonnull %1)
+  call fastcc void @streamcpy_hls.p0struct.ssdm_int.18(%struct.ssdm_int.18* nonnull align 512 %0, %struct.ssdm_int.18* nonnull %1)
   br label %ret
 
 ; <label>:8:                                      ; preds = %copy
-  %9 = bitcast %"class.hls::stream"* %0 to i8*
+  %9 = bitcast %struct.ssdm_int.18* %0 to i8*
   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %9, i8* align 1 %5, i64 4, i1 false)
   br label %ret
 
@@ -54,29 +54,29 @@ ret:                                              ; preds = %8, %7, %entry
 declare i1 @fpga_fifo_exist_4(i8*) local_unnamed_addr
 
 ; Function Attrs: argmemonly noinline
-define internal fastcc void @"streamcpy_hls.p0class.hls::stream"(%"class.hls::stream"* noalias nocapture align 512, %"class.hls::stream"* noalias nocapture) unnamed_addr #3 {
+define internal fastcc void @streamcpy_hls.p0struct.ssdm_int.18(%struct.ssdm_int.18* noalias nocapture align 512, %struct.ssdm_int.18* noalias nocapture) unnamed_addr #3 {
 entry:
-  %2 = alloca %"class.hls::stream"
+  %2 = alloca %struct.ssdm_int.18
   br label %empty
 
 empty:                                            ; preds = %push, %entry
-  %3 = bitcast %"class.hls::stream"* %1 to i8*
+  %3 = bitcast %struct.ssdm_int.18* %1 to i8*
   %4 = call i1 @fpga_fifo_not_empty_4(i8* %3)
   br i1 %4, label %push, label %ret
 
 push:                                             ; preds = %empty
-  %5 = bitcast %"class.hls::stream"* %2 to i8*
-  %6 = bitcast %"class.hls::stream"* %1 to i8*
+  %5 = bitcast %struct.ssdm_int.18* %2 to i8*
+  %6 = bitcast %struct.ssdm_int.18* %1 to i8*
   call void @fpga_fifo_pop_4(i8* %5, i8* %6)
-  %7 = load volatile %"class.hls::stream", %"class.hls::stream"* %2
-  %8 = bitcast %"class.hls::stream"* %2 to i8*
-  %9 = bitcast %"class.hls::stream"* %0 to i8*
+  %7 = load volatile %struct.ssdm_int.18, %struct.ssdm_int.18* %2
+  %8 = bitcast %struct.ssdm_int.18* %2 to i8*
+  %9 = bitcast %struct.ssdm_int.18* %0 to i8*
   call void @fpga_fifo_push_4(i8* %8, i8* %9)
   br label %empty, !llvm.loop !5
 
 ret:                                              ; preds = %empty
-  %10 = bitcast %"class.hls::stream"* %1 to i8*
-  %11 = bitcast %"class.hls::stream"* %0 to i8*
+  %10 = bitcast %struct.ssdm_int.18* %1 to i8*
+  %11 = bitcast %struct.ssdm_int.18* %0 to i8*
   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %11, i8* align 1 %10, i64 4, i1 false)
   ret void
 }
@@ -139,24 +139,24 @@ ret:                                              ; preds = %empty
 }
 
 ; Function Attrs: noinline
-define internal fastcc void @copy_out(%"class.hls::stream"*, %"class.hls::stream"* noalias align 512, %"class.hls::stream.0"*, %"class.hls::stream.0"* noalias align 512) unnamed_addr #5 {
+define internal fastcc void @copy_out(%struct.ssdm_int.18*, %struct.ssdm_int.18* noalias align 512, %"class.hls::stream.0"*, %"class.hls::stream.0"* noalias align 512) unnamed_addr #5 {
 entry:
-  call fastcc void @"onebyonecpy_hls.p0class.hls::stream"(%"class.hls::stream"* %0, %"class.hls::stream"* align 512 %1)
+  call fastcc void @onebyonecpy_hls.p0struct.ssdm_int.18(%struct.ssdm_int.18* %0, %struct.ssdm_int.18* align 512 %1)
   call fastcc void @"onebyonecpy_hls.p0class.hls::stream.0"(%"class.hls::stream.0"* %2, %"class.hls::stream.0"* align 512 %3)
   ret void
 }
 
-declare void @apatb_infer_hw(%"class.hls::stream"*, %"class.hls::stream.0"*)
+declare void @apatb_infer_hw(%struct.ssdm_int.18*, %"class.hls::stream.0"*)
 
-define void @infer_hw_stub_wrapper(%"class.hls::stream"*, %"class.hls::stream.0"*) #6 {
+define void @infer_hw_stub_wrapper(%struct.ssdm_int.18*, %"class.hls::stream.0"*) #6 {
 entry:
-  call void @copy_out(%"class.hls::stream"* null, %"class.hls::stream"* %0, %"class.hls::stream.0"* null, %"class.hls::stream.0"* %1)
-  call void @infer_hw_stub(%"class.hls::stream"* %0, %"class.hls::stream.0"* %1)
-  call void @copy_in(%"class.hls::stream"* null, %"class.hls::stream"* %0, %"class.hls::stream.0"* null, %"class.hls::stream.0"* %1)
+  call void @copy_out(%struct.ssdm_int.18* null, %struct.ssdm_int.18* %0, %"class.hls::stream.0"* null, %"class.hls::stream.0"* %1)
+  call void @infer_hw_stub(%struct.ssdm_int.18* %0, %"class.hls::stream.0"* %1)
+  call void @copy_in(%struct.ssdm_int.18* null, %struct.ssdm_int.18* %0, %"class.hls::stream.0"* null, %"class.hls::stream.0"* %1)
   ret void
 }
 
-declare void @infer_hw_stub(%"class.hls::stream"*, %"class.hls::stream.0"*)
+declare void @infer_hw_stub(%struct.ssdm_int.18*, %"class.hls::stream.0"*)
 
 declare i1 @fpga_fifo_not_empty_4(i8*)
 

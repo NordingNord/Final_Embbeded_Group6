@@ -7,7 +7,7 @@
 
 module infer_sitofp_32ns_32_4_no_dsp_1
 #(parameter
-    ID         = 91,
+    ID         = 6,
     NUM_STAGE  = 4,
     din0_WIDTH = 32,
     dout_WIDTH = 32

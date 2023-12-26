@@ -42,6 +42,51 @@
 			<location>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS/cnn/.apc/.tb</location>
 		</link>
 		<link>
+			<name>.reference/ap_int.h</name>
+			<type>1</type>
+			<location>/tools/Xilinx/Vitis_HLS/2020.2/include/ap_int.h</location>
+		</link>
+		<link>
+			<name>.reference/c++config.h</name>
+			<type>1</type>
+			<location>/tools/Xilinx/Vitis_HLS/2020.2/tps/lnx64/gcc-6.2.0/include/c++/6.2.0/x86_64-pc-linux-gnu/bits/c++config.h</location>
+		</link>
+		<link>
+			<name>.reference/hls_exp_apfixed.h</name>
+			<type>1</type>
+			<location>/tools/Xilinx/Vitis_HLS/2020.2/include/hls_exp_apfixed.h</location>
+		</link>
+		<link>
+			<name>.reference/hls_pow_apfixed.h</name>
+			<type>1</type>
+			<location>/tools/Xilinx/Vitis_HLS/2020.2/include/hls_pow_apfixed.h</location>
+		</link>
+		<link>
+			<name>.reference/hls_sqrt_apfixed.h</name>
+			<type>1</type>
+			<location>/tools/Xilinx/Vitis_HLS/2020.2/include/hls_sqrt_apfixed.h</location>
+		</link>
+		<link>
+			<name>.reference/layerInfo.hpp</name>
+			<type>1</type>
+			<location>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/layerInfo.hpp</location>
+		</link>
+		<link>
+			<name>.reference/stdint-gcc.h</name>
+			<type>1</type>
+			<location>/tools/Xilinx/Vitis_HLS/2020.2/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/include/stdint-gcc.h</location>
+		</link>
+		<link>
+			<name>.reference/stdint-uintn.h</name>
+			<type>1</type>
+			<location>/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h</location>
+		</link>
+		<link>
+			<name>.reference/stdint.h</name>
+			<type>1</type>
+			<location>/tools/Xilinx/Vitis_HLS/2020.2/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/include/stdint.h</location>
+		</link>
+		<link>
 			<name>solution1/constraints</name>
 			<type>2</type>
 			<location>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS/cnn/solution1/.tcls</location>
@@ -60,6 +105,11 @@
 			<name>source/layerInfo.hpp</name>
 			<type>1</type>
 			<location>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/layerInfo.hpp</location>
+		</link>
+		<link>
+			<name>source/types.hpp</name>
+			<type>1</type>
+			<location>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/types.hpp</location>
 		</link>
 		<link>
 			<name>testbench/cnn_tb.cpp</name>

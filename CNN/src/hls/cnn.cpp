@@ -203,12 +203,14 @@ void dense_relu(fixed (&input)[input_size],
 {
 	dense_relu1: for (sizetype i = 0; i < weights_size_2; i++)
     {
+		// Add bias
+		fixed output_sum = bias[i];
 		dense_relu1_2: for (sizetype ii = 0; ii < weights_size_1; ii++)
         {
-            output[i] += input[ii] * weights[ii][i];
+			output_sum += input[ii] * weights[ii][i];
         }
-        // Add bias
-        output[i] += bias[i];
+
+        output[i] = output_sum;
         // Apply relu activation function
         relu(output[i]);
     }
@@ -228,13 +230,34 @@ void dense(fixed (&input)[input_size],
 {
 	dense1: for (sizetype i = 0; i < weights_size_2; i++)
     {
+		// Add bias
+		fixed output_sum = bias[i];
 		dense1_2: for (sizetype ii = 0; ii < weights_size_1; ii++)
         {
-            output[i] += input[ii] * weights[ii][i];
+			output_sum += input[ii] * weights[ii][i];
         }
-        // Add bias
-        output[i] += bias[i];
+
+        output[i] = output_sum;
     }
+}
+
+/*
+* 	Converts array values to probability distribution
+*/
+template <const sizetype size>
+void softmax(fixed (&array)[size])
+{
+	softmax_fixed temp_array[size];
+	softmax_fixed sum = 0;
+	softmax1: for (sizetype i = 0; i < size; i++)
+	{
+		temp_array[i] = exp_reduce::exp((softmax_fixed)array[i]);
+		sum += temp_array[i];
+	}
+	softmax2: for (sizetype i = 0; i < size; i++)
+	{
+		array[i] = temp_array[i] / sum;
+	}
 }
 
 void infer(hls::stream<int> &infer_input, hls::stream<float> &infer_output)
@@ -253,13 +276,13 @@ void infer(hls::stream<int> &infer_input, hls::stream<float> &infer_output)
 			get_input1_3: for (sizetype iii = 0; iii < input_dim_3; iii++)
 			{
 				infer_input >> single_pixel;
-				cnn_input[i][ii][iii] = single_pixel;
+				cnn_input[i][ii][iii] = (fixed)((float)single_pixel / 255.0);
 			}
 		}
     }
     
-    // Layer 1 rescaling
-    layer_1_rescale: rescale_3d(cnn_input);
+    // // Layer 1 rescaling
+    // layer_1_rescale: rescale_3d(cnn_input);
 
 
     // Layer 2 convolution
@@ -327,6 +350,10 @@ void infer(hls::stream<int> &infer_input, hls::stream<float> &infer_output)
             layer_12_weights,
             layer_12_bias,
             layer_12_output);
+
+
+    // Softmax the output
+    softmax_output: softmax(layer_12_output);
 
 
     //Send result
