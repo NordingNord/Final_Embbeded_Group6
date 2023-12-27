@@ -271,6 +271,11 @@ void infer(hls::stream<int> &infer_input, hls::stream<float> &infer_output)
 #pragma HLS array_partition variable=cnn_input complete dim=2
 #pragma HLS array_partition variable=cnn_input block factor=3 dim=1
 #pragma HLS array_partition variable=layer_2_output complete dim=3
+#pragma HLS array_partition variable=layer_3_output complete dim=3
+#pragma HLS array_partition variable=layer_4_output complete dim=3
+#pragma HLS array_partition variable=layer_5_output complete dim=3
+#pragma HLS array_partition variable=layer_6_output complete dim=3
+#pragma HLS array_partition variable=layer_7_output complete dim=3
 
 
     // Insert image from stream in input array
