@@ -5,7 +5,7 @@
 `timescale 1 ns / 1 ps
 module infer_layer_5_output_V_ram (addr0, ce0, d0, we0, q0,  clk);
 
-parameter DWIDTH = 20;
+parameter DWIDTH = 21;
 parameter AWIDTH = 13;
 parameter MEM_SIZE = 5408;
 
@@ -46,7 +46,7 @@ module infer_layer_5_output_V(
     d0,
     q0);
 
-parameter DataWidth = 32'd20;
+parameter DataWidth = 32'd21;
 parameter AddressRange = 32'd5408;
 parameter AddressWidth = 32'd13;
 input reset;

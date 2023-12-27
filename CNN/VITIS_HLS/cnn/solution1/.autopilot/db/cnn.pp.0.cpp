@@ -82361,9 +82361,9 @@ void rescale_3d(fixed (&array)[size_1][size_2][size_3])
 {
  rescale1: for (sizetype i = 0; i < size_1; i++)
     {
-  rescale1_2: for (sizetype ii = 0; ii < size_2; ii++)
+  rescale2: for (sizetype ii = 0; ii < size_2; ii++)
         {
-   rescale1_3: for (sizetype iii = 0; iii < size_3; iii++)
+   rescale3: for (sizetype iii = 0; iii < size_3; iii++)
             {
                 array[i][ii][iii] /= (fixed)255.0;
             }
@@ -82401,36 +82401,37 @@ void conv2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
  conv2d1: for (sizetype i = 1; i < input_size_1 - 1; i++)
     {
 
-  conv2d1_2: for (sizetype ii = 1; ii < input_size_2 - 1; ii++)
+  conv2d2: for (sizetype ii = 1; ii < input_size_2 - 1; ii++)
         {
 
-   conv2d1_3: for (sizetype iii = 0; iii < weights_size_4; iii++)
-            {
+   conv2d3_1: for (sizetype iii = 0; iii < weights_size_4; iii++)
+   {
 
-             fixed output_sum = bias[iii];
+    output[(i - 1)][(ii - 1)][iii] = bias[iii];
+   }
 
-             conv2d1_4: for (sizetype iv = 0; iv < input_size_3; iv++)
-                {
+   conv2d3_2: for (sizetype iv = 0; iv < input_size_3; iv++)
+   {
 
-              conv2d1_5: for (int v = -1; v < 2; v++)
-                    {
+    conv2d4: for (int v = -1; v < 2; v++)
+    {
 
-               conv2d1_6: for (int vi = -1; vi < 2; vi++)
-                        {
-                         output_sum
-                                +=
-                                input[(i + v)][(ii + vi)][iv]
-                                *
-                                weights[(v + 1)][(vi + 1)][iv][iii];
+     conv2d5: for (int vi = -1; vi < 2; vi++)
+     {
+      fixed input_val = input[(i + v)][(ii + vi)][iv];
 
-                        }
+      conv2d6: for (sizetype iii = 0; iii < weights_size_4; iii++)
+      {
+       output[(i - 1)][(ii - 1)][iii] += input_val * weights[(v + 1)][(vi + 1)][iv][iii];
+      }
+     }
+    }
+   }
 
-                    }
-                }
+   conv2d3_3: for (sizetype iii = 0; iii < weights_size_4; iii++)
+   {
 
-                relu(output_sum);
-                output[(i - 1)][(ii - 1)][iii]
-                    = output_sum;
+    relu(output[(i - 1)][(ii - 1)][iii]);
             }
         }
     }
@@ -82448,17 +82449,17 @@ void max_pooling2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
  max_pooling2d1: for (sizetype i = 0; i < input_size_1 - 1; i += 2)
     {
 
-  max_pooling2d1_2: for (sizetype ii = 0; ii < input_size_2 - 1; ii += 2)
+  max_pooling2d2: for (sizetype ii = 0; ii < input_size_2 - 1; ii += 2)
         {
 
-   max_pooling2d1_3: for (sizetype iii = 0; iii < input_size_3; iii++)
+   max_pooling2d3: for (sizetype iii = 0; iii < input_size_3; iii++)
             {
                 fixed maxVal = 0;
 
-                max_pooling2d1_4: for (int iv = 0; iv < 2; iv++)
+                max_pooling2d4: for (int iv = 0; iv < 2; iv++)
                 {
 
-                 max_pooling2d1_5: for (int v = 0; v < 2; v++)
+                 max_pooling2d5: for (int v = 0; v < 2; v++)
                     {
                      fixed input_val = input[(i + iv)][(ii + v)][iii];
                         if (input_val > maxVal)
@@ -82472,13 +82473,13 @@ void max_pooling2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
         }
     }
 }
-# 182 "../src/hls/cnn.cpp"
+# 183 "../src/hls/cnn.cpp"
 template <const sizetype size_1, const sizetype size_2, const sizetype size_3>
 void array_3d_to_1d(fixed (&array)[size_1][size_2][size_3], fixed (&output)[size_1*size_2*size_3])
 {
- VITIS_LOOP_185_1: for (sizetype i = 0; i < size_1; i++)
-  VITIS_LOOP_186_2: for (sizetype ii = 0; ii < size_2; ii++)
-   VITIS_LOOP_187_3: for (sizetype iii = 0; iii < size_3; iii++)
+ VITIS_LOOP_186_1: for (sizetype i = 0; i < size_1; i++)
+  VITIS_LOOP_187_2: for (sizetype ii = 0; ii < size_2; ii++)
+   VITIS_LOOP_188_3: for (sizetype iii = 0; iii < size_3; iii++)
     output[i*size_2*size_3 + ii*size_3 + iii] = array[i][ii][iii];
 }
 
@@ -82499,7 +82500,7 @@ void dense_relu(fixed (&input)[input_size],
     {
 
   fixed output_sum = bias[i];
-  dense_relu1_2: for (sizetype ii = 0; ii < weights_size_1; ii++)
+  dense_relu2: for (sizetype ii = 0; ii < weights_size_1; ii++)
         {
    output_sum += input[ii] * weights[ii][i];
         }
@@ -82526,7 +82527,7 @@ void dense(fixed (&input)[input_size],
     {
 
   fixed output_sum = bias[i];
-  dense1_2: for (sizetype ii = 0; ii < weights_size_1; ii++)
+  dense2: for (sizetype ii = 0; ii < weights_size_1; ii++)
         {
    output_sum += input[ii] * weights[ii][i];
         }
@@ -82543,12 +82544,12 @@ void softmax(fixed (&array)[size])
 {
  softmax_fixed temp_array[size];
  softmax_fixed sum = 0;
- softmax1: for (sizetype i = 0; i < size; i++)
+ softmax1_1: for (sizetype i = 0; i < size; i++)
  {
   temp_array[i] = exp_reduce::exp((softmax_fixed)array[i]);
   sum += temp_array[i];
  }
- softmax2: for (sizetype i = 0; i < size; i++)
+ softmax1_2: for (sizetype i = 0; i < size; i++)
  {
   array[i] = temp_array[i] / sum;
  }
@@ -82557,7 +82558,7 @@ void softmax(fixed (&array)[size])
 __attribute__((sdx_kernel("infer", 0))) void infer(hls::stream<int> &infer_input, hls::stream<float> &infer_output)
 {
 #pragma HLS TOP name=infer
-# 264 "../src/hls/cnn.cpp"
+# 265 "../src/hls/cnn.cpp"
 
 
 #pragma HLS INTERFACE axis port=infer_input
@@ -82565,7 +82566,9 @@ __attribute__((sdx_kernel("infer", 0))) void infer(hls::stream<int> &infer_input
 #pragma HLS INTERFACE s_axilite port=return
 #pragma HLS array_partition variable=cnn_input complete dim=3
 #pragma HLS array_partition variable=cnn_input complete dim=2
-#pragma HLS array_partition variable=cnn_input block factor=2 dim=1
+#pragma HLS array_partition variable=cnn_input block factor=3 dim=1
+#pragma HLS array_partition variable=layer_2_output complete dim=3
+
 
 
  int single_pixel = 0;

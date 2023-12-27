@@ -9,7 +9,7 @@ use ieee.std_logic_unsigned.all;
 
 entity infer_layer_5_output_V_ram is 
     generic(
-            DWIDTH     : integer := 20; 
+            DWIDTH     : integer := 21; 
             AWIDTH     : integer := 13; 
             MEM_SIZE    : integer := 5408
     ); 
@@ -66,7 +66,7 @@ use IEEE.std_logic_1164.all;
 
 entity infer_layer_5_output_V is
     generic (
-        DataWidth : INTEGER := 20;
+        DataWidth : INTEGER := 21;
         AddressRange : INTEGER := 5408;
         AddressWidth : INTEGER := 13);
     port (

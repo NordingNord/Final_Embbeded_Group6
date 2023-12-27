@@ -7,14 +7,14 @@ use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
 
-entity infer_mul_6ns_7ns_12_1_1_Multiplier_1 is
+entity infer_mul_6ns_7ns_12_1_1_Multiplier_2 is
 port (
     a: in std_logic_vector(6 - 1 downto 0);
     b: in std_logic_vector(7 - 1 downto 0);
     p: out std_logic_vector(12 - 1 downto 0));
 end entity;
 
-architecture behav of infer_mul_6ns_7ns_12_1_1_Multiplier_1 is
+architecture behav of infer_mul_6ns_7ns_12_1_1_Multiplier_2 is
     signal a_i : std_logic_vector(6 - 1 downto 0);
     signal b_i : std_logic_vector(7 - 1 downto 0);
 begin
@@ -39,7 +39,7 @@ entity infer_mul_6ns_7ns_12_1_1 is
 end entity;
 
 architecture arch of infer_mul_6ns_7ns_12_1_1 is
-    component infer_mul_6ns_7ns_12_1_1_Multiplier_1 is
+    component infer_mul_6ns_7ns_12_1_1_Multiplier_2 is
         port (
             a : IN STD_LOGIC_VECTOR;
             b : IN STD_LOGIC_VECTOR;
@@ -49,7 +49,7 @@ architecture arch of infer_mul_6ns_7ns_12_1_1 is
 
 
 begin
-    infer_mul_6ns_7ns_12_1_1_Multiplier_1_U :  component infer_mul_6ns_7ns_12_1_1_Multiplier_1
+    infer_mul_6ns_7ns_12_1_1_Multiplier_2_U :  component infer_mul_6ns_7ns_12_1_1_Multiplier_2
     port map (
         a => din0,
         b => din1,
