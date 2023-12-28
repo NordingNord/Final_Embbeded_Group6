@@ -82567,14 +82567,27 @@ __attribute__((sdx_kernel("infer", 0))) void infer(hls::stream<int> &infer_input
 #pragma HLS INTERFACE axis port=infer_input
 #pragma HLS INTERFACE axis port=infer_output
 #pragma HLS INTERFACE s_axilite port=return
+
 #pragma HLS array_partition variable=cnn_input complete dim=3
 #pragma HLS array_partition variable=cnn_input complete dim=2
 #pragma HLS array_partition variable=cnn_input block factor=3 dim=1
+
 #pragma HLS array_partition variable=layer_2_output complete dim=3
+#pragma HLS array_partition variable=layer_2_output cyclic factor=2 dim=2
+#pragma HLS array_partition variable=layer_2_output cyclic factor=2 dim=1
+
 #pragma HLS array_partition variable=layer_3_output complete dim=3
+
 #pragma HLS array_partition variable=layer_4_output complete dim=3
+#pragma HLS array_partition variable=layer_4_output cyclic factor=2 dim=2
+#pragma HLS array_partition variable=layer_4_output cyclic factor=2 dim=1
+
 #pragma HLS array_partition variable=layer_5_output complete dim=3
+
 #pragma HLS array_partition variable=layer_6_output complete dim=3
+#pragma HLS array_partition variable=layer_6_output cyclic factor=2 dim=2
+#pragma HLS array_partition variable=layer_6_output cyclic factor=2 dim=1
+
 #pragma HLS array_partition variable=layer_7_output complete dim=3
 
 

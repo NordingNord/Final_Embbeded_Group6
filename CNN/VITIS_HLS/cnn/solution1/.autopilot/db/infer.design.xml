@@ -5,10 +5,10 @@
 <ModuleName>infer</ModuleName>
 <InstancesList>
 <Instance>
-<InstName>grp_exp_40_32_s_fu_40574</InstName>
+<InstName>grp_exp_40_32_s_fu_44511</InstName>
 <ModuleName>exp_40_32_s</ModuleName>
 <IsCompInst>true</IsCompInst>
-<ID>40574</ID>
+<ID>44511</ID>
 </Instance>
 </InstancesList>
 </TopModule>
@@ -155,13 +155,13 @@
 <EstimatedClockPeriod>7.288</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
-<Best-caseLatency>858264</Best-caseLatency>
-<Average-caseLatency>858264</Average-caseLatency>
-<Worst-caseLatency>858264</Worst-caseLatency>
-<Best-caseRealTimeLatency>8.583 ms</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>8.583 ms</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>8.583 ms</Worst-caseRealTimeLatency>
-<PipelineInitiationInterval>858265</PipelineInitiationInterval>
+<Best-caseLatency>825150</Best-caseLatency>
+<Average-caseLatency>825150</Average-caseLatency>
+<Worst-caseLatency>825150</Worst-caseLatency>
+<Best-caseRealTimeLatency>8.252 ms</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>8.252 ms</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>8.252 ms</Worst-caseRealTimeLatency>
+<PipelineInitiationInterval>825151</PipelineInitiationInterval>
 <PipelineType>none</PipelineType>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
@@ -216,10 +216,10 @@
 <max_pooling2d1_max_pooling2d2_max_pooling2d3>
 <Name>max_pooling2d1_max_pooling2d2_max_pooling2d3</Name>
 <TripCount>26912</TripCount>
-<Latency>53825</Latency>
-<AbsoluteTimeLatency>0.538 ms</AbsoluteTimeLatency>
-<PipelineII>2</PipelineII>
-<PipelineDepth>4</PipelineDepth>
+<Latency>26916</Latency>
+<AbsoluteTimeLatency>0.269 ms</AbsoluteTimeLatency>
+<PipelineII>1</PipelineII>
+<PipelineDepth>6</PipelineDepth>
 </max_pooling2d1_max_pooling2d2_max_pooling2d3>
 <conv2d1_conv2d2>
 <Name>conv2d1_conv2d2</Name>
@@ -256,10 +256,10 @@
 <max_pooling2d1_max_pooling2d2_max_pooling2d3>
 <Name>max_pooling2d1_max_pooling2d2_max_pooling2d3</Name>
 <TripCount>5408</TripCount>
-<Latency>10817</Latency>
-<AbsoluteTimeLatency>0.108 ms</AbsoluteTimeLatency>
-<PipelineII>2</PipelineII>
-<PipelineDepth>4</PipelineDepth>
+<Latency>5412</Latency>
+<AbsoluteTimeLatency>54.120 us</AbsoluteTimeLatency>
+<PipelineII>1</PipelineII>
+<PipelineDepth>6</PipelineDepth>
 </max_pooling2d1_max_pooling2d2_max_pooling2d3>
 <conv2d1_conv2d2>
 <Name>conv2d1_conv2d2</Name>
@@ -296,9 +296,9 @@
 <max_pooling2d1_max_pooling2d2_max_pooling2d3>
 <Name>max_pooling2d1_max_pooling2d2_max_pooling2d3</Name>
 <TripCount>800</TripCount>
-<Latency>1601</Latency>
-<AbsoluteTimeLatency>16.010 us</AbsoluteTimeLatency>
-<PipelineII>2</PipelineII>
+<Latency>801</Latency>
+<AbsoluteTimeLatency>8.010 us</AbsoluteTimeLatency>
+<PipelineII>1</PipelineII>
 <PipelineDepth>3</PipelineDepth>
 </max_pooling2d1_max_pooling2d2_max_pooling2d3>
 <VITIS_LOOP_189_1_VITIS_LOOP_190_2_VITIS_LOOP_191_3>
@@ -377,18 +377,18 @@
 </PerformanceEstimates>
 <AreaEstimates>
 <Resources>
-<BRAM_18K>539</BRAM_18K>
+<BRAM_18K>603</BRAM_18K>
 <AVAIL_BRAM>432</AVAIL_BRAM>
-<UTIL_BRAM>124</UTIL_BRAM>
+<UTIL_BRAM>139</UTIL_BRAM>
 <DSP>237</DSP>
 <AVAIL_DSP>360</AVAIL_DSP>
 <UTIL_DSP>65</UTIL_DSP>
-<FF>34715</FF>
+<FF>42642</FF>
 <AVAIL_FF>141120</AVAIL_FF>
-<UTIL_FF>24</UTIL_FF>
-<LUT>32920</LUT>
+<UTIL_FF>30</UTIL_FF>
+<LUT>36689</LUT>
 <AVAIL_LUT>70560</AVAIL_LUT>
-<UTIL_LUT>46</UTIL_LUT>
+<UTIL_LUT>51</UTIL_LUT>
 <URAM>0</URAM>
 <AVAIL_URAM>0</AVAIL_URAM>
 <UTIL_URAM>0</UTIL_URAM>
