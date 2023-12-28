@@ -58,7 +58,7 @@
     "Uncertainty": "2.7",
     "IsCombinational": "0",
     "II": "x",
-    "Latency": "1272402"
+    "Latency": "858264"
   },
   "Xdc": {"OocClocks": ["create_clock -name ap_clk -period 10.000 [get_ports ap_clk]"]},
   "Ipx": {
@@ -292,10 +292,8 @@
       "impl\/vhdl\/infer_layer_11_weights_V_29.vhd",
       "impl\/vhdl\/infer_layer_11_weights_V_30.vhd",
       "impl\/vhdl\/infer_layer_11_weights_V_31.vhd",
-      "impl\/vhdl\/infer_mac_muladd_4ns_5ns_4ns_7_4_1.vhd",
       "impl\/vhdl\/infer_mac_muladd_4ns_5ns_4ns_8_4_1.vhd",
       "impl\/vhdl\/infer_mac_muladd_5ns_6ns_5ns_10_4_1.vhd",
-      "impl\/vhdl\/infer_mac_muladd_6ns_7ns_6ns_12_4_1.vhd",
       "impl\/vhdl\/infer_mac_muladd_14ns_21s_37ns_37_4_1.vhd",
       "impl\/vhdl\/infer_mac_muladd_14s_21s_37ns_37_4_1.vhd",
       "impl\/vhdl\/infer_mac_muladd_15s_20ns_37ns_37_4_1.vhd",
@@ -752,10 +750,8 @@
       "impl\/verilog\/infer_layer_11_weights_V_30_rom.dat",
       "impl\/verilog\/infer_layer_11_weights_V_31.v",
       "impl\/verilog\/infer_layer_11_weights_V_31_rom.dat",
-      "impl\/verilog\/infer_mac_muladd_4ns_5ns_4ns_7_4_1.v",
       "impl\/verilog\/infer_mac_muladd_4ns_5ns_4ns_8_4_1.v",
       "impl\/verilog\/infer_mac_muladd_5ns_6ns_5ns_10_4_1.v",
-      "impl\/verilog\/infer_mac_muladd_6ns_7ns_6ns_12_4_1.v",
       "impl\/verilog\/infer_mac_muladd_14ns_21s_37ns_37_4_1.v",
       "impl\/verilog\/infer_mac_muladd_14s_21s_37ns_37_4_1.v",
       "impl\/verilog\/infer_mac_muladd_15s_20ns_37ns_37_4_1.v",
@@ -1193,7 +1189,7 @@
       "ModuleName": "infer",
       "Instances": [{
           "ModuleName": "exp_40_32_s",
-          "InstanceName": "grp_exp_40_32_s_fu_16651"
+          "InstanceName": "grp_exp_40_32_s_fu_40574"
         }]
     },
     "Info": {
@@ -1247,10 +1243,10 @@
       },
       "infer": {
         "Latency": {
-          "LatencyBest": "1272402",
-          "LatencyAvg": "1272402",
-          "LatencyWorst": "1272402",
-          "PipelineII": "1272403",
+          "LatencyBest": "858264",
+          "LatencyAvg": "858264",
+          "LatencyWorst": "858264",
+          "PipelineII": "858265",
           "PipelineDepth": "",
           "PipelineType": "none"
         },
@@ -1277,30 +1273,30 @@
           {
             "Name": "conv2d1_conv2d2",
             "TripCount": "3364",
-            "Latency": "454140",
+            "Latency": "312852",
             "PipelineII": "",
-            "PipelineDepth": "135",
+            "PipelineDepth": "93",
             "Loops": [
               {
                 "Name": "conv2d3_1",
                 "TripCount": "32",
-                "Latency": "32",
+                "Latency": "33",
                 "PipelineII": "1",
                 "PipelineDepth": "2"
               },
               {
                 "Name": "conv2d4_conv2d5",
                 "TripCount": "9",
-                "Latency": "29",
-                "PipelineII": "2",
+                "Latency": "21",
+                "PipelineII": "1",
                 "PipelineDepth": "14"
               },
               {
                 "Name": "conv2d3_3",
                 "TripCount": "32",
-                "Latency": "64",
-                "PipelineII": "2",
-                "PipelineDepth": "2"
+                "Latency": "32",
+                "PipelineII": "1",
+                "PipelineDepth": "1"
               }
             ]
           },
@@ -1314,30 +1310,30 @@
           {
             "Name": "conv2d1_conv2d2",
             "TripCount": "729",
-            "Latency": "500823",
+            "Latency": "266814",
             "PipelineII": "",
-            "PipelineDepth": "687",
+            "PipelineDepth": "366",
             "Loops": [
               {
                 "Name": "conv2d3_1",
                 "TripCount": "32",
-                "Latency": "32",
+                "Latency": "33",
                 "PipelineII": "1",
                 "PipelineDepth": "2"
               },
               {
                 "Name": "conv2d3_2_conv2d4_conv2d5",
                 "TripCount": "288",
-                "Latency": "581",
-                "PipelineII": "2",
+                "Latency": "294",
+                "PipelineII": "1",
                 "PipelineDepth": "8"
               },
               {
                 "Name": "conv2d3_3",
                 "TripCount": "32",
-                "Latency": "64",
-                "PipelineII": "2",
-                "PipelineDepth": "2"
+                "Latency": "32",
+                "PipelineII": "1",
+                "PipelineDepth": "1"
               }
             ]
           },
@@ -1351,30 +1347,30 @@
           {
             "Name": "conv2d1_conv2d2",
             "TripCount": "121",
-            "Latency": "83127",
+            "Latency": "44286",
             "PipelineII": "",
-            "PipelineDepth": "687",
+            "PipelineDepth": "366",
             "Loops": [
               {
                 "Name": "conv2d3_1",
                 "TripCount": "32",
-                "Latency": "32",
+                "Latency": "33",
                 "PipelineII": "1",
                 "PipelineDepth": "2"
               },
               {
                 "Name": "conv2d3_2_conv2d4_conv2d5",
                 "TripCount": "288",
-                "Latency": "581",
-                "PipelineII": "2",
+                "Latency": "294",
+                "PipelineII": "1",
                 "PipelineDepth": "8"
               },
               {
                 "Name": "conv2d3_3",
                 "TripCount": "32",
-                "Latency": "64",
-                "PipelineII": "2",
-                "PipelineDepth": "2"
+                "Latency": "32",
+                "PipelineII": "1",
+                "PipelineDepth": "1"
               }
             ]
           },
@@ -1386,7 +1382,7 @@
             "PipelineDepth": "3"
           },
           {
-            "Name": "VITIS_LOOP_186_1_VITIS_LOOP_187_2_VITIS_LOOP_188_3",
+            "Name": "VITIS_LOOP_189_1_VITIS_LOOP_190_2_VITIS_LOOP_191_3",
             "TripCount": "800",
             "Latency": "800",
             "PipelineII": "1",
@@ -1453,15 +1449,15 @@
           "BRAM_18K": "539",
           "AVAIL_BRAM": "432",
           "UTIL_BRAM": "124",
-          "DSP": "240",
+          "DSP": "237",
           "AVAIL_DSP": "360",
-          "UTIL_DSP": "66",
-          "FF": "38063",
+          "UTIL_DSP": "65",
+          "FF": "34715",
           "AVAIL_FF": "141120",
-          "UTIL_FF": "26",
-          "LUT": "35071",
+          "UTIL_FF": "24",
+          "LUT": "32920",
           "AVAIL_LUT": "70560",
-          "UTIL_LUT": "49",
+          "UTIL_LUT": "46",
           "URAM": "0",
           "AVAIL_URAM": "0",
           "UTIL_URAM": "0"
@@ -1472,7 +1468,7 @@
   "GenerateBdFiles": "1",
   "GenData": {
     "DataVersion": "0.2",
-    "Time": "2023-12-27 20:02:00 CET",
+    "Time": "2023-12-28 02:28:48 CET",
     "ToolName": "vivado_hls",
     "ToolVersion": "2020.2"
   }

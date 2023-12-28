@@ -90,6 +90,8 @@ void conv2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
 			const fixed (&bias)[bias_size],
             fixed (&output)[output_size_1][output_size_2][output_size_3])
 {
+	fixed output_sum[weights_size_4] = { };
+#pragma HLS array_partition variable=output_sum complete
     // Convolution
     // Input rows
 	conv2d1: for (sizetype i = 1; i < input_size_1 - 1; i++)
@@ -101,7 +103,7 @@ void conv2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
 			conv2d3_1: for (sizetype iii = 0; iii < weights_size_4; iii++)
 			{
 				// Add bias
-				output[(i - 1)][(ii - 1)][iii] = bias[iii];
+				output_sum[iii] = bias[iii];
 			}
 			// Input and kernel channels
 			conv2d3_2: for (sizetype iv = 0; iv < input_size_3; iv++)
@@ -116,7 +118,7 @@ void conv2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
 						// Kernel number
 						conv2d6: for (sizetype iii = 0; iii < weights_size_4; iii++)
 						{
-							output[(i - 1)][(ii - 1)][iii] += input_val * weights[(v + 1)][(vi + 1)][iv][iii];
+							output_sum[iii] += input_val * weights[(v + 1)][(vi + 1)][iv][iii];
 						}
 					}
 				}
@@ -125,7 +127,8 @@ void conv2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
 			conv2d3_3: for (sizetype iii = 0; iii < weights_size_4; iii++)
 			{
 				// Apply relu activiation function
-				relu(output[(i - 1)][(ii - 1)][iii]);
+				relu(output_sum[iii]);
+				output[i - 1][ii - 1][iii] = output_sum[iii];
             }
         }
     }

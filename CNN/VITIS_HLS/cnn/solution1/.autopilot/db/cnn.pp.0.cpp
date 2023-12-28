@@ -82396,6 +82396,8 @@ void conv2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
    const fixed (&bias)[bias_size],
             fixed (&output)[output_size_1][output_size_2][output_size_3])
 {
+ fixed output_sum[weights_size_4] = { };
+#pragma HLS array_partition variable=output_sum complete
 
 
  conv2d1: for (sizetype i = 1; i < input_size_1 - 1; i++)
@@ -82407,7 +82409,7 @@ void conv2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
    conv2d3_1: for (sizetype iii = 0; iii < weights_size_4; iii++)
    {
 
-    output[(i - 1)][(ii - 1)][iii] = bias[iii];
+    output_sum[iii] = bias[iii];
    }
 
    conv2d3_2: for (sizetype iv = 0; iv < input_size_3; iv++)
@@ -82422,7 +82424,7 @@ void conv2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
 
       conv2d6: for (sizetype iii = 0; iii < weights_size_4; iii++)
       {
-       output[(i - 1)][(ii - 1)][iii] += input_val * weights[(v + 1)][(vi + 1)][iv][iii];
+       output_sum[iii] += input_val * weights[(v + 1)][(vi + 1)][iv][iii];
       }
      }
     }
@@ -82431,7 +82433,8 @@ void conv2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
    conv2d3_3: for (sizetype iii = 0; iii < weights_size_4; iii++)
    {
 
-    relu(output[(i - 1)][(ii - 1)][iii]);
+    relu(output_sum[iii]);
+    output[i - 1][ii - 1][iii] = output_sum[iii];
             }
         }
     }
@@ -82473,13 +82476,13 @@ void max_pooling2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
         }
     }
 }
-# 183 "../src/hls/cnn.cpp"
+# 186 "../src/hls/cnn.cpp"
 template <const sizetype size_1, const sizetype size_2, const sizetype size_3>
 void array_3d_to_1d(fixed (&array)[size_1][size_2][size_3], fixed (&output)[size_1*size_2*size_3])
 {
- VITIS_LOOP_186_1: for (sizetype i = 0; i < size_1; i++)
-  VITIS_LOOP_187_2: for (sizetype ii = 0; ii < size_2; ii++)
-   VITIS_LOOP_188_3: for (sizetype iii = 0; iii < size_3; iii++)
+ VITIS_LOOP_189_1: for (sizetype i = 0; i < size_1; i++)
+  VITIS_LOOP_190_2: for (sizetype ii = 0; ii < size_2; ii++)
+   VITIS_LOOP_191_3: for (sizetype iii = 0; iii < size_3; iii++)
     output[i*size_2*size_3 + ii*size_3 + iii] = array[i][ii][iii];
 }
 
@@ -82558,7 +82561,7 @@ void softmax(fixed (&array)[size])
 __attribute__((sdx_kernel("infer", 0))) void infer(hls::stream<int> &infer_input, hls::stream<float> &infer_output)
 {
 #pragma HLS TOP name=infer
-# 265 "../src/hls/cnn.cpp"
+# 268 "../src/hls/cnn.cpp"
 
 
 #pragma HLS INTERFACE axis port=infer_input

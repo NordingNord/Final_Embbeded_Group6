@@ -19,14 +19,14 @@
         </SummaryOfTimingAnalysis>
         <SummaryOfOverallLatency>
             <unit>clock cycles</unit>
-            <Best-caseLatency>1272402</Best-caseLatency>
-            <Average-caseLatency>1272402</Average-caseLatency>
-            <Worst-caseLatency>1272402</Worst-caseLatency>
-            <Best-caseRealTimeLatency>12.724 ms</Best-caseRealTimeLatency>
-            <Average-caseRealTimeLatency>12.724 ms</Average-caseRealTimeLatency>
-            <Worst-caseRealTimeLatency>12.724 ms</Worst-caseRealTimeLatency>
-            <Interval-min>1272403</Interval-min>
-            <Interval-max>1272403</Interval-max>
+            <Best-caseLatency>858264</Best-caseLatency>
+            <Average-caseLatency>858264</Average-caseLatency>
+            <Worst-caseLatency>858264</Worst-caseLatency>
+            <Best-caseRealTimeLatency>8.583 ms</Best-caseRealTimeLatency>
+            <Average-caseRealTimeLatency>8.583 ms</Average-caseRealTimeLatency>
+            <Worst-caseRealTimeLatency>8.583 ms</Worst-caseRealTimeLatency>
+            <Interval-min>858265</Interval-min>
+            <Interval-max>858265</Interval-max>
         </SummaryOfOverallLatency>
         <SummaryOfLoopLatency>
             <get_input1>
@@ -43,29 +43,29 @@
             </get_input1>
             <conv2d1_conv2d2>
                 <TripCount>3364</TripCount>
-                <Latency>454140</Latency>
-                <AbsoluteTimeLatency>4541400</AbsoluteTimeLatency>
-                <IterationLatency>135</IterationLatency>
+                <Latency>312852</Latency>
+                <AbsoluteTimeLatency>3128520</AbsoluteTimeLatency>
+                <IterationLatency>93</IterationLatency>
                 <conv2d3_1>
                     <TripCount>32</TripCount>
-                    <Latency>32</Latency>
-                    <AbsoluteTimeLatency>320</AbsoluteTimeLatency>
+                    <Latency>33</Latency>
+                    <AbsoluteTimeLatency>330</AbsoluteTimeLatency>
                     <PipelineII>1</PipelineII>
                     <PipelineDepth>2</PipelineDepth>
                 </conv2d3_1>
                 <conv2d4_conv2d5>
                     <TripCount>9</TripCount>
-                    <Latency>29</Latency>
-                    <AbsoluteTimeLatency>290</AbsoluteTimeLatency>
-                    <PipelineII>2</PipelineII>
+                    <Latency>21</Latency>
+                    <AbsoluteTimeLatency>210</AbsoluteTimeLatency>
+                    <PipelineII>1</PipelineII>
                     <PipelineDepth>14</PipelineDepth>
                 </conv2d4_conv2d5>
                 <conv2d3_3>
                     <TripCount>32</TripCount>
-                    <Latency>64</Latency>
-                    <AbsoluteTimeLatency>640</AbsoluteTimeLatency>
-                    <PipelineII>2</PipelineII>
-                    <PipelineDepth>2</PipelineDepth>
+                    <Latency>32</Latency>
+                    <AbsoluteTimeLatency>320</AbsoluteTimeLatency>
+                    <PipelineII>1</PipelineII>
+                    <PipelineDepth>1</PipelineDepth>
                 </conv2d3_3>
             </conv2d1_conv2d2>
             <max_pooling2d1_max_pooling2d2_max_pooling2d3>
@@ -77,29 +77,29 @@
             </max_pooling2d1_max_pooling2d2_max_pooling2d3>
             <conv2d1_conv2d2>
                 <TripCount>729</TripCount>
-                <Latency>500823</Latency>
-                <AbsoluteTimeLatency>5008230</AbsoluteTimeLatency>
-                <IterationLatency>687</IterationLatency>
+                <Latency>266814</Latency>
+                <AbsoluteTimeLatency>2668140</AbsoluteTimeLatency>
+                <IterationLatency>366</IterationLatency>
                 <conv2d3_1>
                     <TripCount>32</TripCount>
-                    <Latency>32</Latency>
-                    <AbsoluteTimeLatency>320</AbsoluteTimeLatency>
+                    <Latency>33</Latency>
+                    <AbsoluteTimeLatency>330</AbsoluteTimeLatency>
                     <PipelineII>1</PipelineII>
                     <PipelineDepth>2</PipelineDepth>
                 </conv2d3_1>
                 <conv2d3_2_conv2d4_conv2d5>
                     <TripCount>288</TripCount>
-                    <Latency>581</Latency>
-                    <AbsoluteTimeLatency>5810</AbsoluteTimeLatency>
-                    <PipelineII>2</PipelineII>
+                    <Latency>294</Latency>
+                    <AbsoluteTimeLatency>2940</AbsoluteTimeLatency>
+                    <PipelineII>1</PipelineII>
                     <PipelineDepth>8</PipelineDepth>
                 </conv2d3_2_conv2d4_conv2d5>
                 <conv2d3_3>
                     <TripCount>32</TripCount>
-                    <Latency>64</Latency>
-                    <AbsoluteTimeLatency>640</AbsoluteTimeLatency>
-                    <PipelineII>2</PipelineII>
-                    <PipelineDepth>2</PipelineDepth>
+                    <Latency>32</Latency>
+                    <AbsoluteTimeLatency>320</AbsoluteTimeLatency>
+                    <PipelineII>1</PipelineII>
+                    <PipelineDepth>1</PipelineDepth>
                 </conv2d3_3>
             </conv2d1_conv2d2>
             <max_pooling2d1_max_pooling2d2_max_pooling2d3>
@@ -111,29 +111,29 @@
             </max_pooling2d1_max_pooling2d2_max_pooling2d3>
             <conv2d1_conv2d2>
                 <TripCount>121</TripCount>
-                <Latency>83127</Latency>
-                <AbsoluteTimeLatency>831270</AbsoluteTimeLatency>
-                <IterationLatency>687</IterationLatency>
+                <Latency>44286</Latency>
+                <AbsoluteTimeLatency>442860</AbsoluteTimeLatency>
+                <IterationLatency>366</IterationLatency>
                 <conv2d3_1>
                     <TripCount>32</TripCount>
-                    <Latency>32</Latency>
-                    <AbsoluteTimeLatency>320</AbsoluteTimeLatency>
+                    <Latency>33</Latency>
+                    <AbsoluteTimeLatency>330</AbsoluteTimeLatency>
                     <PipelineII>1</PipelineII>
                     <PipelineDepth>2</PipelineDepth>
                 </conv2d3_1>
                 <conv2d3_2_conv2d4_conv2d5>
                     <TripCount>288</TripCount>
-                    <Latency>581</Latency>
-                    <AbsoluteTimeLatency>5810</AbsoluteTimeLatency>
-                    <PipelineII>2</PipelineII>
+                    <Latency>294</Latency>
+                    <AbsoluteTimeLatency>2940</AbsoluteTimeLatency>
+                    <PipelineII>1</PipelineII>
                     <PipelineDepth>8</PipelineDepth>
                 </conv2d3_2_conv2d4_conv2d5>
                 <conv2d3_3>
                     <TripCount>32</TripCount>
-                    <Latency>64</Latency>
-                    <AbsoluteTimeLatency>640</AbsoluteTimeLatency>
-                    <PipelineII>2</PipelineII>
-                    <PipelineDepth>2</PipelineDepth>
+                    <Latency>32</Latency>
+                    <AbsoluteTimeLatency>320</AbsoluteTimeLatency>
+                    <PipelineII>1</PipelineII>
+                    <PipelineDepth>1</PipelineDepth>
                 </conv2d3_3>
             </conv2d1_conv2d2>
             <max_pooling2d1_max_pooling2d2_max_pooling2d3>
@@ -143,13 +143,13 @@
                 <PipelineII>2</PipelineII>
                 <PipelineDepth>3</PipelineDepth>
             </max_pooling2d1_max_pooling2d2_max_pooling2d3>
-            <VITIS_LOOP_186_1_VITIS_LOOP_187_2_VITIS_LOOP_188_3>
+            <VITIS_LOOP_189_1_VITIS_LOOP_190_2_VITIS_LOOP_191_3>
                 <TripCount>800</TripCount>
                 <Latency>800</Latency>
                 <AbsoluteTimeLatency>8000</AbsoluteTimeLatency>
                 <PipelineII>1</PipelineII>
                 <PipelineDepth>2</PipelineDepth>
-            </VITIS_LOOP_186_1_VITIS_LOOP_187_2_VITIS_LOOP_188_3>
+            </VITIS_LOOP_189_1_VITIS_LOOP_190_2_VITIS_LOOP_191_3>
             <dense_relu1>
                 <TripCount>64</TripCount>
                 <Latency>51648</Latency>
@@ -210,9 +210,9 @@
     <AreaEstimates>
         <Resources>
             <BRAM_18K>539</BRAM_18K>
-            <DSP>240</DSP>
-            <FF>38063</FF>
-            <LUT>35071</LUT>
+            <DSP>237</DSP>
+            <FF>34715</FF>
+            <LUT>32920</LUT>
             <URAM>0</URAM>
         </Resources>
         <AvailableResources>
@@ -556,10 +556,10 @@
             <ModuleName>infer</ModuleName>
             <InstancesList>
                 <Instance>
-                    <InstName>grp_exp_40_32_s_fu_16651</InstName>
+                    <InstName>grp_exp_40_32_s_fu_40574</InstName>
                     <ModuleName>exp_40_32_s</ModuleName>
                     <IsCompInst>true</IsCompInst>
-                    <ID>16651</ID>
+                    <ID>40574</ID>
                 </Instance>
             </InstancesList>
         </TopModule>
@@ -705,13 +705,13 @@
                     <EstimatedClockPeriod>7.288</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
                 <SummaryOfOverallLatency>
-                    <Best-caseLatency>1272402</Best-caseLatency>
-                    <Average-caseLatency>1272402</Average-caseLatency>
-                    <Worst-caseLatency>1272402</Worst-caseLatency>
-                    <Best-caseRealTimeLatency>12.724 ms</Best-caseRealTimeLatency>
-                    <Average-caseRealTimeLatency>12.724 ms</Average-caseRealTimeLatency>
-                    <Worst-caseRealTimeLatency>12.724 ms</Worst-caseRealTimeLatency>
-                    <PipelineInitiationInterval>1272403</PipelineInitiationInterval>
+                    <Best-caseLatency>858264</Best-caseLatency>
+                    <Average-caseLatency>858264</Average-caseLatency>
+                    <Worst-caseLatency>858264</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>8.583 ms</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>8.583 ms</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>8.583 ms</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>858265</PipelineInitiationInterval>
                     <PipelineType>none</PipelineType>
                 </SummaryOfOverallLatency>
                 <SummaryOfLoopLatency>
@@ -734,33 +734,33 @@
                     <conv2d1_conv2d2>
                         <Name>conv2d1_conv2d2</Name>
                         <TripCount>3364</TripCount>
-                        <Latency>454140</Latency>
-                        <AbsoluteTimeLatency>4.541 ms</AbsoluteTimeLatency>
-                        <IterationLatency>135</IterationLatency>
-                        <PipelineDepth>135</PipelineDepth>
+                        <Latency>312852</Latency>
+                        <AbsoluteTimeLatency>3.129 ms</AbsoluteTimeLatency>
+                        <IterationLatency>93</IterationLatency>
+                        <PipelineDepth>93</PipelineDepth>
                         <conv2d3_1>
                             <Name>conv2d3_1</Name>
                             <TripCount>32</TripCount>
-                            <Latency>32</Latency>
-                            <AbsoluteTimeLatency>0.320 us</AbsoluteTimeLatency>
+                            <Latency>33</Latency>
+                            <AbsoluteTimeLatency>0.330 us</AbsoluteTimeLatency>
                             <PipelineII>1</PipelineII>
                             <PipelineDepth>2</PipelineDepth>
                         </conv2d3_1>
                         <conv2d4_conv2d5>
                             <Name>conv2d4_conv2d5</Name>
                             <TripCount>9</TripCount>
-                            <Latency>29</Latency>
-                            <AbsoluteTimeLatency>0.290 us</AbsoluteTimeLatency>
-                            <PipelineII>2</PipelineII>
+                            <Latency>21</Latency>
+                            <AbsoluteTimeLatency>0.210 us</AbsoluteTimeLatency>
+                            <PipelineII>1</PipelineII>
                             <PipelineDepth>14</PipelineDepth>
                         </conv2d4_conv2d5>
                         <conv2d3_3>
                             <Name>conv2d3_3</Name>
                             <TripCount>32</TripCount>
-                            <Latency>64</Latency>
-                            <AbsoluteTimeLatency>0.640 us</AbsoluteTimeLatency>
-                            <PipelineII>2</PipelineII>
-                            <PipelineDepth>2</PipelineDepth>
+                            <Latency>32</Latency>
+                            <AbsoluteTimeLatency>0.320 us</AbsoluteTimeLatency>
+                            <PipelineII>1</PipelineII>
+                            <PipelineDepth>1</PipelineDepth>
                         </conv2d3_3>
                     </conv2d1_conv2d2>
                     <max_pooling2d1_max_pooling2d2_max_pooling2d3>
@@ -774,33 +774,33 @@
                     <conv2d1_conv2d2>
                         <Name>conv2d1_conv2d2</Name>
                         <TripCount>729</TripCount>
-                        <Latency>500823</Latency>
-                        <AbsoluteTimeLatency>5.008 ms</AbsoluteTimeLatency>
-                        <IterationLatency>687</IterationLatency>
-                        <PipelineDepth>687</PipelineDepth>
+                        <Latency>266814</Latency>
+                        <AbsoluteTimeLatency>2.668 ms</AbsoluteTimeLatency>
+                        <IterationLatency>366</IterationLatency>
+                        <PipelineDepth>366</PipelineDepth>
                         <conv2d3_1>
                             <Name>conv2d3_1</Name>
                             <TripCount>32</TripCount>
-                            <Latency>32</Latency>
-                            <AbsoluteTimeLatency>0.320 us</AbsoluteTimeLatency>
+                            <Latency>33</Latency>
+                            <AbsoluteTimeLatency>0.330 us</AbsoluteTimeLatency>
                             <PipelineII>1</PipelineII>
                             <PipelineDepth>2</PipelineDepth>
                         </conv2d3_1>
                         <conv2d3_2_conv2d4_conv2d5>
                             <Name>conv2d3_2_conv2d4_conv2d5</Name>
                             <TripCount>288</TripCount>
-                            <Latency>581</Latency>
-                            <AbsoluteTimeLatency>5.810 us</AbsoluteTimeLatency>
-                            <PipelineII>2</PipelineII>
+                            <Latency>294</Latency>
+                            <AbsoluteTimeLatency>2.940 us</AbsoluteTimeLatency>
+                            <PipelineII>1</PipelineII>
                             <PipelineDepth>8</PipelineDepth>
                         </conv2d3_2_conv2d4_conv2d5>
                         <conv2d3_3>
                             <Name>conv2d3_3</Name>
                             <TripCount>32</TripCount>
-                            <Latency>64</Latency>
-                            <AbsoluteTimeLatency>0.640 us</AbsoluteTimeLatency>
-                            <PipelineII>2</PipelineII>
-                            <PipelineDepth>2</PipelineDepth>
+                            <Latency>32</Latency>
+                            <AbsoluteTimeLatency>0.320 us</AbsoluteTimeLatency>
+                            <PipelineII>1</PipelineII>
+                            <PipelineDepth>1</PipelineDepth>
                         </conv2d3_3>
                     </conv2d1_conv2d2>
                     <max_pooling2d1_max_pooling2d2_max_pooling2d3>
@@ -814,33 +814,33 @@
                     <conv2d1_conv2d2>
                         <Name>conv2d1_conv2d2</Name>
                         <TripCount>121</TripCount>
-                        <Latency>83127</Latency>
-                        <AbsoluteTimeLatency>0.831 ms</AbsoluteTimeLatency>
-                        <IterationLatency>687</IterationLatency>
-                        <PipelineDepth>687</PipelineDepth>
+                        <Latency>44286</Latency>
+                        <AbsoluteTimeLatency>0.443 ms</AbsoluteTimeLatency>
+                        <IterationLatency>366</IterationLatency>
+                        <PipelineDepth>366</PipelineDepth>
                         <conv2d3_1>
                             <Name>conv2d3_1</Name>
                             <TripCount>32</TripCount>
-                            <Latency>32</Latency>
-                            <AbsoluteTimeLatency>0.320 us</AbsoluteTimeLatency>
+                            <Latency>33</Latency>
+                            <AbsoluteTimeLatency>0.330 us</AbsoluteTimeLatency>
                             <PipelineII>1</PipelineII>
                             <PipelineDepth>2</PipelineDepth>
                         </conv2d3_1>
                         <conv2d3_2_conv2d4_conv2d5>
                             <Name>conv2d3_2_conv2d4_conv2d5</Name>
                             <TripCount>288</TripCount>
-                            <Latency>581</Latency>
-                            <AbsoluteTimeLatency>5.810 us</AbsoluteTimeLatency>
-                            <PipelineII>2</PipelineII>
+                            <Latency>294</Latency>
+                            <AbsoluteTimeLatency>2.940 us</AbsoluteTimeLatency>
+                            <PipelineII>1</PipelineII>
                             <PipelineDepth>8</PipelineDepth>
                         </conv2d3_2_conv2d4_conv2d5>
                         <conv2d3_3>
                             <Name>conv2d3_3</Name>
                             <TripCount>32</TripCount>
-                            <Latency>64</Latency>
-                            <AbsoluteTimeLatency>0.640 us</AbsoluteTimeLatency>
-                            <PipelineII>2</PipelineII>
-                            <PipelineDepth>2</PipelineDepth>
+                            <Latency>32</Latency>
+                            <AbsoluteTimeLatency>0.320 us</AbsoluteTimeLatency>
+                            <PipelineII>1</PipelineII>
+                            <PipelineDepth>1</PipelineDepth>
                         </conv2d3_3>
                     </conv2d1_conv2d2>
                     <max_pooling2d1_max_pooling2d2_max_pooling2d3>
@@ -851,14 +851,14 @@
                         <PipelineII>2</PipelineII>
                         <PipelineDepth>3</PipelineDepth>
                     </max_pooling2d1_max_pooling2d2_max_pooling2d3>
-                    <VITIS_LOOP_186_1_VITIS_LOOP_187_2_VITIS_LOOP_188_3>
-                        <Name>VITIS_LOOP_186_1_VITIS_LOOP_187_2_VITIS_LOOP_188_3</Name>
+                    <VITIS_LOOP_189_1_VITIS_LOOP_190_2_VITIS_LOOP_191_3>
+                        <Name>VITIS_LOOP_189_1_VITIS_LOOP_190_2_VITIS_LOOP_191_3</Name>
                         <TripCount>800</TripCount>
                         <Latency>800</Latency>
                         <AbsoluteTimeLatency>8.000 us</AbsoluteTimeLatency>
                         <PipelineII>1</PipelineII>
                         <PipelineDepth>2</PipelineDepth>
-                    </VITIS_LOOP_186_1_VITIS_LOOP_187_2_VITIS_LOOP_188_3>
+                    </VITIS_LOOP_189_1_VITIS_LOOP_190_2_VITIS_LOOP_191_3>
                     <dense_relu1>
                         <Name>dense_relu1</Name>
                         <TripCount>64</TripCount>
@@ -930,15 +930,15 @@
                     <BRAM_18K>539</BRAM_18K>
                     <AVAIL_BRAM>432</AVAIL_BRAM>
                     <UTIL_BRAM>124</UTIL_BRAM>
-                    <DSP>240</DSP>
+                    <DSP>237</DSP>
                     <AVAIL_DSP>360</AVAIL_DSP>
-                    <UTIL_DSP>66</UTIL_DSP>
-                    <FF>38063</FF>
+                    <UTIL_DSP>65</UTIL_DSP>
+                    <FF>34715</FF>
                     <AVAIL_FF>141120</AVAIL_FF>
-                    <UTIL_FF>26</UTIL_FF>
-                    <LUT>35071</LUT>
+                    <UTIL_FF>24</UTIL_FF>
+                    <LUT>32920</LUT>
                     <AVAIL_LUT>70560</AVAIL_LUT>
-                    <UTIL_LUT>49</UTIL_LUT>
+                    <UTIL_LUT>46</UTIL_LUT>
                     <URAM>0</URAM>
                     <AVAIL_URAM>0</AVAIL_URAM>
                     <UTIL_URAM>0</UTIL_URAM>
