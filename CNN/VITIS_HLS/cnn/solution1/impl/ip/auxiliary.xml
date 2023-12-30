@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="infer" xd:componentRef="infer" xd:initiationInterval="822331" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="s_axi_control" xd:busTypeRef="axilite" xd:type="generic_axi_lite" xd:offset="0x0"/>
+  <xd:arg xd:name="infer_input" xd:originalName="infer_input" xd:direction="in" xd:interfaceRef="infer_input_V" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="infer_output" xd:originalName="infer_output" xd:direction="out" xd:interfaceRef="infer_output_V" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:latencyEstimates xd:best-case="822330" xd:worst-case="822330" xd:average-case="822330"/>
+  <xd:resourceEstimates xd:LUT="47091" xd:FF="82222" xd:BRAM="800" xd:DSP="237"/>
+</xd:acceleratorMap>

@@ -78,8 +78,6 @@ void relu(fixed &input)
 
 /*
 *   This assumes kernel is 3x3, stride is (1,1), and padding is valid
-*   Output is summed using local array, set to size max kernel number of all conv2d layers!
-*   output_sum array is partitioned to smallest kernel number of all conv2d layers!
 */
 template <const sizetype input_size_1, const sizetype input_size_2, const sizetype input_size_3,
 			const sizetype weights_size_1, const sizetype weights_size_2, const sizetype weights_size_3, const sizetype weights_size_4,
@@ -271,21 +269,26 @@ void infer(hls::stream<int> &infer_input, hls::stream<float> &infer_output)
 #pragma HLS INTERFACE axis port=infer_output
 #pragma HLS INTERFACE s_axilite port=return
 
+	// Partition arrays
 #pragma HLS array_partition variable=cnn_input complete dim=3
-#pragma HLS array_partition variable=cnn_input complete dim=2
-#pragma HLS array_partition variable=cnn_input block factor=3 dim=1
+#pragma HLS array_partition variable=cnn_input cyclic factor=3 dim=2
+#pragma HLS array_partition variable=cnn_input cyclic factor=3 dim=1
 
 #pragma HLS array_partition variable=layer_2_output complete dim=3
 #pragma HLS array_partition variable=layer_2_output cyclic factor=2 dim=2
 #pragma HLS array_partition variable=layer_2_output cyclic factor=2 dim=1
 
 #pragma HLS array_partition variable=layer_3_output complete dim=3
+#pragma HLS array_partition variable=layer_3_output cyclic factor=3 dim=2
+#pragma HLS array_partition variable=layer_3_output cyclic factor=3 dim=1
 
 #pragma HLS array_partition variable=layer_4_output complete dim=3
 #pragma HLS array_partition variable=layer_4_output cyclic factor=2 dim=2
 #pragma HLS array_partition variable=layer_4_output cyclic factor=2 dim=1
 
 #pragma HLS array_partition variable=layer_5_output complete dim=3
+#pragma HLS array_partition variable=layer_5_output cyclic factor=3 dim=2
+#pragma HLS array_partition variable=layer_5_output cyclic factor=3 dim=1
 
 #pragma HLS array_partition variable=layer_6_output complete dim=3
 #pragma HLS array_partition variable=layer_6_output cyclic factor=2 dim=2
@@ -293,8 +296,19 @@ void infer(hls::stream<int> &infer_input, hls::stream<float> &infer_output)
 
 #pragma HLS array_partition variable=layer_7_output complete dim=3
 
+#pragma HLS array_partition variable=layer_8_output complete dim=1
 
-    // Insert image from stream in input array
+#pragma HLS array_partition variable=layer_9_output complete dim=1
+
+#pragma HLS array_partition variable=layer_10_output complete dim=1
+
+#pragma HLS array_partition variable=layer_11_output complete dim=1
+
+#pragma HLS array_partition variable=layer_12_output complete dim=1
+
+
+    // Load image from stream to input array
+	// Rescale at the same time
     int single_pixel = 0;
     get_input1: for (sizetype i = 0; i < input_dim_1; i++)
     {
@@ -308,8 +322,8 @@ void infer(hls::stream<int> &infer_input, hls::stream<float> &infer_output)
 		}
     }
     
-    // // Layer 1 rescaling
-    // layer_1_rescale: rescale_3d(cnn_input);
+    // Layer 1 rescaling
+    // Already done in image load
 
 
     // Layer 2 convolution

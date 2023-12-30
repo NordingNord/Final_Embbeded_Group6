@@ -10,8 +10,8 @@ use ieee.std_logic_unsigned.all;
 entity infer_cnn_input_V_0_0_0_ram is 
     generic(
             DWIDTH     : integer := 21; 
-            AWIDTH     : integer := 5; 
-            MEM_SIZE    : integer := 20
+            AWIDTH     : integer := 9; 
+            MEM_SIZE    : integer := 400
     ); 
     port (
           addr0     : in std_logic_vector(AWIDTH-1 downto 0); 
@@ -67,8 +67,8 @@ use IEEE.std_logic_1164.all;
 entity infer_cnn_input_V_0_0_0 is
     generic (
         DataWidth : INTEGER := 21;
-        AddressRange : INTEGER := 20;
-        AddressWidth : INTEGER := 5);
+        AddressRange : INTEGER := 400;
+        AddressWidth : INTEGER := 9);
     port (
         reset : IN STD_LOGIC;
         clk : IN STD_LOGIC;

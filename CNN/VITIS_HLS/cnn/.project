@@ -42,6 +42,11 @@
 			<location>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS/cnn/.apc/.tb</location>
 		</link>
 		<link>
+			<name>.reference/hls_stream_thread_unsafe.h</name>
+			<type>1</type>
+			<location>/tools/Xilinx/Vitis_HLS/2020.2/include/hls_stream_thread_unsafe.h</location>
+		</link>
+		<link>
 			<name>solution1/constraints</name>
 			<type>2</type>
 			<location>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS/cnn/solution1/.tcls</location>

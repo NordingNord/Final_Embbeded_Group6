@@ -6,8 +6,8 @@
 module infer_cnn_input_V_0_0_0_ram (addr0, ce0, d0, we0, q0,  clk);
 
 parameter DWIDTH = 21;
-parameter AWIDTH = 5;
-parameter MEM_SIZE = 20;
+parameter AWIDTH = 9;
+parameter MEM_SIZE = 400;
 
 input[AWIDTH-1:0] addr0;
 input ce0;
@@ -47,8 +47,8 @@ module infer_cnn_input_V_0_0_0(
     q0);
 
 parameter DataWidth = 32'd21;
-parameter AddressRange = 32'd20;
-parameter AddressWidth = 32'd5;
+parameter AddressRange = 32'd400;
+parameter AddressWidth = 32'd9;
 input reset;
 input clk;
 input[AddressWidth - 1:0] address0;

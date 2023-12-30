@@ -82385,8 +82385,6 @@ void relu(fixed &input)
 
 
 
-
-
 template <const sizetype input_size_1, const sizetype input_size_2, const sizetype input_size_3,
    const sizetype weights_size_1, const sizetype weights_size_2, const sizetype weights_size_3, const sizetype weights_size_4,
    const sizetype bias_size,
@@ -82476,13 +82474,13 @@ void max_pooling2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
         }
     }
 }
-# 186 "../src/hls/cnn.cpp"
+# 184 "../src/hls/cnn.cpp"
 template <const sizetype size_1, const sizetype size_2, const sizetype size_3>
 void array_3d_to_1d(fixed (&array)[size_1][size_2][size_3], fixed (&output)[size_1*size_2*size_3])
 {
- VITIS_LOOP_189_1: for (sizetype i = 0; i < size_1; i++)
-  VITIS_LOOP_190_2: for (sizetype ii = 0; ii < size_2; ii++)
-   VITIS_LOOP_191_3: for (sizetype iii = 0; iii < size_3; iii++)
+ VITIS_LOOP_187_1: for (sizetype i = 0; i < size_1; i++)
+  VITIS_LOOP_188_2: for (sizetype ii = 0; ii < size_2; ii++)
+   VITIS_LOOP_189_3: for (sizetype iii = 0; iii < size_3; iii++)
     output[i*size_2*size_3 + ii*size_3 + iii] = array[i][ii][iii];
 }
 
@@ -82561,34 +82559,50 @@ void softmax(fixed (&array)[size])
 __attribute__((sdx_kernel("infer", 0))) void infer(hls::stream<int> &infer_input, hls::stream<float> &infer_output)
 {
 #pragma HLS TOP name=infer
-# 268 "../src/hls/cnn.cpp"
+# 266 "../src/hls/cnn.cpp"
 
 
 #pragma HLS INTERFACE axis port=infer_input
 #pragma HLS INTERFACE axis port=infer_output
 #pragma HLS INTERFACE s_axilite port=return
 
+
 #pragma HLS array_partition variable=cnn_input complete dim=3
-#pragma HLS array_partition variable=cnn_input complete dim=2
-#pragma HLS array_partition variable=cnn_input block factor=3 dim=1
+#pragma HLS array_partition variable=cnn_input cyclic factor=3 dim=2
+#pragma HLS array_partition variable=cnn_input cyclic factor=3 dim=1
 
 #pragma HLS array_partition variable=layer_2_output complete dim=3
 #pragma HLS array_partition variable=layer_2_output cyclic factor=2 dim=2
 #pragma HLS array_partition variable=layer_2_output cyclic factor=2 dim=1
 
 #pragma HLS array_partition variable=layer_3_output complete dim=3
+#pragma HLS array_partition variable=layer_3_output cyclic factor=3 dim=2
+#pragma HLS array_partition variable=layer_3_output cyclic factor=3 dim=1
 
 #pragma HLS array_partition variable=layer_4_output complete dim=3
 #pragma HLS array_partition variable=layer_4_output cyclic factor=2 dim=2
 #pragma HLS array_partition variable=layer_4_output cyclic factor=2 dim=1
 
 #pragma HLS array_partition variable=layer_5_output complete dim=3
+#pragma HLS array_partition variable=layer_5_output cyclic factor=3 dim=2
+#pragma HLS array_partition variable=layer_5_output cyclic factor=3 dim=1
 
 #pragma HLS array_partition variable=layer_6_output complete dim=3
 #pragma HLS array_partition variable=layer_6_output cyclic factor=2 dim=2
 #pragma HLS array_partition variable=layer_6_output cyclic factor=2 dim=1
 
 #pragma HLS array_partition variable=layer_7_output complete dim=3
+
+#pragma HLS array_partition variable=layer_8_output complete dim=1
+
+#pragma HLS array_partition variable=layer_9_output complete dim=1
+
+#pragma HLS array_partition variable=layer_10_output complete dim=1
+
+#pragma HLS array_partition variable=layer_11_output complete dim=1
+
+#pragma HLS array_partition variable=layer_12_output complete dim=1
+
 
 
 
