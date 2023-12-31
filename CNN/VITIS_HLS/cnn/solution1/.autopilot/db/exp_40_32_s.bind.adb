@@ -31,7 +31,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1715236193</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>13</bitwidth>
 				</Value>
@@ -68,7 +68,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1528834342</coreId>
+						<coreId>539770418</coreId>
 					</Obj>
 					<bitwidth>13</bitwidth>
 				</Value>
@@ -122,7 +122,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1528834342</coreId>
+						<coreId>539770418</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -147,7 +147,7 @@
 					<Obj>
 						<type>0</type>
 						<id>9</id>
-						<name>tmp_225</name>
+						<name>tmp_166</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_ref.h</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
 						<lineNumber>340</lineNumber>
@@ -177,7 +177,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1528834342</coreId>
+						<coreId>539770418</coreId>
 					</Obj>
 					<bitwidth>5</bitwidth>
 				</Value>
@@ -203,7 +203,7 @@
 					<Obj>
 						<type>0</type>
 						<id>10</id>
-						<name>p_Result_11</name>
+						<name>p_Result_14</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_ref.h</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
 						<lineNumber>340</lineNumber>
@@ -233,7 +233,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>6</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -288,7 +288,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1528834342</coreId>
+						<coreId>539770418</coreId>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
@@ -311,7 +311,7 @@
 					<Obj>
 						<type>0</type>
 						<id>12</id>
-						<name>p_Result_12</name>
+						<name>p_Result_15</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_ref.h</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
 						<lineNumber>340</lineNumber>
@@ -341,7 +341,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4228300630</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -450,7 +450,7 @@
 						<opType>icmp</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>40</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -558,7 +558,7 @@
 						<opType>and</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1295780106</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -612,7 +612,7 @@
 						<opType>xor</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1852793632</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -691,7 +691,7 @@
 					<Obj>
 						<type>0</type>
 						<id>19</id>
-						<name>tmp_226</name>
+						<name>tmp_167</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_int_ref.h</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
 						<lineNumber>414</lineNumber>
@@ -721,7 +721,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2753671559</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>7</bitwidth>
 				</Value>
@@ -747,7 +747,7 @@
 					<Obj>
 						<type>0</type>
 						<id>20</id>
-						<name>p_Result_13</name>
+						<name>p_Result_16</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_int_ref.h</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
 						<lineNumber>414</lineNumber>
@@ -777,7 +777,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>769</coreId>
+						<coreId>1342177408</coreId>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
@@ -832,7 +832,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1713401447</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -855,7 +855,7 @@
 					<Obj>
 						<type>0</type>
 						<id>22</id>
-						<name>tmp_230</name>
+						<name>tmp_171</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_ref.h</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
 						<lineNumber>640</lineNumber>
@@ -885,7 +885,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1936018748</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
@@ -940,7 +940,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1886413614</coreId>
+						<coreId>13</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -993,7 +993,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>639660143</coreId>
+						<coreId>1342177408</coreId>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
@@ -1071,7 +1071,7 @@
 					<Obj>
 						<type>0</type>
 						<id>26</id>
-						<name>p_Result_14</name>
+						<name>p_Result_17</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_ref.h</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
 						<lineNumber>340</lineNumber>
@@ -1101,7 +1101,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1735289198</coreId>
+						<coreId>1342177408</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -1157,7 +1157,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3002779544</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -1210,7 +1210,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>102</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -1317,7 +1317,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1881171302</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>58</bitwidth>
 				</Value>
@@ -1370,7 +1370,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1701668204</coreId>
+						<coreId>1342177408</coreId>
 					</Obj>
 					<bitwidth>71</bitwidth>
 				</Value>
@@ -1426,7 +1426,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>483946776</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -1587,7 +1587,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1634301042</coreId>
+						<coreId>483949520</coreId>
 					</Obj>
 					<bitwidth>139</bitwidth>
 				</Value>
@@ -1640,7 +1640,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>574109492</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>139</bitwidth>
 				</Value>
@@ -1693,7 +1693,7 @@
 						<opType>mul</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1342177408</coreId>
 					</Obj>
 					<bitwidth>139</bitwidth>
 				</Value>
@@ -1717,7 +1717,7 @@
 					<Obj>
 						<type>0</type>
 						<id>38</id>
-						<name>tmp_228</name>
+						<name>tmp_169</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_base.h</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
 						<lineNumber>708</lineNumber>
@@ -1747,7 +1747,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1885414944</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>67</bitwidth>
 				</Value>
@@ -1803,7 +1803,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1953719662</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>68</bitwidth>
 				</Value>
@@ -1910,7 +1910,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1279795773</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -1966,7 +1966,7 @@
 						<opType>or</opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1819243365</coreId>
+						<coreId>1920233567</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -1990,7 +1990,7 @@
 					<Obj>
 						<type>0</type>
 						<id>43</id>
-						<name>p_Val2_5</name>
+						<name>p_Val2_6</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/hls_exp_apfixed.h</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
 						<lineNumber>571</lineNumber>
@@ -2045,7 +2045,7 @@
 					<Obj>
 						<type>0</type>
 						<id>44</id>
-						<name>p_Result_15</name>
+						<name>p_Result_18</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_fixed_ref.h</fileName>
 						<fileDirectory>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS</fileDirectory>
 						<lineNumber>99</lineNumber>
@@ -2075,7 +2075,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1885414962</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -2130,7 +2130,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1713401447</coreId>
+						<coreId>483916784</coreId>
 					</Obj>
 					<bitwidth>39</bitwidth>
 				</Value>
@@ -2241,7 +2241,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>574452846</coreId>
+						<coreId>483939816</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -2284,7 +2284,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1701999731</coreId>
+						<coreId>484143424</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2312,7 +2312,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1701999731</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2340,7 +2340,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1715236193</coreId>
+						<coreId>1629888623</coreId>
 					</Obj>
 					<bitwidth>24</bitwidth>
 				</Value>
@@ -2368,7 +2368,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1715236193</coreId>
+						<coreId>1214215017</coreId>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
@@ -2396,7 +2396,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1715236193</coreId>
+						<coreId>483922560</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2424,7 +2424,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>758395186</coreId>
+						<coreId>483923040</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -2452,7 +2452,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>824800370</coreId>
+						<coreId>10033</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -2480,7 +2480,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1869116192</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -2508,7 +2508,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1853171803</coreId>
+						<coreId>774910512</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2536,7 +2536,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1563634036</coreId>
+						<coreId>11</coreId>
 					</Obj>
 					<bitwidth>2</bitwidth>
 				</Value>
@@ -2564,7 +2564,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3119804920</coreId>
+						<coreId>1342177408</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2592,7 +2592,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2147483648</coreId>
+						<coreId>483927136</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2620,7 +2620,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1869898593</coreId>
+						<coreId>1342177408</coreId>
 					</Obj>
 					<bitwidth>4</bitwidth>
 				</Value>
@@ -2648,7 +2648,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1003</coreId>
+						<coreId>483928512</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2676,7 +2676,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3002728563</coreId>
+						<coreId>1563634036</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2704,7 +2704,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1730176374</coreId>
+						<coreId>8</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2732,7 +2732,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1768779125</coreId>
+						<coreId>483930312</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2760,7 +2760,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1751346805</coreId>
+						<coreId>132</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2788,7 +2788,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3119808224</coreId>
+						<coreId>49</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2816,7 +2816,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>543517801</coreId>
+						<coreId>483932592</coreId>
 					</Obj>
 					<bitwidth>39</bitwidth>
 				</Value>
@@ -2847,7 +2847,7 @@
 					<opType></opType>
 					<implIndex></implIndex>
 					<coreName></coreName>
-					<coreId>0</coreId>
+					<coreId>145</coreId>
 				</Obj>
 				<node_objs>
 					<count>41</count>
@@ -4500,7 +4500,7 @@
 			</second>
 		</item>
 		<item>
-			<first>p_Result_11_fu_132</first>
+			<first>p_Result_14_fu_132</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4508,7 +4508,7 @@
 			</second>
 		</item>
 		<item>
-			<first>p_Result_12_fu_144</first>
+			<first>p_Result_15_fu_144</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4516,7 +4516,7 @@
 			</second>
 		</item>
 		<item>
-			<first>p_Result_13_fu_180</first>
+			<first>p_Result_16_fu_180</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4524,7 +4524,7 @@
 			</second>
 		</item>
 		<item>
-			<first>p_Result_14_fu_210</first>
+			<first>p_Result_17_fu_210</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4532,7 +4532,7 @@
 			</second>
 		</item>
 		<item>
-			<first>p_Result_15_fu_316</first>
+			<first>p_Result_18_fu_316</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4548,7 +4548,7 @@
 			</second>
 		</item>
 		<item>
-			<first>p_Val2_5_fu_308</first>
+			<first>p_Val2_6_fu_308</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4596,7 +4596,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_225_fu_122</first>
+			<first>tmp_166_fu_122</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4604,7 +4604,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_226_fu_170</first>
+			<first>tmp_167_fu_170</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4612,7 +4612,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_228_fu_258</first>
+			<first>tmp_169_fu_258</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4620,7 +4620,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_230_fu_192</first>
+			<first>tmp_171_fu_192</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4948,7 +4948,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_228_reg_393</first>
+			<first>tmp_169_reg_393</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4956,7 +4956,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_230_reg_362</first>
+			<first>tmp_171_reg_362</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>

@@ -14,7 +14,7 @@ add_files -tb ../src/hls/testImage.hpp -cflags "-Wno-unknown-pragmas" -csimflags
 open_solution "solution1" -flow_target vivado
 set_part {xczu3eg-sbva484-1-e}
 create_clock -period 10 -name default
-config_export -description {CNN for classification of screw heads.} -display_name ScrewClassifierCNN -format ip_catalog -output /home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS/infer.zip -rtl vhdl -vendor {Frank Juul Jensen} -version 1.0
+config_export -description {CNN for classification of screw heads.} -display_name ScrewClassifierCNN -format ip_catalog -output /home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS/infer.zip -rtl vhdl -vendor FJJ -version 1.0
 source "./cnn/solution1/directives.tcl"
 csim_design
 csynth_design

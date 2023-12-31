@@ -45,7 +45,7 @@ set TargetInfo xczu3eg:-sbva484:-1-e
 set SourceFiles {sc {} c ../../../src/hls/cnn.cpp}
 set SourceFlags {sc {} c {{}}}
 set DirectiveFile /home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS/cnn/solution1/solution1.directive
-set TBFiles {verilog {../../../src/hls/testImage.hpp ../../../src/hls/cnn_tb.cpp} bc {../../../src/hls/testImage.hpp ../../../src/hls/cnn_tb.cpp} sc {../../../src/hls/testImage.hpp ../../../src/hls/cnn_tb.cpp} vhdl {../../../src/hls/testImage.hpp ../../../src/hls/cnn_tb.cpp} c {} cas {../../../src/hls/testImage.hpp ../../../src/hls/cnn_tb.cpp}}
+set TBFiles {verilog {../../../src/hls/cnn_tb.cpp ../../../src/hls/testImage.hpp} bc {../../../src/hls/cnn_tb.cpp ../../../src/hls/testImage.hpp} sc {../../../src/hls/cnn_tb.cpp ../../../src/hls/testImage.hpp} vhdl {../../../src/hls/cnn_tb.cpp ../../../src/hls/testImage.hpp} c {} cas {../../../src/hls/cnn_tb.cpp ../../../src/hls/testImage.hpp}}
 set SpecLanguage C
 set TVInFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
 set TVOutFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}

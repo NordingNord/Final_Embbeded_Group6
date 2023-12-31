@@ -262,7 +262,7 @@ void softmax(fixed (&array)[size])
 	}
 }
 
-void infer(hls::stream<int> &infer_input, hls::stream<float> &infer_output)
+void infer(long_uint_stream &infer_input, long_uint_stream &infer_output)
 {
 	// Define ip ports
 #pragma HLS INTERFACE axis port=infer_input
@@ -270,56 +270,46 @@ void infer(hls::stream<int> &infer_input, hls::stream<float> &infer_output)
 #pragma HLS INTERFACE s_axilite port=return
 
 	// Partition arrays
-#pragma HLS array_partition variable=cnn_input complete dim=3
-#pragma HLS array_partition variable=cnn_input cyclic factor=3 dim=2
-#pragma HLS array_partition variable=cnn_input cyclic factor=3 dim=1
+//#pragma HLS array_partition variable=cnn_input complete dim=3
+//#pragma HLS array_partition variable=cnn_input cyclic factor=3 dim=2
+//#pragma HLS array_partition variable=cnn_input cyclic factor=3 dim=1
 
-#pragma HLS array_partition variable=layer_2_output complete dim=3
+//#pragma HLS array_partition variable=layer_2_output cyclic factor=2 dim=3
 #pragma HLS array_partition variable=layer_2_output cyclic factor=2 dim=2
-#pragma HLS array_partition variable=layer_2_output cyclic factor=2 dim=1
+//#pragma HLS array_partition variable=layer_2_output cyclic factor=2 dim=1
 
-#pragma HLS array_partition variable=layer_3_output complete dim=3
-#pragma HLS array_partition variable=layer_3_output cyclic factor=3 dim=2
-#pragma HLS array_partition variable=layer_3_output cyclic factor=3 dim=1
+//#pragma HLS array_partition variable=layer_3_output block factor=2 dim=3
+//#pragma HLS array_partition variable=layer_3_output cyclic factor=3 dim=2
+//#pragma HLS array_partition variable=layer_3_output cyclic factor=3 dim=1
 
-#pragma HLS array_partition variable=layer_4_output complete dim=3
+//#pragma HLS array_partition variable=layer_4_output cyclic factor=2 dim=3
 #pragma HLS array_partition variable=layer_4_output cyclic factor=2 dim=2
-#pragma HLS array_partition variable=layer_4_output cyclic factor=2 dim=1
+//#pragma HLS array_partition variable=layer_4_output cyclic factor=2 dim=1
 
-#pragma HLS array_partition variable=layer_5_output complete dim=3
-#pragma HLS array_partition variable=layer_5_output cyclic factor=3 dim=2
-#pragma HLS array_partition variable=layer_5_output cyclic factor=3 dim=1
+//#pragma HLS array_partition variable=layer_5_output block factor=2 dim=3
+//#pragma HLS array_partition variable=layer_5_output cyclic factor=3 dim=2
+//#pragma HLS array_partition variable=layer_5_output cyclic factor=3 dim=1
 
-#pragma HLS array_partition variable=layer_6_output complete dim=3
+//#pragma HLS array_partition variable=layer_6_output cyclic factor=2 dim=3
 #pragma HLS array_partition variable=layer_6_output cyclic factor=2 dim=2
-#pragma HLS array_partition variable=layer_6_output cyclic factor=2 dim=1
+//#pragma HLS array_partition variable=layer_6_output cyclic factor=2 dim=1
 
-#pragma HLS array_partition variable=layer_7_output complete dim=3
-
-#pragma HLS array_partition variable=layer_8_output complete dim=1
-
-#pragma HLS array_partition variable=layer_9_output complete dim=1
-
-#pragma HLS array_partition variable=layer_10_output complete dim=1
-
-#pragma HLS array_partition variable=layer_11_output complete dim=1
-
-#pragma HLS array_partition variable=layer_12_output complete dim=1
+//#pragma HLS array_partition variable=layer_7_output block factor=2 dim=3
 
 
     // Load image from stream to input array
 	// Rescale at the same time
-    int single_pixel = 0;
-    get_input1: for (sizetype i = 0; i < input_dim_1; i++)
+	long_uint_package pixel;
+	uint8_t *pixel_pointer = (uint8_t*)&pixel.data;
+	fixed *cnn_input_pointer = (fixed*)&cnn_input;
+    get_input1: for (sizetype i = 0; i < input_dim_1*input_dim_2*input_dim_3; i += 4)
     {
-		get_input1_2: for (sizetype ii = 0; ii < input_dim_2; ii++)
-		{
-			get_input1_3: for (sizetype iii = 0; iii < input_dim_3; iii++)
-			{
-				infer_input >> single_pixel;
-				cnn_input[i][ii][iii] = (fixed)((float)single_pixel / 255.0);
-			}
-		}
+		infer_input >> pixel;
+
+		cnn_input_pointer[i] = (fixed)((float)pixel_pointer[0] / 255.0);
+		cnn_input_pointer[i+1] = (fixed)((float)pixel_pointer[1] / 255.0);
+		cnn_input_pointer[i+2] = (fixed)((float)pixel_pointer[2] / 255.0);
+		cnn_input_pointer[i+3] = (fixed)((float)pixel_pointer[3] / 255.0);
     }
     
     // Layer 1 rescaling
@@ -398,9 +388,13 @@ void infer(hls::stream<int> &infer_input, hls::stream<float> &infer_output)
 
 
     //Send result
+    long_uint_package output_package;
+    float_uint probability;
     send_result: for (int i = 0; i < output_dim_1; i++)
     {
-    	infer_output << (float)layer_12_output[i];
+    	probability.float_val = layer_12_output[i];
+    	output_package.data = probability.uint_val;
+    	infer_output << output_package;
     }
 
 }

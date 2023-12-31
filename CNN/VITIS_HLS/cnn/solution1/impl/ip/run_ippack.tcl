@@ -54,7 +54,7 @@ set Library     "hls"
 set IPName      "infer"
 set Version     "1.0"
 set DisplayName "ScrewClassifierCNN"
-set Revision    "2113360854"
+set Revision    "2113361991"
 set Description "CNN for classification of screw heads."
 set Device      "zynquplus"
 set AutoFamily  ""
@@ -74,19 +74,12 @@ set xo_hls_files_dir ""
 set hdl_module_list {infer_mul_71ns_68ns_139_1_1
 infer_exp_40_32_s_f_x_msb_2_table_V
 infer_exp_40_32_s_exp_x_msb_1_table_V
-infer_sitofp_32ns_32_4_no_dsp_1
+infer_uitofp_32ns_32_4_no_dsp_1
 infer_fpext_32ns_64_2_no_dsp_1
 infer_ddiv_64ns_64ns_64_22_no_dsp_1
-infer_mul_5ns_6ns_10_1_1
-infer_urem_6ns_3ns_4_10_1
-infer_mul_6ns_8ns_13_1_1
-infer_mux_94_21_1_1
+infer_mul_6ns_6ns_11_1_1
 infer_mux_325_21_1_1
-infer_urem_5ns_3ns_2_9_1
-infer_mul_5ns_7ns_11_1_1
-infer_mul_4ns_5ns_8_1_1
-infer_urem_4ns_3ns_2_8_1
-infer_mul_4ns_6ns_9_1_1
+infer_mul_5ns_5ns_9_1_1
 infer_mux_42_21_1_1
 infer_mux_42_21_1_1
 infer_mul_21s_20ns_37_1_1
@@ -103,8 +96,10 @@ infer_mac_muladd_15s_21s_37ns_37_4_1
 infer_mac_muladd_14s_21s_37ns_37_4_1
 infer_mac_muladd_14ns_21s_37ns_37_4_1
 infer_mac_muladd_16s_21s_37ns_37_4_1
+infer_mac_muladd_6ns_6ns_5ns_11_4_1
 infer_mac_muladd_5ns_6ns_5ns_10_4_1
 infer_mac_muladd_17s_21s_37ns_37_4_1
+infer_mac_muladd_5ns_5ns_4ns_9_4_1
 infer_mac_muladd_4ns_5ns_4ns_8_4_1
 infer_mac_muladd_16s_20ns_30s_36_4_1
 infer_mac_muladd_16s_20ns_36s_37_4_1
@@ -113,7 +108,7 @@ infer_mac_muladd_15s_20ns_37ns_37_4_1
 infer_mac_muladd_17s_20ns_37ns_37_4_1
 infer_mac_muladd_16s_20ns_29s_36_4_1
 infer_layer_2_bias_V
-infer_cnn_input_V_0_0_0
+infer_cnn_input_V_0
 infer_layer_2_weights_V_0_0
 infer_layer_2_weights_V_0_1
 infer_layer_2_weights_V_0_2
@@ -146,7 +141,8 @@ infer_layer_2_weights_V_0_28
 infer_layer_2_weights_V_0_29
 infer_layer_2_weights_V_0_30
 infer_layer_2_weights_V_0_31
-infer_layer_2_output_V_0_0_0
+infer_layer_2_output_V_0
+infer_layer_3_output_V
 infer_layer_4_bias_V
 infer_layer_4_weights_V_0
 infer_layer_4_weights_V_1
@@ -180,9 +176,9 @@ infer_layer_4_weights_V_28
 infer_layer_4_weights_V_29
 infer_layer_4_weights_V_30
 infer_layer_4_weights_V_31
-infer_layer_4_output_V_0_0_0
-infer_layer_4_output_V_0_1_0
-infer_layer_4_output_V_1_1_0
+infer_layer_4_output_V_0
+infer_layer_4_output_V_1
+infer_layer_5_output_V
 infer_layer_6_bias_V
 infer_layer_6_weights_V_0
 infer_layer_6_weights_V_1
@@ -216,11 +212,12 @@ infer_layer_6_weights_V_28
 infer_layer_6_weights_V_29
 infer_layer_6_weights_V_30
 infer_layer_6_weights_V_31
-infer_layer_6_output_V_0_0_0
-infer_layer_6_output_V_0_1_0
-infer_layer_6_output_V_1_1_0
+infer_layer_6_output_V_0
+infer_layer_6_output_V_1
+infer_layer_7_output_V
 infer_layer_9_bias_V
 infer_layer_9_weights_V
+infer_layer_9_output_V
 infer_layer_10_bias_V
 infer_layer_10_weights_V_0
 infer_layer_10_weights_V_1
@@ -286,6 +283,7 @@ infer_layer_10_weights_V_60
 infer_layer_10_weights_V_61
 infer_layer_10_weights_V_62
 infer_layer_10_weights_V_63
+infer_layer_10_output_V
 infer_layer_11_bias_V
 infer_layer_11_weights_V_0
 infer_layer_11_weights_V_1
@@ -319,12 +317,20 @@ infer_layer_11_weights_V_28
 infer_layer_11_weights_V_29
 infer_layer_11_weights_V_30
 infer_layer_11_weights_V_31
-infer_layer_3_output_V_0_0_0
-infer_layer_3_output_V_0_2_0
-infer_layer_3_output_V_2_2_0
-infer_layer_5_output_V_0_1_0
-infer_layer_5_output_V_1_1_0
+infer_layer_11_output_V
 infer_control_s_axi
+infer_regslice_both
+infer_regslice_both
+infer_regslice_both
+infer_regslice_both
+infer_regslice_both
+infer_regslice_both
+infer_regslice_both
+infer_regslice_both
+infer_regslice_both
+infer_regslice_both
+infer_regslice_both
+infer_regslice_both
 infer_regslice_both
 infer_regslice_both
 exp_40_32_s
@@ -451,7 +457,7 @@ set Interfaces {
                 Bits "1"
             }
         }
-        buses "s_axi_control infer_input_V infer_output_V"
+        buses "s_axi_control infer_input infer_output"
         reset "ap_rst_n"
     }
     ap_rst_n {
@@ -475,17 +481,23 @@ set Interfaces {
             }
         }
     }
-    infer_input_V {
+    infer_input {
         type "axi4stream"
         mode "slave"
-        port_prefix "infer_input_V"
+        port_prefix "infer_input"
         has_tready "1"
         ports {
             TDATA 32
+            TDEST 6
+            TKEEP 4
+            TSTRB 4
+            TUSER 2
+            TLAST 1
+            TID 5
         }
         ctype {
             TDATA {
-                Type "integer signed"
+                Type "integer unsigned"
                 Width "32"
                 Bits "32"
             }
@@ -498,20 +510,56 @@ set Interfaces {
                 Type "bool"
                 Width "1"
                 Bits "1"
+            }
+            TDEST {
+                Type "integer unsigned"
+                Width "6"
+                Bits "6"
+            }
+            TKEEP {
+                Type "integer unsigned"
+                Width "4"
+                Bits "4"
+            }
+            TSTRB {
+                Type "integer unsigned"
+                Width "4"
+                Bits "4"
+            }
+            TUSER {
+                Type "integer unsigned"
+                Width "2"
+                Bits "2"
+            }
+            TLAST {
+                Type "integer unsigned"
+                Width "1"
+                Bits "1"
+            }
+            TID {
+                Type "integer unsigned"
+                Width "5"
+                Bits "5"
             }
         }
     }
-    infer_output_V {
+    infer_output {
         type "axi4stream"
         mode "master"
-        port_prefix "infer_output_V"
+        port_prefix "infer_output"
         has_tready "1"
         ports {
             TDATA 32
+            TDEST 6
+            TKEEP 4
+            TSTRB 4
+            TUSER 2
+            TLAST 1
+            TID 5
         }
         ctype {
             TDATA {
-                Type "integer signed"
+                Type "integer unsigned"
                 Width "32"
                 Bits "32"
             }
@@ -524,6 +572,36 @@ set Interfaces {
                 Type "bool"
                 Width "1"
                 Bits "1"
+            }
+            TDEST {
+                Type "integer unsigned"
+                Width "6"
+                Bits "6"
+            }
+            TKEEP {
+                Type "integer unsigned"
+                Width "4"
+                Bits "4"
+            }
+            TSTRB {
+                Type "integer unsigned"
+                Width "4"
+                Bits "4"
+            }
+            TUSER {
+                Type "integer unsigned"
+                Width "2"
+                Bits "2"
+            }
+            TLAST {
+                Type "integer unsigned"
+                Width "1"
+                Bits "1"
+            }
+            TID {
+                Type "integer unsigned"
+                Width "5"
+                Bits "5"
             }
         }
     }
@@ -1997,7 +2075,7 @@ if {![regexp -nocase {2014\.3.*} $vivado_ver match]} {
 ipx::create_xgui_files -logo_file misc/logo.png $core
 
 ## System Info
-set user_parameters_list {clk_period 10 machine 64 combinational 0 latency 822330 II x}
+set user_parameters_list {clk_period 10 machine 64 combinational 0 latency 680483 II x}
 foreach {user_para value} $user_parameters_list {
     incr user_parameter_order
     set user_para_value [ipx::add_user_parameter $user_para $core]

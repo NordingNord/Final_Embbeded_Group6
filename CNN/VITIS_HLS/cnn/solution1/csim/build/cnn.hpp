@@ -1,7 +1,7 @@
 #ifndef CNN_HPP
 #define CNN_HPP
 
-#include "hls_stream.h"
+
 #include "hls_exp_apfixed.h"
 #include "types.hpp"
 
@@ -63,7 +63,6 @@ void dense(fixed (&input)[input_size_1][input_size_2][input_size_3],
 template <const sizetype size>
 void softmax(fixed (&array)[size]);
 
-void infer(hls::stream<int> &infer_input, hls::stream<float> &infer_output);
-
+void infer(long_uint_stream &infer_input, long_uint_stream &infer_output);
 
 #endif

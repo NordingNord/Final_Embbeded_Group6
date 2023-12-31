@@ -5,10 +5,10 @@
 <ModuleName>infer</ModuleName>
 <InstancesList>
 <Instance>
-<InstName>grp_exp_40_32_s_fu_57244</InstName>
+<InstName>grp_exp_40_32_s_fu_29745</InstName>
 <ModuleName>exp_40_32_s</ModuleName>
 <IsCompInst>true</IsCompInst>
-<ID>57244</ID>
+<ID>29745</ID>
 </Instance>
 </InstancesList>
 </TopModule>
@@ -155,39 +155,31 @@
 <EstimatedClockPeriod>7.288</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
-<Best-caseLatency>822330</Best-caseLatency>
-<Average-caseLatency>822330</Average-caseLatency>
-<Worst-caseLatency>822330</Worst-caseLatency>
-<Best-caseRealTimeLatency>8.223 ms</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>8.223 ms</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>8.223 ms</Worst-caseRealTimeLatency>
-<PipelineInitiationInterval>822331</PipelineInitiationInterval>
+<Best-caseLatency>680483</Best-caseLatency>
+<Average-caseLatency>680483</Average-caseLatency>
+<Worst-caseLatency>680483</Worst-caseLatency>
+<Best-caseRealTimeLatency>6.805 ms</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>6.805 ms</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>6.805 ms</Worst-caseRealTimeLatency>
+<PipelineInitiationInterval>680484</PipelineInitiationInterval>
 <PipelineType>none</PipelineType>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
 <get_input1>
 <Name>get_input1</Name>
-<TripCount>60</TripCount>
-<Latency>111720</Latency>
-<AbsoluteTimeLatency>1.117 ms</AbsoluteTimeLatency>
-<IterationLatency>1862</IterationLatency>
-<PipelineDepth>1862</PipelineDepth>
-<get_input1_2>
-<Name>get_input1_2</Name>
-<TripCount>60</TripCount>
-<Latency>1860</Latency>
-<AbsoluteTimeLatency>18.600 us</AbsoluteTimeLatency>
-<IterationLatency>31</IterationLatency>
+<TripCount>900</TripCount>
+<Latency>929</Latency>
+<AbsoluteTimeLatency>9.290 us</AbsoluteTimeLatency>
+<PipelineII>1</PipelineII>
 <PipelineDepth>31</PipelineDepth>
-</get_input1_2>
 </get_input1>
 <conv2d1_conv2d2>
 <Name>conv2d1_conv2d2</Name>
 <TripCount>3364</TripCount>
-<Latency>309488</Latency>
-<AbsoluteTimeLatency>3.095 ms</AbsoluteTimeLatency>
-<IterationLatency>92</IterationLatency>
-<PipelineDepth>92</PipelineDepth>
+<Latency>282576</Latency>
+<AbsoluteTimeLatency>2.826 ms</AbsoluteTimeLatency>
+<IterationLatency>84</IterationLatency>
+<PipelineDepth>84</PipelineDepth>
 <conv2d3_1>
 <Name>conv2d3_1</Name>
 <TripCount>32</TripCount>
@@ -199,10 +191,10 @@
 <conv2d4_conv2d5>
 <Name>conv2d4_conv2d5</Name>
 <TripCount>9</TripCount>
-<Latency>20</Latency>
-<AbsoluteTimeLatency>0.200 us</AbsoluteTimeLatency>
+<Latency>12</Latency>
+<AbsoluteTimeLatency>0.120 us</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
-<PipelineDepth>13</PipelineDepth>
+<PipelineDepth>5</PipelineDepth>
 </conv2d4_conv2d5>
 <conv2d3_3>
 <Name>conv2d3_3</Name>
@@ -216,18 +208,18 @@
 <max_pooling2d1_max_pooling2d2_max_pooling2d3>
 <Name>max_pooling2d1_max_pooling2d2_max_pooling2d3</Name>
 <TripCount>26912</TripCount>
-<Latency>26920</Latency>
+<Latency>26916</Latency>
 <AbsoluteTimeLatency>0.269 ms</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
-<PipelineDepth>9</PipelineDepth>
+<PipelineDepth>6</PipelineDepth>
 </max_pooling2d1_max_pooling2d2_max_pooling2d3>
 <conv2d1_conv2d2>
 <Name>conv2d1_conv2d2</Name>
 <TripCount>729</TripCount>
-<Latency>270459</Latency>
-<AbsoluteTimeLatency>2.705 ms</AbsoluteTimeLatency>
-<IterationLatency>371</IterationLatency>
-<PipelineDepth>371</PipelineDepth>
+<Latency>266814</Latency>
+<AbsoluteTimeLatency>2.668 ms</AbsoluteTimeLatency>
+<IterationLatency>366</IterationLatency>
+<PipelineDepth>366</PipelineDepth>
 <conv2d3_1>
 <Name>conv2d3_1</Name>
 <TripCount>32</TripCount>
@@ -239,10 +231,10 @@
 <conv2d3_2_conv2d4_conv2d5>
 <Name>conv2d3_2_conv2d4_conv2d5</Name>
 <TripCount>288</TripCount>
-<Latency>299</Latency>
-<AbsoluteTimeLatency>2.990 us</AbsoluteTimeLatency>
+<Latency>294</Latency>
+<AbsoluteTimeLatency>2.940 us</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
-<PipelineDepth>13</PipelineDepth>
+<PipelineDepth>8</PipelineDepth>
 </conv2d3_2_conv2d4_conv2d5>
 <conv2d3_3>
 <Name>conv2d3_3</Name>
@@ -256,18 +248,18 @@
 <max_pooling2d1_max_pooling2d2_max_pooling2d3>
 <Name>max_pooling2d1_max_pooling2d2_max_pooling2d3</Name>
 <TripCount>5408</TripCount>
-<Latency>5415</Latency>
-<AbsoluteTimeLatency>54.150 us</AbsoluteTimeLatency>
+<Latency>5411</Latency>
+<AbsoluteTimeLatency>54.110 us</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
-<PipelineDepth>8</PipelineDepth>
+<PipelineDepth>5</PipelineDepth>
 </max_pooling2d1_max_pooling2d2_max_pooling2d3>
 <conv2d1_conv2d2>
 <Name>conv2d1_conv2d2</Name>
 <TripCount>121</TripCount>
-<Latency>44770</Latency>
-<AbsoluteTimeLatency>0.448 ms</AbsoluteTimeLatency>
-<IterationLatency>370</IterationLatency>
-<PipelineDepth>370</PipelineDepth>
+<Latency>44286</Latency>
+<AbsoluteTimeLatency>0.443 ms</AbsoluteTimeLatency>
+<IterationLatency>366</IterationLatency>
+<PipelineDepth>366</PipelineDepth>
 <conv2d3_1>
 <Name>conv2d3_1</Name>
 <TripCount>32</TripCount>
@@ -279,10 +271,10 @@
 <conv2d3_2_conv2d4_conv2d5>
 <Name>conv2d3_2_conv2d4_conv2d5</Name>
 <TripCount>288</TripCount>
-<Latency>298</Latency>
-<AbsoluteTimeLatency>2.980 us</AbsoluteTimeLatency>
+<Latency>294</Latency>
+<AbsoluteTimeLatency>2.940 us</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
-<PipelineDepth>12</PipelineDepth>
+<PipelineDepth>8</PipelineDepth>
 </conv2d3_2_conv2d4_conv2d5>
 <conv2d3_3>
 <Name>conv2d3_3</Name>
@@ -312,10 +304,10 @@
 <dense_relu1>
 <Name>dense_relu1</Name>
 <TripCount>64</TripCount>
-<Latency>51712</Latency>
-<AbsoluteTimeLatency>0.517 ms</AbsoluteTimeLatency>
-<IterationLatency>808</IterationLatency>
-<PipelineDepth>808</PipelineDepth>
+<Latency>51648</Latency>
+<AbsoluteTimeLatency>0.516 ms</AbsoluteTimeLatency>
+<IterationLatency>807</IterationLatency>
+<PipelineDepth>807</PipelineDepth>
 <dense_relu2>
 <Name>dense_relu2</Name>
 <TripCount>800</TripCount>
@@ -377,18 +369,18 @@
 </PerformanceEstimates>
 <AreaEstimates>
 <Resources>
-<BRAM_18K>800</BRAM_18K>
+<BRAM_18K>337</BRAM_18K>
 <AVAIL_BRAM>432</AVAIL_BRAM>
-<UTIL_BRAM>185</UTIL_BRAM>
-<DSP>237</DSP>
+<UTIL_BRAM>78</UTIL_BRAM>
+<DSP>241</DSP>
 <AVAIL_DSP>360</AVAIL_DSP>
-<UTIL_DSP>65</UTIL_DSP>
-<FF>82222</FF>
+<UTIL_DSP>66</UTIL_DSP>
+<FF>23675</FF>
 <AVAIL_FF>141120</AVAIL_FF>
-<UTIL_FF>58</UTIL_FF>
-<LUT>47091</LUT>
+<UTIL_FF>16</UTIL_FF>
+<LUT>20979</LUT>
 <AVAIL_LUT>70560</AVAIL_LUT>
-<UTIL_LUT>66</UTIL_LUT>
+<UTIL_LUT>29</UTIL_LUT>
 <URAM>0</URAM>
 <AVAIL_URAM>0</AVAIL_URAM>
 <UTIL_URAM>0</UTIL_URAM>
@@ -650,8 +642,8 @@
 <Attribute>unknown</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>infer_input_V_TDATA</name>
-<Object>infer_input_V</Object>
+<name>infer_input_TDATA</name>
+<Object>infer_input_V_data_V</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>axis</IOProtocol>
@@ -662,8 +654,8 @@
 <CType>int</CType>
 </RtlPorts>
 <RtlPorts>
-<name>infer_input_V_TVALID</name>
-<Object>infer_input_V</Object>
+<name>infer_input_TVALID</name>
+<Object>infer_input_V_dest_V</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>axis</IOProtocol>
@@ -674,8 +666,8 @@
 <CType>int</CType>
 </RtlPorts>
 <RtlPorts>
-<name>infer_input_V_TREADY</name>
-<Object>infer_input_V</Object>
+<name>infer_input_TREADY</name>
+<Object>infer_input_V_dest_V</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>axis</IOProtocol>
@@ -686,8 +678,80 @@
 <CType>int</CType>
 </RtlPorts>
 <RtlPorts>
-<name>infer_output_V_TDATA</name>
-<Object>infer_output_V</Object>
+<name>infer_input_TDEST</name>
+<Object>infer_input_V_dest_V</Object>
+<Type>pointer</Type>
+<Scope></Scope>
+<IOProtocol>axis</IOProtocol>
+<IOConfig>register, both mode</IOConfig>
+<Dir>in</Dir>
+<Bits>6</Bits>
+<Attribute>data</Attribute>
+<CType>int</CType>
+</RtlPorts>
+<RtlPorts>
+<name>infer_input_TKEEP</name>
+<Object>infer_input_V_keep_V</Object>
+<Type>pointer</Type>
+<Scope></Scope>
+<IOProtocol>axis</IOProtocol>
+<IOConfig>register, both mode</IOConfig>
+<Dir>in</Dir>
+<Bits>4</Bits>
+<Attribute>data</Attribute>
+<CType>int</CType>
+</RtlPorts>
+<RtlPorts>
+<name>infer_input_TSTRB</name>
+<Object>infer_input_V_strb_V</Object>
+<Type>pointer</Type>
+<Scope></Scope>
+<IOProtocol>axis</IOProtocol>
+<IOConfig>register, both mode</IOConfig>
+<Dir>in</Dir>
+<Bits>4</Bits>
+<Attribute>data</Attribute>
+<CType>int</CType>
+</RtlPorts>
+<RtlPorts>
+<name>infer_input_TUSER</name>
+<Object>infer_input_V_user_V</Object>
+<Type>pointer</Type>
+<Scope></Scope>
+<IOProtocol>axis</IOProtocol>
+<IOConfig>register, both mode</IOConfig>
+<Dir>in</Dir>
+<Bits>2</Bits>
+<Attribute>data</Attribute>
+<CType>int</CType>
+</RtlPorts>
+<RtlPorts>
+<name>infer_input_TLAST</name>
+<Object>infer_input_V_last_V</Object>
+<Type>pointer</Type>
+<Scope></Scope>
+<IOProtocol>axis</IOProtocol>
+<IOConfig>register, both mode</IOConfig>
+<Dir>in</Dir>
+<Bits>1</Bits>
+<Attribute>data</Attribute>
+<CType>int</CType>
+</RtlPorts>
+<RtlPorts>
+<name>infer_input_TID</name>
+<Object>infer_input_V_id_V</Object>
+<Type>pointer</Type>
+<Scope></Scope>
+<IOProtocol>axis</IOProtocol>
+<IOConfig>register, both mode</IOConfig>
+<Dir>in</Dir>
+<Bits>5</Bits>
+<Attribute>data</Attribute>
+<CType>int</CType>
+</RtlPorts>
+<RtlPorts>
+<name>infer_output_TDATA</name>
+<Object>infer_output_V_data_V</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>axis</IOProtocol>
@@ -698,8 +762,8 @@
 <CType>int</CType>
 </RtlPorts>
 <RtlPorts>
-<name>infer_output_V_TVALID</name>
-<Object>infer_output_V</Object>
+<name>infer_output_TVALID</name>
+<Object>infer_output_V_dest_V</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>axis</IOProtocol>
@@ -710,8 +774,8 @@
 <CType>int</CType>
 </RtlPorts>
 <RtlPorts>
-<name>infer_output_V_TREADY</name>
-<Object>infer_output_V</Object>
+<name>infer_output_TREADY</name>
+<Object>infer_output_V_dest_V</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>axis</IOProtocol>
@@ -719,6 +783,78 @@
 <Dir>in</Dir>
 <Bits>1</Bits>
 <Attribute>control</Attribute>
+<CType>int</CType>
+</RtlPorts>
+<RtlPorts>
+<name>infer_output_TDEST</name>
+<Object>infer_output_V_dest_V</Object>
+<Type>pointer</Type>
+<Scope></Scope>
+<IOProtocol>axis</IOProtocol>
+<IOConfig>register, both mode</IOConfig>
+<Dir>out</Dir>
+<Bits>6</Bits>
+<Attribute>data</Attribute>
+<CType>int</CType>
+</RtlPorts>
+<RtlPorts>
+<name>infer_output_TKEEP</name>
+<Object>infer_output_V_keep_V</Object>
+<Type>pointer</Type>
+<Scope></Scope>
+<IOProtocol>axis</IOProtocol>
+<IOConfig>register, both mode</IOConfig>
+<Dir>out</Dir>
+<Bits>4</Bits>
+<Attribute>data</Attribute>
+<CType>int</CType>
+</RtlPorts>
+<RtlPorts>
+<name>infer_output_TSTRB</name>
+<Object>infer_output_V_strb_V</Object>
+<Type>pointer</Type>
+<Scope></Scope>
+<IOProtocol>axis</IOProtocol>
+<IOConfig>register, both mode</IOConfig>
+<Dir>out</Dir>
+<Bits>4</Bits>
+<Attribute>data</Attribute>
+<CType>int</CType>
+</RtlPorts>
+<RtlPorts>
+<name>infer_output_TUSER</name>
+<Object>infer_output_V_user_V</Object>
+<Type>pointer</Type>
+<Scope></Scope>
+<IOProtocol>axis</IOProtocol>
+<IOConfig>register, both mode</IOConfig>
+<Dir>out</Dir>
+<Bits>2</Bits>
+<Attribute>data</Attribute>
+<CType>int</CType>
+</RtlPorts>
+<RtlPorts>
+<name>infer_output_TLAST</name>
+<Object>infer_output_V_last_V</Object>
+<Type>pointer</Type>
+<Scope></Scope>
+<IOProtocol>axis</IOProtocol>
+<IOConfig>register, both mode</IOConfig>
+<Dir>out</Dir>
+<Bits>1</Bits>
+<Attribute>data</Attribute>
+<CType>int</CType>
+</RtlPorts>
+<RtlPorts>
+<name>infer_output_TID</name>
+<Object>infer_output_V_id_V</Object>
+<Type>pointer</Type>
+<Scope></Scope>
+<IOProtocol>axis</IOProtocol>
+<IOConfig>register, both mode</IOConfig>
+<Dir>out</Dir>
+<Bits>5</Bits>
+<Attribute>data</Attribute>
 <CType>int</CType>
 </RtlPorts>
 </InterfaceSummary>

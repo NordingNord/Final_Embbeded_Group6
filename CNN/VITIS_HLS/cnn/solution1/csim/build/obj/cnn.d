@@ -1,6 +1,4 @@
 obj/cnn.o: ../../../../../src/hls/cnn.cpp ../../../../../src/hls/cnn.hpp \
- /tools/Xilinx/Vitis_HLS/2020.2/include/hls_stream.h \
- /tools/Xilinx/Vitis_HLS/2020.2/include/hls_stream_thread_unsafe.h \
  /tools/Xilinx/Vitis_HLS/2020.2/include/hls_exp_apfixed.h \
  /tools/Xilinx/Vitis_HLS/2020.2/include/ap_fixed.h \
  /tools/Xilinx/Vitis_HLS/2020.2/include/ap_common.h \
@@ -25,4 +23,8 @@ obj/cnn.o: ../../../../../src/hls/cnn.cpp ../../../../../src/hls/cnn.hpp \
  /tools/Xilinx/Vitis_HLS/2020.2/include/ap_fixed_special.h \
  ../../../../../src/hls/types.hpp \
  /tools/Xilinx/Vitis_HLS/2020.2/include/ap_fixed.h \
+ /tools/Xilinx/Vitis_HLS/2020.2/include/hls_stream.h \
+ /tools/Xilinx/Vitis_HLS/2020.2/include/hls_stream_thread_unsafe.h \
+ /tools/Xilinx/Vitis_HLS/2020.2/include/ap_axi_sdata.h \
+ /tools/Xilinx/Vitis_HLS/2020.2/include/ap_int.h \
  ../../../../../src/hls/layerInfo.hpp

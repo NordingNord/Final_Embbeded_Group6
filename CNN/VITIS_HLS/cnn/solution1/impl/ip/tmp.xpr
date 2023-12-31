@@ -6,7 +6,7 @@
 <Project Version="7" Minor="54" Path="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS/cnn/solution1/impl/ip/tmp.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="b6054d1627f248a39f7fa16eba45fbb0"/>
+    <Option Name="Id" Val="9ff118b9a4ad4b91b574243f1cca8636"/>
     <Option Name="Part" Val="xczu3eg-sbva484-1-e"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
@@ -88,7 +88,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/ip/infer_ap_sitofp_2_no_dsp_32/infer_ap_sitofp_2_no_dsp_32.xci">
+      <File Path="$PSRCDIR/sources_1/ip/infer_ap_uitofp_2_no_dsp_32/infer_ap_uitofp_2_no_dsp_32.xci">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>

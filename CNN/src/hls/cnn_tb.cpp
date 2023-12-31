@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string>
 #include "hls_stream.h"
+#include "ap_axi_sdata.h"
 #include "types.hpp"
 
 #ifndef LAYER_INFO
@@ -10,7 +11,7 @@
 
 #include "testImage.hpp"
 
-void infer(hls::stream<int> &infer_input, hls::stream<float> &infer_output);
+void infer(long_uint_stream &infer_input, long_uint_stream &infer_output);
 
 uint image_num = 0;
 
@@ -18,23 +19,26 @@ int test_using_image(int image_array[input_dim_1][input_dim_2][input_dim_3],
 		float prediction_array[output_dim_1])
 {
 	printf("\nImage: %d\n", image_num++);
-	hls::stream<int> stream_in;
-	hls::stream<float> stream_out;
+	long_uint_stream stream_in;
+	long_uint_stream stream_out;
 
-	for (int i = 0; i < input_dim_1; i++)
+	long_uint_package input_package;
+	uint8_t *input_package_pointer = (uint8_t*)&input_package.data;
+	int *image_pointer = (int*)image_array;
+	for (int i = 0; i < input_dim_1*input_dim_2*input_dim_3; i += 4)
 	{
-		for (int ii = 0; ii < input_dim_2; ii++)
-		{
-			for (int iii = 0; iii < input_dim_3; iii++)
-			{
-				stream_in << image_array[i][ii][iii];
-			}
-		}
+		input_package_pointer[0] = (uint8_t)image_pointer[i];
+		input_package_pointer[1] = (uint8_t)image_pointer[i+1];
+		input_package_pointer[2] = (uint8_t)image_pointer[i+2];
+		input_package_pointer[3] = (uint8_t)image_pointer[i+3];
+
+		stream_in << input_package;
 	}
 
 	infer(stream_in, stream_out);
 
-	float results[output_dim_1];
+	float_uint results[output_dim_1];
+	long_uint_package output_package;
 
 	// Check results
 	bool result_same = true;
@@ -43,13 +47,14 @@ int test_using_image(int image_array[input_dim_1][input_dim_2][input_dim_3],
 	int prediction_type = 0;
 	for (int i = 0; i < output_dim_1; i++)
 	{
-		stream_out >> results[i];
-		printf("%f	| should be: %f 	| diff:	%f\n", results[i], prediction_array[i], results[i]-prediction_array[i]);
-		if ((int)(prediction_array[i]*10000) != (int)(results[i]*10000))
+		stream_out >> output_package;
+		results[i].uint_val = output_package.data;
+		printf("%f	| should be: %f 	| diff:	%f\n", results[i].float_val, prediction_array[i], results[i].float_val-prediction_array[i]);
+		if ((int)(prediction_array[i]*10000) != (int)(results[i].float_val*10000))
 		{
 			result_same = false;
 		}
-		if (results[i] > results[result_type])
+		if (results[i].float_val > results[result_type].float_val)
 		{
 			result_type = i;
 		}
