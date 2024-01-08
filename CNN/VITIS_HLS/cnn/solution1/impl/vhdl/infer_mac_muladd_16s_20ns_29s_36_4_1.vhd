@@ -6,7 +6,7 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
-entity infer_mac_muladd_16s_20ns_29s_36_4_1_DSP48_14 is
+entity infer_mac_muladd_16s_20ns_29s_36_4_1_DSP48_118 is
 port (
     clk: in  std_logic;
     rst: in  std_logic;
@@ -18,7 +18,7 @@ port (
 
 end entity;
 
-architecture behav of infer_mac_muladd_16s_20ns_29s_36_4_1_DSP48_14 is
+architecture behav of infer_mac_muladd_16s_20ns_29s_36_4_1_DSP48_118 is
     signal a       : signed(27-1 downto 0);
     signal b       : signed(18-1 downto 0);
     signal c       : signed(48-1 downto 0);
@@ -72,7 +72,7 @@ entity infer_mac_muladd_16s_20ns_29s_36_4_1 is
 end entity;
 
 architecture arch of infer_mac_muladd_16s_20ns_29s_36_4_1 is
-    component infer_mac_muladd_16s_20ns_29s_36_4_1_DSP48_14 is
+    component infer_mac_muladd_16s_20ns_29s_36_4_1_DSP48_118 is
         port (
             clk : IN STD_LOGIC;
             rst : IN STD_LOGIC;
@@ -86,7 +86,7 @@ architecture arch of infer_mac_muladd_16s_20ns_29s_36_4_1 is
 
 
 begin
-    infer_mac_muladd_16s_20ns_29s_36_4_1_DSP48_14_U :  component infer_mac_muladd_16s_20ns_29s_36_4_1_DSP48_14
+    infer_mac_muladd_16s_20ns_29s_36_4_1_DSP48_118_U :  component infer_mac_muladd_16s_20ns_29s_36_4_1_DSP48_118
     port map (
         clk => clk,
         rst => reset,

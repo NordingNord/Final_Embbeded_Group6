@@ -100,30 +100,64 @@ void conv2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
 			// Kernel number
 			conv2d3_1: for (sizetype iii = 0; iii < weights_size_4; iii++)
 			{
+//#pragma HLS unroll factor=2
 				// Add bias
 				output_sum[iii] = bias[iii];
 			}
 			// Input and kernel channels
 			conv2d3_2: for (sizetype iv = 0; iv < input_size_3; iv++)
 			{
-				// Kernel rows
-				conv2d4: for (int v = -1; v < 2; v++)
+				//// Kernel rows
+				//conv2d4: for (int v = -1; v < 2; v++)
+				//{
+//#pragma HLS unroll factor=3
+				//	// Kernel cols
+				//	conv2d5: for (int vi = -1; vi < 2; vi++)
+				//	{
+				//		fixed input_val = input[(i + v)][(ii + vi)][iv];
+
+				fixed input_val_1;
+				fixed input_val_2;
+				fixed input_val_3;
+				fixed input_val_4;
+				fixed input_val_5;
+				fixed input_val_6;
+				fixed input_val_7;
+				fixed input_val_8;
+				fixed input_val_9;
+
+				fixed input_val_1 = input[(i - 1)][(ii - 1)][iv];
+				fixed input_val_2 = input[(i - 1)][(ii)][iv];
+				fixed input_val_3 = input[(i - 1)][(ii + 1)][iv];
+				fixed input_val_4 = input[(i)][(ii - 1)][iv];
+				fixed input_val_5 = input[(i)][(ii)][iv];
+				fixed input_val_6 = input[(i)][(ii + 1)][iv];
+				fixed input_val_7 = input[(i + 1)][(ii - 1)][iv];
+				fixed input_val_8 = input[(i + 1)][(ii)][iv];
+				fixed input_val_9 = input[(i + 1)][(ii + 1)][iv];
+				// Kernel number
+				conv2d6: for (sizetype iii = 0; iii < weights_size_4; iii++)
 				{
-					// Kernel cols
-					conv2d5: for (int vi = -1; vi < 2; vi++)
-					{
-						fixed input_val = input[(i + v)][(ii + vi)][iv];
-						// Kernel number
-						conv2d6: for (sizetype iii = 0; iii < weights_size_4; iii++)
-						{
-							output_sum[iii] += input_val * weights[(v + 1)][(vi + 1)][iv][iii];
-						}
-					}
+#pragma HLS unroll
+					//output_sum[iii] += input_val * weights[(v + 1)][(vi + 1)][iv][iii];
+					output_sum[iii] += input_val_1	* 	weights[0][0][iv][iii] +
+							input_val_2 *	weights[0][1][iv][iii] +
+							input_val_3 *	weights[0][2][iv][iii] +
+							input_val_4 *	weights[1][0][iv][iii] +
+							input_val_5 *	weights[1][1][iv][iii] +
+							input_val_6 *	weights[1][2][iv][iii] +
+							input_val_7 *	weights[2][0][iv][iii] +
+							input_val_8 *	weights[2][1][iv][iii] +
+							input_val_9 *	weights[2][2][iv][iii];
 				}
+
+				//	}
+				//}
 			}
 			// Kernel number
 			conv2d3_3: for (sizetype iii = 0; iii < weights_size_4; iii++)
 			{
+//#pragma HLS unroll factor=2
 				// Apply relu activiation function
 				relu(output_sum[iii]);
 				output[i - 1][ii - 1][iii] = output_sum[iii];
@@ -278,21 +312,21 @@ void infer(long_uint_stream &infer_input, long_uint_stream &infer_output)
 #pragma HLS array_partition variable=layer_2_output cyclic factor=2 dim=2
 //#pragma HLS array_partition variable=layer_2_output cyclic factor=2 dim=1
 
-//#pragma HLS array_partition variable=layer_3_output block factor=2 dim=3
-//#pragma HLS array_partition variable=layer_3_output cyclic factor=3 dim=2
-//#pragma HLS array_partition variable=layer_3_output cyclic factor=3 dim=1
+#pragma HLS array_partition variable=layer_3_output cyclic factor=9 dim=3
+#pragma HLS array_partition variable=layer_3_output cyclic factor=3 dim=2
+#pragma HLS array_partition variable=layer_3_output cyclic factor=3 dim=1
 
 //#pragma HLS array_partition variable=layer_4_output cyclic factor=2 dim=3
 #pragma HLS array_partition variable=layer_4_output cyclic factor=2 dim=2
-//#pragma HLS array_partition variable=layer_4_output cyclic factor=2 dim=1
+//#pragma HLS array_partition variable=layer_4_output cyclic factor=3 dim=1
 
-//#pragma HLS array_partition variable=layer_5_output block factor=2 dim=3
-//#pragma HLS array_partition variable=layer_5_output cyclic factor=3 dim=2
-//#pragma HLS array_partition variable=layer_5_output cyclic factor=3 dim=1
+#pragma HLS array_partition variable=layer_5_output cyclic factor=9 dim=3
+#pragma HLS array_partition variable=layer_5_output cyclic factor=3 dim=2
+#pragma HLS array_partition variable=layer_5_output cyclic factor=3 dim=1
 
 //#pragma HLS array_partition variable=layer_6_output cyclic factor=2 dim=3
 #pragma HLS array_partition variable=layer_6_output cyclic factor=2 dim=2
-//#pragma HLS array_partition variable=layer_6_output cyclic factor=2 dim=1
+//#pragma HLS array_partition variable=layer_6_output cyclic factor=3 dim=1
 
 //#pragma HLS array_partition variable=layer_7_output block factor=2 dim=3
 

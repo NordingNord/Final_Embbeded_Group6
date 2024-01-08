@@ -5,7 +5,7 @@
 
 `timescale 1 ns / 1 ps
 
-module infer_mul_21s_20ns_37_1_1_Multiplier_3(a, b, p);
+module infer_mul_21s_20ns_37_1_1_Multiplier_5(a, b, p);
 input[21 - 1 : 0] a; 
 input[20 - 1 : 0] b; 
 output[37 - 1 : 0] p;
@@ -29,7 +29,7 @@ output[dout_WIDTH - 1:0] dout;
 
 
 
-infer_mul_21s_20ns_37_1_1_Multiplier_3 infer_mul_21s_20ns_37_1_1_Multiplier_3_U(
+infer_mul_21s_20ns_37_1_1_Multiplier_5 infer_mul_21s_20ns_37_1_1_Multiplier_5_U(
     .a( din0 ),
     .b( din1 ),
     .p( dout ));

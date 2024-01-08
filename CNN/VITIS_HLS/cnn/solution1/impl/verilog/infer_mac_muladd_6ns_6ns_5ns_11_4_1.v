@@ -4,7 +4,7 @@
 // ==============================================================
 `timescale 1 ns / 1 ps
 
-(* use_dsp = "yes" *) module infer_mac_muladd_6ns_6ns_5ns_11_4_1_DSP48_4(
+(* use_dsp = "yes" *) module infer_mac_muladd_6ns_6ns_5ns_11_4_1_DSP48_0(
     input clk,
     input rst,
     input ce,
@@ -68,7 +68,7 @@ output[dout_WIDTH - 1:0] dout;
 
 
 
-infer_mac_muladd_6ns_6ns_5ns_11_4_1_DSP48_4 infer_mac_muladd_6ns_6ns_5ns_11_4_1_DSP48_4_U(
+infer_mac_muladd_6ns_6ns_5ns_11_4_1_DSP48_0 infer_mac_muladd_6ns_6ns_5ns_11_4_1_DSP48_0_U(
     .clk( clk ),
     .rst( reset ),
     .ce( ce ),

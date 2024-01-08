@@ -7,7 +7,7 @@ use ieee.std_logic_1164.all;
 
 entity infer_ddiv_64ns_64ns_64_22_no_dsp_1 is
     generic (
-        ID         : integer := 8;
+        ID         : integer := 1761;
         NUM_STAGE  : integer := 22;
         din0_WIDTH : integer := 64;
         din1_WIDTH : integer := 64;

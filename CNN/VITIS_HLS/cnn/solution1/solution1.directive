@@ -5,6 +5,11 @@
                 <option name="name" value="infer"/>
             </pragma>
         </directive>
+        <directive functionName="infer" label="" functionLabel="">
+            <pragma name="TOP">
+                <option name="name" value="infer"/>
+            </pragma>
+        </directive>
     </sourceFile>
 </AutoPilot:ProjectResources>
 

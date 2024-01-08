@@ -82842,29 +82842,55 @@ void conv2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
    conv2d3_1: for (sizetype iii = 0; iii < weights_size_4; iii++)
    {
 
+
     output_sum[iii] = bias[iii];
    }
 
    conv2d3_2: for (sizetype iv = 0; iv < input_size_3; iv++)
    {
+# 119 "../src/hls/cnn.cpp"
+    fixed input_val_1;
+    fixed input_val_2;
+    fixed input_val_3;
+    fixed input_val_4;
+    fixed input_val_5;
+    fixed input_val_6;
+    fixed input_val_7;
+    fixed input_val_8;
+    fixed input_val_9;
 
-    conv2d4: for (int v = -1; v < 2; v++)
+    fixed input_val_1 = input[(i - 1)][(ii - 1)][iv];
+    fixed input_val_2 = input[(i - 1)][(ii)][iv];
+    fixed input_val_3 = input[(i - 1)][(ii + 1)][iv];
+    fixed input_val_4 = input[(i)][(ii - 1)][iv];
+    fixed input_val_5 = input[(i)][(ii)][iv];
+    fixed input_val_6 = input[(i)][(ii + 1)][iv];
+    fixed input_val_7 = input[(i + 1)][(ii - 1)][iv];
+    fixed input_val_8 = input[(i + 1)][(ii)][iv];
+    fixed input_val_9 = input[(i + 1)][(ii + 1)][iv];
+
+    conv2d6: for (sizetype iii = 0; iii < weights_size_4; iii++)
     {
+#pragma HLS unroll
 
-     conv2d5: for (int vi = -1; vi < 2; vi++)
-     {
-      fixed input_val = input[(i + v)][(ii + vi)][iv];
-
-      conv2d6: for (sizetype iii = 0; iii < weights_size_4; iii++)
-      {
-       output_sum[iii] += input_val * weights[(v + 1)][(vi + 1)][iv][iii];
-      }
-     }
+ output_sum[iii] += input_val_1 * weights[0][0][iv][iii] +
+       input_val_2 * weights[0][1][iv][iii] +
+       input_val_3 * weights[0][2][iv][iii] +
+       input_val_4 * weights[1][0][iv][iii] +
+       input_val_5 * weights[1][1][iv][iii] +
+       input_val_6 * weights[1][2][iv][iii] +
+       input_val_7 * weights[2][0][iv][iii] +
+       input_val_8 * weights[2][1][iv][iii] +
+       input_val_9 * weights[2][2][iv][iii];
     }
+
+
+
    }
 
    conv2d3_3: for (sizetype iii = 0; iii < weights_size_4; iii++)
    {
+
 
     relu(output_sum[iii]);
     output[i - 1][ii - 1][iii] = output_sum[iii];
@@ -82909,13 +82935,13 @@ void max_pooling2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
         }
     }
 }
-# 184 "../src/hls/cnn.cpp"
+# 218 "../src/hls/cnn.cpp"
 template <const sizetype size_1, const sizetype size_2, const sizetype size_3>
 void array_3d_to_1d(fixed (&array)[size_1][size_2][size_3], fixed (&output)[size_1*size_2*size_3])
 {
- VITIS_LOOP_187_1: for (sizetype i = 0; i < size_1; i++)
-  VITIS_LOOP_188_2: for (sizetype ii = 0; ii < size_2; ii++)
-   VITIS_LOOP_189_3: for (sizetype iii = 0; iii < size_3; iii++)
+ VITIS_LOOP_221_1: for (sizetype i = 0; i < size_1; i++)
+  VITIS_LOOP_222_2: for (sizetype ii = 0; ii < size_2; ii++)
+   VITIS_LOOP_223_3: for (sizetype iii = 0; iii < size_3; iii++)
     output[i*size_2*size_3 + ii*size_3 + iii] = array[i][ii][iii];
 }
 
@@ -82994,7 +83020,7 @@ void softmax(fixed (&array)[size])
 __attribute__((sdx_kernel("infer", 0))) void infer(long_uint_stream &infer_input, long_uint_stream &infer_output)
 {
 #pragma HLS TOP name=infer
-# 266 "../src/hls/cnn.cpp"
+# 300 "../src/hls/cnn.cpp"
 
 
 #pragma HLS INTERFACE axis port=infer_input
@@ -83010,17 +83036,17 @@ __attribute__((sdx_kernel("infer", 0))) void infer(long_uint_stream &infer_input
 #pragma HLS array_partition variable=layer_2_output cyclic factor=2 dim=2
 
 
-
-
-
+#pragma HLS array_partition variable=layer_3_output cyclic factor=9 dim=3
+#pragma HLS array_partition variable=layer_3_output cyclic factor=3 dim=2
+#pragma HLS array_partition variable=layer_3_output cyclic factor=3 dim=1
 
 
 #pragma HLS array_partition variable=layer_4_output cyclic factor=2 dim=2
 
 
-
-
-
+#pragma HLS array_partition variable=layer_5_output cyclic factor=9 dim=3
+#pragma HLS array_partition variable=layer_5_output cyclic factor=3 dim=2
+#pragma HLS array_partition variable=layer_5_output cyclic factor=3 dim=1
 
 
 #pragma HLS array_partition variable=layer_6_output cyclic factor=2 dim=2
