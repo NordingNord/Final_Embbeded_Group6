@@ -28,6 +28,6 @@
 	compatible = "generic-uio";
 };
 
-&Invert_0 {
+&infer_0 {
 	compatible = "generic-uio";
 };
