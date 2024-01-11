@@ -1,0 +1,49 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s'" level="0">
+<item name = "Date">Thu Jan 11 18:10:32 2024
+</item>
+<item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)</item>
+<item name = "Project">cnn</item>
+<item name = "Solution">solution1 (Vivado IP Flow Target)</item>
+<item name = "Product family">zynquplus</item>
+<item name = "Target device">xczu3eg-sbva484-1-e</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00 ns, 3.602 ns, 2.70 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">29283, 176419, 0.293 ms, 1.764 ms, 29283, 176419, none</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- conv2d1_conv2d2">29282, 176418, 242, -, -, 121 ~ 729, no</column>
+<column name=" + conv2d3_1">33, 33, 2, 1, 1, 32, yes</column>
+<column name=" + conv2d3_2">170, 170, 15, 5, 1, 32, yes</column>
+<column name=" + conv2d3_3">32, 32, 1, 1, 1, 32, yes</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

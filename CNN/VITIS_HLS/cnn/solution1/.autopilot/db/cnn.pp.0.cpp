@@ -9861,9 +9861,7 @@ typedef hls::stream<long_uint_package> long_uint_stream;
 
 
 # 1 "../src/hls/layerInfo.hpp" 1
-
-static fixed cnn_input[60][60][1] = { };
-# 20 "../src/hls/layerInfo.hpp"
+# 19 "../src/hls/layerInfo.hpp"
 const fixed layer_2_weights[3][3][1][32] = {
 -0.017345337197184563,
 -0.014120399951934814,
@@ -10188,20 +10186,7 @@ const fixed layer_2_bias[32] = {
 0.03612485155463219,
 0.01445471029728651
 };
-static fixed layer_2_output[58][58][32] = { };
-
-
-
-
-
-
-static fixed layer_3_output[29][29][32] = { };
-
-
-
-
-
-
+# 361 "../src/hls/layerInfo.hpp"
 const fixed layer_4_weights[3][3][32][32] = {
 -0.18564289808273315,
 -0.03271521255373955,
@@ -19454,20 +19439,7 @@ const fixed layer_4_bias[32] = {
 -0.005821819417178631,
 -0.011555581353604794
 };
-static fixed layer_4_output[27][27][32] = { };
-
-
-
-
-
-
-static fixed layer_5_output[13][13][32] = { };
-
-
-
-
-
-
+# 9631 "../src/hls/layerInfo.hpp"
 const fixed layer_6_weights[3][3][32][32] = {
 -0.00475427508354187,
 0.01453832071274519,
@@ -28720,23 +28692,7 @@ const fixed layer_6_bias[32] = {
 -0.020796481519937515,
 -0.016930945217609406
 };
-static fixed layer_6_output[11][11][32] = { };
-
-
-
-
-
-
-static fixed layer_7_output[5][5][32] = { };
-
-
-
-
-static fixed layer_8_output[800] = { };
-
-
-
-
+# 18904 "../src/hls/layerInfo.hpp"
 const fixed layer_9_weights[800][64] = {
 -0.06204277276992798,
 -0.06194552034139633,
@@ -80005,7 +79961,7 @@ const fixed layer_9_bias[64] = {
 -0.015062268823385239,
 -0.025045201182365417
 };
-static fixed layer_9_output[64] = { };
+
 
 
 
@@ -82094,7 +82050,7 @@ const fixed layer_10_bias[32] = {
 -0.03943163529038429,
 -0.01115172728896141
 };
-static fixed layer_10_output[32] = { };
+
 
 
 
@@ -82631,7 +82587,7 @@ const fixed layer_11_bias[16] = {
 0.029514826834201813,
 0.0
 };
-static fixed layer_11_output[16] = { };
+
 
 
 
@@ -82708,7 +82664,6 @@ const fixed layer_12_bias[4] = {
 -0.02158793993294239,
 0.033180445432662964
 };
-static fixed layer_12_output[4] = { };
 # 12 "../src/hls/cnn.hpp" 2
 
 
@@ -82731,6 +82686,7 @@ template <const sizetype input_size_1, const sizetype input_size_2, const sizety
    const sizetype bias_size,
    const sizetype output_size_1, const sizetype output_size_2, const sizetype output_size_3>
 void conv2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
+   const sizetype in_dim1, const sizetype in_dim2, const sizetype in_dim3,
             const fixed (&weights)[weights_size_1][weights_size_2][weights_size_3][weights_size_4],
    const fixed (&bias)[bias_size],
             fixed (&output)[output_size_1][output_size_2][output_size_3]);
@@ -82738,25 +82694,28 @@ void conv2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
 template <const sizetype input_size_1, const sizetype input_size_2, const sizetype input_size_3,
             const sizetype output_size_1, const sizetype output_size_2, const sizetype output_size_3>
 void max_pooling2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
+    const sizetype in_dim1, const sizetype in_dim2, const sizetype in_dim3,
                 fixed (&output)[output_size_1][output_size_2][output_size_3]);
 
-template <const sizetype size_1, const sizetype size_2, const sizetype size_3>
-void array_3d_to_1d(fixed (&array)[size_1][size_2][size_3], fixed (&output)[size_1*size_2*size_3]);
+template <const sizetype size_1, const sizetype size_2, const sizetype size_3,
+  const sizetype size_4>
+void array_3d_to_1d(fixed (&array)[size_1][size_2][size_3], fixed (&output)[size_4],
+  const sizetype dim1, const sizetype dim2, const sizetype dim3);
 
-template <const sizetype input_size_1, const sizetype input_size_2, const sizetype input_size_3,
+template <const sizetype input_size,
             const sizetype weights_size_1, const sizetype weights_size_2,
             const sizetype bias_size,
             const sizetype output_size>
-void dense_relu(fixed (&input)[input_size_1][input_size_2][input_size_3],
+void dense_relu(fixed (&input)[input_size],
             const fixed (&weights)[weights_size_1][weights_size_2],
             const fixed (&bias)[bias_size],
             fixed (&output)[output_size]);
 
-template <const sizetype input_size_1, const sizetype input_size_2, const sizetype input_size_3,
+template <const sizetype input_size,
             const sizetype weights_size_1, const sizetype weights_size_2,
             const sizetype bias_size,
             const sizetype output_size>
-void dense(fixed (&input)[input_size_1][input_size_2][input_size_3],
+void dense(fixed (&input)[input_size],
             const fixed (&weights)[weights_size_1][weights_size_2],
             const fixed (&bias)[bias_size],
             fixed (&output)[output_size]);
@@ -82766,46 +82725,6 @@ void softmax(fixed (&array)[size]);
 
 __attribute__((sdx_kernel("infer", 0))) void infer(long_uint_stream &infer_input, long_uint_stream &infer_output);
 # 2 "../src/hls/cnn.cpp" 2
-
-
-
-
-template <const sizetype size>
-void float_to_fixed(float (&float_array)[size], fixed (&fixed_array)[size])
-{
- VITIS_LOOP_9_1: for (sizetype i = 0; i < size; i++)
- {
-  fixed_array[i] = float_array[i];
- }
-}
-
-
-
-
-template <const sizetype size>
-void fixed_to_float(fixed (&fixed_array)[size], float (&float_array)[size])
-{
- VITIS_LOOP_21_1: for (sizetype i = 0; i < size; i++)
- {
-  float_array[i] = fixed_array[i];
- }
-}
-# 53 "../src/hls/cnn.cpp"
-template <const sizetype size_1, const sizetype size_2, const sizetype size_3>
-void rescale_3d(fixed (&array)[size_1][size_2][size_3])
-{
- rescale1: for (sizetype i = 0; i < size_1; i++)
-    {
-  rescale2: for (sizetype ii = 0; ii < size_2; ii++)
-        {
-   rescale3: for (sizetype iii = 0; iii < size_3; iii++)
-            {
-                array[i][ii][iii] /= (fixed)255.0;
-            }
-        }
-    }
-}
-
 
 
 
@@ -82825,6 +82744,7 @@ template <const sizetype input_size_1, const sizetype input_size_2, const sizety
    const sizetype bias_size,
    const sizetype output_size_1, const sizetype output_size_2, const sizetype output_size_3>
 void conv2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
+   const sizetype in_dim1, const sizetype in_dim2, const sizetype in_dim3,
             const fixed (&weights)[weights_size_1][weights_size_2][weights_size_3][weights_size_4],
    const fixed (&bias)[bias_size],
             fixed (&output)[output_size_1][output_size_2][output_size_3])
@@ -82833,32 +82753,20 @@ void conv2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
 #pragma HLS array_partition variable=output_sum complete
 
 
- conv2d1: for (sizetype i = 1; i < input_size_1 - 1; i++)
+ conv2d1: for (sizetype i = 1; i < in_dim1 - 1; i++)
     {
 
-  conv2d2: for (sizetype ii = 1; ii < input_size_2 - 1; ii++)
+  conv2d2: for (sizetype ii = 1; ii < in_dim2 - 1; ii++)
         {
 
    conv2d3_1: for (sizetype iii = 0; iii < weights_size_4; iii++)
    {
 
-
     output_sum[iii] = bias[iii];
    }
 
-   conv2d3_2: for (sizetype iv = 0; iv < input_size_3; iv++)
+   conv2d3_2: for (sizetype iv = 0; iv < in_dim3; iv++)
    {
-# 119 "../src/hls/cnn.cpp"
-    fixed input_val_1;
-    fixed input_val_2;
-    fixed input_val_3;
-    fixed input_val_4;
-    fixed input_val_5;
-    fixed input_val_6;
-    fixed input_val_7;
-    fixed input_val_8;
-    fixed input_val_9;
-
     fixed input_val_1 = input[(i - 1)][(ii - 1)][iv];
     fixed input_val_2 = input[(i - 1)][(ii)][iv];
     fixed input_val_3 = input[(i - 1)][(ii + 1)][iv];
@@ -82871,9 +82779,7 @@ void conv2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
 
     conv2d6: for (sizetype iii = 0; iii < weights_size_4; iii++)
     {
-#pragma HLS unroll
-
- output_sum[iii] += input_val_1 * weights[0][0][iv][iii] +
+     output_sum[iii] += input_val_1 * weights[0][0][iv][iii] +
        input_val_2 * weights[0][1][iv][iii] +
        input_val_3 * weights[0][2][iv][iii] +
        input_val_4 * weights[1][0][iv][iii] +
@@ -82883,14 +82789,10 @@ void conv2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
        input_val_8 * weights[2][1][iv][iii] +
        input_val_9 * weights[2][2][iv][iii];
     }
-
-
-
    }
 
    conv2d3_3: for (sizetype iii = 0; iii < weights_size_4; iii++)
    {
-
 
     relu(output_sum[iii]);
     output[i - 1][ii - 1][iii] = output_sum[iii];
@@ -82905,16 +82807,17 @@ void conv2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
 template <const sizetype input_size_1, const sizetype input_size_2, const sizetype input_size_3,
             const sizetype output_size_1, const sizetype output_size_2, const sizetype output_size_3>
 void max_pooling2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
+    const sizetype in_dim1, const sizetype in_dim2, const sizetype in_dim3,
                 fixed (&output)[output_size_1][output_size_2][output_size_3])
 {
 
- max_pooling2d1: for (sizetype i = 0; i < input_size_1 - 1; i += 2)
+ max_pooling2d1: for (sizetype i = 0; i < in_dim1 - 1; i += 2)
     {
 
-  max_pooling2d2: for (sizetype ii = 0; ii < input_size_2 - 1; ii += 2)
+  max_pooling2d2: for (sizetype ii = 0; ii < in_dim2 - 1; ii += 2)
         {
 
-   max_pooling2d3: for (sizetype iii = 0; iii < input_size_3; iii++)
+   max_pooling2d3: for (sizetype iii = 0; iii < in_dim3; iii++)
             {
                 fixed maxVal = 0;
 
@@ -82935,14 +82838,20 @@ void max_pooling2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
         }
     }
 }
-# 218 "../src/hls/cnn.cpp"
-template <const sizetype size_1, const sizetype size_2, const sizetype size_3>
-void array_3d_to_1d(fixed (&array)[size_1][size_2][size_3], fixed (&output)[size_1*size_2*size_3])
+
+
+
+
+
+template <const sizetype size_1, const sizetype size_2, const sizetype size_3,
+  const sizetype size_4>
+void array_3d_to_1d(fixed (&array)[size_1][size_2][size_3], fixed (&output)[size_4],
+  const sizetype dim1, const sizetype dim2, const sizetype dim3)
 {
- VITIS_LOOP_221_1: for (sizetype i = 0; i < size_1; i++)
-  VITIS_LOOP_222_2: for (sizetype ii = 0; ii < size_2; ii++)
-   VITIS_LOOP_223_3: for (sizetype iii = 0; iii < size_3; iii++)
-    output[i*size_2*size_3 + ii*size_3 + iii] = array[i][ii][iii];
+ VITIS_LOOP_125_1: for (sizetype i = 0; i < dim1; i++)
+  VITIS_LOOP_126_2: for (sizetype ii = 0; ii < dim2; ii++)
+   VITIS_LOOP_127_3: for (sizetype iii = 0; iii < dim3; iii++)
+    output[i*dim2*dim3 + ii*dim3 + iii] = array[i][ii][iii];
 }
 
 
@@ -83020,7 +82929,7 @@ void softmax(fixed (&array)[size])
 __attribute__((sdx_kernel("infer", 0))) void infer(long_uint_stream &infer_input, long_uint_stream &infer_output)
 {
 #pragma HLS TOP name=infer
-# 300 "../src/hls/cnn.cpp"
+# 204 "../src/hls/cnn.cpp"
 
 
 #pragma HLS INTERFACE axis port=infer_input
@@ -83028,35 +82937,13 @@ __attribute__((sdx_kernel("infer", 0))) void infer(long_uint_stream &infer_input
 #pragma HLS INTERFACE s_axilite port=return
 
 
-
-
-
-
-
-#pragma HLS array_partition variable=layer_2_output cyclic factor=2 dim=2
-
-
-#pragma HLS array_partition variable=layer_3_output cyclic factor=9 dim=3
-#pragma HLS array_partition variable=layer_3_output cyclic factor=3 dim=2
-#pragma HLS array_partition variable=layer_3_output cyclic factor=3 dim=1
-
-
-#pragma HLS array_partition variable=layer_4_output cyclic factor=2 dim=2
-
-
-#pragma HLS array_partition variable=layer_5_output cyclic factor=9 dim=3
-#pragma HLS array_partition variable=layer_5_output cyclic factor=3 dim=2
-#pragma HLS array_partition variable=layer_5_output cyclic factor=3 dim=1
-
-
-#pragma HLS array_partition variable=layer_6_output cyclic factor=2 dim=2
-
-
-
-
-
-
-
+ static fixed cnn_input[60][60][1] = {};
+ static fixed convolution_output[58][58][32] = {};
+ static fixed max_pooling_output[29][29][32] = {};
+ static fixed dense_output_a[800] = {};
+ static fixed dense_output_b[64] = {};
+ static fixed cnn_output[4] = {};
+# 234 "../src/hls/cnn.cpp"
  long_uint_package pixel;
  uint8_t *pixel_pointer = (uint8_t*)&pixel.data;
  fixed *cnn_input_pointer = (fixed*)&cnn_input;
@@ -83075,74 +82962,75 @@ __attribute__((sdx_kernel("infer", 0))) void infer(long_uint_stream &infer_input
 
 
 
-    layer_2_conv2d: conv2d(cnn_input,
+    layer_2_conv2d: conv2d(cnn_input, 60, 60, 1,
             layer_2_weights,
             layer_2_bias,
-            layer_2_output);
+   convolution_output);
 
 
 
-    layer_3_max_pooling2d: max_pooling2d(layer_2_output,
-                layer_3_output);
+    layer_3_max_pooling2d: max_pooling2d(convolution_output, 58, 58, 32,
+      max_pooling_output);
 
 
 
-    layer_4_conv2d: conv2d(layer_3_output,
+    layer_4_conv2d: conv2d(max_pooling_output, 29, 29, 32,
             layer_4_weights,
             layer_4_bias,
-            layer_4_output);
+   convolution_output);
 
 
 
-    layer_5_max_pooling2d: max_pooling2d(layer_4_output,
-                layer_5_output);
+    layer_5_max_pooling2d: max_pooling2d(convolution_output, 27, 27, 32,
+      max_pooling_output);
 
 
 
-    layer_6_conv2d: conv2d(layer_5_output,
+    layer_6_conv2d: conv2d(max_pooling_output, 13, 13, 32,
             layer_6_weights,
             layer_6_bias,
-            layer_6_output);
+   convolution_output);
 
 
 
-    layer_7_max_pooling2d: max_pooling2d(layer_6_output,
-                layer_7_output);
+    layer_7_max_pooling2d: max_pooling2d(convolution_output, 11, 11, 32,
+      max_pooling_output);
 
 
 
-    layer_8_flatten: array_3d_to_1d(layer_7_output, layer_8_output);
+    layer_8_flatten: array_3d_to_1d(max_pooling_output, dense_output_a,
+      5, 5, 32);
 
 
 
-    layer_9_dense_relu: dense_relu(layer_8_output,
+    layer_9_dense_relu: dense_relu(dense_output_a,
             layer_9_weights,
             layer_9_bias,
-            layer_9_output);
+   dense_output_b);
 
 
-    layer_10_dense_relu: dense_relu(layer_9_output,
+    layer_10_dense_relu: dense_relu(dense_output_b,
             layer_10_weights,
             layer_10_bias,
-            layer_10_output);
+   dense_output_a);
 
 
 
-    layer_11_dense_relu: dense_relu(layer_10_output,
+    layer_11_dense_relu: dense_relu(dense_output_a,
             layer_11_weights,
             layer_11_bias,
-            layer_11_output);
+   dense_output_b);
 
 
 
-    layer_12_dense: dense(layer_11_output,
+    layer_12_dense: dense(dense_output_b,
             layer_12_weights,
             layer_12_bias,
-            layer_12_output);
+   cnn_output);
 
 
 
-    softmax_output: softmax(layer_12_output);
+    softmax_output: softmax(cnn_output);
 
 
 
@@ -83150,8 +83038,10 @@ __attribute__((sdx_kernel("infer", 0))) void infer(long_uint_stream &infer_input
     float_uint probability;
     send_result: for (int i = 0; i < 4; i++)
     {
-     probability.float_val = layer_12_output[i];
+     probability.float_val = cnn_output[i];
      output_package.data = probability.uint_val;
+     if (i == 4 -1)
+      output_package.last = 1;
      infer_output << output_package;
     }
 

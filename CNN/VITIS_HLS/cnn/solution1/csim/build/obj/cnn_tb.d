@@ -25,4 +25,4 @@ obj/cnn_tb.o: ../../../../../src/hls/cnn_tb.cpp \
  /tools/Xilinx/Vitis_HLS/2020.2/include/ap_fixed_ref.h \
  /tools/Xilinx/Vitis_HLS/2020.2/include/ap_fixed_special.h \
  ../../../../../src/hls/types.hpp ../../../../../src/hls/layerInfo.hpp \
- ../../../../../src/hls/testImage.hpp
+ ../../../../../src/hls/testImage.h

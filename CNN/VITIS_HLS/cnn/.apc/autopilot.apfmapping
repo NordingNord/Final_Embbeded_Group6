@@ -8,6 +8,6 @@
   </source>
   <testbench>
     <originFiles name="cnn_tb.cpp" path="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/cnn_tb.cpp"/>
-    <originFiles name="testImage.hpp" path="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/testImage.hpp"/>
+    <originFiles name="testImage.h" path="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/testImage.h"/>
   </testbench>
 </autopilotfilemapping:AutoPilotFileMapping>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="infer" xd:componentRef="infer" xd:initiationInterval="x" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="s_axi_control" xd:busTypeRef="axilite" xd:type="generic_axi_lite" xd:offset="0x0"/>
+  <xd:arg xd:name="infer_input.data" xd:originalName="infer_input" xd:direction="in" xd:interfaceRef="infer_input" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="infer_input.keep" xd:originalName="infer_input" xd:direction="in" xd:interfaceRef="infer_input" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="infer_input.strb" xd:originalName="infer_input" xd:direction="in" xd:interfaceRef="infer_input" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="infer_input.user" xd:originalName="infer_input" xd:direction="in" xd:interfaceRef="infer_input" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="infer_input.last" xd:originalName="infer_input" xd:direction="in" xd:interfaceRef="infer_input" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="infer_input.id" xd:originalName="infer_input" xd:direction="in" xd:interfaceRef="infer_input" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="infer_input.dest" xd:originalName="infer_input" xd:direction="in" xd:interfaceRef="infer_input" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="infer_output.data" xd:originalName="infer_output" xd:direction="out" xd:interfaceRef="infer_output" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="infer_output.keep" xd:originalName="infer_output" xd:direction="out" xd:interfaceRef="infer_output" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="infer_output.strb" xd:originalName="infer_output" xd:direction="out" xd:interfaceRef="infer_output" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="infer_output.user" xd:originalName="infer_output" xd:direction="out" xd:interfaceRef="infer_output" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="infer_output.last" xd:originalName="infer_output" xd:direction="out" xd:interfaceRef="infer_output" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="infer_output.id" xd:originalName="infer_output" xd:direction="out" xd:interfaceRef="infer_output" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="infer_output.dest" xd:originalName="infer_output" xd:direction="out" xd:interfaceRef="infer_output" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:latencyEstimates xd:best-case="undef" xd:worst-case="undef" xd:average-case="undef"/>
+  <xd:resourceEstimates xd:LUT="32679" xd:FF="40676" xd:BRAM="225" xd:DSP="712"/>
+</xd:acceleratorMap>

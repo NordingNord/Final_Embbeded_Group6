@@ -1,72 +1,6 @@
 #include "cnn.hpp"
 
 /*
- * Convert float array to fixed array
- */
-template <const sizetype size>
-void float_to_fixed(float (&float_array)[size], fixed (&fixed_array)[size])
-{
-	for (sizetype i = 0; i < size; i++)
-	{
-		fixed_array[i] = float_array[i];
-	}
-}
-
-/*
- * Convert fixed array to float array
- */
-template <const sizetype size>
-void fixed_to_float(fixed (&fixed_array)[size], float (&float_array)[size])
-{
-	for (sizetype i = 0; i < size; i++)
-	{
-		float_array[i] = fixed_array[i];
-	}
-}
-
-// void set3DFloatArray(const int array_dims[3], float* array, float value)
-// {
-// 	set3DFloatArray1: for (int i = 0; i < array_dims[0]; i++)
-//     {
-// 		set3DFloatArray1_2: for (int ii = 0; ii < array_dims[1]; ii++)
-//         {
-// 			set3DFloatArray1_3: for (int iii = 0; iii < array_dims[2]; iii++)
-//             {
-//                 array[i*array_dims[1]*array_dims[2] + ii*array_dims[2] + iii] = value;
-//             }
-//         }
-//     }
-// }
-
-// void set1DFloatArray(const int* array_length, float* array, float value)
-// {
-// 	set1DFloatArray1: for (int i = 0; i < array_length[0]; i++)
-//     {
-//         array[i] = value;
-//     }
-    
-// }
-
-/*
- * Rescale 3d array
- */
-template <const sizetype size_1, const sizetype size_2, const sizetype size_3>
-void rescale_3d(fixed (&array)[size_1][size_2][size_3])
-{
-	rescale1: for (sizetype i = 0; i < size_1; i++)
-    {
-		rescale2: for (sizetype ii = 0; ii < size_2; ii++)
-        {
-			rescale3: for (sizetype iii = 0; iii < size_3; iii++)
-            {
-                array[i][ii][iii] /= (fixed)255.0;
-            }
-        }
-    }    
-}
-
-
-/*
 *   Set value to 0 if negative
 */
 void relu(fixed &input)
@@ -84,6 +18,7 @@ template <const sizetype input_size_1, const sizetype input_size_2, const sizety
 			const sizetype bias_size,
 			const sizetype output_size_1, const sizetype output_size_2, const sizetype output_size_3>
 void conv2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
+			const sizetype in_dim1, const sizetype in_dim2, const sizetype in_dim3,
             const fixed (&weights)[weights_size_1][weights_size_2][weights_size_3][weights_size_4],
 			const fixed (&bias)[bias_size],
             fixed (&output)[output_size_1][output_size_2][output_size_3])
@@ -92,40 +27,20 @@ void conv2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
 #pragma HLS array_partition variable=output_sum complete
     // Convolution
     // Input rows
-	conv2d1: for (sizetype i = 1; i < input_size_1 - 1; i++)
+	conv2d1: for (sizetype i = 1; i < in_dim1 - 1; i++)
     {
         // Input columns
-		conv2d2: for (sizetype ii = 1; ii < input_size_2 - 1; ii++)
+		conv2d2: for (sizetype ii = 1; ii < in_dim2 - 1; ii++)
         {
 			// Kernel number
 			conv2d3_1: for (sizetype iii = 0; iii < weights_size_4; iii++)
 			{
-//#pragma HLS unroll factor=2
 				// Add bias
 				output_sum[iii] = bias[iii];
 			}
 			// Input and kernel channels
-			conv2d3_2: for (sizetype iv = 0; iv < input_size_3; iv++)
+			conv2d3_2: for (sizetype iv = 0; iv < in_dim3; iv++)
 			{
-				//// Kernel rows
-				//conv2d4: for (int v = -1; v < 2; v++)
-				//{
-//#pragma HLS unroll factor=3
-				//	// Kernel cols
-				//	conv2d5: for (int vi = -1; vi < 2; vi++)
-				//	{
-				//		fixed input_val = input[(i + v)][(ii + vi)][iv];
-
-				fixed input_val_1;
-				fixed input_val_2;
-				fixed input_val_3;
-				fixed input_val_4;
-				fixed input_val_5;
-				fixed input_val_6;
-				fixed input_val_7;
-				fixed input_val_8;
-				fixed input_val_9;
-
 				fixed input_val_1 = input[(i - 1)][(ii - 1)][iv];
 				fixed input_val_2 = input[(i - 1)][(ii)][iv];
 				fixed input_val_3 = input[(i - 1)][(ii + 1)][iv];
@@ -138,8 +53,6 @@ void conv2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
 				// Kernel number
 				conv2d6: for (sizetype iii = 0; iii < weights_size_4; iii++)
 				{
-#pragma HLS unroll
-					//output_sum[iii] += input_val * weights[(v + 1)][(vi + 1)][iv][iii];
 					output_sum[iii] += input_val_1	* 	weights[0][0][iv][iii] +
 							input_val_2 *	weights[0][1][iv][iii] +
 							input_val_3 *	weights[0][2][iv][iii] +
@@ -150,14 +63,10 @@ void conv2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
 							input_val_8 *	weights[2][1][iv][iii] +
 							input_val_9 *	weights[2][2][iv][iii];
 				}
-
-				//	}
-				//}
 			}
 			// Kernel number
 			conv2d3_3: for (sizetype iii = 0; iii < weights_size_4; iii++)
 			{
-//#pragma HLS unroll factor=2
 				// Apply relu activiation function
 				relu(output_sum[iii]);
 				output[i - 1][ii - 1][iii] = output_sum[iii];
@@ -172,16 +81,17 @@ void conv2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
 template <const sizetype input_size_1, const sizetype input_size_2, const sizetype input_size_3,
             const sizetype output_size_1, const sizetype output_size_2, const sizetype output_size_3>
 void max_pooling2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
+				const sizetype in_dim1, const sizetype in_dim2, const sizetype in_dim3,
                 fixed (&output)[output_size_1][output_size_2][output_size_3])
 {
     // Input rows
-	max_pooling2d1: for (sizetype i = 0; i < input_size_1 - 1; i += 2)
+	max_pooling2d1: for (sizetype i = 0; i < in_dim1 - 1; i += 2)
     {
         // Input cols
-		max_pooling2d2: for (sizetype ii = 0; ii < input_size_2 - 1; ii += 2)
+		max_pooling2d2: for (sizetype ii = 0; ii < in_dim2 - 1; ii += 2)
         {
             // Input channels
-			max_pooling2d3: for (sizetype iii = 0; iii < input_size_3; iii++)
+			max_pooling2d3: for (sizetype iii = 0; iii < in_dim3; iii++)
             {
                 fixed maxVal = 0;
                 // Filter rows
@@ -203,25 +113,19 @@ void max_pooling2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
     }
 }
 
-// /*
-// * 	Get size of 3d array in 1d form
-// */
-// template <const sizetype size_1, const sizetype size_2, const sizetype size_3>
-// sizetype size_of_array(fixed (&array)[size_1][size_2][size_3])
-// {
-// 	return size_1*size_2*size_3;
-// }
 
 /*
 * 	Convert 3d array to 1d array
 */
-template <const sizetype size_1, const sizetype size_2, const sizetype size_3>
-void array_3d_to_1d(fixed (&array)[size_1][size_2][size_3], fixed (&output)[size_1*size_2*size_3])
+template <const sizetype size_1, const sizetype size_2, const sizetype size_3,
+		const sizetype size_4>
+void array_3d_to_1d(fixed (&array)[size_1][size_2][size_3], fixed (&output)[size_4],
+		const sizetype dim1, const sizetype dim2, const sizetype dim3)
 {
-	for (sizetype i = 0; i < size_1; i++)
-		for (sizetype ii = 0; ii < size_2; ii++)
-			for (sizetype iii = 0; iii < size_3; iii++)
-				output[i*size_2*size_3 + ii*size_3 + iii] = array[i][ii][iii];
+	for (sizetype i = 0; i < dim1; i++)
+		for (sizetype ii = 0; ii < dim2; ii++)
+			for (sizetype iii = 0; iii < dim3; iii++)
+				output[i*dim2*dim3 + ii*dim3 + iii] = array[i][ii][iii];
 }
 
 
@@ -303,32 +207,26 @@ void infer(long_uint_stream &infer_input, long_uint_stream &infer_output)
 #pragma HLS INTERFACE axis port=infer_output
 #pragma HLS INTERFACE s_axilite port=return
 
+	// Define arrays
+	static fixed cnn_input[input_dim1][input_dim2][input_dim3] = {};
+	static fixed convolution_output[layer_2_dim1][layer_2_dim2][layer_2_dim3] = {};
+	static fixed max_pooling_output[layer_3_dim1][layer_3_dim2][layer_3_dim3] = {};
+	static fixed dense_output_a[layer_8_dim1] = {};
+	static fixed dense_output_b[layer_9_dim1] = {};
+	static fixed cnn_output[output_dim1] = {};
+
 	// Partition arrays
 //#pragma HLS array_partition variable=cnn_input complete dim=3
 //#pragma HLS array_partition variable=cnn_input cyclic factor=3 dim=2
-//#pragma HLS array_partition variable=cnn_input cyclic factor=3 dim=1
+//#pragma HLS array_partition variable=cnn_input cyclic factor=16 dim=1
 
 //#pragma HLS array_partition variable=layer_2_output cyclic factor=2 dim=3
-#pragma HLS array_partition variable=layer_2_output cyclic factor=2 dim=2
+//#pragma HLS array_partition variable=convolution_output cyclic factor=2 dim=2
 //#pragma HLS array_partition variable=layer_2_output cyclic factor=2 dim=1
 
-#pragma HLS array_partition variable=layer_3_output cyclic factor=9 dim=3
-#pragma HLS array_partition variable=layer_3_output cyclic factor=3 dim=2
-#pragma HLS array_partition variable=layer_3_output cyclic factor=3 dim=1
-
-//#pragma HLS array_partition variable=layer_4_output cyclic factor=2 dim=3
-#pragma HLS array_partition variable=layer_4_output cyclic factor=2 dim=2
-//#pragma HLS array_partition variable=layer_4_output cyclic factor=3 dim=1
-
-#pragma HLS array_partition variable=layer_5_output cyclic factor=9 dim=3
-#pragma HLS array_partition variable=layer_5_output cyclic factor=3 dim=2
-#pragma HLS array_partition variable=layer_5_output cyclic factor=3 dim=1
-
-//#pragma HLS array_partition variable=layer_6_output cyclic factor=2 dim=3
-#pragma HLS array_partition variable=layer_6_output cyclic factor=2 dim=2
-//#pragma HLS array_partition variable=layer_6_output cyclic factor=3 dim=1
-
-//#pragma HLS array_partition variable=layer_7_output block factor=2 dim=3
+//#pragma HLS array_partition variable=max_pooling_output cyclic factor=9 dim=3
+//#pragma HLS array_partition variable=max_pooling_output cyclic factor=3 dim=2
+//#pragma HLS array_partition variable=max_pooling_output cyclic factor=3 dim=1
 
 
     // Load image from stream to input array
@@ -336,7 +234,7 @@ void infer(long_uint_stream &infer_input, long_uint_stream &infer_output)
 	long_uint_package pixel;
 	uint8_t *pixel_pointer = (uint8_t*)&pixel.data;
 	fixed *cnn_input_pointer = (fixed*)&cnn_input;
-    get_input1: for (sizetype i = 0; i < input_dim_1*input_dim_2*input_dim_3; i += 4)
+    get_input1: for (sizetype i = 0; i < input_dim1*input_dim2*input_dim3; i += 4)
     {
 		infer_input >> pixel;
 
@@ -351,83 +249,86 @@ void infer(long_uint_stream &infer_input, long_uint_stream &infer_output)
 
 
     // Layer 2 convolution
-    layer_2_conv2d: conv2d(cnn_input,
+    layer_2_conv2d: conv2d(cnn_input, input_dim1, input_dim2, input_dim3,
             layer_2_weights,
             layer_2_bias,
-            layer_2_output);
+			convolution_output);
     
 
     // Layer 3 max pooling
-    layer_3_max_pooling2d: max_pooling2d(layer_2_output,
-                layer_3_output);
+    layer_3_max_pooling2d: max_pooling2d(convolution_output, layer_2_dim1, layer_2_dim2, layer_2_dim3,
+    		max_pooling_output);
 
 
     // Layer 4 convolution
-    layer_4_conv2d: conv2d(layer_3_output,
+    layer_4_conv2d: conv2d(max_pooling_output, layer_3_dim1, layer_3_dim2, layer_3_dim3,
             layer_4_weights,
             layer_4_bias,
-            layer_4_output);
+			convolution_output);
 
 
     // Layer 5 max pooling
-    layer_5_max_pooling2d: max_pooling2d(layer_4_output,
-                layer_5_output);
+    layer_5_max_pooling2d: max_pooling2d(convolution_output, layer_4_dim1, layer_4_dim2, layer_4_dim3,
+    		max_pooling_output);
 
 
     // Layer 6 convolution
-    layer_6_conv2d: conv2d(layer_5_output,
+    layer_6_conv2d: conv2d(max_pooling_output, layer_5_dim1, layer_5_dim2, layer_5_dim3,
             layer_6_weights,
             layer_6_bias,
-            layer_6_output);
+			convolution_output);
 
 
     // Layer 7 max pooling
-    layer_7_max_pooling2d: max_pooling2d(layer_6_output,
-                layer_7_output);
+    layer_7_max_pooling2d: max_pooling2d(convolution_output, layer_6_dim1, layer_6_dim2, layer_6_dim3,
+    		max_pooling_output);
 
 
     // Layer 8 flatten
-    layer_8_flatten: array_3d_to_1d(layer_7_output, layer_8_output);
+    layer_8_flatten: array_3d_to_1d(max_pooling_output, dense_output_a,
+    		layer_7_dim1, layer_7_dim2, layer_7_dim3);
 
 
     // Layer 9 dense
-    layer_9_dense_relu: dense_relu(layer_8_output,
+    layer_9_dense_relu: dense_relu(dense_output_a,
             layer_9_weights,
             layer_9_bias,
-            layer_9_output);
+			dense_output_b);
 
     // Layer 10 dense
-    layer_10_dense_relu: dense_relu(layer_9_output,
+    layer_10_dense_relu: dense_relu(dense_output_b,
             layer_10_weights,
             layer_10_bias,
-            layer_10_output);
+			dense_output_a);
 
 
     // Layer 11 dense
-    layer_11_dense_relu: dense_relu(layer_10_output,
+    layer_11_dense_relu: dense_relu(dense_output_a,
             layer_11_weights,
             layer_11_bias,
-            layer_11_output);
+			dense_output_b);
 
 	
     // Layer 12 dense
-    layer_12_dense: dense(layer_11_output,
+    layer_12_dense: dense(dense_output_b,
             layer_12_weights,
             layer_12_bias,
-            layer_12_output);
+			cnn_output);
 
 
     // Softmax the output
-    softmax_output: softmax(layer_12_output);
+    softmax_output: softmax(cnn_output);
 
 
     //Send result
     long_uint_package output_package;
     float_uint probability;
-    send_result: for (int i = 0; i < output_dim_1; i++)
+    send_result: for (int i = 0; i < output_dim1; i++)
     {
-    	probability.float_val = layer_12_output[i];
+    	probability.float_val = cnn_output[i];
     	output_package.data = probability.uint_val;
+    	if (i == output_dim1-1)
+    		output_package.last = 1;
     	infer_output << output_package;
     }
 

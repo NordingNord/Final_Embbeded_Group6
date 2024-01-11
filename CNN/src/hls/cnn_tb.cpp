@@ -9,14 +9,14 @@
 #include "layerInfo.hpp"
 #endif
 
-#include "testImage.hpp"
+#include "testImage.h"
 
 void infer(long_uint_stream &infer_input, long_uint_stream &infer_output);
 
 uint image_num = 0;
 
-int test_using_image(int image_array[input_dim_1][input_dim_2][input_dim_3],
-		float prediction_array[output_dim_1])
+int test_using_image(int image_array[input_dim1][input_dim2][input_dim3],
+		float prediction_array[output_dim1])
 {
 	printf("\nImage: %d\n", image_num++);
 	long_uint_stream stream_in;
@@ -25,7 +25,7 @@ int test_using_image(int image_array[input_dim_1][input_dim_2][input_dim_3],
 	long_uint_package input_package;
 	uint8_t *input_package_pointer = (uint8_t*)&input_package.data;
 	int *image_pointer = (int*)image_array;
-	for (int i = 0; i < input_dim_1*input_dim_2*input_dim_3; i += 4)
+	for (int i = 0; i < input_dim1*input_dim2*input_dim3; i += 4)
 	{
 		input_package_pointer[0] = (uint8_t)image_pointer[i];
 		input_package_pointer[1] = (uint8_t)image_pointer[i+1];
@@ -37,7 +37,7 @@ int test_using_image(int image_array[input_dim_1][input_dim_2][input_dim_3],
 
 	infer(stream_in, stream_out);
 
-	float_uint results[output_dim_1];
+	float_uint results[output_dim1];
 	long_uint_package output_package;
 
 	// Check results
@@ -45,7 +45,9 @@ int test_using_image(int image_array[input_dim_1][input_dim_2][input_dim_3],
 	bool type_same = true;
 	int result_type = 0;
 	int prediction_type = 0;
-	for (int i = 0; i < output_dim_1; i++)
+	int i = 0;
+	bool last = false;
+	while (last == false)
 	{
 		stream_out >> output_package;
 		results[i].uint_val = output_package.data;
@@ -62,6 +64,8 @@ int test_using_image(int image_array[input_dim_1][input_dim_2][input_dim_3],
 		{
 			prediction_type = i;
 		}
+		last = output_package.last;
+		i++;
 	}
 
 	printf("type: %d	| should be: %d\n", result_type, prediction_type);
