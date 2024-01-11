@@ -7,7 +7,7 @@
 
 module infer_ddiv_64ns_64ns_64_22_no_dsp_1
 #(parameter
-    ID         = 986,
+    ID         = 100,
     NUM_STAGE  = 22,
     din0_WIDTH = 64,
     din1_WIDTH = 64,

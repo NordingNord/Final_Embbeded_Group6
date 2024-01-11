@@ -37,69 +37,53 @@
          <obj_property name="Render_Data">/apatb_infer_top/AESL_inst_infer//AESL_inst_infer_activity.dataflowTxWaveData.Cycles</obj_property>
          <obj_property name="Value_Data">/apatb_infer_top/AESL_inst_infer//AESL_inst_infer_activity.dataflowTxWaveData.OutStanding</obj_property>
          <obj_property name="Detail_Data">/apatb_infer_top/AESL_inst_infer//AESL_inst_infer_activity.dataflowTxTooltipData</obj_property>
-         <wvobject type="group" fp_name="/apatb_infer_top/AESL_inst_infer/grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_3742/grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_3742_activity">
-            <obj_property name="label">grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_3742_activity</obj_property>
+         <wvobject type="group" fp_name="/apatb_infer_top/AESL_inst_infer/grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_11668/grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_11668_activity">
+            <obj_property name="label">grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_11668_activity</obj_property>
             <obj_property name="DisplayName">label</obj_property>
             <obj_property name="UseFullPath">true</obj_property>
-            <obj_property name="ElementShortName">grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_3742_activity</obj_property>
-            <obj_property name="ObjectShortName">grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_3742_activity</obj_property>
+            <obj_property name="ElementShortName">grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_11668_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_11668_activity</obj_property>
             <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
             <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
             <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
             <obj_property name="UseCustomSignalColor">true</obj_property>
             <obj_property name="CustomSignalColor">turquoise</obj_property>
             <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
-            <obj_property name="Render_Data">/apatb_infer_top/AESL_inst_infer/grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_3742/grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_3742_activity.dataflowTxWaveData.Cycles</obj_property>
-            <obj_property name="Value_Data">/apatb_infer_top/AESL_inst_infer/grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_3742/grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_3742_activity.dataflowTxWaveData.OutStanding</obj_property>
-            <obj_property name="Detail_Data">/apatb_infer_top/AESL_inst_infer/grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_3742/grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_3742_activity.dataflowTxTooltipData</obj_property>
+            <obj_property name="Render_Data">/apatb_infer_top/AESL_inst_infer/grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_11668/grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_11668_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_infer_top/AESL_inst_infer/grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_11668/grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_11668_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_infer_top/AESL_inst_infer/grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_11668/grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_11668_activity.dataflowTxTooltipData</obj_property>
          </wvobject>
-         <wvobject type="group" fp_name="/apatb_infer_top/AESL_inst_infer/grp_conv2d_unsigned_short_60_unsigned_short_60_unsigned_short_1_unsigned_short_3_unsigned_short_3_unsigned_short_1_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_4623/grp_conv2d_unsigned_short_60_unsigned_short_60_unsigned_short_1_unsigned_short_3_unsigned_short_3_unsigned_short_1_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_4623_activity">
-            <obj_property name="label">grp_conv2d_unsigned_short_60_unsigned_short_60_unsigned_short_1_unsigned_short_3_unsigned_short_3_unsigned_short_1_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_4623_activity</obj_property>
+         <wvobject type="group" fp_name="/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_11783/grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_11783_activity">
+            <obj_property name="label">grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_11783_activity</obj_property>
             <obj_property name="DisplayName">label</obj_property>
             <obj_property name="UseFullPath">true</obj_property>
-            <obj_property name="ElementShortName">grp_conv2d_unsigned_short_60_unsigned_short_60_unsigned_short_1_unsigned_short_3_unsigned_short_3_unsigned_short_1_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_4623_activity</obj_property>
-            <obj_property name="ObjectShortName">grp_conv2d_unsigned_short_60_unsigned_short_60_unsigned_short_1_unsigned_short_3_unsigned_short_3_unsigned_short_1_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_4623_activity</obj_property>
+            <obj_property name="ElementShortName">grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_11783_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_11783_activity</obj_property>
             <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
             <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
             <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
             <obj_property name="UseCustomSignalColor">true</obj_property>
             <obj_property name="CustomSignalColor">turquoise</obj_property>
             <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
-            <obj_property name="Render_Data">/apatb_infer_top/AESL_inst_infer/grp_conv2d_unsigned_short_60_unsigned_short_60_unsigned_short_1_unsigned_short_3_unsigned_short_3_unsigned_short_1_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_4623/grp_conv2d_unsigned_short_60_unsigned_short_60_unsigned_short_1_unsigned_short_3_unsigned_short_3_unsigned_short_1_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_4623_activity.dataflowTxWaveData.Cycles</obj_property>
-            <obj_property name="Value_Data">/apatb_infer_top/AESL_inst_infer/grp_conv2d_unsigned_short_60_unsigned_short_60_unsigned_short_1_unsigned_short_3_unsigned_short_3_unsigned_short_1_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_4623/grp_conv2d_unsigned_short_60_unsigned_short_60_unsigned_short_1_unsigned_short_3_unsigned_short_3_unsigned_short_1_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_4623_activity.dataflowTxWaveData.OutStanding</obj_property>
-            <obj_property name="Detail_Data">/apatb_infer_top/AESL_inst_infer/grp_conv2d_unsigned_short_60_unsigned_short_60_unsigned_short_1_unsigned_short_3_unsigned_short_3_unsigned_short_1_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_4623/grp_conv2d_unsigned_short_60_unsigned_short_60_unsigned_short_1_unsigned_short_3_unsigned_short_3_unsigned_short_1_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_4623_activity.dataflowTxTooltipData</obj_property>
+            <obj_property name="Render_Data">/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_11783/grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_11783_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_11783/grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_11783_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_11783/grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_11783_activity.dataflowTxTooltipData</obj_property>
          </wvobject>
-         <wvobject type="group" fp_name="/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_4631/grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_4631_activity">
-            <obj_property name="label">grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_4631_activity</obj_property>
+         <wvobject type="group" fp_name="/apatb_infer_top/AESL_inst_infer/grp_exp_40_32_s_fu_11801/grp_exp_40_32_s_fu_11801_activity">
+            <obj_property name="label">grp_exp_40_32_s_fu_11801_activity</obj_property>
             <obj_property name="DisplayName">label</obj_property>
             <obj_property name="UseFullPath">true</obj_property>
-            <obj_property name="ElementShortName">grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_4631_activity</obj_property>
-            <obj_property name="ObjectShortName">grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_4631_activity</obj_property>
+            <obj_property name="ElementShortName">grp_exp_40_32_s_fu_11801_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_exp_40_32_s_fu_11801_activity</obj_property>
             <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
             <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
             <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
             <obj_property name="UseCustomSignalColor">true</obj_property>
             <obj_property name="CustomSignalColor">turquoise</obj_property>
             <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
-            <obj_property name="Render_Data">/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_4631/grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_4631_activity.dataflowTxWaveData.Cycles</obj_property>
-            <obj_property name="Value_Data">/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_4631/grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_4631_activity.dataflowTxWaveData.OutStanding</obj_property>
-            <obj_property name="Detail_Data">/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_4631/grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_4631_activity.dataflowTxTooltipData</obj_property>
-         </wvobject>
-         <wvobject type="group" fp_name="/apatb_infer_top/AESL_inst_infer/grp_exp_40_32_s_fu_4647/grp_exp_40_32_s_fu_4647_activity">
-            <obj_property name="label">grp_exp_40_32_s_fu_4647_activity</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <obj_property name="UseFullPath">true</obj_property>
-            <obj_property name="ElementShortName">grp_exp_40_32_s_fu_4647_activity</obj_property>
-            <obj_property name="ObjectShortName">grp_exp_40_32_s_fu_4647_activity</obj_property>
-            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
-            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
-            <obj_property name="UseCustomSignalColor">true</obj_property>
-            <obj_property name="CustomSignalColor">turquoise</obj_property>
-            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
-            <obj_property name="Render_Data">/apatb_infer_top/AESL_inst_infer/grp_exp_40_32_s_fu_4647/grp_exp_40_32_s_fu_4647_activity.dataflowTxWaveData.Cycles</obj_property>
-            <obj_property name="Value_Data">/apatb_infer_top/AESL_inst_infer/grp_exp_40_32_s_fu_4647/grp_exp_40_32_s_fu_4647_activity.dataflowTxWaveData.OutStanding</obj_property>
-            <obj_property name="Detail_Data">/apatb_infer_top/AESL_inst_infer/grp_exp_40_32_s_fu_4647/grp_exp_40_32_s_fu_4647_activity.dataflowTxTooltipData</obj_property>
+            <obj_property name="Render_Data">/apatb_infer_top/AESL_inst_infer/grp_exp_40_32_s_fu_11801/grp_exp_40_32_s_fu_11801_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_infer_top/AESL_inst_infer/grp_exp_40_32_s_fu_11801/grp_exp_40_32_s_fu_11801_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_infer_top/AESL_inst_infer/grp_exp_40_32_s_fu_11801/grp_exp_40_32_s_fu_11801_activity.dataflowTxTooltipData</obj_property>
          </wvobject>
       </wvobject>
    </wvobject>
@@ -110,21 +94,17 @@
    <wvobject type="group" fp_name="AESL_inst_infer_group">
       <obj_property name="label">AESL_inst_infer</obj_property>
       <obj_property name="DisplayName">label</obj_property>
-      <wvobject type="protoinst" fp_name="/apatb_infer_top/AESL_inst_infer/grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_3742/grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_3742_activity">
-         <obj_property name="ElementShortName">grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_3742_activity</obj_property>
-         <obj_property name="ObjectShortName">grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_3742_activity</obj_property>
+      <wvobject type="protoinst" fp_name="/apatb_infer_top/AESL_inst_infer/grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_11668/grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_11668_activity">
+         <obj_property name="ElementShortName">grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_11668_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_11668_activity</obj_property>
       </wvobject>
-      <wvobject type="protoinst" fp_name="/apatb_infer_top/AESL_inst_infer/grp_conv2d_unsigned_short_60_unsigned_short_60_unsigned_short_1_unsigned_short_3_unsigned_short_3_unsigned_short_1_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_4623/grp_conv2d_unsigned_short_60_unsigned_short_60_unsigned_short_1_unsigned_short_3_unsigned_short_3_unsigned_short_1_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_4623_activity">
-         <obj_property name="ElementShortName">grp_conv2d_unsigned_short_60_unsigned_short_60_unsigned_short_1_unsigned_short_3_unsigned_short_3_unsigned_short_1_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_4623_activity</obj_property>
-         <obj_property name="ObjectShortName">grp_conv2d_unsigned_short_60_unsigned_short_60_unsigned_short_1_unsigned_short_3_unsigned_short_3_unsigned_short_1_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_4623_activity</obj_property>
+      <wvobject type="protoinst" fp_name="/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_11783/grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_11783_activity">
+         <obj_property name="ElementShortName">grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_11783_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_11783_activity</obj_property>
       </wvobject>
-      <wvobject type="protoinst" fp_name="/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_4631/grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_4631_activity">
-         <obj_property name="ElementShortName">grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_4631_activity</obj_property>
-         <obj_property name="ObjectShortName">grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_4631_activity</obj_property>
-      </wvobject>
-      <wvobject type="protoinst" fp_name="/apatb_infer_top/AESL_inst_infer/grp_exp_40_32_s_fu_4647/grp_exp_40_32_s_fu_4647_activity">
-         <obj_property name="ElementShortName">grp_exp_40_32_s_fu_4647_activity</obj_property>
-         <obj_property name="ObjectShortName">grp_exp_40_32_s_fu_4647_activity</obj_property>
+      <wvobject type="protoinst" fp_name="/apatb_infer_top/AESL_inst_infer/grp_exp_40_32_s_fu_11801/grp_exp_40_32_s_fu_11801_activity">
+         <obj_property name="ElementShortName">grp_exp_40_32_s_fu_11801_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_exp_40_32_s_fu_11801_activity</obj_property>
       </wvobject>
       <wvobject type="group" fp_name="AESL_inst_infer_Handshake_group">
          <obj_property name="label">Block-level handshake</obj_property>
@@ -142,81 +122,61 @@
             <obj_property name="ObjectShortName">ap_done</obj_property>
          </wvobject>
       </wvobject>
-      <wvobject type="group" fp_name="grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_3742_group">
-         <obj_property name="label">grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_3742</obj_property>
+      <wvobject type="group" fp_name="grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_11668_group">
+         <obj_property name="label">grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_11668</obj_property>
          <obj_property name="DisplayName">label</obj_property>
-         <wvobject type="group" fp_name="grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_3742_Handshake_group">
+         <wvobject type="group" fp_name="grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_11668_Handshake_group">
             <obj_property name="label">Block-level handshake</obj_property>
             <obj_property name="DisplayName">label</obj_property>
-            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_3742/ap_start">
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_11668/ap_start">
                <obj_property name="ElementShortName">ap_start</obj_property>
                <obj_property name="ObjectShortName">ap_start</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_3742/ap_ready">
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_11668/ap_ready">
                <obj_property name="ElementShortName">ap_ready</obj_property>
                <obj_property name="ObjectShortName">ap_ready</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_3742/ap_done">
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_11668/ap_done">
                <obj_property name="ElementShortName">ap_done</obj_property>
                <obj_property name="ObjectShortName">ap_done</obj_property>
             </wvobject>
          </wvobject>
       </wvobject>
-      <wvobject type="group" fp_name="grp_conv2d_unsigned_short_60_unsigned_short_60_unsigned_short_1_unsigned_short_3_unsigned_short_3_unsigned_short_1_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_4623_group">
-         <obj_property name="label">grp_conv2d_unsigned_short_60_unsigned_short_60_unsigned_short_1_unsigned_short_3_unsigned_short_3_unsigned_short_1_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_4623</obj_property>
+      <wvobject type="group" fp_name="grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_11783_group">
+         <obj_property name="label">grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_11783</obj_property>
          <obj_property name="DisplayName">label</obj_property>
-         <wvobject type="group" fp_name="grp_conv2d_unsigned_short_60_unsigned_short_60_unsigned_short_1_unsigned_short_3_unsigned_short_3_unsigned_short_1_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_4623_Handshake_group">
+         <wvobject type="group" fp_name="grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_11783_Handshake_group">
             <obj_property name="label">Block-level handshake</obj_property>
             <obj_property name="DisplayName">label</obj_property>
-            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_conv2d_unsigned_short_60_unsigned_short_60_unsigned_short_1_unsigned_short_3_unsigned_short_3_unsigned_short_1_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_4623/ap_start">
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_11783/ap_start">
                <obj_property name="ElementShortName">ap_start</obj_property>
                <obj_property name="ObjectShortName">ap_start</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_conv2d_unsigned_short_60_unsigned_short_60_unsigned_short_1_unsigned_short_3_unsigned_short_3_unsigned_short_1_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_4623/ap_ready">
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_11783/ap_ready">
                <obj_property name="ElementShortName">ap_ready</obj_property>
                <obj_property name="ObjectShortName">ap_ready</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_conv2d_unsigned_short_60_unsigned_short_60_unsigned_short_1_unsigned_short_3_unsigned_short_3_unsigned_short_1_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_4623/ap_done">
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_11783/ap_done">
                <obj_property name="ElementShortName">ap_done</obj_property>
                <obj_property name="ObjectShortName">ap_done</obj_property>
             </wvobject>
          </wvobject>
       </wvobject>
-      <wvobject type="group" fp_name="grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_4631_group">
-         <obj_property name="label">grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_4631</obj_property>
+      <wvobject type="group" fp_name="grp_exp_40_32_s_fu_11801_group">
+         <obj_property name="label">grp_exp_40_32_s_fu_11801</obj_property>
          <obj_property name="DisplayName">label</obj_property>
-         <wvobject type="group" fp_name="grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_4631_Handshake_group">
+         <wvobject type="group" fp_name="grp_exp_40_32_s_fu_11801_Handshake_group">
             <obj_property name="label">Block-level handshake</obj_property>
             <obj_property name="DisplayName">label</obj_property>
-            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_4631/ap_start">
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_exp_40_32_s_fu_11801/ap_start">
                <obj_property name="ElementShortName">ap_start</obj_property>
                <obj_property name="ObjectShortName">ap_start</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_4631/ap_ready">
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_exp_40_32_s_fu_11801/ap_ready">
                <obj_property name="ElementShortName">ap_ready</obj_property>
                <obj_property name="ObjectShortName">ap_ready</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_4631/ap_done">
-               <obj_property name="ElementShortName">ap_done</obj_property>
-               <obj_property name="ObjectShortName">ap_done</obj_property>
-            </wvobject>
-         </wvobject>
-      </wvobject>
-      <wvobject type="group" fp_name="grp_exp_40_32_s_fu_4647_group">
-         <obj_property name="label">grp_exp_40_32_s_fu_4647</obj_property>
-         <obj_property name="DisplayName">label</obj_property>
-         <wvobject type="group" fp_name="grp_exp_40_32_s_fu_4647_Handshake_group">
-            <obj_property name="label">Block-level handshake</obj_property>
-            <obj_property name="DisplayName">label</obj_property>
-            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_exp_40_32_s_fu_4647/ap_start">
-               <obj_property name="ElementShortName">ap_start</obj_property>
-               <obj_property name="ObjectShortName">ap_start</obj_property>
-            </wvobject>
-            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_exp_40_32_s_fu_4647/ap_ready">
-               <obj_property name="ElementShortName">ap_ready</obj_property>
-               <obj_property name="ObjectShortName">ap_ready</obj_property>
-            </wvobject>
-            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_exp_40_32_s_fu_4647/ap_done">
+            <wvobject type="logic" fp_name="/apatb_infer_top/AESL_inst_infer/grp_exp_40_32_s_fu_11801/ap_done">
                <obj_property name="ElementShortName">ap_done</obj_property>
                <obj_property name="ObjectShortName">ap_done</obj_property>
             </wvobject>

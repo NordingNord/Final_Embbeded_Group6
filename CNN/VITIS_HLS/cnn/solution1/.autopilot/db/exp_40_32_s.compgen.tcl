@@ -1,6 +1,6 @@
 # This script segment is generated automatically by AutoPilot
 
-set id 979
+set id 93
 set name infer_mul_71ns_68ns_139_1_1
 set corename simcore_mul
 set op mul
@@ -68,7 +68,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_multicycle_mul, che
 
 
 # Memory (RAM/ROM)  definition:
-set ID 981
+set ID 95
 set hasByteEnable 0
 set MemName infer_exp_40_32_s_f_x_msb_2_table_V
 set CoreName ap_simcore_mem
@@ -154,7 +154,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 982
+set ID 96
 set hasByteEnable 0
 set MemName infer_exp_40_32_s_exp_x_msb_1_table_V
 set CoreName ap_simcore_mem
@@ -249,7 +249,7 @@ if {${::AESL::PGuard_autoexp_gen}} {
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 983 \
+    id 97 \
     name x \
     type other \
     dir I \

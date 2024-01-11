@@ -7,7 +7,7 @@ use ieee.std_logic_1164.all;
 
 entity infer_uitofp_32ns_32_4_no_dsp_1 is
     generic (
-        ID         : integer := 984;
+        ID         : integer := 98;
         NUM_STAGE  : integer := 4;
         din0_WIDTH : integer := 32;
         dout_WIDTH : integer := 32

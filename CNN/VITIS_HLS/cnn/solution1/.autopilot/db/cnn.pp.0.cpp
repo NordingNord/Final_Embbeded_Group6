@@ -82767,27 +82767,19 @@ void conv2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
 
    conv2d3_2: for (sizetype iv = 0; iv < in_dim3; iv++)
    {
-    fixed input_val_1 = input[(i - 1)][(ii - 1)][iv];
-    fixed input_val_2 = input[(i - 1)][(ii)][iv];
-    fixed input_val_3 = input[(i - 1)][(ii + 1)][iv];
-    fixed input_val_4 = input[(i)][(ii - 1)][iv];
-    fixed input_val_5 = input[(i)][(ii)][iv];
-    fixed input_val_6 = input[(i)][(ii + 1)][iv];
-    fixed input_val_7 = input[(i + 1)][(ii - 1)][iv];
-    fixed input_val_8 = input[(i + 1)][(ii)][iv];
-    fixed input_val_9 = input[(i + 1)][(ii + 1)][iv];
 
-    conv2d6: for (sizetype iii = 0; iii < weights_size_4; iii++)
+    conv2d4: for (int v = -1; v < 2; v++)
     {
-     output_sum[iii] += input_val_1 * weights[0][0][iv][iii] +
-       input_val_2 * weights[0][1][iv][iii] +
-       input_val_3 * weights[0][2][iv][iii] +
-       input_val_4 * weights[1][0][iv][iii] +
-       input_val_5 * weights[1][1][iv][iii] +
-       input_val_6 * weights[1][2][iv][iii] +
-       input_val_7 * weights[2][0][iv][iii] +
-       input_val_8 * weights[2][1][iv][iii] +
-       input_val_9 * weights[2][2][iv][iii];
+
+     conv2d5: for (int vi = -1; vi < 2; vi++)
+     {
+      fixed input_val = input[(i + v)][(ii + vi)][iv];
+
+      conv2d6: for (sizetype iii = 0; iii < weights_size_4; iii++)
+      {
+       output_sum[iii] += input_val * weights[(v + 1)][(vi + 1)][iv][iii];
+      }
+     }
     }
    }
 
@@ -82848,9 +82840,9 @@ template <const sizetype size_1, const sizetype size_2, const sizetype size_3,
 void array_3d_to_1d(fixed (&array)[size_1][size_2][size_3], fixed (&output)[size_4],
   const sizetype dim1, const sizetype dim2, const sizetype dim3)
 {
- VITIS_LOOP_125_1: for (sizetype i = 0; i < dim1; i++)
-  VITIS_LOOP_126_2: for (sizetype ii = 0; ii < dim2; ii++)
-   VITIS_LOOP_127_3: for (sizetype iii = 0; iii < dim3; iii++)
+ VITIS_LOOP_117_1: for (sizetype i = 0; i < dim1; i++)
+  VITIS_LOOP_118_2: for (sizetype ii = 0; ii < dim2; ii++)
+   VITIS_LOOP_119_3: for (sizetype iii = 0; iii < dim3; iii++)
     output[i*dim2*dim3 + ii*dim3 + iii] = array[i][ii][iii];
 }
 
@@ -82929,7 +82921,7 @@ void softmax(fixed (&array)[size])
 __attribute__((sdx_kernel("infer", 0))) void infer(long_uint_stream &infer_input, long_uint_stream &infer_output)
 {
 #pragma HLS TOP name=infer
-# 204 "../src/hls/cnn.cpp"
+# 196 "../src/hls/cnn.cpp"
 
 
 #pragma HLS INTERFACE axis port=infer_input
@@ -82943,7 +82935,15 @@ __attribute__((sdx_kernel("infer", 0))) void infer(long_uint_stream &infer_input
  static fixed dense_output_a[800] = {};
  static fixed dense_output_b[64] = {};
  static fixed cnn_output[4] = {};
-# 234 "../src/hls/cnn.cpp"
+
+
+
+
+
+
+
+#pragma HLS array_partition variable=convolution_output cyclic factor=2 dim=2
+# 226 "../src/hls/cnn.cpp"
  long_uint_package pixel;
  uint8_t *pixel_pointer = (uint8_t*)&pixel.data;
  fixed *cnn_input_pointer = (fixed*)&cnn_input;

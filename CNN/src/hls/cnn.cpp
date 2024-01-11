@@ -41,27 +41,19 @@ void conv2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
 			// Input and kernel channels
 			conv2d3_2: for (sizetype iv = 0; iv < in_dim3; iv++)
 			{
-				fixed input_val_1 = input[(i - 1)][(ii - 1)][iv];
-				fixed input_val_2 = input[(i - 1)][(ii)][iv];
-				fixed input_val_3 = input[(i - 1)][(ii + 1)][iv];
-				fixed input_val_4 = input[(i)][(ii - 1)][iv];
-				fixed input_val_5 = input[(i)][(ii)][iv];
-				fixed input_val_6 = input[(i)][(ii + 1)][iv];
-				fixed input_val_7 = input[(i + 1)][(ii - 1)][iv];
-				fixed input_val_8 = input[(i + 1)][(ii)][iv];
-				fixed input_val_9 = input[(i + 1)][(ii + 1)][iv];
-				// Kernel number
-				conv2d6: for (sizetype iii = 0; iii < weights_size_4; iii++)
+				// Kernel rows
+				conv2d4: for (int v = -1; v < 2; v++)
 				{
-					output_sum[iii] += input_val_1	* 	weights[0][0][iv][iii] +
-							input_val_2 *	weights[0][1][iv][iii] +
-							input_val_3 *	weights[0][2][iv][iii] +
-							input_val_4 *	weights[1][0][iv][iii] +
-							input_val_5 *	weights[1][1][iv][iii] +
-							input_val_6 *	weights[1][2][iv][iii] +
-							input_val_7 *	weights[2][0][iv][iii] +
-							input_val_8 *	weights[2][1][iv][iii] +
-							input_val_9 *	weights[2][2][iv][iii];
+					// Kernel cols
+					conv2d5: for (int vi = -1; vi < 2; vi++)
+					{
+						fixed input_val = input[(i + v)][(ii + vi)][iv];
+						// Kernel number
+						conv2d6: for (sizetype iii = 0; iii < weights_size_4; iii++)
+						{
+							output_sum[iii] += input_val * weights[(v + 1)][(vi + 1)][iv][iii];
+						}
+					}
 				}
 			}
 			// Kernel number
@@ -221,7 +213,7 @@ void infer(long_uint_stream &infer_input, long_uint_stream &infer_output)
 //#pragma HLS array_partition variable=cnn_input cyclic factor=16 dim=1
 
 //#pragma HLS array_partition variable=layer_2_output cyclic factor=2 dim=3
-//#pragma HLS array_partition variable=convolution_output cyclic factor=2 dim=2
+#pragma HLS array_partition variable=convolution_output cyclic factor=2 dim=2
 //#pragma HLS array_partition variable=layer_2_output cyclic factor=2 dim=1
 
 //#pragma HLS array_partition variable=max_pooling_output cyclic factor=9 dim=3

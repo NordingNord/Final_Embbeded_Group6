@@ -1,6 +1,6 @@
 # This script segment is generated automatically by AutoPilot
 
-set id 368
+set id 1
 set name infer_mul_5ns_6ns_10_1_1
 set corename simcore_mul
 set op mul
@@ -67,8 +67,8 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_multicycle_mul, che
 }
 
 
-set id 369
-set name infer_mul_6ns_7ns_12_1_1
+set id 2
+set name infer_mul_6ns_6ns_11_1_1
 set corename simcore_mul
 set op mul
 set stage_num 1
@@ -76,9 +76,9 @@ set max_latency -1
 set registered_input 1
 set in0_width 6
 set in0_signed 0
-set in1_width 7
+set in1_width 6
 set in1_signed 0
-set out_width 12
+set out_width 11
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mul] == "ap_gen_simcore_mul"} {
 eval "ap_gen_simcore_mul { \
@@ -134,8 +134,8 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_multicycle_mul, che
 }
 
 
-set id 370
-set name infer_mul_mul_16ns_7ns_22_4_1
+set id 3
+set name infer_mul_mul_11s_6ns_11_4_1
 set corename simcore_mul
 set op mul
 set stage_num 4
@@ -145,15 +145,15 @@ set clk_width 1
 set clk_signed 0
 set reset_width 1
 set reset_signed 0
-set in0_width 16
-set in0_signed 0
-set in1_width 7
+set in0_width 11
+set in0_signed 1
+set in1_width 6
 set in1_signed 0
 set ce_width 1
 set ce_signed 0
-set out_width 22
+set out_width 11
 set exp i0*i1
-set arg_lists {i0 {16 0 +} i1 {7 0 +} p {22 0 +} acc {0} }
+set arg_lists {i0 {11 1 +} i1 {6 0 +} p {11 1 +} acc {0} }
 set TrueReset 0
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mul] == "ap_gen_simcore_mul"} {
@@ -239,17 +239,17 @@ if {${::AESL::PGuard_autoexp_gen}} {
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
 eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
-    id 376 \
-    name convolution_output_V \
+    id 9 \
+    name convolution_output_V_0 \
     reset_level 1 \
     sync_rst true \
     dir I \
-    corename convolution_output_V \
+    corename convolution_output_V_0 \
     op interface \
-    ports { convolution_output_V_address0 { O 17 vector } convolution_output_V_ce0 { O 1 bit } convolution_output_V_q0 { I 21 vector } convolution_output_V_address1 { O 17 vector } convolution_output_V_ce1 { O 1 bit } convolution_output_V_q1 { I 21 vector } } \
+    ports { convolution_output_V_0_address0 { O 16 vector } convolution_output_V_0_ce0 { O 1 bit } convolution_output_V_0_q0 { I 21 vector } convolution_output_V_0_address1 { O 16 vector } convolution_output_V_0_ce1 { O 1 bit } convolution_output_V_0_q1 { I 21 vector } } \
 } "
 } else {
-puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'convolution_output_V'"
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'convolution_output_V_0'"
 }
 }
 
@@ -258,7 +258,26 @@ puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored ge
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
 eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
-    id 377 \
+    id 10 \
+    name convolution_output_V_1 \
+    reset_level 1 \
+    sync_rst true \
+    dir I \
+    corename convolution_output_V_1 \
+    op interface \
+    ports { convolution_output_V_1_address0 { O 16 vector } convolution_output_V_1_ce0 { O 1 bit } convolution_output_V_1_q0 { I 21 vector } convolution_output_V_1_address1 { O 16 vector } convolution_output_V_1_ce1 { O 1 bit } convolution_output_V_1_q1 { I 21 vector } } \
+} "
+} else {
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'convolution_output_V_1'"
+}
+}
+
+
+# XIL_BRAM:
+if {${::AESL::PGuard_autoexp_gen}} {
+if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
+eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
+    id 11 \
     name max_pooling_output_V \
     reset_level 1 \
     sync_rst true \
@@ -276,7 +295,7 @@ puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored ge
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 374 \
+    id 7 \
     name in_dim1 \
     type other \
     dir I \
@@ -291,7 +310,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 375 \
+    id 8 \
     name in_dim2 \
     type other \
     dir I \

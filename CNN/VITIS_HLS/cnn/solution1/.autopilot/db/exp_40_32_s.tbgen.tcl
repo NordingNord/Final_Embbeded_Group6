@@ -59,7 +59,7 @@ set RtlHierarchyInfo {[
 			{"Name" : "exp_x_msb_1_table_V", "Type" : "Memory", "Direction" : "I"}]},
 	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.f_x_msb_2_table_V_U", "Parent" : "0"},
 	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.exp_x_msb_1_table_V_U", "Parent" : "0"},
-	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_71ns_68ns_139_1_1_U979", "Parent" : "0"}]}
+	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_71ns_68ns_139_1_1_U93", "Parent" : "0"}]}
 
 
 set ArgLastReadFirstWriteLatency {

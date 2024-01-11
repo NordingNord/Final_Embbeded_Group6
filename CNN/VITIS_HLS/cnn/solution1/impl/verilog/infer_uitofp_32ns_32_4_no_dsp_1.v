@@ -7,7 +7,7 @@
 
 module infer_uitofp_32ns_32_4_no_dsp_1
 #(parameter
-    ID         = 984,
+    ID         = 98,
     NUM_STAGE  = 4,
     din0_WIDTH = 32,
     dout_WIDTH = 32

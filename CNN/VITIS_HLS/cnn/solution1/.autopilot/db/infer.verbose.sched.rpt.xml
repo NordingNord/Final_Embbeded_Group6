@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'infer'" level="0">
-<item name = "Date">Thu Jan 11 18:10:39 2024
+<item name = "Date">Thu Jan 11 19:33:11 2024
 </item>
 <item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)</item>
 <item name = "Project">cnn</item>
@@ -36,7 +36,11 @@
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
 <column name="- get_input1">929, 929, 31, 1, 1, 900, yes</column>
-<column name="- VITIS_LOOP_125_1_VITIS_LOOP_126_2_VITIS_LOOP_127_3">803, 803, 5, 1, 1, 800, yes</column>
+<column name="- conv2d1_conv2d2">282576, 282576, 84, -, -, 3364, no</column>
+<column name=" + conv2d3_1">33, 33, 2, 1, 1, 32, yes</column>
+<column name=" + conv2d4_conv2d5">12, 12, 5, 1, 1, 9, yes</column>
+<column name=" + conv2d3_3">32, 32, 1, 1, 1, 32, yes</column>
+<column name="- VITIS_LOOP_117_1_VITIS_LOOP_118_2_VITIS_LOOP_119_3">803, 803, 5, 1, 1, 800, yes</column>
 <column name="- dense_relu1">51648, 51648, 807, -, -, 64, no</column>
 <column name=" + dense_relu2">803, 803, 5, 1, 1, 800, yes</column>
 <column name="- dense_relu1">98, 98, 68, 1, 1, 32, yes</column>

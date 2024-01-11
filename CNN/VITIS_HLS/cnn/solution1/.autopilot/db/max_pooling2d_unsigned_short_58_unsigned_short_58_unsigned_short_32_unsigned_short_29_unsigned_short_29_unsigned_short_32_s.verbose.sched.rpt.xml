@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s'" level="0">
-<item name = "Date">Thu Jan 11 18:10:13 2024
+<item name = "Date">Thu Jan 11 19:32:57 2024
 </item>
 <item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)</item>
 <item name = "Project">cnn</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00 ns, 5.465 ns, 2.70 ns</column>
+<column name="ap_clk">10.00 ns, 6.846 ns, 2.70 ns</column>
 </table>
 </item>
 </section>
@@ -36,8 +36,8 @@
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
 <column name="- max_pooling2d1">?, ?, ?, -, -, ?, no</column>
-<column name=" + max_pooling2d2">?, ?, 68, -, -, ?, no</column>
-<column name="  ++ max_pooling2d3">65, 65, 3, 2, 1, 32, yes</column>
+<column name=" + max_pooling2d2">?, ?, 36, -, -, ?, no</column>
+<column name="  ++ max_pooling2d3">33, 33, 3, 1, 1, 32, yes</column>
 </table>
 </item>
 </section>
