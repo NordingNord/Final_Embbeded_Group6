@@ -1,7 +1,6 @@
 infer_mul_5ns_6ns_10_1_1
-infer_mul_6ns_6ns_11_1_1
-infer_mul_mul_11s_6ns_11_4_1
 infer_mul_5ns_5ns_10_1_1
+infer_mul_4ns_6ns_9_1_1
 infer_mux_325_21_1_1
 infer_mac_muladd_5ns_6ns_5ns_10_4_1
 infer_mac_muladd_16s_21s_37ns_37_4_1
@@ -69,8 +68,7 @@ infer_layer_2_weights_V_0_28
 infer_layer_2_weights_V_0_29
 infer_layer_2_weights_V_0_30
 infer_layer_2_weights_V_0_31
-infer_convolution_output_V_0
-infer_max_pooling_output_V
+infer_convolution_output_V_0_0
 infer_layer_4_weights_V_0
 infer_layer_4_weights_V_1
 infer_layer_4_weights_V_2

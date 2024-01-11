@@ -133,10 +133,10 @@
 
 <AreaEstimates>
 <Resources>
-<BRAM_18K>290</BRAM_18K>
-<DSP>204</DSP>
-<FF>20606</FF>
-<LUT>18138</LUT>
+<BRAM_18K>294</BRAM_18K>
+<DSP>203</DSP>
+<FF>20568</FF>
+<LUT>18151</LUT>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>

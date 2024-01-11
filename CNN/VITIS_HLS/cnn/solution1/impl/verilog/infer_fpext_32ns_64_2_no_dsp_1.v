@@ -7,7 +7,7 @@
 
 module infer_fpext_32ns_64_2_no_dsp_1
 #(parameter
-    ID         = 99,
+    ID         = 100,
     NUM_STAGE  = 2,
     din0_WIDTH = 32,
     dout_WIDTH = 64

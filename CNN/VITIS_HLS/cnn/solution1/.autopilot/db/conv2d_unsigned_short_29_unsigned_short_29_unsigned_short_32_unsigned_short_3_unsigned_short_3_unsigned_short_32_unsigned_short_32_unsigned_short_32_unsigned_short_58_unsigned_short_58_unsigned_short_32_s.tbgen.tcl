@@ -48,8 +48,10 @@ set C_modelArgList {
 	{ weights_31 int 14 regular {array 288 { 1 } 1 1 }  }
 	{ bias int 14 regular {array 32 { 1 } 1 1 }  }
 	{ max_pooling_output_V int 21 regular {array 26912 { 1 3 } 1 1 } {global 0}  }
-	{ convolution_output_V_0 int 21 regular {array 53824 { 0 3 } 0 1 } {global 1}  }
-	{ convolution_output_V_1 int 21 regular {array 53824 { 0 3 } 0 1 } {global 1}  }
+	{ convolution_output_V_0_0 int 21 regular {array 26912 { 0 3 } 0 1 } {global 1}  }
+	{ convolution_output_V_0_1 int 21 regular {array 26912 { 0 3 } 0 1 } {global 1}  }
+	{ convolution_output_V_1_0 int 21 regular {array 26912 { 0 3 } 0 1 } {global 1}  }
+	{ convolution_output_V_1_1 int 21 regular {array 26912 { 0 3 } 0 1 } {global 1}  }
 }
 set C_modelArgMapList {[ 
 	{ "Name" : "in_dim1", "interface" : "wire", "bitwidth" : 5, "direction" : "READONLY"} , 
@@ -88,10 +90,12 @@ set C_modelArgMapList {[
  	{ "Name" : "weights_31", "interface" : "memory", "bitwidth" : 14, "direction" : "READONLY"} , 
  	{ "Name" : "bias", "interface" : "memory", "bitwidth" : 14, "direction" : "READONLY"} , 
  	{ "Name" : "max_pooling_output_V", "interface" : "memory", "bitwidth" : 21, "direction" : "READONLY", "extern" : 0} , 
- 	{ "Name" : "convolution_output_V_0", "interface" : "memory", "bitwidth" : 21, "direction" : "WRITEONLY", "extern" : 0} , 
- 	{ "Name" : "convolution_output_V_1", "interface" : "memory", "bitwidth" : 21, "direction" : "WRITEONLY", "extern" : 0} ]}
+ 	{ "Name" : "convolution_output_V_0_0", "interface" : "memory", "bitwidth" : 21, "direction" : "WRITEONLY", "extern" : 0} , 
+ 	{ "Name" : "convolution_output_V_0_1", "interface" : "memory", "bitwidth" : 21, "direction" : "WRITEONLY", "extern" : 0} , 
+ 	{ "Name" : "convolution_output_V_1_0", "interface" : "memory", "bitwidth" : 21, "direction" : "WRITEONLY", "extern" : 0} , 
+ 	{ "Name" : "convolution_output_V_1_1", "interface" : "memory", "bitwidth" : 21, "direction" : "WRITEONLY", "extern" : 0} ]}
 # RTL Port declarations: 
-set portNum 118
+set portNum 126
 set portList { 
 	{ ap_clk sc_in sc_logic 1 clock -1 } 
 	{ ap_rst sc_in sc_logic 1 reset -1 active_high_sync } 
@@ -203,14 +207,22 @@ set portList {
 	{ max_pooling_output_V_address0 sc_out sc_lv 15 signal 35 } 
 	{ max_pooling_output_V_ce0 sc_out sc_logic 1 signal 35 } 
 	{ max_pooling_output_V_q0 sc_in sc_lv 21 signal 35 } 
-	{ convolution_output_V_0_address0 sc_out sc_lv 16 signal 36 } 
-	{ convolution_output_V_0_ce0 sc_out sc_logic 1 signal 36 } 
-	{ convolution_output_V_0_we0 sc_out sc_logic 1 signal 36 } 
-	{ convolution_output_V_0_d0 sc_out sc_lv 21 signal 36 } 
-	{ convolution_output_V_1_address0 sc_out sc_lv 16 signal 37 } 
-	{ convolution_output_V_1_ce0 sc_out sc_logic 1 signal 37 } 
-	{ convolution_output_V_1_we0 sc_out sc_logic 1 signal 37 } 
-	{ convolution_output_V_1_d0 sc_out sc_lv 21 signal 37 } 
+	{ convolution_output_V_0_0_address0 sc_out sc_lv 15 signal 36 } 
+	{ convolution_output_V_0_0_ce0 sc_out sc_logic 1 signal 36 } 
+	{ convolution_output_V_0_0_we0 sc_out sc_logic 1 signal 36 } 
+	{ convolution_output_V_0_0_d0 sc_out sc_lv 21 signal 36 } 
+	{ convolution_output_V_0_1_address0 sc_out sc_lv 15 signal 37 } 
+	{ convolution_output_V_0_1_ce0 sc_out sc_logic 1 signal 37 } 
+	{ convolution_output_V_0_1_we0 sc_out sc_logic 1 signal 37 } 
+	{ convolution_output_V_0_1_d0 sc_out sc_lv 21 signal 37 } 
+	{ convolution_output_V_1_0_address0 sc_out sc_lv 15 signal 38 } 
+	{ convolution_output_V_1_0_ce0 sc_out sc_logic 1 signal 38 } 
+	{ convolution_output_V_1_0_we0 sc_out sc_logic 1 signal 38 } 
+	{ convolution_output_V_1_0_d0 sc_out sc_lv 21 signal 38 } 
+	{ convolution_output_V_1_1_address0 sc_out sc_lv 15 signal 39 } 
+	{ convolution_output_V_1_1_ce0 sc_out sc_logic 1 signal 39 } 
+	{ convolution_output_V_1_1_we0 sc_out sc_logic 1 signal 39 } 
+	{ convolution_output_V_1_1_d0 sc_out sc_lv 21 signal 39 } 
 }
 set NewPortList {[ 
 	{ "name": "ap_clk", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "clock", "bundle":{"name": "ap_clk", "role": "default" }} , 
@@ -323,14 +335,22 @@ set NewPortList {[
  	{ "name": "max_pooling_output_V_address0", "direction": "out", "datatype": "sc_lv", "bitwidth":15, "type": "signal", "bundle":{"name": "max_pooling_output_V", "role": "address0" }} , 
  	{ "name": "max_pooling_output_V_ce0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "max_pooling_output_V", "role": "ce0" }} , 
  	{ "name": "max_pooling_output_V_q0", "direction": "in", "datatype": "sc_lv", "bitwidth":21, "type": "signal", "bundle":{"name": "max_pooling_output_V", "role": "q0" }} , 
- 	{ "name": "convolution_output_V_0_address0", "direction": "out", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "convolution_output_V_0", "role": "address0" }} , 
- 	{ "name": "convolution_output_V_0_ce0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "convolution_output_V_0", "role": "ce0" }} , 
- 	{ "name": "convolution_output_V_0_we0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "convolution_output_V_0", "role": "we0" }} , 
- 	{ "name": "convolution_output_V_0_d0", "direction": "out", "datatype": "sc_lv", "bitwidth":21, "type": "signal", "bundle":{"name": "convolution_output_V_0", "role": "d0" }} , 
- 	{ "name": "convolution_output_V_1_address0", "direction": "out", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "convolution_output_V_1", "role": "address0" }} , 
- 	{ "name": "convolution_output_V_1_ce0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "convolution_output_V_1", "role": "ce0" }} , 
- 	{ "name": "convolution_output_V_1_we0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "convolution_output_V_1", "role": "we0" }} , 
- 	{ "name": "convolution_output_V_1_d0", "direction": "out", "datatype": "sc_lv", "bitwidth":21, "type": "signal", "bundle":{"name": "convolution_output_V_1", "role": "d0" }}  ]}
+ 	{ "name": "convolution_output_V_0_0_address0", "direction": "out", "datatype": "sc_lv", "bitwidth":15, "type": "signal", "bundle":{"name": "convolution_output_V_0_0", "role": "address0" }} , 
+ 	{ "name": "convolution_output_V_0_0_ce0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "convolution_output_V_0_0", "role": "ce0" }} , 
+ 	{ "name": "convolution_output_V_0_0_we0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "convolution_output_V_0_0", "role": "we0" }} , 
+ 	{ "name": "convolution_output_V_0_0_d0", "direction": "out", "datatype": "sc_lv", "bitwidth":21, "type": "signal", "bundle":{"name": "convolution_output_V_0_0", "role": "d0" }} , 
+ 	{ "name": "convolution_output_V_0_1_address0", "direction": "out", "datatype": "sc_lv", "bitwidth":15, "type": "signal", "bundle":{"name": "convolution_output_V_0_1", "role": "address0" }} , 
+ 	{ "name": "convolution_output_V_0_1_ce0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "convolution_output_V_0_1", "role": "ce0" }} , 
+ 	{ "name": "convolution_output_V_0_1_we0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "convolution_output_V_0_1", "role": "we0" }} , 
+ 	{ "name": "convolution_output_V_0_1_d0", "direction": "out", "datatype": "sc_lv", "bitwidth":21, "type": "signal", "bundle":{"name": "convolution_output_V_0_1", "role": "d0" }} , 
+ 	{ "name": "convolution_output_V_1_0_address0", "direction": "out", "datatype": "sc_lv", "bitwidth":15, "type": "signal", "bundle":{"name": "convolution_output_V_1_0", "role": "address0" }} , 
+ 	{ "name": "convolution_output_V_1_0_ce0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "convolution_output_V_1_0", "role": "ce0" }} , 
+ 	{ "name": "convolution_output_V_1_0_we0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "convolution_output_V_1_0", "role": "we0" }} , 
+ 	{ "name": "convolution_output_V_1_0_d0", "direction": "out", "datatype": "sc_lv", "bitwidth":21, "type": "signal", "bundle":{"name": "convolution_output_V_1_0", "role": "d0" }} , 
+ 	{ "name": "convolution_output_V_1_1_address0", "direction": "out", "datatype": "sc_lv", "bitwidth":15, "type": "signal", "bundle":{"name": "convolution_output_V_1_1", "role": "address0" }} , 
+ 	{ "name": "convolution_output_V_1_1_ce0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "convolution_output_V_1_1", "role": "ce0" }} , 
+ 	{ "name": "convolution_output_V_1_1_we0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "convolution_output_V_1_1", "role": "we0" }} , 
+ 	{ "name": "convolution_output_V_1_1_d0", "direction": "out", "datatype": "sc_lv", "bitwidth":21, "type": "signal", "bundle":{"name": "convolution_output_V_1_1", "role": "d0" }}  ]}
 
 set RtlHierarchyInfo {[
 	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "", "Child" : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36"],
@@ -383,44 +403,46 @@ set RtlHierarchyInfo {[
 			{"Name" : "weights_31", "Type" : "Memory", "Direction" : "I"},
 			{"Name" : "bias", "Type" : "Memory", "Direction" : "I"},
 			{"Name" : "max_pooling_output_V", "Type" : "Memory", "Direction" : "I"},
-			{"Name" : "convolution_output_V_0", "Type" : "Memory", "Direction" : "O"},
-			{"Name" : "convolution_output_V_1", "Type" : "Memory", "Direction" : "O"}]},
-	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_5ns_5ns_10_1_1_U12", "Parent" : "0"},
-	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_5ns_6ns_10_1_1_U13", "Parent" : "0"},
-	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mux_325_21_1_1_U14", "Parent" : "0"},
-	{"ID" : "4", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_5ns_6ns_5ns_10_4_1_U15", "Parent" : "0"},
-	{"ID" : "5", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_16s_21s_37ns_37_4_1_U16", "Parent" : "0"},
-	{"ID" : "6", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_16s_21s_37ns_37_4_1_U17", "Parent" : "0"},
-	{"ID" : "7", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_17s_21s_37ns_37_4_1_U18", "Parent" : "0"},
-	{"ID" : "8", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_16s_21s_37ns_37_4_1_U19", "Parent" : "0"},
-	{"ID" : "9", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_14s_21s_37ns_37_4_1_U20", "Parent" : "0"},
-	{"ID" : "10", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_14s_21s_37ns_37_4_1_U21", "Parent" : "0"},
-	{"ID" : "11", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_16s_21s_37ns_37_4_1_U22", "Parent" : "0"},
-	{"ID" : "12", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_16s_21s_37ns_37_4_1_U23", "Parent" : "0"},
-	{"ID" : "13", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_14s_21s_37ns_37_4_1_U24", "Parent" : "0"},
-	{"ID" : "14", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_16s_21s_37ns_37_4_1_U25", "Parent" : "0"},
-	{"ID" : "15", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_14s_21s_37ns_37_4_1_U26", "Parent" : "0"},
-	{"ID" : "16", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_14s_21s_37ns_37_4_1_U27", "Parent" : "0"},
-	{"ID" : "17", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_16s_21s_37ns_37_4_1_U28", "Parent" : "0"},
-	{"ID" : "18", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_16s_21s_37ns_37_4_1_U29", "Parent" : "0"},
-	{"ID" : "19", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_14s_21s_37ns_37_4_1_U30", "Parent" : "0"},
-	{"ID" : "20", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_16s_21s_37ns_37_4_1_U31", "Parent" : "0"},
-	{"ID" : "21", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_15s_21s_37ns_37_4_1_U32", "Parent" : "0"},
-	{"ID" : "22", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_16s_21s_37ns_37_4_1_U33", "Parent" : "0"},
-	{"ID" : "23", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_14s_21s_37ns_37_4_1_U34", "Parent" : "0"},
-	{"ID" : "24", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_16s_21s_37ns_37_4_1_U35", "Parent" : "0"},
-	{"ID" : "25", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_16s_21s_37ns_37_4_1_U36", "Parent" : "0"},
-	{"ID" : "26", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_14s_21s_37ns_37_4_1_U37", "Parent" : "0"},
-	{"ID" : "27", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_17s_21s_37ns_37_4_1_U38", "Parent" : "0"},
-	{"ID" : "28", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_17s_21s_37ns_37_4_1_U39", "Parent" : "0"},
-	{"ID" : "29", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_17s_21s_37ns_37_4_1_U40", "Parent" : "0"},
-	{"ID" : "30", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_16s_21s_37ns_37_4_1_U41", "Parent" : "0"},
-	{"ID" : "31", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_17s_21s_37ns_37_4_1_U42", "Parent" : "0"},
-	{"ID" : "32", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_16s_21s_37ns_37_4_1_U43", "Parent" : "0"},
-	{"ID" : "33", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_14s_21s_37ns_37_4_1_U44", "Parent" : "0"},
-	{"ID" : "34", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_14s_21s_37ns_37_4_1_U45", "Parent" : "0"},
-	{"ID" : "35", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_14s_21s_37ns_37_4_1_U46", "Parent" : "0"},
-	{"ID" : "36", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_14s_21s_37ns_37_4_1_U47", "Parent" : "0"}]}
+			{"Name" : "convolution_output_V_0_0", "Type" : "Memory", "Direction" : "O"},
+			{"Name" : "convolution_output_V_0_1", "Type" : "Memory", "Direction" : "O"},
+			{"Name" : "convolution_output_V_1_0", "Type" : "Memory", "Direction" : "O"},
+			{"Name" : "convolution_output_V_1_1", "Type" : "Memory", "Direction" : "O"}]},
+	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_5ns_5ns_10_1_1_U10", "Parent" : "0"},
+	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_4ns_6ns_9_1_1_U11", "Parent" : "0"},
+	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mux_325_21_1_1_U12", "Parent" : "0"},
+	{"ID" : "4", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_5ns_6ns_5ns_10_4_1_U13", "Parent" : "0"},
+	{"ID" : "5", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_16s_21s_37ns_37_4_1_U14", "Parent" : "0"},
+	{"ID" : "6", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_16s_21s_37ns_37_4_1_U15", "Parent" : "0"},
+	{"ID" : "7", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_17s_21s_37ns_37_4_1_U16", "Parent" : "0"},
+	{"ID" : "8", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_16s_21s_37ns_37_4_1_U17", "Parent" : "0"},
+	{"ID" : "9", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_14s_21s_37ns_37_4_1_U18", "Parent" : "0"},
+	{"ID" : "10", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_14s_21s_37ns_37_4_1_U19", "Parent" : "0"},
+	{"ID" : "11", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_16s_21s_37ns_37_4_1_U20", "Parent" : "0"},
+	{"ID" : "12", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_16s_21s_37ns_37_4_1_U21", "Parent" : "0"},
+	{"ID" : "13", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_14s_21s_37ns_37_4_1_U22", "Parent" : "0"},
+	{"ID" : "14", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_16s_21s_37ns_37_4_1_U23", "Parent" : "0"},
+	{"ID" : "15", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_14s_21s_37ns_37_4_1_U24", "Parent" : "0"},
+	{"ID" : "16", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_14s_21s_37ns_37_4_1_U25", "Parent" : "0"},
+	{"ID" : "17", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_16s_21s_37ns_37_4_1_U26", "Parent" : "0"},
+	{"ID" : "18", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_16s_21s_37ns_37_4_1_U27", "Parent" : "0"},
+	{"ID" : "19", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_14s_21s_37ns_37_4_1_U28", "Parent" : "0"},
+	{"ID" : "20", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_16s_21s_37ns_37_4_1_U29", "Parent" : "0"},
+	{"ID" : "21", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_15s_21s_37ns_37_4_1_U30", "Parent" : "0"},
+	{"ID" : "22", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_16s_21s_37ns_37_4_1_U31", "Parent" : "0"},
+	{"ID" : "23", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_14s_21s_37ns_37_4_1_U32", "Parent" : "0"},
+	{"ID" : "24", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_16s_21s_37ns_37_4_1_U33", "Parent" : "0"},
+	{"ID" : "25", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_16s_21s_37ns_37_4_1_U34", "Parent" : "0"},
+	{"ID" : "26", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_14s_21s_37ns_37_4_1_U35", "Parent" : "0"},
+	{"ID" : "27", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_17s_21s_37ns_37_4_1_U36", "Parent" : "0"},
+	{"ID" : "28", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_17s_21s_37ns_37_4_1_U37", "Parent" : "0"},
+	{"ID" : "29", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_17s_21s_37ns_37_4_1_U38", "Parent" : "0"},
+	{"ID" : "30", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_16s_21s_37ns_37_4_1_U39", "Parent" : "0"},
+	{"ID" : "31", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_17s_21s_37ns_37_4_1_U40", "Parent" : "0"},
+	{"ID" : "32", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_16s_21s_37ns_37_4_1_U41", "Parent" : "0"},
+	{"ID" : "33", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_14s_21s_37ns_37_4_1_U42", "Parent" : "0"},
+	{"ID" : "34", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_14s_21s_37ns_37_4_1_U43", "Parent" : "0"},
+	{"ID" : "35", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_14s_21s_37ns_37_4_1_U44", "Parent" : "0"},
+	{"ID" : "36", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_14s_21s_37ns_37_4_1_U45", "Parent" : "0"}]}
 
 
 set ArgLastReadFirstWriteLatency {
@@ -461,8 +483,10 @@ set ArgLastReadFirstWriteLatency {
 		weights_31 {Type I LastRead 8 FirstWrite -1}
 		bias {Type I LastRead 2 FirstWrite -1}
 		max_pooling_output_V {Type I LastRead 8 FirstWrite -1}
-		convolution_output_V_0 {Type O LastRead -1 FirstWrite 13}
-		convolution_output_V_1 {Type O LastRead -1 FirstWrite 13}}}
+		convolution_output_V_0_0 {Type O LastRead -1 FirstWrite 13}
+		convolution_output_V_0_1 {Type O LastRead -1 FirstWrite 13}
+		convolution_output_V_1_0 {Type O LastRead -1 FirstWrite 13}
+		convolution_output_V_1_1 {Type O LastRead -1 FirstWrite 13}}}
 
 set hasDtUnsupportedChannel 0
 
@@ -513,6 +537,8 @@ set Spec2ImplPortList {
 	weights_31 { ap_memory {  { weights_31_address0 mem_address 1 9 }  { weights_31_ce0 mem_ce 1 1 }  { weights_31_q0 mem_dout 0 14 } } }
 	bias { ap_memory {  { bias_address0 mem_address 1 5 }  { bias_ce0 mem_ce 1 1 }  { bias_q0 mem_dout 0 14 } } }
 	max_pooling_output_V { ap_memory {  { max_pooling_output_V_address0 mem_address 1 15 }  { max_pooling_output_V_ce0 mem_ce 1 1 }  { max_pooling_output_V_q0 mem_dout 0 21 } } }
-	convolution_output_V_0 { ap_memory {  { convolution_output_V_0_address0 mem_address 1 16 }  { convolution_output_V_0_ce0 mem_ce 1 1 }  { convolution_output_V_0_we0 mem_we 1 1 }  { convolution_output_V_0_d0 mem_din 1 21 } } }
-	convolution_output_V_1 { ap_memory {  { convolution_output_V_1_address0 mem_address 1 16 }  { convolution_output_V_1_ce0 mem_ce 1 1 }  { convolution_output_V_1_we0 mem_we 1 1 }  { convolution_output_V_1_d0 mem_din 1 21 } } }
+	convolution_output_V_0_0 { ap_memory {  { convolution_output_V_0_0_address0 mem_address 1 15 }  { convolution_output_V_0_0_ce0 mem_ce 1 1 }  { convolution_output_V_0_0_we0 mem_we 1 1 }  { convolution_output_V_0_0_d0 mem_din 1 21 } } }
+	convolution_output_V_0_1 { ap_memory {  { convolution_output_V_0_1_address0 mem_address 1 15 }  { convolution_output_V_0_1_ce0 mem_ce 1 1 }  { convolution_output_V_0_1_we0 mem_we 1 1 }  { convolution_output_V_0_1_d0 mem_din 1 21 } } }
+	convolution_output_V_1_0 { ap_memory {  { convolution_output_V_1_0_address0 mem_address 1 15 }  { convolution_output_V_1_0_ce0 mem_ce 1 1 }  { convolution_output_V_1_0_we0 mem_we 1 1 }  { convolution_output_V_1_0_d0 mem_din 1 21 } } }
+	convolution_output_V_1_1 { ap_memory {  { convolution_output_V_1_1_address0 mem_address 1 15 }  { convolution_output_V_1_1_ce0 mem_ce 1 1 }  { convolution_output_V_1_1_we0 mem_we 1 1 }  { convolution_output_V_1_1_d0 mem_din 1 21 } } }
 }

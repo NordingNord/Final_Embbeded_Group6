@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'exp_40_32_s'" level="0">
-<item name = "Date">Thu Jan 11 19:33:24 2024
+<item name = "Date">Thu Jan 11 20:10:50 2024
 </item>
 <item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)</item>
 <item name = "Project">cnn</item>
@@ -61,7 +61,7 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
-<column name="mul_71ns_68ns_139_1_1_U93">mul_71ns_68ns_139_1_1, 0, 8, 0, 64, 0</column>
+<column name="mul_71ns_68ns_139_1_1_U94">mul_71ns_68ns_139_1_1, 0, 8, 0, 64, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">
@@ -111,8 +111,8 @@
 <column name="icmp_ln1498_reg_352">1, 0, 1, 0</column>
 <column name="p_Result_s_reg_342">1, 0, 1, 0</column>
 <column name="ret_V_reg_377">9, 0, 9, 0</column>
-<column name="tmp_146_reg_393">67, 0, 67, 0</column>
-<column name="tmp_148_reg_362">6, 0, 8, 2</column>
+<column name="tmp_148_reg_393">67, 0, 67, 0</column>
+<column name="tmp_150_reg_362">6, 0, 8, 2</column>
 <column name="trunc_ln640_1_reg_382">58, 0, 58, 0</column>
 <column name="icmp_ln1494_reg_347">64, 32, 1, 0</column>
 <column name="icmp_ln1496_reg_357">64, 32, 1, 0</column>

@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'infer'" level="0">
-<item name = "Date">Thu Jan 11 19:33:17 2024
+<item name = "Date">Thu Jan 11 20:10:45 2024
 </item>
 <item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)</item>
 <item name = "Project">cnn</item>
@@ -31,9 +31,9 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_11668">conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s, 44287, 266815, 0.443 ms, 2.668 ms, 44287, 266815, none</column>
-<column name="grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_11783">max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s, ?, ?, ?, ?, ?, ?, none</column>
-<column name="grp_exp_40_32_s_fu_11801">exp_40_32_s, 3, 3, 30.000 ns, 30.000 ns, 1, 1, yes</column>
+<column name="grp_conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s_fu_11700">conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s, 44287, 266815, 0.443 ms, 2.668 ms, 44287, 266815, none</column>
+<column name="grp_max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s_fu_11819">max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s, ?, ?, ?, ?, ?, ?, none</column>
+<column name="grp_exp_40_32_s_fu_11841">exp_40_32_s, 3, 3, 30.000 ns, 30.000 ns, 1, 1, yes</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">

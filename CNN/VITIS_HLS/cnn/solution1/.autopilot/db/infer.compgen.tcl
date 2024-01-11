@@ -1,6 +1,6 @@
 # This script segment is generated automatically by AutoPilot
 
-set id 98
+set id 99
 set name infer_uitofp_32ns_32_4_no_dsp_1
 set corename simcore_uitofp
 set op uitofp
@@ -85,7 +85,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_XILINX_FPV6::fpv6_gen, check your p
 }
 
 
-set id 99
+set id 100
 set name infer_fpext_32ns_64_2_no_dsp_1
 set corename simcore_fpext
 set op fpext
@@ -170,7 +170,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_XILINX_FPV6::fpv6_gen, check your p
 }
 
 
-set id 100
+set id 101
 set name infer_ddiv_64ns_64ns_64_22_no_dsp_1
 set corename simcore_ddiv
 set op ddiv
@@ -261,91 +261,6 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_XILINX_FPV6::fpv6_gen, check your p
 }
 
 
-set id 103
-set name infer_mux_42_21_1_1
-set corename simcore_mux
-set op mux
-set stage_num 1
-set max_latency -1
-set registered_input 1
-set din0_width 21
-set din0_signed 1
-set din1_width 21
-set din1_signed 0
-set din2_width 21
-set din2_signed 1
-set din3_width 21
-set din3_signed 0
-set din4_width 2
-set din4_signed 0
-set dout_width 21
-if {${::AESL::PGuard_simmodel_gen}} {
-if {[info proc ap_gen_simcore_mux] == "ap_gen_simcore_mux"} {
-eval "ap_gen_simcore_mux { \
-    id ${id} \
-    name ${name} \
-    corename ${corename} \
-    op ${op} \
-    reset_level 1 \
-    sync_rst true \
-    stage_num ${stage_num} \
-    max_latency ${max_latency} \
-    registered_input ${registered_input} \
-    din0_width ${din0_width} \
-    din0_signed ${din0_signed} \
-    din1_width ${din1_width} \
-    din1_signed ${din1_signed} \
-    din2_width ${din2_width} \
-    din2_signed ${din2_signed} \
-    din3_width ${din3_width} \
-    din3_signed ${din3_signed} \
-    din4_width ${din4_width} \
-    din4_signed ${din4_signed} \
-    dout_width ${dout_width} \
-}"
-} else {
-puts "@W \[IMPL-100\] Cannot find ap_gen_simcore_mux, check your AutoPilot builtin lib"
-}
-}
-
-
-if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler ${name}
-}
-
-
-set op mux
-set corename Multiplexer
-if {${::AESL::PGuard_autocg_gen} && ${::AESL::PGuard_autocg_ipmgen}} {
-if {[info proc ::AESL_LIB_VIRTEX::xil_gen_pipemux] == "::AESL_LIB_VIRTEX::xil_gen_pipemux"} {
-eval "::AESL_LIB_VIRTEX::xil_gen_pipemux { \
-    id ${id} \
-    name ${name} \
-    corename ${corename} \
-    op ${op} \
-    reset_level 1 \
-    sync_rst true \
-    stage_num ${stage_num} \
-    max_latency ${max_latency} \
-    registered_input ${registered_input} \
-    din0_width ${din0_width} \
-    din0_signed ${din0_signed} \
-    din1_width ${din1_width} \
-    din1_signed ${din1_signed} \
-    din2_width ${din2_width} \
-    din2_signed ${din2_signed} \
-    din3_width ${din3_width} \
-    din3_signed ${din3_signed} \
-    din4_width ${din4_width} \
-    din4_signed ${din4_signed} \
-    dout_width ${dout_width} \
-}"
-} else {
-puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_pipemux, check your platform lib"
-}
-}
-
-
 set id 104
 set name infer_mux_42_21_1_1
 set corename simcore_mux
@@ -432,6 +347,91 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_pipemux, check your
 
 
 set id 105
+set name infer_mux_42_21_1_1
+set corename simcore_mux
+set op mux
+set stage_num 1
+set max_latency -1
+set registered_input 1
+set din0_width 21
+set din0_signed 1
+set din1_width 21
+set din1_signed 0
+set din2_width 21
+set din2_signed 1
+set din3_width 21
+set din3_signed 0
+set din4_width 2
+set din4_signed 0
+set dout_width 21
+if {${::AESL::PGuard_simmodel_gen}} {
+if {[info proc ap_gen_simcore_mux] == "ap_gen_simcore_mux"} {
+eval "ap_gen_simcore_mux { \
+    id ${id} \
+    name ${name} \
+    corename ${corename} \
+    op ${op} \
+    reset_level 1 \
+    sync_rst true \
+    stage_num ${stage_num} \
+    max_latency ${max_latency} \
+    registered_input ${registered_input} \
+    din0_width ${din0_width} \
+    din0_signed ${din0_signed} \
+    din1_width ${din1_width} \
+    din1_signed ${din1_signed} \
+    din2_width ${din2_width} \
+    din2_signed ${din2_signed} \
+    din3_width ${din3_width} \
+    din3_signed ${din3_signed} \
+    din4_width ${din4_width} \
+    din4_signed ${din4_signed} \
+    dout_width ${dout_width} \
+}"
+} else {
+puts "@W \[IMPL-100\] Cannot find ap_gen_simcore_mux, check your AutoPilot builtin lib"
+}
+}
+
+
+if {${::AESL::PGuard_rtl_comp_handler}} {
+	::AP::rtl_comp_handler ${name}
+}
+
+
+set op mux
+set corename Multiplexer
+if {${::AESL::PGuard_autocg_gen} && ${::AESL::PGuard_autocg_ipmgen}} {
+if {[info proc ::AESL_LIB_VIRTEX::xil_gen_pipemux] == "::AESL_LIB_VIRTEX::xil_gen_pipemux"} {
+eval "::AESL_LIB_VIRTEX::xil_gen_pipemux { \
+    id ${id} \
+    name ${name} \
+    corename ${corename} \
+    op ${op} \
+    reset_level 1 \
+    sync_rst true \
+    stage_num ${stage_num} \
+    max_latency ${max_latency} \
+    registered_input ${registered_input} \
+    din0_width ${din0_width} \
+    din0_signed ${din0_signed} \
+    din1_width ${din1_width} \
+    din1_signed ${din1_signed} \
+    din2_width ${din2_width} \
+    din2_signed ${din2_signed} \
+    din3_width ${din3_width} \
+    din3_signed ${din3_signed} \
+    din4_width ${din4_width} \
+    din4_signed ${din4_signed} \
+    dout_width ${dout_width} \
+}"
+} else {
+puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_pipemux, check your platform lib"
+}
+}
+
+
+set id 106
 set name infer_mul_21s_20ns_37_1_1
 set corename simcore_mul
 set op mul
@@ -498,7 +498,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_multicycle_mul, che
 }
 
 
-set id 106
+set id 107
 set name infer_mux_42_21_1_1
 set corename simcore_mux
 set op mux
@@ -583,7 +583,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_pipemux, check your
 }
 
 
-set id 108
+set id 109
 set name infer_mux_42_21_1_1
 set corename simcore_mux
 set op mux
@@ -668,7 +668,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_pipemux, check your
 }
 
 
-set id 110
+set id 111
 set name infer_mux_42_21_1_1
 set corename simcore_mux
 set op mux
@@ -753,7 +753,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_pipemux, check your
 }
 
 
-set id 114
+set id 115
 set name infer_mux_42_21_1_1
 set corename simcore_mux
 set op mux
@@ -838,7 +838,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_pipemux, check your
 }
 
 
-set id 116
+set id 117
 set name infer_mux_42_21_1_1
 set corename simcore_mux
 set op mux
@@ -923,7 +923,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_pipemux, check your
 }
 
 
-set id 120
+set id 121
 set name infer_mux_42_21_1_1
 set corename simcore_mux
 set op mux
@@ -1008,7 +1008,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_pipemux, check your
 }
 
 
-set id 132
+set id 133
 set name infer_mux_42_21_1_1
 set corename simcore_mux
 set op mux
@@ -1093,7 +1093,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_pipemux, check your
 }
 
 
-set id 137
+set id 138
 set name infer_mux_42_40_1_1
 set corename simcore_mux
 set op mux
@@ -1178,7 +1178,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_pipemux, check your
 }
 
 
-set id 138
+set id 139
 set name infer_sdiv_48ns_40s_13_52_1
 set corename simcore_sdiv
 set op sdiv
@@ -1263,7 +1263,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_div, check your pla
 }
 
 
-set id 157
+set id 158
 set name infer_mac_muladd_14ns_21s_37ns_37_4_1
 set corename simcore_mac
 set op mac
@@ -1363,7 +1363,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_dsp48, check your p
 }
 
 
-set id 172
+set id 173
 set name infer_mac_muladd_3ns_6ns_3ns_8_4_1
 set corename simcore_mac
 set op mac
@@ -1463,7 +1463,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_dsp48, check your p
 }
 
 
-set id 174
+set id 175
 set name infer_mac_muladd_16s_20ns_30s_36_4_1
 set corename simcore_mac
 set op mac
@@ -1563,7 +1563,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_dsp48, check your p
 }
 
 
-set id 175
+set id 176
 set name infer_mac_muladd_16s_20ns_36s_37_4_1
 set corename simcore_mac
 set op mac
@@ -1663,7 +1663,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_dsp48, check your p
 }
 
 
-set id 176
+set id 177
 set name infer_mac_muladd_16s_20ns_37ns_37_4_1
 set corename simcore_mac
 set op mac
@@ -1763,7 +1763,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_dsp48, check your p
 }
 
 
-set id 177
+set id 178
 set name infer_mac_muladd_15s_20ns_37ns_37_4_1
 set corename simcore_mac
 set op mac
@@ -1863,7 +1863,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_dsp48, check your p
 }
 
 
-set id 205
+set id 206
 set name infer_mac_muladd_17s_20ns_37ns_37_4_1
 set corename simcore_mac
 set op mac
@@ -1963,7 +1963,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_dsp48, check your p
 }
 
 
-set id 238
+set id 239
 set name infer_mac_muladd_16s_21s_29s_36_4_1
 set corename simcore_mac
 set op mac
@@ -2063,7 +2063,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_dsp48, check your p
 }
 
 
-set id 239
+set id 240
 set name infer_mac_muladd_16s_21s_36s_37_4_1
 set corename simcore_mac
 set op mac
@@ -2164,7 +2164,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_dsp48, check your p
 
 
 # Memory (RAM/ROM)  definition:
-set ID 294
+set ID 295
 set hasByteEnable 0
 set MemName infer_layer_2_bias_V
 set CoreName ap_simcore_mem
@@ -2250,7 +2250,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 295
+set ID 296
 set hasByteEnable 0
 set MemName infer_cnn_input_V_0
 set CoreName ap_simcore_mem
@@ -2336,7 +2336,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_RAM] == "::AESL_LIB_VIRTEX::xil_gen_RA
 
 
 # Memory (RAM/ROM)  definition:
-set ID 296
+set ID 297
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_0
 set CoreName ap_simcore_mem
@@ -2422,7 +2422,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 297
+set ID 298
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_1
 set CoreName ap_simcore_mem
@@ -2508,7 +2508,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 298
+set ID 299
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_2
 set CoreName ap_simcore_mem
@@ -2594,7 +2594,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 299
+set ID 300
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_3
 set CoreName ap_simcore_mem
@@ -2680,7 +2680,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 300
+set ID 301
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_4
 set CoreName ap_simcore_mem
@@ -2766,7 +2766,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 301
+set ID 302
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_5
 set CoreName ap_simcore_mem
@@ -2852,7 +2852,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 302
+set ID 303
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_6
 set CoreName ap_simcore_mem
@@ -2938,7 +2938,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 303
+set ID 304
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_7
 set CoreName ap_simcore_mem
@@ -3024,7 +3024,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 304
+set ID 305
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_8
 set CoreName ap_simcore_mem
@@ -3110,7 +3110,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 305
+set ID 306
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_9
 set CoreName ap_simcore_mem
@@ -3196,7 +3196,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 306
+set ID 307
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_10
 set CoreName ap_simcore_mem
@@ -3282,7 +3282,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 307
+set ID 308
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_11
 set CoreName ap_simcore_mem
@@ -3368,7 +3368,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 308
+set ID 309
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_12
 set CoreName ap_simcore_mem
@@ -3454,7 +3454,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 309
+set ID 310
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_13
 set CoreName ap_simcore_mem
@@ -3540,7 +3540,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 310
+set ID 311
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_14
 set CoreName ap_simcore_mem
@@ -3626,7 +3626,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 311
+set ID 312
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_15
 set CoreName ap_simcore_mem
@@ -3712,7 +3712,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 312
+set ID 313
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_16
 set CoreName ap_simcore_mem
@@ -3798,7 +3798,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 313
+set ID 314
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_17
 set CoreName ap_simcore_mem
@@ -3884,7 +3884,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 314
+set ID 315
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_18
 set CoreName ap_simcore_mem
@@ -3970,7 +3970,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 315
+set ID 316
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_19
 set CoreName ap_simcore_mem
@@ -4056,7 +4056,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 316
+set ID 317
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_20
 set CoreName ap_simcore_mem
@@ -4142,7 +4142,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 317
+set ID 318
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_21
 set CoreName ap_simcore_mem
@@ -4228,7 +4228,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 318
+set ID 319
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_22
 set CoreName ap_simcore_mem
@@ -4314,7 +4314,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 319
+set ID 320
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_23
 set CoreName ap_simcore_mem
@@ -4400,7 +4400,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 320
+set ID 321
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_24
 set CoreName ap_simcore_mem
@@ -4486,7 +4486,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 321
+set ID 322
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_25
 set CoreName ap_simcore_mem
@@ -4572,7 +4572,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 322
+set ID 323
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_26
 set CoreName ap_simcore_mem
@@ -4658,7 +4658,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 323
+set ID 324
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_27
 set CoreName ap_simcore_mem
@@ -4744,7 +4744,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 324
+set ID 325
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_28
 set CoreName ap_simcore_mem
@@ -4830,7 +4830,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 325
+set ID 326
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_29
 set CoreName ap_simcore_mem
@@ -4916,7 +4916,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 326
+set ID 327
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_30
 set CoreName ap_simcore_mem
@@ -5002,7 +5002,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 327
+set ID 328
 set hasByteEnable 0
 set MemName infer_layer_2_weights_V_0_31
 set CoreName ap_simcore_mem
@@ -5088,95 +5088,9 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 328
-set hasByteEnable 0
-set MemName infer_convolution_output_V_0
-set CoreName ap_simcore_mem
-set PortList { 2 1 }
-set DataWd 21
-set AddrRange 53824
-set AddrWd 16
-set impl_style auto
-set TrueReset 0
-set IsROM 0
-set ROMData { }
-set HasInitializer 1
-set Initializer $ROMData
-set NumOfStage 2
-set MaxLatency -1
-set DelayBudget 1.352
-set ClkPeriod 10
-set RegisteredInput 0
-if {${::AESL::PGuard_simmodel_gen}} {
-if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
-    eval "ap_gen_simcore_mem { \
-    id ${ID} \
-    name ${MemName} \
-    corename ${CoreName}  \
-    op mem \
-    hasByteEnable ${hasByteEnable} \
-    reset_level 1 \
-    sync_rst true \
-    stage_num ${NumOfStage}  \
-    registered_input ${RegisteredInput} \
-    port_num 2 \
-    port_list \{${PortList}\} \
-    data_wd ${DataWd} \
-    addr_wd ${AddrWd} \
-    addr_range ${AddrRange} \
-    style ${impl_style} \
-    true_reset ${TrueReset} \
-    delay_budget ${DelayBudget} \
-    clk_period ${ClkPeriod} \
-    HasInitializer ${HasInitializer} \
-    rom_data \{${ROMData}\} \
- } "
-} else {
-    puts "@W \[IMPL-102\] Cannot find ap_gen_simcore_mem, check your platform lib"
-}
-}
-
-
-if {${::AESL::PGuard_rtl_comp_handler}} {
-  ::AP::rtl_comp_handler $MemName
-}
-
-
-set CoreName RAM
-if {${::AESL::PGuard_autocg_gen} && ${::AESL::PGuard_autocg_ipmgen}} {
-if {[info proc ::AESL_LIB_VIRTEX::xil_gen_RAM] == "::AESL_LIB_VIRTEX::xil_gen_RAM"} {
-    eval "::AESL_LIB_VIRTEX::xil_gen_RAM { \
-    id ${ID} \
-    name ${MemName} \
-    corename ${CoreName}  \
-    op mem \
-    hasByteEnable ${hasByteEnable} \
-    reset_level 1 \
-    sync_rst true \
-    stage_num ${NumOfStage}  \
-    registered_input ${RegisteredInput} \
-    port_num 2 \
-    port_list \{${PortList}\} \
-    data_wd ${DataWd} \
-    addr_wd ${AddrWd} \
-    addr_range ${AddrRange} \
-    style ${impl_style} \
-    true_reset ${TrueReset} \
-    delay_budget ${DelayBudget} \
-    clk_period ${ClkPeriod} \
-    HasInitializer ${HasInitializer} \
-    rom_data \{${ROMData}\} \
- } "
-  } else {
-    puts "@W \[IMPL-104\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_RAM, check your platform lib"
-  }
-}
-
-
-# Memory (RAM/ROM)  definition:
 set ID 329
 set hasByteEnable 0
-set MemName infer_max_pooling_output_V
+set MemName infer_convolution_output_V_0_0
 set CoreName ap_simcore_mem
 set PortList { 2 3 }
 set DataWd 21

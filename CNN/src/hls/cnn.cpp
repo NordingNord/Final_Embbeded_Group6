@@ -210,15 +210,18 @@ void infer(long_uint_stream &infer_input, long_uint_stream &infer_output)
 	// Partition arrays
 //#pragma HLS array_partition variable=cnn_input complete dim=3
 //#pragma HLS array_partition variable=cnn_input cyclic factor=3 dim=2
-//#pragma HLS array_partition variable=cnn_input cyclic factor=16 dim=1
+//#pragma HLS array_partition variable=cnn_input cyclic factor=3 dim=1
 
 //#pragma HLS array_partition variable=layer_2_output cyclic factor=2 dim=3
 #pragma HLS array_partition variable=convolution_output cyclic factor=2 dim=2
-//#pragma HLS array_partition variable=layer_2_output cyclic factor=2 dim=1
+#pragma HLS array_partition variable=convolution_output cyclic factor=2 dim=1
 
 //#pragma HLS array_partition variable=max_pooling_output cyclic factor=9 dim=3
 //#pragma HLS array_partition variable=max_pooling_output cyclic factor=3 dim=2
 //#pragma HLS array_partition variable=max_pooling_output cyclic factor=3 dim=1
+
+//#pragma HLS array_partition variable=dense_output_a cyclic factor=2 dim=1
+//#pragma HLS array_partition variable=dense_output_b cyclic factor=2 dim=1
 
 
     // Load image from stream to input array

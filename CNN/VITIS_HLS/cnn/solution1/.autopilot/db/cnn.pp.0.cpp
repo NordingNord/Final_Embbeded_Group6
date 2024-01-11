@@ -82943,7 +82943,8 @@ __attribute__((sdx_kernel("infer", 0))) void infer(long_uint_stream &infer_input
 
 
 #pragma HLS array_partition variable=convolution_output cyclic factor=2 dim=2
-# 226 "../src/hls/cnn.cpp"
+#pragma HLS array_partition variable=convolution_output cyclic factor=2 dim=1
+# 229 "../src/hls/cnn.cpp"
  long_uint_package pixel;
  uint8_t *pixel_pointer = (uint8_t*)&pixel.data;
  fixed *cnn_input_pointer = (fixed*)&cnn_input;
