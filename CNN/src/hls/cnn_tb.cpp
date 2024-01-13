@@ -11,6 +11,8 @@
 
 #include "testImage.h"
 
+#include <chrono>
+
 void infer(long_uint_stream &infer_input, long_uint_stream &infer_output);
 
 uint image_num = 0;
@@ -19,6 +21,11 @@ int test_using_image(int image_array[input_dim1][input_dim2][input_dim3],
 		float prediction_array[output_dim1])
 {
 	printf("\nImage: %d\n", image_num++);
+
+
+    // Get start time before stream in
+    auto start_in = std::chrono::high_resolution_clock::now();
+
 	long_uint_stream stream_in;
 	long_uint_stream stream_out;
 
@@ -35,7 +42,13 @@ int test_using_image(int image_array[input_dim1][input_dim2][input_dim3],
 		stream_in << input_package;
 	}
 
+	// Get start time before infer
+	auto start_infer = std::chrono::high_resolution_clock::now();
+
 	infer(stream_in, stream_out);
+
+	// Get end time after infer
+	auto end_infer = std::chrono::high_resolution_clock::now();
 
 	float_uint results[output_dim1];
 	long_uint_package output_package;
@@ -67,6 +80,20 @@ int test_using_image(int image_array[input_dim1][input_dim2][input_dim3],
 		last = output_package.last;
 		i++;
 	}
+
+	// Get end time after stream out
+	auto end_out = std::chrono::high_resolution_clock::now();
+
+	// Get durations
+	auto duration_in = std::chrono::duration_cast<std::chrono::microseconds>(start_infer - start_in);
+	auto duration_infer = std::chrono::duration_cast<std::chrono::microseconds>(end_infer - start_infer);
+	auto duration_out = std::chrono::duration_cast<std::chrono::microseconds>(end_out - end_infer);
+	auto duration_total = std::chrono::duration_cast<std::chrono::microseconds>(end_out - start_in);
+
+	printf("In took: %d us | ", duration_in);
+	printf("Infer took: %d us | ", duration_infer);
+	printf("Out took: %d us | ", duration_out);
+	printf("Total took: %d us\n\r", duration_total);
 
 	// Check if all predictions where received
 	if (i != output_dim1)
