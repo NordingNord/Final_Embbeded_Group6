@@ -55,7 +55,7 @@ And extrated here:
 ```bash
 ip/
 ```
-Actul implementation of the CNN in the FPGA happens through the use of CPSoC4Drones project using Vivado, which this repository is templated from. Read the MPSoC4Drones part later dowm.
+Actul implementation of the CNN in the FPGA happens through the use of MPSoC4Drones project, which this repository is templated from. Read the MPSoC4Drones part later dowm.
 
 ## Baremetal testing of implemented CNN IP
 For testing the resulting synthesized implementation of the CNN, a baremetal test was written using Vitis.
