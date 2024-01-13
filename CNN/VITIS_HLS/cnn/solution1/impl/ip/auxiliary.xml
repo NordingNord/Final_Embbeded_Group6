@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="infer" xd:componentRef="infer" xd:initiationInterval="x" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="infer" xd:componentRef="infer" xd:initiationInterval="680481" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
   <xd:controlReg xd:name="control" xd:interfaceRef="s_axi_control" xd:busTypeRef="axilite" xd:type="generic_axi_lite" xd:offset="0x0"/>
   <xd:arg xd:name="infer_input.data" xd:originalName="infer_input" xd:direction="in" xd:interfaceRef="infer_input" xd:busTypeRef="axis" xd:dataWidth="1"/>
   <xd:arg xd:name="infer_input.keep" xd:originalName="infer_input" xd:direction="in" xd:interfaceRef="infer_input" xd:busTypeRef="axis" xd:dataWidth="1"/>
@@ -15,6 +15,6 @@
   <xd:arg xd:name="infer_output.last" xd:originalName="infer_output" xd:direction="out" xd:interfaceRef="infer_output" xd:busTypeRef="axis" xd:dataWidth="1"/>
   <xd:arg xd:name="infer_output.id" xd:originalName="infer_output" xd:direction="out" xd:interfaceRef="infer_output" xd:busTypeRef="axis" xd:dataWidth="1"/>
   <xd:arg xd:name="infer_output.dest" xd:originalName="infer_output" xd:direction="out" xd:interfaceRef="infer_output" xd:busTypeRef="axis" xd:dataWidth="1"/>
-  <xd:latencyEstimates xd:best-case="undef" xd:worst-case="undef" xd:average-case="undef"/>
-  <xd:resourceEstimates xd:LUT="18151" xd:FF="20568" xd:BRAM="294" xd:DSP="203"/>
+  <xd:latencyEstimates xd:best-case="680480" xd:worst-case="680480" xd:average-case="680480"/>
+  <xd:resourceEstimates xd:LUT="20931" xd:FF="23926" xd:BRAM="337" xd:DSP="237"/>
 </xd:acceleratorMap>

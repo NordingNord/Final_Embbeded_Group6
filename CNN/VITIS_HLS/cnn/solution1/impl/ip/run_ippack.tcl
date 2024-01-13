@@ -54,7 +54,7 @@ set Library     "hls"
 set IPName      "infer"
 set Version     "1.0"
 set DisplayName "ScrewClassifierCNN"
-set Revision    "2113379172"
+set Revision    "2113380944"
 set Description "CNN for classification of screw heads."
 set Device      "zynquplus"
 set AutoFamily  ""
@@ -71,21 +71,16 @@ set kernel_xml [file join [pwd] ../kernel/kernel.xml]
 set solution_dir "/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS/cnn/solution1"
 set debug_dir "/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS/cnn/solution1/.debug"
 set xo_hls_files_dir ""
-set hdl_module_list {infer_mul_5ns_6ns_10_1_1
-infer_mul_5ns_5ns_10_1_1
-infer_mul_4ns_6ns_9_1_1
-infer_mux_325_21_1_1
-infer_mac_muladd_5ns_6ns_5ns_10_4_1
-infer_mac_muladd_16s_21s_37ns_37_4_1
-infer_mac_muladd_17s_21s_37ns_37_4_1
-infer_mac_muladd_14s_21s_37ns_37_4_1
-infer_mac_muladd_15s_21s_37ns_37_4_1
-infer_mul_71ns_68ns_139_1_1
+set hdl_module_list {infer_mul_71ns_68ns_139_1_1
 infer_exp_40_32_s_f_x_msb_2_table_V
 infer_exp_40_32_s_exp_x_msb_1_table_V
 infer_uitofp_32ns_32_4_no_dsp_1
 infer_fpext_32ns_64_2_no_dsp_1
 infer_ddiv_64ns_64ns_64_22_no_dsp_1
+infer_mul_5ns_7ns_11_1_1
+infer_mux_325_21_1_1
+infer_mul_4ns_6ns_9_1_1
+infer_mul_3ns_5ns_7_1_1
 infer_mux_42_21_1_1
 infer_mux_42_21_1_1
 infer_mul_21s_20ns_37_1_1
@@ -98,15 +93,19 @@ infer_mux_42_21_1_1
 infer_mux_42_21_1_1
 infer_mux_42_40_1_1
 infer_sdiv_48ns_40s_13_52_1
+infer_mac_muladd_15s_21s_37ns_37_4_1
+infer_mac_muladd_14s_21s_37ns_37_4_1
 infer_mac_muladd_14ns_21s_37ns_37_4_1
-infer_mac_muladd_3ns_6ns_3ns_8_4_1
+infer_mac_muladd_16s_21s_37ns_37_4_1
+infer_mac_muladd_5ns_6ns_5ns_10_4_1
+infer_mac_muladd_17s_21s_37ns_37_4_1
+infer_mac_muladd_4ns_5ns_4ns_8_4_1
 infer_mac_muladd_16s_20ns_30s_36_4_1
 infer_mac_muladd_16s_20ns_36s_37_4_1
 infer_mac_muladd_16s_20ns_37ns_37_4_1
 infer_mac_muladd_15s_20ns_37ns_37_4_1
 infer_mac_muladd_17s_20ns_37ns_37_4_1
-infer_mac_muladd_16s_21s_29s_36_4_1
-infer_mac_muladd_16s_21s_36s_37_4_1
+infer_mac_muladd_16s_20ns_29s_36_4_1
 infer_layer_2_bias_V
 infer_cnn_input_V_0
 infer_layer_2_weights_V_0_0
@@ -141,7 +140,9 @@ infer_layer_2_weights_V_0_28
 infer_layer_2_weights_V_0_29
 infer_layer_2_weights_V_0_30
 infer_layer_2_weights_V_0_31
-infer_convolution_output_V_0_0
+infer_layer_2_out_V_0
+infer_layer_3_out_V
+infer_layer_4_bias_V
 infer_layer_4_weights_V_0
 infer_layer_4_weights_V_1
 infer_layer_4_weights_V_2
@@ -174,7 +175,10 @@ infer_layer_4_weights_V_28
 infer_layer_4_weights_V_29
 infer_layer_4_weights_V_30
 infer_layer_4_weights_V_31
-infer_layer_4_bias_V
+infer_layer_4_out_V_0
+infer_layer_4_out_V_1
+infer_layer_5_out_V
+infer_layer_6_bias_V
 infer_layer_6_weights_V_0
 infer_layer_6_weights_V_1
 infer_layer_6_weights_V_2
@@ -207,11 +211,12 @@ infer_layer_6_weights_V_28
 infer_layer_6_weights_V_29
 infer_layer_6_weights_V_30
 infer_layer_6_weights_V_31
-infer_layer_6_bias_V
-infer_dense_output_a_V
+infer_layer_6_out_V_0
+infer_layer_6_out_V_1
+infer_layer_7_out_V
 infer_layer_9_bias_V
 infer_layer_9_weights_V
-infer_dense_output_b_V
+infer_layer_9_out_V
 infer_layer_10_bias_V
 infer_layer_10_weights_V_0
 infer_layer_10_weights_V_1
@@ -277,6 +282,7 @@ infer_layer_10_weights_V_60
 infer_layer_10_weights_V_61
 infer_layer_10_weights_V_62
 infer_layer_10_weights_V_63
+infer_layer_10_out_V
 infer_layer_11_bias_V
 infer_layer_11_weights_V_0
 infer_layer_11_weights_V_1
@@ -310,6 +316,7 @@ infer_layer_11_weights_V_28
 infer_layer_11_weights_V_29
 infer_layer_11_weights_V_30
 infer_layer_11_weights_V_31
+infer_layer_11_out_V
 infer_control_s_axi
 infer_regslice_both
 infer_regslice_both
@@ -325,8 +332,6 @@ infer_regslice_both
 infer_regslice_both
 infer_regslice_both
 infer_regslice_both
-max_pooling2d_unsigned_short_58_unsigned_short_58_unsigned_short_32_unsigned_short_29_unsigned_short_29_unsigned_short_32_s
-conv2d_unsigned_short_29_unsigned_short_29_unsigned_short_32_unsigned_short_3_unsigned_short_3_unsigned_short_32_unsigned_short_32_unsigned_short_32_unsigned_short_58_unsigned_short_58_unsigned_short_32_s
 exp_40_32_s
 infer
 }
@@ -2069,7 +2074,7 @@ if {![regexp -nocase {2014\.3.*} $vivado_ver match]} {
 ipx::create_xgui_files -logo_file misc/logo.png $core
 
 ## System Info
-set user_parameters_list {clk_period 10 machine 64 combinational 0 latency undef II x}
+set user_parameters_list {clk_period 10 machine 64 combinational 0 latency 680480 II x}
 foreach {user_para value} $user_parameters_list {
     incr user_parameter_order
     set user_para_value [ipx::add_user_parameter $user_para $core]

@@ -68,6 +68,14 @@ int test_using_image(int image_array[input_dim1][input_dim2][input_dim3],
 		i++;
 	}
 
+	// Check if all predictions where received
+	if (i != output_dim1)
+	{
+		printf("number of predictions wrong: %d should be: %d\n", i,output_dim1);
+		return 1;
+	}
+
+
 	printf("type: %d	| should be: %d\n", result_type, prediction_type);
 	if (result_type != prediction_type)
 	{
@@ -95,19 +103,21 @@ int test_using_image(int image_array[input_dim1][input_dim2][input_dim3],
 int main()
 {
 
+	int zero_input[60][60][1] = {};
+	float prediction_zero[4] = {0.015625, 0.980469, 0.000000, 0.000000};
+	int ret_ = test_using_image(zero_input, prediction_zero);
+	int ret0 = test_using_image(test_image0, prediction0);
+	int ret1 = test_using_image(test_image1, prediction1);
+	int ret2 = test_using_image(test_image2, prediction2);
+	int ret3 = test_using_image(test_image3, prediction3);
+	int ret4 = test_using_image(test_image4, prediction4);
+	int ret5 = test_using_image(test_image5, prediction5);
+	int ret6 = test_using_image(test_image6, prediction6);
+	int ret7 = test_using_image(test_image7, prediction7);
+	int ret8 = test_using_image(test_image8, prediction8);
+	int ret9 = test_using_image(test_image9, prediction9);
 
-	test_using_image(test_image0, prediction0);
-	test_using_image(test_image1, prediction1);
-	test_using_image(test_image2, prediction2);
-	test_using_image(test_image3, prediction3);
-	test_using_image(test_image4, prediction4);
-	test_using_image(test_image5, prediction5);
-	test_using_image(test_image6, prediction6);
-	test_using_image(test_image7, prediction7);
-	test_using_image(test_image8, prediction8);
-	test_using_image(test_image9, prediction9);
 
 
-
-    return 0;
+    return ret_ || ret0 || ret1 || ret2 || ret3 || ret4 || ret5 || ret6 || ret7 || ret8 || ret9;
 }

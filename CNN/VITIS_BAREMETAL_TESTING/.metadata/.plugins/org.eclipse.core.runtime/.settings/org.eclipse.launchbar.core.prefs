@@ -1,0 +1,9 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Debugger_infer_baremetal-Default,org.eclipse.launchbar.core.descriptorType.default\:Debugger_infer_baremetal-Default_1,org.eclipse.launchbar.core.descriptorType.default\:Debugger_infer_baremetal-Default_2
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_infer_baremetal-Default/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_infer_baremetal-Default/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_infer_baremetal-Default_1/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_infer_baremetal-Default_2/activeLaunchMode=run

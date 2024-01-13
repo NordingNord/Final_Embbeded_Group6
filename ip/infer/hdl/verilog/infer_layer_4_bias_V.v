@@ -6,7 +6,7 @@
 module infer_layer_4_bias_V_rom (
 addr0, ce0, q0, clk);
 
-parameter DWIDTH = 14;
+parameter DWIDTH = 12;
 parameter AWIDTH = 5;
 parameter MEM_SIZE = 32;
 
@@ -43,7 +43,7 @@ module infer_layer_4_bias_V(
     ce0,
     q0);
 
-parameter DataWidth = 32'd14;
+parameter DataWidth = 32'd12;
 parameter AddressRange = 32'd32;
 parameter AddressWidth = 32'd5;
 input reset;

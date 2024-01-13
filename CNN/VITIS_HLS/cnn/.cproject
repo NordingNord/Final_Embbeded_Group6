@@ -191,6 +191,8 @@
                         					
                     </fileInfo>
                     					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1020675885.1313816247" name="testImage.h" rcbsApplicability="disable" resourcePath="testbench/testImage.h" toolsToInvoke=""/>
+                    					
                     <sourceEntries>
                         						
                         <entry excluding=".apc|.reference|.settings|solution1|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
@@ -372,6 +374,8 @@
                         </tool>
                         					
                     </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.320413035.1573550791" name="testImage.h" rcbsApplicability="disable" resourcePath="testbench/testImage.h" toolsToInvoke=""/>
                     					
                     <sourceEntries>
                         						

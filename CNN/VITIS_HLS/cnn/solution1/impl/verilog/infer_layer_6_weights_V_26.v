@@ -6,7 +6,7 @@
 module infer_layer_6_weights_V_26_rom (
 addr0, ce0, q0, clk);
 
-parameter DWIDTH = 17;
+parameter DWIDTH = 14;
 parameter AWIDTH = 9;
 parameter MEM_SIZE = 288;
 
@@ -43,7 +43,7 @@ module infer_layer_6_weights_V_26(
     ce0,
     q0);
 
-parameter DataWidth = 32'd17;
+parameter DataWidth = 32'd14;
 parameter AddressRange = 32'd288;
 parameter AddressWidth = 32'd9;
 input reset;

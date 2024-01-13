@@ -1,0 +1,1 @@
+set ::AESL_AUTOSIM::gTopFileName /home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS/cnn/solution1/./sim/autowrap/testbench/cnn.cpp_pre.cpp.tb.cpp

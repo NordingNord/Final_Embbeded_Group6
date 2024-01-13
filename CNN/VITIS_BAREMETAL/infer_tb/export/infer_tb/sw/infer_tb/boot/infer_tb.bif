@@ -1,0 +1,8 @@
+/*infer_tb*/
+the_ROM_image:
+{
+  [bootloader, destination_cpu=a53-0]<infer_tb/boot/fsbl.elf>
+  [pmufw_image]<infer_tb/boot/pmufw.elf>
+  [destination_device=pl] <bitstream>
+  [destination_cpu=a53-0, exception_level=el-3] <elf,psu_cortexa53_0>
+}

@@ -1,0 +1,208 @@
+timestamp=[2024-01-12 02:48:03], mode=WORKBENCH_START, duration=0:00:09.314, duration_ms=9314, data={}
+timestamp=[2024-01-12 02:48:04], mode=WORKBENCH_UI_INIT, duration=0:00:00.839, duration_ms=839, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-01-12 02:48:10], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:05.859, duration_ms=5859, data={}
+timestamp=[2024-01-12 02:54:03], mode=APP_CREATION, duration=0:00:40.815, duration_ms=40815, data={name=infer_baremetal, project_type=sdk, os=standalone, processor=psu_cortexa53, runtime=cpp, platform=u96v2_sbc_mp4d, application_type=application}
+timestamp=[2024-01-12 03:03:21], mode=PLATFORM_GENERATION, duration=0:01:02.553, duration_ms=62553, data={name=u96v2_sbc_mp4d}
+timestamp=[2024-01-12 03:03:36], mode=BUILD, duration=0:00:02.214, duration_ms=2214, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 03:10:09], mode=BUILD, duration=0:00:01.392, duration_ms=1392, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 03:12:19], mode=BUILD, duration=0:00:19.409, duration_ms=19409, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 03:17:26], mode=BUILD, duration=0:00:18.557, duration_ms=18557, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 03:19:12], mode=BUILD, duration=0:00:18.726, duration_ms=18726, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 03:21:33], mode=BUILD, duration=0:00:18.361, duration_ms=18361, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 03:25:23], mode=BUILD, duration=0:00:01.439, duration_ms=1439, data={name=infer_baremetal, configuration=Debug, clean_build=true}
+timestamp=[2024-01-12 03:25:41], mode=BUILD, duration=0:00:17.801, duration_ms=17801, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 03:27:06], mode=BUILD, duration=0:00:17.447, duration_ms=17447, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 03:30:18], mode=WORKBENCH_START, duration=0:00:13.598, duration_ms=13598, data={}
+timestamp=[2024-01-12 03:30:19], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.178, duration_ms=178, data={}
+timestamp=[2024-01-12 03:30:22], mode=WORKBENCH_UI_INIT, duration=0:00:03.815, duration_ms=3815, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,infer_baremetal,infer_baremetal_system,u96v2_sbc_mp4d}
+timestamp=[2024-01-12 03:31:45], mode=WORKBENCH_START, duration=0:00:14.196, duration_ms=14196, data={}
+timestamp=[2024-01-12 03:31:46], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.147, duration_ms=147, data={}
+timestamp=[2024-01-12 03:31:49], mode=WORKBENCH_UI_INIT, duration=0:00:03.956, duration_ms=3956, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,infer_baremetal,infer_baremetal_system,u96v2_sbc_mp4d}
+timestamp=[2024-01-12 03:40:50], mode=PLATFORM_GENERATION, duration=0:00:39.461, duration_ms=39461, data={name=u96v2_sbc_mp4d}
+timestamp=[2024-01-12 03:41:18], mode=BUILD, duration=0:00:18.263, duration_ms=18263, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 03:44:11], mode=BUILD, duration=0:00:18.631, duration_ms=18631, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 03:46:25], mode=BUILD, duration=0:00:18.694, duration_ms=18694, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 03:49:12], mode=BUILD, duration=0:00:18.747, duration_ms=18747, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 03:50:29], mode=BUILD, duration=0:00:18.350, duration_ms=18350, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 03:52:35], mode=BUILD, duration=0:00:18.388, duration_ms=18388, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 04:05:02], mode=BUILD, duration=0:00:18.023, duration_ms=18023, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 04:06:15], mode=BUILD, duration=0:00:19.067, duration_ms=19067, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 04:07:29], mode=BUILD, duration=0:00:18.316, duration_ms=18316, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 04:12:32], mode=BUILD, duration=0:00:18.645, duration_ms=18645, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 04:14:27], mode=BUILD, duration=0:00:18.503, duration_ms=18503, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 04:17:01], mode=BUILD, duration=0:00:18.510, duration_ms=18510, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 04:17:30], mode=BUILD, duration=0:00:18.692, duration_ms=18692, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 04:19:10], mode=BUILD, duration=0:00:18.360, duration_ms=18360, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 04:21:14], mode=BUILD, duration=0:00:18.347, duration_ms=18347, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 04:23:29], mode=BUILD, duration=0:00:18.533, duration_ms=18533, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 04:24:46], mode=BUILD, duration=0:00:18.504, duration_ms=18504, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 04:27:10], mode=BUILD, duration=0:00:17.842, duration_ms=17842, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 04:27:35], mode=BUILD, duration=0:00:18.402, duration_ms=18402, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 04:30:37], mode=BUILD, duration=0:00:18.291, duration_ms=18291, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 04:32:26], mode=BUILD, duration=0:00:19.209, duration_ms=19209, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 04:34:29], mode=BUILD, duration=0:00:19.107, duration_ms=19107, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 04:35:40], mode=BUILD, duration=0:00:18.152, duration_ms=18152, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 04:37:15], mode=BUILD, duration=0:00:18.771, duration_ms=18771, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 04:45:02], mode=BUILD, duration=0:00:18.890, duration_ms=18890, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 04:47:04], mode=BUILD, duration=0:00:18.451, duration_ms=18451, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 04:48:21], mode=BUILD, duration=0:00:19.113, duration_ms=19113, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 04:49:04], mode=BUILD, duration=0:00:18.822, duration_ms=18822, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 04:50:09], mode=BUILD, duration=0:00:18.338, duration_ms=18338, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 04:51:17], mode=BUILD, duration=0:00:18.339, duration_ms=18339, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 04:52:23], mode=BUILD, duration=0:00:18.496, duration_ms=18496, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 04:53:18], mode=BUILD, duration=0:00:18.592, duration_ms=18592, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 04:54:32], mode=BUILD, duration=0:00:18.378, duration_ms=18378, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 04:56:04], mode=BUILD, duration=0:00:18.463, duration_ms=18463, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 05:01:46], mode=BUILD, duration=0:00:20.233, duration_ms=20233, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 05:02:54], mode=BUILD, duration=0:00:19.802, duration_ms=19802, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 05:04:08], mode=BUILD, duration=0:00:21.250, duration_ms=21250, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 05:05:39], mode=BUILD, duration=0:00:19.091, duration_ms=19091, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 05:07:11], mode=BUILD, duration=0:00:19.985, duration_ms=19985, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 05:08:01], mode=BUILD, duration=0:00:20.148, duration_ms=20148, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 05:09:32], mode=BUILD, duration=0:00:18.928, duration_ms=18928, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 05:11:38], mode=BUILD, duration=0:00:21.158, duration_ms=21158, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 05:13:16], mode=BUILD, duration=0:00:20.152, duration_ms=20152, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 05:14:41], mode=BUILD, duration=0:00:20.625, duration_ms=20625, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 05:16:14], mode=BUILD, duration=0:00:17.763, duration_ms=17763, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 05:16:42], mode=BUILD, duration=0:00:18.403, duration_ms=18403, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 05:18:10], mode=BUILD, duration=0:00:19.432, duration_ms=19432, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 05:18:19], mode=BUILD, duration=0:00:02.376, duration_ms=2376, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 05:20:14], mode=BUILD, duration=0:00:19.824, duration_ms=19824, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 05:31:05], mode=BUILD, duration=0:00:20.880, duration_ms=20880, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 05:32:07], mode=BUILD, duration=0:00:20.428, duration_ms=20428, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 05:40:45], mode=BUILD, duration=0:00:18.354, duration_ms=18354, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 15:22:52], mode=WORKBENCH_START, duration=0:00:15.401, duration_ms=15401, data={}
+timestamp=[2024-01-12 15:22:52], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.153, duration_ms=153, data={}
+timestamp=[2024-01-12 15:22:56], mode=WORKBENCH_UI_INIT, duration=0:00:03.908, duration_ms=3908, data={editors_count=5, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,infer_baremetal,infer_baremetal_system,u96v2_sbc_mp4d}
+timestamp=[2024-01-12 15:25:43], mode=WORKBENCH_START, duration=0:00:14.797, duration_ms=14797, data={}
+timestamp=[2024-01-12 15:25:44], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.182, duration_ms=182, data={}
+timestamp=[2024-01-12 15:25:47], mode=WORKBENCH_UI_INIT, duration=0:00:04.086, duration_ms=4086, data={editors_count=5, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,infer_baremetal,infer_baremetal_system,u96v2_sbc_mp4d}
+timestamp=[2024-01-12 15:27:51], mode=PLATFORM_GENERATION, duration=0:00:41.971, duration_ms=41971, data={name=u96v2_sbc_mp4d}
+timestamp=[2024-01-12 15:28:23], mode=BUILD, duration=0:00:19.155, duration_ms=19155, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 17:09:13], mode=WORKBENCH_START, duration=0:00:15.885, duration_ms=15885, data={}
+timestamp=[2024-01-12 17:09:14], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.249, duration_ms=249, data={}
+timestamp=[2024-01-12 17:09:18], mode=WORKBENCH_UI_INIT, duration=0:00:04.995, duration_ms=4995, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,infer_baremetal,infer_baremetal_system,u96v2_sbc_mp4d}
+timestamp=[2024-01-12 17:10:47], mode=PLATFORM_GENERATION, duration=0:00:08.347, duration_ms=8347, data={name=u96v2_sbc_mp4d}
+timestamp=[2024-01-12 17:11:19], mode=BUILD, duration=0:00:19.907, duration_ms=19907, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 17:20:45], mode=APP_CREATION, duration=0:00:07.255, duration_ms=7255, data={name=xaxidma_example_simple_poll_1, project_type=sdk, os=standalone, processor=cortex-a53, runtime=C/C++, platform=u96v2_sbc_mp4d, application_type=application}
+timestamp=[2024-01-12 17:34:49], mode=PLATFORM_GENERATION, duration=0:00:08.762, duration_ms=8762, data={name=u96v2_sbc_mp4d}
+timestamp=[2024-01-12 17:35:22], mode=BUILD, duration=0:00:20.906, duration_ms=20906, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 17:38:15], mode=BUILD, duration=0:00:21.893, duration_ms=21893, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 17:41:44], mode=BUILD, duration=0:00:01.895, duration_ms=1895, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 17:42:01], mode=BUILD, duration=0:00:01.595, duration_ms=1595, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 17:44:39], mode=BUILD, duration=0:00:21.164, duration_ms=21164, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 17:50:46], mode=BUILD, duration=0:00:20.769, duration_ms=20769, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 17:53:14], mode=BUILD, duration=0:00:22.140, duration_ms=22140, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 17:55:07], mode=BUILD, duration=0:00:20.070, duration_ms=20070, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 17:57:09], mode=BUILD, duration=0:00:20.352, duration_ms=20352, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 17:57:59], mode=BUILD, duration=0:00:20.388, duration_ms=20388, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 17:59:37], mode=BUILD, duration=0:00:20.789, duration_ms=20789, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 18:00:38], mode=BUILD, duration=0:00:20.197, duration_ms=20197, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 18:04:19], mode=BUILD, duration=0:00:20.419, duration_ms=20419, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 18:07:00], mode=BUILD, duration=0:00:20.229, duration_ms=20229, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 18:11:26], mode=BUILD, duration=0:00:20.400, duration_ms=20400, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 18:14:47], mode=BUILD, duration=0:00:21.815, duration_ms=21815, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 18:15:23], mode=BUILD, duration=0:00:21.367, duration_ms=21367, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 18:20:01], mode=BUILD, duration=0:00:20.280, duration_ms=20280, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 18:25:25], mode=BUILD, duration=0:00:19.897, duration_ms=19897, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 18:26:32], mode=BUILD, duration=0:00:19.821, duration_ms=19821, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 20:05:34], mode=PLATFORM_GENERATION, duration=0:00:15.795, duration_ms=15795, data={name=u96v2_sbc_mp4d}
+timestamp=[2024-01-12 20:06:07], mode=BUILD, duration=0:00:20.191, duration_ms=20191, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 20:07:25], mode=BUILD, duration=0:00:20.197, duration_ms=20197, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 20:14:57], mode=BUILD, duration=0:00:20.506, duration_ms=20506, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 20:15:53], mode=BUILD, duration=0:00:20.396, duration_ms=20396, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 20:19:35], mode=BUILD, duration=0:00:20.090, duration_ms=20090, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 20:22:34], mode=BUILD, duration=0:00:21.007, duration_ms=21007, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 20:24:04], mode=BUILD, duration=0:00:21.127, duration_ms=21127, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 20:27:20], mode=BUILD, duration=0:00:01.523, duration_ms=1523, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 20:31:07], mode=BUILD, duration=0:00:20.671, duration_ms=20671, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 20:33:26], mode=BUILD, duration=0:00:21.439, duration_ms=21439, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 20:35:04], mode=BUILD, duration=0:00:22.289, duration_ms=22289, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 20:38:29], mode=BUILD, duration=0:00:21.069, duration_ms=21069, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 20:40:23], mode=BUILD, duration=0:00:21.248, duration_ms=21248, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 20:43:35], mode=BUILD, duration=0:00:21.372, duration_ms=21372, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 20:44:06], mode=BUILD, duration=0:00:21.930, duration_ms=21930, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 20:46:11], mode=BUILD, duration=0:00:21.821, duration_ms=21821, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 20:47:14], mode=BUILD, duration=0:00:20.750, duration_ms=20750, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 20:50:58], mode=BUILD, duration=0:00:21.719, duration_ms=21719, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 21:03:48], mode=BUILD, duration=0:00:20.403, duration_ms=20403, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 21:05:59], mode=BUILD, duration=0:00:21.699, duration_ms=21699, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 21:09:13], mode=BUILD, duration=0:00:21.360, duration_ms=21360, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 21:09:45], mode=BUILD, duration=0:00:21.197, duration_ms=21197, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 21:11:31], mode=BUILD, duration=0:00:01.466, duration_ms=1466, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 21:12:48], mode=BUILD, duration=0:00:20.613, duration_ms=20613, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 21:13:44], mode=BUILD, duration=0:00:21.193, duration_ms=21193, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 21:15:09], mode=BUILD, duration=0:00:22.396, duration_ms=22396, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 21:16:25], mode=BUILD, duration=0:00:21.098, duration_ms=21098, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 21:17:46], mode=BUILD, duration=0:00:20.886, duration_ms=20886, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 21:19:23], mode=BUILD, duration=0:00:20.784, duration_ms=20784, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 21:20:22], mode=BUILD, duration=0:00:20.958, duration_ms=20958, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 21:22:16], mode=BUILD, duration=0:00:20.277, duration_ms=20277, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 21:23:22], mode=BUILD, duration=0:00:20.938, duration_ms=20938, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 21:24:30], mode=BUILD, duration=0:00:21.292, duration_ms=21292, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 21:25:17], mode=BUILD, duration=0:00:21.948, duration_ms=21948, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 21:26:05], mode=BUILD, duration=0:00:21.823, duration_ms=21823, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 21:26:55], mode=BUILD, duration=0:00:22.303, duration_ms=22303, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 21:27:57], mode=BUILD, duration=0:00:21.448, duration_ms=21448, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 22:01:08], mode=BUILD, duration=0:00:21.973, duration_ms=21973, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 22:04:03], mode=BUILD, duration=0:00:21.590, duration_ms=21590, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 22:05:02], mode=BUILD, duration=0:00:21.861, duration_ms=21861, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 22:06:54], mode=BUILD, duration=0:00:20.883, duration_ms=20883, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 22:07:49], mode=BUILD, duration=0:00:22.219, duration_ms=22219, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 22:11:21], mode=BUILD, duration=0:00:22.571, duration_ms=22571, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 22:14:16], mode=BUILD, duration=0:00:22.906, duration_ms=22906, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 22:15:33], mode=BUILD, duration=0:00:23.772, duration_ms=23772, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 22:17:39], mode=BUILD, duration=0:00:21.868, duration_ms=21868, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 22:23:43], mode=BUILD, duration=0:00:20.744, duration_ms=20744, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 22:24:15], mode=BUILD, duration=0:00:21.539, duration_ms=21539, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 22:26:07], mode=BUILD, duration=0:00:22.128, duration_ms=22128, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 22:26:36], mode=BUILD, duration=0:00:21.531, duration_ms=21531, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 22:27:41], mode=BUILD, duration=0:00:21.793, duration_ms=21793, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 22:29:01], mode=BUILD, duration=0:00:21.485, duration_ms=21485, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 22:30:24], mode=BUILD, duration=0:00:21.852, duration_ms=21852, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 22:31:44], mode=BUILD, duration=0:00:21.684, duration_ms=21684, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 22:46:53], mode=BUILD, duration=0:00:20.946, duration_ms=20946, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 22:48:22], mode=BUILD, duration=0:00:21.506, duration_ms=21506, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 22:50:24], mode=BUILD, duration=0:00:20.413, duration_ms=20413, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 22:51:01], mode=BUILD, duration=0:00:20.907, duration_ms=20907, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 23:02:56], mode=BUILD, duration=0:00:21.169, duration_ms=21169, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 23:03:44], mode=BUILD, duration=0:00:21.823, duration_ms=21823, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 23:06:43], mode=BUILD, duration=0:00:21.089, duration_ms=21089, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 23:07:16], mode=BUILD, duration=0:00:20.940, duration_ms=20940, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 23:08:22], mode=BUILD, duration=0:00:22.048, duration_ms=22048, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 23:10:05], mode=BUILD, duration=0:00:21.004, duration_ms=21004, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 23:28:52], mode=BUILD, duration=0:00:21.003, duration_ms=21003, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 23:31:14], mode=BUILD, duration=0:00:20.836, duration_ms=20836, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 23:32:05], mode=BUILD, duration=0:00:25.717, duration_ms=25717, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 23:32:19], mode=BUILD, duration=0:00:01.451, duration_ms=1451, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 23:32:46], mode=BUILD, duration=0:00:01.480, duration_ms=1480, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 23:35:41], mode=BUILD, duration=0:00:20.692, duration_ms=20692, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 23:36:34], mode=BUILD, duration=0:00:21.072, duration_ms=21072, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 23:37:11], mode=BUILD, duration=0:00:23.297, duration_ms=23297, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 23:44:04], mode=BUILD, duration=0:00:21.145, duration_ms=21145, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 23:46:23], mode=BUILD, duration=0:00:22.332, duration_ms=22332, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 23:48:43], mode=BUILD, duration=0:00:21.899, duration_ms=21899, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 23:49:33], mode=BUILD, duration=0:00:22.933, duration_ms=22933, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 23:50:37], mode=BUILD, duration=0:00:22.671, duration_ms=22671, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 23:51:37], mode=BUILD, duration=0:00:23.400, duration_ms=23400, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-12 23:52:30], mode=BUILD, duration=0:00:22.376, duration_ms=22376, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-13 00:04:17], mode=BUILD, duration=0:00:21.255, duration_ms=21255, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-13 00:07:01], mode=BUILD, duration=0:00:21.807, duration_ms=21807, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-13 00:07:51], mode=BUILD, duration=0:00:20.995, duration_ms=20995, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-13 00:09:57], mode=BUILD, duration=0:00:21.691, duration_ms=21691, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-13 00:12:21], mode=BUILD, duration=0:00:20.949, duration_ms=20949, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-13 00:13:10], mode=BUILD, duration=0:00:21.057, duration_ms=21057, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-13 00:14:41], mode=BUILD, duration=0:00:21.279, duration_ms=21279, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-13 00:20:45], mode=BUILD, duration=0:00:21.091, duration_ms=21091, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-13 00:22:21], mode=BUILD, duration=0:00:21.208, duration_ms=21208, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-13 00:24:16], mode=BUILD, duration=0:00:20.817, duration_ms=20817, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-13 00:25:35], mode=BUILD, duration=0:00:20.483, duration_ms=20483, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-13 00:37:34], mode=BUILD, duration=0:00:22.143, duration_ms=22143, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-13 00:39:26], mode=BUILD, duration=0:00:20.340, duration_ms=20340, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-13 00:41:38], mode=BUILD, duration=0:00:21.732, duration_ms=21732, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-13 00:43:05], mode=BUILD, duration=0:00:21.165, duration_ms=21165, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-13 00:44:34], mode=BUILD, duration=0:00:22.515, duration_ms=22515, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-13 00:45:58], mode=BUILD, duration=0:00:21.288, duration_ms=21288, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-13 00:57:18], mode=BUILD, duration=0:00:22.494, duration_ms=22494, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-13 00:58:15], mode=BUILD, duration=0:00:21.240, duration_ms=21240, data={name=infer_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-13 01:00:39], mode=BUILD, duration=0:00:21.120, duration_ms=21120, data={name=infer_baremetal, configuration=Debug, clean_build=false}

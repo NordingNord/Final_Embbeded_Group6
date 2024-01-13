@@ -7,7 +7,7 @@
     <originFiles name="cnn.cpp" path="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/cnn.cpp"/>
   </source>
   <testbench>
-    <originFiles name="cnn_tb.cpp" path="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/cnn_tb.cpp"/>
     <originFiles name="testImage.h" path="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/testImage.h"/>
+    <originFiles name="cnn_tb.cpp" path="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/cnn_tb.cpp"/>
   </testbench>
 </autopilotfilemapping:AutoPilotFileMapping>
