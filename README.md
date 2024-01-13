@@ -1,3 +1,70 @@
+# FPGA accelerated CNN for fastener classification
+
+This repository contains code for generating as well as running and accelerating a convolutional neural network (CNN) on the MPSoC Ultra96-V2.
+
+## Creating and traning the CNN
+The CNN has been created and trained in python using Tensorflow to classify an input image as one of four different fastener types.
+
+The code for creating and training the CNN exist in the Jupyter Notebook:
+```bash
+/CNN/src/python/createNN.ipynb
+```
+The training and verification images are stored as png in the subfolders of :
+```bash
+CNN/src/getimages/imgs/
+```
+Images where exported from ROS2 rosbags using:
+```bash
+CNN/src/getimages/bag_to_images/bag_to_images/bag_to_images.py
+```
+
+## C++ implementation of CNN
+The CNN has been rewritten in c++ code, and transformed to a Vivado IP using Vitis HLS for acceleration in an FPGA.
+
+Layer information from the CNN as well as example input image and inferred output have been exported from Tensorflow using the createNN.ipynb file, for use in the c++ code.
+
+The c++ code for the CNN acceleration consists of the four files:
+```bash
+CNN/src/hls/cnn.cpp
+CNN/src/hls/cnn.hpp
+CNN/src/hls/types.hpp
+CNN/src/hls/layerInfo.hpp
+```
+Where layerInfo.hpp contains the weights, biases and output dimensions of each CNN layer, and the rest contain the actual implementation.
+
+For testing the implementation in c-simulation in Vitis HLS, the example input images and inferred outputs are exported to:
+```bash
+CNN/src/hls/testImage.h
+```
+With the testbench being:
+```bash
+CNN/src/hls/cnn_tb.cpp
+```
+
+An unpotimized version of the c++ code can be found in:
+```bash
+CNN/src/hls/cnn_unoptimized.cpp
+```
+
+## CNN IP integration
+The synthesized IP used for implementaiton of the CNN on the FPGA is the exported as:
+```bash
+CNN/VITIS_HLS/infer.zip
+```
+And extrated here:
+```bash
+ip/
+```
+Actul implementation of the CNN in the FPGA happens through the use of CPSoC4Drones project using Vivado, which this repository is templated from. Read the MPSoC4Drones part later dowm.
+
+## Baremetal testing of implemented CNN IP
+For testing the resulting synthesized implementation of the CNN, a baremetal test was written using Vitis.
+The code can be found here:
+```bash
+CNN/VITIS/infer_baremetal/src/infer_baremetal.c
+```
+
+
 # MPSoC4Drones
 
 ██████╗░██╗██╗██╗  
