@@ -16,3 +16,6 @@ platform write
 platform generate -domains 
 platform active {infer_tb}
 platform generate
+platform active {infer_tb}
+platform config -updatehw {/home/frank/Documents/Git/Final_Embbeded_Group6/hdl/projects/u96v2_sbc_mp4d_2020_2/u96v2_sbc_mp4d.xsa}
+platform generate -domains 

@@ -59,8 +59,8 @@ extern void xil_printf(const char *format, ...);
 #endif
 
 int TestInfer(u16 DMADeviceId, u16 InferDeviceId);
-int inserImage(u8 *TxBufferPtr);
-int checkResult(u8 *RxBufferPtr);
+int inserImage();
+int checkResult();
 
 /************************** Variable Definitions *****************************/
 /*
@@ -190,23 +190,23 @@ int TestInfer(u16 DMADeviceId, u16 InferDeviceId)
 	xil_printf("\r\n--- Disabled interrupts --- \r\n");
 
 
-
+/*
 	int *image_pointer = (int*)test_image5;
 	for (int i = 0; i < INPUT_SIZE_BYTE; i++)
 	{
-		TxBufferPtr[i] = 100;
+		TxBufferPtr[i] = image_pointer[i];
 		//xil_printf("Send data: %u  \r\n", TxBufferPtr[i]);
-	}
+	}*/
 
 	Xil_DCacheFlushRange((UINTPTR)TxBufferPtr, INPUT_SIZE_BYTE);
 	Xil_DCacheFlushRange((UINTPTR)RxBufferPtr, OUTPUT_SIZE_BYTE);
 	xil_printf("\r\n--- Flushed buffers --- \r\n");
-	/*
-	Status = inserImage(TxBufferPtr);
+
+	Status = inserImage();
 	if (Status != XST_SUCCESS) {
 		xil_printf("Insertion of image failed %d\r\n", Status);
 		return XST_FAILURE;
-	}*/
+	}
 
 	xil_printf("\r\n--- Inserted image in TxBufferPtr --- \r\n");
 	/* Flush the buffers before the DMA transfer, in case the Data Cache
@@ -218,9 +218,17 @@ int TestInfer(u16 DMADeviceId, u16 InferDeviceId)
 
 	for (int k = 0; k < 2; k++)
 	{
+
+
+
 		XInfer_Start(&InferInstance);
 		xil_printf("\r\n--- Started Infer --- \r\n");
 
+		/*
+		for (int i = 0; i < INPUT_SIZE_BYTE; i += 60)
+		{
+			xil_printf("Send data: %u  \r\n", TxBufferPtr[i]);
+		}*/
 
 		Status = XAxiDma_SimpleTransfer(&AxiDma,(UINTPTR) TxBufferPtr,
 				INPUT_SIZE_BYTE, XAXIDMA_DMA_TO_DEVICE);
@@ -231,33 +239,6 @@ int TestInfer(u16 DMADeviceId, u16 InferDeviceId)
 		else {
 			xil_printf("\r\n--- XAxiDma_SimpleTransfer TxBufferPtr Success --- \r\n");
 		}
-/*
-		for (int i = 0; i < INPUT_SIZE_BYTE; i += 60)
-		{
-			xil_printf("Send data: %u  \r\n", TxBufferPtr[i]);
-		}*/
-
-		Status = XAxiDma_SimpleTransfer(&AxiDma,(UINTPTR) RxBufferPtr,
-				OUTPUT_SIZE_BYTE, XAXIDMA_DEVICE_TO_DMA);
-
-		if (Status != XST_SUCCESS) {
-			return XST_FAILURE;
-		}
-		else {
-			xil_printf("\r\n--- XAxiDma_SimpleTransfer RxBufferPtr Success --- \r\n");
-		}
-/*
-		for (int i = 0; i < INPUT_SIZE_BYTE; i += 60)
-		{
-			xil_printf("Send data: %u  \r\n", TxBufferPtr[i]);
-		}*/
-
-
-/*
-		for (int i = 0; i < INPUT_SIZE_BYTE; i += 60)
-		{
-			xil_printf("Send data: %u  \r\n", TxBufferPtr[i]);
-		}*/
 
 		while (XAxiDma_Busy(&AxiDma,XAXIDMA_DMA_TO_DEVICE)) {
 			/* Wait */
@@ -274,12 +255,43 @@ int TestInfer(u16 DMADeviceId, u16 InferDeviceId)
 			xil_printf("Send data: %u  \r\n", TxBufferPtr[i]);
 		}
 
+		Status = XAxiDma_SimpleTransfer(&AxiDma,(UINTPTR) RxBufferPtr,
+				OUTPUT_SIZE_BYTE, XAXIDMA_DEVICE_TO_DMA);
+
+		if (Status != XST_SUCCESS) {
+			return XST_FAILURE;
+		}
+		else {
+			xil_printf("\r\n--- XAxiDma_SimpleTransfer RxBufferPtr Success --- \r\n");
+		}
+
+
+
+
+
+
+
+		/*
+		for (int i = 0; i < INPUT_SIZE_BYTE; i += 60)
+		{
+			xil_printf("Send data: %u  \r\n", TxBufferPtr[i]);
+		}*/
+
+
+		/*
+		for (int i = 0; i < INPUT_SIZE_BYTE; i += 60)
+		{
+			xil_printf("Send data: %u  \r\n", TxBufferPtr[i]);
+		}*/
+
+
+
 		while (XAxiDma_Busy(&AxiDma,XAXIDMA_DEVICE_TO_DMA)) {
 			xil_printf("\r\n--- IM STUCK. HELP --- \r\n");
 		}
 		xil_printf("\r\n--- DEVICE_TO_DMA done --- \r\n");
 
-		Status = checkResult(RxBufferPtr);
+		Status = checkResult();
 		if (Status != XST_SUCCESS) {
 			return XST_FAILURE;
 		}
@@ -299,13 +311,15 @@ int TestInfer(u16 DMADeviceId, u16 InferDeviceId)
  *		- XST_SUCCESS if insertion finishes successfully
  *		- XST_FAILURE if error occurs
  */
-int inserImage(u8 *TxBufferPtr)
+int inserImage()
 {
+	u8 *TxBufferPtr;
+	TxBufferPtr = (u8 *)TX_BUFFER_BASE;
 	int *image_pointer = (int*)test_image5;
 	for (int i = 0; i < INPUT_SIZE_BYTE; i++)
 	{
 		TxBufferPtr[i] = (uint8_t)image_pointer[i];
-		xil_printf("Send data: %u  \r\n", TxBufferPtr[i]);
+		//xil_printf("Send data: %u  \r\n", TxBufferPtr[i]);
 	}
 	return XST_SUCCESS;
 }
@@ -318,11 +332,11 @@ int inserImage(u8 *TxBufferPtr)
  *		- XST_FAILURE if result wrong
  */
 
-int checkResult(u8 *RxBufferPtr)
+int checkResult()
 {
-	uint32_t* Rx32Ptr = (uint32_t*) RxBufferPtr;
+	uint32_t* Rx32Ptr = (uint32_t*) RX_BUFFER_BASE;
 
-	//Xil_DCacheInvalidateRange((UINTPTR)RxBufferPtr, OUTPUT_SIZE_BYTE);
+	Xil_DCacheInvalidateRange((UINTPTR)Rx32Ptr, OUTPUT_SIZE_BYTE);
 
 	union float_uint value;
 	for (int i = 0; i < OUTPUT_SIZE_BYTE/4; i++)

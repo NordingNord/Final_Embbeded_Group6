@@ -66,3 +66,9 @@ timestamp=[2024-01-11 23:00:55], mode=PLATFORM_CREATION, duration=0:00:26.589, d
 timestamp=[2024-01-11 23:03:18], mode=APP_CREATION, duration=0:00:06.786, duration_ms=6786, data={name=infer_tb_baremetal, project_type=sdk, os=standalone, processor=cortex-a53, runtime=C/C++, platform=infer_tb, application_type=application}
 timestamp=[2024-01-11 23:06:10], mode=PLATFORM_GENERATION, duration=0:01:07.223, duration_ms=67223, data={name=infer_tb}
 timestamp=[2024-01-11 23:06:45], mode=BUILD, duration=0:00:21.263, duration_ms=21263, data={name=infer_tb_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-13 02:54:05], mode=WORKBENCH_START, duration=0:00:18.594, duration_ms=18594, data={}
+timestamp=[2024-01-13 02:54:07], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.704, duration_ms=704, data={}
+timestamp=[2024-01-13 02:54:12], mode=WORKBENCH_UI_INIT, duration=0:00:06.846, duration_ms=6846, data={editors_count=15, platform_editors_count=5, projects_count=7, platform_projects_count=2, active_platform_editor=false, projects=RemoteSystemsTempFiles,infer_baremetal,infer_baremetal_system,infer_tb,infer_tb_baremetal,infer_tb_baremetal_system,u96v2_sbc_mp4d_infer}
+timestamp=[2024-01-13 02:54:55], mode=BUILD, duration=0:00:01.655, duration_ms=1655, data={name=infer_tb_baremetal, configuration=Debug, clean_build=false}
+timestamp=[2024-01-13 02:57:52], mode=PLATFORM_GENERATION, duration=0:00:09.091, duration_ms=9091, data={name=infer_tb}
+timestamp=[2024-01-13 02:58:27], mode=BUILD, duration=0:00:22.645, duration_ms=22645, data={name=infer_tb_baremetal, configuration=Debug, clean_build=false}

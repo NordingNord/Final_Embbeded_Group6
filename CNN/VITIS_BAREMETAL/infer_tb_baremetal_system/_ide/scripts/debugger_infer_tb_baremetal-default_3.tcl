@@ -24,9 +24,9 @@ set mode [expr [mrd -value 0xFF5E0200] & 0xf]
 targets -set -nocase -filter {name =~ "*A53*#0"}
 rst -processor
 dow /home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_BAREMETAL/infer_tb/export/infer_tb/sw/infer_tb/boot/fsbl.elf
-set bp_9_59_fsbl_bp [bpadd -addr &XFsbl_Exit]
+set bp_55_16_fsbl_bp [bpadd -addr &XFsbl_Exit]
 con -block -timeout 60
-bpremove $bp_9_59_fsbl_bp
+bpremove $bp_55_16_fsbl_bp
 targets -set -nocase -filter {name =~ "*A53*#0"}
 rst -processor
 dow /home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_BAREMETAL/infer_tb_baremetal/Debug/infer_tb_baremetal.elf
