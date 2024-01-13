@@ -54,7 +54,7 @@ set Library     "hls"
 set IPName      "infer"
 set Version     "1.0"
 set DisplayName "ScrewClassifierCNN"
-set Revision    "2113380944"
+set Revision    "2113381577"
 set Description "CNN for classification of screw heads."
 set Device      "zynquplus"
 set AutoFamily  ""
@@ -106,8 +106,9 @@ infer_mac_muladd_16s_20ns_37ns_37_4_1
 infer_mac_muladd_15s_20ns_37ns_37_4_1
 infer_mac_muladd_17s_20ns_37ns_37_4_1
 infer_mac_muladd_16s_20ns_29s_36_4_1
-infer_layer_2_bias_V
+infer_cnn_input_flat_V_0
 infer_cnn_input_V_0
+infer_layer_2_bias_V
 infer_layer_2_weights_V_0_0
 infer_layer_2_weights_V_0_1
 infer_layer_2_weights_V_0_2
@@ -2074,7 +2075,7 @@ if {![regexp -nocase {2014\.3.*} $vivado_ver match]} {
 ipx::create_xgui_files -logo_file misc/logo.png $core
 
 ## System Info
-set user_parameters_list {clk_period 10 machine 64 combinational 0 latency 680480 II x}
+set user_parameters_list {clk_period 10 machine 64 combinational 0 latency 687801 II x}
 foreach {user_para value} $user_parameters_list {
     incr user_parameter_order
     set user_para_value [ipx::add_user_parameter $user_para $core]

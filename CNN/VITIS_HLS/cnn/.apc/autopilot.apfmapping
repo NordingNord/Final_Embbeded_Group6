@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
   <source>
-    <originFiles name="types.hpp" path="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/types.hpp"/>
-    <originFiles name="layerInfo.hpp" path="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/layerInfo.hpp"/>
-    <originFiles name="cnn.hpp" path="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/cnn.hpp"/>
     <originFiles name="cnn.cpp" path="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/cnn.cpp"/>
+    <originFiles name="cnn.hpp" path="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/cnn.hpp"/>
+    <originFiles name="layerInfo.hpp" path="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/layerInfo.hpp"/>
+    <originFiles name="types.hpp" path="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/types.hpp"/>
   </source>
   <testbench>
-    <originFiles name="testImage.h" path="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/testImage.h"/>
     <originFiles name="cnn_tb.cpp" path="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/cnn_tb.cpp"/>
+    <originFiles name="testImage.h" path="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/testImage.h"/>
   </testbench>
 </autopilotfilemapping:AutoPilotFileMapping>

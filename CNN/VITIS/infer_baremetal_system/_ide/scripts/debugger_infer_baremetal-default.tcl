@@ -24,9 +24,9 @@ set mode [expr [mrd -value 0xFF5E0200] & 0xf]
 targets -set -nocase -filter {name =~ "*A53*#0"}
 rst -processor
 dow /home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS/u96v2_sbc_mp4d/export/u96v2_sbc_mp4d/sw/u96v2_sbc_mp4d/boot/fsbl.elf
-set bp_0_18_fsbl_bp [bpadd -addr &XFsbl_Exit]
+set bp_15_17_fsbl_bp [bpadd -addr &XFsbl_Exit]
 con -block -timeout 60
-bpremove $bp_0_18_fsbl_bp
+bpremove $bp_15_17_fsbl_bp
 targets -set -nocase -filter {name =~ "*A53*#0"}
 rst -processor
 dow /home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS/infer_baremetal/Debug/infer_baremetal.elf

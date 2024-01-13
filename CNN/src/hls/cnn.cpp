@@ -116,6 +116,18 @@ void array_3d_to_1d(fixed (&array)[size_1][size_2][size_3], fixed (&output)[size
 				output[i*size_2*size_3 + ii*size_3 + iii] = array[i][ii][iii];
 }
 
+/*
+* 	Convert 1d array to 3d array
+*/
+template <const sizetype size_1, const sizetype size_2, const sizetype size_3>
+void array_1d_to_3d(fixed (&array)[size_1*size_2*size_3], fixed (&output)[size_1][size_2][size_3])
+{
+	for (sizetype i = 0; i < size_1; i++)
+		for (sizetype ii = 0; ii < size_2; ii++)
+			for (sizetype iii = 0; iii < size_3; iii++)
+				output[i][ii][iii] = array[i*size_2*size_3 + ii*size_3 + iii];
+}
+
 
 /*
 *   Dense with relu
@@ -196,6 +208,7 @@ void infer(long_uint_stream &infer_input, long_uint_stream &infer_output)
 #pragma HLS INTERFACE s_axilite port=return
 
 	// Define arrays
+	static fixed cnn_input_flat[input_dim1*input_dim2*input_dim3] = {};
 	static fixed cnn_input[input_dim1][input_dim2][input_dim3] = {};
 	static fixed layer_2_out[layer_2_dim1][layer_2_dim2][layer_2_dim3] = {};
 	static fixed layer_3_out[layer_3_dim1][layer_3_dim2][layer_3_dim3] = {};
@@ -210,6 +223,7 @@ void infer(long_uint_stream &infer_input, long_uint_stream &infer_output)
 	static fixed cnn_output[output_dim1] = {};
 
 	// Partition arrays
+#pragma HLS array_partition variable=cnn_input_flat cyclic factor=2
 //#pragma HLS array_partition variable=cnn_input complete dim=3
 //#pragma HLS array_partition variable=cnn_input cyclic factor=3 dim=2
 //#pragma HLS array_partition variable=cnn_input cyclic factor=3 dim=1
@@ -231,7 +245,6 @@ void infer(long_uint_stream &infer_input, long_uint_stream &infer_output)
     // Load image from stream to input array
 	// Rescale at the same time
 	long_uint_package input_package;
-	fixed *cnn_input_pointer = (fixed*)cnn_input;
     get_input1: for (sizetype i = 0; i < input_dim1*input_dim2*input_dim3; i += 4)
     {
 		infer_input.read(input_package);
@@ -240,12 +253,15 @@ void infer(long_uint_stream &infer_input, long_uint_stream &infer_output)
 		uint8_t pixel_3 = (input_package.data.to_int() & 0xFF00) >> 8;
 		uint8_t pixel_4 = (input_package.data.to_int() & 0xFF);
 
-		cnn_input_pointer[i] = (fixed)((float)pixel_1 / 255.0);
-		cnn_input_pointer[i+1] = (fixed)((float)pixel_2 / 255.0);
-		cnn_input_pointer[i+2] = (fixed)((float)pixel_3 / 255.0);
-		cnn_input_pointer[i+3] = (fixed)((float)pixel_4 / 255.0);
+		cnn_input_flat[i] = (fixed)((float)pixel_1 / 255.0);
+		cnn_input_flat[i+1] = (fixed)((float)pixel_2 / 255.0);
+		cnn_input_flat[i+2] = (fixed)((float)pixel_3 / 255.0);
+		cnn_input_flat[i+3] = (fixed)((float)pixel_4 / 255.0);
     }
     
+    // Change 1d array to 3d
+    array_1d_to_3d(cnn_input_flat, cnn_input);
+
     // Layer 1 rescaling
     // Already done in image load
 

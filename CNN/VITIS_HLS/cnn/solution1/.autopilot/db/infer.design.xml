@@ -5,10 +5,10 @@
 <ModuleName>infer</ModuleName>
 <InstancesList>
 <Instance>
-<InstName>grp_exp_40_32_s_fu_29798</InstName>
+<InstName>grp_exp_40_32_s_fu_29912</InstName>
 <ModuleName>exp_40_32_s</ModuleName>
 <IsCompInst>true</IsCompInst>
-<ID>29798</ID>
+<ID>29912</ID>
 </Instance>
 </InstancesList>
 </TopModule>
@@ -155,13 +155,13 @@
 <EstimatedClockPeriod>7.288</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
-<Best-caseLatency>680480</Best-caseLatency>
-<Average-caseLatency>680480</Average-caseLatency>
-<Worst-caseLatency>680480</Worst-caseLatency>
-<Best-caseRealTimeLatency>6.805 ms</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>6.805 ms</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>6.805 ms</Worst-caseRealTimeLatency>
-<PipelineInitiationInterval>680481</PipelineInitiationInterval>
+<Best-caseLatency>687801</Best-caseLatency>
+<Average-caseLatency>687801</Average-caseLatency>
+<Worst-caseLatency>687801</Worst-caseLatency>
+<Best-caseRealTimeLatency>6.878 ms</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>6.878 ms</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>6.878 ms</Worst-caseRealTimeLatency>
+<PipelineInitiationInterval>687802</PipelineInitiationInterval>
 <PipelineType>none</PipelineType>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
@@ -173,6 +173,22 @@
 <PipelineII>1</PipelineII>
 <PipelineDepth>31</PipelineDepth>
 </get_input1>
+<VITIS_LOOP_125_1>
+<Name>VITIS_LOOP_125_1</Name>
+<TripCount>60</TripCount>
+<Latency>7320</Latency>
+<AbsoluteTimeLatency>73.200 us</AbsoluteTimeLatency>
+<IterationLatency>122</IterationLatency>
+<PipelineDepth>122</PipelineDepth>
+<VITIS_LOOP_126_2>
+<Name>VITIS_LOOP_126_2</Name>
+<TripCount>60</TripCount>
+<Latency>120</Latency>
+<AbsoluteTimeLatency>1.200 us</AbsoluteTimeLatency>
+<IterationLatency>2</IterationLatency>
+<PipelineDepth>2</PipelineDepth>
+</VITIS_LOOP_126_2>
+</VITIS_LOOP_125_1>
 <conv2d1_conv2d2>
 <Name>conv2d1_conv2d2</Name>
 <TripCount>3364</TripCount>
@@ -369,18 +385,18 @@
 </PerformanceEstimates>
 <AreaEstimates>
 <Resources>
-<BRAM_18K>337</BRAM_18K>
+<BRAM_18K>343</BRAM_18K>
 <AVAIL_BRAM>432</AVAIL_BRAM>
-<UTIL_BRAM>78</UTIL_BRAM>
+<UTIL_BRAM>79</UTIL_BRAM>
 <DSP>237</DSP>
 <AVAIL_DSP>360</AVAIL_DSP>
 <UTIL_DSP>65</UTIL_DSP>
-<FF>23926</FF>
+<FF>24618</FF>
 <AVAIL_FF>141120</AVAIL_FF>
-<UTIL_FF>16</UTIL_FF>
-<LUT>20931</LUT>
+<UTIL_FF>17</UTIL_FF>
+<LUT>22944</LUT>
 <AVAIL_LUT>70560</AVAIL_LUT>
-<UTIL_LUT>29</UTIL_LUT>
+<UTIL_LUT>32</UTIL_LUT>
 <URAM>0</URAM>
 <AVAIL_URAM>0</AVAIL_URAM>
 <UTIL_URAM>0</UTIL_URAM>

@@ -7,7 +7,7 @@ use ieee.std_logic_1164.all;
 
 entity infer_fpext_32ns_64_2_no_dsp_1 is
     generic (
-        ID         : integer := 7;
+        ID         : integer := 10;
         NUM_STAGE  : integer := 2;
         din0_WIDTH : integer := 32;
         dout_WIDTH : integer := 64

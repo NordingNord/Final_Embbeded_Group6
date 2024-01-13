@@ -82687,6 +82687,9 @@ void max_pooling2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
 template <const sizetype size_1, const sizetype size_2, const sizetype size_3>
 void array_3d_to_1d(fixed (&array)[size_1][size_2][size_3], fixed (&output)[size_1*size_2*size_3]);
 
+template <const sizetype size_1, const sizetype size_2, const sizetype size_3>
+void array_1d_to_3d(fixed (&array)[size_1*size_2*size_3], fixed (&output)[size_1][size_2][size_3]);
+
 template <const sizetype input_size,
             const sizetype weights_size_1, const sizetype weights_size_2,
             const sizetype bias_size,
@@ -82830,6 +82833,18 @@ void array_3d_to_1d(fixed (&array)[size_1][size_2][size_3], fixed (&output)[size
 
 
 
+template <const sizetype size_1, const sizetype size_2, const sizetype size_3>
+void array_1d_to_3d(fixed (&array)[size_1*size_2*size_3], fixed (&output)[size_1][size_2][size_3])
+{
+ VITIS_LOOP_125_1: for (sizetype i = 0; i < size_1; i++)
+  VITIS_LOOP_126_2: for (sizetype ii = 0; ii < size_2; ii++)
+   VITIS_LOOP_127_3: for (sizetype iii = 0; iii < size_3; iii++)
+    output[i][ii][iii] = array[i*size_2*size_3 + ii*size_3 + iii];
+}
+
+
+
+
 
 template <const sizetype input_size,
             const sizetype weights_size_1, const sizetype weights_size_2,
@@ -82902,7 +82917,7 @@ void softmax(fixed (&array)[size])
 __attribute__((sdx_kernel("infer", 0))) void infer(long_uint_stream &infer_input, long_uint_stream &infer_output)
 {
 #pragma HLS TOP name=infer
-# 192 "../src/hls/cnn.cpp"
+# 204 "../src/hls/cnn.cpp"
 
 
 #pragma HLS INTERFACE axis port=infer_input
@@ -82910,6 +82925,7 @@ __attribute__((sdx_kernel("infer", 0))) void infer(long_uint_stream &infer_input
 #pragma HLS INTERFACE s_axilite port=return
 
 
+ static fixed cnn_input_flat[60*60*1] = {};
  static fixed cnn_input[60][60][1] = {};
  static fixed layer_2_out[58][58][32] = {};
  static fixed layer_3_out[29][29][32] = {};
@@ -82924,6 +82940,7 @@ __attribute__((sdx_kernel("infer", 0))) void infer(long_uint_stream &infer_input
  static fixed cnn_output[4] = {};
 
 
+#pragma HLS array_partition variable=cnn_input_flat cyclic factor=2
 
 
 
@@ -82933,9 +82950,8 @@ __attribute__((sdx_kernel("infer", 0))) void infer(long_uint_stream &infer_input
 #pragma HLS array_partition variable=layer_2_out cyclic factor=2 dim=1
 #pragma HLS array_partition variable=layer_4_out cyclic factor=2 dim=1
 #pragma HLS array_partition variable=layer_6_out cyclic factor=2 dim=1
-# 233 "../src/hls/cnn.cpp"
+# 247 "../src/hls/cnn.cpp"
  long_uint_package input_package;
- fixed *cnn_input_pointer = (fixed*)cnn_input;
     get_input1: for (sizetype i = 0; i < 60*60*1; i += 4)
     {
   infer_input.read(input_package);
@@ -82944,11 +82960,14 @@ __attribute__((sdx_kernel("infer", 0))) void infer(long_uint_stream &infer_input
   uint8_t pixel_3 = (input_package.data.to_int() & 0xFF00) >> 8;
   uint8_t pixel_4 = (input_package.data.to_int() & 0xFF);
 
-  cnn_input_pointer[i] = (fixed)((float)pixel_1 / 255.0);
-  cnn_input_pointer[i+1] = (fixed)((float)pixel_2 / 255.0);
-  cnn_input_pointer[i+2] = (fixed)((float)pixel_3 / 255.0);
-  cnn_input_pointer[i+3] = (fixed)((float)pixel_4 / 255.0);
+  cnn_input_flat[i] = (fixed)((float)pixel_1 / 255.0);
+  cnn_input_flat[i+1] = (fixed)((float)pixel_2 / 255.0);
+  cnn_input_flat[i+2] = (fixed)((float)pixel_3 / 255.0);
+  cnn_input_flat[i+3] = (fixed)((float)pixel_4 / 255.0);
     }
+
+
+    array_1d_to_3d(cnn_input_flat, cnn_input);
 
 
 

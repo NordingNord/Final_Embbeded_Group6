@@ -59,8 +59,9 @@ extern void xil_printf(const char *format, ...);
 #endif
 
 int TestInfer(u16 DMADeviceId, u16 InferDeviceId);
-int inserImage();
-int checkResult();
+int doTestIteration(int* image_array, float* prediction_array);
+int inserImage(int* image_array);
+int checkResult(float* prediction_array);
 
 /************************** Variable Definitions *****************************/
 /*
@@ -190,19 +191,50 @@ int TestInfer(u16 DMADeviceId, u16 InferDeviceId)
 	xil_printf("\r\n--- Disabled interrupts --- \r\n");
 
 
-/*
-	int *image_pointer = (int*)test_image5;
-	for (int i = 0; i < INPUT_SIZE_BYTE; i++)
-	{
-		TxBufferPtr[i] = image_pointer[i];
-		//xil_printf("Send data: %u  \r\n", TxBufferPtr[i]);
-	}*/
+
+
 
 	Xil_DCacheFlushRange((UINTPTR)TxBufferPtr, INPUT_SIZE_BYTE);
 	Xil_DCacheFlushRange((UINTPTR)RxBufferPtr, OUTPUT_SIZE_BYTE);
 	xil_printf("\r\n--- Flushed buffers --- \r\n");
 
-	Status = inserImage();
+	/*
+	 * Do the actual test a couple times to verify
+	 */
+	Status = doTestIteration((int*)test_image8, prediction8);
+	if (Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+	Status = doTestIteration((int*)test_image2, prediction2);
+	if (Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+	Status = doTestIteration((int*)test_image9, prediction9);
+	if (Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+	Status = doTestIteration((int*)test_image0, prediction0);
+	if (Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+
+	return XST_SUCCESS;
+}
+
+/*
+ * Do an iteration of testing
+ *
+ * @return
+ *		- XST_SUCCESS if insertion finishes successfully
+ *		- XST_FAILURE if error occurs
+ */
+int doTestIteration(int* image_array, float* prediction_array)
+{
+	int Status;
+	u8* TxBufferPtr = (u8 *)TX_BUFFER_BASE;
+	u8* RxBufferPtr = (u8 *)RX_BUFFER_BASE;
+
+	Status = inserImage(image_array);
 	if (Status != XST_SUCCESS) {
 		xil_printf("Insertion of image failed %d\r\n", Status);
 		return XST_FAILURE;
@@ -213,96 +245,64 @@ int TestInfer(u16 DMADeviceId, u16 InferDeviceId)
 	 * is enabled
 	 */
 
+	Xil_DCacheFlushRange((UINTPTR)TxBufferPtr, INPUT_SIZE_BYTE);
+	Xil_DCacheFlushRange((UINTPTR)RxBufferPtr, OUTPUT_SIZE_BYTE);
+	xil_printf("\r\n--- Flushed buffers --- \r\n");
 
+	XInfer_Start(&InferInstance);
+	xil_printf("\r\n--- Started Infer --- \r\n");
 
+	Status = XAxiDma_SimpleTransfer(&AxiDma,(UINTPTR) TxBufferPtr,
+			INPUT_SIZE_BYTE, XAXIDMA_DMA_TO_DEVICE);
 
-	for (int k = 0; k < 2; k++)
-	{
-
-
-
-		XInfer_Start(&InferInstance);
-		xil_printf("\r\n--- Started Infer --- \r\n");
-
-		/*
-		for (int i = 0; i < INPUT_SIZE_BYTE; i += 60)
-		{
-			xil_printf("Send data: %u  \r\n", TxBufferPtr[i]);
-		}*/
-
-		Status = XAxiDma_SimpleTransfer(&AxiDma,(UINTPTR) TxBufferPtr,
-				INPUT_SIZE_BYTE, XAXIDMA_DMA_TO_DEVICE);
-
-		if (Status != XST_SUCCESS) {
-			return XST_FAILURE;
-		}
-		else {
-			xil_printf("\r\n--- XAxiDma_SimpleTransfer TxBufferPtr Success --- \r\n");
-		}
-
-		while (XAxiDma_Busy(&AxiDma,XAXIDMA_DMA_TO_DEVICE)) {
-			/* Wait */
-		}
-		xil_printf("\r\n--- DMA_TO_DEVICE done --- \r\n");
-
-		while (XInfer_IsDone(&InferInstance) == 0) {
-			/* Wait */
-		}
-		xil_printf("\r\n--- Infer Done --- \r\n");
-
-		for (int i = 0; i < INPUT_SIZE_BYTE/120; i++)
-		{
-			xil_printf("Send data: %u  \r\n", TxBufferPtr[i]);
-		}
-
-		Status = XAxiDma_SimpleTransfer(&AxiDma,(UINTPTR) RxBufferPtr,
-				OUTPUT_SIZE_BYTE, XAXIDMA_DEVICE_TO_DMA);
-
-		if (Status != XST_SUCCESS) {
-			return XST_FAILURE;
-		}
-		else {
-			xil_printf("\r\n--- XAxiDma_SimpleTransfer RxBufferPtr Success --- \r\n");
-		}
-
-
-
-
-
-
-
-		/*
-		for (int i = 0; i < INPUT_SIZE_BYTE; i += 60)
-		{
-			xil_printf("Send data: %u  \r\n", TxBufferPtr[i]);
-		}*/
-
-
-		/*
-		for (int i = 0; i < INPUT_SIZE_BYTE; i += 60)
-		{
-			xil_printf("Send data: %u  \r\n", TxBufferPtr[i]);
-		}*/
-
-
-
-		while (XAxiDma_Busy(&AxiDma,XAXIDMA_DEVICE_TO_DMA)) {
-			xil_printf("\r\n--- IM STUCK. HELP --- \r\n");
-		}
-		xil_printf("\r\n--- DEVICE_TO_DMA done --- \r\n");
-
-		Status = checkResult();
-		if (Status != XST_SUCCESS) {
-			return XST_FAILURE;
-		}
-		else {
-			xil_printf("\r\n--- Success try --- \r\n");
-		}
+	if (Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+	else {
+		xil_printf("\r\n--- XAxiDma_SimpleTransfer TxBufferPtr Success --- \r\n");
 	}
 
+	while (XAxiDma_Busy(&AxiDma,XAXIDMA_DMA_TO_DEVICE)) {
+		/* Wait */
+	}
+	xil_printf("\r\n--- DMA_TO_DEVICE done --- \r\n");
+
+	while (XInfer_IsDone(&InferInstance) == 0) {
+		/* Wait */
+	}
+	xil_printf("\r\n--- Infer Done --- \r\n");
+
+	/*
+	for (int i = 0; i < INPUT_SIZE_BYTE/120; i++)
+	{
+		xil_printf("Send data: %u  \r\n", TxBufferPtr[i]);
+	}*/
+
+	Status = XAxiDma_SimpleTransfer(&AxiDma,(UINTPTR) RxBufferPtr,
+			OUTPUT_SIZE_BYTE, XAXIDMA_DEVICE_TO_DMA);
+
+	if (Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+	else {
+		xil_printf("\r\n--- XAxiDma_SimpleTransfer RxBufferPtr Success --- \r\n");
+	}
+
+	while (XAxiDma_Busy(&AxiDma,XAXIDMA_DEVICE_TO_DMA)) {
+		xil_printf("\r\n--- IM STUCK. HELP --- \r\n");
+	}
+	xil_printf("\r\n--- DEVICE_TO_DMA done --- \r\n");
+
+	Status = checkResult(prediction_array);
+	if (Status != XST_SUCCESS) {
+		xil_printf("\r\n--- Failed try --- \r\n");
+		return XST_FAILURE;
+	}
+	else {
+		xil_printf("\r\n--- Success try --- \r\n");
+	}
 	return XST_SUCCESS;
 }
-
 
 /*
  * Insert image in TXBuffer
@@ -311,14 +311,14 @@ int TestInfer(u16 DMADeviceId, u16 InferDeviceId)
  *		- XST_SUCCESS if insertion finishes successfully
  *		- XST_FAILURE if error occurs
  */
-int inserImage()
+int inserImage(int* image_array)
 {
 	u8 *TxBufferPtr;
 	TxBufferPtr = (u8 *)TX_BUFFER_BASE;
-	int *image_pointer = (int*)test_image5;
+	int *image_pointer = image_array;
 	for (int i = 0; i < INPUT_SIZE_BYTE; i++)
 	{
-		TxBufferPtr[i] = (uint8_t)image_pointer[i];
+		TxBufferPtr[i] = image_pointer[i];
 		//xil_printf("Send data: %u  \r\n", TxBufferPtr[i]);
 	}
 	return XST_SUCCESS;
@@ -332,75 +332,49 @@ int inserImage()
  *		- XST_FAILURE if result wrong
  */
 
-int checkResult()
+int checkResult(float* prediction_array)
 {
+	xil_printf("\r\n--- Checking results --- \r\n");
 	uint32_t* Rx32Ptr = (uint32_t*) RX_BUFFER_BASE;
 
 	Xil_DCacheInvalidateRange((UINTPTR)Rx32Ptr, OUTPUT_SIZE_BYTE);
 
+	float *prediction_pointer = prediction_array;
 	union float_uint value;
+	float max_result = 0;
+	int result_type = 0;
+	int prediction_type = 0;
 	for (int i = 0; i < OUTPUT_SIZE_BYTE/4; i++)
 	{
+		// Get result and expected value and convert to xil_printf-able number
 		value.uint_val = Rx32Ptr[i];
 		float fval = value.float_val;
 		int whole, thousandths;
 		whole = fval;
 		thousandths = (fval - whole) * 1000;
-		xil_printf("\r\n--- RxBufferPtr(32bit) [%d]=%d.%03d --- \r\n",i,whole, thousandths);
-		fval = prediction5[i];
-		whole = fval;
-		thousandths = (fval - whole) * 1000;
-		xil_printf("\r\n--- prediction0 [%d]=%d.%03d --- \r\n",i,whole, thousandths);
-	}
-	return XST_SUCCESS;
-
-	/*union float_uint results[OUTPUT_SIZE_BYTE/4];
-	uint32_t* RxBufferPtr_UINT32 = (uint32_t*)RxBufferPtr;
-	float* prediction_array = prediction3;
-
-	// Check results
-	u8 result_same = 1;
-	u8 type_same = 1;
-	int result_type = 0;
-	int prediction_type = 0;
-	for (int i = 0; i < OUTPUT_SIZE_BYTE/4; i++)
-	{
-		results[i].uint_val = RxBufferPtr_UINT32[i];
-		xil_printf("\r\n%f	| should be: %f 	| diff:	%f\r\n", results[i].float_val, prediction_array[i], results[i].float_val-prediction_array[i]);
-		if ((int)(prediction_array[i]*10000) != (int)(results[i].float_val*10000))
-		{
-			result_same = 0;
-		}
-		if (results[i].float_val > results[result_type].float_val)
+		float fval2 = prediction_pointer[i];
+		int whole2 = fval2;
+		int thousandths2 = (fval2 - whole2) * 1000;
+		xil_printf("\rRxBufferPtr(32bit) [%d]=%d.%03d | expected [%d]=%d.%03d\r\n",i,whole, thousandths,i,whole2,thousandths2);
+		if (value.float_val > max_result)
 		{
 			result_type = i;
+			max_result = value.float_val;
 		}
-		if (prediction_array[i] > prediction_array[prediction_type])
+		if (prediction_pointer[i] > prediction_pointer[prediction_type])
 		{
 			prediction_type = i;
 		}
-	}
 
-	xil_printf("\r\ntype: %d	| should be: %d\r\n", result_type, prediction_type);
+	}
+	xil_printf("type: %d	| should be: %d\n", result_type, prediction_type);
 	if (result_type != prediction_type)
 	{
-		type_same = 0;
-	}
-
-
-
-	// Show results
-	if (result_same && type_same)
-		xil_printf("\r\nResults and type are correct!\r\n");
-	else if (type_same) {
-		xil_printf("\r\nType is correct!\r\n");
+		return XST_FAILURE;
 	}
 	else
 	{
-		xil_printf("\r######\n");
-		xil_printf("\r######Wrong, check layers are written correctly######\n");
-		xil_printf("\r######\n");
-		return XST_FAILURE;
+		xil_printf("Type is correct!\n");
 	}
-	return XST_SUCCESS;*/
+	return XST_SUCCESS;
 }

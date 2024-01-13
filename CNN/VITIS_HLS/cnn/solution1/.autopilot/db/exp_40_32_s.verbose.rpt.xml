@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'exp_40_32_s'" level="0">
-<item name = "Date">Sat Jan 13 01:42:30 2024
+<item name = "Date">Sat Jan 13 12:15:37 2024
 </item>
 <item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)</item>
 <item name = "Project">cnn</item>
@@ -88,7 +88,7 @@
 <column name="icmp_ln1498_fu_158_p2">icmp, 0, 0, 10, 6, 5</column>
 <column name="or_ln571_fu_303_p2">or, 0, 0, 2, 1, 1</column>
 <column name="ap_return">select, 0, 0, 39, 1, 2</column>
-<column name="p_Val2_6_fu_308_p3">select, 0, 0, 56, 1, 64</column>
+<column name="p_Val2_9_fu_308_p3">select, 0, 0, 56, 1, 64</column>
 <column name="select_ln414_fu_277_p3">select, 0, 0, 2, 1, 2</column>
 <column name="ap_enable_pp0">xor, 0, 0, 2, 1, 2</column>
 <column name="xor_ln849_fu_272_p2">xor, 0, 0, 2, 1, 2</column>
@@ -111,8 +111,8 @@
 <column name="icmp_ln1498_reg_352">1, 0, 1, 0</column>
 <column name="p_Result_s_reg_342">1, 0, 1, 0</column>
 <column name="ret_V_reg_377">9, 0, 9, 0</column>
-<column name="tmp_160_reg_393">67, 0, 67, 0</column>
-<column name="tmp_162_reg_362">6, 0, 8, 2</column>
+<column name="tmp_164_reg_393">67, 0, 67, 0</column>
+<column name="tmp_166_reg_362">6, 0, 8, 2</column>
 <column name="trunc_ln640_1_reg_382">58, 0, 58, 0</column>
 <column name="icmp_ln1494_reg_347">64, 32, 1, 0</column>
 <column name="icmp_ln1496_reg_357">64, 32, 1, 0</column>

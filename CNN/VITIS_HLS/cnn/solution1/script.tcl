@@ -5,12 +5,12 @@
 ############################################################
 open_project cnn
 set_top infer
-add_files ../src/hls/types.hpp
-add_files ../src/hls/layerInfo.hpp
-add_files ../src/hls/cnn.hpp
 add_files ../src/hls/cnn.cpp
-add_files -tb ../src/hls/testImage.h -cflags "-Wno-unknown-pragmas" -csimflags "-Wno-unknown-pragmas"
+add_files ../src/hls/cnn.hpp
+add_files ../src/hls/layerInfo.hpp
+add_files ../src/hls/types.hpp
 add_files -tb ../src/hls/cnn_tb.cpp -cflags "-Wno-unknown-pragmas" -csimflags "-Wno-unknown-pragmas"
+add_files -tb ../src/hls/testImage.h -cflags "-Wno-unknown-pragmas" -csimflags "-Wno-unknown-pragmas"
 open_solution "solution1" -flow_target vivado
 set_part {xczu3eg-sbva484-1-e}
 create_clock -period 10 -name default

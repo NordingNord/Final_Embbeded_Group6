@@ -31,6 +31,9 @@ void max_pooling2d(fixed (&input)[input_size_1][input_size_2][input_size_3],
 template <const sizetype size_1, const sizetype size_2, const sizetype size_3>
 void array_3d_to_1d(fixed (&array)[size_1][size_2][size_3], fixed (&output)[size_1*size_2*size_3]);
 
+template <const sizetype size_1, const sizetype size_2, const sizetype size_3>
+void array_1d_to_3d(fixed (&array)[size_1*size_2*size_3], fixed (&output)[size_1][size_2][size_3]);
+
 template <const sizetype input_size,
             const sizetype weights_size_1, const sizetype weights_size_2,
             const sizetype bias_size,

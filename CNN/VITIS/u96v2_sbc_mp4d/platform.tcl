@@ -44,3 +44,6 @@ bsp reload
 bsp reload
 platform config -updatehw {/home/frank/Documents/Git/Final_Embbeded_Group6/hdl/projects/u96v2_sbc_mp4d_2020_2/u96v2_sbc_mp4d.xsa}
 platform generate -domains 
+platform active {u96v2_sbc_mp4d}
+platform config -updatehw {/home/frank/Documents/Git/Final_Embbeded_Group6/hdl/projects/u96v2_sbc_mp4d_2020_2/u96v2_sbc_mp4d.xsa}
+platform generate -domains 

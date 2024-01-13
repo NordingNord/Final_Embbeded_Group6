@@ -64,7 +64,7 @@
     "Uncertainty": "2.7",
     "IsCombinational": "0",
     "II": "x",
-    "Latency": "680480"
+    "Latency": "687801"
   },
   "Xdc": {"OocClocks": ["create_clock -name ap_clk -period 10.000 [get_ports ap_clk]"]},
   "Ipx": {
@@ -82,6 +82,7 @@
   "Files": {
     "CSource": ["..\/..\/..\/src\/hls\/cnn.cpp"],
     "Vhdl": [
+      "impl\/vhdl\/infer_cnn_input_flat_V_0.vhd",
       "impl\/vhdl\/infer_cnn_input_V_0.vhd",
       "impl\/vhdl\/infer_control_s_axi.vhd",
       "impl\/vhdl\/infer_ddiv_64ns_64ns_64_22_no_dsp_1.vhd",
@@ -326,6 +327,8 @@
       "impl\/vhdl\/infer.vhd"
     ],
     "Verilog": [
+      "impl\/verilog\/infer_cnn_input_flat_V_0.v",
+      "impl\/verilog\/infer_cnn_input_flat_V_0_ram.dat",
       "impl\/verilog\/infer_cnn_input_V_0.v",
       "impl\/verilog\/infer_cnn_input_V_0_ram.dat",
       "impl\/verilog\/infer_control_s_axi.v",
@@ -1254,7 +1257,7 @@
       "ModuleName": "infer",
       "Instances": [{
           "ModuleName": "exp_40_32_s",
-          "InstanceName": "grp_exp_40_32_s_fu_29798"
+          "InstanceName": "grp_exp_40_32_s_fu_29912"
         }]
     },
     "Info": {
@@ -1308,10 +1311,10 @@
       },
       "infer": {
         "Latency": {
-          "LatencyBest": "680480",
-          "LatencyAvg": "680480",
-          "LatencyWorst": "680480",
-          "PipelineII": "680481",
+          "LatencyBest": "687801",
+          "LatencyAvg": "687801",
+          "LatencyWorst": "687801",
+          "PipelineII": "687802",
           "PipelineDepth": "",
           "PipelineType": "none"
         },
@@ -1327,6 +1330,20 @@
             "Latency": "929",
             "PipelineII": "1",
             "PipelineDepth": "31"
+          },
+          {
+            "Name": "VITIS_LOOP_125_1",
+            "TripCount": "60",
+            "Latency": "7320",
+            "PipelineII": "",
+            "PipelineDepth": "122",
+            "Loops": [{
+                "Name": "VITIS_LOOP_126_2",
+                "TripCount": "60",
+                "Latency": "120",
+                "PipelineII": "",
+                "PipelineDepth": "2"
+              }]
           },
           {
             "Name": "conv2d1_conv2d2",
@@ -1504,18 +1521,18 @@
           }
         ],
         "Area": {
-          "BRAM_18K": "337",
+          "BRAM_18K": "343",
           "AVAIL_BRAM": "432",
-          "UTIL_BRAM": "78",
+          "UTIL_BRAM": "79",
           "DSP": "237",
           "AVAIL_DSP": "360",
           "UTIL_DSP": "65",
-          "FF": "23926",
+          "FF": "24618",
           "AVAIL_FF": "141120",
-          "UTIL_FF": "16",
-          "LUT": "20931",
+          "UTIL_FF": "17",
+          "LUT": "22944",
           "AVAIL_LUT": "70560",
-          "UTIL_LUT": "29",
+          "UTIL_LUT": "32",
           "URAM": "0",
           "AVAIL_URAM": "0",
           "UTIL_URAM": "0"
@@ -1526,7 +1543,7 @@
   "GenerateBdFiles": "1",
   "GenData": {
     "DataVersion": "0.2",
-    "Time": "2024-01-13 01:44:32 CET",
+    "Time": "2024-01-13 12:17:22 CET",
     "ToolName": "vivado_hls",
     "ToolVersion": "2020.2"
   }

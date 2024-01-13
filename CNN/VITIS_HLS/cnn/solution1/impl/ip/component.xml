@@ -725,7 +725,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>f42c3c97</spirit:value>
+            <spirit:value>601453c2</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -744,7 +744,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>da615e44</spirit:value>
+            <spirit:value>221266de</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -763,7 +763,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>b76f2fd2</spirit:value>
+            <spirit:value>47bf26ec</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -782,7 +782,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>80b92573</spirit:value>
+            <spirit:value>0ce3753b</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1493,6 +1493,14 @@
         <spirit:name>constraints/infer_ooc.xdc</spirit:name>
         <spirit:userFileType>xdc</spirit:userFileType>
         <spirit:userFileType>USED_IN_out_of_context</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/infer_cnn_input_flat_V_0.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/infer_cnn_input_flat_V_0_ram.dat</spirit:name>
+        <spirit:userFileType>mif</spirit:userFileType>
       </spirit:file>
       <spirit:file>
         <spirit:name>hdl/verilog/infer_cnn_input_V_0.v</spirit:name>
@@ -3327,6 +3335,15 @@
     </spirit:fileSet>
     <spirit:fileSet>
       <spirit:name>xilinx_verilogbehavioralsimulation_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>hdl/verilog/infer_cnn_input_flat_V_0.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/infer_cnn_input_flat_V_0_ram.dat</spirit:name>
+        <spirit:userFileType>mif</spirit:userFileType>
+      </spirit:file>
       <spirit:file>
         <spirit:name>hdl/verilog/infer_cnn_input_V_0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
@@ -5435,6 +5452,10 @@
         <spirit:userFileType>USED_IN_out_of_context</spirit:userFileType>
       </spirit:file>
       <spirit:file>
+        <spirit:name>hdl/vhdl/infer_cnn_input_flat_V_0.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
         <spirit:name>hdl/vhdl/infer_cnn_input_V_0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
@@ -6401,7 +6422,7 @@
       <spirit:file>
         <spirit:name>hdl/vhdl/infer.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_007af91a</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_6ee662bb</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
@@ -6416,6 +6437,11 @@
     </spirit:fileSet>
     <spirit:fileSet>
       <spirit:name>xilinx_vhdlbehavioralsimulation_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/infer_cnn_input_flat_V_0.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
       <spirit:file>
         <spirit:name>hdl/vhdl/infer_cnn_input_V_0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
@@ -7746,7 +7772,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>latency</spirit:name>
-      <spirit:value spirit:id="PARAM_VALUE.latency" spirit:order="5">680480</spirit:value>
+      <spirit:value spirit:id="PARAM_VALUE.latency" spirit:order="5">687801</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>II</spirit:name>
@@ -7763,8 +7789,8 @@
       </xilinx:taxonomies>
       <xilinx:displayName>ScrewClassifierCNN</xilinx:displayName>
       <xilinx:definitionSource>HLS</xilinx:definitionSource>
-      <xilinx:coreRevision>2113380944</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2024-01-13T00:45:13Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>2113381577</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2024-01-13T11:17:56Z</xilinx:coreCreationDateTime>
       <xilinx:sdxKernelAttributes>
         <xilinx:sdx_kernel>true</xilinx:sdx_kernel>
         <xilinx:sdx_kernel_type>hls</xilinx:sdx_kernel_type>
@@ -7774,10 +7800,10 @@
       <xilinx:xilinxVersion>2020.2</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="b0113fa8"/>
       <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="f2df1fcd"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="113ad479"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="e62f3fe2"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="dd941675"/>
       <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="23754c13"/>
-      <xilinx:checksum xilinx:scope="parameters" xilinx:value="80e999a2"/>
+      <xilinx:checksum xilinx:scope="parameters" xilinx:value="8e4e9f51"/>
     </xilinx:packagingInfo>
   </spirit:vendorExtensions>
 </spirit:component>

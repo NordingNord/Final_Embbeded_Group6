@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'infer'" level="0">
-<item name = "Date">Sat Jan 13 01:42:16 2024
+<item name = "Date">Sat Jan 13 12:15:25 2024
 </item>
 <item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)</item>
 <item name = "Project">cnn</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">680480, 680480, 6.805 ms, 6.805 ms, 680481, 680481, none</column>
+<column name="">687801, 687801, 6.878 ms, 6.878 ms, 687802, 687802, none</column>
 </table>
 </item>
 <item name = "Detail">
@@ -36,6 +36,8 @@
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
 <column name="- get_input1">929, 929, 31, 1, 1, 900, yes</column>
+<column name="- VITIS_LOOP_125_1">7320, 7320, 122, -, -, 60, no</column>
+<column name=" + VITIS_LOOP_126_2">120, 120, 2, -, -, 60, no</column>
 <column name="- conv2d1_conv2d2">282576, 282576, 84, -, -, 3364, no</column>
 <column name=" + conv2d3_1">33, 33, 2, 1, 1, 32, yes</column>
 <column name=" + conv2d4_conv2d5">12, 12, 5, 1, 1, 9, yes</column>
