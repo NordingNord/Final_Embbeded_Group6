@@ -24,10 +24,6 @@
 
 // Custom IP map to UIO
 
-&axi_dma_0 {
-	compatible = "generic-uio";
-};
-
 &infer_0 {
 	compatible = "generic-uio";
 };
