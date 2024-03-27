@@ -157,6 +157,38 @@
                         					
                     </folderInfo>
                     					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.966908792.1480805175" name="cnn_axilite_tb.cpp" rcbsApplicability="disable" resourcePath="testbench/cnn_axilite_tb.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1862117735.2059820552">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1862117735.2059820552" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1862117735">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.1526361730" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.977965518" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2020.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2020.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2020.2/lnx64/tools/auto_cc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2020.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2020.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS_AXILITE"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.1158833503" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-Wno-unknown-pragmas -c -fmessage-length=0" valueType="string"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1554578790" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.966908792.2135979398" name="testImage.h" rcbsApplicability="disable" resourcePath="testbench/testImage.h" toolsToInvoke=""/>
+                    					
                     <sourceEntries>
                         						
                         <entry excluding=".apc|.settings|solution1|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
@@ -304,6 +336,38 @@
                         </toolChain>
                         					
                     </folderInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.30816814.943386579" name="cnn_axilite_tb.cpp" rcbsApplicability="disable" resourcePath="testbench/cnn_axilite_tb.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.193702976.1393679472">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.193702976.1393679472" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.193702976">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.142697246" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.1591452044" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2020.2/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2020.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2020.2/lnx64/tools/auto_cc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2020.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2020.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS_AXILITE"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.112312586" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-Wno-unknown-pragmas -c -fmessage-length=0" valueType="string"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.2109868201" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.30816814.534391645" name="testImage.h" rcbsApplicability="disable" resourcePath="testbench/testImage.h" toolsToInvoke=""/>
                     					
                     <sourceEntries>
                         						

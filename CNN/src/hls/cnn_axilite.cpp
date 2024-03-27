@@ -1,4 +1,4 @@
-#include "cnn.hpp"
+#include "cnn_axilite.hpp"
 
 /*
 *   Set value to 0 if negative

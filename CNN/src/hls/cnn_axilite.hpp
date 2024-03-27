@@ -55,6 +55,6 @@ void dense(fixed (&input)[input_size],
 template <const sizetype size>
 void softmax(fixed (&array)[size]);
 
-void infer(long_uint_stream &infer_input, long_uint_stream &infer_output);
+int infer(int in[3600]);
 
 #endif

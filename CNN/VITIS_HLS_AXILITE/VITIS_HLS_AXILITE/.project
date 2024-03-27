@@ -42,14 +42,14 @@
 			<location>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/VITIS_HLS_AXILITE/VITIS_HLS_AXILITE/solution1/.tcls</location>
 		</link>
 		<link>
-			<name>source/cnn.hpp</name>
-			<type>1</type>
-			<location>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/cnn.hpp</location>
-		</link>
-		<link>
 			<name>source/cnn_axilite.cpp</name>
 			<type>1</type>
 			<location>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/cnn_axilite.cpp</location>
+		</link>
+		<link>
+			<name>source/cnn_axilite.hpp</name>
+			<type>1</type>
+			<location>/home/frank/Documents/Git/Final_Embbeded_Group6/CNN/src/hls/cnn_axilite.hpp</location>
 		</link>
 		<link>
 			<name>source/layerInfo.hpp</name>
